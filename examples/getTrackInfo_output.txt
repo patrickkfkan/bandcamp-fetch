@@ -1,0 +1,13 @@
+{ type: 'track',
+  name: 'T\'es belle',
+  url: 'https://musique.coeurdepirate.com/track/tes-belle',
+  imageUrl: 'https://f4.bcbits.com/img/a774650359_16.jpg',
+  releaseDate: '01 Oct 2020 00:00:00 GMT',
+  duration: 176.373,
+  streamUrl: 'https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1611151469&t=d9b822c203cb56acfe548e2a54be7e4c03acdb46&token=1611151469_e03428ec2305b2551717b7e4b08b490f5fcca355',
+  artist: 
+   { name: 'Cœur de pirate',
+     url: 'https://musique.coeurdepirate.com',
+     description: 'Cœur de Pirate is the solo project of singer Béatrice Martin. She has been playing piano since age 3 and released her acclaimed debut album in 2008. After touring extensively, she was nominated for and won several awards in Canada and France.\n\nLabel: Dare To Care Records \nmanagement@daretocarerecords.com',
+     imageUrl: 'https://f4.bcbits.com/img/0021821004_28.jpg' },
+  album: null }

@@ -1,0 +1,29 @@
+{
+  "name": "bandcamp-fetch",
+  "version": "0.1.0a-20210119",
+  "description": "JS library for scraping Bandcamp content",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickkfkan/bandcamp-fetch.git"
+  },
+  "keywords": [
+    "bandcamp",
+    "scrape",
+    "scraper",
+    "discover",
+    "album",
+    "track",
+    "artist"
+  ],
+  "author": "Patrick Kan",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "html-entities": "^2.0.2",
+    "node-fetch": "^2.6.1"
+  }
+}
