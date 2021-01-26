@@ -22,7 +22,7 @@ bcfetch.discover(...).then( results => {
 
 Each function returns a Promise which resolves to the fetched data.
 
-### discover([params], [options])
+### `discover([params], [options])`
 
 [**Example**](examples/discover.js) ([output](examples/discover_output.txt))
 
@@ -40,19 +40,29 @@ Fetches albums through Bandcamp Discover.
 
   All properties are optional. Possible values for each property can be obtained with the `getDiscoverOptions()` function.
 
+  `params` passed to this function will be sanitized with `sanitizeDiscoverParams()`. A copy of the sanitized params can obtained through the `params` property of the returned result.
+
 - `options` (optional) - object specifying options to be used when formulating results:
     - albumImageFormat: name, Id or object referring to an image format.
     - artistImageFormat
 
   All properties are optional. Image formats can be obtained with the `getImageFormats()` function.
 
-### getDiscoverOptions()
+### `getDiscoverOptions()`
 
 [**Example**](examples/getDiscoverOptions.js) ([output](examples/getDiscoverOptions_output.txt))
 
 Fetches Bandcamp Discover options that can be passed back to `discover()`.
 
-### getImageFormats([filter])
+### `sanitizeDiscoverParams(params)`
+
+[**Example**](examples/sanitizeDiscoverParams.js) ([output](examples/sanitizeDiscoverParams_output.txt))
+
+Sanitizes `params` by setting default values for omitted params and removing irrelevant ones.
+
+You don't have to call this function on params passed to `discover()` - they will be sanitized automatically.
+
+### `getImageFormats([filter])`
 
 [**Example**](examples/getImageFormats.js) ([output](examples/getImageFormats_output.txt))
 
@@ -60,11 +70,11 @@ Fetches the list of image formats used in Bandcamp.
 
 - `filter` (optional) - 'artist' or 'album'. If specified, narrows down the result to include only formats applicable to the specified value.
 
-### getImageFormat(idOrName)
+### `getImageFormat(idOrName)`
 
 Fetches the image format that matches Id or name. If none is found, the result will be `null`.
 
-### getArtistOrLabelInfo(artistOrLabelUrl, [options])
+### `getArtistOrLabelInfo(artistOrLabelUrl, [options])`
 
 [**Example**](examples/getArtistOrLabelInfo.js) ([output](examples/getArtistOrLabelInfo_output.txt))
 
@@ -74,7 +84,7 @@ Fetches information about an artist or label.
 - `options` (optional)
     - imageFormat
 
-### getLabelArtists(labelUrl, [options])
+### `getLabelArtists(labelUrl, [options])`
 
 [**Example**](examples/getLabelArtists.js) ([output](examples/getLabelArtists_output.txt))
 
@@ -84,7 +94,7 @@ Fetches the list of artists belonging to a label.
 - `options` (optional)
     - imageFormat
 
-### getDiscography(artistOrLabelUrl, [options])
+### `getDiscography(artistOrLabelUrl, [options])`
 
 [**Example**](examples/getDiscography.js) ([output](examples/getDiscography_output.txt))
 
@@ -94,7 +104,7 @@ Fetches the list of albums and standalone tracks belonging to an artist or label
 - `options` (optional)
     - imageFormat
 
-### getAlbumInfo(albumUrl, [options])
+### `getAlbumInfo(albumUrl, [options])`
 
 [**Example**](examples/getAlbumInfo.js) ([output](examples/getAlbumInfo_output.txt))
 
@@ -106,7 +116,7 @@ Fetches information about an album.
     - artistImageFormat
     - includeRawData
 
-### getTrackInfo(trackUrl, [options])
+### `getTrackInfo(trackUrl, [options])`
 
 [**Example**](examples/getTrackInfo.js) ([output](examples/getTrackInfo_output.txt))
 
@@ -118,7 +128,7 @@ Fetches information about a track.
     - artistImageFormat
     - includeRawData
 
-### getAlbumHighlightsByTag(tagUrl, [options])
+### `getAlbumHighlightsByTag(tagUrl, [options])`
 
 [**Example**](examples/getAlbumHighlightsByTag.js) ([output](examples/getAlbumHighlightsByTag_output.txt))
 
@@ -131,7 +141,7 @@ Fetches album highlights for the tag referred to by `tagUrl`. The result is an a
 - `options` (optional)
     - imageFormat
 
-### getTags()
+### `getTags()`
 
 [**Example**](examples/getTags.js) ([output](examples/getTags_output.txt))
 
@@ -139,7 +149,7 @@ Fetches Bandcamp tags. The result is an object with the following properties:
 - `tags`: non-location tags
 - `locations`: location tags
 
-### search(params, [options])
+### `search(params, [options])`
 
 [**Example**](examples/search.js) ([output](examples/search_output.txt))
 
@@ -151,6 +161,40 @@ Searches for `params.query`.
 - `options` (optional)
     - albumImageFormat
     - artistImageFormat
+
+## Caching
+
+The library maintains an in-memory cache for two types of resources:
+1. `page` - pages fetched during scraping
+2. `constant` - image formats and discover options
+
+Functions related to the cache can be called this way:
+
+```
+const bcfetch = require('bandcamp-fetch');
+
+bcfetch.cache.setTTL('page', 500);
+bcfetch.cache.setMaxPages(20);
+bcfetch.cache.clear('constant');
+
+```
+
+### `cache.setTTL(type, TTL)`
+
+Sets the expiry time, in seconds, of cache entries for the given resource type.
+
+- `type`: 'page' or 'constant'
+- `TTL`: expiry time in seconds (default: `300` for 'page' and `3600` for 'constant')
+
+### `cache.setMaxPages(maxPages)`
+
+Sets the maximum number of pages that can be stored in the cache. A negative value means unlimited. Default: `10`.
+
+### `cache.clear([type])`
+
+Clears the cache entries for the given resource type.
+
+- `type` (optional): 'page' or 'constant'. If unspecified, clears the entire cache.
 
 # License
 
