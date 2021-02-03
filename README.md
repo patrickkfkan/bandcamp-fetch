@@ -162,6 +162,26 @@ Searches for `params.query`.
     - albumImageFormat
     - artistImageFormat
 
+### `getAllShows([options])`
+
+[**Example**](examples/getAllShows.js) ([output](examples/getAllShows_output.txt))
+
+Fetches all Bandcamp shows. Each entry in the returned array contains basic information about a show. To retrieve details of a show, pass the `url` property of the entry to `getShow()`.
+
+- `options` (optional)
+    - showImageFormat
+
+### `getShow(showUrl, [options])`
+
+[**Example**](examples/getShow.js) ([output](examples/getShow_output.txt))
+
+Get show details for the given `showUrl`.
+
+- `options` (optional)
+    - albumImageFormat
+    - artistImageFormat
+    - showImageFormat
+
 ## Caching
 
 The library maintains an in-memory cache for two types of resources:
