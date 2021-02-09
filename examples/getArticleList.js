@@ -8,5 +8,4 @@ const params = {
 
 bcfetch.getArticleList(params).then( results => {
     console.log(util.inspect(results, false, null, false));
-    console.log('Number of articles fetched: ' + results.articles.length);
 });
