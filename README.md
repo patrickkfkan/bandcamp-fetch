@@ -182,6 +182,35 @@ Get show details for the given `showUrl`.
     - artistImageFormat
     - showImageFormat
 
+### `getArticleCategories()`
+
+[**Example**](examples/getArticleCategories.js) ([output](examples/getArticleCategories_output.txt))
+
+Fetches the list of Bandcamp Daily article categories. Categories are grouped into sections.
+
+### `getArticleList([params], [options])`
+
+[**Example**](examples/getArticleList.js) ([output](examples/getArticleList_output.txt))
+
+Fetches the list of Bandcamp Daily articles under the category specified by `params.categoryUrl` (or all categories if not specified).
+
+- `params` (optional)
+    - categoryUrl
+- `options` (optional)
+    - imageFormat
+
+### `getArticle(articleUrl, [options])`
+
+[**Example**](examples/getArticle.js) ([output](examples/getArticle_output.txt))
+
+Fetches the contents of the Bandcamp Daily article at `articleUrl`.
+
+- `articleUrl`
+- `options` (optional)
+    - albumImageFormat
+    - artistImageFormat
+    - includeRawData
+
 ## Caching
 
 The library maintains an in-memory cache for two types of resources:
