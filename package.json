@@ -25,6 +25,7 @@
     "cheerio": "^1.0.0-rc.5",
     "html-entities": "^2.0.2",
     "node-cache": "^5.1.2",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "safe-eval": "^0.4.1"
   }
 }
