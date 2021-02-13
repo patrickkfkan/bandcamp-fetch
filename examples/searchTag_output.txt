@@ -1,0 +1,8 @@
+[ { count: 623761, value: 'ambient', name: 'ambient' },
+  { count: 128566, value: 'dark-ambient', name: 'dark ambient' },
+  { count: 62308,
+    value: 'ambient-electronic',
+    name: 'ambient electronic' },
+  { count: 20013, value: 'drone-ambient', name: 'drone ambient' },
+  { count: 13065, value: 'ambient-rock', name: 'ambient rock' },
+  { count: 7291, value: 'noise-ambient', name: 'noise ambient' } ]
