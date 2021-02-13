@@ -211,6 +211,54 @@ Fetches the contents of the Bandcamp Daily article at `articleUrl`.
     - artistImageFormat
     - includeRawData
 
+### `getReleasesByTag(tagUrl, [params], [options])`
+
+[**Example**](examples/getReleasesByTag.js) ([output](examples/getReleasesByTag_output.txt))
+
+Fetches releases matching the tag referred to by `tagUrl` (note: tag is overridable by `params.filter.tags`).
+
+- `tagUrl`
+- `params` (optional)
+    - filters:
+        - location
+        - tags: array of tag values to match
+        - sort
+        - format
+    - page (1 if omitted)
+
+  All properties are optional. For omitted properties, default values obtained from `tagUrl` will be used. Possible filter values can be obtained by calling `getReleasesByTagFilterOptions()`. For `filters.location` and `filters.tag`, you may look up additional values not returned by `getReleasesByTagFilterOptions()` through `searchLocation()` and `searchTag()`, respectively.
+
+- `options` (optional)
+    - imageFormat
+
+### `getReleasesByTagFilterOptions(tagUrl)`
+
+[**Example**](examples/getReleasesByTagFilterOptions.js) ([output](examples/getReleasesByTagFilterOptions_output.txt))
+
+Fetches the list of possible filter values for `getReleasesByTag()`. For `location` and `tag` filters, this function does not return a conclusive list of values. You may use `searchLocation()` and `searchTag()` to look up additional values.
+
+- `tagUrl`: the URL of the tag for which filter values should be returned
+
+### `searchLocation(params)`
+
+[**Example**](examples/searchLocation.js) ([output](examples/searchLocation_output.txt))
+
+Fetches the list of locations matching `params.q`. Results include both partial and full matches. Each item in the returned array corresponds to a matching location, and its `value` property can be used for setting the `location` filter in `getReleasesByTag()`.
+
+- `params`:
+    - q: the string to match
+    - limit: the maximum number of results to return
+
+### `searchTag(params)`
+
+[**Example**](examples/searchTag.js) ([output](examples/searchTag_output.txt))
+
+Fetches the list of tags matching `params.q`. Results include both partial and full matches. Each item in the returned array corresponds to a matching tag, and its `value` property can be used for setting the `tags` filter in `getReleasesByTag()`.
+
+- `params`:
+    - q: the string to match
+    - limit: the maximum number of results to return
+
 ## Caching
 
 The library maintains an in-memory cache for two types of resources:
