@@ -211,6 +211,12 @@ Fetches the contents of the Bandcamp Daily article at `articleUrl`.
     - artistImageFormat
     - includeRawData
 
+### `getTagInfo(tagUrl)`
+
+[**Example**](examples/getTagInfo.js) ([output](examples/getTagInfo_output.txt))
+
+Fetches information about the tag referred to by `tagUrl`.
+
 ### `getReleasesByTag(tagUrl, [params], [options])`
 
 [**Example**](examples/getReleasesByTag.js) ([output](examples/getReleasesByTag_output.txt))
