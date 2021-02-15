@@ -221,13 +221,13 @@ Fetches information about the tag referred to by `tagUrl`.
 
 [**Example**](examples/getReleasesByTag.js) ([output](examples/getReleasesByTag_output.txt))
 
-Fetches releases matching the tag referred to by `tagUrl` (note: tag is overridable by `params.filter.tags`).
+Fetches releases matching the tag referred to by `tagUrl`.
 
 - `tagUrl`
 - `params` (optional)
     - filters:
         - location
-        - tags: array of tag values to match
+        - tags: array of tag values to match, in addition to the one referred to by `tagUrl`.
         - sort
         - format
     - page (1 if omitted)
@@ -236,6 +236,7 @@ Fetches releases matching the tag referred to by `tagUrl` (note: tag is overrida
 
 - `options` (optional)
     - imageFormat
+    - useHardcodedDefaultFilters: if `true`, use hardcoded default values for filters not specified in `params.filters`. If `false` or unspecified, default filter values will be obtained by calling `getReleasesByTagFilterOptions()` (extra query means slower performance).
 
 ### `getReleasesByTagFilterOptions(tagUrl)`
 
