@@ -22,6 +22,7 @@
   "author": "Patrick Kan",
   "license": "MIT",
   "dependencies": {
+    "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0-rc.5",
     "html-entities": "^2.0.2",
     "node-cache": "^5.1.2",

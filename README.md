@@ -266,6 +266,29 @@ Fetches the list of tags matching `params.q`. Results include both partial and f
     - q: the string to match
     - limit: the maximum number of results to return
 
+## Rate Limiting
+
+The API functions can be called with rate limiting like this:
+
+```
+bcfetch.limiter.getAlbumInfo(...);
+```
+
+[**Example**](examples/limiter.js) ([output](examples/limiter_output.txt))
+
+Rate limiting is useful when you need to make a large number of queries and don't want to run the risk of getting rejected by the server for making too many requests within a short time interval. If you get a '429 Too Many Requests' error, then you should consider using the rate limiter.
+
+The library uses [Bottleneck](https://www.npmjs.com/package/bottleneck) for rate limiting. You can configure the rate limiter like this:
+
+```
+bcfetch.limiter.updateSettings({
+    maxConcurrent: 10,  // default: 5
+    minTime: 100        // default: 200
+});
+```
+
+`updateSettings()` is just a passthrough function to Bottleneck. Check the [Bottleneck doc](https://www.npmjs.com/package/bottleneck#docs) for the list of options you can set.
+
 ## Caching
 
 The library maintains an in-memory cache for two types of resources:
