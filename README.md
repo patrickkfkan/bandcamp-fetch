@@ -83,6 +83,13 @@ Fetches information about an artist or label.
 - `artistOrLabelUrl`
 - `options` (optional)
     - imageFormat
+    - labelId
+
+Some artist URLs point directly to an album page, in which case the `label` property of the returned object will contain information about the label associated with the album (or `null` if none).
+
+If the artist URL points to the artist's page, then the `label` property will be `null` unless you specify `labelId` in `options`. There seems to be no way to fetch information about the labels an artist belongs to from the scraped data.
+
+For label URLs, the `labelId` is provided in the returned object.
 
 ### `getLabelArtists(labelUrl, [options])`
 
@@ -116,6 +123,10 @@ Fetches information about an album.
     - artistImageFormat
     - includeRawData
 
+Following Bandcamp's removal of description and image URL from artist metadata, `artist.description` and `artist.imageUrl` of the returned object are now set to to the same values as `publisher.description` and `publisher.imageUrl`, respectively. This is for backward comaptibility and the `artist.description` and `artist.imageUrl` properties might be removed in a future release. 
+ 
+Furthermore, if the artist URL is not found in the scraped data, then `artist.url` will be set to the same value as `publisher.url`. This behavior might be subject to change in the future.
+
 ### `getTrackInfo(trackUrl, [options])`
 
 [**Example**](examples/getTrackInfo.js) ([output](examples/getTrackInfo_output.txt))
@@ -127,6 +138,10 @@ Fetches information about a track.
     - albumImageFormat
     - artistImageFormat
     - includeRawData
+
+Following Bandcamp's removal of description and image URL from artist metadata, `artist.description` and `artist.imageUrl` of the returned object are now set to to the same values as `publisher.description` and `publisher.imageUrl`, respectively. This is for backward comaptibility and the `artist.description` and `artist.imageUrl` properties might be removed in a future release. 
+
+Furthermore, if the artist URL is not found in the scraped data, then `artist.url` will be set to the same value as `publisher.url`. This behavior might be subject to change in the future.
 
 ### `getAlbumHighlightsByTag(tagUrl, [options])`
 
@@ -322,6 +337,16 @@ Sets the maximum number of pages that can be stored in the cache. A negative val
 Clears the cache entries for the given resource type.
 
 - `type` (optional): 'page' or 'constant'. If unspecified, clears the entire cache.
+
+# Changelog
+
+0.2.0-b.20211020
+- Adapt to Bandcamp changes since last version
+- Add `publisher` and `label` to data fetched by `getAlbumInfo()` and `getTrackInfo()`
+- Add `labelId` to data fetched by `getArtistOrLabelInfo(labelUrl)`
+- Add `labelId` option to `getArtistOrLabelInfo()` for artist URLs
+
+...(no changelog for earlier versions due to laziness)
 
 # License
 
