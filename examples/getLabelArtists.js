@@ -1,7 +1,7 @@
 const bcfetch = require('../');
 const util = require('util');
 
-const labelUrl = 'https://daretocarerecords.bandcamp.com';
+const labelUrl = 'https://mergerecords.bandcamp.com';
 
 const options = {
     imageFormat: 'art_app_large',

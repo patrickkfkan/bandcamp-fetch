@@ -37,7 +37,6 @@ const albumUrls = [
     'https://darrenhayman.bandcamp.com/album/music-to-watch-news-by',
     'https://virginiaastley.bandcamp.com/album/from-gardens-where-we-feel-secure',
     'https://radicalface.bandcamp.com/album/hidden-hollow-vol-one-singles',
-    'https://gabriellepietrangelo.bandcamp.com/album/big-desert-sky',
     'https://miloandlovina.bandcamp.com/album/paper-hearts',
     'https://fatherjohnmisty.bandcamp.com/album/anthem-3-2',
     'https://thefauxpaws.bandcamp.com/album/the-hurricane-ep',

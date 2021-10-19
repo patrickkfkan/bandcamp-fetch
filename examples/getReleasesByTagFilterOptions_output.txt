@@ -1,12 +1,4 @@
-[ { name: 'sort',
-    options: 
-     [ { value: 'pop',
-         name: 'best-selling',
-         selected: true,
-         default: true },
-       { value: 'date', name: 'new arrivals' },
-       { value: 'random', name: 'surprise me!' } ] },
-  { name: 'format',
+[ { name: 'format',
     options: 
      [ { value: 'all',
          name: 'any format',
@@ -15,6 +7,14 @@
        { value: 'vinyl', name: 'vinyl' },
        { value: 'cd', name: 'compact disc' },
        { value: 'cassette', name: 'cassette' } ] },
+  { name: 'sort',
+    options: 
+     [ { value: 'pop',
+         name: 'best-selling',
+         selected: true,
+         default: true },
+       { value: 'date', name: 'new arrivals' },
+       { value: 'random', name: 'surprise me!' } ] },
   { name: 'location',
     options: 
      [ { value: 0, name: 'any location', selected: true, default: true },

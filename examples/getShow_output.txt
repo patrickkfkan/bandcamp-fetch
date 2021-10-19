@@ -10,8 +10,8 @@
   imageUrl: 'https://f4.bcbits.com/img/23443998_25.jpg',
   screenImageUrl: 'https://f4.bcbits.com/img/23443998_0',
   streamUrl: 
-   { 'mp3-128': 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1612344071&t=3519bac963c491fb5b82d1f4cded8e47e823a0f4',
-     'opus-lo': 'https://popplers5.bandcamp.com/download/track?enc=opus-lo&fsig=bf3e5993296f366af3cf4ad5e7a67492&id=1825658732&stream=1&ts=1612344072.0' },
+   { 'mp3-128': 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1634629052&t=8c539a55731f2ea4b38736908912b7e02d8d793d',
+     'opus-lo': 'https://popplers5.bandcamp.com/download/track?enc=opus-lo&fsig=99eb94ef2d6630ffc9c99c346211db7c&id=1825658732&stream=1&ts=1634629053.0' },
   tracks: 
    [ { name: 'time to go',
        url: 'https://eighty9s.bandcamp.com/track/time-to-go',
@@ -21,7 +21,7 @@
         { name: 'eighty9s',
           url: 'https://eighty9s.bandcamp.com',
           imageUrl: 'https://f4.bcbits.com/img/19154098_21.jpg',
-          location: 'San Francisco, California' },
+          location: 'Oakland, California' },
        album: 
         { name: 'Past Time',
           url: 'https://eighty9s.bandcamp.com/album/past-time' } },
@@ -68,7 +68,7 @@
        artist: 
         { name: 'Aaron Fairchild',
           url: 'https://aaronxfairchild.bandcamp.com',
-          imageUrl: 'https://f4.bcbits.com/img/21577269_21.jpg',
+          imageUrl: 'https://f4.bcbits.com/img/25703843_21.jpg',
           location: 'Portland, Oregon' },
        album: 
         { name: 'The Sun Comes Through',
@@ -86,17 +86,17 @@
         { name: 'lo&behold',
           url: 'https://lojii.bandcamp.com/album/lo-behold-2' } },
      { name: 'Wings',
-       url: 'https://isaiahmclane.bandcamp.com/track/wings',
-       imageUrl: 'https://f4.bcbits.com/img/a3987916765_9.jpg',
+       url: 'https://isaiahmostafa.bandcamp.com/track/wings',
+       imageUrl: 'https://f4.bcbits.com/img/a454474599_9.jpg',
        seekPosition: 955,
        artist: 
-        { name: 'Isaiah McLane',
-          url: 'https://isaiahmclane.bandcamp.com',
-          imageUrl: 'https://f4.bcbits.com/img/23480099_21.jpg',
-          location: 'Berkeley, California' },
+        { name: 'Isaiah Mostafa',
+          url: 'https://isaiahmostafa.bandcamp.com',
+          imageUrl: 'https://f4.bcbits.com/img/24824562_21.jpg',
+          location: 'Oakland, California' },
        album: 
-        { name: '37 Week Challenge',
-          url: 'https://isaiahmclane.bandcamp.com/album/37-week-challenge' } },
+        { name: 'The 37 Week Challenge',
+          url: 'https://isaiahmostafa.bandcamp.com/album/the-37-week-challenge' } },
      { name: 'Press Play',
        url: 'https://ashiakarana.bandcamp.com/track/press-play',
        imageUrl: 'https://f4.bcbits.com/img/a2001339741_9.jpg',
@@ -117,8 +117,8 @@
           imageUrl: 'https://f4.bcbits.com/img/20991183_21.jpg',
           location: 'Los Angeles, California' },
        album: 
-        { name: 'VGM\'s​​​.​​​PRT.8_',
-          url: 'https://knxwledge.bandcamp.com/album/vgms-prt-8' } },
+        { name: 'VGM.8',
+          url: 'https://knxwledge.bandcamp.com/album/vgm-8' } },
      { name: 'Henny Bottles',
        url: 'https://shawcalhoune.bandcamp.com/track/henny-bottles',
        imageUrl: 'https://f4.bcbits.com/img/a3592642307_9.jpg',
@@ -136,7 +136,7 @@
        imageUrl: 'https://f4.bcbits.com/img/a309077249_9.jpg',
        seekPosition: 1628,
        artist: 
-        { name: 'BIG KAHUNA OG & MONDAY NIGHT',
+        { name: 'Big Kahuna OG & Monday Night',
           url: 'https://schemeteamallstars.bandcamp.com',
           imageUrl: 'https://f4.bcbits.com/img/13872878_21.jpg',
           location: 'Richmond, Virginia' },
