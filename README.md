@@ -85,11 +85,13 @@ Fetches information about an artist or label.
     - imageFormat
     - labelId
 
-Some artist URLs point directly to an album page, in which case the `label` property of the returned object will contain information about the label associated with the album (or `null` if none).
+This function tries to fetch the most complete set of data by scraping the following pages (returning immediately at any point the data becomes complete):
 
-If the artist URL points to the artist's page, then the `label` property will be `null` unless you specify `labelId` in `options`. There seems to be no way to fetch information about the labels an artist belongs to from the scraped data.
+1. The page referred to by `artistOrLabelUrl`
+2. The 'music' page of the artist or label (`artistOrLabelUrl/music`)
+3. The first album or track in the artist's or label's discography
 
-For label URLs, the `labelId` is provided in the returned object.
+Sometimes, the label could not be fetched successfully for artists. If you know the `labelId` of the label that the artist belongs to, you can specify it in `options`. This will ensure that `label` will not be `null` in the artist info. If you pass a label URL to this function, you can find the `labelId` in the result.
 
 ### `getLabelArtists(labelUrl, [options])`
 
@@ -339,6 +341,9 @@ Clears the cache entries for the given resource type.
 - `type` (optional): 'page' or 'constant'. If unspecified, clears the entire cache.
 
 # Changelog
+
+0.2.1-b.20211020
+- Improve data fetching in `getArtistOrLabelInfo()`
 
 0.2.0-b.20211020
 - Adapt to Bandcamp changes since last version
