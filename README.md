@@ -342,6 +342,9 @@ Clears the cache entries for the given resource type.
 
 # Changelog
 
+0.2.1-b.20211020b
+- Fix URL sometimes null in result of `getArtistOrLabelInfo()`
+
 0.2.1-b.20211020
 - Improve data fetching in `getArtistOrLabelInfo()`
 

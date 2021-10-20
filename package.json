@@ -1,6 +1,6 @@
 {
   "name": "bandcamp-fetch",
-  "version": "0.2.1-b.20211020",
+  "version": "0.2.1-b.20211020b",
   "description": "JS library for scraping Bandcamp content",
   "main": "lib/index.js",
   "scripts": {
