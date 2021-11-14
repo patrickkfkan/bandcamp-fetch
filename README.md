@@ -174,6 +174,7 @@ Searches for `params.query`.
 
 - `params`
     - query: search string
+    - itemType (optional): 'artistsAndLabels', 'albums' or 'tracks'. Searches all item types if unknown value or omitted.
     - page (1 if omitted)
 - `options` (optional)
     - albumImageFormat
