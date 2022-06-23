@@ -385,6 +385,9 @@ Clears the cache entries for the given resource type.
 
 # Changelog
 
+0.3.0-b.1
+- Add fan functions
+
 0.2.2-b.1
 - Add `itemType` option to search params
 
