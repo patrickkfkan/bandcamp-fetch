@@ -68,7 +68,9 @@ You don't have to call this function on params passed to `discover()` - they wil
 
 Fetches the list of image formats used in Bandcamp.
 
-- `filter` (optional) - 'artist' or 'album'. If specified, narrows down the result to include only formats applicable to the specified value.
+- `filter` (optional) - 'bio' (for artist / profile-type images)* or 'album'. If specified, narrows down the result to include only formats applicable to the specified value.
+
+> The 'artist' filter value is deprecated. Use 'bio' instead.
 
 ### `getImageFormat(idOrName)`
 
