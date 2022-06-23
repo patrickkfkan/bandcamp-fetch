@@ -286,6 +286,46 @@ Fetches the list of tags matching `params.q`. Results include both partial and f
     - q: the string to match
     - limit: the maximum number of results to return
 
+### `getFanInfo(username, [options])`
+
+[**Example**](examples/getFanInfo.js) ([output](examples/getFanInfo_output.txt))
+
+Fetches information about a fan.
+
+- `username`
+- `options` (optional)
+    - imageFormat
+
+### `getFanWishlist(usernameOrContinuationToken, [options])`
+
+[**Example**](examples/getFanWishlist.js) ([output](examples/getFanWishlist_output.txt))
+
+Fetches the list of albums / tracks added to a fan's wishlist.
+
+- `usernameOrContinuationToken`: if username is provided, returns the first batch of wishlist items. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
+- `options` (optional)
+    - imageFormat
+
+### `getFanFollowingArtistsAndLabels(usernameOrContinuationToken, [options])`
+
+[**Example**](examples/getFanFollowingArtistsAndLabels.js) ([output](examples/getFanFollowingArtistsAndLabels_output.txt))
+
+Fetches the list of artists and labels followed by a fan.
+
+- `usernameOrContinuationToken`: if username is provided, returns the first batch of artists and labels. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
+- `options` (optional)
+    - imageFormat
+
+### `getFanFollowingGenres(usernameOrContinuationToken, [options])`
+
+[**Example**](examples/getFanFollowingGenres.js) ([output](examples/getFanFollowingGenres_output.txt))
+
+Fetches the list of genres followed by a fan. Each genre is actually a Bandcamp tag, so you can, for example, pass its `url` value to `getReleasesByTag()`.
+
+- `usernameOrContinuationToken`: if username is provided, returns the first batch of genres. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
+- `options` (optional)
+    - imageFormat
+
 ## Rate Limiting
 
 The API functions can be called with rate limiting like this:
