@@ -296,6 +296,16 @@ Fetches information about a fan.
 - `options` (optional)
     - imageFormat
 
+### `getFanCollection(usernameOrContinuationToken, [options])`
+
+[**Example**](examples/getFanCollection.js) ([output](examples/getFanCollection_output.txt))
+
+Fetches the list of albums / tracks in a fan's collection.
+
+- `usernameOrContinuationToken`: if username is provided, returns the first batch of items in the collection. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
+- `options` (optional)
+    - imageFormat
+
 ### `getFanWishlist(usernameOrContinuationToken, [options])`
 
 [**Example**](examples/getFanWishlist.js) ([output](examples/getFanWishlist_output.txt))
