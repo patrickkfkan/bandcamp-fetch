@@ -6,7 +6,7 @@ bcfetch.getImageFormats('album').then( results => {
     console.log();
 });
 
-bcfetch.getImageFormats('artist').then( results => { 
+bcfetch.getImageFormats('bio').then( results => { 
     console.log('Artist image formats:');
     console.log(results);
     console.log();
