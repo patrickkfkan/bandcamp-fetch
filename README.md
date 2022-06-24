@@ -395,6 +395,9 @@ Clears the cache entries for the given resource type.
 
 # Changelog
 
+0.3.1-b.1
+- Add `getFanCollection()` function
+
 0.3.0-b.1
 - Add fan functions
 
