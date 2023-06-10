@@ -1,0 +1,29 @@
+Label URL: https://mergerecords.bandcamp.com
+{
+  type: 'label',
+  name: 'Merge Records',
+  description: 'Merge Records is an independent record label based in Durham, North Carolina. It was founded in 1989 by Laura Ballance and Mac McCaughan. It began as a way to release music from their band Superchunk and music created by friends, and has expanded to include artists from around the world and records reaching the top of the Billboard music charts.',
+  url: 'https://mergerecords.bandcamp.com',
+  location: 'Durham, North Carolina',
+  imageUrl: 'https://f4.bcbits.com/img/0018287817_16.jpg',
+  labelId: 1415932000
+}
+
+Artist URL: https://macmccaughan.bandcamp.com
+{
+  type: 'artist',
+  name: 'Mac McCaughan',
+  description: 'Superchunk, Portastatic, and now this...\n' +
+    '\n' +
+    'For booking contact  www.groundcontroltouring.com\n' +
+    '  For more records go to  www.mergerecords.com',
+  url: 'https://macmccaughan.bandcamp.com',
+  location: 'Chapel Hill, North Carolina',
+  imageUrl: 'https://f4.bcbits.com/img/0004961611_16.jpg',
+  label: {
+    type: 'label',
+    name: 'Merge Records',
+    url: 'https://mergerecords.bandcamp.com'
+  }
+}
+

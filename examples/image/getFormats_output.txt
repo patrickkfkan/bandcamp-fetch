@@ -1,0 +1,197 @@
+Artist image formats:
+[
+  {
+    id: 20,
+    name: 'bio_screen',
+    width: 1024,
+    height: 1024,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 21,
+    name: 'bio_thumb',
+    width: 120,
+    height: 180,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 22,
+    name: 'bio_navbar',
+    width: 25,
+    height: 25,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 23,
+    name: 'bio_phone',
+    width: 300,
+    height: 300,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 24,
+    name: 'bio_licensing',
+    width: 300,
+    height: 300,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 25,
+    name: 'bio_app',
+    width: 700,
+    height: 700,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 26,
+    name: 'bio_subscribe',
+    width: 800,
+    height: 600,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 27,
+    name: 'bio_subscribe2',
+    width: 715,
+    height: 402,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 28,
+    name: 'bio_featured',
+    width: 768,
+    height: 432,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 29,
+    name: 'bio_autocomplete',
+    width: 100,
+    height: 75,
+    fileFormat: 'JPEG'
+  }
+]
+
+Album image formats:
+[
+  {
+    id: 2,
+    name: 'art_thumb',
+    width: 350,
+    height: 350,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 3,
+    name: 'art_thumbthumb',
+    width: 100,
+    height: 100,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 4,
+    name: 'art_embedded_metadata',
+    width: 300,
+    height: 300,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 5,
+    name: 'art_embedded_metadata_large',
+    width: 700,
+    height: 700,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 6,
+    name: 'art_embedded_player',
+    width: 100,
+    height: 100,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 7,
+    name: 'art_embedded_player_large',
+    width: 150,
+    height: 150,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 8,
+    name: 'art_tags',
+    width: 124,
+    height: 124,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 9,
+    name: 'art_tags_large',
+    width: 210,
+    height: 210,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 11,
+    name: 'art_tag_search',
+    width: 172,
+    height: 172,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 12,
+    name: 'art_artist_index',
+    width: 138,
+    height: 138,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 13,
+    name: 'art_solo_feature',
+    width: 380,
+    height: 380,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 14,
+    name: 'art_feature',
+    width: 368,
+    height: 368,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 15,
+    name: 'art_feed_new_release',
+    width: 135,
+    height: 135,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 16,
+    name: 'art_app_large',
+    width: 700,
+    height: 700,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 67,
+    name: 'art_thumb_anim_ok',
+    width: 350,
+    height: 350,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 68,
+    name: 'art_tags_large_anim_ok',
+    width: 210,
+    height: 210,
+    fileFormat: 'JPEG'
+  },
+  {
+    id: 69,
+    name: 'art_embedded_metadata_large_anim_ok',
+    width: 700,
+    height: 700,
+    fileFormat: 'JPEG'
+  }
+]
+

@@ -1,0 +1,41 @@
+[bandcamp-fetch](../README.md) / AutocompleteAPIGetSuggestionsParams
+
+# Interface: AutocompleteAPIGetSuggestionsParams
+
+## Table of contents
+
+### Properties
+
+- [itemType](AutocompleteAPIGetSuggestionsParams.md#itemtype)
+- [limit](AutocompleteAPIGetSuggestionsParams.md#limit)
+- [query](AutocompleteAPIGetSuggestionsParams.md#query)
+
+## Properties
+
+### itemType
+
+• **itemType**: [`AutocompleteItemType`](../enums/AutocompleteItemType.md)
+
+#### Defined in
+
+lib/autocomplete/AutocompleteAPI.ts:14
+
+___
+
+### limit
+
+• `Optional` **limit**: `number`
+
+#### Defined in
+
+lib/autocomplete/AutocompleteAPI.ts:15
+
+___
+
+### query
+
+• **query**: `string`
+
+#### Defined in
+
+lib/autocomplete/AutocompleteAPI.ts:13

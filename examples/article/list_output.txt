@@ -1,0 +1,307 @@
+{
+  articles: [
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-august-2020',
+      title: 'The Best Ambient Music on Bandcamp: August 2020',
+      date: 'September 01, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0021431652_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-july-2020',
+      title: 'The Best Ambient Music on Bandcamp: July 2020',
+      date: 'August 06, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0021091675_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-june-2020',
+      title: 'The Best Ambient Music on Bandcamp: June 2020',
+      date: 'July 02, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0020691450_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-april-2020',
+      title: 'The Best New Ambient Music on Bandcamp: April 2020',
+      date: 'May 01, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0019742632_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-march-2020',
+      title: 'The Best New Ambient Music on Bandcamp: March 2020',
+      date: 'April 03, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0019297568_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-february-2020',
+      title: 'The Best New Ambient Music on Bandcamp: February 2020',
+      date: 'March 06, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0018875275_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-january-2020',
+      title: 'The Best New Ambient Music on Bandcamp: January 2020',
+      date: 'January 29, 2020',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0018520240_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-on-bandcamp-november-2019',
+      title: 'The Best New Ambient on Bandcamp: November 2019',
+      date: 'December 04, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0018037661_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-october-2019',
+      title: 'The Best New Ambient Music on Bandcamp: October 2019',
+      date: 'October 28, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017912007_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-on-bandcamp-september-2019',
+      title: 'The Best New Ambient on Bandcamp: September 2019',
+      date: 'October 02, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911937_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-on-bandcamp-august-2019',
+      title: 'The Best New Ambient on Bandcamp: August 2019',
+      date: 'August 23, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911821_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-on-bandcamp-july-2019',
+      title: 'The Best New Ambient on Bandcamp: July 2019',
+      date: 'August 02, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911758_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-on-bandcamp-june-2019',
+      title: 'The Best New Ambient on Bandcamp: June 2019',
+      date: 'July 01, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911671_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-may-2019',
+      title: 'The Best New Ambient on Bandcamp: May 2019',
+      date: 'May 30, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911570_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-on-bandcamp-april-2019',
+      title: 'The Best New Ambient on Bandcamp: April 2019',
+      date: 'May 02, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911488_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-music-march-2019',
+      title: 'The Best New Ambient Music on Bandcamp: March 2019',
+      date: 'April 01, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911390_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-music-on-bandcamp-february-2019',
+      title: 'The Best New Ambient Music on Bandcamp: February 2019',
+      date: 'February 27, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911294_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-on-bandcamp-january-2019',
+      title: 'The Best New Ambient on Bandcamp: January 2019',
+      date: 'February 05, 2019',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0030523501_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-november-2018',
+      title: 'The Best New Ambient Music on Bandcamp, November 2018',
+      date: 'November 21, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0028920513_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-ambient-october-2018',
+      title: 'The Best New Ambient Music on Bandcamp, October 2018',
+      date: 'October 18, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017911002_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-september-2018',
+      title: 'The Best New Ambient Music on Bandcamp, September 2018',
+      date: 'October 05, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910962_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-music-on-bandcamp-july-2018',
+      title: 'The Best New Ambient Music on Bandcamp, July 2018',
+      date: 'August 01, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910788_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-june-2018',
+      title: 'The Best New Ambient Music on Bandcamp, June 2018',
+      date: 'June 22, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910685_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-may-2018',
+      title: 'The Best New Ambient Music on Bandcamp, May 2018',
+      date: 'May 23, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910601_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-ambient-april-2018',
+      title: 'The Best New Ambient Music on Bandcamp, April 2018',
+      date: 'April 23, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017912162_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-march-2018',
+      title: 'The Best New Ambient Music on Bandcamp, March 2018',
+      date: 'March 27, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017912164_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-ambient-february-2018',
+      title: 'The Best New Ambient Music on Bandcamp, February 2018',
+      date: 'February 27, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910366_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/the-best-new-ambient-january-2018',
+      title: 'The Best New Ambient Music on Bandcamp, January 2018',
+      date: 'January 24, 2018',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910284_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-november-2017',
+      title: 'The Best New Ambient Music on Bandcamp, October/November 2017',
+      date: 'November 29, 2017',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0017910161_150.jpg'
+    },
+    {
+      url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-september-2017',
+      title: 'The Best New Ambient Music on Bandcamp, September 2017',
+      date: 'September 28, 2017',
+      category: {
+        name: 'BEST AMBIENT',
+        url: 'https://daily.bandcamp.com/best-ambient'
+      },
+      imageUrl: 'https://f4.bcbits.com/img/0011401744_150.jpg'
+    }
+  ],
+  total: 61,
+  start: 31,
+  end: 60
+}

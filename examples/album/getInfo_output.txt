@@ -1,0 +1,139 @@
+{
+  type: 'album',
+  name: 'Blonde',
+  url: 'https://musique.coeurdepirate.com/album/blonde',
+  numTracks: 12,
+  keywords: [
+    'Pop',
+    'amour',
+    'coeur de pirate',
+    'french',
+    'french pop',
+    'grosse boîte',
+    'montreal',
+    'piano pop',
+    'Montréal'
+  ],
+  description: "Après avoir immortalisé tout un pan de son adolescence dans les chansons pop douces-amères d'un premier album homonyme, Coeur de pirate s'attaque aux différentes étapes de la relation amoureuse, d'où le titre de l'album, en référence avant tout, à la copine, à l'amoureuse. L'album a été enregistré à l'été 2011 à l'Hotel2Tango sous la gouverne d'Howard Bilerman, coréalisateur avec Béatrice Martin.",
+  releaseDate: '07 Nov 2011 00:00:00 GMT',
+  artist: { name: 'Cœur de pirate', url: 'https://musique.coeurdepirate.com' },
+  releases: [
+    {
+      name: 'Blonde',
+      format: 'DigitalFormat',
+      description: 'Includes high-quality download in MP3, FLAC and more. Paying supporters also get unlimited streaming via the free Bandcamp app.',
+      url: 'https://musique.coeurdepirate.com/album/blonde',
+      imageUrl: 'https://f4.bcbits.com/img/a1328452291_10.jpg'
+    },
+    {
+      name: 'Blonde - CD',
+      format: 'CDFormat',
+      description: "Blonde - Édition régulière comprend le téléchargement gratuit de l'album digital. Veuillez allouer 3 jours ouvrables pour que la version physique vous soit postée.\n" +
+        'Pour les commandes hors-Canada, vous devez compter de 2 à 4 semaines pour recevoir votre achat.',
+      url: 'https://musique.coeurdepirate.com/album/blonde#p3309945537',
+      imageUrl: 'https://f4.bcbits.com/img/0000167149_10.jpg'
+    },
+    {
+      name: 'Blonde - Vinyle',
+      format: 'VinylFormat',
+      description: "L'édition vinyle de Blonde comprend les 12 pistes de l'édition régulière, ainsi qu'une affichette 12x24 po. L'achat comprend le téléchargement gratuit de l'album en version régulière.\n" +
+        'Veuillez allouer 3 jours ouvrables pour que la version physique vous soit postée.',
+      url: 'https://musique.coeurdepirate.com/album/blonde#p3172983276',
+      imageUrl: 'https://f4.bcbits.com/img/0012274631_10.jpg'
+    }
+  ],
+  tracks: [
+    {
+      name: 'Lève les voiles',
+      duration: 72.7333,
+      streamUrl: 'https://t4.bcbits.com/stream/4ec5267c795d34d71d84b8d9e6373477/mp3-128/4183427253?p=0&ts=1686494439&t=c40a4ae91db5c33dec570cefcb3ee628460fc173&token=1686494439_3862d4be07dc3bd6df2c7bbc017668e590ae471a',
+      position: 1,
+      url: 'https://musique.coeurdepirate.com/track/l-ve-les-voiles'
+    },
+    {
+      name: 'Adieu',
+      duration: 147.627,
+      streamUrl: 'https://t4.bcbits.com/stream/bdf4f2f59952f78effcbbf3ff63300db/mp3-128/3647767496?p=0&ts=1686494439&t=6c5367a11a820055e9f97be27b2535567654e837&token=1686494439_d8163e215b039890eda6b11922a36135a31997e9',
+      position: 2,
+      url: 'https://musique.coeurdepirate.com/track/adieu'
+    },
+    {
+      name: 'Danse et danse',
+      duration: 190.413,
+      streamUrl: 'https://t4.bcbits.com/stream/8d4d755d9f351caf16529342096c3de6/mp3-128/1276790164?p=0&ts=1686494439&t=76ad61376be3f286c67bd63dfb507534256fbe41&token=1686494439_07b36ea15c7b74034371696f4947da6781f6442b',
+      position: 3,
+      url: 'https://musique.coeurdepirate.com/track/danse-et-danse'
+    },
+    {
+      name: 'Golden Baby',
+      duration: 187.027,
+      streamUrl: 'https://t4.bcbits.com/stream/af5533da023515d8c6c28dd834b7872f/mp3-128/365646139?p=0&ts=1686494439&t=fd353706d770e332bcb1b34d12499243cae8f6d7&token=1686494439_57c8461c94d9bc2935b311ffc1767afa480ef7b2',
+      position: 4,
+      url: 'https://musique.coeurdepirate.com/track/golden-baby'
+    },
+    {
+      name: 'Ava',
+      duration: 196.88,
+      streamUrl: 'https://t4.bcbits.com/stream/5133f1cab7fa8da200f1392690aca50e/mp3-128/1796143680?p=0&ts=1686494439&t=4661d282acdddb40ed2a445802d556d01e0782a5&token=1686494439_c10e7cfd27302d58958eece4387cebe78e324d9d',
+      position: 5,
+      url: 'https://musique.coeurdepirate.com/track/ava'
+    },
+    {
+      name: "Loin d'ici",
+      duration: 163.827,
+      streamUrl: 'https://t4.bcbits.com/stream/8a3166238fe996999f457459c592f7c7/mp3-128/260996437?p=0&ts=1686494439&t=4cb28deb9a7f6df51f53c8e85270f8d028d58306&token=1686494439_25e96b731cd8c63e0f955b12fa94074aecbacde0',
+      position: 6,
+      url: 'https://musique.coeurdepirate.com/track/loin-dici'
+    },
+    {
+      name: 'Les amours dévouées',
+      duration: 147.947,
+      streamUrl: 'https://t4.bcbits.com/stream/a62a0cd6f5b871e7559627b34f996552/mp3-128/4086570201?p=0&ts=1686494439&t=8052657686a94df097cddaa34f1887a958befd6e&token=1686494439_c59b379ffe5096d7f913648f650a179a1b8defa5',
+      position: 7,
+      url: 'https://musique.coeurdepirate.com/track/les-amours-d-vou-es'
+    },
+    {
+      name: 'Place de la République',
+      duration: 251.227,
+      streamUrl: 'https://t4.bcbits.com/stream/f7f5df6de9007b9415e120d8083cd973/mp3-128/1239774913?p=0&ts=1686494439&t=48d400f3e678c8aae520cdcc3b15a317435c772c&token=1686494439_a2060a56ed2da98c8595e9cab36280a0cc4d2b35',
+      position: 8,
+      url: 'https://musique.coeurdepirate.com/track/place-de-la-r-publique'
+    },
+    {
+      name: 'Cap Diamant',
+      duration: 163.293,
+      streamUrl: 'https://t4.bcbits.com/stream/732fc4dbcd8ca3cc2cc477d773f99206/mp3-128/3259278294?p=0&ts=1686494439&t=ab5c55198ebfffc9ea45d522bb0e2eefef1c6cbb&token=1686494439_8fae510052febbd9ac978da5c63a52d69ecc5d1a',
+      position: 9,
+      url: 'https://musique.coeurdepirate.com/track/cap-diamant'
+    },
+    {
+      name: 'Verseau',
+      duration: 233.813,
+      streamUrl: 'https://t4.bcbits.com/stream/a4e97e8b436b8e2ad1a2c598f5cd0a48/mp3-128/496320675?p=0&ts=1686494439&t=fc280ca1b1c88421a2c099bf43c2602adb575d5f&token=1686494439_d783594d927a7687f84879030b37b603731f8bef',
+      position: 10,
+      url: 'https://musique.coeurdepirate.com/track/verseau'
+    },
+    {
+      name: 'Saint-Laurent',
+      duration: 194.787,
+      streamUrl: 'https://t4.bcbits.com/stream/5f87e431eaaf515564c006de4c888e91/mp3-128/2437695881?p=0&ts=1686494439&t=09ea0d9aa5ed5bedabf7d5875cb222ef34c95e22&token=1686494439_2b0a5f58681ce104a96f9821374f0dcc058d6f91',
+      position: 11,
+      url: 'https://musique.coeurdepirate.com/track/saint-laurent'
+    },
+    {
+      name: 'La petite mort',
+      duration: 229.627,
+      streamUrl: 'https://t4.bcbits.com/stream/b257ccb8aca3ea864cbb2774e9d8d2be/mp3-128/525064765?p=0&ts=1686494439&t=9a65c09b642c93569cc88b445d5cc81f59317d54&token=1686494439_60776d9b721bf9e1f1eb994e3ac01fc5703e11a6',
+      position: 12,
+      url: 'https://musique.coeurdepirate.com/track/la-petite-mort'
+    }
+  ],
+  imageUrl: 'https://f4.bcbits.com/img/a1328452291_16.jpg',
+  label: { name: 'Bravo musique', url: 'https://bravomusique.bandcamp.com' },
+  publisher: {
+    name: 'Cœur de pirate',
+    url: 'https://musique.coeurdepirate.com',
+    description: 'Plus d’une décennie s’est écoulée depuis que Béatrice Martin s’est incrustée dans le paysage sous le pseudonyme désormais coutumier de Cœur de pirate.  Armée d’un talent digne de l’orfèvrerie, d’une poésie tantôt raffinée, tantôt subversive, et d’une aura insaisissable, elle séduit comme elle surprend, jaillissant là où on ne l’attend pas.',
+    imageUrl: 'https://f4.bcbits.com/img/0026415167_28.jpg'
+  }
+}

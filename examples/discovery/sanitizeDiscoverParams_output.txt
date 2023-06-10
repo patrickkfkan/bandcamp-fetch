@@ -1,0 +1,9 @@
+{
+  genre: 'ambient',
+  sortBy: 'top',
+  page: 0,
+  subgenre: 'all-ambient',
+  time: 0,
+  location: '0',
+  format: 'all'
+}

@@ -1,0 +1,14 @@
+{
+  type: 'fan',
+  name: 'Patrick Kan',
+  username: 'patrickkfkan',
+  url: 'https://bandcamp.com/patrickkfkan',
+  description: 'Hello there!',
+  location: 'Hong Kong',
+  websiteUrl: 'http://www.google.com',
+  imageUrl: 'https://f4.bcbits.com/img/29024471_20.jpg',
+  followingGenresCount: 45,
+  followingArtistsAndLabelsCount: 69,
+  collectionItemCount: 0,
+  wishlistItemCount: 25
+}

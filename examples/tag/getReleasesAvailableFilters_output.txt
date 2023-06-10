@@ -1,0 +1,74 @@
+[
+  {
+    name: 'sort',
+    options: [
+      {
+        name: 'best-selling',
+        value: 'pop',
+        selected: true,
+        default: true
+      },
+      { name: 'new arrivals', value: 'date' },
+      { name: 'surprise me!', value: 'random' }
+    ]
+  },
+  {
+    name: 'format',
+    options: [
+      {
+        name: 'any format',
+        value: 'all',
+        selected: true,
+        default: true
+      },
+      { name: 'vinyl', value: 'vinyl' },
+      { name: 'compact disc', value: 'cd' },
+      { name: 'cassette', value: 'cassette' }
+    ]
+  },
+  {
+    name: 'tags',
+    options: [ { name: 'dark ambient', value: 'dark-ambient', selected: true } ]
+  },
+  {
+    name: 'location',
+    options: [
+      { name: 'any location', value: 0, selected: true, default: true },
+      { name: 'amsterdam', value: 2759794 },
+      { name: 'atlanta', value: 4180439 },
+      { name: 'austin', value: 4671654 },
+      { name: 'baltimore', value: 4347778 },
+      { name: 'berlin', value: 2950159 },
+      { name: 'boston', value: 4930956 },
+      { name: 'brooklyn', value: 5110302 },
+      { name: 'buenos aires', value: 3435907 },
+      { name: 'chicago', value: 4887398 },
+      { name: 'denver', value: 5419384 },
+      { name: 'detroit', value: 4990729 },
+      { name: 'dublin', value: 2964574 },
+      { name: 'glasgow', value: 3333231 },
+      { name: 'london', value: 2643743 },
+      { name: 'los angeles', value: 5368361 },
+      { name: 'madrid', value: 3117735 },
+      { name: 'manchester', value: 2643123 },
+      { name: 'melbourne', value: 2158177 },
+      { name: 'mexico city', value: 3530597 },
+      { name: 'miami', value: 4164138 },
+      { name: 'minneapolis', value: 5037649 },
+      { name: 'montreal', value: 6077243 },
+      { name: 'nashville', value: 4644585 },
+      { name: 'new orleans', value: 4335045 },
+      { name: 'new york city', value: 5128581 },
+      { name: 'oakland', value: 5378538 },
+      { name: 'paris', value: 2988507 },
+      { name: 'philadelphia', value: 4560349 },
+      { name: 'portland', value: 5746545 },
+      { name: 'san francisco', value: 5391959 },
+      { name: 'seattle', value: 5809844 },
+      { name: 'sydney', value: 2147714 },
+      { name: 'toronto', value: 6167865 },
+      { name: 'vancouver', value: 6173331 },
+      { name: 'washington, dc', value: 4140963 }
+    ]
+  }
+]

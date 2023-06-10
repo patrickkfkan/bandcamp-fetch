@@ -1,0 +1,776 @@
+[
+  {
+    name: 'new_releases',
+    title: 'new and notable',
+    items: [
+      {
+        type: 'album',
+        name: 'Bhoot Ghar: Sounds Of The Kathmandu Horror House',
+        url: 'https://aarondilloway.bandcamp.com/album/bhoot-ghar-sounds-of-the-kathmandu-horror-house',
+        imageUrl: 'https://f4.bcbits.com/img/a1953552587_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Aaron Dilloway',
+          url: 'https://aarondilloway.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Bhoot Ghar: Entrance Soundtrack',
+          streamUrl: 'https://t4.bcbits.com/stream/cd82f615cd6c495067545568e68b6fe7/mp3-128/3510304055?p=0&ts=1686495008&t=f7d6df29657be7d5e13c6d7d8d1a305d1678d900&token=1686495008_44011bff7332ede2698a6e359805fe22b6c509be'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Blurry Landscapes',
+        url: 'https://lajungle.bandcamp.com/album/blurry-landscapes',
+        imageUrl: 'https://f4.bcbits.com/img/a3508479022_16.jpg',
+        genre: 'alternative',
+        artist: { name: 'LA JUNGLE', url: 'https://lajungle.bandcamp.com' },
+        featuredTrack: {
+          name: 'La Compagnie De La Chanson',
+          streamUrl: 'https://t4.bcbits.com/stream/33842feaca9b263627517e2dbe8c2483/mp3-128/453427226?p=0&ts=1686495008&t=1b5e7ce660d9069f0c8f72a0c493130b277f3364&token=1686495008_adc43eea6c0b0c1a2e551d811bd40877e1e480e0'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Split',
+        url: 'https://pcrv.bandcamp.com/album/split-4',
+        imageUrl: 'https://f4.bcbits.com/img/a1022068674_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Human Fluid Rot / PCRV',
+          url: 'https://pcrv.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Chamber Maker',
+          streamUrl: 'https://t4.bcbits.com/stream/6d3e7e254a3234b4354e37deee4e6601/mp3-128/99949791?p=0&ts=1686495008&t=14a6aa60f99967ec6141a7b9164ce1d669fd7c18&token=1686495008_a06cb87d08961b803624fd7dd8dad794cae2dafd'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Satan',
+        url: 'https://fortevilfruit.bandcamp.com/album/satan',
+        imageUrl: 'https://f4.bcbits.com/img/a2058438844_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Golem Mecanique',
+          url: 'https://fortevilfruit.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'The False Prophet',
+          streamUrl: 'https://t4.bcbits.com/stream/a21eeb119659148b9824446549925b93/mp3-128/4274107030?p=0&ts=1686495008&t=713de78f51556129a7bce79062625430328405b9&token=1686495008_4b40faee07f48fb9666b0f062917b091d542fa1a'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Welcome to Fun City',
+        url: 'https://ademoninfuncity.bandcamp.com/album/welcome-to-fun-city',
+        imageUrl: 'https://f4.bcbits.com/img/a4151696182_16.jpg',
+        genre: 'ambient',
+        artist: {
+          name: 'A Demon In Fun City',
+          url: 'https://ademoninfuncity.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Welcome to Fun City',
+          streamUrl: 'https://t4.bcbits.com/stream/9eb5f939b6fd98a47047940a2709fa24/mp3-128/835754965?p=0&ts=1686495008&t=94c9047430a3bce3f0e91832d0af41702ba05c40&token=1686495008_7e37edd136e41eb863ec284de751f19fc09eb3f1'
+        }
+      },
+      {
+        type: 'album',
+        name: '(And Lies In General)',
+        url: 'https://xqui.bandcamp.com/album/and-lies-in-general',
+        imageUrl: 'https://f4.bcbits.com/img/a3014948462_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'Xqui', url: 'https://xqui.bandcamp.com' },
+        featuredTrack: {
+          name: 'Betroth Thou Louis Fifteen (Collins Remix)',
+          streamUrl: 'https://t4.bcbits.com/stream/42b77faa5f31195a9c7456bc72224c1b/mp3-128/2704241393?p=0&ts=1686495008&t=857b6395243189023b0af1c783aaed7c822fb921&token=1686495008_6eeedf711e5f0122d9a8a8ebbf377c2ca56095dd'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Atlas',
+        url: 'https://bacfora.bandcamp.com/album/atlas',
+        imageUrl: 'https://f4.bcbits.com/img/a1079703575_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'Bacfora', url: 'https://bacfora.bandcamp.com' },
+        featuredTrack: {
+          name: 'Where i was',
+          streamUrl: 'https://t4.bcbits.com/stream/4a79c1d83e38e014282fa2ecced3de66/mp3-128/718414072?p=0&ts=1686495008&t=8314f511ecd77ead2cd4c0a907a9fcc3b1db3062&token=1686495008_362ae94c818abeb74770ecabd1d2738a63a8759b'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Longsword IV',
+        url: 'https://longsword.bandcamp.com/album/longsword-iv',
+        imageUrl: 'https://f4.bcbits.com/img/a2016551705_16.jpg',
+        genre: 'ambient',
+        artist: { name: 'Longsword', url: 'https://longsword.bandcamp.com' },
+        featuredTrack: {
+          name: 'Champions of The Kingdom Pt. I',
+          streamUrl: 'https://t4.bcbits.com/stream/8c07f7fc8f850a5a9697fa4b2d0bdf18/mp3-128/4009095460?p=0&ts=1686495008&t=7b5daa73142872aaa22b041e0a166f3e92e83b82&token=1686495008_ecc5a7ec334ba39d076c5a29cfb55e9be871708b'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Live at the Stone',
+        url: 'https://decimus.bandcamp.com/album/live-at-the-stone',
+        imageUrl: 'https://f4.bcbits.com/img/a1705820893_16.jpg',
+        genre: 'electronic',
+        artist: {
+          name: 'Thurston Moore/Samara Lubelski/Bill Nace',
+          url: 'https://decimus.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Side A',
+          streamUrl: 'https://t4.bcbits.com/stream/2b9d93a698ee7385100029ba8c4976f3/mp3-128/3991613774?p=0&ts=1686495008&t=3568a15fce7920f001d26dc6947d832e0e28ee62&token=1686495008_78e5954a4b0d3d9126b78ef57f56a71c3a8cca64'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Thanatos [EP]',
+        url: 'https://kaitendaentai.bandcamp.com/album/thanatos-ep',
+        imageUrl: 'https://f4.bcbits.com/img/a102356257_16.jpg',
+        genre: 'experimental',
+        artist: { name: '廻転楕円体', url: 'https://kaitendaentai.bandcamp.com' },
+        featuredTrack: {
+          name: 'Thanatos',
+          streamUrl: 'https://t4.bcbits.com/stream/8798e7cfaa9d8d00b216c78c853cb46a/mp3-128/1155149159?p=0&ts=1686495008&t=57d2a9ac85ad0d6e2bd1208eee1fec8182ae2c82&token=1686495008_d4b764c7f9b99a0af7290bee9d665c6c318aed49'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Diskretion. Funktionsmusik für Verrichtungsboxen',
+        url: 'https://aufabwegen.bandcamp.com/album/diskretion-funktionsmusik-f-r-verrichtungsboxen',
+        imageUrl: 'https://f4.bcbits.com/img/a2438580019_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Statische Musen',
+          url: 'https://aufabwegen.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Box 1 (abgelehnt)',
+          streamUrl: 'https://t4.bcbits.com/stream/8e219c39b501cc2372551848ff1c991e/mp3-128/2742508817?p=0&ts=1686495008&t=cf1ac380dd68213a9317639c1ea28baa2ea1ef88&token=1686495008_716df912366feb191456aff9e7759490850e16a1'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Vampyrrissey / MexiKanye',
+        url: 'https://damienrecords666.bandcamp.com/album/vampyrrissey-mexikanye',
+        imageUrl: 'https://f4.bcbits.com/img/a3108815630_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Eyes of a Dreamer',
+          url: 'https://damienrecords666.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Vampyrrissey',
+          streamUrl: 'https://t4.bcbits.com/stream/cbaebb36188a6f021175d918bd8e66fa/mp3-128/4220951645?p=0&ts=1686495008&t=d3381c4001786b0aaebde2ec17c4091c279c6af0&token=1686495008_15a5de73ab6630672bc814b38055a0fb05bc5dcd'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Down Hell',
+        url: 'https://gatesofhypnos.bandcamp.com/album/down-hell',
+        imageUrl: 'https://f4.bcbits.com/img/a434077486_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Mass Graven Image',
+          url: 'https://gatesofhypnos.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Messianic Rapist',
+          streamUrl: 'https://t4.bcbits.com/stream/7048343f11315c995fb99798c19a0634/mp3-128/2723055589?p=0&ts=1686495008&t=525eb13fffe42d686c5a555c47bca82a8a98af02&token=1686495008_c8e39fd2285c0576c76e402eb08dafbb9bf83802'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Burning the Wickerman',
+        url: 'https://gatesofhypnos.bandcamp.com/album/burning-the-wickerman',
+        imageUrl: 'https://f4.bcbits.com/img/a3781170234_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Crepuscular Rituals',
+          url: 'https://gatesofhypnos.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Burning the Wickerman',
+          streamUrl: 'https://t4.bcbits.com/stream/21667d2f301ba38714ddcde59c678575/mp3-128/3857896313?p=0&ts=1686495008&t=b4993545298376474546200779b7c5aa0c6c670e&token=1686495008_6f5e32f90224cd147928da7a3ec6d17614455932'
+        }
+      },
+      {
+        type: 'album',
+        name: 'pianissimo etc',
+        url: 'https://triptickstapes.bandcamp.com/album/pianissimo-etc',
+        imageUrl: 'https://f4.bcbits.com/img/a2549247670_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Carlo Costa & John McCowen',
+          url: 'https://triptickstapes.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'I',
+          streamUrl: 'https://t4.bcbits.com/stream/6a5f246e56e0744a2fbe972c97c66d65/mp3-128/1619972177?p=0&ts=1686495008&t=2584524796de2413d7ba4b3616f254dba0f22ffb&token=1686495008_c26b3fd28e136c8f9f3990a6de94cdc18220f1bc'
+        }
+      }
+    ]
+  },
+  {
+    name: 'trending_vinyl',
+    title: 'featured noise vinyl',
+    items: [
+      {
+        type: 'album',
+        name: 'Live At The Piper',
+        url: 'https://thee-alcoholics.bandcamp.com/album/live-at-the-piper',
+        imageUrl: 'https://f4.bcbits.com/img/a917724657_16.jpg',
+        genre: 'alternative',
+        artist: {
+          name: 'Thee Alcoholics',
+          url: 'https://thee-alcoholics.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Power (Live)',
+          streamUrl: 'https://t4.bcbits.com/stream/8cca9602350e17e5d413d52c27236b7c/mp3-128/1894712039?p=0&ts=1686495008&t=e75d4564a8fd9c244323f1d2fb73d7900d14f2f4&token=1686495008_1ec98a48403c0cbda089be454cfded20fcc76520'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Blurry Landscapes',
+        url: 'https://lajungle.bandcamp.com/album/blurry-landscapes',
+        imageUrl: 'https://f4.bcbits.com/img/a3508479022_16.jpg',
+        genre: 'alternative',
+        artist: { name: 'LA JUNGLE', url: 'https://lajungle.bandcamp.com' },
+        featuredTrack: {
+          name: 'La Compagnie De La Chanson',
+          streamUrl: 'https://t4.bcbits.com/stream/33842feaca9b263627517e2dbe8c2483/mp3-128/453427226?p=0&ts=1686495008&t=1b5e7ce660d9069f0c8f72a0c493130b277f3364&token=1686495008_adc43eea6c0b0c1a2e551d811bd40877e1e480e0'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Rabble EP',
+        url: 'https://an-i.bandcamp.com/album/rabble-ep',
+        imageUrl: 'https://f4.bcbits.com/img/a992530916_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'AN-i', url: 'https://an-i.bandcamp.com' },
+        featuredTrack: {
+          name: 'Rabble',
+          streamUrl: 'https://t4.bcbits.com/stream/115ee7904d75252841671ae2c95ad6e2/mp3-128/2213801005?p=0&ts=1686495008&t=63e35f490612fee9accee0bc1935eb674c8c206e&token=1686495008_4c917120020952aa92423cfdfac17f6e2623ef4c'
+        }
+      },
+      {
+        type: 'album',
+        name: 'ꆀꃅꆈꌠꉙꇁꑵꃚ ꂱꆹꊨꌠ：ꉼꉹ 涼山彝族音樂 第一輯：口弦 Nuosu Music from Liangshan Vol. 1: Mouth Harp',
+        url: 'https://wvsorcerer.bandcamp.com/album/nuosu-music-from-liangshan-vol-1-mouth-harp',
+        imageUrl: 'https://f4.bcbits.com/img/a733119132_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Various Artists',
+          url: 'https://wvsorcerer.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'ꉼꊇꀉꐡꐥ 殘缺的土墻 Cob Wall In Debris',
+          streamUrl: 'https://t4.bcbits.com/stream/96c85e85d66a0e68c418c914919e514f/mp3-128/1058799769?p=0&ts=1686495008&t=dbd4d1d4a2512c1cebe5d890037bffc166f11549&token=1686495008_3fb809e474ded44ab363c1477c06c4c781eabb61'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Crushed Mealworm Ambience',
+        url: 'https://mridge.bandcamp.com/album/crushed-mealworm-ambience',
+        imageUrl: 'https://f4.bcbits.com/img/a4211637722_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'Michael Ridge', url: 'https://mridge.bandcamp.com' },
+        featuredTrack: {
+          name: 'Untitled',
+          streamUrl: 'https://t4.bcbits.com/stream/2355bac71ef78ee172717bec649a5269/mp3-128/3962435025?p=0&ts=1686495008&t=2f2625b04229cec8f872c9098bf9ecc2efe17c79&token=1686495008_8a048435a51e201cbf5de607da1ffca94ab05742'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Kusōzu : Nine Death Stages',
+        url: 'https://anarchiveslabel.bandcamp.com/album/kus-zu-nine-death-stages',
+        imageUrl: 'https://f4.bcbits.com/img/a2890249893_16.jpg',
+        genre: 'alternative',
+        artist: {
+          name: 'Archeus',
+          url: 'https://anarchiveslabel.bandcamp.com'
+        },
+        featuredTrack: {
+          name: '膿爛相 nō ran sō',
+          streamUrl: 'https://t4.bcbits.com/stream/bf7bd1e7af5485328454f25bdaf90b23/mp3-128/728714797?p=0&ts=1686495008&t=50c347b0d1d38a330441b30a69e116a659499953&token=1686495008_f815c7d2ba3031b9e5707e26360396641ea6c775'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Repo',
+        url: 'https://urashima.bandcamp.com/album/repo',
+        imageUrl: 'https://f4.bcbits.com/img/a1877611708_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Incapacitants', url: 'https://urashima.bandcamp.com' },
+        featuredTrack: {
+          name: 'Repo',
+          streamUrl: 'https://t4.bcbits.com/stream/048833435ae9ae887c5e21a375adf808/mp3-128/3271057889?p=0&ts=1686495008&t=8a7d80dd9bfa98f3ea3151fd28a626cd42b9eda5&token=1686495008_ad835c7ca993646b4b79a7a812feaeebf98d007a'
+        }
+      },
+      {
+        type: 'album',
+        name: 'GREYMOUTH "Parked Up"',
+        url: 'https://sophomorelounge.bandcamp.com/album/greymouth-parked-up',
+        imageUrl: 'https://f4.bcbits.com/img/a3357958328_16.jpg',
+        genre: 'rock',
+        artist: {
+          name: 'Greymouth',
+          url: 'https://sophomorelounge.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Side B',
+          streamUrl: 'https://t4.bcbits.com/stream/6a0e82920f838d1fbaae29e0405fbfca/mp3-128/1806484851?p=0&ts=1686495008&t=b16434a38005a840515bbf5ac7d0427e2096adcf&token=1686495008_67d7c008c511b7e6545e11d436bc567fcb458994'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Vestal Spacy Ritual',
+        url: 'https://urashima.bandcamp.com/album/vestal-spacy-ritual',
+        imageUrl: 'https://f4.bcbits.com/img/a535131431_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Masonna', url: 'https://urashima.bandcamp.com' },
+        featuredTrack: {
+          name: 'Untitled',
+          streamUrl: 'https://t4.bcbits.com/stream/c539b84c2647f0ba238588983d10e183/mp3-128/1817128543?p=0&ts=1686495008&t=921c41f817fbeaee90fe1729469dac3d63b0a3b6&token=1686495008_04c688755ebd1dc83e6d8e48185c74ea2718814a'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Space Metalizer',
+        url: 'https://urashima.bandcamp.com/album/space-metalizer',
+        imageUrl: 'https://f4.bcbits.com/img/a1286867520_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Merzbow', url: 'https://urashima.bandcamp.com' },
+        featuredTrack: {
+          name: 'Space Metalizer Pt. 1',
+          streamUrl: 'https://t4.bcbits.com/stream/b364e21f9e6fd6a1279e6b227752af5b/mp3-128/3625280356?p=0&ts=1686495008&t=b5df5415d0626d02fb74d8f09d3d12d0a3c58c98&token=1686495008_2eef5fb17691852745d03d3726fcda431e29ec7d'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Dry Tears EP',
+        url: 'https://brutoindustries.bandcamp.com/album/dry-tears-ep',
+        imageUrl: 'https://f4.bcbits.com/img/a3103869468_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'xKukum', url: 'https://brutoindustries.bandcamp.com' },
+        featuredTrack: {
+          name: 'Dry Tears',
+          streamUrl: 'https://t4.bcbits.com/stream/d75c41937e8e0362549a8c000110d1ae/mp3-128/2336534978?p=0&ts=1686495008&t=2ac6182b6403ecde866190d46f90875290aa69a2&token=1686495008_5ff23cb7f111cf1adf124b161dcb7234077a54cf'
+        }
+      },
+      {
+        type: 'album',
+        name: 'ANTIMATERIA',
+        url: 'https://grubenwehrfreiburg.bandcamp.com/album/antimateria',
+        imageUrl: 'https://f4.bcbits.com/img/a482994477_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'M.B. / Maurizio Bianchi and Coalminer + Allies',
+          url: 'https://grubenwehrfreiburg.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'DISSECTION by Coalminer feat. Torturing Nurse and Grodock',
+          streamUrl: 'https://t4.bcbits.com/stream/3912be956a87f1e1956625655732d833/mp3-128/934016549?p=0&ts=1686495008&t=2f924b3572e24ea26fad3c259f4c65180e5d9728&token=1686495008_216d139146b33d4a6bebd0275b48049c5b04fdc2'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Electric Rag Live',
+        url: 'https://willguthrie.bandcamp.com/album/electric-rag-live',
+        imageUrl: 'https://f4.bcbits.com/img/a3007052395_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Jean-Luc Guionnet & Will Guthrie',
+          url: 'https://willguthrie.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'A2',
+          streamUrl: 'https://t4.bcbits.com/stream/79d0de7450566da0d2bdfda3fe51423e/mp3-128/1252401047?p=0&ts=1686495008&t=d385e9ba8bd37946df3398edbf31fe2b121307b8&token=1686495008_7d96ae1d95d7e4db532baab50ba89c9026c954ab'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Split',
+        url: 'https://order05records.bandcamp.com/album/split',
+        imageUrl: 'https://f4.bcbits.com/img/a2649102963_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Nag / Astio',
+          url: 'https://order05records.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Passing',
+          streamUrl: 'https://t4.bcbits.com/stream/46acf007afba291abe370e22bbb33e07/mp3-128/3059182561?p=0&ts=1686495008&t=395cd400b4c5ddd683c8839777a7b0e7fe97c4cd&token=1686495008_8495699ee76f70f71c5bfd9c3a314bec1863a7a8'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Losing Circles',
+        url: 'https://marciabassettandthomasdimuzio.bandcamp.com/album/losing-circles',
+        imageUrl: 'https://f4.bcbits.com/img/a3311034560_16.jpg',
+        genre: 'electronic',
+        artist: {
+          name: 'Marcia Bassett and Thomas Dimuzio',
+          url: 'https://marciabassettandthomasdimuzio.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Admonition',
+          streamUrl: 'https://t4.bcbits.com/stream/8d36803958ef01284ba926cd74da7342/mp3-128/4277096877?p=0&ts=1686495008&t=61bdc18b6a26ea6b817749f67d40c633a8e8a43e&token=1686495008_0eef590917d2c514422ccd4f347e10adee9edaf8'
+        }
+      }
+    ]
+  },
+  {
+    name: 'top_sellers',
+    title: 'all-time best selling noise',
+    items: [
+      {
+        type: 'album',
+        name: 'SIGNALIS (ORIGINAL SOUNDTRACK)',
+        url: 'https://signalis-ost.bandcamp.com/album/signalis-original-soundtrack',
+        imageUrl: 'https://f4.bcbits.com/img/a510125997_16.jpg',
+        genre: 'soundtrack',
+        artist: {
+          name: 'Cicada Sirens & 1000 Eyes',
+          url: 'https://signalis-ost.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Die Toteninsel (Emptiness)',
+          streamUrl: 'https://t4.bcbits.com/stream/b162b3188ab9b5dc48704b0515895062/mp3-128/3392523895?p=0&ts=1686495008&t=ceffd2977ceea9c0b30efcfdc697f82313570941&token=1686495008_382a1e70fec4ff2ffaa3327688ff2995d1e82511'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Sounds Of France | France Sound Effects Library',
+        url: 'https://freetousesounds.bandcamp.com/album/sounds-of-france-france-sound-effects-library',
+        imageUrl: 'https://f4.bcbits.com/img/a2198695097_16.jpg',
+        genre: 'ambient',
+        artist: {
+          name: 'freetousesounds',
+          url: 'https://freetousesounds.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Sound Compilation Sounds Of France',
+          streamUrl: 'https://t4.bcbits.com/stream/c6ea66c07c69bff1b0aa0a8b92439ec4/mp3-128/2634037464?p=0&ts=1686495008&t=a288a3feb4e86abb223636bf337e80635f16f72b&token=1686495008_c7cf6251bb6294311b9179cb5c361cb8a8152175'
+        }
+      },
+      {
+        type: 'album',
+        name: 'And In The Darkness, Hearts Aglow',
+        url: 'https://weyesblood.bandcamp.com/album/and-in-the-darkness-hearts-aglow',
+        imageUrl: 'https://f4.bcbits.com/img/a4032822447_16.jpg',
+        genre: 'alternative',
+        artist: { name: 'Weyes Blood', url: 'https://weyesblood.bandcamp.com' },
+        featuredTrack: {
+          name: "It's Not Just Me, It's Everybody",
+          streamUrl: 'https://t4.bcbits.com/stream/2f04b711fe9c4a1052a6b54588510681/mp3-128/1086774697?p=0&ts=1686495008&t=e13cf12684829c9423544acfc34236860c014872&token=1686495008_50b16312494b015ff8b328a12a73a22ceeef86a0'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Peaceful as Hell',
+        url: 'https://blackdresses.bandcamp.com/album/peaceful-as-hell',
+        imageUrl: 'https://f4.bcbits.com/img/a3575771155_16.jpg',
+        genre: 'electronic',
+        artist: {
+          name: 'Black Dresses',
+          url: 'https://blackdresses.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'BEAUTIFUL FRIENDSHIP',
+          streamUrl: 'https://t4.bcbits.com/stream/8d5064f6c97778093c531428ca3efa06/mp3-128/1285558574?p=0&ts=1686495008&t=e872033a3bfb777d171d6634430d6c0b2f78ea7e&token=1686495008_e19dba7830f7854d842d1c89015b7598a7981f4b'
+        }
+      },
+      {
+        type: 'album',
+        name: '1995',
+        url: 'https://music.businesscasual.biz/album/1995',
+        imageUrl: 'https://f4.bcbits.com/img/a1681009058_16.jpg',
+        genre: 'electronic',
+        artist: { name: '☒', url: 'https://music.businesscasual.biz' },
+        featuredTrack: {
+          name: 'Moon Way (feat. Chemical Hypnotist)',
+          streamUrl: 'https://t4.bcbits.com/stream/f796fd140e5e99346511e207225800f3/mp3-128/2165960685?p=0&ts=1686495008&t=6f1ec3fbd05dd8bb197f7ae37bb01200d3fa7da8&token=1686495008_4e1833b16a9cee37938a240d974e78ee2289ba0a'
+        }
+      },
+      {
+        type: 'album',
+        name: 'fade',
+        url: 'https://boris.bandcamp.com/album/fade',
+        imageUrl: 'https://f4.bcbits.com/img/a3826169507_16.jpg',
+        genre: 'rock',
+        artist: { name: 'Boris', url: 'https://boris.bandcamp.com' },
+        featuredTrack: {
+          name: '序章　三叉路',
+          streamUrl: 'https://t4.bcbits.com/stream/e514de403deeb9a8d3fc7c35a6eb8585/mp3-128/1793702739?p=0&ts=1686495008&t=70802532e633ed278724af8894545ca63aaa39e0&token=1686495008_fcd5a3dd9e30466c1a6ac95431d3b3663873e09d'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Dogsbody',
+        url: 'https://modelactriz.bandcamp.com/album/dogsbody',
+        imageUrl: 'https://f4.bcbits.com/img/a2228512258_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Model/Actriz',
+          url: 'https://modelactriz.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Crossing Guard',
+          streamUrl: 'https://t4.bcbits.com/stream/7ebb0626b3b039f570dc4cbd4062771b/mp3-128/409743092?p=0&ts=1686495008&t=940029d35e2859b3b7c52f403e27912507033995&token=1686495008_07db560557b5bec929319b09e05a5333e21af5a0'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Machine 1',
+        url: 'https://thebugmusic.bandcamp.com/album/machine-1',
+        imageUrl: 'https://f4.bcbits.com/img/a477685434_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'The Bug', url: 'https://thebugmusic.bandcamp.com' },
+        featuredTrack: {
+          name: 'Annihilated(Force of Gravity)',
+          streamUrl: 'https://t4.bcbits.com/stream/d188a9d1beb2bbc19f27705f1cdf1fc2/mp3-128/3300393060?p=0&ts=1686495008&t=e981935170b834aa4304cc5c72093648d79ccfe4&token=1686495008_212347b4b1330d8d871add3002dfc081eeb1f0f6'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Jazz Codes',
+        url: 'https://moormother.bandcamp.com/album/jazz-codes',
+        imageUrl: 'https://f4.bcbits.com/img/a4226674197_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'Moor Mother', url: 'https://moormother.bandcamp.com' },
+        featuredTrack: {
+          name: 'RAP JASM (feat. AKAI SOLO & Justmadnice)',
+          streamUrl: 'https://t4.bcbits.com/stream/c2484d9cde26beb51c3aede857e806df/mp3-128/2796877322?p=0&ts=1686495008&t=b9a1e75825b42f24d10a5de4587162bd2cd1ff23&token=1686495008_baa3931b51e5c3010b5c64ca77127aa6fd5100cc'
+        }
+      },
+      {
+        type: 'album',
+        name: 'believe anything, believe everything',
+        url: 'https://jkflesh.bandcamp.com/album/believe-anything-believe-everything',
+        imageUrl: 'https://f4.bcbits.com/img/a242932256_16.jpg',
+        genre: 'electronic',
+        artist: {
+          name: 'EXIT ELECTRONICS',
+          url: 'https://jkflesh.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'YOUR LOT',
+          streamUrl: 'https://t4.bcbits.com/stream/c685b70a3091efb212ee97b3face69ad/mp3-128/2577528116?p=0&ts=1686495008&t=b2b0855771598228e014a78789d171391d9e5a91&token=1686495008_e64d1f5b447d96a4ab1ab03b226ac3137e394ef4'
+        }
+      },
+      {
+        type: 'album',
+        name: 'The Way Through All Things (SG2396)',
+        url: 'https://orphx.bandcamp.com/album/the-way-through-all-things-sg2396',
+        imageUrl: 'https://f4.bcbits.com/img/a396548847_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Orphx', url: 'https://orphx.bandcamp.com' },
+        featuredTrack: {
+          name: 'Man Of Sorrows',
+          streamUrl: 'https://t4.bcbits.com/stream/4c7a02cbcda19f040eed58585e9e2ab0/mp3-128/3018624612?p=0&ts=1686495008&t=f3eabbed4f2ef4e1e975895392a85530537733d7&token=1686495008_76371ade3a38be43801b67acb084ba5e410c610c'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Losing Grip on Reality',
+        url: 'https://geometriclullaby.bandcamp.com/album/losing-grip-on-reality',
+        imageUrl: 'https://f4.bcbits.com/img/a1041180441_16.jpg',
+        genre: 'electronic',
+        artist: {
+          name: 'Fiebertraum',
+          url: 'https://geometriclullaby.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Dancing in the Crypt of Sorrow',
+          streamUrl: 'https://t4.bcbits.com/stream/49264f911c3f9b2841b2d852e820a053/mp3-128/4271360547?p=0&ts=1686495008&t=f89a148681a4dc77a859a85eec5f7a59145712d9&token=1686495008_6c88c261a07a128456069a35f3276a33033e00c4'
+        }
+      },
+      {
+        type: 'album',
+        name: 'leni spiritu ambulat ad lucem',
+        url: 'https://blankskies.com/album/leni-spiritu-ambulat-ad-lucem',
+        imageUrl: 'https://f4.bcbits.com/img/a1330779105_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Ghost On This Earth', url: 'https://blankskies.com' },
+        featuredTrack: {
+          name: 'leni spiritu ambulat ad lucem Part I',
+          streamUrl: 'https://t4.bcbits.com/stream/50f026646920033d4d208215f3c8532a/mp3-128/1397038943?p=0&ts=1686495008&t=441a4dad796a607862ea79c611fb2e011db50929&token=1686495008_13526870d33a69d95480388a3fa45fa1c4a6bacc'
+        }
+      },
+      {
+        type: 'album',
+        name: 'metempsychosis',
+        url: 'https://i-am-monodrone.bandcamp.com/album/metempsychosis',
+        imageUrl: 'https://f4.bcbits.com/img/a3095954567_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Monodrone',
+          url: 'https://i-am-monodrone.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'consciousness in an unfamiliar place',
+          streamUrl: 'https://t4.bcbits.com/stream/3c64b3567dd5c929adf29040ef4d0b36/mp3-128/115066593?p=0&ts=1686495008&t=a93d04335c0d6c67d8f55584f617de58d5b78b05&token=1686495008_84efd2b1e9f896d8d4390abeed2e1f40a5c71fc4'
+        }
+      },
+      {
+        type: 'album',
+        name: 'artless',
+        url: 'https://ifidieinmississippi.bandcamp.com/album/artless-2',
+        imageUrl: 'https://f4.bcbits.com/img/a3831177236_16.jpg',
+        genre: 'acoustic',
+        artist: {
+          name: 'if i die in mississippi',
+          url: 'https://ifidieinmississippi.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'goth kids by the carousel in the mall',
+          streamUrl: 'https://t4.bcbits.com/stream/340a5b2cd0489fedc8e3754d403a4b7f/mp3-128/1081232611?p=0&ts=1686495008&t=4b245e124029212d6ad6b2c7721ce922c0a09ae1&token=1686495008_e237fbd3ba9108a35089792805494b18e5db3fae'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Femina Furens',
+        url: 'https://djunah.bandcamp.com/album/femina-furens',
+        imageUrl: 'https://f4.bcbits.com/img/a3751537011_16.jpg',
+        genre: 'rock',
+        artist: { name: 'Djunah', url: 'https://djunah.bandcamp.com' },
+        featuredTrack: {
+          name: 'Grooming',
+          streamUrl: 'https://t4.bcbits.com/stream/60d8617ace7b97fa6cfd95a2ab1078d6/mp3-128/2580329716?p=0&ts=1686495008&t=087572b03a4bad145486470d2ff91ef6c40b3e09&token=1686495008_a16e4798c1b6fe1cba28a340327b1cc3f047835d'
+        }
+      }
+    ]
+  },
+  {
+    name: 'fan_reviews',
+    title: 'recommendations from fans',
+    items: [
+      {
+        type: 'album',
+        name: 'Krun Macula',
+        url: 'https://jutegyte.bandcamp.com/album/krun-macula',
+        imageUrl: 'https://f4.bcbits.com/img/a1890193785_16.jpg',
+        genre: 'metal',
+        artist: { name: 'Jute Gyte', url: 'https://jutegyte.bandcamp.com' },
+        featuredTrack: {
+          name: 'Dionysus Fluctus',
+          streamUrl: 'https://t4.bcbits.com/stream/3cd6d59e58ccbcc598e6b4796740f5ab/mp3-128/2644412281?p=0&ts=1686495009&t=19a1f348a7ed6e2c412c31c72acdd0647b4b681d&token=1686495009_616c9c883e348bfad9763da3cc15d4b638656480'
+        }
+      },
+      {
+        type: 'album',
+        name: 'DISSECTING A ONE-WINGED BIRD',
+        url: 'https://ackodband.bandcamp.com/album/dissecting-a-one-winged-bird',
+        imageUrl: 'https://f4.bcbits.com/img/a2253539932_16.jpg',
+        genre: 'metal',
+        artist: {
+          name: 'A Constant Knowledge of Death',
+          url: 'https://ackodband.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'THE HALLOWED CASTRATION OF THRONE',
+          streamUrl: 'https://t4.bcbits.com/stream/ee1edbaf27e012fefa55c07338cf3785/mp3-128/3465355863?p=0&ts=1686495009&t=290135a82a19b2658276a813e3f46e7d98051a98&token=1686495009_8154754d2fa9b1b52da394908829675ed06a7456'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Satan',
+        url: 'https://fortevilfruit.bandcamp.com/album/satan',
+        imageUrl: 'https://f4.bcbits.com/img/a2058438844_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'Golem Mecanique',
+          url: 'https://fortevilfruit.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'The False Prophet',
+          streamUrl: 'https://t4.bcbits.com/stream/a21eeb119659148b9824446549925b93/mp3-128/4274107030?p=0&ts=1686495009&t=78dca823bf95fa1a21fb807d2447fd59281cff8b&token=1686495009_0b75c6e04a107d9585c44629b21db6924a041ee3'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Hatomatsuri',
+        url: 'https://dinzuartefacts.bandcamp.com/album/hatomatsuri',
+        imageUrl: 'https://f4.bcbits.com/img/a1179620564_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'Merzbow', url: 'https://dinzuartefacts.bandcamp.com' },
+        featuredTrack: {
+          name: 'Part I',
+          streamUrl: 'https://t4.bcbits.com/stream/babeaf5c814e80d824bc3118a5548ca1/mp3-128/2337588048?p=0&ts=1686495009&t=613589047d7f4f61b17b5351fc5f3bed8c646a88&token=1686495009_ca42317372b09896c409877c054a1b6add409115'
+        }
+      },
+      {
+        type: 'album',
+        name: "A Worker's Guide To Transfiguration",
+        url: 'https://strangemono.bandcamp.com/album/a-workers-guide-to-transfiguration',
+        imageUrl: 'https://f4.bcbits.com/img/a2029116366_16.jpg',
+        genre: 'punk',
+        artist: { name: 'Truculent', url: 'https://strangemono.bandcamp.com' },
+        featuredTrack: {
+          name: 'You In The Depths Of Heaven, An Eagle Of Power, Behold!',
+          streamUrl: 'https://t4.bcbits.com/stream/22e79d0efb0d9aacdc0910fa79a1ad4b/mp3-128/3588905207?p=0&ts=1686495009&t=025d049d8f5475d814bc1686a0d95d58df91e840&token=1686495009_702b004de01ad1fd4c69b1e5b06f37f9a816bf83'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Dreams In Splattered Lines',
+        url: 'https://wolf-eyes.bandcamp.com/album/dreams-in-splattered-lines',
+        imageUrl: 'https://f4.bcbits.com/img/a809163437_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Wolf Eyes', url: 'https://wolf-eyes.bandcamp.com' },
+        featuredTrack: {
+          name: 'Car Wash Two w/ Short Hands',
+          streamUrl: 'https://t4.bcbits.com/stream/f4b94de29064a8e529daefc4c8b1b796/mp3-128/4065081837?p=0&ts=1686495009&t=ce0917608a47adb74957f32a188ab700dc922c61&token=1686495009_0a360d45ae5a4839fa708edf500ff411cbc44723'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Snacks Compilation',
+        url: 'https://clublatemusic.bandcamp.com/album/snacks-compilation',
+        imageUrl: 'https://f4.bcbits.com/img/a439746030_16.jpg',
+        genre: 'experimental',
+        artist: {
+          name: 'CLM x GUN',
+          url: 'https://clublatemusic.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Rebirth',
+          streamUrl: 'https://t4.bcbits.com/stream/632452c0e7d30a3d60765caa01414fe7/mp3-128/2470676124?p=0&ts=1686495009&t=472df945d8900e1e85f4dfde78d8a41def9dbc96&token=1686495009_a9a6c81b0f5705e1646f071b4bb5fcf65b9f8dbc'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Shrouded',
+        url: 'https://everydaydust.bandcamp.com/album/shrouded',
+        imageUrl: 'https://f4.bcbits.com/img/a1683608029_16.jpg',
+        genre: 'ambient',
+        artist: {
+          name: 'Everyday Dust',
+          url: 'https://everydaydust.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'Broken Wings',
+          streamUrl: 'https://t4.bcbits.com/stream/80b8681b029fad1a0b830b4216fed2cb/mp3-128/2012156557?p=0&ts=1686495009&t=e85022f62b2f30741a0127050e3bf1ff96e1d9f4&token=1686495009_089cc4f25c92577fd34f5cf4fb66391aedf44aa2'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Ambient Works to Dissociate to, Vol. 2',
+        url: 'https://blankskies.com/album/ambient-works-to-dissociate-to-vol-2',
+        imageUrl: 'https://f4.bcbits.com/img/a1234048215_16.jpg',
+        genre: 'electronic',
+        artist: { name: 'Ernest Strauhal', url: 'https://blankskies.com' },
+        featuredTrack: {
+          name: 'Intro',
+          streamUrl: 'https://t4.bcbits.com/stream/62f8936aee5b6ed3cb26e1808a5fff0e/mp3-128/545634706?p=0&ts=1686495009&t=7a09df1dcdc58bce06f1d8356e9b4ec42991c1cd&token=1686495009_639661c5d6297786cb68e5c0e1cbf4cf081d0541'
+        }
+      }
+    ]
+  }
+]

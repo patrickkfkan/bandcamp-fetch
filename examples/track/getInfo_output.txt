@@ -1,0 +1,16 @@
+{
+  type: 'track',
+  name: "T'es belle",
+  url: 'https://musique.coeurdepirate.com/track/tes-belle',
+  imageUrl: 'https://f4.bcbits.com/img/a0774650359_16.jpg',
+  releaseDate: '01 Oct 2020 00:00:00 GMT',
+  streamUrl: 'https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1686495112&t=a7968eecb9122b64f2575aeef7bf9a4c902b3f0e&token=1686495112_860fcdc1a34d6bc999ffad1adfecd227b435bd25',
+  artist: { name: 'Cœur de pirate', url: 'https://musique.coeurdepirate.com' },
+  publisher: {
+    name: 'Cœur de pirate',
+    url: 'https://musique.coeurdepirate.com',
+    description: 'Plus d’une décennie s’est écoulée depuis que Béatrice Martin s’est incrustée dans le paysage sous le pseudonyme désormais coutumier de Cœur de pirate.  Armée d’un talent digne de l’orfèvrerie, d’une poésie tantôt raffinée, tantôt subversive, et d’une aura insaisissable, elle séduit comme elle surprend, jaillissant là où on ne l’attend pas.',
+    imageUrl: 'https://f4.bcbits.com/img/0026415167_28.jpg'
+  },
+  label: { name: 'Bravo musique', url: 'https://bravomusique.bandcamp.com' }
+}

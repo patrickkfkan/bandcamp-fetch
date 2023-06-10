@@ -1,0 +1,101 @@
+Autocomplete tag suggestions: ambient, Limit: 10
+------------------------------------------------
+[
+  { type: 'tag', count: 586893, value: 'ambient', name: 'ambient' },
+  {
+    type: 'tag',
+    count: 87051,
+    value: 'ambient-electronic',
+    name: 'ambient electronic'
+  },
+  {
+    type: 'tag',
+    count: 15222,
+    value: 'ambient-rock',
+    name: 'ambient rock'
+  },
+  {
+    type: 'tag',
+    count: 9207,
+    value: 'ambient-techno',
+    name: 'ambient techno'
+  },
+  {
+    type: 'tag',
+    count: 5607,
+    value: 'ambient-music',
+    name: 'ambient music'
+  },
+  {
+    type: 'tag',
+    count: 3606,
+    value: 'ambient-drone',
+    name: 'ambient drone'
+  }
+]
+
+Autocomplete location suggestions: Fin, Limit: 10
+-------------------------------------------------
+[
+  {
+    type: 'location',
+    value: 2186224,
+    name: 'New Zealand',
+    fullName: 'New Zealand'
+  },
+  {
+    type: 'location',
+    value: 660013,
+    name: 'Finland',
+    fullName: 'Finland'
+  },
+  {
+    type: 'location',
+    value: 5308655,
+    name: 'Phoenix',
+    fullName: 'Phoenix, Arizona'
+  },
+  {
+    type: 'location',
+    value: 830685,
+    name: 'Keski-Suomi',
+    fullName: 'Keski-Suomi, Republic of Finland'
+  },
+  {
+    type: 'location',
+    value: 2139685,
+    name: 'New Caledonia',
+    fullName: 'New Caledonia'
+  },
+  {
+    type: 'location',
+    value: 5153924,
+    name: 'Findlay',
+    fullName: 'Findlay, Ohio'
+  },
+  {
+    type: 'location',
+    value: 830708,
+    name: 'Finland Proper',
+    fullName: 'Finland Proper, Republic of Finland'
+  },
+  {
+    type: 'location',
+    value: 780166,
+    name: 'Finnmark Fylke',
+    fullName: 'Finnmark Fylke, Kingdom of Norway'
+  },
+  {
+    type: 'location',
+    value: 2714903,
+    name: 'Finspång',
+    fullName: 'Finspång, Östergötland'
+  },
+  {
+    type: 'location',
+    value: 3176983,
+    name: 'Finale Emilia',
+    fullName: 'Finale Emilia, Emilia-Romagna'
+  }
+]
+

@@ -1,0 +1,9 @@
+{
+  "plugin": ["typedoc-plugin-markdown", "typedoc-plugin-rename-defaults"],
+  "excludePrivate": true,
+  "excludeExternals": true,
+  "excludeInternal": true,
+  "entryPoints": ["src/index.ts"],
+  "readme": "none",
+  "out": "docs/api"
+}
