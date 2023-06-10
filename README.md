@@ -1,6 +1,19 @@
 # bandcamp-fetch
 
-A JS library for scraping Bandcamp content; inspired by [bandcamp-scraper](https://github.com/masterT/bandcamp-scraper).
+Library for scraping Bandcamp content.
+
+Coverage:
+
+- Bandcamp Discover
+- Album and track info
+- Artists, labels, label artists, discography
+- Articles (aka. Bandcamp Daily)
+- Shows
+- Tags, including releases and highlights by tag
+- Search
+- Fan collections, wishlists and following artists / genres
+
+Packaged as ESM + CJS hybrid module with typings.
 
 # Installation
 
@@ -11,342 +24,804 @@ npm i bandcamp-fetch --save
 # Usage
 
 ```
-const bcfetch = require('bandcamp-fetch');
+import bcfetch from 'bandcamp-fetch';
 
-bcfetch.discover(...).then( results => {
-    ...
-});
+const results = await bcfetch.discovery.discover(...);
 ```
 
 # API
 
-Each function returns a Promise which resolves to the fetched data.
+## Discovery API
 
-### `discover([params], [options])`
+To access the Discovery API:
 
-[**Example**](examples/discover.js) ([output](examples/discover_output.txt))
+```
+import bcfetch from 'bandcamp-fetch';
 
-Fetches albums through Bandcamp Discover.
+const discovery = bcfetch.discovery;
 
-- `params` (optional) - object specifying params to be passed to Bandcamp Discover
-    - genre
-    - subgenre: only valid when genre is something other than 'all'
-    - location
-    - sortBy
-    - artistRecommendationType: only valid when sortBy is 'rec' (artist recommended)
-    - format
-    - time
-    - page
+const options = await discovery.getAvailableOptions();
+const results = await discovery.discover(...);
+```
+**Methods:**
+<details>
+<summary><code>discover([params])</code></summary>
+<br />
 
-  All properties are optional. Possible values for each property can be obtained with the `getDiscoverOptions()` function.
+[**Example**](examples/discovery/discover.ts) ([output](examples/discovery/discover_output.txt))
 
-  `params` passed to this function will be sanitized with `sanitizeDiscoverParams()`. A copy of the sanitized params can obtained through the `params` property of the returned result.
+<p>Fetches albums through Bandcamp Discover.</p>
 
-- `options` (optional) - object specifying options to be used when formulating results:
-    - albumImageFormat: name, Id or object referring to an image format.
-    - artistImageFormat
+**Params**
 
-  All properties are optional. Image formats can be obtained with the `getImageFormats()` function.
+- `params`: ([DiscoverParams](docs/api/interfaces/DiscoverParams.md)) (*optional* and *all properties optional*)
+    - `genre`: (string)
+    - `subgenre`: (string) only valid when `genre` is set to something other than 'all'.
+    - `location`: (string)
+    - `sortBy`: (string)
+    - `artistRecommendationType`: (string) only valid when `sortBy` is 'rec' (artist recommended).
+    - `format`: (string)
+    - `time`: (number)
+    - `page`: (number)
+    - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
 
-### `getDiscoverOptions()`
+To see what values can be set in `params`, call `getAvailableOptions()`.
 
-[**Example**](examples/getDiscoverOptions.js) ([output](examples/getDiscoverOptions_output.txt))
+**Returns**
 
-Fetches Bandcamp Discover options that can be passed back to `discover()`.
+Promise resolving to [DiscoverResult](docs/api/interfaces/DiscoverResult.md).
 
-### `sanitizeDiscoverParams(params)`
+---
+</details>
 
-[**Example**](examples/sanitizeDiscoverParams.js) ([output](examples/sanitizeDiscoverParams_output.txt))
+<details>
+<summary><code>getAvailableOptions()</code></summary>
+<br />
 
-Sanitizes `params` by setting default values for omitted params and removing irrelevant ones.
+[**Example**](examples/discovery/getAvailableOptions.ts) ([output](examples/discovery/getAvailableOptions_output.txt))
 
-You don't have to call this function on params passed to `discover()` - they will be sanitized automatically.
+<p>Fetches Bandcamp Discover options that can be used to configure <code>params</code> for passing into <code>discover()</code>.</p>
 
-### `getImageFormats([filter])`
+**Returns**
 
-[**Example**](examples/getImageFormats.js) ([output](examples/getImageFormats_output.txt))
+Promise resolving to [DiscoverOptions](docs/api/interfaces/DiscoverOptions.md).
 
-Fetches the list of image formats used in Bandcamp.
+---
+</details>
 
-- `filter` (optional) - 'bio' (for artist / profile-type images)* or 'album'. If specified, narrows down the result to include only formats applicable to the specified value.
+<details>
+<summary><code>sanitizeDiscoverParams([params])</code></summary>
+<br />
 
-> The 'artist' filter value is deprecated. Use 'bio' instead.
+[**Example**](examples/discovery/sanitizeDiscoverParams.ts) ([output](examples/discovery/sanitizeDiscoverParams_output.txt))
 
-### `getImageFormat(idOrName)`
+<p>Sanitizes <code>params</code> by setting default values for omitted properties and removing irrelevant or inapplicable ones.</p>
 
-Fetches the image format that matches Id or name. If none is found, the result will be `null`.
+<p>
+Note that you don't have to call this method on params passed into <code>discover()</code> as they will be sanitized automatically.
+</p>
 
-### `getArtistOrLabelInfo(artistOrLabelUrl, [options])`
+**Params**
 
-[**Example**](examples/getArtistOrLabelInfo.js) ([output](examples/getArtistOrLabelInfo_output.txt))
+- `params`: ([DiscoverParams](docs/api/interfaces/DiscoverParams.md)) (*optional*) the discover params to sanitize.
 
-Fetches information about an artist or label.
+**Returns**
 
-- `artistOrLabelUrl`
-- `options` (optional)
-    - imageFormat
-    - labelId
+Promise resolving to sanitized [DiscoverParams](docs/api/interfaces/DiscoverParams.md).
 
-This function tries to fetch the most complete set of data by scraping the following pages (returning immediately at any point the data becomes complete):
+---
+</details>
 
-1. The page referred to by `artistOrLabelUrl`
-2. The 'music' page of the artist or label (`artistOrLabelUrl/music`)
+## Image API
+
+To access the Image API:
+
+```
+import bcfetch, { ImageFormatFilter } from 'bandcamp-fetch';
+
+const image = bcfetch.image;
+
+const formats = await image.getFormats(ImageFormatFilter.Album);
+```
+**Methods:**
+
+<details>
+<summary><code>getFormats([filter])</code></summary>
+<br />
+
+[**Example**](examples/image/getFormats.ts) ([output](examples/image/getFormats_output.txt))
+
+<p>Fetches the list of image formats used in Bandcamp.</p>
+
+**Params**
+
+- `filter`: ([ImageFormatFilter](docs/api/enums/ImageFormatFilter.md)) (*optional*) if specified, narrows down the result to include only formats applicable to the specified value.
+
+**Returns**
+
+Promise resolving to Array<[ImageFormat](docs/api/interfaces/ImageFormat.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>getImageFormat(target, [fallbackId])</code></summary>
+<br />
+
+<p>Fetches the image format that matches <code>target</code>. If none is found, the result will be <code>null</code>.</p>
+
+**Params**
+
+- `target`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
+    - If target is string or number, the method finds the image format with matching name or Id (as appropriate).
+    - If target satisfies the [ImageFormat](docs/api/interfaces/ImageFormat.md) interface constraint, then it is returned as is.
+- `fallbackId`: (number) (*optional*) if no match is found for `target`, try to obtain format with Id matching `fallbackId`.
+
+**Returns**
+
+Promise resolving to matching [ImageFormat](docs/api/interfaces/ImageFormat.md), or `null` if none matches `target` nor `fallbackId` (if specified).
+
+---
+</details>
+
+
+## Band API
+
+A band can be an artist or label. To access the Band API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const band = bcfetch.band;
+
+const info = await band.getInfo(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>getInfo(params)</code></summary>
+<br />
+
+[**Example**](examples/band/getInfo.ts) ([output](examples/band/getInfo_output.txt))
+
+<p>Fetches information about an artist or label.</p>
+
+**Params**
+
+- `params`: ([BandAPIGetInfoParams](docs/api/interfaces/BandAPIGetInfoParams.md))
+    - `bandUrl`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `labelId`: (number) (*optional*)
+
+The method tries to assemble the most complete set of data by scraping the following pages (returning immediately at any point the data becomes complete):
+
+1. The page referred to by `bandUrl`
+2. The 'music' page of the artist or label (`bandUrl/music`)
 3. The first album or track in the artist's or label's discography
 
-Sometimes, the label could not be fetched successfully for artists. If you know the `labelId` of the label that the artist belongs to, you can specify it in `options`. This will ensure that `label` will not be `null` in the artist info. If you pass a label URL to this function, you can find the `labelId` in the result.
+Sometimes, label information is missing for artists even when they do belong to a label. If you know the `labelId` of the label that the artist belongs to, you can specify it in `params`. This will ensure that `label` will not be `null` in the artist info. If you pass a label URL to this function, you can find the `labelId` in the result.
 
-### `getLabelArtists(labelUrl, [options])`
+**Returns**
 
-[**Example**](examples/getLabelArtists.js) ([output](examples/getLabelArtists_output.txt))
+Promise resolving to [Artist](docs/api/interfaces/Artist.md) or [Label](docs/api/interfaces/Label.md).
 
-Fetches the list of artists belonging to a label.
+---
+</details>
 
-- `labelUrl`
-- `options` (optional)
-    - imageFormat
+<details>
+<summary><code>getLabelArtists(params)</code></summary>
+<br />
 
-### `getDiscography(artistOrLabelUrl, [options])`
+[**Example**](examples/band/getLabelArtists.ts) ([output](examples/band/getLabelArtists_output.txt))
 
-[**Example**](examples/getDiscography.js) ([output](examples/getDiscography_output.txt))
+<p>Fetches the list of artists belonging to a label.</p>
 
-Fetches the list of albums and standalone tracks belonging to an artist or label.
+**Params**
 
-- `artistOrLabelUrl`
-- `options` (optional)
-    - imageFormat
+- `params`: ([BandAPIGetLabelArtistsParams](docs/api/interfaces/BandAPIGetLabelArtistsParams.md))
+    - `labelUrl`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
 
-### `getAlbumInfo(albumUrl, [options])`
+**Returns**
 
-[**Example**](examples/getAlbumInfo.js) ([output](examples/getAlbumInfo_output.txt))
+Promise resolving to Array<[LabelArtist](docs/api/README.md#labelartist)>.
 
-Fetches information about an album.
+---
+</details>
 
-- `albumUrl`
-- `options` (optional)
-    - albumImageFormat
-    - artistImageFormat
-    - includeRawData
+<details>
+<summary><code>getDiscography(params)</code></summary>
+<br />
 
-Following Bandcamp's removal of description and image URL from artist metadata, `artist.description` and `artist.imageUrl` of the returned object are now set to to the same values as `publisher.description` and `publisher.imageUrl`, respectively. This is for backward comaptibility and the `artist.description` and `artist.imageUrl` properties might be removed in a future release. 
- 
-Furthermore, if the artist URL is not found in the scraped data, then `artist.url` will be set to the same value as `publisher.url`. This behavior might be subject to change in the future.
+[**Example**](examples/band/getDiscography.ts) ([output](examples/band/getDiscography_output.txt))
 
-### `getTrackInfo(trackUrl, [options])`
+<p>Fetches the list of albums and standalone tracks belonging to an artist or label.</p>
 
-[**Example**](examples/getTrackInfo.js) ([output](examples/getTrackInfo_output.txt))
+**Params**
 
-Fetches information about a track.
+- `params`: ([BandAPIGetDiscographyParams](docs/api/interfaces/BandAPIGetDiscographyParams.md))
+    - `bandUrl`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
 
-- `trackUrl`
-- `options` (optional)
-    - albumImageFormat
-    - artistImageFormat
-    - includeRawData
+**Returns**
 
-Following Bandcamp's removal of description and image URL from artist metadata, `artist.description` and `artist.imageUrl` of the returned object are now set to to the same values as `publisher.description` and `publisher.imageUrl`, respectively. This is for backward comaptibility and the `artist.description` and `artist.imageUrl` properties might be removed in a future release. 
+Promise resolving to Array<[Album](docs/api/interfaces/Album.md) | [Track](docs/api/interfaces/Track.md)>.
 
-Furthermore, if the artist URL is not found in the scraped data, then `artist.url` will be set to the same value as `publisher.url`. This behavior might be subject to change in the future.
+---
+</details>
 
-### `getAlbumHighlightsByTag(tagUrl, [options])`
 
-[**Example**](examples/getAlbumHighlightsByTag.js) ([output](examples/getAlbumHighlightsByTag_output.txt))
+## Album API
 
-Fetches album highlights for the tag referred to by `tagUrl`. The result is an array of album collections, with each collection corresponding to a highlight category such as 'new and notable' and 'all-time best selling'.
-
-- `tagUrl`
-
-  Tag URLs can be obtained with the `getTags()` function.
-
-- `options` (optional)
-    - imageFormat
-
-### `getTags()`
-
-[**Example**](examples/getTags.js) ([output](examples/getTags_output.txt))
-
-Fetches Bandcamp tags. The result is an object with the following properties:
-- `tags`: non-location tags
-- `locations`: location tags
-
-### `search(params, [options])`
-
-[**Example**](examples/search.js) ([output](examples/search_output.txt))
-
-Searches for `params.query`.
-
-- `params`
-    - query: search string
-    - itemType (optional): 'artistsAndLabels', 'albums' or 'tracks'. Searches all item types if unknown value or omitted.
-    - page (1 if omitted)
-- `options` (optional)
-    - albumImageFormat
-    - artistImageFormat
-
-### `getAllShows([options])`
-
-[**Example**](examples/getAllShows.js) ([output](examples/getAllShows_output.txt))
-
-Fetches all Bandcamp shows. Each entry in the returned array contains basic information about a show. To retrieve details of a show, pass the `url` property of the entry to `getShow()`.
-
-- `options` (optional)
-    - showImageFormat
-
-### `getShow(showUrl, [options])`
-
-[**Example**](examples/getShow.js) ([output](examples/getShow_output.txt))
-
-Get show details for the given `showUrl`.
-
-- `options` (optional)
-    - albumImageFormat
-    - artistImageFormat
-    - showImageFormat
-
-### `getArticleCategories()`
-
-[**Example**](examples/getArticleCategories.js) ([output](examples/getArticleCategories_output.txt))
-
-Fetches the list of Bandcamp Daily article categories. Categories are grouped into sections.
-
-### `getArticleList([params], [options])`
-
-[**Example**](examples/getArticleList.js) ([output](examples/getArticleList_output.txt))
-
-Fetches the list of Bandcamp Daily articles under the category specified by `params.categoryUrl` (or all categories if not specified).
-
-- `params` (optional)
-    - categoryUrl
-- `options` (optional)
-    - imageFormat
-
-### `getArticle(articleUrl, [options])`
-
-[**Example**](examples/getArticle.js) ([output](examples/getArticle_output.txt))
-
-Fetches the contents of the Bandcamp Daily article at `articleUrl`.
-
-- `articleUrl`
-- `options` (optional)
-    - albumImageFormat
-    - artistImageFormat
-    - includeRawData
-
-### `getTagInfo(tagUrl)`
-
-[**Example**](examples/getTagInfo.js) ([output](examples/getTagInfo_output.txt))
-
-Fetches information about the tag referred to by `tagUrl`.
-
-### `getReleasesByTag(tagUrl, [params], [options])`
-
-[**Example**](examples/getReleasesByTag.js) ([output](examples/getReleasesByTag_output.txt))
-
-Fetches releases matching the tag referred to by `tagUrl`.
-
-- `tagUrl`
-- `params` (optional)
-    - filters:
-        - location
-        - tags: array of tag values to match, in addition to the one referred to by `tagUrl`.
-        - sort
-        - format
-    - page (1 if omitted)
-
-  All properties are optional. For omitted properties, default values obtained from `tagUrl` will be used. Possible filter values can be obtained by calling `getReleasesByTagFilterOptions()`. For `filters.location` and `filters.tag`, you may look up additional values not returned by `getReleasesByTagFilterOptions()` through `searchLocation()` and `searchTag()`, respectively.
-
-- `options` (optional)
-    - imageFormat
-    - useHardcodedDefaultFilters: if `true`, use hardcoded default values for filters not specified in `params.filters`. If `false` or unspecified, default filter values will be obtained by calling `getReleasesByTagFilterOptions()` (extra query means slower performance).
-
-### `getReleasesByTagFilterOptions(tagUrl)`
-
-[**Example**](examples/getReleasesByTagFilterOptions.js) ([output](examples/getReleasesByTagFilterOptions_output.txt))
-
-Fetches the list of possible filter values for `getReleasesByTag()`. For `location` and `tag` filters, this function does not return a conclusive list of values. You may use `searchLocation()` and `searchTag()` to look up additional values.
-
-- `tagUrl`: the URL of the tag for which filter values should be returned
-
-### `searchLocation(params)`
-
-[**Example**](examples/searchLocation.js) ([output](examples/searchLocation_output.txt))
-
-Fetches the list of locations matching `params.q`. Results include both partial and full matches. Each item in the returned array corresponds to a matching location, and its `value` property can be used for setting the `location` filter in `getReleasesByTag()`.
-
-- `params`:
-    - q: the string to match
-    - limit: the maximum number of results to return
-
-### `searchTag(params)`
-
-[**Example**](examples/searchTag.js) ([output](examples/searchTag_output.txt))
-
-Fetches the list of tags matching `params.q`. Results include both partial and full matches. Each item in the returned array corresponds to a matching tag, and its `value` property can be used for setting the `tags` filter in `getReleasesByTag()`.
-
-- `params`:
-    - q: the string to match
-    - limit: the maximum number of results to return
-
-### `getFanInfo(username, [options])`
-
-[**Example**](examples/getFanInfo.js) ([output](examples/getFanInfo_output.txt))
-
-Fetches information about a fan.
-
-- `username`
-- `options` (optional)
-    - imageFormat
-
-### `getFanCollection(usernameOrContinuationToken, [options])`
-
-[**Example**](examples/getFanCollection.js) ([output](examples/getFanCollection_output.txt))
-
-Fetches the list of albums / tracks in a fan's collection.
-
-- `usernameOrContinuationToken`: if username is provided, returns the first batch of items in the collection. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
-- `options` (optional)
-    - imageFormat
-
-### `getFanWishlist(usernameOrContinuationToken, [options])`
-
-[**Example**](examples/getFanWishlist.js) ([output](examples/getFanWishlist_output.txt))
-
-Fetches the list of albums / tracks added to a fan's wishlist.
-
-- `usernameOrContinuationToken`: if username is provided, returns the first batch of wishlist items. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
-- `options` (optional)
-    - imageFormat
-
-### `getFanFollowingArtistsAndLabels(usernameOrContinuationToken, [options])`
-
-[**Example**](examples/getFanFollowingArtistsAndLabels.js) ([output](examples/getFanFollowingArtistsAndLabels_output.txt))
-
-Fetches the list of artists and labels followed by a fan.
-
-- `usernameOrContinuationToken`: if username is provided, returns the first batch of artists and labels. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
-- `options` (optional)
-    - imageFormat
-
-### `getFanFollowingGenres(usernameOrContinuationToken, [options])`
-
-[**Example**](examples/getFanFollowingGenres.js) ([output](examples/getFanFollowingGenres_output.txt))
-
-Fetches the list of genres followed by a fan. Each genre is actually a Bandcamp tag, so you can, for example, pass its `url` value to `getReleasesByTag()`.
-
-- `usernameOrContinuationToken`: if username is provided, returns the first batch of genres. To obtain further items, call the function again but, instead of username, pass `continuationToken` from the result of the first call. If there are no further items available, `continuationToken` will be `null`.
-- `options` (optional)
-    - imageFormat
-
-## Rate Limiting
-
-The API functions can be called with rate limiting like this:
+To access the Album API:
 
 ```
-bcfetch.limiter.getAlbumInfo(...);
+import bcfetch from 'bandcamp-fetch';
+
+const album = bcfetch.album;
+
+const info = await album.getInfo(...);
 ```
 
-[**Example**](examples/limiter.js) ([output](examples/limiter_output.txt))
+**Methods:**
+
+<details>
+<summary><code>getInfo(params)</code></summary>
+<br />
+
+[**Example**](examples/album/getInfo.ts) ([output](examples/album/getInfo_output.txt))
+
+<p>Fetches info about an album.</p>
+
+**Params**
+
+- `params`: ([AlbumAPIGetInfoParams](docs/api/interfaces/AlbumAPIGetInfoParams.md))
+    - `albumUrl`: (string)
+    - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `includeRawData`: (boolean) (*optional)
+
+**Returns**
+
+Promise resolving to [Album](docs/api/interfaces/Album.md).
+
+> If artist URL is not found in the scraped data, then `artist.url` will be set to the same value as `publisher.url`
+
+---
+</details>
+
+## Track API
+
+To access the Track API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const track = bcfetch.track;
+
+const info = await track.getInfo(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>getInfo(params)</code></summary>
+<br />
+
+[**Example**](examples/track/getInfo.ts) ([output](examples/track/getInfo_output.txt))
+
+<p>Fetches info about a track.</p>
+
+**Params**
+
+- `params`: ([TrackAPIGetInfoParams](docs/api/interfaces/Tra))
+    - `trackUrl`: (string)
+    - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `includeRawData`: (boolean) (*optional)
+
+**Returns**
+
+Promise resolving to [Track](docs/api/interfaces/Track.md).
+
+> If artist URL is not found in the scraped data, then `artist.url` will be set to the same value as `publisher.url`
+
+---
+</details>
+
+## Tag API
+
+To access the Tag API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const tag = bcfetch.tag;
+
+const info = await tag.getInfo(...);
+const highlights = await tag.getAlbumHighlights(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>getInfo(tagUrl)</code></summary>
+<br />
+
+[**Example**](examples/tag/getInfo.ts) ([output](examples/tag/getInfo_output.txt))
+
+<p>Fetches info about a tag.</p>
+
+**Params**
+
+- `tagUrl`: (string)
+
+**Returns**
+
+Promise resolving to [Tag](docs/api/interfaces/Tag.md).
+
+---
+</details>
+
+<details>
+<summary><code>list()</code></summary>
+<br />
+
+[**Example**](examples/tag/list.ts) ([output](examples/tag/list_output.txt))
+
+<p>Fetches the full list of tags.</p>
+
+**Returns**
+
+Promise resolving to [TagList](docs/api/interfaces/TagList.md), which groups results into `tags`(for non-location tags) and `locations` (for location tags).
+
+---
+</details>
+
+<details>
+<summary><code>getAlbumHighlights(params)</code></summary>
+<br />
+
+[**Example**](examples/tag/getAlbumHighlights.ts) ([output](examples/tag/getAlbumHighlights_output.txt))
+
+<p>Fetches album highlights for the tag referred to by <code>params.tagUrl</code>.</p>
+
+Albums are placed in groups. Each group corresponds to a highlight category such as 'new and notable' and 'all-time best selling'.
+
+**Params**
+
+- `params`: ([TagAPIGetAlbumHighlightsParams](docs/api/interfaces/TagAPIGetAlbumHighlightsParams.md))
+    - `tagUrl`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to Array<[AlbumHighlightsByTag](docs/api/interfaces/AlbumHighlightsByTag.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>getReleases(params)</code></summary>
+<br />
+
+[**Example**](examples/tag/getReleases.ts) ([output](examples/tag/getReleases_output.txt))
+
+<p>Fetches releases matching the tag referred to by <code>params.tagUrl</code>.</p>
+
+**Params**
+
+- `params`: ([TagAPIGetReleasesParams](docs/api/interfaces/TagAPIGetReleasesParams.md))
+    - `tagUrl`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `useHardcodedDefaultFilters`: (boolean) (*optional*) if `true`, use hardcoded default values for filters not specified in `params.filters`. If `false` or unspecified, default filter values will be obtained by calling ``getReleasesAvailableFilters`()` (extra query means slower performance).
+    - `filters`: (object{ string: string | number | Array<string | number >}) (*optional*)
+    - `page`: (number) (*optional*) 1 if omitted.
+
+#### `params.filters`:
+
+Properties of `params.filters` are not strictly defined. As of this documentation, the curent filters available on Bandcamp are:
+
+- `location`: (number)
+- `tags`: (Array&lt;string&gt;) list of tags to match, in addition to the one referred to by `params.tagUrl`.
+- `sort`: (string)
+- `format`: (string)
+
+Omitted properties are populated with default values obtained from `params.tagUrl`. Possible filter values can be obtained by calling `getReleasesAvailableFilters()`. For `location` and `tag` filters, you may look up additional values not returned by `getReleasesAvailableFilters()` through `getSuggestions()` of the [Autocomplete API](#autocomplete-api).
+
+**Returns**
+
+Promise resolving to [ReleasesByTag](docs/api/interfaces/ReleasesByTag-1.md).
+
+---
+</details>
+
+<details>
+<summary><code>getReleasesAvailableFilters(tagUrl)</code></summary>
+<br />
+
+[**Example**](examples/tag/getReleasesAvailableFilters.ts) ([output](examples/tag/getReleasesAvailableFilters_output.txt))
+
+<p>Fetches the list of possible filter values for <code>getReleases()</code>.</p>
+
+For `location` and `tag` filters, this method does not return an exhaustive list of values. You may use `getSuggestions()` of the [Autocomplete API](#autocomplete-api) to look up additional values.
+
+**Params**
+
+- `tagUrl`: (string) the URL of the tag for which filter values are to be returned.
+
+**Returns**
+
+Promise resolving to Array<[ReleasesByTag.Filter](docs/api/interfaces/ReleasesByTag.Filter.md)>.
+
+---
+</details>
+
+## Show API
+
+To access the Show API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const show = bcfetch.show;
+
+const list = await show.list(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>list(params)</code></summary>
+<br />
+
+[**Example**](examples/show/list.ts) ([output](examples/show/list_output.txt))
+
+<p>Fetches the full list of Bandcamp shows.</p>
+
+Each list entry contains basic info about a show. To obtain full details, pass its `url` to `getShow()`.
+
+**Params**
+
+- `params`: ([ShowAPIListParams](docs/api/interfaces/ShowAPIListParams.md)) (*optional*)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to Array<[Show](docs/api/interfaces/Show.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>getShow(params)</code></summary>
+<br />
+
+[**Example**](examples/show/getShow.ts) ([output](examples/show/getShow_output.txt))
+
+<p>Fetches full details about the Bandcamp show referred to by <code>params.showUrl</code>.</p>
+
+**Params**
+
+- `params`: ([ShowAPIGetShowParams](docs/api/interfaces/ShowAPIGetShowParams.md))
+    - `showUrl`: (string)
+    - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `showImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to [Show](docs/api/interfaces/Show.md).
+
+---
+</details>
+
+## Article API
+
+To access the Article API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const article = bcfetch.article;
+
+const list = await article.list(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>getCategories()</code></summary>
+<br />
+
+[**Example**](examples/article/getCategories.ts) ([output](examples/article/getCategories_output.txt))
+
+<p>Fetches the list of Bandcamp Daily article categories. Categories are grouped into sections.</p>
+
+**Returns**
+
+Promise resolving to Array<[ArticleCategorySection](docs/api/interfaces/ArticleCategorySection.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>list(params)</code></summary>
+<br />
+
+[**Example**](examples/article/list.ts) ([output](examples/article/list_output.txt))
+
+<p>Fetches the list of Bandcamp Daily articles under the category specified by <code>params.categoryUrl</code> (or all categories if not specified).</p>
+
+**Params**
+
+- `params`: ([ArticleAPIListParams](docs/api/interfaces/ArticleAPIListParams.md)) (*optional* and *all properties optional*)
+    - `categoryUrl`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
+    - `page`: (number)
+
+**Returns**
+
+Promise resolving to [ArticleList](docs/api/interfaces/ArticleList.md).
+
+---
+</details>
+
+<details>
+<summary><code>getArticle(params)</code></summary>
+<br />
+
+[**Example**](examples/article/getArticle.ts) ([output](examples/article/getArticle_output.txt))
+
+<p>Fetches the contents of the Bandcamp Daily article at <code>params.articleUrl</code>.</p>
+
+**Params**
+
+- `params`: ([ArticleAPIGetArticleParams](docs/api/interfaces/ArticleAPIGetArticleParams.md))
+    - `articleUrl`: (string)
+    - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `includeRawData`: (boolean) (*optional*)
+
+**Returns**
+
+Promise resolving to [Article](docs/api/interfaces/Article.md).
+
+---
+</details>
+
+## Fan API
+
+To access the Fan API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const fan = bcfetch.fan;
+
+const info = await fan.getInfo(...);
+const collection = await fan.getCollection(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>getInfo(params)</code></summary>
+<br />
+
+[**Example**](examples/fan/getInfo.ts) ([output](examples/fan/getInfo_output.txt))
+
+<p>Fetches info about a fan.</p>
+
+**Params**
+
+- `params`: ([FanAPIGetInfoParams](docs/api/interfaces/FanAPIGetInfoParams.md))
+    - `username`: (string)
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to [Fan](docs/api/interfaces/Fan.md).
+
+---
+</details>
+
+<details>
+<summary><code>getCollection(params)</code></summary>
+<br />
+
+[**Example**](examples/fan/getCollection.ts) ([output](examples/fan/getCollection_output.txt))
+
+<p>Fetches the list of albums and tracks in a fan's collection.</p>
+
+**Params**
+
+- `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of items in the collection. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResult.md) | [FanContinuationItemsResult](docs/api/interfaces/FanContinuationItemsResult.md))<[Album](docs/api/interfaces/Album.md) | [Track](docs/api/interfaces/Track.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>getWishlist(params)</code></summary>
+<br />
+
+[**Example**](examples/fan/getWishlist.ts) ([output](examples/fan/getWishlist_output.txt))
+
+<p>Fetches the list of albums and tracks added to a fan's wishlist.</p>
+
+**Params**
+
+- `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of items in the wishlist. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResult.md) | [FanContinuationItemsResult](docs/api/interfaces/FanContinuationItemsResult.md))<[Album](docs/api/interfaces/Album.md) | [Track](docs/api/interfaces/Track.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>getFollowingArtistsAndLabels(params)</code></summary>
+<br />
+
+[**Example**](examples/fan/getFollowingArtistsAndLabels.ts) ([output](examples/fan/getFollowingArtistsAndLabels_output.txt))
+
+<p>Fetches the list of artists and labels followed by a fan.</p>
+
+**Params**
+
+- `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of artists and labels. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResult.md) | [FanContinuationItemsResult](docs/api/interfaces/FanContinuationItemsResult.md))<[UserKind](docs/api/interfaces/UserKind.md)>.
+
+---
+</details>
+
+<details>
+<summary><code>getFollowingGenres(params)</code></summary>
+<br />
+
+[**Example**](examples/fan/getFollowingGenres.ts) ([output](examples/fan/getFollowingGenres_output.txt))
+
+<p>Fetches the list of genres followed by a fan.</p>
+
+Each genre is actually a Bandcamp tag, so you can, for example, pass its `url` to `getReleases()` of the [Tag API](#tag-api).
+
+**Params**
+
+- `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of genres. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResult.md) | [FanContinuationItemsResult](docs/api/interfaces/FanContinuationItemsResult.md))<[Tag](docs/api/interfaces/Tag.md)>.
+
+---
+</details>
+
+## Search API
+
+To access the Search API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const search = bcfetch.search;
+
+const albums = await search.albums(...);
+const all = await search.all(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>all(params) / artistsAndLabels(params) / albums(params) / tracks(params) / fans(params)</code></summary>
+<br />
+
+[**Example**](examples/search/search.ts) ([output](examples/search/search_output.txt))
+
+- `all(params)`: search all item types
+- `artistsAndLabels(params)`: search artists and labels
+- `albums(params)`: search albums
+- `tracks(params)`: search tracks
+- `fans(params)`: search fans
+
+**Params**
+
+- `params`: ([SearchAPISearchParams](docs/api/interfaces/SearchAPISearchParams.md))
+    - `query`: (string)
+    - `page`: (number) (*optional*) 1 if omitted
+    - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to [SearchResults](docs/api/interfaces/SearchResults.md)&lt;`T`&gt;, where `T` depends on the item type being searched and can be one of:
+- Artist ([SearchResultArtist](docs/api/interfaces/SearchResultArtist.md))
+- Label ([SearchResultLabel](docs/api/interfaces/SearchResultLabel.md))
+- Album ([SearchResultAlbum](docs/api/interfaces/SearchResultAlbum.md))
+- Track ([SearchResultTrack](docs/api/interfaces/SearchResultTrack.md))
+- Fan ([SearchResultFan](docs/api/interfaces/SearchResultFan.md))
+
+You can use the `type` property to determine the search result item type.
+
+---
+</details>
+
+
+## Autocomplete API
+
+To access the Autocomplete API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const autocomplete = bcfetch.autocomplete;
+
+const suggestions = await autocomplete.getSuggestions(...);
+```
+
+**Methods:**
+
+<details>
+<summary><code>getSuggestions(params)</code></summary>
+<br />
+
+[**Example**](examples/autocomplete/getSuggestions.ts) ([output](examples/autocomplete/getSuggestions_output.txt))
+
+<p>Fetches autocomplete suggestions for tags and locations, based on partial and full matches against `params.query`.</p>
+
+The `value` property of returned suggestions can be used to set the `location` or `tags` property (as the case may be) of `params.filters` that is passed into `getReleases()` of the [Tag API](#tag-api).
+
+**Params**
+
+- `params`: ([AutocompleteAPIGetSuggestionsParams](docs/api/interfaces/AutocompleteAPIGetSuggestionsParams.md))
+    - `query`: (string)
+    - `itemType`: ([AutocompleteItemType](docs/api/enums/AutocompleteItemType.md)) 'Tag' or 'Location'
+    - limit: (number) (*optional*) the maximum number of results to return; 5 if omitted.
+
+**Returns**
+
+- If `params.itemType` is `AutocompleteItemType.Tag`, a Promise resolving to Array<[AutocompleteTag](docs/api/interfaces/AutoCompleteTag.md)>.
+- If `params.itemType` is `AutocompleteItemType.Location`, a Promise resolving to Array<[AutocompleteLocation](docs/api/interfaces/AutocompleteLocation.md)>.
+
+---
+</details>
+
+# Rate Limiting
+
+`bandcamp-fetch` comes with a rate limiter, which limits the number of requests made within a specific time period.
 
 Rate limiting is useful when you need to make a large number of queries and don't want to run the risk of getting rejected by the server for making too many requests within a short time interval. If you get a '429 Too Many Requests' error, then you should consider using the rate limiter.
+
+Each API has a limiter-enabled counterpart which you can access in the following manner:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+// Album API - no limiter enabled
+const albumAPI = bcfetch.album;
+
+// Album API - limiter enabled
+const limiterAlbumAPI = bcfetch.limiter.album;
+```
+
+[**Example**](examples/limiter/limiter.ts) ([output](examples/limiter/limiter_output.txt))
 
 The library uses [Bottleneck](https://www.npmjs.com/package/bottleneck) for rate limiting. You can configure the rate limiter like this:
 
@@ -359,41 +834,73 @@ bcfetch.limiter.updateSettings({
 
 `updateSettings()` is just a passthrough function to Bottleneck. Check the [Bottleneck doc](https://www.npmjs.com/package/bottleneck#docs) for the list of options you can set.
 
-## Caching
+# Cache
 
-The library maintains an in-memory cache for two types of resources:
-1. `page` - pages fetched during scraping
-2. `constant` - image formats and discover options
+The library maintains an in-memory cache for two types of data (as defined by [CacheDataType](docs/api/enums/CacheDataType.md)):
 
-Functions related to the cache can be called this way:
+1. `CacheDataType.Page` - pages fetched during scraping
+2. `CacheDataType.Constants` - image formats and discover options
 
-```
-const bcfetch = require('bandcamp-fetch');
-
-bcfetch.cache.setTTL('page', 500);
-bcfetch.cache.setMaxPages(20);
-bcfetch.cache.clear('constant');
+To access the cache:
 
 ```
+import bcfetch, { CacheDataType } from 'bandcamp-fetch';
 
-### `cache.setTTL(type, TTL)`
+const cache = bcfetch.cache;
 
-Sets the expiry time, in seconds, of cache entries for the given resource type.
+cache.setTTL(CacheDataType.Page, 500);
+```
 
-- `type`: 'page' or 'constant'
-- `TTL`: expiry time in seconds (default: `300` for 'page' and `3600` for 'constant')
+**Methods:**
 
-### `cache.setMaxPages(maxPages)`
+<details>
+<summary><code>setTTL(type, ttl)</code></summary>
+<br />
 
-Sets the maximum number of pages that can be stored in the cache. A negative value means unlimited. Default: `10`.
+<p>Sets the expiry time, in seconds, of cache entries for the given data type.</p>
 
-### `cache.clear([type])`
+**Params**
 
-Clears the cache entries for the given resource type.
+- `type`: ([CacheDataType](docs/api/enums/CacheDataType.md))
+- `TTL`: (number) expiry time in seconds (default: 300 for `CacheDataType.Page` and 3600 for `CacheDataType.Constants`)
 
-- `type` (optional): 'page' or 'constant'. If unspecified, clears the entire cache.
+---
+</details>
+
+<details>
+<summary><code>setMaxPages(maxPages)</code></summary>
+<br />
+
+<p>Sets the maximum number of pages that can be stored in the cache. A negative value means unlimited. Default: 10.</p>
+
+**Params**
+
+- `maxPages`: (number)
+
+---
+</details>
+
+<details>
+<summary><code>clear([type])</code></summary>
+<br />
+
+<p>Clears the cache entries for the specified data type (or all entries if no data type specified).</p>
+
+**Params**
+
+- `type`: ([CacheDataType](docs/api/enums/CacheDataType.md)) (*optional*)
+
+---
+</details>
+
 
 # Changelog
+
+1.0.0 (breaking changes!)
+- Move to TypeScript
+- Package as ESM + CJS hybrid module
+- Restructure API
+- Remove `safe-eval` dependency
 
 0.3.1-b.1
 - Add `getFanCollection()` function

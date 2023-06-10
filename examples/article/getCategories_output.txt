@@ -1,0 +1,234 @@
+[
+  {
+    name: 'featured',
+    title: '',
+    sections: [
+      {
+        name: 'best-of-year',
+        title: '',
+        categories: [
+          {
+            url: 'https://daily.bandcamp.com/best-of-2022',
+            name: 'Best of 2022'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-of-2021',
+            name: 'Best of 2021'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-of-2020',
+            name: 'Best of 2020'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-of-2019',
+            name: 'Best of 2019'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-of-2018',
+            name: 'Best of 2018'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-of-2017',
+            name: 'Best of 2017'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-of-2016',
+            name: 'Best of 2016'
+          }
+        ]
+      },
+      {
+        name: 'best-of',
+        title: '',
+        categories: [
+          {
+            url: 'https://daily.bandcamp.com/best-ambient',
+            name: 'Best Ambient'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-beat-tapes',
+            name: 'Best Beat Tapes'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-dance-12s',
+            name: 'Best Dance 12”s'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-contemporary-classical',
+            name: 'Best Contemporary Classical'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-electronic',
+            name: 'Best Electronic'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-experimental',
+            name: 'Best Experimental'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-hip-hop',
+            name: 'Best Hip-Hop'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-jazz',
+            name: 'Best Jazz'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-metal',
+            name: 'Best Metal'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-punk',
+            name: 'Best Punk'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-reissues',
+            name: 'Best Reissues'
+          },
+          {
+            url: 'https://daily.bandcamp.com/best-soul',
+            name: 'Best Soul'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'franchises',
+    title: 'Franchises',
+    categories: [
+      { url: 'https://daily.bandcamp.com/lists', name: 'Lists' },
+      { url: 'https://daily.bandcamp.com/features', name: 'Features' },
+      {
+        url: 'https://daily.bandcamp.com/album-of-the-day',
+        name: 'Album of the Day'
+      },
+      {
+        url: 'https://daily.bandcamp.com/acid-test',
+        name: 'Acid Test'
+      },
+      {
+        url: 'https://daily.bandcamp.com/bandcamp-navigator',
+        name: 'Bandcamp Navigator'
+      },
+      { url: 'https://daily.bandcamp.com/big-ups', name: 'Big Ups' },
+      {
+        url: 'https://daily.bandcamp.com/certified',
+        name: 'Certified'
+      },
+      { url: 'https://daily.bandcamp.com/gallery', name: 'Gallery' },
+      {
+        url: 'https://daily.bandcamp.com/hidden-gems',
+        name: 'Hidden Gems'
+      },
+      {
+        url: 'https://daily.bandcamp.com/high-scores',
+        name: 'High Scores'
+      },
+      {
+        url: 'https://daily.bandcamp.com/label-profile',
+        name: 'Label Profile'
+      },
+      {
+        url: 'https://daily.bandcamp.com/lifetime-achievement',
+        name: 'Lifetime Achievement'
+      },
+      {
+        url: 'https://daily.bandcamp.com/resonance',
+        name: 'Resonance'
+      },
+      {
+        url: 'https://daily.bandcamp.com/scene-report',
+        name: 'Scene Report'
+      },
+      {
+        url: 'https://daily.bandcamp.com/seven-essential-releases',
+        name: 'Seven Essential Releases'
+      },
+      {
+        url: 'https://daily.bandcamp.com/shortlist',
+        name: 'Shortlist'
+      },
+      {
+        url: 'https://daily.bandcamp.com/the-merch-table',
+        name: 'The Merch Table'
+      }
+    ]
+  },
+  {
+    name: 'genres',
+    title: 'Genres',
+    categories: [
+      {
+        url: 'https://daily.bandcamp.com/genres/acoustic',
+        name: 'Acoustic'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/alternative',
+        name: 'Alternative'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/ambient',
+        name: 'Ambient'
+      },
+      { url: 'https://daily.bandcamp.com/genres/blues', name: 'Blues' },
+      {
+        url: 'https://daily.bandcamp.com/genres/classical',
+        name: 'Classical'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/comedy',
+        name: 'Comedy'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/country',
+        name: 'Country'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/devotional',
+        name: 'Devotional'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/electronic',
+        name: 'Electronic'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/experimental',
+        name: 'Experimental'
+      },
+      { url: 'https://daily.bandcamp.com/genres/folk', name: 'Folk' },
+      { url: 'https://daily.bandcamp.com/genres/funk', name: 'Funk' },
+      {
+        url: 'https://daily.bandcamp.com/genres/hip-hop-rap',
+        name: 'Hip-Hop/Rap'
+      },
+      { url: 'https://daily.bandcamp.com/genres/jazz', name: 'Jazz' },
+      { url: 'https://daily.bandcamp.com/genres/latin', name: 'Latin' },
+      { url: 'https://daily.bandcamp.com/genres/metal', name: 'Metal' },
+      { url: 'https://daily.bandcamp.com/genres/pop', name: 'Pop' },
+      { url: 'https://daily.bandcamp.com/genres/punk', name: 'Punk' },
+      {
+        url: 'https://daily.bandcamp.com/genres/r-b-soul',
+        name: 'R&B/Soul'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/reggae',
+        name: 'Reggae'
+      },
+      { url: 'https://daily.bandcamp.com/genres/rock', name: 'Rock' },
+      {
+        url: 'https://daily.bandcamp.com/genres/soundtrack',
+        name: 'Soundtrack'
+      },
+      {
+        url: 'https://daily.bandcamp.com/genres/spoken-word',
+        name: 'Spoken Word'
+      },
+      { url: 'https://daily.bandcamp.com/genres/world', name: 'World' },
+      {
+        url: 'https://daily.bandcamp.com/genres/podcasts',
+        name: 'Podcasts'
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig-base.json",
+  "exclude": ["src/index-cjs.ts"],
+  "compilerOptions": {
+    "module": "es2020",
+    "outDir": "dist/mjs"
+  }
+}

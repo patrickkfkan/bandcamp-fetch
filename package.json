@@ -1,14 +1,64 @@
 {
   "name": "bandcamp-fetch",
-  "version": "0.3.1-b.1",
-  "description": "JS library for scraping Bandcamp content",
-  "main": "lib/index.js",
+  "version": "1.0.0",
+  "description": "Scrape Bandcamp content",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run prepare",
+    "build:esm": "npx tsc -p tsconfig-esm.json",
+    "build:cjs": "npx tsc -p tsconfig.json",
+    "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
+    "lint": "npx eslint ./src && npx eslint ./example",
+    "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
+    "doc": "npx typedoc",
+    "example": "npx ts-node -P ./tsconfig-esm.json --esm ./example"
   },
+  "main": "./dist/cjs/index-cjs.js",
+  "module": "./dist/mjs/index.js",
+  "types": "./dist/mjs/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/mjs/index.d.ts",
+        "default": "./dist/mjs/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index-cjs.js"
+      }
+    }
+  },
+  "author": "Patrick Kan <patrickkfkan@gmail.com> (https://github.com/patrickkfkan)",
   "repository": {
     "type": "git",
     "url": "https://github.com/patrickkfkan/bandcamp-fetch.git"
+  },
+  "license": "MIT",
+  "directories": {
+    "dist": "./dist"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.38",
+    "@types/node-fetch": "^2.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.0",
+    "typedoc-plugin-markdown": "^3.14.0",
+    "typedoc-plugin-rename-defaults": "^0.6.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "cheerio": "^1.0.0-rc.5",
+    "eval5": "^1.4.7",
+    "html-entities": "^2.0.2",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.9"
   },
   "keywords": [
     "bandcamp",
@@ -18,15 +68,5 @@
     "album",
     "track",
     "artist"
-  ],
-  "author": "Patrick Kan",
-  "license": "MIT",
-  "dependencies": {
-    "bottleneck": "^2.19.5",
-    "cheerio": "^1.0.0-rc.5",
-    "html-entities": "^2.0.2",
-    "node-cache": "^5.1.2",
-    "node-fetch": "^2.6.1",
-    "safe-eval": "^0.4.1"
-  }
+  ]
 }

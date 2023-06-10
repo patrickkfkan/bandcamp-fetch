@@ -1,0 +1,301 @@
+{
+  items: [
+    {
+      type: 'album',
+      name: 'Secret Sessions [24bit] (SBKWDIGI012)',
+      url: 'https://separatedbeats.bandcamp.com/album/secret-sessions-24bit-sbkwdigi012',
+      imageUrl: 'https://f4.bcbits.com/img/a4005533125_2.jpg',
+      genre: 'ambient',
+      artist: { name: '70db', url: 'https://separatedbeats.bandcamp.com' },
+      featuredTrack: {
+        name: 'Ormolu',
+        position: 9,
+        streamUrl: 'https://t4.bcbits.com/stream/26e32e1568f99343dac8107b9ed97948/mp3-128/4092905456?p=0&ts=1686495035&t=b7244425596f24d97092df6d835d8702b1fbdb30&token=1686495035_b122c2effa25e2fee2c8a7a16947b8186342c5fe'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Im Staub Der Rebellion',
+      url: 'https://subculturerecords.bandcamp.com/album/im-staub-der-rebellion',
+      imageUrl: 'https://f4.bcbits.com/img/a2406753869_2.jpg',
+      genre: 'electronic',
+      artist: {
+        name: 'Weissglut',
+        url: 'https://subculturerecords.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Lichtbringer',
+        position: 4,
+        streamUrl: 'https://t4.bcbits.com/stream/04fd018f2f76acf41a1204c1af176210/mp3-128/3838988849?p=0&ts=1686495035&t=a46563786880d5d8d1b048e140a03108b5bb943a&token=1686495035_1f9815be476e67c873a4d731865e311cb69df9d4'
+      }
+    },
+    {
+      type: 'album',
+      name: 'TestTracks Batch 07',
+      url: 'https://speaker1.bandcamp.com/album/testtracks-batch-07',
+      imageUrl: 'https://f4.bcbits.com/img/a2304904704_2.jpg',
+      genre: 'electronic',
+      artist: { name: 'COBELL', url: 'https://speaker1.bandcamp.com' },
+      featuredTrack: {
+        name: 'Arch Destiny V',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/9e4eaa50d6738f62db11d965d66168ab/mp3-128/2451578386?p=0&ts=1686495035&t=240ca373dce50ed10e86187cfe49ecb3ecab8d05&token=1686495035_6d8961f47ce8fac2e4f13d5449940e87132ad726'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Compiurakenroff. Tuaken Gousk (2015) Tuaken Fakent (2022)',
+      url: 'https://subculturerecords.bandcamp.com/album/compiurakenroff-tuaken-gousk-2015-tuaken-fakent-2022',
+      imageUrl: 'https://f4.bcbits.com/img/a3776133419_2.jpg',
+      genre: 'electronic',
+      artist: {
+        name: 'Oxomaxoma',
+        url: 'https://subculturerecords.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Shot The Gun!',
+        position: 5,
+        streamUrl: 'https://t4.bcbits.com/stream/43f557c374dfe4b1f3f645c4e9d7fac9/mp3-128/3613894633?p=0&ts=1686495035&t=1263d3e7670c82ef27ffb17e22e461f488fa9d87&token=1686495035_21ec00c949264ad35891b87b9cada7d4cbe9433b'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Rust',
+      url: 'https://blvckceiling.bandcamp.com/album/rust',
+      imageUrl: 'https://f4.bcbits.com/img/a1671132631_2.jpg',
+      genre: 'electronic',
+      artist: {
+        name: 'BLVCK CEILING',
+        url: 'https://blvckceiling.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'You Saved Me',
+        position: 2,
+        streamUrl: 'https://t4.bcbits.com/stream/199e97ebf8a69cab13242e027e0b4e22/mp3-128/2587732288?p=0&ts=1686495035&t=e6d54538975f676b315c0d6b683d11cef8a6993b&token=1686495035_e1b7b0934711db8a59a6fe0e392ef00af6562fb7'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Liminal, Vol. 2',
+      url: 'https://darkheartrecordings.bandcamp.com/album/liminal-vol-2',
+      imageUrl: 'https://f4.bcbits.com/img/a2074629043_2.jpg',
+      genre: '',
+      artist: {
+        name: 'Space Thug',
+        url: 'https://darkheartrecordings.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Luxe',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/2a260b59c8f3cea1f8d6724b173be184/mp3-128/1092638435?p=0&ts=1686495035&t=2571640fd9cd77f7d6a9a3f13c1844e5dc1c0479&token=1686495035_a9ca47509ec1604eb704ab346fcb5c8f8da6d60a'
+      }
+    },
+    {
+      type: 'album',
+      name: 'ARBORIA',
+      url: 'https://alt3r3dstat3.bandcamp.com/album/arboria',
+      imageUrl: 'https://f4.bcbits.com/img/a2731714976_2.jpg',
+      genre: 'ambient',
+      artist: {
+        name: 'ALT3R3D STAT3',
+        url: 'https://alt3r3dstat3.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'ARBORIA',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/66769c283b3c21954d73a30df0cfe35b/mp3-128/2284698916?p=0&ts=1686495035&t=d366f509dcb5c653b74d30cf27e84a7bb5198ffb&token=1686495035_799d476599ceccef6fdce7fb1e0c96687cec2915'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Love Train',
+      url: 'https://terrycobbs.bandcamp.com/album/love-train',
+      imageUrl: 'https://f4.bcbits.com/img/a1199985478_2.jpg',
+      genre: 'ambient',
+      artist: { name: 'Terry Cobbs', url: 'https://terrycobbs.bandcamp.com' },
+      featuredTrack: {
+        name: '3am in the Forest',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/565e599b8b7442ff4c932754c2105119/mp3-128/3797252849?p=0&ts=1686495035&t=cb2851596cec735da80f5c46505dc753516edfa2&token=1686495035_bf334eaa2a8adc20f8c4e1d8cf1b96998daee5ba'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Ett år med kemisk obalans',
+      url: 'https://stalverk.bandcamp.com/album/ett-r-med-kemisk-obalans',
+      imageUrl: 'https://f4.bcbits.com/img/a3881240208_2.jpg',
+      genre: 'electronic',
+      artist: { name: 'LO', url: 'https://stalverk.bandcamp.com' },
+      featuredTrack: {
+        name: 'STÄMNING',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/945fbcb1f9cd1b7aff4342464a64d324/mp3-128/374943719?p=0&ts=1686495035&t=67b84c2b5a79210cc487eb67cd00dca478b7d197&token=1686495035_36f3118a4b5f92ad9460c6444d55540a88026ff2'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Streams',
+      url: 'https://autumnofcommunion.bandcamp.com/album/streams',
+      imageUrl: 'https://f4.bcbits.com/img/a3985878002_2.jpg',
+      genre: 'ambient',
+      artist: {
+        name: 'Autumn Of Communion',
+        url: 'https://autumnofcommunion.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Streams Pt.1',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/28cab33b36c3852c6f49fafe58d866e8/mp3-128/2312988978?p=0&ts=1686495035&t=abcd5a614180accf741f08e28e988f2f9b706b75&token=1686495035_af242d596fc008be06631b82485215d21a2f4e86'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Ethnomite Pux And Friends',
+      url: 'https://spmusic5.bandcamp.com/album/ethnomite-pux-and-friends',
+      imageUrl: 'https://f4.bcbits.com/img/a1510578540_2.jpg',
+      genre: 'experimental',
+      artist: { name: 'Various Artists', url: 'https://spmusic5.bandcamp.com' },
+      featuredTrack: {
+        name: 'Sordes (1)',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/770d2ed68b10b6b2df8705b032b61161/mp3-128/4203595718?p=0&ts=1686495035&t=e38976a1366f2ba37ace89ac9be796d58bf2d909&token=1686495035_aa12c119f6800d2149f53a2c35b0b121d44170ca'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Strange Lights (EP)',
+      url: 'https://mystryl.bandcamp.com/album/strange-lights-ep',
+      imageUrl: 'https://f4.bcbits.com/img/a2955001523_2.jpg',
+      genre: 'electronic',
+      artist: { name: 'Mystryl', url: 'https://mystryl.bandcamp.com' },
+      featuredTrack: {
+        name: 'Strange Lights',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/97bfc6f77af7be8d25d9ac11971667b8/mp3-128/3083200542?p=0&ts=1686495035&t=717833ffd66495d2b63b69567f2ff3444e6e2aff&token=1686495035_a2de9ec49e24edd97b3ab3f3a9d77bdaee2e9efb'
+      }
+    },
+    {
+      type: 'album',
+      name: 'ashes and weeds',
+      url: 'https://room291.bandcamp.com/album/ashes-and-weeds',
+      imageUrl: 'https://f4.bcbits.com/img/a1211916676_2.jpg',
+      genre: 'electronic',
+      artist: { name: 'Room 291', url: 'https://room291.bandcamp.com' },
+      featuredTrack: {
+        name: 'into silence',
+        position: 3,
+        streamUrl: 'https://t4.bcbits.com/stream/95618a2f748ff44c002319b6b81a0341/mp3-128/3190092398?p=0&ts=1686495035&t=fb5a2ec9012305918c8b8231d6f04645cd2b423b&token=1686495035_65bbbca3a82da0c82bf7575ec58d488bc29ce2a4'
+      }
+    },
+    {
+      type: 'album',
+      name: 'tʌntrə XXV',
+      url: 'https://neotantra.bandcamp.com/album/t-ntr-xxv',
+      imageUrl: 'https://f4.bcbits.com/img/a3021904891_2.jpg',
+      genre: 'ambient',
+      artist: { name: 'Various', url: 'https://neotantra.bandcamp.com' },
+      featuredTrack: {
+        name: 'EugeneKha-Bright Green Waves(Live At Samara)',
+        position: 10,
+        streamUrl: 'https://t4.bcbits.com/stream/0b1437807f7d1645383233bc3fb60497/mp3-128/1904111050?p=0&ts=1686495035&t=93a89aeb8a15d8db2a9e592eabfb8331ee0f0fd9&token=1686495035_f6994ec73b0712f67b711fbfb2aec1dcfaa8513c'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Alnocys 3',
+      url: 'https://23stabwounds-records.bandcamp.com/album/alnocys-3',
+      imageUrl: 'https://f4.bcbits.com/img/a1993703500_2.jpg',
+      genre: 'experimental',
+      artist: {
+        name: 'Alnocys',
+        url: 'https://23stabwounds-records.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Reminiscencias extraviadas',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/e350bd06c2da4bb7b2e48fbba69e5dfc/mp3-128/191918074?p=0&ts=1686495035&t=1c94583fafa9b49505b7111ab4ca8d1eb5a696b7&token=1686495035_681ed005bc5e4d45c4da2fdef34a4301349aa379'
+      }
+    },
+    {
+      type: 'album',
+      name: 'INTERCEPT',
+      url: 'https://spunoutofcontrol.bandcamp.com/album/intercept',
+      imageUrl: 'https://f4.bcbits.com/img/a3705697221_2.jpg',
+      genre: 'electronic',
+      artist: {
+        name: 'STEVE NOLAN & GREY FREQUENCY',
+        url: 'https://spunoutofcontrol.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'IN PRIVATE',
+        position: 9,
+        streamUrl: 'https://t4.bcbits.com/stream/2ef7f8907f854b2f97b1565836571605/mp3-128/738363662?p=0&ts=1686495035&t=ff2d248f0055741ebbc98c95c8f26e362deb9920&token=1686495035_e4d2ea5d784a88240ab9218defd683ffeb05b2a5'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Valencia',
+      url: 'https://8-bitbear.bandcamp.com/album/valencia',
+      imageUrl: 'https://f4.bcbits.com/img/a2766359739_2.jpg',
+      genre: 'electronic',
+      artist: { name: '8-Bit Bear', url: 'https://8-bitbear.bandcamp.com' },
+      featuredTrack: {
+        name: 'Autumn Field',
+        position: 7,
+        streamUrl: 'https://t4.bcbits.com/stream/11e424226bc965f8dd29287f84ca3184/mp3-128/2062775337?p=0&ts=1686495035&t=8ac5f5d1500f17d4b3be7b841e43f3a78767eddb&token=1686495035_496151e550fa7089dbb6ca7133355ce5e5808720'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Wasserstoff',
+      url: 'https://stefanschulzki.bandcamp.com/album/wasserstoff',
+      imageUrl: 'https://f4.bcbits.com/img/a1676170246_2.jpg',
+      genre: 'alternative',
+      artist: {
+        name: 'Stefan Schulzki',
+        url: 'https://stefanschulzki.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Wasserstoff',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/c4b86061e3e4efa7c47f583886d599cb/mp3-128/4127970454?p=0&ts=1686495035&t=2602a11ed05591df42c5b79ce29c341bfe652e52&token=1686495035_010f1038450c7985ea4e52038ed745fcc6520f85'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Compilation #2',
+      url: 'https://reeveswork.bandcamp.com/album/compilation-2-2',
+      imageUrl: 'https://f4.bcbits.com/img/a1444943785_2.jpg',
+      genre: 'electronic',
+      artist: { name: 'REEVE', url: 'https://reeveswork.bandcamp.com' },
+      featuredTrack: {
+        name: 'The Sun Sets On Alita',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/66abd18006a352f13c427eef842dfbb2/mp3-128/2011849685?p=0&ts=1686495035&t=8f8f344e57c8329d8528defe1b01aa6343694091&token=1686495035_7e22738067675c965e25651c09c82cef1b0c2ead'
+      }
+    },
+    {
+      type: 'album',
+      name: 'The Nightmare',
+      url: 'https://cristianbergagna.bandcamp.com/album/the-nightmare',
+      imageUrl: 'https://f4.bcbits.com/img/a2422405084_2.jpg',
+      genre: 'electronic',
+      artist: {
+        name: 'Cristian Bergagna',
+        url: 'https://cristianbergagna.bandcamp.com'
+      },
+      featuredTrack: {
+        name: 'Morpheus',
+        position: 1,
+        streamUrl: 'https://t4.bcbits.com/stream/6aa9f9fce0a3b76c87b9b7d570040908/mp3-128/1812859960?p=0&ts=1686495035&t=39bfce8fc1153d23f1f14aa491d0e9a33d317003&token=1686495035_c1b8ae0e1b2a43928978d875e9e6e0284ba93255'
+      }
+    }
+  ],
+  hasMore: true,
+  filters: {
+    sort: 'random',
+    format: 'all',
+    tags: [ 'dark-ambient', 'electronica' ],
+    location: 0
+  }
+}
