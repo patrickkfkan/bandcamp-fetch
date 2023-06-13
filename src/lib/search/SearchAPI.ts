@@ -25,41 +25,47 @@ export interface SearchAPISearchParams {
 export default class SearchAPI {
 
   static async all(params: SearchAPISearchParams) {
-    return this.#search({ ...params, itemType: SearchItemType.All });
+    return this.search({ ...params, itemType: SearchItemType.All });
   }
 
   static async artistsAndLabels(params: SearchAPISearchParams) {
-    return this.#search({ ...params, itemType: SearchItemType.ArtistsAndLabels });
+    return this.search({ ...params, itemType: SearchItemType.ArtistsAndLabels });
   }
 
   static async albums(params: SearchAPISearchParams) {
-    return this.#search({ ...params, itemType: SearchItemType.Albums });
+    return this.search({ ...params, itemType: SearchItemType.Albums });
   }
 
   static async tracks(params: SearchAPISearchParams) {
-    return this.#search({ ...params, itemType: SearchItemType.Tracks });
+    return this.search({ ...params, itemType: SearchItemType.Tracks });
   }
 
   static async fans(params: SearchAPISearchParams) {
-    return this.#search({ ...params, itemType: SearchItemType.Fans });
+    return this.search({ ...params, itemType: SearchItemType.Fans });
   }
 
-  static async #search(params: SearchAPISearchParams & { itemType: SearchItemType.ArtistsAndLabels }): Promise<SearchResults<SearchResultArtist | SearchResultLabel>>;
-  static async #search(params: SearchAPISearchParams & { itemType: SearchItemType.Albums }): Promise<SearchResults<SearchResultAlbum>>;
-  static async #search(params: SearchAPISearchParams & { itemType: SearchItemType.Tracks }): Promise<SearchResults<SearchResultTrack>>;
-  static async #search(params: SearchAPISearchParams & { itemType: SearchItemType.Fans }): Promise<SearchResults<SearchResultFan>>;
-  static async #search(params: SearchAPISearchParams & { itemType: SearchItemType.All }): Promise<SearchResults<SearchResultAny>>;
-  static async #search(params: SearchAPISearchParams & { itemType: SearchItemType }): Promise<any> {
+  /**
+   * @internal
+   */
+  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.ArtistsAndLabels }): Promise<SearchResults<SearchResultArtist | SearchResultLabel>>;
+  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.Albums }): Promise<SearchResults<SearchResultAlbum>>;
+  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.Tracks }): Promise<SearchResults<SearchResultTrack>>;
+  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.Fans }): Promise<SearchResults<SearchResultFan>>;
+  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.All }): Promise<SearchResults<SearchResultAny>>;
+  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType }): Promise<any> {
     const opts = {
       itemType: params.itemType || SearchItemType.All,
       albumImageFormat: await ImageAPI.getFormat(params.albumImageFormat, 9),
       artistImageFormat: await ImageAPI.getFormat(params.artistImageFormat, 21)
     };
-    const html = await fetchPage(this.#getSearchUrl(params));
+    const html = await fetchPage(this.getSearchUrl(params));
     return SearchResultsParser.parseResults(html, opts);
   }
 
-  static #getSearchUrl(params: SearchAPISearchParams & { itemType: SearchItemType }) {
+  /**
+   * @internal
+   */
+  protected static getSearchUrl(params: SearchAPISearchParams & { itemType: SearchItemType }) {
     const urlObj = new URL(URLS.SEARCH);
     urlObj.searchParams.set('q', params.query);
     urlObj.searchParams.set('page', (params.page || 1).toString());

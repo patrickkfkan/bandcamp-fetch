@@ -47,7 +47,7 @@ export default class TagAPI {
   }
 
   static async getReleasesAvailableFilters(tagUrl: string): Promise<ReleasesByTag.Filter[]> {
-    const filterValueNames = await this.#getReleaseFilterValueNames(tagUrl);
+    const filterValueNames = await this.getReleaseFilterValueNames(tagUrl);
     const html = await fetchPage(tagUrl);
     return ReleasesByTagParser.parseFilters(html, filterValueNames);
   }
@@ -121,7 +121,10 @@ export default class TagAPI {
     return ReleasesByTagParser.parseReleases(json, opts);
   }
 
-  static async #getReleaseFilterValueNames(tagUrl: string) {
+  /**
+   * @internal
+   */
+  protected static async getReleaseFilterValueNames(tagUrl: string) {
     const url = `${tagUrl}?tab=all_releases`;
     const html = await fetchPage(url);
     const path = ReleasesByTagParser.parseHubJSPath(html);

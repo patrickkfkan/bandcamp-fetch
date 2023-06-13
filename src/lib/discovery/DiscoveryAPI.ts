@@ -92,12 +92,15 @@ export default class DiscoveryAPI {
       delete sanitizedParams.subgenre;
     }
 
-    const payload = this.#getDiscoverRequestPayload(sanitizedParams);
+    const payload = this.getDiscoverRequestPayload(sanitizedParams);
     const json = await fetchPage(URLS.DISCOVER_URL, true, FetchMethod.GET, payload);
     return DiscoverResultParser.parseDiscoverResult(json, opts, resultParams);
   }
 
-  static #getDiscoverRequestPayload(params: DiscoverParams): DiscoverRequestPayload {
+  /**
+   * @internal
+   */
+  protected static getDiscoverRequestPayload(params: DiscoverParams): DiscoverRequestPayload {
     const result: DiscoverRequestPayload = {
       s: params.sortBy || 'top',
       p: params.page || 0

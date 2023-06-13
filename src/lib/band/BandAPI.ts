@@ -46,21 +46,21 @@ export default class BandAPI {
       imageFormat: await ImageAPI.getFormat(params.imageFormat, 21)
     };
 
-    const url = this.#getUrl(params.bandUrl);
+    const url = this.getUrl(params.bandUrl);
     const html = await fetchPage(url);
     const result = BandInfoParser.parseInfo(html, opts);
     // Return if result is complete
-    if (this.#isInfoComplete(result)) {
+    if (this.isInfoComplete(result)) {
       return result;
     }
 
     // Info lacking name or label (for artist) - try getting them from music page
-    const musicUrl = this.#getUrl(params.bandUrl, 'music');
+    const musicUrl = this.getUrl(params.bandUrl, 'music');
     const musicHtml = await fetchPage(musicUrl);
     const info = BandInfoParser.parseInfo(musicHtml, opts);
-    this.#fillInfo(result, info);
+    this.fillInfo(result, info);
     // Return if result is complete
-    if (this.#isInfoComplete(result)) {
+    if (this.isInfoComplete(result)) {
       return result;
     }
 
@@ -72,7 +72,7 @@ export default class BandAPI {
       if (url) {
         const html = await fetchPage(url);
         const info = BandInfoParser.parseInfo(html, opts);
-        this.#fillInfo(result, info);
+        this.fillInfo(result, info);
       }
     }
 
@@ -93,7 +93,10 @@ export default class BandAPI {
     return LabelArtistsParser.parseLabelArtists(html, opts);
   }
 
-  static #getUrl(artistOrLabelUrl: string, path?: string, labelId?: string): string {
+  /**
+   * @internal
+   */
+  protected static getUrl(artistOrLabelUrl: string, path?: string, labelId?: string): string {
     let url = path ? normalizeUrl(path, artistOrLabelUrl) : artistOrLabelUrl;
     if (labelId) {
       url += `/?label=${encodeURIComponent(labelId)}`;
@@ -101,12 +104,18 @@ export default class BandAPI {
     return url;
   }
 
-  static #isInfoComplete(data: Artist | Label) {
+  /**
+   * @internal
+   */
+  protected static isInfoComplete(data: Artist | Label) {
     return data.name && data.url &&
       (data.type === 'label' || data.label);
   }
 
-  static #fillInfo<T extends Artist | Label>(target: T, src: T): T {
+  /**
+   * @internal
+   */
+  protected static fillInfo<T extends Artist | Label>(target: T, src: T): T {
     if (target.name === null) {
       target.name = src.name;
     }

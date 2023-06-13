@@ -40,7 +40,7 @@ export default class FanAPI {
 
   static async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
     const imageConstants = await ImageAPI.getConstants();
-    const fanPageUrl = this.#getFanPageUrl(params.username);
+    const fanPageUrl = this.getFanPageUrl(params.username);
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
       imageFormat: await ImageAPI.getFormat(params.imageFormat, 20)
@@ -50,7 +50,7 @@ export default class FanAPI {
   }
 
   static async getCollection(params: FanAPIGetItemsParams) {
-    return await this.#getItems({
+    return await this.getItems({
       ...params,
       defaultImageFormat: 9,
       continuationUrl: URLS.FAN_CONTINUATION.COLLECTION,
@@ -60,7 +60,7 @@ export default class FanAPI {
   }
 
   static async getWishlist(params: FanAPIGetItemsParams) {
-    return await this.#getItems({
+    return await this.getItems({
       ...params,
       defaultImageFormat: 9,
       continuationUrl: URLS.FAN_CONTINUATION.WISHLIST,
@@ -70,7 +70,7 @@ export default class FanAPI {
   }
 
   static async getFollowingArtistsAndLabels(params: FanAPIGetItemsParams) {
-    return await this.#getItems({
+    return await this.getItems({
       ...params,
       defaultImageFormat: 21,
       continuationUrl: URLS.FAN_CONTINUATION.FOLLOWING_BANDS,
@@ -80,7 +80,7 @@ export default class FanAPI {
   }
 
   static async getFollowingGenres(params: FanAPIGetItemsParams) {
-    return await this.#getItems({
+    return await this.getItems({
       ...params,
       defaultImageFormat: 3,
       continuationUrl: URLS.FAN_CONTINUATION.FOLLOWING_GENRES,
@@ -89,7 +89,10 @@ export default class FanAPI {
     });
   }
 
-  static async #getItems<T>(params: FanAPIGetItemsFullParams<T>): Promise<FanPageItemsResult<T> | FanContinuationItemsResult<T>> {
+  /**
+   * @internal
+   */
+  protected static async getItems<T>(params: FanAPIGetItemsFullParams<T>): Promise<FanPageItemsResult<T> | FanContinuationItemsResult<T>> {
     const { target, imageFormat, defaultImageFormat, continuationUrl } = params;
     const imageConstants = await ImageAPI.getConstants();
     const opts = {
@@ -97,8 +100,8 @@ export default class FanAPI {
       imageFormat: await ImageAPI.getFormat(imageFormat, defaultImageFormat)
     };
 
-    if (!this.#isContinuation(target)) {
-      const fanPageUrl = this.#getFanPageUrl(target as string);
+    if (!this.isContinuation(target)) {
+      const fanPageUrl = this.getFanPageUrl(target as string);
       const html = await fetchPage(fanPageUrl);
       return params.parsePageFn(html, opts);
     }
@@ -118,11 +121,17 @@ export default class FanAPI {
     return params.parseContinuationFn(json, continuation, opts);
   }
 
-  static #getFanPageUrl(username: string) {
+  /**
+   * @internal
+  */
+  protected static getFanPageUrl(username: string) {
     return `${URLS.SITE_URL}/${username}`;
   }
 
-  static #isContinuation(target: any) {
+  /**
+   * @internal
+  */
+  protected static isContinuation(target: any) {
     return typeof target === 'object' && target.fanId && target.token;
   }
 }

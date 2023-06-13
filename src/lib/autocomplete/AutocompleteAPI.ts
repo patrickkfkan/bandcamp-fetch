@@ -22,13 +22,16 @@ export default class AutocompleteAPI {
   static getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<AutoCompleteTag[] | AutocompleteLocation[]>;
   static getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<any> {
     if (params.itemType === AutocompleteItemType.Tag) {
-      return this.#getAutocompleteTags(params);
+      return this.getAutocompleteTags(params);
     }
 
-    return this.#getAutocompleteLocations(params);
+    return this.getAutocompleteLocations(params);
   }
 
-  static async #getAutocompleteTags(params: AutocompleteAPIGetSuggestionsParams) {
+  /**
+   * @internal
+   */
+  protected static async getAutocompleteTags(params: AutocompleteAPIGetSuggestionsParams) {
     const payload = {
       search_term: params.query,
       count: params.limit || 5
@@ -38,7 +41,10 @@ export default class AutocompleteAPI {
     return AutocompleteResultsParser.parseTags(json);
   }
 
-  static async #getAutocompleteLocations(params: AutocompleteAPIGetSuggestionsParams) {
+  /**
+   * @internal
+   */
+  protected static async getAutocompleteLocations(params: AutocompleteAPIGetSuggestionsParams) {
     const payload = {
       q: params.query,
       n: params.limit || 5,
