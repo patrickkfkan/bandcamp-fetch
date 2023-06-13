@@ -896,6 +896,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+1.0.1
+- Fix limiter throwing private access errors
+
 1.0.0 (breaking changes!)
 - Move to TypeScript
 - Package as ESM + CJS hybrid module
