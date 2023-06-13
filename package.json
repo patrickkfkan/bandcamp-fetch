@@ -7,10 +7,9 @@
     "build:esm": "npx tsc -p tsconfig-esm.json",
     "build:cjs": "npx tsc -p tsconfig.json",
     "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
-    "lint": "npx eslint ./src && npx eslint ./example",
+    "lint": "npx eslint ./src && npx eslint ./examples",
     "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
-    "doc": "npx typedoc",
-    "example": "npx ts-node -P ./tsconfig-esm.json --esm ./example"
+    "doc": "npx typedoc"
   },
   "main": "./dist/cjs/index-cjs.js",
   "module": "./dist/mjs/index.js",
