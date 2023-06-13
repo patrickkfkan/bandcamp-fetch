@@ -22,7 +22,7 @@
 
 #### Defined in
 
-lib/types/Tag.ts:12
+[lib/types/Tag.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L12)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:11
+[lib/types/Tag.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L11)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:7
+[lib/types/Tag.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L7)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:10
+[lib/types/Tag.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L10)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:6
+[lib/types/Tag.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L6)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:8
+[lib/types/Tag.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L8)
 
 ___
 
@@ -82,4 +82,4 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:9
+[lib/types/Tag.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L9)

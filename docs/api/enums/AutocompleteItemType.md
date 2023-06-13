@@ -17,7 +17,7 @@
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:9
+[lib/autocomplete/AutocompleteAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L9)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:8
+[lib/autocomplete/AutocompleteAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L8)

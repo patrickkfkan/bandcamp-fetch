@@ -32,7 +32,7 @@
 
 #### Defined in
 
-lib/types/UserKind.ts:3
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L3)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-lib/types/UserKind.ts:5
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L5)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-lib/types/Label.ts:6
+[lib/types/Label.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Label.ts#L6)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-lib/types/UserKind.ts:6
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L6)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-lib/types/UserKind.ts:2
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L2)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-lib/types/Label.ts:5
+[lib/types/Label.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Label.ts#L5)
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 #### Defined in
 
-lib/types/UserKind.ts:4
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L4)

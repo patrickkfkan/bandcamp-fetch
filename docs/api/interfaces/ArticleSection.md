@@ -26,7 +26,7 @@
 
 #### Defined in
 
-lib/types/Article.ts:42
+[lib/types/Article.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Article.ts#L42)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-lib/types/Article.ts:46
+[lib/types/Article.ts:46](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Article.ts#L46)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-lib/types/Article.ts:48
+[lib/types/Article.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Article.ts#L48)
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 #### Defined in
 
-lib/types/Article.ts:47
+[lib/types/Article.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Article.ts#L47)

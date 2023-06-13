@@ -44,7 +44,7 @@
 
 #### Defined in
 
-lib/band/BandAPI.ts:32
+[lib/band/BandAPI.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/band/BandAPI.ts#L32)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-lib/band/BandAPI.ts:43
+[lib/band/BandAPI.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/band/BandAPI.ts#L43)
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-lib/band/BandAPI.ts:86
+[lib/band/BandAPI.ts:86](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/band/BandAPI.ts#L86)

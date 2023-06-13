@@ -17,7 +17,7 @@
 
 #### Defined in
 
-lib/types/Image.ts:10
+[lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Image.ts#L10)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-lib/types/Image.ts:11
+[lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Image.ts#L11)

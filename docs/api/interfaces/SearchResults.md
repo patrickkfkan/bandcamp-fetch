@@ -23,7 +23,7 @@
 
 #### Defined in
 
-lib/types/Search.ts:2
+[lib/types/Search.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L2)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-lib/types/Search.ts:3
+[lib/types/Search.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L3)

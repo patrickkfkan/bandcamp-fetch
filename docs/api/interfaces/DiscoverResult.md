@@ -22,7 +22,7 @@ List of discovered albums.
 
 #### Defined in
 
-lib/types/Discovery.ts:51
+[lib/types/Discovery.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L51)
 
 ___
 
@@ -34,7 +34,7 @@ Sanitized params used in the discovery request.
 
 #### Defined in
 
-lib/types/Discovery.ts:59
+[lib/types/Discovery.ts:59](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L59)
 
 ___
 
@@ -46,4 +46,4 @@ Total number of albums discovered.
 
 #### Defined in
 
-lib/types/Discovery.ts:55
+[lib/types/Discovery.ts:55](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L55)

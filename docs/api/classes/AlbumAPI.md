@@ -42,4 +42,4 @@
 
 #### Defined in
 
-lib/album/AlbumAPI.ts:16
+[lib/album/AlbumAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/album/AlbumAPI.ts#L16)

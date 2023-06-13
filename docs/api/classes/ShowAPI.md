@@ -43,7 +43,7 @@
 
 #### Defined in
 
-lib/show/ShowAPI.ts:23
+[lib/show/ShowAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L23)
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 #### Defined in
 
-lib/show/ShowAPI.ts:36
+[lib/show/ShowAPI.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L36)

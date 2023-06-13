@@ -24,7 +24,7 @@
 
 #### Defined in
 
-lib/fan/FanItemsBaseParser.ts:17
+[lib/fan/FanItemsBaseParser.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanItemsBaseParser.ts#L17)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-lib/fan/FanItemsBaseParser.ts:15
+[lib/fan/FanItemsBaseParser.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanItemsBaseParser.ts#L15)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-lib/fan/FanItemsBaseParser.ts:16
+[lib/fan/FanItemsBaseParser.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanItemsBaseParser.ts#L16)

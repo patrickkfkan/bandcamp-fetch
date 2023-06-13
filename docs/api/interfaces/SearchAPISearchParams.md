@@ -19,7 +19,7 @@
 
 #### Defined in
 
-lib/search/SearchAPI.ts:21
+[lib/search/SearchAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/search/SearchAPI.ts#L21)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-lib/search/SearchAPI.ts:22
+[lib/search/SearchAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/search/SearchAPI.ts#L22)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-lib/search/SearchAPI.ts:20
+[lib/search/SearchAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/search/SearchAPI.ts#L20)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-lib/search/SearchAPI.ts:19
+[lib/search/SearchAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/search/SearchAPI.ts#L19)

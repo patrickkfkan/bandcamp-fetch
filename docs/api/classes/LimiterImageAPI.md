@@ -52,7 +52,7 @@
 
 #### Defined in
 
-lib/image/ImageAPI.ts:66
+[lib/image/ImageAPI.ts:66](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/image/ImageAPI.ts#L66)
 
 ___
 
@@ -76,4 +76,4 @@ ___
 
 #### Defined in
 
-lib/image/ImageAPI.ts:62
+[lib/image/ImageAPI.ts:62](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/image/ImageAPI.ts#L62)

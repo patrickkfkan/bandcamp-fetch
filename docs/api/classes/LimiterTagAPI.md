@@ -54,7 +54,7 @@
 
 #### Defined in
 
-lib/tag/TagAPI.ts:151
+[lib/tag/TagAPI.ts:154](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/tag/TagAPI.ts#L154)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-lib/tag/TagAPI.ts:147
+[lib/tag/TagAPI.ts:150](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/tag/TagAPI.ts#L150)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-lib/tag/TagAPI.ts:159
+[lib/tag/TagAPI.ts:162](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/tag/TagAPI.ts#L162)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-lib/tag/TagAPI.ts:155
+[lib/tag/TagAPI.ts:158](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/tag/TagAPI.ts#L158)
 
 ___
 
@@ -144,4 +144,4 @@ ___
 
 #### Defined in
 
-lib/tag/TagAPI.ts:143
+[lib/tag/TagAPI.ts:146](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/tag/TagAPI.ts#L146)

@@ -19,7 +19,7 @@
 
 #### Defined in
 
-lib/show/ShowAPI.ts:12
+[lib/show/ShowAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L12)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-lib/show/ShowAPI.ts:13
+[lib/show/ShowAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L13)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-lib/show/ShowAPI.ts:14
+[lib/show/ShowAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L14)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-lib/show/ShowAPI.ts:11
+[lib/show/ShowAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L11)

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-lib/utils/Cache.ts:5
+[lib/utils/Cache.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/utils/Cache.ts#L5)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-lib/utils/Cache.ts:4
+[lib/utils/Cache.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/utils/Cache.ts#L4)

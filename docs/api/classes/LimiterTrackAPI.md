@@ -50,4 +50,4 @@
 
 #### Defined in
 
-lib/track/TrackAPI.ts:31
+[lib/track/TrackAPI.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/track/TrackAPI.ts#L31)

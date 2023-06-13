@@ -18,7 +18,7 @@
 
 #### Defined in
 
-lib/types/Tag.ts:23
+[lib/types/Tag.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L23)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:21
+[lib/types/Tag.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L21)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-lib/types/Tag.ts:22
+[lib/types/Tag.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L22)

@@ -42,4 +42,4 @@
 
 #### Defined in
 
-lib/track/TrackAPI.ts:16
+[lib/track/TrackAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/track/TrackAPI.ts#L16)

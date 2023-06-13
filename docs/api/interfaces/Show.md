@@ -28,7 +28,7 @@
 
 #### Defined in
 
-lib/types/Show.ts:8
+[lib/types/Show.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L8)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:10
+[lib/types/Show.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L10)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:16
+[lib/types/Show.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L16)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:18
+[lib/types/Show.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L18)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:5
+[lib/types/Show.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L5)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:7
+[lib/types/Show.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L7)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:19
+[lib/types/Show.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L19)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:9
+[lib/types/Show.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L9)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:11
+[lib/types/Show.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L11)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:17
+[lib/types/Show.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L17)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:15
+[lib/types/Show.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L15)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:4
+[lib/types/Show.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L4)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-lib/types/Show.ts:6
+[lib/types/Show.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Show.ts#L6)

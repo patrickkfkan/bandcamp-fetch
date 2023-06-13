@@ -50,7 +50,7 @@
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:55
+[lib/autocomplete/AutocompleteAPI.ts:61](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L61)
 
 ▸ `Static` **getSuggestions**(`params`): `Promise`<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[]\>
 
@@ -70,7 +70,7 @@ lib/autocomplete/AutocompleteAPI.ts:55
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:56
+[lib/autocomplete/AutocompleteAPI.ts:62](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L62)
 
 ▸ `Static` **getSuggestions**(`params`): `Promise`<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[] \| [`AutocompleteLocation`](../interfaces/AutocompleteLocation.md)[]\>
 
@@ -90,4 +90,4 @@ lib/autocomplete/AutocompleteAPI.ts:56
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:57
+[lib/autocomplete/AutocompleteAPI.ts:63](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L63)

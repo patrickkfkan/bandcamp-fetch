@@ -18,7 +18,7 @@
 
 #### Defined in
 
-lib/article/ArticleAPI.ts:20
+[lib/article/ArticleAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/article/ArticleAPI.ts#L20)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-lib/article/ArticleAPI.ts:21
+[lib/article/ArticleAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/article/ArticleAPI.ts#L21)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-lib/article/ArticleAPI.ts:22
+[lib/article/ArticleAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/article/ArticleAPI.ts#L22)

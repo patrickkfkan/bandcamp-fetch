@@ -52,7 +52,7 @@
 
 #### Defined in
 
-lib/discovery/DiscoveryAPI.ts:139
+[lib/discovery/DiscoveryAPI.ts:142](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/discovery/DiscoveryAPI.ts#L142)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-lib/discovery/DiscoveryAPI.ts:131
+[lib/discovery/DiscoveryAPI.ts:134](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/discovery/DiscoveryAPI.ts#L134)
 
 ___
 
@@ -94,4 +94,4 @@ ___
 
 #### Defined in
 
-lib/discovery/DiscoveryAPI.ts:135
+[lib/discovery/DiscoveryAPI.ts:138](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/discovery/DiscoveryAPI.ts#L138)

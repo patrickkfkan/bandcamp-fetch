@@ -54,7 +54,7 @@
 
 #### Defined in
 
-lib/fan/FanAPI.ts:136
+[lib/fan/FanAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L145)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-lib/fan/FanAPI.ts:144
+[lib/fan/FanAPI.ts:153](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L153)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-lib/fan/FanAPI.ts:148
+[lib/fan/FanAPI.ts:157](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L157)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-lib/fan/FanAPI.ts:132
+[lib/fan/FanAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L141)
 
 ___
 
@@ -150,4 +150,4 @@ ___
 
 #### Defined in
 
-lib/fan/FanAPI.ts:140
+[lib/fan/FanAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L149)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:14
+[lib/autocomplete/AutocompleteAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L14)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:15
+[lib/autocomplete/AutocompleteAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L15)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-lib/autocomplete/AutocompleteAPI.ts:13
+[lib/autocomplete/AutocompleteAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/autocomplete/AutocompleteAPI.ts#L13)

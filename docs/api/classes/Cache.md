@@ -38,7 +38,7 @@
 
 #### Defined in
 
-index.ts:69
+[index.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/index.ts#L69)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-index.ts:77
+[index.ts:77](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/index.ts#L77)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-index.ts:73
+[index.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/index.ts#L73)

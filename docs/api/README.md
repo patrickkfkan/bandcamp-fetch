@@ -115,7 +115,7 @@ bandcamp-fetch
 
 #### Defined in
 
-lib/types/Article.ts:51
+[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Article.ts#L51)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-lib/types/Label.ts:9
+[lib/types/Label.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Label.ts#L9)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-lib/types/Search.ts:47
+[lib/types/Search.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L47)
 
 ## Variables
 
@@ -175,4 +175,4 @@ lib/types/Search.ts:47
 
 #### Defined in
 
-index.ts:82
+[index.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/index.ts#L82)

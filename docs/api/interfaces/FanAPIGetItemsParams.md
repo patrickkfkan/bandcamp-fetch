@@ -17,7 +17,7 @@
 
 #### Defined in
 
-lib/fan/FanAPI.ts:26
+[lib/fan/FanAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L26)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-lib/fan/FanAPI.ts:25
+[lib/fan/FanAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/fan/FanAPI.ts#L25)
