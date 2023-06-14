@@ -896,6 +896,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+1.0.2
+- Improve parsing of album track info
+
 1.0.1
 - Fix limiter throwing private access errors
 
