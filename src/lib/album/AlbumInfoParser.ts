@@ -117,18 +117,31 @@ export default class AlbumInfoParser {
     }
 
     if (Array.isArray(extra.trackinfo)) {
+      const tracksFromBasicInfo = basic.track?.itemListElement as Array<any>;
       const tracks = extra.trackinfo.map((track: any) => {
         const trackItem: Omit<Track, 'type'> = {
-          name: track.title,
-          duration: track.duration,
-          streamUrl: track.file?.['mp3-128']
+          name: track.title
         };
+        if (track.duration !== undefined) {
+          trackItem.duration = track.duration;
+        }
+        const streamUrl = track.file?.['mp3-128'];
+        if (streamUrl) {
+          trackItem.streamUrl = streamUrl;
+        }
         if (track.track_num !== undefined) {
           trackItem.position = track.track_num;
         }
         const trackUrl = normalizeUrl(track.title_link, album.url);
         if (trackUrl) {
           trackItem.url = trackUrl;
+        }
+        else if (trackItem.position !== undefined) {
+          const trackFromBasic = tracksFromBasicInfo.find((el: any) => el?.position === trackItem.position);
+          const trackUrlFromBasic = trackFromBasic?.item?.['@id'];
+          if (trackUrlFromBasic) {
+            trackItem.url = trackUrlFromBasic;
+          }
         }
         return trackItem;
       }) as Track[];
