@@ -49,4 +49,31 @@ export default class FanInfoParser {
 
     return result;
   }
+
+  static parseLoggedInFanUsername(html: string) {
+    const $ = cheerioLoad(html);
+    const blob = decode($('#pagedata[data-blob]').attr('data-blob'));
+    let parsed;
+    try {
+      parsed = JSON.parse(blob);
+    }
+    catch (error: any) {
+      throw new ParseError('Failed to parse logged-in fan username: JSON error in data-blob.', html, error);
+    }
+
+    const identitiesData = parsed.identities || {};
+    const username = identitiesData.fan?.username;
+    if (!username || typeof username !== 'string') {
+      let reason;
+      if (identitiesData.fan === null) {
+        reason = 'check if valid cookie is set';
+      }
+      else {
+        reason = 'invalid data';
+      }
+      throw new ParseError(`Failed to parse logged-in fan username: ${reason}.`, html);
+    }
+
+    return username;
+  }
 }

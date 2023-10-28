@@ -17,12 +17,12 @@ import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../commo
 export { FanPageItemsResult, FanContinuationItemsResult };
 
 export interface FanAPIGetInfoParams {
-  username: string;
+  username?: string;
   imageFormat: string | number | ImageFormat;
 }
 
 export interface FanAPIGetItemsParams {
-  target: string | FanItemsContinuation;
+  target?: string | FanItemsContinuation;
   imageFormat?: string | number | ImageFormat;
 }
 
@@ -39,6 +39,13 @@ export interface FanAPIGetItemsFullParams<T> extends FanAPIGetItemsParams {
 export default class FanAPI extends BaseAPIWithImageSupport {
 
   async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
+    if (!params.username) {
+      const username = await this.getLoggedInFanUsername();
+      return this.getInfo({
+        ...params,
+        username
+      });
+    }
     const imageConstants = await this.imageAPI.getConstants();
     const fanPageUrl = FanAPI.getFanPageUrl(params.username);
     const opts = {
@@ -94,6 +101,15 @@ export default class FanAPI extends BaseAPIWithImageSupport {
    */
   protected async getItems<T>(params: FanAPIGetItemsFullParams<T>): Promise<FanPageItemsResult<T> | FanContinuationItemsResult<T>> {
     const { target, imageFormat, defaultImageFormat, continuationUrl } = params;
+
+    if (!target) {
+      const username = await this.getLoggedInFanUsername();
+      return this.getItems({
+        ...params,
+        target: username
+      });
+    }
+
     const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
@@ -101,7 +117,7 @@ export default class FanAPI extends BaseAPIWithImageSupport {
     };
 
     if (!FanAPI.isContinuation(target)) {
-      const fanPageUrl = FanAPI.getFanPageUrl(target as string);
+      const fanPageUrl = FanAPI.getFanPageUrl(target);
       const html = await this.fetch(fanPageUrl);
       return params.parsePageFn(html, opts);
     }
@@ -111,14 +127,13 @@ export default class FanAPI extends BaseAPIWithImageSupport {
       throw new FetchError('Unable to fetch fan contents: target is continuation token but continuation URL is missing.');
     }
 
-    const continuation = target as FanItemsContinuation;
     const payload = {
-      fan_id: continuation.fanId,
-      older_than_token: continuation.token,
+      fan_id: target.fanId,
+      older_than_token: target.token,
       count: 20
     };
     const json = await this.fetch(continuationUrl, true, FetchMethod.POST, payload);
-    return params.parseContinuationFn(json, continuation, opts);
+    return params.parseContinuationFn(json, target, opts);
   }
 
   /**
@@ -131,8 +146,16 @@ export default class FanAPI extends BaseAPIWithImageSupport {
   /**
    * @internal
   */
-  protected static isContinuation(target: any) {
+  protected static isContinuation(target: any): target is FanItemsContinuation {
     return typeof target === 'object' && target.fanId && target.token;
+  }
+
+  /**
+   * @internal
+   */
+  protected async getLoggedInFanUsername() {
+    const html = await this.fetch(URLS.SITE_URL);
+    return FanInfoParser.parseLoggedInFanUsername(html);
   }
 }
 
