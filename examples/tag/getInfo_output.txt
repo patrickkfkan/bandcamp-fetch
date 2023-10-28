@@ -27,13 +27,6 @@
     },
     {
       type: 'tag',
-      name: 'atmospheric',
-      url: 'https://bandcamp.com/tag/atmospheric',
-      value: 'atmospheric',
-      isLocation: false
-    },
-    {
-      type: 'tag',
       name: 'field recordings',
       url: 'https://bandcamp.com/tag/field-recordings',
       value: 'field-recordings',
@@ -41,9 +34,9 @@
     },
     {
       type: 'tag',
-      name: 'soundscape',
-      url: 'https://bandcamp.com/tag/soundscape',
-      value: 'soundscape',
+      name: 'atmospheric',
+      url: 'https://bandcamp.com/tag/atmospheric',
+      value: 'atmospheric',
       isLocation: false
     },
     {
@@ -51,6 +44,13 @@
       name: 'ambient',
       url: 'https://bandcamp.com/tag/ambient',
       value: 'ambient',
+      isLocation: false
+    },
+    {
+      type: 'tag',
+      name: 'soundscape',
+      url: 'https://bandcamp.com/tag/soundscape',
+      value: 'soundscape',
       isLocation: false
     },
     {
@@ -69,16 +69,16 @@
     },
     {
       type: 'tag',
-      name: 'ambient electronic',
-      url: 'https://bandcamp.com/tag/ambient-electronic',
-      value: 'ambient-electronic',
+      name: 'noise',
+      url: 'https://bandcamp.com/tag/noise',
+      value: 'noise',
       isLocation: false
     },
     {
       type: 'tag',
-      name: 'noise',
-      url: 'https://bandcamp.com/tag/noise',
-      value: 'noise',
+      name: 'ambient electronic',
+      url: 'https://bandcamp.com/tag/ambient-electronic',
+      value: 'ambient-electronic',
       isLocation: false
     },
     {

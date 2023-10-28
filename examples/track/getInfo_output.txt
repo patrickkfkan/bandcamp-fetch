@@ -4,7 +4,7 @@
   url: 'https://musique.coeurdepirate.com/track/tes-belle',
   imageUrl: 'https://f4.bcbits.com/img/a0774650359_16.jpg',
   releaseDate: '01 Oct 2020 00:00:00 GMT',
-  streamUrl: 'https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1686495112&t=a7968eecb9122b64f2575aeef7bf9a4c902b3f0e&token=1686495112_860fcdc1a34d6bc999ffad1adfecd227b435bd25',
+  streamUrl: 'https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1698584260&t=15a440cb32b56813cd4624f72d0a5094207c25f0&token=1698584260_9c669ba7b7ba6d182ccf618eebe46c1f8320f888',
   artist: { name: 'Cœur de pirate', url: 'https://musique.coeurdepirate.com' },
   publisher: {
     name: 'Cœur de pirate',

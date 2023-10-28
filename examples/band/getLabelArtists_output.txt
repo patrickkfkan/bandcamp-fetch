@@ -1,15 +1,69 @@
 [
   {
-    name: 'A Giant Dog',
-    url: 'https://agiantdog.bandcamp.com',
-    location: 'Austin, Texas',
-    imageUrl: 'https://f4.bcbits.com/img/0000651146_16.jpg'
+    name: 'M(h)aol',
+    url: 'https://mhaol.bandcamp.com',
+    location: 'Dublin, Ireland',
+    imageUrl: 'https://f4.bcbits.com/img/0033823227_16.jpg'
+  },
+  {
+    name: 'TORRES',
+    url: 'https://torrestorrestorres.bandcamp.com',
+    location: 'New York, New York',
+    imageUrl: 'https://f4.bcbits.com/img/0033736346_16.jpg'
+  },
+  {
+    name: 'Superchunk',
+    url: 'https://superchunk.bandcamp.com',
+    location: 'Chapel Hill, North Carolina',
+    imageUrl: 'https://f4.bcbits.com/img/0033256597_16.jpg'
+  },
+  {
+    name: 'the Mountain Goats',
+    url: 'https://themountaingoats.bandcamp.com',
+    location: 'Durham, North Carolina',
+    imageUrl: 'https://f4.bcbits.com/img/0032985240_16.jpg'
+  },
+  {
+    name: 'The Clientele',
+    url: 'https://theclientele.bandcamp.com',
+    location: 'London, UK',
+    imageUrl: 'https://f4.bcbits.com/img/0033256646_16.jpg'
   },
   {
     name: 'Hiss Golden Messenger',
     url: 'https://hissgoldenmessenger.bandcamp.com',
     location: 'North Carolina',
-    imageUrl: 'https://f4.bcbits.com/img/0024016536_16.jpg'
+    imageUrl: 'https://f4.bcbits.com/img/0032985256_16.jpg'
+  },
+  {
+    name: 'Will Butler',
+    url: 'https://willbutler.bandcamp.com',
+    location: 'Brooklyn, New York',
+    imageUrl: 'https://f4.bcbits.com/img/0032985247_16.jpg'
+  },
+  {
+    name: 'Hollie Cook',
+    url: 'https://holliecook.bandcamp.com',
+    location: 'London, UK',
+    imageUrl: 'https://f4.bcbits.com/img/0028056444_16.jpg'
+  },
+  {
+    name: 'A Giant Dog',
+    url: 'https://agiantdog.bandcamp.com',
+    location: 'Austin, Texas',
+    imageUrl: 'https://f4.bcbits.com/img/0032985263_16.jpg'
+  },
+  {
+    name: 'Teenage Fanclub',
+    url: 'https://teenage-fanclub.bandcamp.com',
+    location: 'Glasgow, UK',
+    imageUrl: 'https://f4.bcbits.com/img/0033256695_16.jpg'
+  },
+  {
+    name: 'The Music Tapes / Orbiting Human Circus',
+    url: 'https://themusictapes.bandcamp.com',
+    location: 'Athens, Georgia',
+    imageUrl: 'https://f4.bcbits.com/img/0033256672_16.jpg'
   },
   {
     name: 'Wye Oak',
@@ -18,10 +72,22 @@
     imageUrl: 'https://f4.bcbits.com/img/0032186979_16.jpg'
   },
   {
+    name: 'Cable Ties',
+    url: 'https://cableties.bandcamp.com',
+    location: 'Melbourne, Australia',
+    imageUrl: 'https://f4.bcbits.com/img/0008448159_16.jpg'
+  },
+  {
+    name: 'DAWN',
+    url: 'https://dawnrichard.bandcamp.com',
+    location: 'Los Angeles, California',
+    imageUrl: 'https://f4.bcbits.com/img/0030483218_16.jpg'
+  },
+  {
     name: 'William Tyler',
     url: 'https://williamtyler.bandcamp.com',
     location: 'Los Angeles, California',
-    imageUrl: 'https://f4.bcbits.com/img/0018844022_16.jpg'
+    imageUrl: 'https://f4.bcbits.com/img/0033256659_16.jpg'
   },
   {
     name: 'Tanlines',
@@ -57,7 +123,7 @@
     name: 'H.C. McEntire',
     url: 'https://hcmcentire.bandcamp.com',
     location: 'Durham, North Carolina',
-    imageUrl: 'https://f4.bcbits.com/img/0020946952_16.jpg'
+    imageUrl: 'https://f4.bcbits.com/img/0032985274_16.jpg'
   },
   {
     name: 'Sneaks',
@@ -66,10 +132,22 @@
     imageUrl: 'https://f4.bcbits.com/img/0019714164_16.jpg'
   },
   {
+    name: 'Rosali',
+    url: 'https://rosali.bandcamp.com',
+    location: 'North Carolina',
+    imageUrl: 'https://f4.bcbits.com/img/0033301111_16.jpg'
+  },
+  {
     name: 'Titus Andronicus',
     url: 'https://titusandronicus.bandcamp.com',
     location: '',
     imageUrl: 'https://f4.bcbits.com/img/0029288983_16.jpg'
+  },
+  {
+    name: 'Mac McCaughan',
+    url: 'https://macmccaughan.bandcamp.com',
+    location: 'Chapel Hill, North Carolina',
+    imageUrl: 'https://f4.bcbits.com/img/0004961611_16.jpg'
   },
   {
     name: 'Archers of Loaf',
@@ -90,12 +168,6 @@
     imageUrl: 'https://f4.bcbits.com/img/0028914236_16.jpg'
   },
   {
-    name: 'the Mountain Goats',
-    url: 'https://themountaingoats.bandcamp.com',
-    location: 'Durham, North Carolina',
-    imageUrl: 'https://f4.bcbits.com/img/0028851781_16.jpg'
-  },
-  {
     name: 'Friendship',
     url: 'https://friendshipphl.bandcamp.com',
     location: 'Philadelphia, Pennsylvania',
@@ -106,18 +178,6 @@
     url: 'https://reddkross.bandcamp.com',
     location: 'Hawthorne, California',
     imageUrl: 'https://f4.bcbits.com/img/0028555577_16.jpg'
-  },
-  {
-    name: 'Hollie Cook',
-    url: 'https://holliecook.bandcamp.com',
-    location: 'London, UK',
-    imageUrl: 'https://f4.bcbits.com/img/0028056444_16.jpg'
-  },
-  {
-    name: 'Superchunk',
-    url: 'https://superchunk.bandcamp.com',
-    location: 'Chapel Hill, North Carolina',
-    imageUrl: 'https://f4.bcbits.com/img/0026971728_16.jpg'
   },
   {
     name: 'Ibibio Sound Machine',
@@ -144,52 +204,16 @@
     imageUrl: 'https://f4.bcbits.com/img/0014275749_16.jpg'
   },
   {
-    name: 'Mac McCaughan',
-    url: 'https://macmccaughan.bandcamp.com',
-    location: 'Chapel Hill, North Carolina',
-    imageUrl: 'https://f4.bcbits.com/img/0004961611_16.jpg'
-  },
-  {
     name: 'Caribou',
     url: 'https://caribouband.bandcamp.com',
     location: 'London, UK',
     imageUrl: 'https://f4.bcbits.com/img/0018041279_16.jpg'
   },
   {
-    name: 'DAWN',
-    url: 'https://dawnrichard.bandcamp.com',
-    location: 'Los Angeles, California',
-    imageUrl: 'https://f4.bcbits.com/img/0030483218_16.jpg'
-  },
-  {
-    name: 'Torres',
-    url: 'https://torrestorrestorres.bandcamp.com',
-    location: 'New York, New York',
-    imageUrl: 'https://f4.bcbits.com/img/0024864649_16.jpg'
-  },
-  {
     name: 'Reigning Sound',
     url: 'https://reigningsound.bandcamp.com',
     location: 'Asheville, North Carolina',
     imageUrl: 'https://f4.bcbits.com/img/0023915882_16.jpg'
-  },
-  {
-    name: 'Cable Ties',
-    url: 'https://cableties.bandcamp.com',
-    location: 'Melbourne, Australia',
-    imageUrl: 'https://f4.bcbits.com/img/0008448159_16.jpg'
-  },
-  {
-    name: 'Teenage Fanclub',
-    url: 'https://teenage-fanclub.bandcamp.com',
-    location: 'Glasgow, UK',
-    imageUrl: 'https://f4.bcbits.com/img/0024101151_16.jpg'
-  },
-  {
-    name: 'Will Butler',
-    url: 'https://willbutler.bandcamp.com',
-    location: 'Brooklyn, New York',
-    imageUrl: 'https://f4.bcbits.com/img/0024918652_16.jpg'
   },
   {
     name: 'Waxahatchee',
@@ -216,12 +240,6 @@
     imageUrl: 'https://f4.bcbits.com/img/0020299197_16.jpg'
   },
   {
-    name: 'The Clientele',
-    url: 'https://theclientele.bandcamp.com',
-    location: 'London, UK',
-    imageUrl: 'https://f4.bcbits.com/img/0010580560_16.jpg'
-  },
-  {
     name: 'Lou Barlow',
     url: 'https://loubarlow.bandcamp.com',
     location: 'Massachusetts',
@@ -244,24 +262,6 @@
     url: 'https://sweetspirittheband.bandcamp.com',
     location: 'Austin, Texas',
     imageUrl: 'https://f4.bcbits.com/img/0019349627_16.jpg'
-  },
-  {
-    name: 'Mt. Wilson Repeater',
-    url: 'https://mtwilsonrptr.bandcamp.com',
-    location: '',
-    imageUrl: 'https://f4.bcbits.com/img/0019621062_16.jpg'
-  },
-  {
-    name: 'The Music Tapes',
-    url: 'https://themusictapes.bandcamp.com',
-    location: 'Athens, Georgia',
-    imageUrl: 'https://f4.bcbits.com/img/0017776773_16.jpg'
-  },
-  {
-    name: 'Martin Frawley',
-    url: 'https://martinfrawley.bandcamp.com',
-    location: 'Australia',
-    imageUrl: 'https://f4.bcbits.com/img/0031110755_16.jpg'
   },
   {
     name: 'Polvo',
@@ -546,6 +546,12 @@
     imageUrl: 'https://f4.bcbits.com/img/0020591675_16.jpg'
   },
   {
+    name: 'Mt. Wilson Repeater',
+    url: 'https://mtwilsonrptr.bandcamp.com',
+    location: '',
+    imageUrl: 'https://f4.bcbits.com/img/0019621062_16.jpg'
+  },
+  {
     name: 'Wild Flag',
     url: 'https://wildflag.bandcamp.com',
     location: 'Portland, Oregon',
@@ -556,6 +562,12 @@
     url: 'https://theextralens.bandcamp.com',
     location: '',
     imageUrl: 'https://f4.bcbits.com/img/0006158864_16.jpg'
+  },
+  {
+    name: 'Martin Frawley',
+    url: 'https://martinfrawley.bandcamp.com',
+    location: 'Australia',
+    imageUrl: 'https://f4.bcbits.com/img/0031110755_16.jpg'
   },
   {
     name: 'Julian Koster',
@@ -587,17 +599,5 @@
     location: 'North Carolina',
     imageUrl: 'https://f4.bcbits.com/img/0006172106_16.jpg'
   },
-  {
-    name: 'Matt Suggs',
-    url: 'https://mattsuggs.bandcamp.com',
-    location: 'Visalia, California',
-    imageUrl: 'https://f4.bcbits.com/img/0006172356_16.jpg'
-  },
-  {
-    name: 'The Karl Hendricks Trio',
-    url: 'https://thekarlhendrickstrio.bandcamp.com',
-    location: 'Pittsburgh, Pennsylvania',
-    imageUrl: 'https://f4.bcbits.com/img/0006172432_16.jpg'
-  },
-  ... 15 more items
+  ... 17 more items
 ]

@@ -2,154 +2,230 @@
   items: [
     {
       type: 'album',
-      name: 'Only the Stars Remain',
+      name: 'Sanctuary of Desire',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Jeff Pearce',
-        url: 'https://jeffpearcemusic.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32586927_28.jpg'
+        name: 'Steve Roach',
+        url: 'https://steveroach.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/15138466_28.jpg'
       },
-      location: 'Indiana',
-      url: 'https://jeffpearcemusic.bandcamp.com/album/only-the-stars-remain',
-      imageUrl: 'https://f4.bcbits.com/img/a3655216211_2.jpg',
+      location: 'Tucson, Arizona',
+      url: 'https://steveroach.bandcamp.com/album/sanctuary-of-desire',
+      imageUrl: 'https://f4.bcbits.com/img/a3529053748_2.jpg',
       featuredTrack: {
-        name: 'Beyond and Within',
-        duration: 310.423,
-        streamUrl: 'https://t4.bcbits.com/stream/a304946688ef6853c4f4fdfcef5a8794/mp3-128/803367117?p=0&ts=1686494610&t=38177950851798872f0e33b4bcb1385fd0f1d820&token=1686494610_99080318cca92f59990f7c39e98c89f0a24d2a02'
+        name: 'Sanctuary of Desire',
+        duration: 1539.84,
+        streamUrl: 'https://t4.bcbits.com/stream/7a397c4ece62652b2e66e5ec7966bafc/mp3-128/2031236107?p=0&ts=1698584173&t=1c40bf7ec8631d0a8f8233d882bd746ca9d45261&token=1698584173_e45b45858c1fe4b1e7122e3d142082d9c3fff8bd'
       }
     },
     {
       type: 'album',
-      name: 'Disambiguation',
+      name: 'A compilation for humanitarian aid',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Garda',
-        url: 'https://neotantra.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32233206_28.jpg'
+        name: 'Joggers Vol. 3',
+        url: 'https://jogginghouse.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/31805295_28.jpg'
       },
-      location: 'Italy',
-      url: 'https://neotantra.bandcamp.com/album/disambiguation',
-      imageUrl: 'https://f4.bcbits.com/img/a3809147604_2.jpg',
+      location: 'Frankfurt Am Main, Germany',
+      url: 'https://jogginghouse.bandcamp.com/album/a-compilation-for-humanitarian-aid',
+      imageUrl: 'https://f4.bcbits.com/img/a4162300223_2.jpg',
       featuredTrack: {
-        name: 'Childhood Memories',
-        duration: 240.023,
-        streamUrl: 'https://t4.bcbits.com/stream/24e7cfd1ce3375b4dc72352c7337e289/mp3-128/2747253521?p=0&ts=1686494610&t=a49422df6809b2cd0532fdc84cfc0b4a3bf9b27d&token=1686494610_53766b145429fdad82ae0e348b6ffcb727de50fe'
+        name: 'Something',
+        duration: 337.403,
+        streamUrl: 'https://t4.bcbits.com/stream/652aba1a6a20d38909f16710b5ecf8b9/mp3-128/2045334604?p=0&ts=1698584173&t=93af5117d0e3a54b661009d0bcdcfa07352215ba&token=1698584173_0686c9c9eb7ec56a009a2fc3d370fbb668c169e3'
       }
     },
     {
       type: 'album',
-      name: 'The Waves (Remodel)',
+      name: 'Seti',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'SVLBRD',
-        url: 'https://faintmusic.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/12673995_28.jpg'
-      },
-      location: 'Spain',
-      url: 'https://faintmusic.bandcamp.com/album/the-waves-remodel',
-      imageUrl: 'https://f4.bcbits.com/img/a2923180093_2.jpg',
-      featuredTrack: {
-        name: 'Anchor (Hilyard Remix)',
-        duration: 191.897,
-        streamUrl: 'https://t4.bcbits.com/stream/67c3074d9d2eb56e0b915db684b7116e/mp3-128/3286324040?p=0&ts=1686494610&t=8e89086af4150e065222bce0249e64f50c598789&token=1686494610_8e0a7268b655f9610d35af396927d92b585e7994'
-      }
-    },
-    {
-      type: 'album',
-      name: 'and then there was nothing',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Ian Hawgood',
-        url: 'https://homenormal.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32152548_28.jpg'
+        name: 'Sedibus',
+        url: 'https://theorb.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/19389986_28.jpg'
       },
       location: 'London, UK',
-      url: 'https://homenormal.bandcamp.com/album/and-then-there-was-nothing',
-      imageUrl: 'https://f4.bcbits.com/img/a2193252233_2.jpg',
+      url: 'https://theorb.bandcamp.com/album/seti',
+      imageUrl: 'https://f4.bcbits.com/img/a3343622218_2.jpg',
       featuredTrack: {
-        name: 'Movement I',
-        duration: 466.569,
-        streamUrl: 'https://t4.bcbits.com/stream/fa3854202b854e72f9ae1819b4b1557c/mp3-128/296940566?p=0&ts=1686494610&t=f9c0c1d968bd5279b8d3b733160d6759d40b9d3d&token=1686494610_fc848d792559d97a14d6f5330f475f60d9ea37d9'
+        name: 'Seti - Part 3',
+        duration: 341.75,
+        streamUrl: 'https://t4.bcbits.com/stream/8fbb4a25efbc9278abb29c24c31ba334/mp3-128/3755313633?p=0&ts=1698584173&t=0d7c6c32ad3b667e613a697bbdb3824a3d039e69&token=1698584173_2365b6ff281557bdefb62680c259c6aaf4ff07bf'
       }
     },
     {
       type: 'album',
-      name: 'Spiral of Grief',
+      name: 'Author Of The Twilight',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'God Body Disconnect',
+        name: 'The Angling Loser',
+        url: 'https://theanglingloser.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/6973836_28.jpg'
+      },
+      location: 'Asti, Italy',
+      url: 'https://theanglingloser.bandcamp.com/album/author-of-the-twilight',
+      imageUrl: 'https://f4.bcbits.com/img/a759538022_2.jpg',
+      featuredTrack: {
+        name: 'Dawn',
+        duration: 552,
+        streamUrl: 'https://t4.bcbits.com/stream/6c0f5c3a037ba36b9170a62a44b7c1c6/mp3-128/1241661961?p=0&ts=1698584173&t=7e9650fb774eaabd39761724bcd91d26f11af6eb&token=1698584173_ee2d5977e6df5b8c0f6a50a48ce0e1fabc7b83ef'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Cloud of Strings',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Erik Wøllo',
+        url: 'https://projektrecords.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/19063774_28.jpg'
+      },
+      location: 'Portland, Oregon',
+      url: 'https://projektrecords.bandcamp.com/album/cloud-of-strings',
+      imageUrl: 'https://f4.bcbits.com/img/a1077426294_2.jpg',
+      featuredTrack: {
+        name: 'Rainshine',
+        duration: 234.197,
+        streamUrl: 'https://t4.bcbits.com/stream/376feac262a9cbc04357c220c891c6a6/mp3-128/522008396?p=0&ts=1698584173&t=afb7c1bc275c06ab7b1402de7aa8c171bd22c2cd&token=1698584173_afbfc45ac6d9158320a5ba1f7cd81d6b1a3f0258'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Surround',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Hiroshi Yoshimura',
+        url: 'https://hiroshi-yoshimura.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33343365_28.jpg'
+      },
+      location: 'Tokyo, Japan',
+      url: 'https://hiroshi-yoshimura.bandcamp.com/album/surround',
+      imageUrl: 'https://f4.bcbits.com/img/a958687535_2.jpg',
+      featuredTrack: {
+        name: 'Time after time',
+        duration: 664.2,
+        streamUrl: 'https://t4.bcbits.com/stream/efb25307449f024c0e74dc962c93e63b/mp3-128/1332569836?p=0&ts=1698584173&t=de03a7c186513b4699dc07c31e3af146ba3aec95&token=1698584173_adbc08b70bdfe79b9ec22600d037ef3b51360be7'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Beat',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Bowery Electric',
+        url: 'https://boweryelectric.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/8364587_28.jpg'
+      },
+      location: 'New York, New York',
+      url: 'https://boweryelectric.bandcamp.com/album/beat',
+      imageUrl: 'https://f4.bcbits.com/img/a349226167_2.jpg',
+      featuredTrack: {
+        name: 'Beat',
+        duration: 436.16,
+        streamUrl: 'https://t4.bcbits.com/stream/8eea008704c2aa6928c6e9f871af3da7/mp3-128/978944742?p=0&ts=1698584173&t=cfbabcccbb8cfbc16325f047cc311f51019eb625&token=1698584173_b2f66dca0fa4ac8ebac159b94da523f9b78c538f'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Humanoid Dystopia',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Kristof Bathory',
         url: 'https://cryochamber.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/4516843_28.jpg'
+        imageUrl: 'https://f4.bcbits.com/img/32980261_28.jpg'
       },
       location: 'Oregon',
-      url: 'https://cryochamber.bandcamp.com/album/spiral-of-grief',
-      imageUrl: 'https://f4.bcbits.com/img/a1784924922_2.jpg',
+      url: 'https://cryochamber.bandcamp.com/album/humanoid-dystopia',
+      imageUrl: 'https://f4.bcbits.com/img/a1988545373_2.jpg',
       featuredTrack: {
-        name: 'The Furthest from God',
-        duration: 193.5,
-        streamUrl: 'https://t4.bcbits.com/stream/d067ed086ff635c25c9ef11ad72e6762/mp3-128/986735501?p=0&ts=1686494610&t=060d4d721012660e006fe571d8725744804c421e&token=1686494610_e71274bab9a598c0b45880722d4ca6bb7f49fb57'
+        name: 'Exiled from Human Life',
+        duration: 394.254,
+        streamUrl: 'https://t4.bcbits.com/stream/daa718674abd29a389650912639a37ab/mp3-128/1571656614?p=0&ts=1698584173&t=3c85ddcf8f706ff57b84065fbdde84750f577f3c&token=1698584173_8d59ebdcfd92f0bb038d096578c8bad7d72c85fe'
       }
     },
     {
       type: 'album',
-      name: 'The Dormancy',
+      name: 'Midnight Letters',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'God Body Disconnect',
-        url: 'https://cryochamber.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/4516843_28.jpg'
+        name: 'Andrew Tasselmyer & Blurstem',
+        url: 'https://pitp.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/21692848_28.jpg'
       },
-      location: 'Oregon',
-      url: 'https://cryochamber.bandcamp.com/album/the-dormancy',
-      imageUrl: 'https://f4.bcbits.com/img/a691981029_2.jpg',
+      location: 'Indianapolis, Indiana',
+      url: 'https://pitp.bandcamp.com/album/midnight-letters',
+      imageUrl: 'https://f4.bcbits.com/img/a3601887259_2.jpg',
       featuredTrack: {
-        name: 'The Dormancy',
-        duration: 272.439,
-        streamUrl: 'https://t4.bcbits.com/stream/7a6c57fdf53dcfdc4161ddbc1497703a/mp3-128/2748123688?p=0&ts=1686494610&t=8e90dfe57845b7ee03694182e0ee2025c246511a&token=1686494610_b851b223e6c0c4b1a05a3e849c98e8edfd3d364b'
+        name: 'Dawn In Eastern Sky',
+        duration: 336,
+        streamUrl: 'https://t4.bcbits.com/stream/1cd32b6f7a0947f8df0aa936a95f88ca/mp3-128/1256746293?p=0&ts=1698584173&t=f067719b25d37026af0e3772c946587d1c93eddc&token=1698584173_a86ac3508ab22a4cb2315e7c2132cc042158a21b'
       }
     },
     {
       type: 'album',
-      name: 'Nocens',
+      name: 'Neo-Romantic',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Thme',
-        url: 'https://thme-sound.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/26544397_28.jpg'
+        name: 'Music For Sleep',
+        url: 'https://mforsleep.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33759351_28.jpg'
       },
-      location: 'Paris, France',
-      url: 'https://thme-sound.bandcamp.com/album/nocens',
-      imageUrl: 'https://f4.bcbits.com/img/a4251468025_2.jpg',
+      location: 'Sardinia, Italy',
+      url: 'https://mforsleep.bandcamp.com/album/neo-romantic',
+      imageUrl: 'https://f4.bcbits.com/img/a1742976576_2.jpg',
       featuredTrack: {
-        name: 'A surge of tenderness',
-        duration: 302,
-        streamUrl: 'https://t4.bcbits.com/stream/4087cf9c27db7e20f466cead114394e4/mp3-128/2287974867?p=0&ts=1686494610&t=05f687918dd2e6c09fe8406c196e43845bc45540&token=1686494610_94e2cb292490000e47bfb7600dc6e46528e8475b'
+        name: 'A1. Mandriola',
+        duration: 216,
+        streamUrl: 'https://t4.bcbits.com/stream/9ec37e1e7df6291e9d43065fd791196b/mp3-128/1315949916?p=0&ts=1698584173&t=13813ee0fccbe538924cf4c86152c789cb12a6d7&token=1698584173_8202be87e3d3aaa6927f27f42ffa26bc9478aa1c'
       }
     },
     {
       type: 'album',
-      name: 'Willoweald',
+      name: 'Solar Magnitude',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Loneward',
-        url: 'https://altusmusic.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/27220053_28.jpg'
+        name: 'Stellarium',
+        url: 'https://exospheremusic.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/14278285_28.jpg'
       },
-      location: 'Ottawa, Ontario',
-      url: 'https://altusmusic.bandcamp.com/album/willoweald',
-      imageUrl: 'https://f4.bcbits.com/img/a3729396994_2.jpg',
+      location: 'Los Angeles, California',
+      url: 'https://exospheremusic.bandcamp.com/album/solar-magnitude',
+      imageUrl: 'https://f4.bcbits.com/img/a4147565603_2.jpg',
       featuredTrack: {
-        name: 'Grey Fading',
-        duration: 458,
-        streamUrl: 'https://t4.bcbits.com/stream/9284b31756d8f6dc430e459e173a4398/mp3-128/239086640?p=0&ts=1686494610&t=620c322895377bf077d90402307d35ad96f07752&token=1686494610_2dd2be9f6fd84775128b8367798583bbe51cc684'
+        name: 'Rings of Sapphire',
+        duration: 491.294,
+        streamUrl: 'https://t4.bcbits.com/stream/034c3d95d31418fb34e8e59b013e3419/mp3-128/1075175365?p=0&ts=1698584173&t=89c7a51fa6edaa49d3dd5c7b81c7b42c7eeb9899&token=1698584173_6b9cd47cff21402ab2353ecaa8c2187520b54d69'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Silent Authors Of Textures',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'The Angling Loser',
+        url: 'https://theanglingloser.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/6973836_28.jpg'
+      },
+      location: 'Asti, Italy',
+      url: 'https://theanglingloser.bandcamp.com/album/silent-authors-of-textures',
+      imageUrl: 'https://f4.bcbits.com/img/a541350117_2.jpg',
+      featuredTrack: {
+        name: 'Dawn remix by Ishq',
+        duration: 541.913,
+        streamUrl: 'https://t4.bcbits.com/stream/2bb9e30dcb3730fd917dc408b1ea3695/mp3-128/2600105297?p=0&ts=1698584173&t=7e1b9d734b7784ca3e2af32b7be410685ca164b5&token=1698584173_9d83df4e73b67e1218d1bad2450b7923be62bd51'
       }
     },
     {
@@ -168,387 +244,254 @@
       featuredTrack: {
         name: "A1 - It's just a burning memory",
         duration: 212.213,
-        streamUrl: 'https://t4.bcbits.com/stream/5374bf89169c62150232c9813a977c9a/mp3-128/1541188837?p=0&ts=1686494610&t=44da4f583b8cf99aa3d6af83b79bd889553b6045&token=1686494610_f6ffc3bee18aba2d60c61f0d9b8d0ac31eeded46'
+        streamUrl: 'https://t4.bcbits.com/stream/5374bf89169c62150232c9813a977c9a/mp3-128/1541188837?p=0&ts=1698584173&t=abafb9011515dc47cbb4187191f900f99046fdce&token=1698584173_a5566783dc72b2327fa0fb1a00a17b77e526fa96'
       }
     },
     {
       type: 'album',
-      name: 'Longsword IV',
+      name: 'Iris',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Longsword',
-        url: 'https://longsword.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/23991929_28.jpg'
-      },
-      location: 'montana',
-      url: 'https://longsword.bandcamp.com/album/longsword-iv',
-      imageUrl: 'https://f4.bcbits.com/img/a2016551705_2.jpg',
-      featuredTrack: {
-        name: 'Champions of The Kingdom Pt. I',
-        duration: 188.15,
-        streamUrl: 'https://t4.bcbits.com/stream/8c07f7fc8f850a5a9697fa4b2d0bdf18/mp3-128/4009095460?p=0&ts=1686494610&t=ad99b0eb6955cede74cb4a9519fd65886ff920bc&token=1686494610_f6906521c279392140a6ba443eb04a973cd23d32'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Cosmic Echo',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Martin Stürtzer',
-        url: 'https://synphaera.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/5308514_28.jpg'
+        name: 'One Million Eyes',
+        url: 'https://astrangelyisolatedplace.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33965995_28.jpg'
       },
       location: 'Los Angeles, California',
-      url: 'https://synphaera.bandcamp.com/album/cosmic-echo',
-      imageUrl: 'https://f4.bcbits.com/img/a64982474_2.jpg',
+      url: 'https://astrangelyisolatedplace.bandcamp.com/album/iris',
+      imageUrl: 'https://f4.bcbits.com/img/a3605670818_2.jpg',
       featuredTrack: {
-        name: 'Portal to Eris',
-        duration: 410,
-        streamUrl: 'https://t4.bcbits.com/stream/44810d425f0df4cb59084c2c6db90de2/mp3-128/1376804004?p=0&ts=1686494610&t=1ade5c844bf5485ffdf1e00af39a3cc2af4099a2&token=1686494610_d3ac739d847bec1c737671dcedee222b524bc76d'
+        name: 'Look Up',
+        duration: 384,
+        streamUrl: 'https://t4.bcbits.com/stream/e3f65eb1faaf8cade10898e0dadbf80a/mp3-128/3727378613?p=0&ts=1698584173&t=6b99b92bbeedeb49b09afd850e099fee3984d54e&token=1698584173_9c88fba96b45df1d69c3a541f46ad4b6c1350c97'
       }
     },
     {
       type: 'album',
-      name: 'where i go you cannot follow',
+      name: 'Metal',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Ian Hawgood',
-        url: 'https://homenormal.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32152548_28.jpg'
+        name: 'Autumn Of Communion',
+        url: 'https://autumnofcommunion.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/8826434_28.jpg'
+      },
+      location: 'Ireland',
+      url: 'https://autumnofcommunion.bandcamp.com/album/metal',
+      imageUrl: 'https://f4.bcbits.com/img/a3559340565_2.jpg',
+      featuredTrack: {
+        name: 'Actinium',
+        duration: 711.555,
+        streamUrl: 'https://t4.bcbits.com/stream/45ba0cf3e8800b3f9543d44b30f7565e/mp3-128/662748086?p=0&ts=1698584173&t=31c0bd670e3a76e67a024c4671bd7ea2fd42dac9&token=1698584173_0cc4b3c3ea0f6b06cbc9fcceeec10ceada29b06a'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Ambient Archiv 1',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Made By John',
+        url: 'https://madebyjohn.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/31953236_28.jpg'
       },
       location: 'London, UK',
-      url: 'https://homenormal.bandcamp.com/album/where-i-go-you-cannot-follow',
-      imageUrl: 'https://f4.bcbits.com/img/a2949681641_2.jpg',
+      url: 'https://madebyjohn.bandcamp.com/album/ambient-archiv-1',
+      imageUrl: 'https://f4.bcbits.com/img/a1116230140_2.jpg',
       featuredTrack: {
-        name: 'guitar refrain for a midmorning blur',
-        duration: 933.936,
-        streamUrl: 'https://t4.bcbits.com/stream/560719cee97ad40619cc0f9a489737c3/mp3-128/3867808585?p=0&ts=1686494610&t=9a6bb683fb0aa7abf5c2219848f323125d246de1&token=1686494610_2cbd95557b50067ca1080bf4e676222dd2b82a5e'
+        name: 'Foxes',
+        duration: 300,
+        streamUrl: 'https://t4.bcbits.com/stream/0d495815ece692fb37ee3386c9fea077/mp3-128/289088169?p=0&ts=1698584173&t=758664f8fb2a35cb79639943932c374948de333f&token=1698584173_21882e551175f8240fc24f27ff41337d9278cdbe'
       }
     },
     {
       type: 'album',
-      name: 'The Map Is Not The Territory',
+      name: 'Golden Pear',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'MYRRHMAN',
-        url: 'https://myrrhman-cis.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32552569_28.jpg'
+        name: 'Omni Gardens',
+        url: 'https://omnigardens.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33375650_28.jpg'
       },
-      location: 'Scotland, UK',
-      url: 'https://myrrhman-cis.bandcamp.com/album/the-map-is-not-the-territory',
-      imageUrl: 'https://f4.bcbits.com/img/a863278589_2.jpg',
+      location: 'Portland, Oregon',
+      url: 'https://omnigardens.bandcamp.com/album/golden-pear',
+      imageUrl: 'https://f4.bcbits.com/img/a3815168760_2.jpg',
       featuredTrack: {
-        name: '[Title Redacted]',
-        duration: 312.453,
-        streamUrl: 'https://t4.bcbits.com/stream/fef0f7041064f5d7d91d17a3e419ee2f/mp3-128/695098163?p=0&ts=1686494610&t=dec1fd374c444e00805d1e24986e9c881ba6cf50&token=1686494610_3ffe5447cc7b1d2990d3d1cd400fb0e436455977'
+        name: 'Rain Jacket',
+        duration: 174.847,
+        streamUrl: 'https://t4.bcbits.com/stream/b4eb4d95ab30a7d67f7150ec2ee579cd/mp3-128/1680376400?p=0&ts=1698584173&t=04ec3e05e6398d94f4c96c2710d208c65f73627b&token=1698584173_0bde437e78d2d1e5ad3e920fd5e777b5539e1c37'
       }
     },
     {
       type: 'album',
-      name: 'Forest',
+      name: 'Sensitiv',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Shane Morris',
-        url: 'https://neotantra.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32233206_28.jpg'
-      },
-      location: 'Italy',
-      url: 'https://neotantra.bandcamp.com/album/forest',
-      imageUrl: 'https://f4.bcbits.com/img/a2750886634_2.jpg',
-      featuredTrack: {
-        name: 'Forest',
-        duration: 2775.13,
-        streamUrl: 'https://t4.bcbits.com/stream/bf9fbc5f6605c225064ae4c791fcc10c/mp3-128/1004638667?p=0&ts=1686494610&t=5bc3fee67cd5f4879b68ffd36ddd73fbf2dd1c59&token=1686494610_933275dc769460dae92ab1b21f47ab63f94607c0'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Lost Memories',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'teeth',
-        url: 'https://teeth777.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/29136829_28.jpg'
-      },
-      location: 'Pennsylvania',
-      url: 'https://teeth777.bandcamp.com/album/lost-memories',
-      imageUrl: 'https://f4.bcbits.com/img/a976960321_2.jpg',
-      featuredTrack: {
-        name: 'In my restless dreams',
-        duration: 286.944,
-        streamUrl: 'https://t4.bcbits.com/stream/6fff3715d53188a40f2bf62d2230b60c/mp3-128/350561166?p=0&ts=1686494610&t=1a0f6be204ba0ac5ff43612cea5c678f9ffe8168&token=1686494610_443f9a5a725b80f63c61c266c5671765dec23913'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Random Friday (Remastered) (24bit)',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Solar Fields',
-        url: 'https://solarfields.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/3471719_28.jpg'
-      },
-      location: 'Sweden',
-      url: 'https://solarfields.bandcamp.com/album/random-friday-remastered-24bit',
-      imageUrl: 'https://f4.bcbits.com/img/a1514016712_2.jpg',
-      featuredTrack: {
-        name: 'Swoosh (Remastered) (24bit)',
-        duration: 502.741,
-        streamUrl: 'https://t4.bcbits.com/stream/e9c7156568a97b8850d2c2f668a9396e/mp3-128/4156640513?p=0&ts=1686494610&t=ec401ca25c2017ae295516554de0459c0004d362&token=1686494610_1d362e154dc9bd8ebab0bc7248860b71baebb724'
-      }
-    },
-    {
-      type: 'album',
-      name: 'The full moon series Volume 06 - June The Full Rose Moon',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Scott Lawlor',
-        url: 'https://scottlawlor.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/27186387_28.jpg'
-      },
-      location: 'Corinth, Texas',
-      url: 'https://scottlawlor.bandcamp.com/album/the-full-moon-series-volume-06-june-the-full-rose-moon',
-      imageUrl: 'https://f4.bcbits.com/img/a4136502177_2.jpg',
-      featuredTrack: {
-        name: 'The full moon series Volume 06 - June The Full Rose Moon',
-        duration: 10599.1,
-        streamUrl: 'https://t4.bcbits.com/stream/5fb1d3f321754f6cca6ae7365c735a10/mp3-128/1530482290?p=0&ts=1686494610&t=6441127137555dc5eee618240311d81786a0043c&token=1686494610_f334d0adc68cae3be86417164ca8250c2d8e7717'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Endless Vacation',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Grotta Veterano & Music For Sleep',
-        url: 'https://mforsleep.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/31126617_28.jpg'
+        name: 'Mind over MIDI',
+        url: 'https://lontanoseries.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/14016527_28.jpg'
       },
       location: 'Sardinia, Italy',
-      url: 'https://mforsleep.bandcamp.com/album/endless-vacation',
-      imageUrl: 'https://f4.bcbits.com/img/a1402257172_2.jpg',
+      url: 'https://lontanoseries.bandcamp.com/album/sensitiv',
+      imageUrl: 'https://f4.bcbits.com/img/a3061181543_2.jpg',
       featuredTrack: {
-        name: 'If only anything could change you',
-        duration: 433.9,
-        streamUrl: 'https://t4.bcbits.com/stream/96f8e94d72332f5982c61777ad25b0c1/mp3-128/2822820283?p=0&ts=1686494610&t=4f4f8aaf8906ca9e0926289efa84b6a9fff47bb4&token=1686494610_e1e01133b150dfa3d90ee5b253b0e264dc6c2ed0'
+        name: 'fornemme',
+        duration: 91.96,
+        streamUrl: 'https://t4.bcbits.com/stream/025460fe47277567ae8270b69127f058/mp3-128/2551831069?p=0&ts=1698584173&t=d815ef14a7e4c08948a0b9811e7e8ebe5a71bdef&token=1698584173_b9ff4681e0cad07d09f17cdca592550927ab6619'
       }
     },
     {
       type: 'album',
-      name: 'Waldkult',
+      name: 'Black',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Winterblood',
-        url: 'https://winterblood78.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/23052888_28.jpg'
-      },
-      location: 'Florence, Italy',
-      url: 'https://winterblood78.bandcamp.com/album/waldkult',
-      imageUrl: 'https://f4.bcbits.com/img/a2492856898_2.jpg',
-      featuredTrack: {
-        name: 'I',
-        duration: 719.884,
-        streamUrl: 'https://t4.bcbits.com/stream/59a8315ff488cf7007fc548835276ad9/mp3-128/170087785?p=0&ts=1686494610&t=f21bef1055df543e2cdbcd5d7441214484fd9f56&token=1686494610_762cb9ca8660c401eed61ffdaf4e8a93572f0796'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Therapy',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Brendan Eder Ensemble',
-        url: 'https://brendaneder.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32143692_28.jpg'
-      },
-      location: 'Los Angeles, California',
-      url: 'https://brendaneder.bandcamp.com/album/therapy',
-      imageUrl: 'https://f4.bcbits.com/img/a3654795033_2.jpg',
-      featuredTrack: {
-        name: 'Pure (Ride the World)',
-        duration: 198.188,
-        streamUrl: 'https://t4.bcbits.com/stream/82ccd86fb9fbbf8709098b58b2a12317/mp3-128/3568761168?p=0&ts=1686494610&t=6b32eabb0117617f9548f2e0ff9d1e3bf7cbd552&token=1686494610_49d3c3e6be8d2558a25755593d27070ea1a4fc11'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Mystic Chords and Sacred Spaces - Complete Edition',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Steve Roach',
-        url: 'https://steveroach.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/15138466_28.jpg'
-      },
-      location: 'Tucson, Arizona',
-      url: 'https://steveroach.bandcamp.com/album/mystic-chords-and-sacred-spaces-complete-edition',
-      imageUrl: 'https://f4.bcbits.com/img/a3017315830_2.jpg',
-      featuredTrack: {
-        name: 'Palace of Nectar',
-        duration: 855,
-        streamUrl: 'https://t4.bcbits.com/stream/473ddf67c3a9c8da49f9bb85a1c47e01/mp3-128/750688143?p=0&ts=1686494610&t=c604c577fbafce728d27603d0ad52c41de7b078d&token=1686494610_16d0d58358ee72c9a56305d6ee34c91810c7aeb0'
-      }
-    },
-    {
-      type: 'album',
-      name: 'respirate',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Jameson Nathan Jones',
-        url: 'https://jamesonnathanjones.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/29678900_28.jpg'
-      },
-      location: 'Laurel, Mississippi',
-      url: 'https://jamesonnathanjones.bandcamp.com/album/respirate',
-      imageUrl: 'https://f4.bcbits.com/img/a297542043_2.jpg',
-      featuredTrack: {
-        name: 'gaps',
-        duration: 208.125,
-        streamUrl: 'https://t4.bcbits.com/stream/ffccf694612c0e236613d95a2f41e3a3/mp3-128/873781351?p=0&ts=1686494610&t=91430845c6d58eda57e0b665cdf027c7bcbd6a64&token=1686494610_c5c80c8e92f0d7b657c948dca5ce8ac00d571438'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Tales of The Lost and Decrepit Forest',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Purgatruum',
-        url: 'https://dispelltd.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/27653507_28.jpg'
-      },
-      location: 'Washington',
-      url: 'https://dispelltd.bandcamp.com/album/tales-of-the-lost-and-decrepit-forest',
-      imageUrl: 'https://f4.bcbits.com/img/a159215261_2.jpg',
-      featuredTrack: {
-        name: 'Hymn of a Lost Soul',
-        duration: 217.889,
-        streamUrl: 'https://t4.bcbits.com/stream/ead1e54000c7e39560a3a9a27d2149ac/mp3-128/590660397?p=0&ts=1686494610&t=34e8c3e13150abf6495cfcbd4cb3df5c30822e54&token=1686494610_e9d9e761ddc835c35c8ba15ed41ff14271c4040c'
-      }
-    },
-    {
-      type: 'album',
-      name: 'TexTrue',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Lorenzo Montanà',
-        url: 'https://lorenzomontana.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32356785_28.jpg'
-      },
-      location: 'Italy',
-      url: 'https://lorenzomontana.bandcamp.com/album/textrue',
-      imageUrl: 'https://f4.bcbits.com/img/a3504640428_2.jpg',
-      featuredTrack: {
-        name: 'Parallel Towers',
-        duration: 325.679,
-        streamUrl: 'https://t4.bcbits.com/stream/ecb03ab6851e7af9a2f5f2e8801a8461/mp3-128/730022842?p=0&ts=1686494610&t=3085409191e79e76e1f47cdac5c41763bc78461c&token=1686494610_114b0a8ef74a9ae91cb9924eb96fbc05ebe24312'
-      }
-    },
-    {
-      type: 'album',
-      name: 'The Outer Darkness',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Scott Lawlor',
-        url: 'https://scottlawlor.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/27186387_28.jpg'
-      },
-      location: 'Corinth, Texas',
-      url: 'https://scottlawlor.bandcamp.com/album/the-outer-darkness',
-      imageUrl: 'https://f4.bcbits.com/img/a2287438060_2.jpg',
-      featuredTrack: {
-        name: 'Suffering the Vengeance of Eternal Fire',
-        duration: 842.969,
-        streamUrl: 'https://t4.bcbits.com/stream/b22f35eaed482f051806fa708b8c58bd/mp3-128/3125066543?p=0&ts=1686494610&t=debdfa03b233aec98aed04f9affa93e7cb476ad2&token=1686494610_5451c3569c6b2abe3841c00dcbcccb82f89d484d'
-      }
-    },
-    {
-      type: 'album',
-      name: "Apothecary's Satchel",
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: "Witch's Amulet",
-        url: 'https://wallachianopulence.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/31388985_28.jpg'
+        name: 'Kevin Richard Martin',
+        url: 'https://kevinrichardmartin.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/20324405_28.jpg'
       },
       location: null,
-      url: 'https://wallachianopulence.bandcamp.com/album/apothecarys-satchel',
-      imageUrl: 'https://f4.bcbits.com/img/a2279646251_2.jpg',
+      url: 'https://kevinrichardmartin.bandcamp.com/album/black',
+      imageUrl: 'https://f4.bcbits.com/img/a3783827478_2.jpg',
       featuredTrack: {
-        name: 'Glow Dust and Fire Salt',
-        duration: 281.5,
-        streamUrl: 'https://t4.bcbits.com/stream/a855cb0f3c764ea4d18ac8be57bfd571/mp3-128/3217002939?p=0&ts=1686494610&t=484941764dca947cd7a45603bc208f28e77fa325&token=1686494610_d87ddadff21fa8e54811cc5c60c78d8ad1a87f1a'
+        name: 'Loveless',
+        duration: 256.116,
+        streamUrl: 'https://t4.bcbits.com/stream/a86c8bd77dbc6b37cf2e8eaba1ea9778/mp3-128/2269135354?p=0&ts=1698584173&t=449bd9e7548ff1dd381b95d14386d587c8fbcd6b&token=1698584173_e7c8bd91392b44513184915252148c222d25bf4d'
       }
     },
     {
       type: 'album',
-      name: 'Sorrow & Memories',
+      name: 'Soludenia',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Wydraddear',
-        url: 'https://wydraddear.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/25417717_28.jpg'
+        name: 'Skrika',
+        url: 'https://cryochamber.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/32980261_28.jpg'
       },
-      location: 'France',
-      url: 'https://wydraddear.bandcamp.com/album/sorrow-memories',
-      imageUrl: 'https://f4.bcbits.com/img/a1825572478_2.jpg',
+      location: 'Oregon',
+      url: 'https://cryochamber.bandcamp.com/album/soludenia',
+      imageUrl: 'https://f4.bcbits.com/img/a1951397339_2.jpg',
       featuredTrack: {
-        name: 'Privriell (The Nightmare)',
-        duration: 202.2,
-        streamUrl: 'https://t4.bcbits.com/stream/bc907e194b209196a77c5ac4613e82ce/mp3-128/3810159358?p=0&ts=1686494610&t=a38a21be23dae96d174c32454753a99224e74d19&token=1686494610_3a42aed79e71330ba3d989e126de57e035592302'
+        name: 'Kiss of Svorle',
+        duration: 487.938,
+        streamUrl: 'https://t4.bcbits.com/stream/8284a779b5009de6c2b5c87706677b73/mp3-128/90985927?p=0&ts=1698584173&t=0099fab84657cf5a2999760dee5176fd404c98bd&token=1698584173_4e418dfe1d1ba93af86306f97078cb38e2a324f5'
       }
     },
     {
       type: 'album',
-      name: 'The Leems Boyste',
+      name: 'The World Was Turning Before',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Petteril',
-        url: 'https://petteril.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/25620724_28.jpg'
+        name: 'Bill Seaman / Tim Diagram / Stephen Spera',
+        url: 'https://laaps.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/18373628_28.jpg'
       },
-      location: 'England, UK',
-      url: 'https://petteril.bandcamp.com/album/the-leems-boyste',
-      imageUrl: 'https://f4.bcbits.com/img/a647776586_2.jpg',
+      location: 'Brittany, France',
+      url: 'https://laaps.bandcamp.com/album/the-world-was-turning-before',
+      imageUrl: 'https://f4.bcbits.com/img/a3041172016_2.jpg',
       featuredTrack: {
-        name: 'DIRIVVV',
-        duration: 235,
-        streamUrl: 'https://t4.bcbits.com/stream/31bcb8235f01c656541fa5be63af2e03/mp3-128/3773525411?p=0&ts=1686494610&t=c336f79604afccf77191c7396baaf7771e9e1099&token=1686494610_1c367c105669124a914a1f6b6a7018ea8575d64d'
+        name: 'Velta',
+        duration: 464.819,
+        streamUrl: 'https://t4.bcbits.com/stream/cef3ca56ff234a1d911d27b093287a32/mp3-128/3178526150?p=0&ts=1698584173&t=d35f91e8a8561bcd97199c1c32c6d63f3907608b&token=1698584173_bdb2e3f37bbe29dce507d7eb24b96abeeff016ea'
       }
     },
     {
       type: 'album',
-      name: 'Alchemy',
+      name: 'Orphaned Tracks Vol 6',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Witan',
-        url: 'https://thewitan.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/30822306_28.jpg'
+        name: 'Mick Chillage',
+        url: 'https://mickchillage.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/20194684_28.jpg'
       },
-      location: 'England, UK',
-      url: 'https://thewitan.bandcamp.com/album/alchemy',
-      imageUrl: 'https://f4.bcbits.com/img/a435551709_2.jpg',
+      location: 'Dublin, Ireland',
+      url: 'https://mickchillage.bandcamp.com/album/orphaned-tracks-vol-6',
+      imageUrl: 'https://f4.bcbits.com/img/a1105331850_2.jpg',
       featuredTrack: {
-        name: 'Shimmering Stream',
-        duration: 305.08,
-        streamUrl: 'https://t4.bcbits.com/stream/8cff072a83b9fa3190dee921d7c7334f/mp3-128/2137586520?p=0&ts=1686494610&t=f796b22ac3a270d5a397cb7c0898834a12a02e3c&token=1686494610_941c6e71894e5eb256e71e6d57595782c490771b'
+        name: 'Secret Garden (Featuring: Kitty B Vocals) [2012]',
+        duration: 709.858,
+        streamUrl: 'https://t4.bcbits.com/stream/763bd0cf6164dc6d7d3cf22c3ca93667/mp3-128/3844382317?p=0&ts=1698584173&t=5317a8dbf9b826e793c3d038a3c16a0bce2fc1a1&token=1698584173_087444ee6b027ae6b4a1c98db7739ddf00fd6698'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Slumbering Sounds of the Frog Fellowship',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Frog Concert',
+        url: 'https://frogconcert.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/32687433_28.jpg'
+      },
+      location: 'Wisconsin',
+      url: 'https://frogconcert.bandcamp.com/album/slumbering-sounds-of-the-frog-fellowship',
+      imageUrl: 'https://f4.bcbits.com/img/a3624190527_2.jpg',
+      featuredTrack: {
+        name: 'The Green Downstream from a Hyperdimensional Now',
+        duration: 26.7795,
+        streamUrl: 'https://t4.bcbits.com/stream/64edf938871dd2da9b1961cc8397f2ad/mp3-128/3057517644?p=0&ts=1698584173&t=7a730847999eda5a6a9378fcff536ecc5281d8df&token=1698584173_78ca9389065649cbe9fb4cb18db1ae3b2e40e381'
+      }
+    },
+    {
+      type: 'album',
+      name: 'The Mystic (Original Score)',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Dean Hurley',
+        url: 'https://deanhurley.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/10906401_28.jpg'
+      },
+      location: 'Los Angeles, California',
+      url: 'https://deanhurley.bandcamp.com/album/the-mystic-original-score',
+      imageUrl: 'https://f4.bcbits.com/img/a3032041826_2.jpg',
+      featuredTrack: {
+        name: 'Main Titles',
+        duration: 61.9619,
+        streamUrl: 'https://t4.bcbits.com/stream/46e7694be0ea08624c035b7cdbe640ff/mp3-128/2427166676?p=0&ts=1698584173&t=5c1acb252821cb915b6f3612f8edc3160ad5aef8&token=1698584173_d8fc7a5468d41533be22e304add2551415405e05'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Lamentations',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Gray Friar',
+        url: 'https://grayfriar.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/31521469_28.jpg'
+      },
+      location: 'Missouri',
+      url: 'https://grayfriar.bandcamp.com/album/lamentations',
+      imageUrl: 'https://f4.bcbits.com/img/a3161928893_2.jpg',
+      featuredTrack: {
+        name: 'Lament of Leodegarius',
+        duration: 424,
+        streamUrl: 'https://t4.bcbits.com/stream/957e74b55abc3688e343ec30b9887a87/mp3-128/277042862?p=0&ts=1698584173&t=8910df853e866671495390efa18aa45f161b1e71&token=1698584173_40177ea4d6bc2c1fcbf2d4c9274ff5b696075c3a'
+      }
+    },
+    {
+      type: 'album',
+      name: 'bb z line',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'ben bondy',
+        url: 'https://benbondy.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33905986_28.jpg'
+      },
+      location: 'Brooklyn, New York',
+      url: 'https://benbondy.bandcamp.com/album/bb-z-line',
+      imageUrl: 'https://f4.bcbits.com/img/a1338597928_2.jpg',
+      featuredTrack: {
+        name: 'rave girl',
+        duration: 414,
+        streamUrl: 'https://t4.bcbits.com/stream/cb1cb6094934dadef8b5725fafafa800/mp3-128/3525423603?p=0&ts=1698584173&t=1ecca1ef44e493e3e3a564c6d72e6a7ca1903f61&token=1698584173_5806918acb57f7647bd8e9369c7f96928255cadc'
       }
     },
     {
@@ -567,202 +510,278 @@
       featuredTrack: {
         name: 'All you are going to want to do is get back there',
         duration: 226.236,
-        streamUrl: 'https://t4.bcbits.com/stream/153845156a25011e0d4e3939103f8f02/mp3-128/1186879202?p=0&ts=1686494610&t=ed14e322b916af33772bbcca6250073a34b0e3c0&token=1686494610_fcb5300cf79254dd55101cadd09ede7d3d11611c'
+        streamUrl: 'https://t4.bcbits.com/stream/153845156a25011e0d4e3939103f8f02/mp3-128/1186879202?p=0&ts=1698584173&t=4016660bf85cb0dc2af695714ca92f350131547c&token=1698584173_eada146d8ee38d92fb8151daf8bb58aad069bf8e'
       }
     },
     {
       type: 'album',
-      name: 'Spiral of Galaxies (24 bit)',
+      name: 'Ambient IV',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Astropilot',
+        name: 'Various Artists',
+        url: 'https://atlantearecords.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33030762_28.jpg'
+      },
+      location: 'Bruges, Belgium',
+      url: 'https://atlantearecords.bandcamp.com/album/ambient-iv',
+      imageUrl: 'https://f4.bcbits.com/img/a3435003427_2.jpg',
+      featuredTrack: {
+        name: 'After Rain',
+        duration: 168.16,
+        streamUrl: 'https://t4.bcbits.com/stream/bedc1157a0745e936fea9436b29678ba/mp3-128/1462243577?p=0&ts=1698584173&t=eab01aecca67f6f6cb3792b2e7543bb33681fb10&token=1698584173_0f926220ee5e2872ecbffa5fdbe7a6b76a3cd3c0'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Orphans 13',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Cousin Silas',
+        url: 'https://cousinsilas1.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/20716271_28.jpg'
+      },
+      location: 'UK',
+      url: 'https://cousinsilas1.bandcamp.com/album/orphans-13',
+      imageUrl: 'https://f4.bcbits.com/img/a710378417_2.jpg',
+      featuredTrack: {
+        name: 'Sporadic Movements',
+        duration: 257.793,
+        streamUrl: 'https://t4.bcbits.com/stream/555872eedf2c7082358986160b9e975f/mp3-128/2913354209?p=0&ts=1698584173&t=9bf08120058a6993d6b360f091bbfb4ab00960a1&token=1698584173_2a8c0a1fdd0a2e49748ccc53a7fd96bcdabce103'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Retrospective of Deep Days (2006-2023)',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'jarguna',
+        url: 'https://projektrecords.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/19063774_28.jpg'
+      },
+      location: 'Portland, Oregon',
+      url: 'https://projektrecords.bandcamp.com/album/retrospective-of-deep-days-2006-2023',
+      imageUrl: 'https://f4.bcbits.com/img/a1537560450_2.jpg',
+      featuredTrack: {
+        name: 'Neogene',
+        duration: 345,
+        streamUrl: 'https://t4.bcbits.com/stream/b1f07055ae63b58b222d45ac777a6627/mp3-128/703013272?p=0&ts=1698584173&t=fef27b2afdfeadd50ddc6d7dd551a6cd7c7a3ca5&token=1698584173_1b5c872c9ead1dbb6d94fc933b297ef20f60910e'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Sotvorishi - Trancearea',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Sotvorishi',
+        url: 'https://secretdomainlabel.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/14652744_28.jpg'
+      },
+      location: null,
+      url: 'https://secretdomainlabel.bandcamp.com/album/sotvorishi-trancearea',
+      imageUrl: 'https://f4.bcbits.com/img/a2261440481_2.jpg',
+      featuredTrack: {
+        name: 'High Coast',
+        duration: 143.623,
+        streamUrl: 'https://t4.bcbits.com/stream/f1c8d1e6d352f709f2d14d9d5306b14a/mp3-128/3443345696?p=0&ts=1698584173&t=d74caa955b306148a7a34648bef89ba78f0bd59f&token=1698584173_e9108f71149272ba682b2c966581dfc8b5f84e42'
+      }
+    },
+    {
+      type: 'album',
+      name: 'All Micro Ambient Music (5 title set)',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Micro Ambient Music',
+        url: 'https://microambientmusic.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/32990696_28.jpg'
+      },
+      location: 'Japan',
+      url: 'https://microambientmusic.bandcamp.com/album/all-micro-ambient-music-5-title-set',
+      imageUrl: 'https://f4.bcbits.com/img/a2429871343_2.jpg',
+      featuredTrack: {
+        name: 'Transparent Encephalon',
+        duration: 427.636,
+        streamUrl: 'https://t4.bcbits.com/stream/0907943160403e05caeab69bd30afa63/mp3-128/312679654?p=0&ts=1698584173&t=402fbb8d04cdfd6b5ea2d7c13a0e77d492909317&token=1698584173_492129d8327a4336995f1aea10fa677d81bfbc86'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Demain, dès l’aube',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'From Overseas & zakè',
+        url: 'https://pitp.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/21692848_28.jpg'
+      },
+      location: 'Indianapolis, Indiana',
+      url: 'https://pitp.bandcamp.com/album/demain-d-s-l-aube',
+      imageUrl: 'https://f4.bcbits.com/img/a1404684868_2.jpg',
+      featuredTrack: {
+        name: 'Faraway',
+        duration: 295,
+        streamUrl: 'https://t4.bcbits.com/stream/c13b227f8b5c1ff924e4f5381d9f4d50/mp3-128/528098943?p=0&ts=1698584173&t=b6d5d92a76aad057e35d7d13c5e9f177dbe0ce98&token=1698584173_44aa1271c185b596943a6d79f606b3c79e993500'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Signals',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Fictions and Poetics',
+        url: 'https://fictionsandpoetics.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/15774545_28.jpg'
+      },
+      location: null,
+      url: 'https://fictionsandpoetics.bandcamp.com/album/signals',
+      imageUrl: 'https://f4.bcbits.com/img/a2531878950_2.jpg',
+      featuredTrack: {
+        name: 'Signals',
+        duration: 377,
+        streamUrl: 'https://t4.bcbits.com/stream/8b1e28f1ceefa3c506fd774709c78179/mp3-128/4128612984?p=0&ts=1698584173&t=18d5a26135a3121df7f1a186b72ef163048b04fd&token=1698584173_5818226afb21255a2567716303b71d5b3cc64a73'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Duskveiled',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Drifting Dots',
+        url: 'https://driftingdots.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33196070_28.jpg'
+      },
+      location: 'Kyiv, Ukraine',
+      url: 'https://driftingdots.bandcamp.com/album/duskveiled',
+      imageUrl: 'https://f4.bcbits.com/img/a2769064689_2.jpg',
+      featuredTrack: {
+        name: 'Atropos',
+        duration: 317.792,
+        streamUrl: 'https://t4.bcbits.com/stream/ce5fc4994a04b6998a0f6ce4a663e94b/mp3-128/3157612401?p=0&ts=1698584173&t=80d5d0cb15420c4d982b84de246a6614602456cd&token=1698584173_f20b1c67bc8b0f35b6e3e01da199f90b5d3cd53f'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Seeker',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Carbon Based Lifeforms',
+        url: 'https://carbonbasedlifeforms.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/3526550_28.jpg'
+      },
+      location: 'Sweden',
+      url: 'https://carbonbasedlifeforms.bandcamp.com/album/seeker',
+      imageUrl: 'https://f4.bcbits.com/img/a967052848_2.jpg',
+      featuredTrack: {
+        name: 'Seeker',
+        duration: 450.625,
+        streamUrl: 'https://t4.bcbits.com/stream/d7f537a81b8377971a2142e4811c28d6/mp3-128/2082469214?p=0&ts=1698584173&t=79ab1073f5e98e84f46bb5f3e4aee19c2906b683&token=1698584173_f9aa0aaa8f1fb5806161853715fe9d674373b173'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Propagations Through Time And Space: Prequel',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Arjen Schat',
+        url: 'https://arjenschat.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/26229529_28.jpg'
+      },
+      location: 'Netherlands',
+      url: 'https://arjenschat.bandcamp.com/album/propagations-through-time-and-space-prequel',
+      imageUrl: 'https://f4.bcbits.com/img/a2688008029_2.jpg',
+      featuredTrack: {
+        name: '20090614m2',
+        duration: 552.513,
+        streamUrl: 'https://t4.bcbits.com/stream/513c6c1288ab77ed0f6a9cd9f0a4ab03/mp3-128/2274717577?p=0&ts=1698584173&t=44c49e835cbf64341faacb352aba516bcefcf331&token=1698584173_1e07589fabb783c264a002cd87ed2a57e87de278'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Beacon',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Jane Bruckner',
+        url: 'https://janebruckner.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/26738841_28.jpg'
+      },
+      location: 'Nova Scotia',
+      url: 'https://janebruckner.bandcamp.com/album/beacon',
+      imageUrl: 'https://f4.bcbits.com/img/a483067282_2.jpg',
+      featuredTrack: {
+        name: 'Lighthouse',
+        duration: 400.982,
+        streamUrl: 'https://t4.bcbits.com/stream/783ff2d9f717cf6e6ec38020f37d43eb/mp3-128/3594794647?p=0&ts=1698584173&t=a660b7e8163ddfb17b44cdec0d521c3880e52924&token=1698584173_498c299416ccb0cd76cdfd4a6f2a270bfea66605'
+      }
+    },
+    {
+      type: 'album',
+      name: "Abyssal Adventurer's Logs [24 bit]",
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Astropilot (ambient side)',
         url: 'https://astro-sphere.bandcamp.com',
         imageUrl: 'https://f4.bcbits.com/img/31536378_28.jpg'
       },
       location: null,
-      url: 'https://astro-sphere.bandcamp.com/album/spiral-of-galaxies-24-bit',
-      imageUrl: 'https://f4.bcbits.com/img/a3946410691_2.jpg',
+      url: 'https://astro-sphere.bandcamp.com/album/abyssal-adventurers-logs-24-bit',
+      imageUrl: 'https://f4.bcbits.com/img/a1737490405_2.jpg',
       featuredTrack: {
-        name: 'Spiral of Galaxies',
-        duration: 3231.24,
-        streamUrl: 'https://t4.bcbits.com/stream/77e21e698ded4ea77442f6bb93017543/mp3-128/2960587501?p=0&ts=1686494610&t=e7ecc02e04880505942ca562433c8882d09aefe4&token=1686494610_07547aa4fbcdfc01ec6833c182c3087bcade99c9'
+        name: 'Log 01 (Cassiopeia Longform edit)',
+        duration: 1497,
+        streamUrl: 'https://t4.bcbits.com/stream/cc44c1aed26b265e239578ff40fc2a15/mp3-128/247236061?p=0&ts=1698584173&t=1756760a5844530bd238d632cdb5b2871e6a3ef9&token=1698584173_2b0938a1efdc5e1361f5a355312c140741d94580'
       }
     },
     {
       type: 'album',
-      name: 'Legacy of Silence (24bit)',
+      name: 'Goodbye, Hotel Arkada',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Steve Brand',
-        url: 'https://steve-brand.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/26697882_28.jpg'
+        name: 'Mary Lattimore',
+        url: 'https://marylattimoreharpist.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/7493584_28.jpg'
       },
-      location: null,
-      url: 'https://steve-brand.bandcamp.com/album/legacy-of-silence-24bit',
-      imageUrl: 'https://f4.bcbits.com/img/a1883270699_2.jpg',
+      location: 'Los Angeles, California',
+      url: 'https://marylattimoreharpist.bandcamp.com/album/goodbye-hotel-arkada',
+      imageUrl: 'https://f4.bcbits.com/img/a1839568871_2.jpg',
       featuredTrack: {
-        name: 'Legacy Of Silence',
-        duration: 486,
-        streamUrl: 'https://t4.bcbits.com/stream/c7d1869f78f0e7d7f2f7df29f1513d50/mp3-128/2147191742?p=0&ts=1686494610&t=fc6a74b9f174f25329c6dc35d97b1e169d9313f1&token=1686494610_73d79fa351ae4f9915a02014384922ac077a41ec'
+        name: 'Horses, Glossy on the Hill',
+        duration: 429.196,
+        streamUrl: 'https://t4.bcbits.com/stream/d3d9abc8de28d92cfdbd29db8b9af898/mp3-128/848476263?p=0&ts=1698584173&t=cd25ef66e41d71178788d6f6915cdac3ec9fc692&token=1698584173_6d31bca034ce4a8899f4780383998ad69fae3a1c'
       }
     },
     {
       type: 'album',
-      name: 'Verdant',
+      name: 'Aprés Nous Le Dèluge',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Rog',
-        url: 'https://rogofficial.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/18084376_28.jpg'
+        name: 'raison d’être',
+        url: 'https://raisondetre.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/5576_28.jpg'
       },
-      location: 'Croatia',
-      url: 'https://rogofficial.bandcamp.com/album/verdant',
-      imageUrl: 'https://f4.bcbits.com/img/a3501959396_2.jpg',
+      location: 'Sweden',
+      url: 'https://raisondetre.bandcamp.com/album/apr-s-nous-le-d-luge',
+      imageUrl: 'https://f4.bcbits.com/img/a2143027533_2.jpg',
       featuredTrack: {
-        name: 'Earth magic',
-        duration: 155.769,
-        streamUrl: 'https://t4.bcbits.com/stream/90f3d41c4f193c0f613268202489ff7e/mp3-128/4161429065?p=0&ts=1686494610&t=3a7a4a5daed15410daddec070c2dff3a8d0e7b05&token=1686494610_21122f06c813ede3121f4e7794f8e70336ae59be'
+        name: 'Moribund (redux)',
+        duration: 367.373,
+        streamUrl: 'https://t4.bcbits.com/stream/32ef59247dab6eab7e2ec69ee0936ffe/mp3-128/2216258855?p=0&ts=1698584173&t=bb81846f6f547c62bc12da1485e445eb47768e28&token=1698584173_036a06f654b23bb69e4414f192f1f1604eaa4026'
       }
     },
     {
       type: 'album',
-      name: 'and then there was nothing',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Ian Hawgood',
-        url: 'https://folkreels.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/23221489_28.jpg'
-      },
-      location: 'Brighton, UK',
-      url: 'https://folkreels.bandcamp.com/album/and-then-there-was-nothing',
-      imageUrl: 'https://f4.bcbits.com/img/a1022848621_2.jpg',
-      featuredTrack: {
-        name: 'Movement I',
-        duration: 466.569,
-        streamUrl: 'https://t4.bcbits.com/stream/cba3132d54671139cbcb70253520c16e/mp3-128/2789158750?p=0&ts=1686494610&t=fe3bcb7e97bdaf72af0140e2ffa749c44c7abc2e&token=1686494610_124a3d669df9fd6acda075696623d00986c2e26a'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Kwaidan / 怪談 (5th Anniversary Edition)',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Meitei / 冥丁',
-        url: 'https://meitei.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32623951_28.jpg'
-      },
-      location: 'Hiroshima, Japan',
-      url: 'https://meitei.bandcamp.com/album/kwaidan-5th-anniversary-edition',
-      imageUrl: 'https://f4.bcbits.com/img/a3442473534_2.jpg',
-      featuredTrack: {
-        name: 'Sazanami / 漣',
-        duration: 61.76,
-        streamUrl: 'https://t4.bcbits.com/stream/e9a0056047e65dd7a508a5e8e0170b49/mp3-128/681024076?p=0&ts=1686494610&t=d28e4480c13c411736b460bc1b2f314b7269fe22&token=1686494610_8569cbf58b5089c26aa16fbf6fd23015ff5f62ca'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Soulside Eclipse I',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Soulside Eclipse',
-        url: 'https://soulsideeclipse.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/22089155_28.jpg'
-      },
-      location: 'England, UK',
-      url: 'https://soulsideeclipse.bandcamp.com/album/soulside-eclipse-i',
-      imageUrl: 'https://f4.bcbits.com/img/a4288579673_2.jpg',
-      featuredTrack: {
-        name: 'The Curse Of The Eclipse',
-        duration: 249.919,
-        streamUrl: 'https://t4.bcbits.com/stream/4e7a78c86fab6a9a8295be9b5650da3f/mp3-128/2567491046?p=0&ts=1686494610&t=bd18c87a36ffb675f284e18e182173a7fdf641cc&token=1686494610_be6bb205e7f41c2f9c72e8bbfbeeea026fb86b18'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Slip Casting',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Solo Andata',
-        url: 'https://soloandata.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32594075_28.jpg'
-      },
-      location: 'Melbourne, Australia',
-      url: 'https://soloandata.bandcamp.com/album/slip-casting',
-      imageUrl: 'https://f4.bcbits.com/img/a3106077643_2.jpg',
-      featuredTrack: {
-        name: 'A Meditation',
-        duration: 266.739,
-        streamUrl: 'https://t4.bcbits.com/stream/f7e39cd3b8aaffe7dde2fa758283bbf2/mp3-128/4087192303?p=0&ts=1686494610&t=77edd33cd55e3c75ec75e8532bc9b5792a925a5b&token=1686494610_448fb24caaa65d8366ecbc1e70150272a64248ec'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Upon The Lonesome Throne',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Windlance',
-        url: 'https://ithildintapeproduction.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/30302681_28.jpg'
-      },
-      location: 'Grand Rapids, Michigan',
-      url: 'https://ithildintapeproduction.bandcamp.com/album/upon-the-lonesome-throne',
-      imageUrl: 'https://f4.bcbits.com/img/a263832899_2.jpg',
-      featuredTrack: {
-        name: 'Upon The Lonesome Throne Full Tape',
-        duration: 1856.63,
-        streamUrl: 'https://t4.bcbits.com/stream/af304be85d01975626595ef4719a4a60/mp3-128/358813463?p=0&ts=1686494610&t=8db365c003677f2ec3e211e5ddbd0a739e883914&token=1686494610_30f06d268c679e9651fd6a5420c618a5d8881c1d'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Mountains',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Onfang & Tütsen',
-        url: 'https://tutsen.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32599373_28.jpg'
-      },
-      location: 'Memphis, Tennessee',
-      url: 'https://tutsen.bandcamp.com/album/mountains',
-      imageUrl: 'https://f4.bcbits.com/img/a689770525_2.jpg',
-      featuredTrack: {
-        name: 'Onfang - Birds Flock To Flooded Farmland',
-        duration: 207.568,
-        streamUrl: 'https://t4.bcbits.com/stream/ffe8356c30b9823575e975fac3c3259a/mp3-128/129326439?p=0&ts=1686494610&t=943a0da070ced226438f5f833da887553c9f23f3&token=1686494610_864ff746468725185fde5902e7a240bc919a4425'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Winter Rehearsal II',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Ageless Twilight',
-        url: 'https://dispelltd.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/27653507_28.jpg'
-      },
-      location: 'Washington',
-      url: 'https://dispelltd.bandcamp.com/album/winter-rehearsal-ii',
-      imageUrl: 'https://f4.bcbits.com/img/a2749738262_2.jpg',
-      featuredTrack: {
-        name: 'Winter Rehearsal II',
-        duration: 1049.01,
-        streamUrl: 'https://t4.bcbits.com/stream/4300a17eaf0bea8ecd2086da1561697d/mp3-128/1324885397?p=0&ts=1686494610&t=d57099293215a82ffc26c951d2e44c0946668aa0&token=1686494610_67ff54a3a8982df3ad3317e97763a012452d3b57'
-      }
-    },
-    {
-      type: 'album',
-      name: '(Whirring Marvels In) Consensus Reality',
+      name: 'Lambent Material',
       genre: 'ambient',
       artist: {
         type: 'artist',
@@ -771,131 +790,74 @@
         imageUrl: 'https://f4.bcbits.com/img/30480831_28.jpg'
       },
       location: 'Portland, Oregon',
-      url: 'https://eluvium.bandcamp.com/album/whirring-marvels-in-consensus-reality',
-      imageUrl: 'https://f4.bcbits.com/img/a428488522_2.jpg',
+      url: 'https://eluvium.bandcamp.com/album/lambent-material',
+      imageUrl: 'https://f4.bcbits.com/img/a3531980473_2.jpg',
       featuredTrack: {
-        name: 'Escapement',
-        duration: 96.795,
-        streamUrl: 'https://t4.bcbits.com/stream/7800e7d3cc0a94b958170ffa753375a5/mp3-128/3954546360?p=0&ts=1686494610&t=4297de861e028eb7a5c3870a3bbc11488f8c91f9&token=1686494610_0a2624796dec743123d986cf6290eac1a4d75c04'
+        name: 'The Unfinished',
+        duration: 278.173,
+        streamUrl: 'https://t4.bcbits.com/stream/07974b60f6434c02dbc06abee19c45c2/mp3-128/168748713?p=0&ts=1698584173&t=5053af685abe6308f97789dd012748cce9928071&token=1698584173_d840a9bc2cf39c95f2a5f58f0ac64ce526b66643'
       }
     },
     {
       type: 'album',
-      name: 'Drift',
+      name: 'touched by an angel',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'zakè & Tyresta',
-        url: 'https://zakedrone.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/25890429_28.jpg'
+        name: 'Klein',
+        url: 'https://klein1997.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/29588955_28.jpg'
       },
-      location: null,
-      url: 'https://zakedrone.bandcamp.com/album/drift',
-      imageUrl: 'https://f4.bcbits.com/img/a2312650413_2.jpg',
+      location: 'London, UK',
+      url: 'https://klein1997.bandcamp.com/album/touched-by-an-angel',
+      imageUrl: 'https://f4.bcbits.com/img/a785167613_2.jpg',
       featuredTrack: {
-        name: 'Monuments at Sea',
-        duration: 527.62,
-        streamUrl: 'https://t4.bcbits.com/stream/f8ef4dbd53dcd9dfce3ca1fe0819a11f/mp3-128/4135932532?p=0&ts=1686494610&t=da96d8366830a79079151d97ac084abbccaac774&token=1686494610_2374819469551df95cb77e70cb8936e9212f2f26'
+        name: 'DJ drop',
+        duration: 552.868,
+        streamUrl: 'https://t4.bcbits.com/stream/4e9a84c673935bc9ff25ecb4c7271884/mp3-128/1791011634?p=0&ts=1698584173&t=0541474474b8fd304678173326c59a056fd26e99&token=1698584173_be0d2e32ef270481c06f4c0ae8918a0f21487fa3'
       }
     },
     {
       type: 'album',
-      name: 'New Wave / Expander',
+      name: 'An Oath To The Sacred Lady',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'Weird Genetics / Anymus',
-        url: 'https://stroomtv.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/25159466_28.jpg'
+        name: 'The Owl Knight',
+        url: 'https://ithildintapeproduction.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/32797292_28.jpg'
       },
-      location: 'Belgium',
-      url: 'https://stroomtv.bandcamp.com/album/new-wave-expander',
-      imageUrl: 'https://f4.bcbits.com/img/a4114777652_2.jpg',
+      location: 'Grand Rapids, Michigan',
+      url: 'https://ithildintapeproduction.bandcamp.com/album/an-oath-to-the-sacred-lady',
+      imageUrl: 'https://f4.bcbits.com/img/a530794288_2.jpg',
       featuredTrack: {
-        name: 'New Wave',
-        duration: 392.763,
-        streamUrl: 'https://t4.bcbits.com/stream/272151d836c869fe2bc8e4b6f0c27281/mp3-128/579624871?p=0&ts=1686494610&t=73b2ce68287b793ed1c1a6cc159a75a8d9dc6e57&token=1686494610_8a69b3235da548be60d924027a8f7f8b774ee52a'
+        name: 'A Floral Radiance',
+        duration: 186.462,
+        streamUrl: 'https://t4.bcbits.com/stream/0fefc4794f410a53255766650aa0f632/mp3-128/3630023848?p=0&ts=1698584173&t=f27a79176d17c24c0aa9beee0b831959847f41d3&token=1698584173_9bf22db97d1e51d3e94983b4c8dddbf3a0db234d'
       }
     },
     {
       type: 'album',
-      name: 'Windbags/Lune',
+      name: 'Overlay',
       genre: 'ambient',
       artist: {
         type: 'artist',
-        name: 'KMRU',
-        url: 'https://kmru.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/24810541_28.jpg'
+        name: 'Guentner | Spieth',
+        url: 'https://guentnerspieth.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/33221093_28.jpg'
       },
-      location: 'Nairobi, Kenya',
-      url: 'https://kmru.bandcamp.com/album/windbags-lune',
-      imageUrl: 'https://f4.bcbits.com/img/a2106482823_2.jpg',
+      location: 'Germany',
+      url: 'https://guentnerspieth.bandcamp.com/album/overlay',
+      imageUrl: 'https://f4.bcbits.com/img/a2567873452_2.jpg',
       featuredTrack: {
-        name: 'Lune',
-        duration: 352.019,
-        streamUrl: 'https://t4.bcbits.com/stream/54524abbfdd582ee24877bc0aa4a8ec8/mp3-128/1921678791?p=0&ts=1686494610&t=334f160997fc1b390d36cd520f53f0b78e35c73b&token=1686494610_8dd49c9712671808835ea3fa053ee5ab4ad7a24a'
+        name: 'Praeludium',
+        duration: 463.045,
+        streamUrl: 'https://t4.bcbits.com/stream/90ea39c04e389befb58a84b906b7cd9a/mp3-128/686234128?p=0&ts=1698584173&t=6a7042a47bff9f0645506d318bac6626a2ce4aad&token=1698584173_c3024e9d744393da6b5feb44ca6496153df4ed84'
       }
     },
     {
       type: 'album',
-      name: 'VOID-002 - 暗号零',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: '暗号零',
-        url: 'https://c1ph3r.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/17943885_28.jpg'
-      },
-      location: 'Shenzhen, China',
-      url: 'https://c1ph3r.bandcamp.com/album/void-002',
-      imageUrl: 'https://f4.bcbits.com/img/a1374804580_2.jpg',
-      featuredTrack: {
-        name: '虚空',
-        duration: 157.375,
-        streamUrl: 'https://t4.bcbits.com/stream/ff73eb2f0d8d0b328bf1d8aff8f9e23d/mp3-128/751186513?p=0&ts=1686494610&t=b21bd5e250713c49a100e9b5d6e8d7103808dd40&token=1686494610_97c96e1a8bf78c12660469a922788f635be1bbe4'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Requiem For A Dying Animal',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'AWARE',
-        url: 'https://glacialmovements.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/953324_28.jpg'
-      },
-      location: 'Rome, Italy',
-      url: 'https://glacialmovements.bandcamp.com/album/requiem-for-a-dying-animal',
-      imageUrl: 'https://f4.bcbits.com/img/a1600402189_2.jpg',
-      featuredTrack: {
-        name: 'I',
-        duration: 754.924,
-        streamUrl: 'https://t4.bcbits.com/stream/1bb17adea41951bf6e7a1fa1a0642e6c/mp3-128/195542269?p=0&ts=1686494610&t=63ade034f50f3e0dd73c304ce93e1853925c251b&token=1686494610_cb2f0eb83f669d750ed27c72a8c45ced5046884f'
-      }
-    },
-    {
-      type: 'album',
-      name: 'Trust',
-      genre: 'ambient',
-      artist: {
-        type: 'artist',
-        name: 'Theodore Cale Schafer',
-        url: 'https://theodoreschafer.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/32038640_28.jpg'
-      },
-      location: 'Queens, New York',
-      url: 'https://theodoreschafer.bandcamp.com/album/trust',
-      imageUrl: 'https://f4.bcbits.com/img/a614543226_2.jpg',
-      featuredTrack: {
-        name: 'Best Friend',
-        duration: 317.427,
-        streamUrl: 'https://t4.bcbits.com/stream/67efe3b8e9aeca143209e132a9998fa9/mp3-128/2568154562?p=0&ts=1686494610&t=46394dd1313cd15ef7adcc78f1ae5bebc20e62e3&token=1686494610_3e6cda66a541df33dfd89a16cf4bae89584687c9'
-      }
-    },
-    {
-      type: 'album',
-      name: 'The Function Of Life',
+      name: 'Oceanus Procellarum',
       genre: 'ambient',
       artist: {
         type: 'artist',
@@ -904,16 +866,54 @@
         imageUrl: 'https://f4.bcbits.com/img/20194684_28.jpg'
       },
       location: 'Dublin, Ireland',
-      url: 'https://mickchillage.bandcamp.com/album/the-function-of-life-2',
-      imageUrl: 'https://f4.bcbits.com/img/a1423456594_2.jpg',
+      url: 'https://mickchillage.bandcamp.com/album/oceanus-procellarum',
+      imageUrl: 'https://f4.bcbits.com/img/a3482930183_2.jpg',
       featuredTrack: {
-        name: 'Strange Space',
-        duration: 1704,
-        streamUrl: 'https://t4.bcbits.com/stream/ec1ad62ecd5a4d5206cd6fd64e218c57/mp3-128/3183111690?p=0&ts=1686494610&t=df8d6dd564a0872843b842c663d2a4c0578a56e8&token=1686494610_13e949b3b22e0a7a065d888738a457544adcf046'
+        name: 'Oceanus Procellarum',
+        duration: 2078.4,
+        streamUrl: 'https://t4.bcbits.com/stream/c6adc2da64a78ade27afcde75b14c07b/mp3-128/1456266078?p=0&ts=1698584173&t=cffdb057ec41b07d4ae77a12642e2b7a77befe40&token=1698584173_85156830b107f7f8f2ae99a6571d40c157e82400'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Signs',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'Purelink',
+        url: 'https://purelink.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/24761317_28.jpg'
+      },
+      location: 'Brooklyn, New York',
+      url: 'https://purelink.bandcamp.com/album/signs',
+      imageUrl: 'https://f4.bcbits.com/img/a2058555088_2.jpg',
+      featuredTrack: {
+        name: '4k Murmurs feat. J',
+        duration: 433.965,
+        streamUrl: 'https://t4.bcbits.com/stream/aa12535bd9450ba74954dfd1293b1f44/mp3-128/2434551559?p=0&ts=1698584173&t=2c634a260919e7ad12fe3339602e9bafae0af302&token=1698584173_4a326ba3ad407496fb4ac5cbaaf133e579a685d8'
+      }
+    },
+    {
+      type: 'album',
+      name: 'The Barn',
+      genre: 'ambient',
+      artist: {
+        type: 'artist',
+        name: 'CAVERN',
+        url: 'https://cavern.bandcamp.com',
+        imageUrl: 'https://f4.bcbits.com/img/18614138_28.jpg'
+      },
+      location: 'France',
+      url: 'https://cavern.bandcamp.com/album/the-barn',
+      imageUrl: 'https://f4.bcbits.com/img/a1856497918_2.jpg',
+      featuredTrack: {
+        name: 'Sisters',
+        duration: 80.4398,
+        streamUrl: 'https://t4.bcbits.com/stream/493eb07f4589467db9ef66dec38281b1/mp3-128/3026635687?p=0&ts=1698584173&t=15e4f9b5b9fbb4cb979f88c7508a2c4adaf4ca84&token=1698584173_c567710f9d8ba3044ba15179d9fd0753e463421e'
       }
     }
   ],
-  total: 1400,
+  total: 1219,
   params: {
     genre: 'ambient',
     sortBy: 'top',

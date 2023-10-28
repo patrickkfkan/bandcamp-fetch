@@ -1,39 +1,3 @@
-Autocomplete tag suggestions: ambient, Limit: 10
-------------------------------------------------
-[
-  { type: 'tag', count: 586893, value: 'ambient', name: 'ambient' },
-  {
-    type: 'tag',
-    count: 87051,
-    value: 'ambient-electronic',
-    name: 'ambient electronic'
-  },
-  {
-    type: 'tag',
-    count: 15222,
-    value: 'ambient-rock',
-    name: 'ambient rock'
-  },
-  {
-    type: 'tag',
-    count: 9207,
-    value: 'ambient-techno',
-    name: 'ambient techno'
-  },
-  {
-    type: 'tag',
-    count: 5607,
-    value: 'ambient-music',
-    name: 'ambient music'
-  },
-  {
-    type: 'tag',
-    count: 3606,
-    value: 'ambient-drone',
-    name: 'ambient drone'
-  }
-]
-
 Autocomplete location suggestions: Fin, Limit: 10
 -------------------------------------------------
 [
@@ -96,6 +60,42 @@ Autocomplete location suggestions: Fin, Limit: 10
     value: 3176983,
     name: 'Finale Emilia',
     fullName: 'Finale Emilia, Emilia-Romagna'
+  }
+]
+
+Autocomplete tag suggestions: ambient, Limit: 10
+------------------------------------------------
+[
+  { type: 'tag', count: 607428, value: 'ambient', name: 'ambient' },
+  {
+    type: 'tag',
+    count: 92295,
+    value: 'ambient-electronic',
+    name: 'ambient electronic'
+  },
+  {
+    type: 'tag',
+    count: 15888,
+    value: 'ambient-rock',
+    name: 'ambient rock'
+  },
+  {
+    type: 'tag',
+    count: 10116,
+    value: 'ambient-techno',
+    name: 'ambient techno'
+  },
+  {
+    type: 'tag',
+    count: 6668,
+    value: 'ambient-music',
+    name: 'ambient music'
+  },
+  {
+    type: 'tag',
+    count: 3731,
+    value: 'ambient-drone',
+    name: 'ambient drone'
   }
 ]
 

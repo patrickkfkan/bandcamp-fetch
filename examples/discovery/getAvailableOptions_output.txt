@@ -399,12 +399,12 @@
   ],
   times: [
     { name: 'today', value: -1, title: 'last 24 hours' },
-    { name: 'this week', value: 0, title: 'week of Jun 04' },
-    { name: 'last week', value: 772, title: 'week of May 28' },
-    { name: '2 weeks ago', value: 771, title: 'week of May 21' },
-    { name: '3 weeks ago', value: 770, title: 'week of May 14' },
-    { name: '4 weeks ago', value: 769, title: 'week of May 07' },
-    { name: '5 weeks ago', value: 768, title: 'week of Apr 30' },
-    { name: '6 weeks ago', value: 767, title: 'week of Apr 23' }
+    { name: 'this week', value: 0, title: 'week of Oct 22' },
+    { name: 'last week', value: 792, title: 'week of Oct 15' },
+    { name: '2 weeks ago', value: 791, title: 'week of Oct 08' },
+    { name: '3 weeks ago', value: 790, title: 'week of Oct 01' },
+    { name: '4 weeks ago', value: 789, title: 'week of Sep 24' },
+    { name: '5 weeks ago', value: 788, title: 'week of Sep 17' },
+    { name: '6 weeks ago', value: 787, title: 'week of Sep 10' }
   ]
 }

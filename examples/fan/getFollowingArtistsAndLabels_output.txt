@@ -1,6 +1,18 @@
 {
   items: [
     {
+      name: 'Miranda Joan',
+      location: 'Brooklyn, New York',
+      url: 'https://mirandajoan.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/26892783_28.jpg'
+    },
+    {
+      name: 'Anita Tatlow',
+      location: 'Hong Kong',
+      url: 'https://anitatatlow.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/26553681_28.jpg'
+    },
+    {
       name: 'Cœur de pirate',
       location: 'Montréal, Québec',
       url: 'https://coeurdepirate.bandcamp.com',
@@ -187,10 +199,10 @@
       imageUrl: 'https://f4.bcbits.com/img/31110755_28.jpg'
     },
     {
-      name: 'The Music Tapes',
+      name: 'The Music Tapes / Orbiting Human Circus',
       location: 'Athens, Georgia',
       url: 'https://themusictapes.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/17776773_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/33256672_28.jpg'
     },
     {
       name: 'Mt. Wilson Repeater',
@@ -238,26 +250,33 @@
       name: 'H.C. McEntire',
       location: 'Durham, North Carolina',
       url: 'https://hcmcentire.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/20946952_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/32985274_28.jpg'
     },
     {
       name: 'William Tyler',
       location: 'Los Angeles, California',
       url: 'https://williamtyler.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/18844022_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/33256659_28.jpg'
     },
     {
       name: 'The Clientele',
       location: 'London, UK',
       url: 'https://theclientele.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/10580560_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/33256646_28.jpg'
     },
     {
       name: 'Bob Mould',
       location: 'San Francisco, California',
       url: 'https://bobmould.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/20299197_28.jpg'
-    },
+    }
+  ],
+  total: 70,
+  continuation: { fanId: 8563805, token: '1655975484:2759368912' }
+}
+Fetching more by continuation...
+{
+  items: [
     {
       name: 'Mike Krol',
       location: 'Los Angeles, California',
@@ -269,14 +288,7 @@
       location: '',
       url: 'https://fruit-bats.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/31581619_28.jpg'
-    }
-  ],
-  total: 69,
-  continuation: { fanId: 8563805, token: '1655975474:2565104658' }
-}
-Fetching more by continuation...
-{
-  items: [
+    },
     {
       name: 'The Clean',
       location: 'New Zealand',
@@ -287,13 +299,13 @@ Fetching more by continuation...
       name: 'Will Butler',
       location: 'Brooklyn, New York',
       url: 'https://willbutler.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/24918652_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/32985247_28.jpg'
     },
     {
       name: 'Teenage Fanclub',
       location: 'Glasgow, UK',
       url: 'https://teenage-fanclub.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/24101151_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/33256695_28.jpg'
     },
     {
       name: 'Cable Ties',
@@ -311,13 +323,13 @@ Fetching more by continuation...
       name: 'Hiss Golden Messenger',
       location: 'North Carolina',
       url: 'https://hissgoldenmessenger.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/24016536_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/32985256_28.jpg'
     },
     {
-      name: 'Torres',
+      name: 'TORRES',
       location: 'New York, New York',
       url: 'https://torrestorrestorres.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/24864649_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/33736346_28.jpg'
     },
     {
       name: 'DAWN',
@@ -335,7 +347,7 @@ Fetching more by continuation...
       name: 'A Giant Dog',
       location: 'Austin, Texas',
       url: 'https://agiantdog.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/651146_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/32985263_28.jpg'
     },
     {
       name: 'Mac McCaughan',
@@ -371,7 +383,7 @@ Fetching more by continuation...
       name: 'Superchunk',
       location: 'Chapel Hill, North Carolina',
       url: 'https://superchunk.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/26971728_28.jpg'
+      imageUrl: 'https://f4.bcbits.com/img/33256597_28.jpg'
     },
     {
       name: 'Hollie Cook',
@@ -384,19 +396,7 @@ Fetching more by continuation...
       location: 'Hawthorne, California',
       url: 'https://reddkross.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/28555577_28.jpg'
-    },
-    {
-      name: 'Friendship',
-      location: 'Philadelphia, Pennsylvania',
-      url: 'https://friendshipphl.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/28727388_28.jpg'
-    },
-    {
-      name: 'Tall Dwarfs',
-      location: 'New Zealand',
-      url: 'https://talldwarfs.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/28914236_28.jpg'
     }
   ],
-  continuation: { fanId: 8563805, token: '1655975373:1269582496' }
+  continuation: { fanId: 8563805, token: '1655975382:1916677831' }
 }

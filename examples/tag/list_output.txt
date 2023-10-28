@@ -26,10 +26,10 @@
       name: 'instrumental',
       url: 'https://bandcamp.com/tag/instrumental'
     },
-    { name: 'hip hop', url: 'https://bandcamp.com/tag/hip-hop' },
     { name: 'drone', url: 'https://bandcamp.com/tag/drone' },
-    { name: 'rap', url: 'https://bandcamp.com/tag/rap' },
+    { name: 'hip hop', url: 'https://bandcamp.com/tag/hip-hop' },
     { name: 'house', url: 'https://bandcamp.com/tag/house' },
+    { name: 'rap', url: 'https://bandcamp.com/tag/rap' },
     { name: 'folk', url: 'https://bandcamp.com/tag/folk' },
     { name: 'acoustic', url: 'https://bandcamp.com/tag/acoustic' },
     {
@@ -44,11 +44,11 @@
       name: 'singer-songwriter',
       url: 'https://bandcamp.com/tag/singer-songwriter'
     },
-    { name: 'hardcore', url: 'https://bandcamp.com/tag/hardcore' },
     {
       name: 'dark ambient',
       url: 'https://bandcamp.com/tag/dark-ambient'
     },
+    { name: 'hardcore', url: 'https://bandcamp.com/tag/hardcore' },
     { name: 'lo-fi', url: 'https://bandcamp.com/tag/lo-fi' },
     { name: 'industrial', url: 'https://bandcamp.com/tag/industrial' },
     { name: 'jazz', url: 'https://bandcamp.com/tag/jazz' },
@@ -62,16 +62,16 @@
       name: 'experimental electronic',
       url: 'https://bandcamp.com/tag/experimental-electronic'
     },
-    { name: 'electro', url: 'https://bandcamp.com/tag/electro' },
     { name: 'world', url: 'https://bandcamp.com/tag/world' },
+    { name: 'electro', url: 'https://bandcamp.com/tag/electro' },
     { name: 'beats', url: 'https://bandcamp.com/tag/beats' },
     { name: 'lofi', url: 'https://bandcamp.com/tag/lofi' },
     {
       name: 'black metal',
       url: 'https://bandcamp.com/tag/black-metal'
     },
-    { name: 'soundtrack', url: 'https://bandcamp.com/tag/soundtrack' },
     { name: 'deep house', url: 'https://bandcamp.com/tag/deep-house' },
+    { name: 'soundtrack', url: 'https://bandcamp.com/tag/soundtrack' },
     { name: 'post-punk', url: 'https://bandcamp.com/tag/post-punk' },
     { name: 'post-rock', url: 'https://bandcamp.com/tag/post-rock' },
     { name: 'punk rock', url: 'https://bandcamp.com/tag/punk-rock' },
@@ -98,16 +98,15 @@
     { name: 'vaporwave', url: 'https://bandcamp.com/tag/vaporwave' },
     { name: 'drum & bass', url: 'https://bandcamp.com/tag/drum-bass' },
     { name: 'blues', url: 'https://bandcamp.com/tag/blues' },
+    { name: 'synthpop', url: 'https://bandcamp.com/tag/synthpop' },
     {
       name: 'progressive',
       url: 'https://bandcamp.com/tag/progressive'
     },
-    { name: 'synthpop', url: 'https://bandcamp.com/tag/synthpop' },
     { name: 'dub', url: 'https://bandcamp.com/tag/dub' },
     { name: 'emo', url: 'https://bandcamp.com/tag/emo' },
     { name: 'indie folk', url: 'https://bandcamp.com/tag/indie-folk' },
     { name: 'synth', url: 'https://bandcamp.com/tag/synth' },
-    { name: 'trap', url: 'https://bandcamp.com/tag/trap' },
     {
       name: 'underground hip hop',
       url: 'https://bandcamp.com/tag/underground-hip-hop'
@@ -116,23 +115,24 @@
       name: 'ambient electronic',
       url: 'https://bandcamp.com/tag/ambient-electronic'
     },
+    { name: 'trap', url: 'https://bandcamp.com/tag/trap' },
     {
       name: 'underground',
       url: 'https://bandcamp.com/tag/underground'
     },
     { name: 'r&b', url: 'https://bandcamp.com/tag/r-b' },
-    { name: 'folk rock', url: 'https://bandcamp.com/tag/folk-rock' },
-    { name: 'piano', url: 'https://bandcamp.com/tag/piano' },
+    { name: 'tech house', url: 'https://bandcamp.com/tag/tech-house' },
     {
       name: 'electronic music',
       url: 'https://bandcamp.com/tag/electronic-music'
     },
+    { name: 'piano', url: 'https://bandcamp.com/tag/piano' },
+    { name: 'folk rock', url: 'https://bandcamp.com/tag/folk-rock' },
     {
       name: 'instrumental hip-hop',
       url: 'https://bandcamp.com/tag/instrumental-hip-hop'
     },
     { name: 'garage', url: 'https://bandcamp.com/tag/garage' },
-    { name: 'tech house', url: 'https://bandcamp.com/tag/tech-house' },
     { name: 'dubstep', url: 'https://bandcamp.com/tag/dubstep' },
     {
       name: 'harsh noise',
@@ -142,43 +142,43 @@
     { name: 'americana', url: 'https://bandcamp.com/tag/americana' },
     { name: 'pop rock', url: 'https://bandcamp.com/tag/pop-rock' },
     { name: 'classical', url: 'https://bandcamp.com/tag/classical' },
-    { name: 'guitar', url: 'https://bandcamp.com/tag/guitar' },
     { name: 'chill', url: 'https://bandcamp.com/tag/chill' },
-    {
-      name: 'psychedelic rock',
-      url: 'https://bandcamp.com/tag/psychedelic-rock'
-    },
-    { name: 'soundscape', url: 'https://bandcamp.com/tag/soundscape' },
     {
       name: 'hardcore punk',
       url: 'https://bandcamp.com/tag/hardcore-punk'
     },
     {
+      name: 'psychedelic rock',
+      url: 'https://bandcamp.com/tag/psychedelic-rock'
+    },
+    { name: 'guitar', url: 'https://bandcamp.com/tag/guitar' },
+    { name: 'soundscape', url: 'https://bandcamp.com/tag/soundscape' },
+    {
       name: 'progressive rock',
       url: 'https://bandcamp.com/tag/progressive-rock'
     },
+    { name: 'edm', url: 'https://bandcamp.com/tag/edm' },
     {
       name: 'atmospheric',
       url: 'https://bandcamp.com/tag/atmospheric'
     },
-    { name: 'edm', url: 'https://bandcamp.com/tag/edm' },
-    { name: 'pop punk', url: 'https://bandcamp.com/tag/pop-punk' },
+    { name: 'psytrance', url: 'https://bandcamp.com/tag/psytrance' },
+    { name: 'trance', url: 'https://bandcamp.com/tag/trance' },
     {
       name: 'garage rock',
       url: 'https://bandcamp.com/tag/garage-rock'
     },
-    { name: 'psytrance', url: 'https://bandcamp.com/tag/psytrance' },
+    { name: 'pop punk', url: 'https://bandcamp.com/tag/pop-punk' },
     { name: 'grunge', url: 'https://bandcamp.com/tag/grunge' },
     { name: 'dream pop', url: 'https://bandcamp.com/tag/dream-pop' },
-    { name: 'trance', url: 'https://bandcamp.com/tag/trance' },
     { name: 'reggae', url: 'https://bandcamp.com/tag/reggae' },
     { name: 'hard rock', url: 'https://bandcamp.com/tag/hard-rock' },
     { name: 'country', url: 'https://bandcamp.com/tag/country' },
     { name: 'hiphop', url: 'https://bandcamp.com/tag/hiphop' },
     { name: 'grindcore', url: 'https://bandcamp.com/tag/grindcore' },
-    { name: 'bass', url: 'https://bandcamp.com/tag/bass' },
     { name: 'darkwave', url: 'https://bandcamp.com/tag/darkwave' },
-    ... 232 more items
+    { name: 'bass', url: 'https://bandcamp.com/tag/bass' },
+    ... 235 more items
   ],
   locations: [
     {
@@ -194,26 +194,26 @@
     { name: 'Australia', url: 'https://bandcamp.com/tag/australia' },
     { name: 'Spain', url: 'https://bandcamp.com/tag/spain' },
     { name: 'Italy', url: 'https://bandcamp.com/tag/italy' },
-    { name: 'USA', url: 'https://bandcamp.com/tag/usa' },
     {
       name: 'Los Angeles',
       url: 'https://bandcamp.com/tag/los-angeles'
     },
+    { name: 'USA', url: 'https://bandcamp.com/tag/usa' },
     { name: 'Texas', url: 'https://bandcamp.com/tag/texas' },
-    { name: 'Russia', url: 'https://bandcamp.com/tag/russia' },
     { name: 'London', url: 'https://bandcamp.com/tag/london' },
+    { name: 'Russia', url: 'https://bandcamp.com/tag/russia' },
+    { name: 'Japan', url: 'https://bandcamp.com/tag/japan' },
     { name: 'Illinois', url: 'https://bandcamp.com/tag/illinois' },
     { name: 'Ontario', url: 'https://bandcamp.com/tag/ontario' },
-    { name: 'Japan', url: 'https://bandcamp.com/tag/japan' },
     {
       name: 'Pennsylvania',
       url: 'https://bandcamp.com/tag/pennsylvania'
     },
     { name: 'Berlin', url: 'https://bandcamp.com/tag/berlin' },
     { name: 'Argentina', url: 'https://bandcamp.com/tag/argentina' },
-    { name: 'Washington', url: 'https://bandcamp.com/tag/washington' },
-    { name: 'Chicago', url: 'https://bandcamp.com/tag/chicago' },
     { name: 'Brazil', url: 'https://bandcamp.com/tag/brazil' },
+    { name: 'Chicago', url: 'https://bandcamp.com/tag/chicago' },
+    { name: 'Washington', url: 'https://bandcamp.com/tag/washington' },
     { name: 'Florida', url: 'https://bandcamp.com/tag/florida' },
     {
       name: 'Netherlands',
@@ -230,21 +230,21 @@
     { name: 'Sweden', url: 'https://bandcamp.com/tag/sweden' },
     { name: 'Mexico', url: 'https://bandcamp.com/tag/mexico' },
     { name: 'VIC', url: 'https://bandcamp.com/tag/vic' },
-    { name: 'Melbourne', url: 'https://bandcamp.com/tag/melbourne' },
-    { name: 'Seattle', url: 'https://bandcamp.com/tag/seattle' },
     { name: 'Belgium', url: 'https://bandcamp.com/tag/belgium' },
+    { name: 'Seattle', url: 'https://bandcamp.com/tag/seattle' },
+    { name: 'Melbourne', url: 'https://bandcamp.com/tag/melbourne' },
     { name: 'Toronto', url: 'https://bandcamp.com/tag/toronto' },
     {
       name: 'British Columbia',
       url: 'https://bandcamp.com/tag/british-columbia'
     },
     { name: 'Portland', url: 'https://bandcamp.com/tag/portland' },
+    { name: 'Poland', url: 'https://bandcamp.com/tag/poland' },
     { name: 'Colorado', url: 'https://bandcamp.com/tag/colorado' },
     {
       name: 'North Carolina',
       url: 'https://bandcamp.com/tag/north-carolina'
     },
-    { name: 'Poland', url: 'https://bandcamp.com/tag/poland' },
     { name: 'Georgia', url: 'https://bandcamp.com/tag/georgia' },
     { name: 'New Jersey', url: 'https://bandcamp.com/tag/new-jersey' },
     { name: 'Tennessee', url: 'https://bandcamp.com/tag/tennessee' },
@@ -255,59 +255,59 @@
     },
     { name: 'Virginia', url: 'https://bandcamp.com/tag/virginia' },
     { name: 'Minnesota', url: 'https://bandcamp.com/tag/minnesota' },
+    { name: 'Finland', url: 'https://bandcamp.com/tag/finland' },
     { name: 'Montreal', url: 'https://bandcamp.com/tag/montreal' },
     {
       name: 'San Francisco',
       url: 'https://bandcamp.com/tag/san-francisco'
     },
-    { name: 'Finland', url: 'https://bandcamp.com/tag/finland' },
     { name: 'UK', url: 'https://bandcamp.com/tag/uk' },
     {
       name: 'Switzerland',
       url: 'https://bandcamp.com/tag/switzerland'
     },
-    { name: 'Boston', url: 'https://bandcamp.com/tag/boston' },
     { name: 'Scotland', url: 'https://bandcamp.com/tag/scotland' },
+    { name: 'Boston', url: 'https://bandcamp.com/tag/boston' },
     { name: 'Austin', url: 'https://bandcamp.com/tag/austin' },
     { name: 'NSW', url: 'https://bandcamp.com/tag/nsw' },
     { name: 'Greece', url: 'https://bandcamp.com/tag/greece' },
+    { name: 'IDF', url: 'https://bandcamp.com/tag/idf' },
+    { name: 'CT', url: 'https://bandcamp.com/tag/ct' },
     { name: 'Arizona', url: 'https://bandcamp.com/tag/arizona' },
     { name: 'Maryland', url: 'https://bandcamp.com/tag/maryland' },
-    { name: 'IDF', url: 'https://bandcamp.com/tag/idf' },
     {
       name: 'Île-de-France',
       url: 'https://bandcamp.com/tag/%C3%AEle-de-france'
     },
-    { name: 'CT', url: 'https://bandcamp.com/tag/ct' },
     {
       name: 'New Zealand',
       url: 'https://bandcamp.com/tag/new-zealand'
     },
-    { name: 'Ukraine', url: 'https://bandcamp.com/tag/ukraine' },
     { name: 'Chile', url: 'https://bandcamp.com/tag/chile' },
     { name: 'Brooklyn', url: 'https://bandcamp.com/tag/brooklyn' },
     { name: 'Missouri', url: 'https://bandcamp.com/tag/missouri' },
     { name: 'Atlanta', url: 'https://bandcamp.com/tag/atlanta' },
-    { name: 'Paris', url: 'https://bandcamp.com/tag/paris' },
     { name: 'Vancouver', url: 'https://bandcamp.com/tag/vancouver' },
-    { name: 'Indiana', url: 'https://bandcamp.com/tag/indiana' },
+    { name: 'Ukraine', url: 'https://bandcamp.com/tag/ukraine' },
+    { name: 'Paris', url: 'https://bandcamp.com/tag/paris' },
     { name: 'NRW', url: 'https://bandcamp.com/tag/nrw' },
+    { name: 'Indiana', url: 'https://bandcamp.com/tag/indiana' },
     { name: 'Denmark', url: 'https://bandcamp.com/tag/denmark' },
     { name: 'Wisconsin', url: 'https://bandcamp.com/tag/wisconsin' },
     { name: 'Austria', url: 'https://bandcamp.com/tag/austria' },
     { name: 'Norway', url: 'https://bandcamp.com/tag/norway' },
+    { name: 'Barcelona', url: 'https://bandcamp.com/tag/barcelona' },
     { name: 'Denver', url: 'https://bandcamp.com/tag/denver' },
     { name: 'Ireland', url: 'https://bandcamp.com/tag/ireland' },
-    { name: 'Tokyo', url: 'https://bandcamp.com/tag/tokyo' },
-    { name: 'Barcelona', url: 'https://bandcamp.com/tag/barcelona' },
     { name: 'CABA', url: 'https://bandcamp.com/tag/caba' },
-    {
-      name: 'Minneapolis',
-      url: 'https://bandcamp.com/tag/minneapolis'
-    },
+    { name: 'Tokyo', url: 'https://bandcamp.com/tag/tokyo' },
     {
       name: 'Buenos Aires',
       url: 'https://bandcamp.com/tag/buenos-aires'
+    },
+    {
+      name: 'Minneapolis',
+      url: 'https://bandcamp.com/tag/minneapolis'
     },
     { name: 'Detroit', url: 'https://bandcamp.com/tag/detroit' },
     { name: 'Nashville', url: 'https://bandcamp.com/tag/nashville' },
@@ -318,17 +318,20 @@
       url: 'https://bandcamp.com/tag/connecticut'
     },
     { name: 'Hungary', url: 'https://bandcamp.com/tag/hungary' },
-    { name: 'Alberta', url: 'https://bandcamp.com/tag/alberta' },
     {
       name: 'South Africa',
       url: 'https://bandcamp.com/tag/south-africa'
     },
+    { name: 'Alberta', url: 'https://bandcamp.com/tag/alberta' },
     { name: 'SP', url: 'https://bandcamp.com/tag/sp' },
+    { name: 'Manchester', url: 'https://bandcamp.com/tag/manchester' },
     { name: 'Colombia', url: 'https://bandcamp.com/tag/colombia' },
     { name: 'Pittsburgh', url: 'https://bandcamp.com/tag/pittsburgh' },
+    {
+      name: 'District of Columbia',
+      url: 'https://bandcamp.com/tag/district-of-columbia'
+    },
     { name: 'San Diego', url: 'https://bandcamp.com/tag/san-diego' },
-    { name: 'Oakland', url: 'https://bandcamp.com/tag/oakland' },
-    { name: 'Manchester', url: 'https://bandcamp.com/tag/manchester' },
-    ... 247 more items
+    ... 248 more items
   ]
 }

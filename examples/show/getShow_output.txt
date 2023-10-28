@@ -10,7 +10,7 @@
   duration: 5133.84,
   screenImageUrl: 'https://f4.bcbits.com/img/23443998_0',
   streamUrl: {
-    'mp3-128': 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1686408564&t=7ec9dff6158d6308e58503de7992ed6e0fc20cdd'
+    'mp3-128': 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1698497831&t=26001255e7de0fea7c55bff358d8121f0b52f732'
   },
   imageUrl: 'https://f4.bcbits.com/img/23443998_25.jpg',
   tracks: [
@@ -117,8 +117,8 @@
       artist: {
         name: 'Isaiah Mostafa',
         url: 'https://isaiahmostafa.bandcamp.com',
-        location: 'Brooklyn, New York',
-        imageUrl: 'https://f4.bcbits.com/img/31371613_21.jpg'
+        location: 'Berkeley, California',
+        imageUrl: 'https://f4.bcbits.com/img/33913208_21.jpg'
       },
       imageUrl: 'https://f4.bcbits.com/img/a231490898_9.jpg',
       album: {

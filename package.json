@@ -9,7 +9,8 @@
     "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
     "lint": "npx eslint ./src && npx eslint ./examples",
     "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
-    "doc": "npx typedoc"
+    "doc": "npx typedoc",
+    "example": "func() { npx ts-node ./examples/${1}.ts; }; func"
   },
   "main": "./dist/cjs/index-cjs.js",
   "module": "./dist/mjs/index.js",

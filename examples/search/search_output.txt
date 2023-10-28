@@ -11,17 +11,17 @@ Search query: jazz. Item type: All. 18 results.
     },
     {
       type: 'label',
+      name: 'We Jazz Records',
+      url: 'https://wejazzrecords.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0033456124_28.jpg',
+      location: 'Helsinki, Finland'
+    },
+    {
+      type: 'label',
       name: 'Jazz Is Dead',
       url: 'https://jazzisdead.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/0019613576_28.jpg',
       location: 'Los Angeles, California'
-    },
-    {
-      type: 'label',
-      name: 'We Jazz Records',
-      url: 'https://wejazzrecords.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0020709568_28.jpg',
-      location: 'Helsinki, Finland'
     },
     {
       type: 'label',
@@ -31,20 +31,20 @@ Search query: jazz. Item type: All. 18 results.
       location: 'Los Angeles, California'
     },
     {
+      type: 'label',
+      name: 'Acid Jazz Records',
+      url: 'https://acidjazz.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0005692295_28.jpg',
+      location: 'UK'
+    },
+    {
       type: 'artist',
       name: 'Jazz Spastiks',
       url: 'https://jazzspastiks.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/0023354039_28.jpg',
       location: 'UK',
       genre: 'Hip-Hop/Rap',
-      tags: 'instrumental, underground, Hip-Hop/Rap, hip hop, alternative, rap'
-    },
-    {
-      type: 'label',
-      name: 'Acid Jazz Records',
-      url: 'https://acidjazz.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0005692295_28.jpg',
-      location: 'UK'
+      tags: 'alternative, rap, instrumental, underground, Hip-Hop/Rap, hip hop'
     },
     {
       type: 'artist',
@@ -76,7 +76,7 @@ Search query: jazz. Item type: All. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0032164967_28.jpg',
       location: 'England, UK',
       genre: 'Hip-Hop/Rap',
-      tags: 'the jazz hop cafe, chill beats, jazz hop, chillhop, Hip-Hop/Rap, lofi'
+      tags: 'chill beats, the jazz hop cafe, jazz hop, chillhop, Hip-Hop/Rap, lofi'
     },
     {
       type: 'artist',
@@ -85,16 +85,7 @@ Search query: jazz. Item type: All. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0018637470_28.jpg',
       location: 'UK',
       genre: 'Jazz',
-      tags: 'jazzy, jazz rock, jazz metal, black sabbath, Jazz'
-    },
-    {
-      type: 'artist',
-      name: 'Modern Urban Jazz',
-      url: 'https://modernurbanjazz.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0025435106_28.jpg',
-      location: 'England, UK',
-      genre: 'Electronic',
-      tags: 'Breaks, Electronic, Bass Music, Drum & Bass'
+      tags: 'jazz rock, jazz metal, black sabbath, Jazz, jazzy'
     },
     {
       type: 'artist',
@@ -103,7 +94,16 @@ Search query: jazz. Item type: All. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0011829726_28.jpg',
       location: 'London, UK',
       genre: 'Jazz',
-      tags: 'Modal Jazz, Jazz, Spiritual Jazz'
+      tags: 'Spiritual Jazz, Modal Jazz, Jazz'
+    },
+    {
+      type: 'artist',
+      name: 'Modern Urban Jazz',
+      url: 'https://modernurbanjazz.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0025435106_28.jpg',
+      location: 'England, UK',
+      genre: 'Electronic',
+      tags: 'Bass Music, Drum & Bass, Breaks, Electronic'
     },
     {
       type: 'label',
@@ -114,21 +114,21 @@ Search query: jazz. Item type: All. 18 results.
     },
     {
       type: 'artist',
+      name: 'British Progressive Jazz',
+      url: 'https://britishprogressivejazz.com',
+      imageUrl: 'https://f4.bcbits.com/img/0029537480_28.jpg',
+      location: 'London, UK',
+      genre: 'Jazz',
+      tags: 'free jazz, Prog Rock, hard bop, Jazz, Jazz Rock Fusion, Jazz Fusion'
+    },
+    {
+      type: 'artist',
       name: 'Adult Jazz',
       url: 'https://adultjazz.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/0007847789_28.jpg',
       location: 'UK',
       genre: 'Alternative',
       tags: 'Alternative'
-    },
-    {
-      type: 'artist',
-      name: 'British Progressive Jazz',
-      url: 'https://britishprogressivejazz.com',
-      imageUrl: 'https://f4.bcbits.com/img/0029537480_28.jpg',
-      location: 'London, UK',
-      genre: 'Jazz',
-      tags: 'Prog Rock, free jazz, hard bop, Jazz, Jazz Fusion, Jazz Rock Fusion'
     },
     {
       type: 'artist',
@@ -168,7 +168,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0029512726_28.jpg',
       location: 'Germany',
       genre: 'Alternative',
-      tags: 'electronic, germany, synthpop, gothic, Alternative'
+      tags: 'germany, synthpop, gothic, Alternative, electronic'
     },
     {
       type: 'artist',
@@ -177,7 +177,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/a2626147609_28.jpg',
       location: 'Chicago, Illinois',
       genre: 'Jazz',
-      tags: 'Jazz, bass, saxophone, modern jazz, quintet'
+      tags: 'modern jazz, saxophone, quintet, Jazz, bass'
     },
     {
       type: 'artist',
@@ -186,7 +186,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0011165847_28.jpg',
       location: 'England, UK',
       genre: 'Rock',
-      tags: 'Rock, pop, pop rock, alternative rock'
+      tags: 'alternative rock, Rock, pop, pop rock'
     },
     {
       type: 'artist',
@@ -213,7 +213,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0027360854_28.jpg',
       location: 'Richmond, Virginia',
       genre: 'Alternative',
-      tags: 'bedroom pop, alternative, trip hop, dance, pop, Alternative'
+      tags: 'pop, Alternative, bedroom pop, alternative, trip hop, dance'
     },
     {
       type: 'artist',
@@ -222,7 +222,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0014637328_28.jpg',
       location: 'Warsaw, Poland',
       genre: 'Rock',
-      tags: 'Hard Rock, Rock, vintage rock, doom, polish, metal'
+      tags: 'doom, polish, metal, Rock, Hard Rock, vintage rock'
     },
     {
       type: 'artist',
@@ -231,7 +231,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0018259940_28.jpg',
       location: 'Boston, Massachusetts',
       genre: 'Funk',
-      tags: 'Electronic, jazz, funk rock, Funk, guitar solo'
+      tags: 'guitar solo, jazz, Electronic, funk rock, Funk'
     },
     {
       type: 'artist',
@@ -240,16 +240,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0006078072_28.jpg',
       location: 'Bakersfield, California',
       genre: 'Hip-Hop/Rap',
-      tags: 'instrumentals, underground, Hip-Hop/Rap, Hip Hop'
-    },
-    {
-      type: 'artist',
-      name: 'Merge',
-      url: 'https://mergednb.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0002032674_28.jpg',
-      location: 'Leeds, UK',
-      genre: 'Electronic',
-      tags: 'Electronic, Drum & Bass, Jungle'
+      tags: 'underground, Hip-Hop/Rap, Hip Hop, instrumentals'
     },
     {
       type: 'artist',
@@ -258,34 +249,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       imageUrl: 'https://f4.bcbits.com/img/0006086709_28.jpg',
       location: 'UK',
       genre: 'Electronic',
-      tags: 'Electronic, synthwave, ambient electronic, progressive, Berlin School, synth'
-    },
-    {
-      type: 'artist',
-      name: 'Merge',
-      url: 'https://merge2.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0000200110_28.jpg',
-      location: 'Chicago, Illinois',
-      genre: 'Alternative',
-      tags: 'Alternative'
-    },
-    {
-      type: 'artist',
-      name: 'MERGE',
-      url: 'https://mergeonmerge.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0013677342_28.jpg',
-      location: 'Los Angeles, California',
-      genre: 'Hip-Hop/Rap',
-      tags: 'Rap, Hip Hop, jazz, instrumentals, Hip-Hop/Rap, Hip-Hop'
-    },
-    {
-      type: 'artist',
-      name: 'Tiberius Merge',
-      url: 'https://tiberiusmerge.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0018900882_28.jpg',
-      location: 'Victoria, British Columbia',
-      genre: 'Metal',
-      tags: 'Metal, death, progressive metal, thrash metal, deathcore, melodic'
+      tags: 'Berlin School, synth, Electronic, synthwave, ambient electronic, progressive'
     },
     {
       type: 'artist',
@@ -298,20 +262,56 @@ Search query: merge. Item type: Artists & labels. 18 results.
     },
     {
       type: 'artist',
+      name: 'Merge',
+      url: 'https://mergednb.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0002032674_28.jpg',
+      location: 'Leeds, UK',
+      genre: 'Electronic',
+      tags: 'Electronic, Drum & Bass, Jungle'
+    },
+    {
+      type: 'artist',
+      name: 'eMERGENCY heARTS',
+      url: 'https://emergencyhearts.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0033068431_28.jpg',
+      location: 'Austin, Texas',
+      genre: 'Electronic',
+      tags: 'dark wave, hip-hop, Electronic, experimental, industrial, rap'
+    },
+    {
+      type: 'artist',
+      name: 'MERGE',
+      url: 'https://mergeonmerge.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0013677342_28.jpg',
+      location: 'Los Angeles, California',
+      genre: 'Hip-Hop/Rap',
+      tags: 'instrumentals, jazz, Hip-Hop/Rap, Hip-Hop, Rap, Hip Hop'
+    },
+    {
+      type: 'artist',
+      name: 'Merge',
+      url: 'https://merge2.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0000200110_28.jpg',
+      location: 'Chicago, Illinois',
+      genre: 'Alternative',
+      tags: 'Alternative'
+    },
+    {
+      type: 'artist',
+      name: 'Tiberius Merge',
+      url: 'https://tiberiusmerge.bandcamp.com',
+      imageUrl: 'https://f4.bcbits.com/img/0018900882_28.jpg',
+      location: 'Victoria, British Columbia',
+      genre: 'Metal',
+      tags: 'progressive metal, death, thrash metal, deathcore, melodic, Metal'
+    },
+    {
+      type: 'artist',
       name: 'URGE TO MERGE',
       url: 'https://urgetomerge.bandcamp.com',
       imageUrl: 'https://f4.bcbits.com/img/0012586132_28.jpg',
       genre: 'Rock',
       tags: 'Rock, KISS'
-    },
-    {
-      type: 'artist',
-      name: 'theMerge',
-      url: 'https://themergeofficial.bandcamp.com',
-      imageUrl: 'https://f4.bcbits.com/img/0023463011_28.jpg',
-      location: 'Calgary, Alberta',
-      genre: 'Pop',
-      tags: 'Acoustic, Pop, World, Rock, folk pop, Country'
     }
   ],
   totalPages: 6
@@ -330,7 +330,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 12,
       duration: 1860,
       releaseDate: 'September 16, 2008',
-      tags: 'french, french pop, Montréal, Canada, Pop, Québec, piano pop'
+      tags: 'french pop, french, Montréal, Pop, Canada, Québec, piano pop'
     },
     {
       type: 'album',
@@ -341,7 +341,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 12,
       duration: 2160,
       releaseDate: 'November 7, 2011',
-      tags: 'grosse boîte, Pop, coeur de pirate, montreal, amour, piano pop, Canada, Montréal, french, Québec, french pop'
+      tags: 'grosse boîte, Pop, coeur de pirate, amour, montreal, piano pop, french, french pop, Canada, Montréal, Québec'
     },
     {
       type: 'album',
@@ -352,7 +352,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 12,
       duration: 2760,
       releaseDate: 'January 14, 2014',
-      tags: 'Pop, amy winehouse, Montréal, piano pop, Canada, Québec, Dare To Care Records, french, french pop, cover songs, trauma'
+      tags: 'Pop, amy winehouse, Montréal, piano pop, Québec, Canada, trauma, french pop, cover songs, french, Dare To Care Records'
     },
     {
       type: 'album',
@@ -363,7 +363,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 18,
       duration: 3000,
       releaseDate: 'April 29, 2014',
-      tags: 'Pop, piano pop, Canada, french, video game music, Québec, french pop, instrumental, Montréal'
+      tags: 'piano pop, Canada, french, Pop, video game music, Québec, french pop, instrumental, Montréal'
     },
     {
       type: 'album',
@@ -374,7 +374,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 11,
       duration: 2400,
       releaseDate: 'August 28, 2015',
-      tags: 'piano pop, french pop, french, Montréal, Québec, Pop, Canada'
+      tags: 'piano pop, french pop, french, Montréal, Canada, Québec, Pop'
     },
     {
       type: 'album',
@@ -385,7 +385,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 31,
       duration: 6600,
       releaseDate: 'November 3, 2017',
-      tags: 'musique classique, Diane Dufresne, Québec, Classical, Canada, orchestre, Montreal, Daniel Bélanger, Montréal, Symphonique, cassical'
+      tags: 'Canada, Diane Dufresne, musique classique, Classical, Québec, Montreal, orchestre, Daniel Bélanger, Montréal, Symphonique, cassical'
     },
     {
       type: 'album',
@@ -396,7 +396,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 10,
       duration: 1500,
       releaseDate: 'April 30, 2021',
-      tags: 'french pop, french, Pop, Montréal, piano pop, Québec, Canada'
+      tags: 'french, french pop, Pop, Montréal, Canada, piano pop, Québec'
     },
     {
       type: 'album',
@@ -407,7 +407,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 10,
       duration: 2040,
       releaseDate: 'October 15, 2021',
-      tags: 'Pop, french, Montréal, Québec, Canada, piano pop, french pop'
+      tags: 'Pop, french, Montréal, Canada, Québec, piano pop, french pop'
     },
     {
       type: 'album',
@@ -428,7 +428,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 3,
       duration: 600,
       releaseDate: 'December 16, 2016',
-      tags: 'Montréal, french pop, Canada, Québec, piano pop, Christmas, Pop, coeur de pirate, french'
+      tags: 'Montréal, Canada, french pop, Québec, piano pop, Christmas, Pop, coeur de pirate, french'
     },
     {
       type: 'album',
@@ -471,7 +471,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       numTracks: 2,
       duration: 480,
       releaseDate: 'September 7, 2010',
-      tags: 'piano pop, Québec, Canada, french pop, french, Montréal, Pop'
+      tags: 'piano pop, Canada, Québec, french pop, french, Montréal, Pop'
     }
   ],
   totalPages: 1
@@ -519,8 +519,8 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
     },
     {
       type: 'track',
-      name: 'Corbeau',
-      url: 'https://musique.coeurdepirate.com/track/corbeau',
+      name: 'Fondu au noir',
+      url: 'https://musique.coeurdepirate.com/track/fondu-au-noir',
       imageUrl: 'https://f4.bcbits.com/img/a2201751482_16.jpg',
       artist: 'Cœur de pirate',
       album: 'Coeur de pirate',
@@ -583,6 +583,15 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
     },
     {
       type: 'track',
+      name: 'Damso - Coeur de Pirate (Tom Monjo Shatta Edit)',
+      url: 'https://tommonjo.bandcamp.com/track/damso-coeur-de-pirate-tom-monjo-shatta-edit',
+      imageUrl: 'https://f4.bcbits.com/img/a1367659933_16.jpg',
+      artist: 'Tom Monjo',
+      album: 'Tom Monjo Edit Pack Vol.1',
+      releaseDate: 'January 31, 2023'
+    },
+    {
+      type: 'track',
       name: 'Coeur de pirate - Place de la republique (Rauschhaus Kuschelhouse edit) (djnodj edit)',
       url: 'https://djnodj.bandcamp.com/track/coeur-de-pirate-place-de-la-republique-rauschhaus-kuschelhouse-edit-djnodj-edit',
       imageUrl: 'https://f4.bcbits.com/img/a0795995370_16.jpg',
@@ -592,21 +601,21 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
     },
     {
       type: 'track',
-      name: 'Coeur de Pirate- Place de la République (Stingray remix)',
-      url: 'https://drstingray.bandcamp.com/track/coeur-de-pirate-place-de-la-r-publique-stingray-remix',
-      imageUrl: 'https://f4.bcbits.com/img/a0866391113_16.jpg',
-      artist: 'Dr Stingray',
-      releaseDate: 'May 2, 2014',
-      tags: 'Electronic, French House, Remix, Canada, Toronto, Electronica, Synthpop, Ontario, Trap, Trip-Hop'
-    },
-    {
-      type: 'track',
       name: 'Crier tout bas',
       url: 'https://montrealsymphonique.bandcamp.com/track/crier-tout-bas',
       imageUrl: 'https://f4.bcbits.com/img/a3972424743_16.jpg',
       artist: 'Cœur de pirate, Orchestre symphonique de Montréal',
       album: 'Montréal Symphonique',
       releaseDate: 'November 3, 2017'
+    },
+    {
+      type: 'track',
+      name: 'Coeur de Pirate- Place de la République (Stingray remix)',
+      url: 'https://drstingray.bandcamp.com/track/coeur-de-pirate-place-de-la-r-publique-stingray-remix',
+      imageUrl: 'https://f4.bcbits.com/img/a0866391113_16.jpg',
+      artist: 'Dr Stingray',
+      releaseDate: 'May 2, 2014',
+      tags: 'Electronic, French House, Remix, Canada, Toronto, Electronica, Synthpop, Ontario, Trap, Trip-Hop'
     },
     {
       type: 'track',
@@ -635,15 +644,6 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
       artist: 'The Steady Lungs',
       album: 'Demos and Other Nice Stuff',
       releaseDate: 'January 23, 2013'
-    },
-    {
-      type: 'track',
-      name: 'Coeur De Pirate- Wicked Games "The Weeknd Cover" (OneTwoKno Remix)',
-      url: 'https://onetwokno.bandcamp.com/track/coeur-de-pirate-wicked-games-the-weeknd-cover-onetwokno-remix',
-      imageUrl: 'https://f4.bcbits.com/img/a1967760778_16.jpg',
-      artist: 'Onetwokno',
-      album: 'Red Light Special',
-      releaseDate: 'January 2, 2012'
     }
   ],
   totalPages: 8

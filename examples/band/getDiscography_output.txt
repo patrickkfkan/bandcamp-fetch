@@ -152,11 +152,39 @@ Label URL: https://randsrecords.bandcamp.com
     imageUrl: 'https://f4.bcbits.com/img/a2214855589_16.jpg'
   },
   {
-    url: 'https://randsrecords.bandcamp.com/album/20hz-remixes',
+    url: 'https://randsrecords.bandcamp.com/album/sax-paradiso',
     type: 'album',
-    name: '20HZ (Remixes)',
-    artist: { name: 'Capricorn' },
-    imageUrl: 'https://f4.bcbits.com/img/a2242386435_16.jpg'
+    name: 'Sax Paradiso',
+    artist: { name: 'Human Safari' },
+    imageUrl: 'https://f4.bcbits.com/img/a1583424007_16.jpg'
+  },
+  {
+    url: 'https://randsrecords.bandcamp.com/album/clothed-in-light',
+    type: 'album',
+    name: 'Clothed In Light',
+    artist: { name: 'Architectural' },
+    imageUrl: 'https://f4.bcbits.com/img/a2436410181_16.jpg'
+  },
+  {
+    url: 'https://randsrecords.bandcamp.com/album/washington-street',
+    type: 'album',
+    name: 'Washington Street',
+    artist: { name: 'Dino Lenny' },
+    imageUrl: 'https://f4.bcbits.com/img/a2748722878_16.jpg'
+  },
+  {
+    url: 'https://elliotquartz.bandcamp.com/album/deity-spear',
+    type: 'album',
+    name: 'Deity Spear',
+    artist: { name: 'Quartz' },
+    imageUrl: 'https://f4.bcbits.com/img/a2073263157_16.jpg'
+  },
+  {
+    url: 'https://randsrecords.bandcamp.com/album/one-more-chance',
+    type: 'album',
+    name: 'One More Chance',
+    artist: { name: 'Subject 13' },
+    imageUrl: 'https://f4.bcbits.com/img/a0688216692_16.jpg'
   },
   {
     url: 'https://randsrecords.bandcamp.com/album/the-commencement',
@@ -164,6 +192,13 @@ Label URL: https://randsrecords.bandcamp.com
     name: 'The Commencement',
     artist: { name: 'Tainted Tazz' },
     imageUrl: 'https://f4.bcbits.com/img/a0567195783_16.jpg'
+  },
+  {
+    url: 'https://randsrecords.bandcamp.com/album/20hz-remixes',
+    type: 'album',
+    name: '20HZ (Remixes)',
+    artist: { name: 'Capricorn' },
+    imageUrl: 'https://f4.bcbits.com/img/a2242386435_16.jpg'
   },
   {
     url: 'https://randsrecords.bandcamp.com/album/btvc',
@@ -809,41 +844,6 @@ Label URL: https://randsrecords.bandcamp.com
     artist: { name: 'Talaboman' },
     imageUrl: 'https://f4.bcbits.com/img/a0709795804_16.jpg'
   },
-  {
-    url: 'https://paulwhite.bandcamp.com/album/accelerator',
-    type: 'album',
-    name: 'Accelerator',
-    artist: { name: 'Paul White ft Danny Brown' },
-    imageUrl: 'https://f4.bcbits.com/img/a3525288854_16.jpg'
-  },
-  {
-    url: 'https://unknownarchetype.bandcamp.com/album/tripp-ep',
-    type: 'album',
-    name: 'TRIPP EP',
-    artist: { name: 'Unknown Archetype' },
-    imageUrl: 'https://f4.bcbits.com/img/a0827482149_16.jpg'
-  },
-  {
-    url: 'https://sportinglife.bandcamp.com/album/slam-dunk-vinyl-lp',
-    type: 'album',
-    name: 'Slam Dunk - Vinyl LP',
-    artist: { name: 'Sporting Life' },
-    imageUrl: 'https://f4.bcbits.com/img/a2750684373_16.jpg'
-  },
-  {
-    url: 'https://paulwhite.bandcamp.com/album/everything-youve-forgotten-free-beat-tape',
-    type: 'album',
-    name: "Everything You've Forgotten (Free Beat Tape)",
-    artist: { name: 'Paul White' },
-    imageUrl: 'https://f4.bcbits.com/img/a0945396280_16.jpg'
-  },
-  {
-    url: 'https://randsrecords.bandcamp.com/album/meditation-will-manifest',
-    type: 'album',
-    name: 'Meditation Will Manifest',
-    artist: { name: 'Josh Wink' },
-    imageUrl: 'https://f4.bcbits.com/img/a0983137742_16.jpg'
-  },
-  ... 93 more items
+  ... 98 more items
 ]
 
