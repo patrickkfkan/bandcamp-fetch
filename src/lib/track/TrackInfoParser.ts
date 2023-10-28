@@ -85,6 +85,11 @@ export default class TrackInfoParser {
       track.streamUrl = streamUrl;
     }
 
+    const streamUrlHQ = extra.trackinfo?.[0]?.file?.['mp3-v0'];
+    if (streamUrlHQ) {
+      track.streamUrlHQ = streamUrlHQ;
+    }
+
     let byArtist;
     if (basic.inAlbum?.byArtist) {
       byArtist = basic.inAlbum.byArtist;

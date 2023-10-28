@@ -120,7 +120,8 @@ export default class ArticleParser {
               position: trackInfo.track_number,
               name: trackInfo.track_title,
               duration: trackInfo.audio_track_duration,
-              streamUrl: trackInfo.audio_url?.['mp3-128']
+              streamUrl: trackInfo.audio_url?.['mp3-128'],
+              streamUrlHQ: trackInfo.audio_url?.['mp3-v0']
             }));
           }
 

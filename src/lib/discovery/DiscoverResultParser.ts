@@ -40,7 +40,8 @@ export default class DiscoverResultParser {
           album.featuredTrack = {
             name: item.featured_track.title,
             duration: item.featured_track.duration,
-            streamUrl: item.featured_track.file?.['mp3-128']
+            streamUrl: item.featured_track.file?.['mp3-128'],
+            streamUrlHQ: item.featured_track.file?.['mp3-v0']
           };
         }
         if (item.bio_image && opts.artistImageFormat) {

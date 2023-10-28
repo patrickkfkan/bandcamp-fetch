@@ -129,6 +129,10 @@ export default class AlbumInfoParser {
         if (streamUrl) {
           trackItem.streamUrl = streamUrl;
         }
+        const streamUrlHQ = track.file?.['mp3-v0'];
+        if (streamUrlHQ) {
+          trackItem.streamUrlHQ = streamUrlHQ;
+        }
         if (track.track_num !== undefined) {
           trackItem.position = track.track_num;
         }

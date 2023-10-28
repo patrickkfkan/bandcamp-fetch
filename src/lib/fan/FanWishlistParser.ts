@@ -73,13 +73,15 @@ export default class FanWishlistParser extends FanItemsBaseParser {
     if (featuredTrackData) {
       const duration = featuredTrackData.duration;
       const streamUrl = featuredTrackData.file?.['mp3-128'];
+      const streamUrlHQ = featuredTrackData.file?.['mp3-v0'];
       if (mediaItemType === 'album') {
         (mediaItem as Album).featuredTrack = {
           position: featuredTrackData.track_number,
           name: featuredTrackData.title,
           artist: featuredTrackData.artist,
           duration,
-          streamUrl
+          streamUrl,
+          streamUrlHQ
         };
       }
       else {

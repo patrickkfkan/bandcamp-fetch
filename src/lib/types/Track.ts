@@ -6,6 +6,7 @@ interface Track extends MediaKind {
   duration?: number;
   seekPosition?: number;
   streamUrl?: string;
+  streamUrlHQ?: string;
   album?: Omit<Album, 'type'>;
   position?: number;
 }

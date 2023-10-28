@@ -51,7 +51,8 @@ export default class AlbumHighlightsByTagParser {
               if (item.featured_track_title) {
                 album.featuredTrack = {
                   name: item.featured_track_title,
-                  streamUrl: item.audio_url?.['mp3-128']
+                  streamUrl: item.audio_url?.['mp3-128'],
+                  streamUrlHQ: item.audio_url?.['mp3-v0']
                 };
               }
               collectionRes.items.push(album);

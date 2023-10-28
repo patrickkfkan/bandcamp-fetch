@@ -168,7 +168,8 @@ export default class ReleasesByTagParser {
             album.featuredTrack = {
               name: item.featured_track_title,
               position: item.featured_track_number,
-              streamUrl: item.audio_url?.['mp3-128']
+              streamUrl: item.audio_url?.['mp3-128'],
+              streamUrlHQ: item.audio_url?.['mp3-v0']
             };
           }
           else if (mediaItemType === 'track') {
