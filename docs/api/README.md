@@ -12,6 +12,7 @@ bandcamp-fetch
 
 - [AutocompleteItemType](enums/AutocompleteItemType.md)
 - [CacheDataType](enums/CacheDataType.md)
+- [FetchMethod](enums/FetchMethod.md)
 - [ImageFormatFilter](enums/ImageFormatFilter.md)
 - [SearchItemType](enums/SearchItemType.md)
 
@@ -21,10 +22,17 @@ bandcamp-fetch
 - [ArticleAPI](classes/ArticleAPI.md)
 - [AutocompleteAPI](classes/AutocompleteAPI.md)
 - [BandAPI](classes/BandAPI.md)
+- [BandcampFetch](classes/BandcampFetch.md)
+- [BaseAPI](classes/BaseAPI.md)
+- [BaseAPIWithImageSupport](classes/BaseAPIWithImageSupport.md)
 - [Cache](classes/Cache.md)
+- [CacheWrapper](classes/CacheWrapper.md)
 - [DiscoveryAPI](classes/DiscoveryAPI.md)
 - [FanAPI](classes/FanAPI.md)
+- [FetchError](classes/FetchError.md)
+- [Fetcher](classes/Fetcher.md)
 - [ImageAPI](classes/ImageAPI.md)
+- [Limiter](classes/Limiter.md)
 - [LimiterAlbumAPI](classes/LimiterAlbumAPI.md)
 - [LimiterArticleAPI](classes/LimiterArticleAPI.md)
 - [LimiterAutocompleteAPI](classes/LimiterAutocompleteAPI.md)
@@ -63,6 +71,9 @@ bandcamp-fetch
 - [BandAPIGetDiscographyParams](interfaces/BandAPIGetDiscographyParams.md)
 - [BandAPIGetInfoParams](interfaces/BandAPIGetInfoParams.md)
 - [BandAPIGetLabelArtistsParams](interfaces/BandAPIGetLabelArtistsParams.md)
+- [BandcampFetchParams](interfaces/BandcampFetchParams.md)
+- [BaseAPIParams](interfaces/BaseAPIParams.md)
+- [BaseAPIWithImageSupportParams](interfaces/BaseAPIWithImageSupportParams.md)
 - [DiscoverOptions](interfaces/DiscoverOptions.md)
 - [DiscoverParams](interfaces/DiscoverParams.md)
 - [DiscoverResult](interfaces/DiscoverResult.md)
@@ -72,6 +83,7 @@ bandcamp-fetch
 - [FanContinuationItemsResult](interfaces/FanContinuationItemsResult.md)
 - [FanItemsContinuation](interfaces/FanItemsContinuation.md)
 - [FanPageItemsResult](interfaces/FanPageItemsResult.md)
+- [FetcherParams](interfaces/FetcherParams.md)
 - [ImageConstants](interfaces/ImageConstants.md)
 - [ImageFormat](interfaces/ImageFormat.md)
 - [Label](interfaces/Label.md)
@@ -115,7 +127,7 @@ bandcamp-fetch
 
 #### Defined in
 
-[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Article.ts#L51)
+[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Article.ts#L51)
 
 ___
 
@@ -125,7 +137,7 @@ ___
 
 #### Defined in
 
-[lib/types/Label.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Label.ts#L9)
+[lib/types/Label.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Label.ts#L9)
 
 ___
 
@@ -135,44 +147,14 @@ ___
 
 #### Defined in
 
-[lib/types/Search.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L47)
+[lib/types/Search.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L47)
 
 ## Variables
 
 ### default
 
-• **default**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `album` | typeof [`AlbumAPI`](classes/AlbumAPI.md) |
-| `article` | typeof [`ArticleAPI`](classes/ArticleAPI.md) |
-| `autocomplete` | typeof [`AutocompleteAPI`](classes/AutocompleteAPI.md) |
-| `band` | typeof [`BandAPI`](classes/BandAPI.md) |
-| `cache` | typeof [`Cache`](classes/Cache.md) |
-| `discovery` | typeof [`DiscoveryAPI`](classes/DiscoveryAPI.md) |
-| `fan` | typeof [`FanAPI`](classes/FanAPI.md) |
-| `image` | typeof [`ImageAPI`](classes/ImageAPI.md) |
-| `limiter` | { `album`: typeof [`LimiterAlbumAPI`](classes/LimiterAlbumAPI.md) = LimiterAlbumAPI; `article`: typeof [`LimiterArticleAPI`](classes/LimiterArticleAPI.md) = LimiterArticleAPI; `autocomplete`: typeof [`LimiterAutocompleteAPI`](classes/LimiterAutocompleteAPI.md) = LimiterAutocompleteAPI; `band`: typeof [`LimiterBandAPI`](classes/LimiterBandAPI.md) = LimiterBandAPI; `discovery`: typeof [`LimiterDiscoveryAPI`](classes/LimiterDiscoveryAPI.md) = LimiterDiscoveryAPI; `fan`: typeof [`LimiterFanAPI`](classes/LimiterFanAPI.md) = LimiterFanAPI; `image`: typeof [`LimiterImageAPI`](classes/LimiterImageAPI.md) = LimiterImageAPI; `search`: typeof [`LimiterSearchAPI`](classes/LimiterSearchAPI.md) = LimiterSearchAPI; `show`: typeof [`LimiterShowAPI`](classes/LimiterShowAPI.md) = LimiterShowAPI; `tag`: typeof [`LimiterTagAPI`](classes/LimiterTagAPI.md) = LimiterTagAPI; `track`: typeof [`LimiterTrackAPI`](classes/LimiterTrackAPI.md) = LimiterTrackAPI; `updateSettings`: (`options?`: `ConstructorOptions`) => `void`  } |
-| `limiter.album` | typeof [`LimiterAlbumAPI`](classes/LimiterAlbumAPI.md) |
-| `limiter.article` | typeof [`LimiterArticleAPI`](classes/LimiterArticleAPI.md) |
-| `limiter.autocomplete` | typeof [`LimiterAutocompleteAPI`](classes/LimiterAutocompleteAPI.md) |
-| `limiter.band` | typeof [`LimiterBandAPI`](classes/LimiterBandAPI.md) |
-| `limiter.discovery` | typeof [`LimiterDiscoveryAPI`](classes/LimiterDiscoveryAPI.md) |
-| `limiter.fan` | typeof [`LimiterFanAPI`](classes/LimiterFanAPI.md) |
-| `limiter.image` | typeof [`LimiterImageAPI`](classes/LimiterImageAPI.md) |
-| `limiter.search` | typeof [`LimiterSearchAPI`](classes/LimiterSearchAPI.md) |
-| `limiter.show` | typeof [`LimiterShowAPI`](classes/LimiterShowAPI.md) |
-| `limiter.tag` | typeof [`LimiterTagAPI`](classes/LimiterTagAPI.md) |
-| `limiter.track` | typeof [`LimiterTrackAPI`](classes/LimiterTrackAPI.md) |
-| `limiter.updateSettings` | (`options?`: `ConstructorOptions`) => `void` |
-| `search` | typeof [`SearchAPI`](classes/SearchAPI.md) |
-| `show` | typeof [`ShowAPI`](classes/ShowAPI.md) |
-| `tag` | typeof [`TagAPI`](classes/TagAPI.md) |
-| `track` | typeof [`TrackAPI`](classes/TrackAPI.md) |
+• **default**: [`BandcampFetch`](classes/BandcampFetch.md)
 
 #### Defined in
 
-[index.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/index.ts#L82)
+[index.ts:68](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/index.ts#L68)

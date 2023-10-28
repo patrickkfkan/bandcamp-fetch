@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/utils/NameValuePair.ts#L2)
+[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/NameValuePair.ts#L2)
 
 ___
 
@@ -39,4 +39,4 @@ ___
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/utils/NameValuePair.ts#L3)
+[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/NameValuePair.ts#L3)

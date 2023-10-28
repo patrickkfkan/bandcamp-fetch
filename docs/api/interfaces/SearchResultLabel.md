@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L10)
+[lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L10)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[lib/types/Search.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L22)
+[lib/types/Search.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L22)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L8)
+[lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L8)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[lib/types/Search.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L21)
+[lib/types/Search.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L21)
 
 ___
 
@@ -82,4 +82,4 @@ ___
 
 #### Defined in
 
-[lib/types/Search.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Search.ts#L9)
+[lib/types/Search.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L9)

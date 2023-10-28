@@ -1,7 +1,6 @@
-import ImageAPI from '../image/ImageAPI';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 import { ImageFormat } from '../types/Image';
 import Track from '../types/Track';
-import { fetchPage } from '../utils/Fetch';
 import Limiter from '../utils/Limiter';
 import TrackInfoParser from './TrackInfoParser';
 
@@ -12,23 +11,30 @@ export interface TrackAPIGetInfoParams {
   includeRawData?: boolean;
 }
 
-export default class TrackAPI {
-  static async getInfo(params: TrackAPIGetInfoParams): Promise<Track> {
-    const imageConstants = await ImageAPI.getConstants();
+export default class TrackAPI extends BaseAPIWithImageSupport {
+  async getInfo(params: TrackAPIGetInfoParams): Promise<Track> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       trackUrl: params.trackUrl,
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await ImageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await ImageAPI.getFormat(params.artistImageFormat, 21),
+      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
+      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
       includeRawData: params.includeRawData !== undefined ? params.includeRawData : false
     };
-    const html = await fetchPage(params.trackUrl);
+    const html = await this.fetch(params.trackUrl);
     return TrackInfoParser.parseInfo(html, opts);
   }
 }
 
 export class LimiterTrackAPI extends TrackAPI {
-  static async getInfo(params: TrackAPIGetInfoParams): Promise<Track> {
-    return Limiter.schedule(() => super.getInfo(params));
+
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
+  }
+  async getInfo(params: TrackAPIGetInfoParams): Promise<Track> {
+    return this.#limiter.schedule(() => super.getInfo(params));
   }
 }

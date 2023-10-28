@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L10)
+[lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L10)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L3)
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/UserKind.ts#L3)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L8)
+[lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L8)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L7)
+[lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L7)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L5)
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/UserKind.ts#L5)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L6)
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/UserKind.ts#L6)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L2)
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/UserKind.ts#L2)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L4)
+[lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L4)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/UserKind.ts#L4)
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/UserKind.ts#L4)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L5)
+[lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L5)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L6)
+[lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L6)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Fan.ts#L9)
+[lib/types/Fan.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Fan.ts#L9)

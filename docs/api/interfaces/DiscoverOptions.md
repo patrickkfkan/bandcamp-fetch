@@ -28,7 +28,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L17)
+[lib/types/Discovery.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L17)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L16)
+[lib/types/Discovery.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L16)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L11)
+[lib/types/Discovery.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L11)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L15)
+[lib/types/Discovery.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L15)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L12)
+[lib/types/Discovery.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L12)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L14)
+[lib/types/Discovery.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L14)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Discovery.ts#L13)
+[lib/types/Discovery.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L13)

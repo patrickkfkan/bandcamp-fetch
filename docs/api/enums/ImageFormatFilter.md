@@ -19,7 +19,7 @@ Album image formats
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/image/ImageAPI.ts#L10)
+[lib/image/ImageAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/image/ImageAPI.ts#L10)
 
 ___
 
@@ -31,4 +31,4 @@ Artist / Profile image formats
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/image/ImageAPI.ts#L12)
+[lib/image/ImageAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/image/ImageAPI.ts#L12)

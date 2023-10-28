@@ -1,8 +1,9 @@
 import { URLS } from '../utils/Constants';
-import { FetchMethod, fetchPage } from '../utils/Fetch';
 import { AutoCompleteTag, AutocompleteLocation } from '../types/Autocomplete';
 import AutocompleteResultsParser from './AutocompleteResultsParser';
 import Limiter from '../utils/Limiter';
+import BaseAPI, { BaseAPIParams } from '../common/BaseAPI';
+import { FetchMethod } from '../utils/Fetcher';
 
 export enum AutocompleteItemType {
   Tag = 'Tag',
@@ -15,12 +16,12 @@ export interface AutocompleteAPIGetSuggestionsParams {
   limit?: number;
 }
 
-export default class AutocompleteAPI {
+export default class AutocompleteAPI extends BaseAPI {
 
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Location }): Promise<AutocompleteLocation[]>;
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Tag }): Promise<AutoCompleteTag[]>;
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<AutoCompleteTag[] | AutocompleteLocation[]>;
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<any> {
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Location }): Promise<AutocompleteLocation[]>;
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Tag }): Promise<AutoCompleteTag[]>;
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<AutoCompleteTag[] | AutocompleteLocation[]>;
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<any> {
     if (params.itemType === AutocompleteItemType.Tag) {
       return this.getAutocompleteTags(params);
     }
@@ -31,37 +32,44 @@ export default class AutocompleteAPI {
   /**
    * @internal
    */
-  protected static async getAutocompleteTags(params: AutocompleteAPIGetSuggestionsParams) {
+  protected async getAutocompleteTags(params: AutocompleteAPIGetSuggestionsParams) {
     const payload = {
       search_term: params.query,
       count: params.limit || 5
     };
 
-    const json = await fetchPage(URLS.AUTOCOMPLETE.TAG, true, FetchMethod.POST, payload);
+    const json = await this.fetch(URLS.AUTOCOMPLETE.TAG, true, FetchMethod.POST, payload);
     return AutocompleteResultsParser.parseTags(json);
   }
 
   /**
    * @internal
    */
-  protected static async getAutocompleteLocations(params: AutocompleteAPIGetSuggestionsParams) {
+  protected async getAutocompleteLocations(params: AutocompleteAPIGetSuggestionsParams) {
     const payload = {
       q: params.query,
       n: params.limit || 5,
       geocoder_fallback: true
     };
 
-    const json = await fetchPage(URLS.AUTOCOMPLETE.LOCATION, true, FetchMethod.POST, payload);
+    const json = await this.fetch(URLS.AUTOCOMPLETE.LOCATION, true, FetchMethod.POST, payload);
     return AutocompleteResultsParser.parseLocations(json);
   }
 }
 
 export class LimiterAutocompleteAPI extends AutocompleteAPI {
 
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Location; }): Promise<AutocompleteLocation[]>;
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Tag; }): Promise<AutoCompleteTag[]>;
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<AutocompleteLocation[] | AutoCompleteTag[]>;
-  static getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<any> {
-    return Limiter.schedule(() => super.getSuggestions(params));
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
+  }
+
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Location; }): Promise<AutocompleteLocation[]>;
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Tag; }): Promise<AutoCompleteTag[]>;
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<AutocompleteLocation[] | AutoCompleteTag[]>;
+  getSuggestions(params: AutocompleteAPIGetSuggestionsParams): Promise<any> {
+    return this.#limiter.schedule(() => super.getSuggestions(params));
   }
 }

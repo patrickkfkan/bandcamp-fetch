@@ -1,16 +1,21 @@
 import Bottleneck from 'bottleneck';
 
-const _limiter = new Bottleneck({
-  maxConcurrent: 5,
-  minTime: 200
-});
-
 export default class Limiter {
-  static updateSettings(options?: Bottleneck.ConstructorOptions) {
-    _limiter.updateSettings(options);
+
+  #limiter: Bottleneck;
+
+  constructor() {
+    this.#limiter = new Bottleneck({
+      maxConcurrent: 5,
+      minTime: 200
+    });
   }
 
-  static schedule<R>(fn: () => PromiseLike<R>): Promise<R> {
-    return _limiter.schedule(fn);
+  updateSettings(options?: Bottleneck.ConstructorOptions) {
+    this.#limiter.updateSettings(options);
+  }
+
+  schedule<R>(fn: () => PromiseLike<R>): Promise<R> {
+    return this.#limiter.schedule(fn);
   }
 }

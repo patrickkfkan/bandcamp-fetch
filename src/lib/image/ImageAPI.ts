@@ -1,7 +1,7 @@
+import BaseAPI, { BaseAPIParams } from '../common/BaseAPI';
 import { ImageConstants, ImageFormat } from '../types/Image';
-import { Cache, CacheDataType } from '../utils/Cache';
+import { CacheDataType } from '../utils/Cache';
 import { URLS } from '../utils/Constants';
-import { fetchPage } from '../utils/Fetch';
 import Limiter from '../utils/Limiter';
 import ImageParser from './ImageParser';
 
@@ -12,19 +12,19 @@ export enum ImageFormatFilter {
   Bio = 'bio'
 }
 
-export default class ImageAPI {
+export default class ImageAPI extends BaseAPI {
 
   /**
    * @internal
    */
-  static async getConstants(): Promise<ImageConstants> {
-    return Cache.getOrSet(CacheDataType.Constants, 'imageConstants', async () => {
-      const html = await fetchPage(URLS.SITE_URL);
+  async getConstants(): Promise<ImageConstants> {
+    return this.cache.getOrSet(CacheDataType.Constants, 'imageConstants', async () => {
+      const html = await this.fetch(URLS.SITE_URL);
       return ImageParser.parseImageConstants(html);
     });
   }
 
-  static async getFormat(target?: string | number | ImageFormat, fallbackId?: number): Promise<ImageFormat | null> {
+  async getFormat(target?: string | number | ImageFormat, fallbackId?: number): Promise<ImageFormat | null> {
     if (target && typeof target === 'object' && target.id !== undefined && target.name) {
       return target;
     }
@@ -44,7 +44,7 @@ export default class ImageAPI {
     return null;
   }
 
-  static async getFormats(filter?: ImageFormatFilter): Promise<ImageFormat[]> {
+  async getFormats(filter?: ImageFormatFilter): Promise<ImageFormat[]> {
     const constants = await this.getConstants();
     if (filter === ImageFormatFilter.Album) {
       return constants.formats.filter( (c) => c.name.startsWith('art_') );
@@ -59,11 +59,18 @@ export default class ImageAPI {
 
 export class LimiterImageAPI extends ImageAPI {
 
-  static async getFormats(filter?: ImageFormatFilter | undefined): Promise<ImageFormat[]> {
-    return Limiter.schedule(() => super.getFormats(filter));
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async getFormat(target?: string | number | ImageFormat | undefined, fallbackId?: number | undefined): Promise<ImageFormat | null> {
-    return Limiter.schedule(() => super.getFormat(target, fallbackId));
+  async getFormats(filter?: ImageFormatFilter | undefined): Promise<ImageFormat[]> {
+    return this.#limiter.schedule(() => super.getFormats(filter));
+  }
+
+  async getFormat(target?: string | number | ImageFormat | undefined, fallbackId?: number | undefined): Promise<ImageFormat | null> {
+    return this.#limiter.schedule(() => super.getFormat(target, fallbackId));
   }
 }

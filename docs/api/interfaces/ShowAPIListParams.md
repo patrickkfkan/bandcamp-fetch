@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L18)
+[lib/show/ShowAPI.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/show/ShowAPI.ts#L17)

@@ -1,8 +1,8 @@
-import ImageAPI from '../image/ImageAPI';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 import { ImageFormat } from '../types/Image';
 import Tag, { AlbumHighlightsByTag, ReleasesByTag, TagList } from '../types/Tag';
 import { URLS } from '../utils/Constants';
-import { FetchMethod, fetchPage } from '../utils/Fetch';
+import { FetchMethod } from '../utils/Fetcher';
 import Limiter from '../utils/Limiter';
 import { ParseError, normalizeUrl, splitUrl } from '../utils/Parse';
 import AlbumHighlightsByTagParser from './AlbumHighlightsByTagParser';
@@ -23,40 +23,40 @@ export interface TagAPIGetReleasesParams {
   page?: number;
 }
 
-export default class TagAPI {
+export default class TagAPI extends BaseAPIWithImageSupport {
 
-  static async list(): Promise<TagList> {
-    const html = await fetchPage(normalizeUrl('tags'));
+  async list(): Promise<TagList> {
+    const html = await this.fetch(normalizeUrl('tags'));
     return TagListParser.parseTags(html);
   }
 
-  static async getInfo(tagUrl: string): Promise<Tag> {
-    const html = await fetchPage(tagUrl);
+  async getInfo(tagUrl: string): Promise<Tag> {
+    const html = await this.fetch(tagUrl);
     return TagInfoParser.parseInfo(html, tagUrl);
   }
 
-  static async getAlbumHighlights(params: TagAPIGetAlbumHighlightsParams): Promise<AlbumHighlightsByTag[]> {
-    const imageConstants = await ImageAPI.getConstants();
+  async getAlbumHighlights(params: TagAPIGetAlbumHighlightsParams): Promise<AlbumHighlightsByTag[]> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      imageFormat: await ImageAPI.getFormat(params.imageFormat, 9)
+      imageFormat: await this.imageAPI.getFormat(params.imageFormat, 9)
     };
 
-    const html = await fetchPage(params.tagUrl);
+    const html = await this.fetch(params.tagUrl);
     return AlbumHighlightsByTagParser.parseHighlights(html, opts);
   }
 
-  static async getReleasesAvailableFilters(tagUrl: string): Promise<ReleasesByTag.Filter[]> {
+  async getReleasesAvailableFilters(tagUrl: string): Promise<ReleasesByTag.Filter[]> {
     const filterValueNames = await this.getReleaseFilterValueNames(tagUrl);
-    const html = await fetchPage(tagUrl);
+    const html = await this.fetch(tagUrl);
     return ReleasesByTagParser.parseFilters(html, filterValueNames);
   }
 
-  static async getReleases(params: TagAPIGetReleasesParams): Promise<ReleasesByTag> {
-    const imageConstants = await ImageAPI.getConstants();
+  async getReleases(params: TagAPIGetReleasesParams): Promise<ReleasesByTag> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      imageFormat: await ImageAPI.getFormat(params.imageFormat, 9)
+      imageFormat: await this.imageAPI.getFormat(params.imageFormat, 9)
     };
 
     const _getDefaultFilters = async (tagUrl: string) => {
@@ -117,21 +117,21 @@ export default class TagAPI {
       page: params.page || 1
     };
 
-    const json = await fetchPage(URLS.DIG_DEEPER, true, FetchMethod.POST, postData);
+    const json = await this.fetch(URLS.DIG_DEEPER, true, FetchMethod.POST, postData);
     return ReleasesByTagParser.parseReleases(json, opts);
   }
 
   /**
    * @internal
    */
-  protected static async getReleaseFilterValueNames(tagUrl: string) {
+  protected async getReleaseFilterValueNames(tagUrl: string) {
     const url = `${tagUrl}?tab=all_releases`;
-    const html = await fetchPage(url);
+    const html = await this.fetch(url);
     const path = ReleasesByTagParser.parseHubJSPath(html);
     if (!path) {
       throw new ParseError(`Failed to obtain Hub JS path from ${url}`, html);
     }
-    const js = await fetchPage(path);
+    const js = await this.fetch(path);
     try {
       return ReleasesByTagParser.parseHubJSFilterValueNames(js);
     }
@@ -143,23 +143,30 @@ export default class TagAPI {
 
 export class LimiterTagAPI extends TagAPI {
 
-  static async list(): Promise<TagList> {
-    return Limiter.schedule(() => super.list());
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async getInfo(tagUrl: string): Promise<Tag> {
-    return Limiter.schedule(() => super.getInfo(tagUrl));
+  async list(): Promise<TagList> {
+    return this.#limiter.schedule(() => super.list());
   }
 
-  static async getAlbumHighlights(params: TagAPIGetAlbumHighlightsParams): Promise<AlbumHighlightsByTag[]> {
-    return Limiter.schedule(() => super.getAlbumHighlights(params));
+  async getInfo(tagUrl: string): Promise<Tag> {
+    return this.#limiter.schedule(() => super.getInfo(tagUrl));
   }
 
-  static async getReleasesAvailableFilters(tagUrl: string): Promise<ReleasesByTag.Filter[]> {
-    return Limiter.schedule(() => super.getReleasesAvailableFilters(tagUrl));
+  async getAlbumHighlights(params: TagAPIGetAlbumHighlightsParams): Promise<AlbumHighlightsByTag[]> {
+    return this.#limiter.schedule(() => super.getAlbumHighlights(params));
   }
 
-  static async getReleases(params: TagAPIGetReleasesParams): Promise<ReleasesByTag> {
-    return Limiter.schedule(() => super.getReleases(params));
+  async getReleasesAvailableFilters(tagUrl: string): Promise<ReleasesByTag.Filter[]> {
+    return this.#limiter.schedule(() => super.getReleasesAvailableFilters(tagUrl));
+  }
+
+  async getReleases(params: TagAPIGetReleasesParams): Promise<ReleasesByTag> {
+    return this.#limiter.schedule(() => super.getReleases(params));
   }
 }

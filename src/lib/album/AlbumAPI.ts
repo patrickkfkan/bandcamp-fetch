@@ -1,9 +1,8 @@
 import Album from '../types/Album';
 import { ImageFormat } from '../types/Image';
-import ImageAPI from '../image/ImageAPI';
-import { fetchPage } from '../utils/Fetch';
 import AlbumInfoParser from './AlbumInfoParser';
 import Limiter from '../utils/Limiter';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 
 export interface AlbumAPIGetInfoParams {
   albumUrl: string;
@@ -12,22 +11,31 @@ export interface AlbumAPIGetInfoParams {
   includeRawData?: boolean;
 }
 
-export default class AlbumAPI {
-  static async getInfo(params: AlbumAPIGetInfoParams): Promise<Album> {
-    const imageConstants = await ImageAPI.getConstants();
+export default class AlbumAPI extends BaseAPIWithImageSupport {
+
+  async getInfo(params: AlbumAPIGetInfoParams): Promise<Album> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await ImageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await ImageAPI.getFormat(params.artistImageFormat, 21),
+      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
+      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
       includeRawData: params.includeRawData !== undefined ? params.includeRawData : false
     };
-    const html = await fetchPage(params.albumUrl);
+    const html = await this.fetch(params.albumUrl);
     return AlbumInfoParser.parseInfo(html, opts);
   }
 }
 
 export class LimiterAlbumAPI extends AlbumAPI {
-  static async getInfo(params: AlbumAPIGetInfoParams): Promise<Album> {
-    return Limiter.schedule(() => super.getInfo(params));
+
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
+  }
+
+  async getInfo(params: AlbumAPIGetInfoParams): Promise<Album> {
+    return this.#limiter.schedule(() => super.getInfo(params));
   }
 }

@@ -1,8 +1,8 @@
-import ImageAPI from '../image/ImageAPI';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 import { DiscoverOptions, DiscoverParams, DiscoverResult } from '../types/Discovery';
-import { Cache, CacheDataType } from '../utils/Cache';
+import { CacheDataType } from '../utils/Cache';
 import { URLS } from '../utils/Constants';
-import { FetchMethod, fetchPage } from '../utils/Fetch';
+import { FetchMethod } from '../utils/Fetcher';
 import Limiter from '../utils/Limiter';
 import NameValuePair from '../utils/NameValuePair';
 import DiscoverOptionsParser from './DiscoverOptionsParser';
@@ -19,16 +19,16 @@ interface DiscoverRequestPayload {
   w?: number; // Time
 }
 
-export default class DiscoveryAPI {
+export default class DiscoveryAPI extends BaseAPIWithImageSupport {
 
-  static async getAvailableOptions(): Promise<DiscoverOptions> {
-    return Cache.getOrSet(CacheDataType.Constants, 'discoverOptions', async () => {
-      const html = await fetchPage(URLS.SITE_URL);
+  async getAvailableOptions(): Promise<DiscoverOptions> {
+    return this.cache.getOrSet(CacheDataType.Constants, 'discoverOptions', async () => {
+      const html = await this.fetch(URLS.SITE_URL);
       return DiscoverOptionsParser.parseOptions(html);
     });
   }
 
-  static async sanitizeDiscoverParams(params?: DiscoverParams): Promise<DiscoverParams> {
+  async sanitizeDiscoverParams(params?: DiscoverParams): Promise<DiscoverParams> {
     const options = await this.getAvailableOptions();
 
     const _getOptionValue = <T>(optArr: NameValuePair<T>[], value?: T, defaultIndex = 0) => {
@@ -73,12 +73,12 @@ export default class DiscoveryAPI {
     return sanitized;
   }
 
-  static async discover(params?: DiscoverParams): Promise<DiscoverResult> {
-    const imageConstants = await ImageAPI.getConstants();
+  async discover(params?: DiscoverParams): Promise<DiscoverResult> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await ImageAPI.getFormat(params?.albumImageFormat, 9),
-      artistImageFormat: await ImageAPI.getFormat(params?.artistImageFormat, 21)
+      albumImageFormat: await this.imageAPI.getFormat(params?.albumImageFormat, 9),
+      artistImageFormat: await this.imageAPI.getFormat(params?.artistImageFormat, 21)
     };
 
     const sanitizedParams = await this.sanitizeDiscoverParams(params);
@@ -92,8 +92,8 @@ export default class DiscoveryAPI {
       delete sanitizedParams.subgenre;
     }
 
-    const payload = this.getDiscoverRequestPayload(sanitizedParams);
-    const json = await fetchPage(URLS.DISCOVER_URL, true, FetchMethod.GET, payload);
+    const payload = DiscoveryAPI.getDiscoverRequestPayload(sanitizedParams);
+    const json = await this.fetch(URLS.DISCOVER_URL, true, FetchMethod.GET, payload);
     return DiscoverResultParser.parseDiscoverResult(json, opts, resultParams);
   }
 
@@ -131,15 +131,22 @@ export default class DiscoveryAPI {
 
 export class LimiterDiscoveryAPI extends DiscoveryAPI {
 
-  static async getAvailableOptions(): Promise<DiscoverOptions> {
-    return Limiter.schedule(() => super.getAvailableOptions());
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async sanitizeDiscoverParams(params: DiscoverParams): Promise<DiscoverParams> {
-    return Limiter.schedule(() => super.sanitizeDiscoverParams(params));
+  async getAvailableOptions(): Promise<DiscoverOptions> {
+    return this.#limiter.schedule(() => super.getAvailableOptions());
   }
 
-  static async discover(params: DiscoverParams): Promise<DiscoverResult> {
-    return Limiter.schedule(() => super.discover(params));
+  async sanitizeDiscoverParams(params: DiscoverParams): Promise<DiscoverParams> {
+    return this.#limiter.schedule(() => super.sanitizeDiscoverParams(params));
+  }
+
+  async discover(params: DiscoverParams): Promise<DiscoverResult> {
+    return this.#limiter.schedule(() => super.discover(params));
   }
 }

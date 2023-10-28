@@ -14,8 +14,14 @@
 
 - [constructor](LimiterBandAPI.md#constructor)
 
+### Accessors
+
+- [cache](LimiterBandAPI.md#cache)
+- [imageAPI](LimiterBandAPI.md#imageapi)
+
 ### Methods
 
+- [fetch](LimiterBandAPI.md#fetch)
 - [getDiscography](LimiterBandAPI.md#getdiscography)
 - [getInfo](LimiterBandAPI.md#getinfo)
 - [getLabelArtists](LimiterBandAPI.md#getlabelartists)
@@ -24,17 +30,113 @@
 
 ### constructor
 
-• **new LimiterBandAPI**()
+• **new LimiterBandAPI**(`params`)
 
-#### Inherited from
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & { `limiter`: [`Limiter`](Limiter.md)  } |
+
+#### Overrides
 
 [BandAPI](BandAPI.md).[constructor](BandAPI.md#constructor)
 
+#### Defined in
+
+[lib/band/BandAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L136)
+
+## Accessors
+
+### cache
+
+• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+
+#### Returns
+
+[`Cache`](Cache.md)
+
+#### Inherited from
+
+BandAPI.cache
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+
+___
+
+### imageAPI
+
+• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+
+#### Returns
+
+[`ImageAPI`](ImageAPI.md)
+
+#### Inherited from
+
+BandAPI.imageAPI
+
+#### Defined in
+
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+
 ## Methods
+
+### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``true`` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`any`\>
+
+#### Inherited from
+
+[BandAPI](BandAPI.md).[fetch](BandAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+
+▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse?` | `boolean` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Inherited from
+
+[BandAPI](BandAPI.md).[fetch](BandAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+
+___
 
 ### getDiscography
 
-▸ `Static` **getDiscography**(`params`): `Promise`<([`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md))[]\>
+▸ **getDiscography**(`params`): `Promise`<([`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md))[]\>
 
 #### Parameters
 
@@ -52,13 +154,13 @@
 
 #### Defined in
 
-[lib/band/BandAPI.ts:135](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/band/BandAPI.ts#L135)
+[lib/band/BandAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L141)
 
 ___
 
 ### getInfo
 
-▸ `Static` **getInfo**(`params`): `Promise`<[`Label`](../interfaces/Label.md) \| [`Artist`](../interfaces/Artist.md)\>
+▸ **getInfo**(`params`): `Promise`<[`Label`](../interfaces/Label.md) \| [`Artist`](../interfaces/Artist.md)\>
 
 #### Parameters
 
@@ -76,13 +178,13 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:139](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/band/BandAPI.ts#L139)
+[lib/band/BandAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L145)
 
 ___
 
 ### getLabelArtists
 
-▸ `Static` **getLabelArtists**(`params`): `Promise`<[`LabelArtist`](../README.md#labelartist)[]\>
+▸ **getLabelArtists**(`params`): `Promise`<[`LabelArtist`](../README.md#labelartist)[]\>
 
 #### Parameters
 
@@ -100,4 +202,4 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:143](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/band/BandAPI.ts#L143)
+[lib/band/BandAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L149)

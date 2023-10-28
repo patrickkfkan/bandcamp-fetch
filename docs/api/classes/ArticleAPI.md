@@ -4,9 +4,11 @@
 
 ## Hierarchy
 
-- **`ArticleAPI`**
+- [`BaseAPIWithImageSupport`](BaseAPIWithImageSupport.md)
 
-  ↳ [`LimiterArticleAPI`](LimiterArticleAPI.md)
+  ↳ **`ArticleAPI`**
+
+  ↳↳ [`LimiterArticleAPI`](LimiterArticleAPI.md)
 
 ## Table of contents
 
@@ -14,8 +16,14 @@
 
 - [constructor](ArticleAPI.md#constructor)
 
+### Accessors
+
+- [cache](ArticleAPI.md#cache)
+- [imageAPI](ArticleAPI.md#imageapi)
+
 ### Methods
 
+- [fetch](ArticleAPI.md#fetch)
 - [getArticle](ArticleAPI.md#getarticle)
 - [getCategories](ArticleAPI.md#getcategories)
 - [list](ArticleAPI.md#list)
@@ -24,13 +32,113 @@
 
 ### constructor
 
-• **new ArticleAPI**()
+• **new ArticleAPI**(`params`)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) |
+
+#### Inherited from
+
+[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[constructor](BaseAPIWithImageSupport.md#constructor)
+
+#### Defined in
+
+[lib/common/BaseAPIWithImageSupport.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L12)
+
+## Accessors
+
+### cache
+
+• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+
+#### Returns
+
+[`Cache`](Cache.md)
+
+#### Inherited from
+
+BaseAPIWithImageSupport.cache
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+
+___
+
+### imageAPI
+
+• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+
+#### Returns
+
+[`ImageAPI`](ImageAPI.md)
+
+#### Inherited from
+
+BaseAPIWithImageSupport.imageAPI
+
+#### Defined in
+
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
+### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``true`` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`any`\>
+
+#### Inherited from
+
+[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+
+▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse?` | `boolean` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Inherited from
+
+[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+
+___
+
 ### getArticle
 
-▸ `Static` **getArticle**(`params`): `Promise`<[`Article`](../interfaces/Article.md)\>
+▸ **getArticle**(`params`): `Promise`<[`Article`](../interfaces/Article.md)\>
 
 #### Parameters
 
@@ -44,13 +152,13 @@
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/article/ArticleAPI.ts#L32)
+[lib/article/ArticleAPI.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L31)
 
 ___
 
 ### getCategories
 
-▸ `Static` **getCategories**(): `Promise`<[`ArticleCategorySection`](../interfaces/ArticleCategorySection.md)[]\>
+▸ **getCategories**(): `Promise`<[`ArticleCategorySection`](../interfaces/ArticleCategorySection.md)[]\>
 
 #### Returns
 
@@ -58,13 +166,13 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/article/ArticleAPI.ts#L27)
+[lib/article/ArticleAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L26)
 
 ___
 
 ### list
 
-▸ `Static` **list**(`params?`): `Promise`<[`ArticleList`](../interfaces/ArticleList.md)\>
+▸ **list**(`params?`): `Promise`<[`ArticleList`](../interfaces/ArticleList.md)\>
 
 #### Parameters
 
@@ -78,4 +186,4 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:44](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/article/ArticleAPI.ts#L44)
+[lib/article/ArticleAPI.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L43)

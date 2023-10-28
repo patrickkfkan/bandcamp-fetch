@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[lib/types/Tag.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L17)
+[lib/types/Tag.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Tag.ts#L17)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[lib/types/Tag.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Tag.ts#L16)
+[lib/types/Tag.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Tag.ts#L16)

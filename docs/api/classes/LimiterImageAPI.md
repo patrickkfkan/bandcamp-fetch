@@ -14,8 +14,13 @@
 
 - [constructor](LimiterImageAPI.md#constructor)
 
+### Accessors
+
+- [cache](LimiterImageAPI.md#cache)
+
 ### Methods
 
+- [fetch](LimiterImageAPI.md#fetch)
 - [getFormat](LimiterImageAPI.md#getformat)
 - [getFormats](LimiterImageAPI.md#getformats)
 
@@ -23,17 +28,95 @@
 
 ### constructor
 
-• **new LimiterImageAPI**()
+• **new LimiterImageAPI**(`params`)
 
-#### Inherited from
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `params` | [`BaseAPIParams`](../interfaces/BaseAPIParams.md) & { `limiter`: [`Limiter`](Limiter.md)  } |
+
+#### Overrides
 
 [ImageAPI](ImageAPI.md).[constructor](ImageAPI.md#constructor)
 
+#### Defined in
+
+[lib/image/ImageAPI.ts:64](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/image/ImageAPI.ts#L64)
+
+## Accessors
+
+### cache
+
+• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+
+#### Returns
+
+[`Cache`](Cache.md)
+
+#### Inherited from
+
+ImageAPI.cache
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+
 ## Methods
+
+### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``true`` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`any`\>
+
+#### Inherited from
+
+[ImageAPI](ImageAPI.md).[fetch](ImageAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+
+▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse?` | `boolean` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Inherited from
+
+[ImageAPI](ImageAPI.md).[fetch](ImageAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+
+___
 
 ### getFormat
 
-▸ `Static` **getFormat**(`target?`, `fallbackId?`): `Promise`<``null`` \| [`ImageFormat`](../interfaces/ImageFormat.md)\>
+▸ **getFormat**(`target?`, `fallbackId?`): `Promise`<``null`` \| [`ImageFormat`](../interfaces/ImageFormat.md)\>
 
 #### Parameters
 
@@ -52,13 +135,13 @@
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:66](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/image/ImageAPI.ts#L66)
+[lib/image/ImageAPI.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/image/ImageAPI.ts#L73)
 
 ___
 
 ### getFormats
 
-▸ `Static` **getFormats**(`filter?`): `Promise`<[`ImageFormat`](../interfaces/ImageFormat.md)[]\>
+▸ **getFormats**(`filter?`): `Promise`<[`ImageFormat`](../interfaces/ImageFormat.md)[]\>
 
 #### Parameters
 
@@ -76,4 +159,4 @@ ___
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:62](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/image/ImageAPI.ts#L62)
+[lib/image/ImageAPI.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/image/ImageAPI.ts#L69)

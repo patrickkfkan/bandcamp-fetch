@@ -39,6 +39,7 @@
     "node": ">=14"
   },
   "devDependencies": {
+    "@types/cookie": "^0.5.3",
     "@types/node": "^14.18.38",
     "@types/node-fetch": "^2.6.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
@@ -54,6 +55,7 @@
   "dependencies": {
     "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0-rc.5",
+    "cookie": "^0.5.0",
     "eval5": "^1.4.7",
     "html-entities": "^2.0.2",
     "node-cache": "^5.1.2",

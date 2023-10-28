@@ -1,8 +1,7 @@
-import ImageAPI from '../image/ImageAPI';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 import { ImageFormat } from '../types/Image';
 import Show from '../types/Show';
 import { URLS } from '../utils/Constants';
-import { fetchPage } from '../utils/Fetch';
 import Limiter from '../utils/Limiter';
 import ShowListParser from './ShowListParser';
 import ShowParser from './ShowParser';
@@ -18,39 +17,46 @@ export interface ShowAPIListParams {
   imageFormat?: string | number | ImageFormat;
 }
 
-export default class ShowAPI {
+export default class ShowAPI extends BaseAPIWithImageSupport {
 
-  static async getShow(params: ShowAPIGetShowParams): Promise<Show> {
-    const imageConstants = await ImageAPI.getConstants();
+  async getShow(params: ShowAPIGetShowParams): Promise<Show> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       showUrl: params.showUrl,
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await ImageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await ImageAPI.getFormat(params.artistImageFormat, 21),
-      showImageFormat: await ImageAPI.getFormat(params.showImageFormat, 25)
+      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
+      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
+      showImageFormat: await this.imageAPI.getFormat(params.showImageFormat, 25)
     };
-    const html = await fetchPage(params.showUrl);
+    const html = await this.fetch(params.showUrl);
     return ShowParser.parseShow(html, opts);
   }
 
-  static async list(params?: ShowAPIListParams) {
-    const imageConstants = await ImageAPI.getConstants();
+  async list(params?: ShowAPIListParams) {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      imageFormat: await ImageAPI.getFormat(params?.imageFormat, 25)
+      imageFormat: await this.imageAPI.getFormat(params?.imageFormat, 25)
     };
-    const json = await fetchPage(URLS.SHOWS, true);
+    const json = await this.fetch(URLS.SHOWS, true);
     return ShowListParser.parseList(json, opts);
   }
 }
 
 export class LimiterShowAPI extends ShowAPI {
 
-  static async getShow(params: ShowAPIGetShowParams): Promise<Show> {
-    return Limiter.schedule(() => super.getShow(params));
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async list(params?: ShowAPIListParams | undefined): Promise<Show[]> {
-    return Limiter.schedule(() => super.list(params));
+  async getShow(params: ShowAPIGetShowParams): Promise<Show> {
+    return this.#limiter.schedule(() => super.getShow(params));
+  }
+
+  async list(params?: ShowAPIListParams | undefined): Promise<Show[]> {
+    return this.#limiter.schedule(() => super.list(params));
   }
 }

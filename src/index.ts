@@ -1,17 +1,7 @@
-import AlbumAPI, { LimiterAlbumAPI } from './lib/album/AlbumAPI';
-import ArticleAPI, { LimiterArticleAPI } from './lib/article/ArticleAPI';
-import BandAPI, { LimiterBandAPI } from './lib/band/BandAPI';
-import DiscoveryAPI, { LimiterDiscoveryAPI } from './lib/discovery/DiscoveryAPI';
-import FanAPI, { LimiterFanAPI } from './lib/fan/FanAPI';
-import ImageAPI, { LimiterImageAPI } from './lib/image/ImageAPI';
-import ShowAPI, { LimiterShowAPI } from './lib/show/ShowAPI';
-import TagAPI, { LimiterTagAPI } from './lib/tag/TagAPI';
-import TrackAPI, { LimiterTrackAPI } from './lib/track/TrackAPI';
-import SearchAPI, { LimiterSearchAPI } from './lib/search/SearchAPI';
-import AutocompleteAPI, { LimiterAutocompleteAPI } from './lib/autocomplete/AutocompleteAPI';
-import Limiter from './lib/utils/Limiter';
-import { CacheDataType, Cache as CacheImpl } from './lib/utils/Cache';
+import BandcampFetch from './lib/BandcampFetch';
 
+export { default as BaseAPI } from './lib/common/BaseAPI';
+export { default as BaseAPIWithImageSupport } from './lib/common/BaseAPIWithImageSupport';
 export { default as AlbumAPI } from './lib/album/AlbumAPI';
 export { default as ArticleAPI } from './lib/article/ArticleAPI';
 export { default as BandAPI } from './lib/band/BandAPI';
@@ -24,6 +14,8 @@ export { default as TrackAPI } from './lib/track/TrackAPI';
 export { default as SearchAPI } from './lib/search/SearchAPI';
 export { default as AutocompleteAPI } from './lib/autocomplete/AutocompleteAPI';
 
+export * from './lib/common/BaseAPI';
+export * from './lib/common/BaseAPIWithImageSupport';
 export * from './lib/album/AlbumAPI';
 export * from './lib/discovery/DiscoveryAPI';
 export * from './lib/image/ImageAPI';
@@ -51,7 +43,12 @@ export * from './lib/types/Track';
 export * from './lib/types/UserKind';
 export * from './lib/types/Search';
 export * from './lib/types/Autocomplete';
-export { CacheDataType } from './lib/utils/Cache';
+
+export { default as Cache } from './lib/utils/Cache';
+export * from './lib/utils/Cache';
+export { default as Fetcher } from './lib/utils/Fetcher';
+export * from './lib/utils/Fetcher';
+export { default as Limiter } from './lib/utils/Limiter';
 
 export { default as Album } from './lib/types/Album';
 export { default as Article } from './lib/types/Article';
@@ -65,45 +62,7 @@ export { default as Track } from './lib/types/Track';
 export { default as UserKind } from './lib/types/UserKind';
 export { default as NameValuePair } from './lib/utils/NameValuePair';
 
-export class Cache {
-  static clear(type?: CacheDataType) {
-    CacheImpl.clear(type);
-  }
+export { default as BandcampFetch } from './lib/BandcampFetch';
+export * from './lib/BandcampFetch';
 
-  static setTTL(type: CacheDataType, ttl: number) {
-    CacheImpl.setTTL(type, ttl);
-  }
-
-  static setMaxPages(maxPages: number) {
-    CacheImpl.setMaxEntries(CacheDataType.Page, maxPages);
-  }
-}
-
-export default {
-  album: AlbumAPI,
-  track: TrackAPI,
-  discovery: DiscoveryAPI,
-  image: ImageAPI,
-  band: BandAPI,
-  tag: TagAPI,
-  article: ArticleAPI,
-  show: ShowAPI,
-  fan: FanAPI,
-  search: SearchAPI,
-  autocomplete: AutocompleteAPI,
-  limiter: {
-    album: LimiterAlbumAPI,
-    track: LimiterTrackAPI,
-    discovery: LimiterDiscoveryAPI,
-    image: LimiterImageAPI,
-    band: LimiterBandAPI,
-    tag: LimiterTagAPI,
-    article: LimiterArticleAPI,
-    show: LimiterShowAPI,
-    fan: LimiterFanAPI,
-    search: LimiterSearchAPI,
-    autocomplete: LimiterAutocompleteAPI,
-    updateSettings: Limiter.updateSettings.bind(Limiter)
-  },
-  cache: Cache
-};
+export default new BandcampFetch();

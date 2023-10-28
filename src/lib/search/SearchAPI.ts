@@ -1,11 +1,10 @@
 import { URL } from 'url';
-import ImageAPI from '../image/ImageAPI';
 import { ImageFormat } from '../types/Image';
 import { URLS } from '../utils/Constants';
-import { fetchPage } from '../utils/Fetch';
 import SearchResultsParser from './SearchResultsParser';
 import { SearchResultAlbum, SearchResultAny, SearchResultArtist, SearchResultFan, SearchResultLabel, SearchResultTrack, SearchResults } from '../types/Search';
 import Limiter from '../utils/Limiter';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 
 export enum SearchItemType {
   All = 'All',
@@ -22,43 +21,43 @@ export interface SearchAPISearchParams {
   artistImageFormat?: string | number | ImageFormat;
 }
 
-export default class SearchAPI {
+export default class SearchAPI extends BaseAPIWithImageSupport {
 
-  static async all(params: SearchAPISearchParams) {
+  async all(params: SearchAPISearchParams) {
     return this.search({ ...params, itemType: SearchItemType.All });
   }
 
-  static async artistsAndLabels(params: SearchAPISearchParams) {
+  async artistsAndLabels(params: SearchAPISearchParams) {
     return this.search({ ...params, itemType: SearchItemType.ArtistsAndLabels });
   }
 
-  static async albums(params: SearchAPISearchParams) {
+  async albums(params: SearchAPISearchParams) {
     return this.search({ ...params, itemType: SearchItemType.Albums });
   }
 
-  static async tracks(params: SearchAPISearchParams) {
+  async tracks(params: SearchAPISearchParams) {
     return this.search({ ...params, itemType: SearchItemType.Tracks });
   }
 
-  static async fans(params: SearchAPISearchParams) {
+  async fans(params: SearchAPISearchParams) {
     return this.search({ ...params, itemType: SearchItemType.Fans });
   }
 
   /**
    * @internal
    */
-  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.ArtistsAndLabels }): Promise<SearchResults<SearchResultArtist | SearchResultLabel>>;
-  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.Albums }): Promise<SearchResults<SearchResultAlbum>>;
-  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.Tracks }): Promise<SearchResults<SearchResultTrack>>;
-  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.Fans }): Promise<SearchResults<SearchResultFan>>;
-  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType.All }): Promise<SearchResults<SearchResultAny>>;
-  protected static async search(params: SearchAPISearchParams & { itemType: SearchItemType }): Promise<any> {
+  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.ArtistsAndLabels }): Promise<SearchResults<SearchResultArtist | SearchResultLabel>>;
+  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Albums }): Promise<SearchResults<SearchResultAlbum>>;
+  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Tracks }): Promise<SearchResults<SearchResultTrack>>;
+  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Fans }): Promise<SearchResults<SearchResultFan>>;
+  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.All }): Promise<SearchResults<SearchResultAny>>;
+  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType }): Promise<any> {
     const opts = {
       itemType: params.itemType || SearchItemType.All,
-      albumImageFormat: await ImageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await ImageAPI.getFormat(params.artistImageFormat, 21)
+      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
+      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21)
     };
-    const html = await fetchPage(this.getSearchUrl(params));
+    const html = await this.fetch(SearchAPI.getSearchUrl(params));
     return SearchResultsParser.parseResults(html, opts);
   }
 
@@ -90,23 +89,30 @@ export default class SearchAPI {
 
 export class LimiterSearchAPI extends SearchAPI {
 
-  static async all(params: SearchAPISearchParams): Promise<SearchResults<SearchResultAny>> {
-    return Limiter.schedule(() => super.all(params));
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async artistsAndLabels(params: SearchAPISearchParams): Promise<SearchResults<SearchResultArtist | SearchResultLabel>> {
-    return Limiter.schedule(() => super.artistsAndLabels(params));
+  async all(params: SearchAPISearchParams): Promise<SearchResults<SearchResultAny>> {
+    return this.#limiter.schedule(() => super.all(params));
   }
 
-  static async albums(params: SearchAPISearchParams): Promise<SearchResults<SearchResultAlbum>> {
-    return Limiter.schedule(() => super.albums(params));
+  async artistsAndLabels(params: SearchAPISearchParams): Promise<SearchResults<SearchResultArtist | SearchResultLabel>> {
+    return this.#limiter.schedule(() => super.artistsAndLabels(params));
   }
 
-  static async tracks(params: SearchAPISearchParams): Promise<SearchResults<SearchResultTrack>> {
-    return Limiter.schedule(() => super.tracks(params));
+  async albums(params: SearchAPISearchParams): Promise<SearchResults<SearchResultAlbum>> {
+    return this.#limiter.schedule(() => super.albums(params));
   }
 
-  static async fans(params: SearchAPISearchParams): Promise<SearchResults<SearchResultFan>> {
-    return Limiter.schedule(() => super.fans(params));
+  async tracks(params: SearchAPISearchParams): Promise<SearchResults<SearchResultTrack>> {
+    return this.#limiter.schedule(() => super.tracks(params));
+  }
+
+  async fans(params: SearchAPISearchParams): Promise<SearchResults<SearchResultFan>> {
+    return this.#limiter.schedule(() => super.fans(params));
   }
 }

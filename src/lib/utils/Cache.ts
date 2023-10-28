@@ -5,7 +5,7 @@ export enum CacheDataType {
   Constants = 'Constants'
 }
 
-class CacheImpl {
+export default class Cache {
   #ttl: Record<CacheDataType, number>;
   #maxEntries: Record<CacheDataType, number>;
   #cache: NodeCache;
@@ -92,8 +92,3 @@ class CacheImpl {
     return value;
   }
 }
-
-export const Cache = new CacheImpl({
-  [CacheDataType.Constants]: 3600,
-  [CacheDataType.Page]: 300
-}, { page: 10 });

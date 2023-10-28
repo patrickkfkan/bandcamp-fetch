@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[lib/types/Album.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Album.ts#L21)
+[lib/types/Album.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Album.ts#L21)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[lib/types/Album.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Album.ts#L18)
+[lib/types/Album.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Album.ts#L18)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[lib/types/Album.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Album.ts#L20)
+[lib/types/Album.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Album.ts#L20)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[lib/types/Album.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Album.ts#L17)
+[lib/types/Album.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Album.ts#L17)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[lib/types/Album.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/types/Album.ts#L19)
+[lib/types/Album.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Album.ts#L19)

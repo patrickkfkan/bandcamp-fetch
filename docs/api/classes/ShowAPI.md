@@ -4,9 +4,11 @@
 
 ## Hierarchy
 
-- **`ShowAPI`**
+- [`BaseAPIWithImageSupport`](BaseAPIWithImageSupport.md)
 
-  ↳ [`LimiterShowAPI`](LimiterShowAPI.md)
+  ↳ **`ShowAPI`**
+
+  ↳↳ [`LimiterShowAPI`](LimiterShowAPI.md)
 
 ## Table of contents
 
@@ -14,8 +16,14 @@
 
 - [constructor](ShowAPI.md#constructor)
 
+### Accessors
+
+- [cache](ShowAPI.md#cache)
+- [imageAPI](ShowAPI.md#imageapi)
+
 ### Methods
 
+- [fetch](ShowAPI.md#fetch)
 - [getShow](ShowAPI.md#getshow)
 - [list](ShowAPI.md#list)
 
@@ -23,13 +31,113 @@
 
 ### constructor
 
-• **new ShowAPI**()
+• **new ShowAPI**(`params`)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) |
+
+#### Inherited from
+
+[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[constructor](BaseAPIWithImageSupport.md#constructor)
+
+#### Defined in
+
+[lib/common/BaseAPIWithImageSupport.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L12)
+
+## Accessors
+
+### cache
+
+• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+
+#### Returns
+
+[`Cache`](Cache.md)
+
+#### Inherited from
+
+BaseAPIWithImageSupport.cache
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+
+___
+
+### imageAPI
+
+• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+
+#### Returns
+
+[`ImageAPI`](ImageAPI.md)
+
+#### Inherited from
+
+BaseAPIWithImageSupport.imageAPI
+
+#### Defined in
+
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
+### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``true`` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`any`\>
+
+#### Inherited from
+
+[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+
+▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse?` | `boolean` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Inherited from
+
+[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+
+___
+
 ### getShow
 
-▸ `Static` **getShow**(`params`): `Promise`<[`Show`](../interfaces/Show.md)\>
+▸ **getShow**(`params`): `Promise`<[`Show`](../interfaces/Show.md)\>
 
 #### Parameters
 
@@ -43,13 +151,13 @@
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L23)
+[lib/show/ShowAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/show/ShowAPI.ts#L22)
 
 ___
 
 ### list
 
-▸ `Static` **list**(`params?`): `Promise`<[`Show`](../interfaces/Show.md)[]\>
+▸ **list**(`params?`): `Promise`<[`Show`](../interfaces/Show.md)[]\>
 
 #### Parameters
 
@@ -63,4 +171,4 @@ ___
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/show/ShowAPI.ts#L36)
+[lib/show/ShowAPI.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/show/ShowAPI.ts#L35)

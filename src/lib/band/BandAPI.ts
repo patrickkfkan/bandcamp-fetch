@@ -1,10 +1,9 @@
-import ImageAPI from '../image/ImageAPI';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 import Album from '../types/Album';
 import Artist from '../types/Artist';
 import { ImageFormat } from '../types/Image';
 import Label, { LabelArtist } from '../types/Label';
 import Track from '../types/Track';
-import { fetchPage } from '../utils/Fetch';
 import Limiter from '../utils/Limiter';
 import { normalizeUrl } from '../utils/Parse';
 import BandInfoParser from './BandInfoParser';
@@ -27,40 +26,40 @@ export interface BandAPIGetLabelArtistsParams {
   imageFormat?: string | number | ImageFormat;
 }
 
-export default class BandAPI {
+export default class BandAPI extends BaseAPIWithImageSupport {
 
-  static async getDiscography(params: BandAPIGetDiscographyParams): Promise<Array<Album | Track>> {
-    const imageConstants = await ImageAPI.getConstants();
+  async getDiscography(params: BandAPIGetDiscographyParams): Promise<Array<Album | Track>> {
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
       bandUrl: params.bandUrl,
-      imageFormat: await ImageAPI.getFormat(params.imageFormat, 9)
+      imageFormat: await this.imageAPI.getFormat(params.imageFormat, 9)
     };
-    const html = await fetchPage(normalizeUrl('music', params.bandUrl));
+    const html = await this.fetch(normalizeUrl('music', params.bandUrl));
     return DiscographyParser.parseDiscography(html, opts);
   }
 
-  static async getInfo(params: BandAPIGetInfoParams): Promise<Artist | Label> {
+  async getInfo(params: BandAPIGetInfoParams): Promise<Artist | Label> {
     const opts = {
       bandUrl: params.bandUrl,
-      imageFormat: await ImageAPI.getFormat(params.imageFormat, 21)
+      imageFormat: await this.imageAPI.getFormat(params.imageFormat, 21)
     };
 
-    const url = this.getUrl(params.bandUrl);
-    const html = await fetchPage(url);
+    const url = BandAPI.getUrl(params.bandUrl);
+    const html = await this.fetch(url);
     const result = BandInfoParser.parseInfo(html, opts);
     // Return if result is complete
-    if (this.isInfoComplete(result)) {
+    if (BandAPI.isInfoComplete(result)) {
       return result;
     }
 
     // Info lacking name or label (for artist) - try getting them from music page
-    const musicUrl = this.getUrl(params.bandUrl, 'music');
-    const musicHtml = await fetchPage(musicUrl);
+    const musicUrl = BandAPI.getUrl(params.bandUrl, 'music');
+    const musicHtml = await this.fetch(musicUrl);
     const info = BandInfoParser.parseInfo(musicHtml, opts);
-    this.fillInfo(result, info);
+    BandAPI.fillInfo(result, info);
     // Return if result is complete
-    if (this.isInfoComplete(result)) {
+    if (BandAPI.isInfoComplete(result)) {
       return result;
     }
 
@@ -70,9 +69,9 @@ export default class BandAPI {
     if (discogItems[0]) {
       const url = discogItems[0]?.url;
       if (url) {
-        const html = await fetchPage(url);
+        const html = await this.fetch(url);
         const info = BandInfoParser.parseInfo(html, opts);
-        this.fillInfo(result, info);
+        BandAPI.fillInfo(result, info);
       }
     }
 
@@ -83,13 +82,13 @@ export default class BandAPI {
     return result;
   }
 
-  static async getLabelArtists(params: BandAPIGetLabelArtistsParams): Promise<LabelArtist[]> {
+  async getLabelArtists(params: BandAPIGetLabelArtistsParams): Promise<LabelArtist[]> {
     const opts = {
       labelUrl: params.labelUrl,
-      imageFormat: await ImageAPI.getFormat(params.imageFormat)
+      imageFormat: await this.imageAPI.getFormat(params.imageFormat)
     };
 
-    const html = await fetchPage(normalizeUrl('artists', params.labelUrl));
+    const html = await this.fetch(normalizeUrl('artists', params.labelUrl));
     return LabelArtistsParser.parseLabelArtists(html, opts);
   }
 
@@ -132,15 +131,22 @@ export default class BandAPI {
 
 export class LimiterBandAPI extends BandAPI {
 
-  static async getDiscography(params: BandAPIGetDiscographyParams): Promise<(Album | Track)[]> {
-    return Limiter.schedule(() => super.getDiscography(params));
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async getInfo(params: BandAPIGetInfoParams): Promise<Artist | Label> {
-    return Limiter.schedule(() => super.getInfo(params));
+  async getDiscography(params: BandAPIGetDiscographyParams): Promise<(Album | Track)[]> {
+    return this.#limiter.schedule(() => super.getDiscography(params));
   }
 
-  static async getLabelArtists(params: BandAPIGetLabelArtistsParams): Promise<LabelArtist[]> {
-    return Limiter.schedule(() => super.getLabelArtists(params));
+  async getInfo(params: BandAPIGetInfoParams): Promise<Artist | Label> {
+    return this.#limiter.schedule(() => super.getInfo(params));
+  }
+
+  async getLabelArtists(params: BandAPIGetLabelArtistsParams): Promise<LabelArtist[]> {
+    return this.#limiter.schedule(() => super.getLabelArtists(params));
   }
 }

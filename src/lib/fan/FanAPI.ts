@@ -1,8 +1,7 @@
-import ImageAPI from '../image/ImageAPI';
 import Fan, { FanItemsContinuation } from '../types/Fan';
 import { ImageFormat } from '../types/Image';
 import { URLS } from '../utils/Constants';
-import { FetchError, FetchMethod, fetchPage } from '../utils/Fetch';
+import { FetchError, FetchMethod } from '../utils/Fetcher';
 import { FanContinuationItemsResult, FanItemParseOptions, FanPageItemsResult } from './FanItemsBaseParser';
 import FanCollectionParser from './FanCollectionParser';
 import FanFollowingParser from './FanFollowingParser';
@@ -13,6 +12,7 @@ import Track from '../types/Track';
 import UserKind from '../types/UserKind';
 import Tag from '../types/Tag';
 import Limiter from '../utils/Limiter';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
 
 export { FanPageItemsResult, FanContinuationItemsResult };
 
@@ -36,20 +36,20 @@ export interface FanAPIGetItemsFullParams<T> extends FanAPIGetItemsParams {
   parseContinuationFn: (json: any, continuation: FanItemsContinuation, opts: FanItemParseOptions) => FanContinuationItemsResult<T>;
 }
 
-export default class FanAPI {
+export default class FanAPI extends BaseAPIWithImageSupport {
 
-  static async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
-    const imageConstants = await ImageAPI.getConstants();
-    const fanPageUrl = this.getFanPageUrl(params.username);
+  async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
+    const imageConstants = await this.imageAPI.getConstants();
+    const fanPageUrl = FanAPI.getFanPageUrl(params.username);
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      imageFormat: await ImageAPI.getFormat(params.imageFormat, 20)
+      imageFormat: await this.imageAPI.getFormat(params.imageFormat, 20)
     };
-    const html = await fetchPage(fanPageUrl);
+    const html = await this.fetch(fanPageUrl);
     return FanInfoParser.parseInfo(html, opts);
   }
 
-  static async getCollection(params: FanAPIGetItemsParams) {
+  async getCollection(params: FanAPIGetItemsParams) {
     return await this.getItems({
       ...params,
       defaultImageFormat: 9,
@@ -59,7 +59,7 @@ export default class FanAPI {
     });
   }
 
-  static async getWishlist(params: FanAPIGetItemsParams) {
+  async getWishlist(params: FanAPIGetItemsParams) {
     return await this.getItems({
       ...params,
       defaultImageFormat: 9,
@@ -69,7 +69,7 @@ export default class FanAPI {
     });
   }
 
-  static async getFollowingArtistsAndLabels(params: FanAPIGetItemsParams) {
+  async getFollowingArtistsAndLabels(params: FanAPIGetItemsParams) {
     return await this.getItems({
       ...params,
       defaultImageFormat: 21,
@@ -79,7 +79,7 @@ export default class FanAPI {
     });
   }
 
-  static async getFollowingGenres(params: FanAPIGetItemsParams) {
+  async getFollowingGenres(params: FanAPIGetItemsParams) {
     return await this.getItems({
       ...params,
       defaultImageFormat: 3,
@@ -92,17 +92,17 @@ export default class FanAPI {
   /**
    * @internal
    */
-  protected static async getItems<T>(params: FanAPIGetItemsFullParams<T>): Promise<FanPageItemsResult<T> | FanContinuationItemsResult<T>> {
+  protected async getItems<T>(params: FanAPIGetItemsFullParams<T>): Promise<FanPageItemsResult<T> | FanContinuationItemsResult<T>> {
     const { target, imageFormat, defaultImageFormat, continuationUrl } = params;
-    const imageConstants = await ImageAPI.getConstants();
+    const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      imageFormat: await ImageAPI.getFormat(imageFormat, defaultImageFormat)
+      imageFormat: await this.imageAPI.getFormat(imageFormat, defaultImageFormat)
     };
 
-    if (!this.isContinuation(target)) {
-      const fanPageUrl = this.getFanPageUrl(target as string);
-      const html = await fetchPage(fanPageUrl);
+    if (!FanAPI.isContinuation(target)) {
+      const fanPageUrl = FanAPI.getFanPageUrl(target as string);
+      const html = await this.fetch(fanPageUrl);
       return params.parsePageFn(html, opts);
     }
 
@@ -117,7 +117,7 @@ export default class FanAPI {
       older_than_token: continuation.token,
       count: 20
     };
-    const json = await fetchPage(continuationUrl, true, FetchMethod.POST, payload);
+    const json = await this.fetch(continuationUrl, true, FetchMethod.POST, payload);
     return params.parseContinuationFn(json, continuation, opts);
   }
 
@@ -138,23 +138,30 @@ export default class FanAPI {
 
 export class LimiterFanAPI extends FanAPI {
 
-  static async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
-    return Limiter.schedule(() => super.getInfo(params));
+  #limiter: Limiter;
+
+  constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
+    super(params);
+    this.#limiter = params.limiter;
   }
 
-  static async getCollection(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<NonNullable<Album | Track | null>> | FanContinuationItemsResult<NonNullable<Album | Track | null>>> {
-    return Limiter.schedule(() => super.getCollection(params));
+  async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
+    return this.#limiter.schedule(() => super.getInfo(params));
   }
 
-  static async getWishlist(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<NonNullable<Album | Track | null>> | FanContinuationItemsResult<NonNullable<Album | Track | null>>> {
-    return Limiter.schedule(() => super.getWishlist(params));
+  async getCollection(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<NonNullable<Album | Track | null>> | FanContinuationItemsResult<NonNullable<Album | Track | null>>> {
+    return this.#limiter.schedule(() => super.getCollection(params));
   }
 
-  static async getFollowingArtistsAndLabels(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<UserKind> | FanContinuationItemsResult<UserKind>> {
-    return Limiter.schedule(() => super.getFollowingArtistsAndLabels(params));
+  async getWishlist(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<NonNullable<Album | Track | null>> | FanContinuationItemsResult<NonNullable<Album | Track | null>>> {
+    return this.#limiter.schedule(() => super.getWishlist(params));
   }
 
-  static async getFollowingGenres(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<Tag> | FanContinuationItemsResult<Tag>> {
-    return Limiter.schedule(() => super.getFollowingGenres(params));
+  async getFollowingArtistsAndLabels(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<UserKind> | FanContinuationItemsResult<UserKind>> {
+    return this.#limiter.schedule(() => super.getFollowingArtistsAndLabels(params));
+  }
+
+  async getFollowingGenres(params: FanAPIGetItemsParams): Promise<FanPageItemsResult<Tag> | FanContinuationItemsResult<Tag>> {
+    return this.#limiter.schedule(() => super.getFollowingGenres(params));
   }
 }

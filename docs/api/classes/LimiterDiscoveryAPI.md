@@ -14,9 +14,15 @@
 
 - [constructor](LimiterDiscoveryAPI.md#constructor)
 
+### Accessors
+
+- [cache](LimiterDiscoveryAPI.md#cache)
+- [imageAPI](LimiterDiscoveryAPI.md#imageapi)
+
 ### Methods
 
 - [discover](LimiterDiscoveryAPI.md#discover)
+- [fetch](LimiterDiscoveryAPI.md#fetch)
 - [getAvailableOptions](LimiterDiscoveryAPI.md#getavailableoptions)
 - [sanitizeDiscoverParams](LimiterDiscoveryAPI.md#sanitizediscoverparams)
 
@@ -24,17 +30,63 @@
 
 ### constructor
 
-• **new LimiterDiscoveryAPI**()
+• **new LimiterDiscoveryAPI**(`params`)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & { `limiter`: [`Limiter`](Limiter.md)  } |
+
+#### Overrides
+
+[DiscoveryAPI](DiscoveryAPI.md).[constructor](DiscoveryAPI.md#constructor)
+
+#### Defined in
+
+[lib/discovery/DiscoveryAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L136)
+
+## Accessors
+
+### cache
+
+• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+
+#### Returns
+
+[`Cache`](Cache.md)
 
 #### Inherited from
 
-[DiscoveryAPI](DiscoveryAPI.md).[constructor](DiscoveryAPI.md#constructor)
+DiscoveryAPI.cache
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+
+___
+
+### imageAPI
+
+• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+
+#### Returns
+
+[`ImageAPI`](ImageAPI.md)
+
+#### Inherited from
+
+DiscoveryAPI.imageAPI
+
+#### Defined in
+
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
 ### discover
 
-▸ `Static` **discover**(`params`): `Promise`<[`DiscoverResult`](../interfaces/DiscoverResult.md)\>
+▸ **discover**(`params`): `Promise`<[`DiscoverResult`](../interfaces/DiscoverResult.md)\>
 
 #### Parameters
 
@@ -52,13 +104,63 @@
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:142](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/discovery/DiscoveryAPI.ts#L142)
+[lib/discovery/DiscoveryAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L149)
+
+___
+
+### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``true`` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`any`\>
+
+#### Inherited from
+
+[DiscoveryAPI](DiscoveryAPI.md).[fetch](DiscoveryAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+
+▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse?` | `boolean` |
+| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
+| `payload?` | `Record`<`string`, `any`\> |
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Inherited from
+
+[DiscoveryAPI](DiscoveryAPI.md).[fetch](DiscoveryAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
 
 ___
 
 ### getAvailableOptions
 
-▸ `Static` **getAvailableOptions**(): `Promise`<[`DiscoverOptions`](../interfaces/DiscoverOptions.md)\>
+▸ **getAvailableOptions**(): `Promise`<[`DiscoverOptions`](../interfaces/DiscoverOptions.md)\>
 
 #### Returns
 
@@ -70,13 +172,13 @@ ___
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:134](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/discovery/DiscoveryAPI.ts#L134)
+[lib/discovery/DiscoveryAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L141)
 
 ___
 
 ### sanitizeDiscoverParams
 
-▸ `Static` **sanitizeDiscoverParams**(`params`): `Promise`<[`DiscoverParams`](../interfaces/DiscoverParams.md)\>
+▸ **sanitizeDiscoverParams**(`params`): `Promise`<[`DiscoverParams`](../interfaces/DiscoverParams.md)\>
 
 #### Parameters
 
@@ -94,4 +196,4 @@ ___
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:138](https://github.com/patrickkfkan/bandcamp-fetch/blob/eace49c/src/lib/discovery/DiscoveryAPI.ts#L138)
+[lib/discovery/DiscoveryAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L145)
