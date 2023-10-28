@@ -31,7 +31,7 @@ const results = await bcfetch.discovery.discover(...);
 
 ### User Sessions
 
-When you login to Bandcamp through a desktop browser, the session gets assigned a "Cookie". You can pass the value of this cookie to the library and gain access to your private collection as well as high-quality MP3 streams of purchased media:
+When you sign into Bandcamp, a "Cookie" is created to identify the user session. You can pass the value of this cookie to the library and gain access to your private collection as well as high-quality MP3 streams of purchased media:
 
 ```
 bcfetch.setCookie('xxxx');
@@ -47,7 +47,7 @@ const streamUrl = album.tracks[0].streamUrl;
 const streamUrlHQ = album.tracks[0].streamUrlHQ;
 ```
 
-Follow this guide to obtain the value of `cookie` with a web browser.
+Guide: [How to obtain Cookie](https://github.com/patrickkfkan/bandcamp-fetch/wiki/How-to-obtain-Cookie)
 
 ### `BandcampFetch`
 
