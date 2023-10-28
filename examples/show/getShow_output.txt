@@ -10,7 +10,7 @@
   duration: 5133.84,
   screenImageUrl: 'https://f4.bcbits.com/img/23443998_0',
   streamUrl: {
-    'mp3-128': 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1698497831&t=26001255e7de0fea7c55bff358d8121f0b52f732'
+    'mp3-128': 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1698521427&t=c94ea5afa45688a6144cdb60dfec41f4eceba99a'
   },
   imageUrl: 'https://f4.bcbits.com/img/23443998_25.jpg',
   tracks: [

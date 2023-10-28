@@ -66,34 +66,34 @@ Autocomplete location suggestions: Fin, Limit: 10
 Autocomplete tag suggestions: ambient, Limit: 10
 ------------------------------------------------
 [
-  { type: 'tag', count: 607428, value: 'ambient', name: 'ambient' },
+  { type: 'tag', count: 607466, value: 'ambient', name: 'ambient' },
   {
     type: 'tag',
-    count: 92295,
+    count: 92299,
     value: 'ambient-electronic',
     name: 'ambient electronic'
   },
   {
     type: 'tag',
-    count: 15888,
+    count: 15889,
     value: 'ambient-rock',
     name: 'ambient rock'
   },
   {
     type: 'tag',
-    count: 10116,
+    count: 10117,
     value: 'ambient-techno',
     name: 'ambient techno'
   },
   {
     type: 'tag',
-    count: 6668,
+    count: 6671,
     value: 'ambient-music',
     name: 'ambient music'
   },
   {
     type: 'tag',
-    count: 3731,
+    count: 3739,
     value: 'ambient-drone',
     name: 'ambient drone'
   }

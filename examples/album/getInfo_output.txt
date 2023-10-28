@@ -46,84 +46,84 @@
     {
       name: 'Lève les voiles',
       duration: 72.7333,
-      streamUrl: 'https://t4.bcbits.com/stream/4ec5267c795d34d71d84b8d9e6373477/mp3-128/4183427253?p=0&ts=1698584139&t=b7e971b137f8ac9804a9ecad469cbc990e486570&token=1698584139_c964a20d42886aaa1ec5e23ac0672913e013ab93',
+      streamUrl: 'https://t4.bcbits.com/stream/4ec5267c795d34d71d84b8d9e6373477/mp3-128/4183427253?p=0&ts=1698607730&t=62acc6de1d615b13f9969a4aed20d8ac94bd2215&token=1698607730_34a33f009e6b773818ee6c59be16d2fc67d46e21',
       position: 1,
       url: 'https://musique.coeurdepirate.com/track/l-ve-les-voiles'
     },
     {
       name: 'Adieu',
       duration: 147.627,
-      streamUrl: 'https://t4.bcbits.com/stream/bdf4f2f59952f78effcbbf3ff63300db/mp3-128/3647767496?p=0&ts=1698584139&t=3b69a9ee7212e442e16f50379322a7622ff7b584&token=1698584139_fbd0a34d9740153498e5f386754e269ec5c22b0a',
+      streamUrl: 'https://t4.bcbits.com/stream/bdf4f2f59952f78effcbbf3ff63300db/mp3-128/3647767496?p=0&ts=1698607730&t=d255873d29400cdd2ced8ab4d48b6c5d88fba913&token=1698607730_52c87767131aa491b9e953503f692c7a7929908d',
       position: 2,
       url: 'https://musique.coeurdepirate.com/track/adieu'
     },
     {
       name: 'Danse et danse',
       duration: 190.413,
-      streamUrl: 'https://t4.bcbits.com/stream/8d4d755d9f351caf16529342096c3de6/mp3-128/1276790164?p=0&ts=1698584139&t=5a9b02c4e3fb4ec8f0b2a53dfdd02eb9d0bf49d2&token=1698584139_8200c93534ab56af780bb0606f424f3307366074',
+      streamUrl: 'https://t4.bcbits.com/stream/8d4d755d9f351caf16529342096c3de6/mp3-128/1276790164?p=0&ts=1698607730&t=16d434f9b7382ffa87fc6e10e8e0fce12432a9ae&token=1698607730_8927efd880375555fa4632f5a93bd45ff8629f13',
       position: 3,
       url: 'https://musique.coeurdepirate.com/track/danse-et-danse'
     },
     {
       name: 'Golden Baby',
       duration: 187.027,
-      streamUrl: 'https://t4.bcbits.com/stream/af5533da023515d8c6c28dd834b7872f/mp3-128/365646139?p=0&ts=1698584139&t=c7f1cff19a6e7780f1e3572d717edca97dd2f8a4&token=1698584139_196f4d451527371eed1ca77a92b8cc9a2647a539',
+      streamUrl: 'https://t4.bcbits.com/stream/af5533da023515d8c6c28dd834b7872f/mp3-128/365646139?p=0&ts=1698607730&t=aef4349b3707a462785708a4a179695e25d7b447&token=1698607730_0bbb6ee3c93c35ec7a172cfbfdcc90f193496c8e',
       position: 4,
       url: 'https://musique.coeurdepirate.com/track/golden-baby'
     },
     {
       name: 'Ava',
       duration: 196.88,
-      streamUrl: 'https://t4.bcbits.com/stream/5133f1cab7fa8da200f1392690aca50e/mp3-128/1796143680?p=0&ts=1698584139&t=ef617834b276ad70e3a25b6f08065a25cc840c36&token=1698584139_8fe0b7fc1de314b43eb761fab8a1dcf2d07499f5',
+      streamUrl: 'https://t4.bcbits.com/stream/5133f1cab7fa8da200f1392690aca50e/mp3-128/1796143680?p=0&ts=1698607730&t=8c7efa304c0432a6cd2a608f01221b28e3043b25&token=1698607730_ce9862f513faa7627852b519917618e962978035',
       position: 5,
       url: 'https://musique.coeurdepirate.com/track/ava'
     },
     {
       name: "Loin d'ici",
       duration: 163.827,
-      streamUrl: 'https://t4.bcbits.com/stream/8a3166238fe996999f457459c592f7c7/mp3-128/260996437?p=0&ts=1698584139&t=11b22a96023e5a19d43ba024b1a07d0755600691&token=1698584139_ad473c845c2687807fc3e551688eea45f38674ad',
+      streamUrl: 'https://t4.bcbits.com/stream/8a3166238fe996999f457459c592f7c7/mp3-128/260996437?p=0&ts=1698607730&t=c4999bb8c81c6086dfd801c2685e9995388928a5&token=1698607730_6fd62bc0bf8875924fb080b1d8cd3f620b1f40fb',
       position: 6,
       url: 'https://musique.coeurdepirate.com/track/loin-dici'
     },
     {
       name: 'Les amours dévouées',
       duration: 147.947,
-      streamUrl: 'https://t4.bcbits.com/stream/a62a0cd6f5b871e7559627b34f996552/mp3-128/4086570201?p=0&ts=1698584139&t=2207d2161d0ebf2c70520df69220fa1b9c018c6f&token=1698584139_e1e2417180b2968a181974fdc9251e8335406f5c',
+      streamUrl: 'https://t4.bcbits.com/stream/a62a0cd6f5b871e7559627b34f996552/mp3-128/4086570201?p=0&ts=1698607730&t=9c9d171ccc0419a2aa2ecdbf0d5c73b2c6d95fed&token=1698607730_9886e03d606fe4755c65135bd773e0f5929eec1a',
       position: 7,
       url: 'https://musique.coeurdepirate.com/track/les-amours-d-vou-es'
     },
     {
       name: 'Place de la République',
       duration: 251.227,
-      streamUrl: 'https://t4.bcbits.com/stream/f7f5df6de9007b9415e120d8083cd973/mp3-128/1239774913?p=0&ts=1698584139&t=4ed49ddd1158fbe6a7cb0ba2868aed394a14e434&token=1698584139_998ec84a57380ccbc25cb0cc51940683c8c72ca5',
+      streamUrl: 'https://t4.bcbits.com/stream/f7f5df6de9007b9415e120d8083cd973/mp3-128/1239774913?p=0&ts=1698607730&t=6e50dc2b1e21f9c24f1dbdb7dee160701ac547e5&token=1698607730_a1d0d3d7ec4fcbe3247d151629b04fd62fd6dab3',
       position: 8,
       url: 'https://musique.coeurdepirate.com/track/place-de-la-r-publique'
     },
     {
       name: 'Cap Diamant',
       duration: 163.293,
-      streamUrl: 'https://t4.bcbits.com/stream/732fc4dbcd8ca3cc2cc477d773f99206/mp3-128/3259278294?p=0&ts=1698584139&t=414aa12b767a34fed3813be646813206abb0aa80&token=1698584139_c25caea6f41a387561ee49dd59f6528e21cf8aa0',
+      streamUrl: 'https://t4.bcbits.com/stream/732fc4dbcd8ca3cc2cc477d773f99206/mp3-128/3259278294?p=0&ts=1698607730&t=ec15db65800b9a9ec54bf7aca0d9dd9691acfbd2&token=1698607730_7466d6c31e47ca14aacdd9aa91ad6384e14fe21b',
       position: 9,
       url: 'https://musique.coeurdepirate.com/track/cap-diamant'
     },
     {
       name: 'Verseau',
       duration: 233.813,
-      streamUrl: 'https://t4.bcbits.com/stream/a4e97e8b436b8e2ad1a2c598f5cd0a48/mp3-128/496320675?p=0&ts=1698584139&t=8e304355db0e3d9cae9f2095841b2d1916928497&token=1698584139_cf595d68f39a7b46179b9261577ed942d91098ca',
+      streamUrl: 'https://t4.bcbits.com/stream/a4e97e8b436b8e2ad1a2c598f5cd0a48/mp3-128/496320675?p=0&ts=1698607730&t=806d21db3f3c035fa7a64aa923d036662919db4b&token=1698607730_e9a6ca1a99488a18e8abd282af4ad3a89db67545',
       position: 10,
       url: 'https://musique.coeurdepirate.com/track/verseau'
     },
     {
       name: 'Saint-Laurent',
       duration: 194.787,
-      streamUrl: 'https://t4.bcbits.com/stream/5f87e431eaaf515564c006de4c888e91/mp3-128/2437695881?p=0&ts=1698584139&t=b6553946e15b4677e20e38584c99c9a19fb81172&token=1698584139_21d8326c0269fd08a28ac0472485708cd364737d',
+      streamUrl: 'https://t4.bcbits.com/stream/5f87e431eaaf515564c006de4c888e91/mp3-128/2437695881?p=0&ts=1698607730&t=271fa6f658bc02a119a28af83e60b6ce400bdd99&token=1698607730_cc5d6349c12a4e6adb4c592108bd02d5eb127857',
       position: 11,
       url: 'https://musique.coeurdepirate.com/track/saint-laurent'
     },
     {
       name: 'La petite mort',
       duration: 229.627,
-      streamUrl: 'https://t4.bcbits.com/stream/b257ccb8aca3ea864cbb2774e9d8d2be/mp3-128/525064765?p=0&ts=1698584139&t=2eb935c7594e60d77122f606429bf46027db5e73&token=1698584139_260b605db48a4e8c75d200e08a1a88b120530b1c',
+      streamUrl: 'https://t4.bcbits.com/stream/b257ccb8aca3ea864cbb2774e9d8d2be/mp3-128/525064765?p=0&ts=1698607730&t=9be3fce23cd92a204221e51f2adbbed0bc2a0e1e&token=1698607730_7272382a39c2c8ad36acb636feaf558667837c6e',
       position: 12,
       url: 'https://musique.coeurdepirate.com/track/la-petite-mort'
     }

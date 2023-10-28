@@ -15,7 +15,7 @@
         },
         featuredTrack: {
           name: '💀Necropsychodelia💀',
-          streamUrl: 'https://t4.bcbits.com/stream/63e73a3d56a20265d9b44e80878f7d1b/mp3-128/1039618413?p=0&ts=1698584240&t=9817a7c54276ba999f7b8f92d6477e1e3d7043a6&token=1698584240_69d25274925b53ad3360f1f5397f2bd39c2ed743'
+          streamUrl: 'https://t4.bcbits.com/stream/63e73a3d56a20265d9b44e80878f7d1b/mp3-128/1039618413?p=0&ts=1698607836&t=f05987da7592e59b515cfff6b933bd95eaadd955&token=1698607836_0c17966175cf6d4bba62c1374839eba65a960bf1'
         }
       },
       {
@@ -30,7 +30,7 @@
         },
         featuredTrack: {
           name: 'Blanket',
-          streamUrl: 'https://t4.bcbits.com/stream/da23ee82bbe96882f493d870d5fc4824/mp3-128/888501604?p=0&ts=1698584240&t=58a565a633cca9ec5349e5686b2e85963b2dc624&token=1698584240_9660c82f7198bd82a2b4e5ee51683fd7d48eabde'
+          streamUrl: 'https://t4.bcbits.com/stream/da23ee82bbe96882f493d870d5fc4824/mp3-128/888501604?p=0&ts=1698607836&t=cdb1a41d738ed808f5be9374061416be14f579d2&token=1698607836_18363e01d55dcf04d7861848b0ef467ebc2591be'
         }
       },
       {
@@ -45,7 +45,7 @@
         },
         featuredTrack: {
           name: 'TETCTETHTETCEDECEHCOCHCDHGHDHODGDODGOGOGOG',
-          streamUrl: 'https://t4.bcbits.com/stream/234f3fac123a1514bd53130d716ab1af/mp3-128/3921104152?p=0&ts=1698584240&t=5fb30ab373fb08e455db8cda2b23b65572692f68&token=1698584240_34a127dfc9488661ce72d2130d82db2c1346c67e'
+          streamUrl: 'https://t4.bcbits.com/stream/234f3fac123a1514bd53130d716ab1af/mp3-128/3921104152?p=0&ts=1698607836&t=c2fd544bb0e2277e45e2e3ad3c974353ccf1932e&token=1698607836_f0c8b07975af68bece96ded9142c2cee301013a0'
         }
       },
       {
@@ -60,7 +60,7 @@
         },
         featuredTrack: {
           name: 'Spend The Grace',
-          streamUrl: 'https://t4.bcbits.com/stream/2e4ce020ffc10c4142b63f9a3b14daaa/mp3-128/786907966?p=0&ts=1698584240&t=f23fc82cffba077c1f6e93817ffd59779c384ec3&token=1698584240_043386f3930eec0b7f998faec993b69bb5953c55'
+          streamUrl: 'https://t4.bcbits.com/stream/2e4ce020ffc10c4142b63f9a3b14daaa/mp3-128/786907966?p=0&ts=1698607836&t=a03cea9859a1573fcd9e2777aa2db9f72d20c05b&token=1698607836_77ba47f634d0dd5687891f9df9845fb0f0343d1e'
         }
       },
       {
@@ -72,7 +72,19 @@
         artist: { name: 'greenhouse', url: 'https://halleylabs.com' },
         featuredTrack: {
           name: 'eko',
-          streamUrl: 'https://t4.bcbits.com/stream/9a4f97d8b7d32b4fcc0b35135a2c8a86/mp3-128/942461323?p=0&ts=1698584240&t=8a20f30759f5809315d94ab861b264253fc1bc01&token=1698584240_2d00aea2bdb07588f710f2098ac05ed14bcc1316'
+          streamUrl: 'https://t4.bcbits.com/stream/9a4f97d8b7d32b4fcc0b35135a2c8a86/mp3-128/942461323?p=0&ts=1698607836&t=fa5ad28d0f6aa3771b6aee9745c99090c4aa4a55&token=1698607836_9917b872935da9d1392a66d3da44b45f899353f1'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Finite Methodologies For Denouement I',
+        url: 'https://kontakte.bandcamp.com/album/finite-methodologies-for-denouement-i',
+        imageUrl: 'https://f4.bcbits.com/img/a4259856414_16.jpg',
+        genre: 'alternative',
+        artist: { name: 'KONTAKTE', url: 'https://kontakte.bandcamp.com' },
+        featuredTrack: {
+          name: 'Method I: static_compliance',
+          streamUrl: 'https://t4.bcbits.com/stream/04079d7e9ecfcb285fd31d0843db05b6/mp3-128/1224633030?p=0&ts=1698607836&t=fd38b10cb3e527a50c3d5f632b116120e8669313&token=1698607836_801806fa967fc7c4012c8610d0661ae2f02eef36'
         }
       },
       {
@@ -87,22 +99,7 @@
         },
         featuredTrack: {
           name: 'Distilled In Observance',
-          streamUrl: 'https://t4.bcbits.com/stream/0e1d231e46fbeb813fb84f00a35c0ce0/mp3-128/2771014839?p=0&ts=1698584240&t=4874bc1218c3a1601b27e25ecd34b5daa41bd872&token=1698584240_18014622702c40662b24bcdcd433f47a5c641d87'
-        }
-      },
-      {
-        type: 'album',
-        name: 'IT IT ANITA - Mouche - Extremely Limited Edition #39',
-        url: 'https://idealcrash.bandcamp.com/album/it-it-anita-mouche-extremely-limited-edition-39',
-        imageUrl: 'https://f4.bcbits.com/img/a1177619836_16.jpg',
-        genre: 'rock',
-        artist: {
-          name: 'Ideal Crash Label',
-          url: 'https://idealcrash.bandcamp.com'
-        },
-        featuredTrack: {
-          name: 'A1. Crippling guilt',
-          streamUrl: 'https://t4.bcbits.com/stream/21bcba587a632e1965e5037e5ea36b0c/mp3-128/4149396913?p=0&ts=1698584240&t=69f8b5f2d760db41ff6ed9149476cce478b372f8&token=1698584240_ec9ba15ee1fd96c2bb7952e0447a41cd17bdb6dd'
+          streamUrl: 'https://t4.bcbits.com/stream/0e1d231e46fbeb813fb84f00a35c0ce0/mp3-128/2771014839?p=0&ts=1698607836&t=3627b73c7c8e6da42625be03bb91a55ae598ecb9&token=1698607836_58d50ab2690dda08fbe587393739bf8c775a57d8'
         }
       },
       {
@@ -117,7 +114,34 @@
         },
         featuredTrack: {
           name: 'intro',
-          streamUrl: 'https://t4.bcbits.com/stream/9239ce91284dbba5d78e9e136eb08220/mp3-128/514603501?p=0&ts=1698584240&t=fdb9dff23b0ecc124a5c5054031a4145eda3aea1&token=1698584240_7863815a4ecff2bc424267645c042b3379f7390a'
+          streamUrl: 'https://t4.bcbits.com/stream/9239ce91284dbba5d78e9e136eb08220/mp3-128/514603501?p=0&ts=1698607836&t=03c9a20bff3d4a65fc790aacd1dae41e6a1db895&token=1698607836_bf710e03ee9aac36d7288b3407760009ee385390'
+        }
+      },
+      {
+        type: 'album',
+        name: 'IT IT ANITA - Mouche - Extremely Limited Edition #39',
+        url: 'https://idealcrash.bandcamp.com/album/it-it-anita-mouche-extremely-limited-edition-39',
+        imageUrl: 'https://f4.bcbits.com/img/a1177619836_16.jpg',
+        genre: 'rock',
+        artist: {
+          name: 'Ideal Crash Label',
+          url: 'https://idealcrash.bandcamp.com'
+        },
+        featuredTrack: {
+          name: 'A1. Crippling guilt',
+          streamUrl: 'https://t4.bcbits.com/stream/21bcba587a632e1965e5037e5ea36b0c/mp3-128/4149396913?p=0&ts=1698607836&t=2b09dd02c43d63847b7c13516afcc8b6efad30c3&token=1698607836_0a197344822b1bec692fd49240e633d56ca75dd0'
+        }
+      },
+      {
+        type: 'album',
+        name: 'IMPROVISED CURSES',
+        url: 'https://blackpus.bandcamp.com/album/improvised-curses',
+        imageUrl: 'https://f4.bcbits.com/img/a1966195747_16.jpg',
+        genre: 'rock',
+        artist: { name: 'Black Pus', url: 'https://blackpus.bandcamp.com' },
+        featuredTrack: {
+          name: 'JAZZHOUSE',
+          streamUrl: 'https://t4.bcbits.com/stream/703f5dff1d67603f2862dd8167c7006a/mp3-128/976793729?p=0&ts=1698607836&t=587d8d59c11e8b228a6fc067fe51f27bbb55269c&token=1698607836_17c0674d323017a700a5decec16814f94bc1626d'
         }
       },
       {
@@ -129,19 +153,7 @@
         artist: { name: 'Dreeks', url: 'https://dreeksmusic.bandcamp.com' },
         featuredTrack: {
           name: 'Lilac',
-          streamUrl: 'https://t4.bcbits.com/stream/4f5b2f589c696cebdf2e0061e72edd85/mp3-128/1092765344?p=0&ts=1698584240&t=10aa618134a857181f70a96b36c31c68f4c8703c&token=1698584240_15766bffd817c3781ffd44ca6cd0d0c138f2ba7e'
-        }
-      },
-      {
-        type: 'album',
-        name: 'Vint',
-        url: 'https://leaf-miner.bandcamp.com/album/vint',
-        imageUrl: 'https://f4.bcbits.com/img/a2577474344_16.jpg',
-        genre: 'experimental',
-        artist: { name: 'Leaf Miner', url: 'https://leaf-miner.bandcamp.com' },
-        featuredTrack: {
-          name: 'Detirus',
-          streamUrl: 'https://t4.bcbits.com/stream/d0c7c0ca68b47fefd9e2fe01dc4d7228/mp3-128/3367915046?p=0&ts=1698584240&t=115a3fc59a57120c11a08131e35172571f0a7d89&token=1698584240_bc215d85f2753e9c2b406f15c9dc439629dd6686'
+          streamUrl: 'https://t4.bcbits.com/stream/4f5b2f589c696cebdf2e0061e72edd85/mp3-128/1092765344?p=0&ts=1698607836&t=ecdfc24be41e0448dacf1372c34211d1da257a09&token=1698607836_05a4f9813842ce455d5c961692ed7225640f9761'
         }
       },
       {
@@ -156,19 +168,19 @@
         },
         featuredTrack: {
           name: 'Venus',
-          streamUrl: 'https://t4.bcbits.com/stream/8d03e8248ff58c5ec135768bd4d1ea62/mp3-128/675313950?p=0&ts=1698584240&t=eb455b4f9a67442ea65c0a38847d0e9b5240303d&token=1698584240_26a83afe1d58fbdce09981f70bdfe560d0507c7e'
+          streamUrl: 'https://t4.bcbits.com/stream/8d03e8248ff58c5ec135768bd4d1ea62/mp3-128/675313950?p=0&ts=1698607836&t=f3247081680084cafecc29b438d675618793a590&token=1698607836_115fd5b77017d0b3139ddf4378234c8d313a66e0'
         }
       },
       {
         type: 'album',
-        name: 'IMPROVISED CURSES',
-        url: 'https://blackpus.bandcamp.com/album/improvised-curses',
-        imageUrl: 'https://f4.bcbits.com/img/a1966195747_16.jpg',
-        genre: 'rock',
-        artist: { name: 'Black Pus', url: 'https://blackpus.bandcamp.com' },
+        name: 'Thalassophile',
+        url: 'https://coldspring.bandcamp.com/album/thalassophile',
+        imageUrl: 'https://f4.bcbits.com/img/a3483985369_16.jpg',
+        genre: '',
+        artist: { name: 'Colossloth', url: 'https://coldspring.bandcamp.com' },
         featuredTrack: {
-          name: 'JAZZHOUSE',
-          streamUrl: 'https://t4.bcbits.com/stream/703f5dff1d67603f2862dd8167c7006a/mp3-128/976793729?p=0&ts=1698584240&t=2ddd08f99bbe8326305532ff3608e02c763e7185&token=1698584240_4e2284f805211b7552b149dd2f22176c1df61604'
+          name: 'Thalassophile',
+          streamUrl: 'https://t4.bcbits.com/stream/eb045a50166b7a73d1096e9c19a0de4d/mp3-128/141594789?p=0&ts=1698607836&t=ea77c3e45d96831d6daacabd82eab1dac296cea1&token=1698607836_0c189af514c8d3b9802b59b86d8743e81b8cb1dc'
         }
       },
       {
@@ -180,7 +192,7 @@
         artist: { name: 'Stclvr', url: 'https://phagetapes.bandcamp.com' },
         featuredTrack: {
           name: 'Curbstomp Pickup',
-          streamUrl: 'https://t4.bcbits.com/stream/446744b156d193cb698a0ac76192e012/mp3-128/1607474457?p=0&ts=1698584240&t=f5d4601490406ac9532614abbb4b946cc56ca9fb&token=1698584240_2711d1e9f0489043c997d9326a3999ef5f325407'
+          streamUrl: 'https://t4.bcbits.com/stream/446744b156d193cb698a0ac76192e012/mp3-128/1607474457?p=0&ts=1698607836&t=4474d7f3b20f53de29d19d40b48a2e7dd72806e6&token=1698607836_f87e6c3388248e0188e3e40b64a947d3feb2afef'
         }
       },
       {
@@ -195,19 +207,7 @@
         },
         featuredTrack: {
           name: 'Offliosis',
-          streamUrl: 'https://t4.bcbits.com/stream/2e6ca1965aac4f2a3949a10b82f80d24/mp3-128/4267298413?p=0&ts=1698584240&t=28257add4f28f125f05c91fb76a157aeb5f4d3a0&token=1698584240_c4493f4ce35aa547ca1e68ac844b064c0b7fc326'
-        }
-      },
-      {
-        type: 'album',
-        name: 'Thalassophile',
-        url: 'https://coldspring.bandcamp.com/album/thalassophile',
-        imageUrl: 'https://f4.bcbits.com/img/a3483985369_16.jpg',
-        genre: '',
-        artist: { name: 'Colossloth', url: 'https://coldspring.bandcamp.com' },
-        featuredTrack: {
-          name: 'Thalassophile',
-          streamUrl: 'https://t4.bcbits.com/stream/eb045a50166b7a73d1096e9c19a0de4d/mp3-128/141594789?p=0&ts=1698584240&t=78ed93aacd162abaae3164e6e2fa7bc698686d81&token=1698584240_b1cde7f308cc558ac8623b9d8fefbec38101922f'
+          streamUrl: 'https://t4.bcbits.com/stream/2e6ca1965aac4f2a3949a10b82f80d24/mp3-128/4267298413?p=0&ts=1698607836&t=bd9bad0eff5f44d529ca05f1ac29a8082c0e3f04&token=1698607836_1a9b206450290303cc282e5872e39bc833842375'
         }
       }
     ]
@@ -225,7 +225,7 @@
         artist: { name: 'Stclvr', url: 'https://phagetapes.bandcamp.com' },
         featuredTrack: {
           name: 'Curbstomp Pickup',
-          streamUrl: 'https://t4.bcbits.com/stream/446744b156d193cb698a0ac76192e012/mp3-128/1607474457?p=0&ts=1698584240&t=f5d4601490406ac9532614abbb4b946cc56ca9fb&token=1698584240_2711d1e9f0489043c997d9326a3999ef5f325407'
+          streamUrl: 'https://t4.bcbits.com/stream/446744b156d193cb698a0ac76192e012/mp3-128/1607474457?p=0&ts=1698607836&t=4474d7f3b20f53de29d19d40b48a2e7dd72806e6&token=1698607836_f87e6c3388248e0188e3e40b64a947d3feb2afef'
         }
       },
       {
@@ -240,7 +240,7 @@
         },
         featuredTrack: {
           name: 'Scalpel Life',
-          streamUrl: 'https://t4.bcbits.com/stream/cd38b6b28c5ac033f506bfa478a3c066/mp3-128/267858804?p=0&ts=1698584240&t=722da7043b730133933bd9e90e63ce323e9d1972&token=1698584240_7b2f2e1f89ec68bf872c4c04f2526282079f29ba'
+          streamUrl: 'https://t4.bcbits.com/stream/cd38b6b28c5ac033f506bfa478a3c066/mp3-128/267858804?p=0&ts=1698607836&t=9d7ec7ce12e240e78953dc67ac217ce059995cd0&token=1698607836_707f12aff286263947f563cad5ee11944245b962'
         }
       },
       {
@@ -255,7 +255,7 @@
         },
         featuredTrack: {
           name: 'Vapours',
-          streamUrl: 'https://t4.bcbits.com/stream/b4a1a0930e704e37d72d9c5d5fdde6bc/mp3-128/2940460045?p=0&ts=1698584240&t=87ea3367262941a267da9dddbb71a0cb9b019b8d&token=1698584240_b043c597c539ff93d1e1efd3e4e481fb139f939c'
+          streamUrl: 'https://t4.bcbits.com/stream/b4a1a0930e704e37d72d9c5d5fdde6bc/mp3-128/2940460045?p=0&ts=1698607836&t=90d1536030c57282c18f732fbd9b5ebb25ba6c26&token=1698607836_df49c62d88b48d06a92017f6d82a4eff483531d0'
         }
       },
       {
@@ -270,7 +270,7 @@
         },
         featuredTrack: {
           name: 'AMEN',
-          streamUrl: 'https://t4.bcbits.com/stream/b2aec6ced4bdfef06221f80c8ad432c0/mp3-128/1008500401?p=0&ts=1698584240&t=c63f3cf7b821dd067c67243a7f693d2609a98569&token=1698584240_0963b61da5445f55f94b6b51044fe07c15465bfc'
+          streamUrl: 'https://t4.bcbits.com/stream/b2aec6ced4bdfef06221f80c8ad432c0/mp3-128/1008500401?p=0&ts=1698607836&t=d42d52aa7fa1827eebd68329ea7c41446da6dabe&token=1698607836_2b6485a59f26613fd6defeaf8f5e709308550a7d'
         }
       },
       {
@@ -285,7 +285,7 @@
         },
         featuredTrack: {
           name: 'Powers',
-          streamUrl: 'https://t4.bcbits.com/stream/5de67a085e12a16219d25194fa475f55/mp3-128/1237713019?p=0&ts=1698584240&t=5c664199c2d4ba44641e6b2cc8630ecad7353b1f&token=1698584240_5759a93d5d94f23e6b25a8fb04614d9e583b8e27'
+          streamUrl: 'https://t4.bcbits.com/stream/5de67a085e12a16219d25194fa475f55/mp3-128/1237713019?p=0&ts=1698607836&t=f911fc88bf2c8ba207c4c06307e9642a63b27645&token=1698607836_69eca7b26b0af48189dcf6047327d0e81cf93253'
         }
       },
       {
@@ -297,7 +297,7 @@
         artist: { name: 'acetate zero', url: 'https://astatine.bandcamp.com' },
         featuredTrack: {
           name: 'Breaking wave',
-          streamUrl: 'https://t4.bcbits.com/stream/7193d704bacfb42e5c820600b32734b2/mp3-128/864213628?p=0&ts=1698584240&t=8ec7517fefd86a26f476c94381548a7dc57a1ab6&token=1698584240_0e614d44123657e3870591caad00cd84542c98d2'
+          streamUrl: 'https://t4.bcbits.com/stream/7193d704bacfb42e5c820600b32734b2/mp3-128/864213628?p=0&ts=1698607836&t=16aba9219743cd44ce9c89deb31d887bbc8bdd05&token=1698607836_dc20bdddc34dc73e837199266485b88f3f33688c'
         }
       },
       {
@@ -309,7 +309,7 @@
         artist: { name: 'IRM', url: 'https://phagetapes.bandcamp.com' },
         featuredTrack: {
           name: 'Introduction',
-          streamUrl: 'https://t4.bcbits.com/stream/3fab94754024fa2e75fe99d6069cbf86/mp3-128/4054517640?p=0&ts=1698584240&t=9b9f864af3737e4ec561641fc1267b429855cfc7&token=1698584240_1899aab7859cbb3d2225a330a86f20a2f0cf10b2'
+          streamUrl: 'https://t4.bcbits.com/stream/3fab94754024fa2e75fe99d6069cbf86/mp3-128/4054517640?p=0&ts=1698607836&t=de9158c343dc8ceae2e143f0d352749a5e636e21&token=1698607836_1d40bded0e788e51a5698c4854ca3539ab201edb'
         }
       },
       {
@@ -324,7 +324,7 @@
         },
         featuredTrack: {
           name: 'Poles Apart I',
-          streamUrl: 'https://t4.bcbits.com/stream/4e4e9f7c87900863e00d9188d3722bfe/mp3-128/280633830?p=0&ts=1698584240&t=8a39176fd5440e920846fdf0d87878025620bf1b&token=1698584240_5180dca925563d9311aee8e62121f82a45c68630'
+          streamUrl: 'https://t4.bcbits.com/stream/4e4e9f7c87900863e00d9188d3722bfe/mp3-128/280633830?p=0&ts=1698607836&t=a62898e3f534b3a31d6ebf2dfc407e3ffe4e42c6&token=1698607836_13ae550239323bcef823aaf7e5a2874347255695'
         }
       },
       {
@@ -336,7 +336,7 @@
         artist: { name: 'Lila Ehja', url: 'https://crouxrecords.bandcamp.com' },
         featuredTrack: {
           name: 'Ghost Love',
-          streamUrl: 'https://t4.bcbits.com/stream/2e574c08c5fcde3b1960dbd3546cf675/mp3-128/272609713?p=0&ts=1698584240&t=2332b145988b6aa8492cdd47ba6e59eeae8a9b71&token=1698584240_6f0bcd70f99852d82f07e57e228fb05eed0c8c46'
+          streamUrl: 'https://t4.bcbits.com/stream/2e574c08c5fcde3b1960dbd3546cf675/mp3-128/272609713?p=0&ts=1698607836&t=55cb88c89b91a7508cee26f5468e14114d007df8&token=1698607836_2e68fbecce7e261322cd6dadc363958fade1809f'
         }
       },
       {
@@ -351,7 +351,7 @@
         },
         featuredTrack: {
           name: 'Volt',
-          streamUrl: 'https://t4.bcbits.com/stream/9d95f1245e22f97f1bd63ea61b00cc2f/mp3-128/3380409145?p=0&ts=1698584240&t=b936662a0d1a833b4d2f3abd45901feec9957f19&token=1698584240_e103a6326c746a7f45acc674ab3d9611edf0a471'
+          streamUrl: 'https://t4.bcbits.com/stream/9d95f1245e22f97f1bd63ea61b00cc2f/mp3-128/3380409145?p=0&ts=1698607836&t=f4d29f287af44ec1fbb2a2443158b6c93ad64676&token=1698607836_29bdfacc9e10ae4aac275e395f8feeac9dcb93d2'
         }
       },
       {
@@ -366,7 +366,7 @@
         },
         featuredTrack: {
           name: 'Deux cents yeux dans la tête',
-          streamUrl: 'https://t4.bcbits.com/stream/ea4e202b20d0fcdf06c76ee08bfeb298/mp3-128/3994212607?p=0&ts=1698584240&t=186a390facee8cabec5efb5120a84ec50fd4c450&token=1698584240_4c33061708414fdd0e73aa946fa8c85bf99265f0'
+          streamUrl: 'https://t4.bcbits.com/stream/ea4e202b20d0fcdf06c76ee08bfeb298/mp3-128/3994212607?p=0&ts=1698607836&t=906cd1bf20ae36c635fca994b8eb6d5b7d25bfc4&token=1698607836_1062ca985ea4eca7f5fe454fe6665a643c5ba5af'
         }
       },
       {
@@ -378,7 +378,7 @@
         artist: { name: 'Old Captain', url: 'https://oldcaptain.bandcamp.com' },
         featuredTrack: {
           name: 'Eskilstunan Juopot Esittää',
-          streamUrl: 'https://t4.bcbits.com/stream/b61727251fa4225b268cd68fb9ff14e2/mp3-128/3773988799?p=0&ts=1698584240&t=79d579b5d01a699d5d526f85ecbdc247e27b2922&token=1698584240_5936d6b22a243da8773f74c170144a6b9e321dc9'
+          streamUrl: 'https://t4.bcbits.com/stream/b61727251fa4225b268cd68fb9ff14e2/mp3-128/3773988799?p=0&ts=1698607836&t=a094d5c6961dc9f264274cbfcb3d08943af4b123&token=1698607836_fc50ea687815c68169fc42913b6d2573416c51bd'
         }
       },
       {
@@ -390,7 +390,7 @@
         artist: { name: 'Anti Itch Cream', url: 'https://fzak.bandcamp.com' },
         featuredTrack: {
           name: 'Arpeggio And A Space A Lien',
-          streamUrl: 'https://t4.bcbits.com/stream/4cefd1d640fbd188185ff3085966fb7d/mp3-128/3244186814?p=0&ts=1698584240&t=04292e56d59694ed19e7b95d1d4e1909dc4bad43&token=1698584240_192750a250a9c5f114427998f16e8cc17c7904d4'
+          streamUrl: 'https://t4.bcbits.com/stream/4cefd1d640fbd188185ff3085966fb7d/mp3-128/3244186814?p=0&ts=1698607836&t=f08ede3f7738f3e612e431ea214154d7dc8317a0&token=1698607836_a49e325abd51c3666c7e2e761545afd93846a582'
         }
       },
       {
@@ -402,7 +402,7 @@
         artist: { name: 'Josef Gaard', url: 'https://josefgaard.bandcamp.com' },
         featuredTrack: {
           name: 'Devojian Triad',
-          streamUrl: 'https://t4.bcbits.com/stream/fa24be1785bff4f6d0f528b4e99ef74c/mp3-128/2199792495?p=0&ts=1698584240&t=f934d084eadbb202769178d0e52f24276c5bcc6c&token=1698584240_85cffd029648f612f74bccf95123cbf04bc5132a'
+          streamUrl: 'https://t4.bcbits.com/stream/fa24be1785bff4f6d0f528b4e99ef74c/mp3-128/2199792495?p=0&ts=1698607836&t=5b5446749eae3953eca48877d9c466b75ab04cf1&token=1698607836_0943411ac27357c8f15d76486ff0d6601d8f7155'
         }
       },
       {
@@ -417,7 +417,7 @@
         },
         featuredTrack: {
           name: 'I',
-          streamUrl: 'https://t4.bcbits.com/stream/f802a2320a141202f93ca1fd9369be9d/mp3-128/2569631601?p=0&ts=1698584240&t=2fd0f3da9f508868d8e6f88f2859587fb63b8d07&token=1698584240_651d40d034e79a9586300a04e4439bc6c93144e8'
+          streamUrl: 'https://t4.bcbits.com/stream/f802a2320a141202f93ca1fd9369be9d/mp3-128/2569631601?p=0&ts=1698607836&t=37b88535c647721b421cd0ac49788c6da9c26df6&token=1698607836_090b4a3e4ffa84745ddb9009a1d021959a7b2097'
         }
       }
     ]
@@ -438,7 +438,7 @@
         },
         featuredTrack: {
           name: 'Sound Compilation Sounds Of France',
-          streamUrl: 'https://t4.bcbits.com/stream/c6ea66c07c69bff1b0aa0a8b92439ec4/mp3-128/2634037464?p=0&ts=1698584240&t=af7e149ac9bbffd6feb379c35168118b5fbed421&token=1698584240_f5a8f701c860060a2bceff64cb0a76a57244f615'
+          streamUrl: 'https://t4.bcbits.com/stream/c6ea66c07c69bff1b0aa0a8b92439ec4/mp3-128/2634037464?p=0&ts=1698607836&t=7ed446343ca4a78b66673c22e8ed96bd13b5e486&token=1698607836_cd8a7d8b12d5a7eeb319bcbff05bfb12bc94c6c2'
         }
       },
       {
@@ -453,19 +453,7 @@
         },
         featuredTrack: {
           name: 'Die Toteninsel (Emptiness)',
-          streamUrl: 'https://t4.bcbits.com/stream/b162b3188ab9b5dc48704b0515895062/mp3-128/3392523895?p=0&ts=1698584240&t=d85b46aa2f56f5c9746cf62f999abd7a616a8de8&token=1698584240_d00a48b365067568bc33d986bab20a80ff9c05f3'
-        }
-      },
-      {
-        type: 'album',
-        name: 'Machine III',
-        url: 'https://thebugmusic.bandcamp.com/album/machine-iii',
-        imageUrl: 'https://f4.bcbits.com/img/a3523185786_16.jpg',
-        genre: 'experimental',
-        artist: { name: 'The Bug', url: 'https://thebugmusic.bandcamp.com' },
-        featuredTrack: {
-          name: 'Floored(Point of impact)',
-          streamUrl: 'https://t4.bcbits.com/stream/bd60635310ffb71b8f8555b9f8a83c65/mp3-128/150790006?p=0&ts=1698584240&t=f75044f800e12baf35a1e17340c24f3b638b42e8&token=1698584240_78ac8ce0db9f9d09faf973f568a4737fb0eff617'
+          streamUrl: 'https://t4.bcbits.com/stream/b162b3188ab9b5dc48704b0515895062/mp3-128/3392523895?p=0&ts=1698607836&t=e39403034a859a4060dd7deec28324028a7b8fec&token=1698607836_f2579e27362882a0e608a68bb25c5675fc204126'
         }
       },
       {
@@ -477,7 +465,19 @@
         artist: { name: 'Jute Gyte', url: 'https://jutegyte.bandcamp.com' },
         featuredTrack: {
           name: 'Disinterment of Sfanomoë',
-          streamUrl: 'https://t4.bcbits.com/stream/f4e818d0d46982dfc0997f271a6acc08/mp3-128/2324156117?p=0&ts=1698584240&t=2075c56906f8df42bfec2d99b062d5378f035cc7&token=1698584240_ca23d2b5f5017897129af5457924ba57cd5b8ded'
+          streamUrl: 'https://t4.bcbits.com/stream/f4e818d0d46982dfc0997f271a6acc08/mp3-128/2324156117?p=0&ts=1698607836&t=b3bda82b93341236a2905a81154890eab183aec0&token=1698607836_32b1af3412821affd85dbd9ff0b18b88dd02334b'
+        }
+      },
+      {
+        type: 'album',
+        name: 'Machine III',
+        url: 'https://thebugmusic.bandcamp.com/album/machine-iii',
+        imageUrl: 'https://f4.bcbits.com/img/a3523185786_16.jpg',
+        genre: 'experimental',
+        artist: { name: 'The Bug', url: 'https://thebugmusic.bandcamp.com' },
+        featuredTrack: {
+          name: 'Floored(Point of impact)',
+          streamUrl: 'https://t4.bcbits.com/stream/bd60635310ffb71b8f8555b9f8a83c65/mp3-128/150790006?p=0&ts=1698607836&t=278775d1650f0bfce81b6dbcd707a08b71f02337&token=1698607836_5db9e36a83ddf3f109ad3f4b4d8381b74e0b5cb9'
         }
       },
       {
@@ -492,7 +492,7 @@
         },
         featuredTrack: {
           name: 'BEAUTIFUL FRIENDSHIP',
-          streamUrl: 'https://t4.bcbits.com/stream/8d5064f6c97778093c531428ca3efa06/mp3-128/1285558574?p=0&ts=1698584240&t=e95075fc2a11d58dae38689a8f5a16a34c5a71cb&token=1698584240_b976fa68fd2cbe65d1e21634536cd8de5af71115'
+          streamUrl: 'https://t4.bcbits.com/stream/8d5064f6c97778093c531428ca3efa06/mp3-128/1285558574?p=0&ts=1698607836&t=ee50005eef7d3dc4d891d6719c5f21b7a987869b&token=1698607836_ae780aa2e4ecca0b4322a80e4b891509b627f26e'
         }
       },
       {
@@ -504,7 +504,7 @@
         artist: { name: '☒', url: 'https://music.businesscasual.biz' },
         featuredTrack: {
           name: 'Moon Way (feat. Chemical Hypnotist)',
-          streamUrl: 'https://t4.bcbits.com/stream/f796fd140e5e99346511e207225800f3/mp3-128/2165960685?p=0&ts=1698584240&t=dbe53d4fbc5675c883559058c4f95f2409e7e65f&token=1698584240_6a44b76918599ba686c592131304e190d20c8240'
+          streamUrl: 'https://t4.bcbits.com/stream/f796fd140e5e99346511e207225800f3/mp3-128/2165960685?p=0&ts=1698607836&t=777e4b425838d12358c235e8a23ff7bc40c32bb3&token=1698607836_ad16468874348ce75d8dd6c6cd456af7523c3dc1'
         }
       },
       {
@@ -516,7 +516,7 @@
         artist: { name: 'Weyes Blood', url: 'https://weyesblood.bandcamp.com' },
         featuredTrack: {
           name: "It's Not Just Me, It's Everybody",
-          streamUrl: 'https://t4.bcbits.com/stream/2f04b711fe9c4a1052a6b54588510681/mp3-128/1086774697?p=0&ts=1698584240&t=4713136101f3c3fc534f8c97b35b973acbd79ae3&token=1698584240_3619b6b5e301d8a9df7925557bf95dbc5bc326b3'
+          streamUrl: 'https://t4.bcbits.com/stream/2f04b711fe9c4a1052a6b54588510681/mp3-128/1086774697?p=0&ts=1698607836&t=93146c23d4310a6441a660c3ca3b980b052bad1f&token=1698607836_57143c8a865e574ee505f0d041ca44c8ea77a139'
         }
       },
       {
@@ -531,7 +531,7 @@
         },
         featuredTrack: {
           name: 'Summer Comes to Multiply',
-          streamUrl: 'https://t4.bcbits.com/stream/69a034ef32a29a14a207b029828642c8/mp3-128/2695195322?p=0&ts=1698584240&t=43ac3328f5bbd8adab9e18b3febf98b0e84f55b8&token=1698584240_faabe75daeb13f41d737b36849fabd8a0ade4dec'
+          streamUrl: 'https://t4.bcbits.com/stream/69a034ef32a29a14a207b029828642c8/mp3-128/2695195322?p=0&ts=1698607836&t=f0f6a392513ab6ed1f3ffa36f3c517cb7fe4da94&token=1698607836_9c70830853aae3013206cc82986be427d951617d'
         }
       },
       {
@@ -543,7 +543,7 @@
         artist: { name: 'Boris', url: 'https://boris.bandcamp.com' },
         featuredTrack: {
           name: '序章　三叉路',
-          streamUrl: 'https://t4.bcbits.com/stream/e514de403deeb9a8d3fc7c35a6eb8585/mp3-128/1793702739?p=0&ts=1698584240&t=695532c988cec0ae1020f20dc4b99517fd231c3d&token=1698584240_c18b52104691024be0d1ca2bb4608093129cdd41'
+          streamUrl: 'https://t4.bcbits.com/stream/e514de403deeb9a8d3fc7c35a6eb8585/mp3-128/1793702739?p=0&ts=1698607836&t=eff0650cfa9fa4b5f8e7ba7c2f42d9575e53111e&token=1698607836_b40184fa39a7e4623c3fe889b11947fd90ee6583'
         }
       },
       {
@@ -558,7 +558,7 @@
         },
         featuredTrack: {
           name: 'Crossing Guard',
-          streamUrl: 'https://t4.bcbits.com/stream/7ebb0626b3b039f570dc4cbd4062771b/mp3-128/409743092?p=0&ts=1698584240&t=fd061bfecd27a5258e43ee936ca8bc14738db04c&token=1698584240_c8df0cb88e4f72c6d1dbcc2daa3e2d2589e22aa4'
+          streamUrl: 'https://t4.bcbits.com/stream/7ebb0626b3b039f570dc4cbd4062771b/mp3-128/409743092?p=0&ts=1698607836&t=14f7e2ffb0494a0035d1bede1dac9b4fbf087e72&token=1698607836_57240bb7e4f7b9996e1b07ac7c822dbd749fbbf7'
         }
       },
       {
@@ -573,7 +573,7 @@
         },
         featuredTrack: {
           name: 'A Ladder Made of Warped Light',
-          streamUrl: 'https://t4.bcbits.com/stream/ac4d9c8587bc69542d9e61785136b7b6/mp3-128/1171469145?p=0&ts=1698584240&t=ede47004857de52d78ae926e63f9847eac234a16&token=1698584240_ab500194fe9fe5a3b4df30afa11165d8250b6ffc'
+          streamUrl: 'https://t4.bcbits.com/stream/ac4d9c8587bc69542d9e61785136b7b6/mp3-128/1171469145?p=0&ts=1698607836&t=2a3cb10686e1d54e72d21fc01714e4ddc5d3aad4&token=1698607836_731766b9417d3816d19f56d7674eb2f1d1554744'
         }
       },
       {
@@ -588,7 +588,7 @@
         },
         featuredTrack: {
           name: 'The Last One_1993',
-          streamUrl: 'https://t4.bcbits.com/stream/7e81ee2c17bec170a698715da0f8dfa3/mp3-128/2863622221?p=0&ts=1698584240&t=dd7cf997a5d9d2ebbff0b40cf2bb4e05a65d96e3&token=1698584240_7a9b52ce32223548b3948f469670bdab1a1342a6'
+          streamUrl: 'https://t4.bcbits.com/stream/7e81ee2c17bec170a698715da0f8dfa3/mp3-128/2863622221?p=0&ts=1698607836&t=0df68eb8b6afabddf2e07cc09bb7b6e57472ace0&token=1698607836_2f867b2881908707899435661bf1bbf66ec248ad'
         }
       },
       {
@@ -603,7 +603,7 @@
         },
         featuredTrack: {
           name: 'Mtnshagh',
-          streamUrl: 'https://t4.bcbits.com/stream/21465c868e4f7e230bdcff0447a3f1ab/mp3-128/1082065433?p=0&ts=1698584240&t=a0232b484766ce775d54a7eb25789fd86315ae26&token=1698584240_53bc6c38438baf81c9db7216bed40ce18ec82f35'
+          streamUrl: 'https://t4.bcbits.com/stream/21465c868e4f7e230bdcff0447a3f1ab/mp3-128/1082065433?p=0&ts=1698607836&t=debba2752ac4e5ba38ea9f404cbad4ca8ef60e8a&token=1698607836_3f631c1c4c98739601b3772077a11112f8171820'
         }
       },
       {
@@ -618,7 +618,7 @@
         },
         featuredTrack: {
           name: 'Dancing in the Crypt of Sorrow',
-          streamUrl: 'https://t4.bcbits.com/stream/49264f911c3f9b2841b2d852e820a053/mp3-128/4271360547?p=0&ts=1698584240&t=b3fcf60d432a1f7816b7d1fe3892f1faa5e23dd7&token=1698584240_2b45b37227300b7c2279ee2a8b327511b273b569'
+          streamUrl: 'https://t4.bcbits.com/stream/49264f911c3f9b2841b2d852e820a053/mp3-128/4271360547?p=0&ts=1698607836&t=443aabebd7fb85c0cea9efe60de004beff65fa5f&token=1698607836_2cf145df843e4dfcc96721512a0b7094820572ee'
         }
       },
       {
@@ -633,7 +633,7 @@
         },
         featuredTrack: {
           name: 'goth kids by the carousel in the mall',
-          streamUrl: 'https://t4.bcbits.com/stream/340a5b2cd0489fedc8e3754d403a4b7f/mp3-128/1081232611?p=0&ts=1698584240&t=b18373e9e37db1219c884d85581d431465a530ac&token=1698584240_7dab0c5f3e22c69c2a00730c082465581f8b9cba'
+          streamUrl: 'https://t4.bcbits.com/stream/340a5b2cd0489fedc8e3754d403a4b7f/mp3-128/1081232611?p=0&ts=1698607836&t=491a0d68adbc2f931c23b7c0482d93ea99575ffc&token=1698607836_9cdfa4f034eb7c3a1c0052b71214f556b818740e'
         }
       },
       {
@@ -645,7 +645,7 @@
         artist: { name: 'Moor Mother', url: 'https://moormother.bandcamp.com' },
         featuredTrack: {
           name: 'RAP JASM (feat. AKAI SOLO & Justmadnice)',
-          streamUrl: 'https://t4.bcbits.com/stream/c2484d9cde26beb51c3aede857e806df/mp3-128/2796877322?p=0&ts=1698584240&t=e151b7be197b47657b013c6d60937cfadc5719e9&token=1698584240_f538d117517f6bf8750d5fec46ee4b3c9b7f8eeb'
+          streamUrl: 'https://t4.bcbits.com/stream/c2484d9cde26beb51c3aede857e806df/mp3-128/2796877322?p=0&ts=1698607836&t=72cf0a140359e69a71901fcaaa39c631aabde311&token=1698607836_a9cd42e5dd5a0536cd44a13d187d4a86a42ebd9b'
         }
       }
     ]
@@ -663,7 +663,7 @@
         artist: { name: 'greenhouse', url: 'https://halleylabs.com' },
         featuredTrack: {
           name: 'eko',
-          streamUrl: 'https://t4.bcbits.com/stream/9a4f97d8b7d32b4fcc0b35135a2c8a86/mp3-128/942461323?p=0&ts=1698584240&t=8a20f30759f5809315d94ab861b264253fc1bc01&token=1698584240_2d00aea2bdb07588f710f2098ac05ed14bcc1316'
+          streamUrl: 'https://t4.bcbits.com/stream/9a4f97d8b7d32b4fcc0b35135a2c8a86/mp3-128/942461323?p=0&ts=1698607836&t=fa5ad28d0f6aa3771b6aee9745c99090c4aa4a55&token=1698607836_9917b872935da9d1392a66d3da44b45f899353f1'
         }
       },
       {
@@ -678,7 +678,7 @@
         },
         featuredTrack: {
           name: 'intro',
-          streamUrl: 'https://t4.bcbits.com/stream/9239ce91284dbba5d78e9e136eb08220/mp3-128/514603501?p=0&ts=1698584240&t=fdb9dff23b0ecc124a5c5054031a4145eda3aea1&token=1698584240_7863815a4ecff2bc424267645c042b3379f7390a'
+          streamUrl: 'https://t4.bcbits.com/stream/9239ce91284dbba5d78e9e136eb08220/mp3-128/514603501?p=0&ts=1698607836&t=03c9a20bff3d4a65fc790aacd1dae41e6a1db895&token=1698607836_bf710e03ee9aac36d7288b3407760009ee385390'
         }
       },
       {
@@ -690,7 +690,7 @@
         artist: { name: 'Jute Gyte', url: 'https://jutegyte.bandcamp.com' },
         featuredTrack: {
           name: 'Disinterment of Sfanomoë',
-          streamUrl: 'https://t4.bcbits.com/stream/f4e818d0d46982dfc0997f271a6acc08/mp3-128/2324156117?p=0&ts=1698584240&t=2075c56906f8df42bfec2d99b062d5378f035cc7&token=1698584240_ca23d2b5f5017897129af5457924ba57cd5b8ded'
+          streamUrl: 'https://t4.bcbits.com/stream/f4e818d0d46982dfc0997f271a6acc08/mp3-128/2324156117?p=0&ts=1698607836&t=b3bda82b93341236a2905a81154890eab183aec0&token=1698607836_32b1af3412821affd85dbd9ff0b18b88dd02334b'
         }
       },
       {
@@ -705,7 +705,7 @@
         },
         featuredTrack: {
           name: 'ACID WEREWOLF',
-          streamUrl: 'https://t4.bcbits.com/stream/662de8c33779d253f533a44ac4f4ea78/mp3-128/3242467726?p=0&ts=1698584240&t=c86e5d156b551c1d0e52358765c6fb5280daf418&token=1698584240_ba68c6922555d4f37f2f47e87a688acfbabd5087'
+          streamUrl: 'https://t4.bcbits.com/stream/662de8c33779d253f533a44ac4f4ea78/mp3-128/3242467726?p=0&ts=1698607836&t=352e90d704999061bc1d473b40a56ff900589499&token=1698607836_f6653366374ef0b94d63aed3a93cc1492621b7aa'
         }
       },
       {
@@ -717,7 +717,7 @@
         artist: { name: 'Black Pus', url: 'https://blackpus.bandcamp.com' },
         featuredTrack: {
           name: 'JAZZHOUSE',
-          streamUrl: 'https://t4.bcbits.com/stream/703f5dff1d67603f2862dd8167c7006a/mp3-128/976793729?p=0&ts=1698584240&t=2ddd08f99bbe8326305532ff3608e02c763e7185&token=1698584240_4e2284f805211b7552b149dd2f22176c1df61604'
+          streamUrl: 'https://t4.bcbits.com/stream/703f5dff1d67603f2862dd8167c7006a/mp3-128/976793729?p=0&ts=1698607836&t=587d8d59c11e8b228a6fc067fe51f27bbb55269c&token=1698607836_17c0674d323017a700a5decec16814f94bc1626d'
         }
       },
       {
@@ -732,7 +732,7 @@
         },
         featuredTrack: {
           name: 'Harmonics Of The Unknown',
-          streamUrl: 'https://t4.bcbits.com/stream/ca6fbd8fe9912e70582d488cc4d82029/mp3-128/548635885?p=0&ts=1698584240&t=f1ad5074a1af98dde42a03f0800b74e2ef10c572&token=1698584240_88a734bd96159823c935dc318d6c4a336ed98127'
+          streamUrl: 'https://t4.bcbits.com/stream/ca6fbd8fe9912e70582d488cc4d82029/mp3-128/548635885?p=0&ts=1698607836&t=a986db8285efabba73bc81828b4d124b62a0cada&token=1698607836_50e50d60edc8b0009aec5ab08f49f98e62acde84'
         }
       },
       {
@@ -747,7 +747,7 @@
         },
         featuredTrack: {
           name: 'Bloodlust Towards All Terrestrial Beings',
-          streamUrl: 'https://t4.bcbits.com/stream/58b64a31ea89e277074c4ceed13f5daa/mp3-128/1601457843?p=0&ts=1698584240&t=366d4bed35b2d03ec9f626c3aecd7945aca7d461&token=1698584240_59bd3291a877bcce7a13158f27a3084c865a593f'
+          streamUrl: 'https://t4.bcbits.com/stream/58b64a31ea89e277074c4ceed13f5daa/mp3-128/1601457843?p=0&ts=1698607836&t=80d31232f1c2f29d6a013098c54f5d0762db522f&token=1698607836_4c309f7bc8c0e3f00b73e334a1ea0c936ba55dd3'
         }
       },
       {
@@ -762,7 +762,7 @@
         },
         featuredTrack: {
           name: 'Blanket',
-          streamUrl: 'https://t4.bcbits.com/stream/da23ee82bbe96882f493d870d5fc4824/mp3-128/888501604?p=0&ts=1698584240&t=58a565a633cca9ec5349e5686b2e85963b2dc624&token=1698584240_9660c82f7198bd82a2b4e5ee51683fd7d48eabde'
+          streamUrl: 'https://t4.bcbits.com/stream/da23ee82bbe96882f493d870d5fc4824/mp3-128/888501604?p=0&ts=1698607836&t=cdb1a41d738ed808f5be9374061416be14f579d2&token=1698607836_18363e01d55dcf04d7861848b0ef467ebc2591be'
         }
       },
       {
@@ -777,7 +777,7 @@
         },
         featuredTrack: {
           name: 'Death Of A Bassdrum',
-          streamUrl: 'https://t4.bcbits.com/stream/8f2f6eb78a676dc96fcb322732db7631/mp3-128/2030258732?p=0&ts=1698584240&t=b37d145bd3a235cdff4a418c41eecd6cf4417507&token=1698584240_d6beacbaaa6ba1985156e4a6a1d422d9d2b1a209'
+          streamUrl: 'https://t4.bcbits.com/stream/8f2f6eb78a676dc96fcb322732db7631/mp3-128/2030258732?p=0&ts=1698607836&t=2ae8be5b63ed46f7475fbcd017649f426d955106&token=1698607836_94a538ea00cbe01b4fafe1ac80026f0bf62168cf'
         }
       }
     ]

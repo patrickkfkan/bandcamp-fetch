@@ -1,1 +1,407 @@
-{ items: [], total: 0, continuation: null }
+{
+  items: [
+    {
+      type: 'album',
+      name: 'Bada Bing! ft CARRTOONS',
+      url: 'https://mirandajoan.bandcamp.com/album/bada-bing-ft-carrtoons',
+      imageUrl: 'https://f4.bcbits.com/img/a3673822424_16.jpg',
+      artist: { name: 'Miranda Joan', url: 'https://mirandajoan.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'Bada Bing! ft CARRTOONS',
+        artist: 'Miranda Joan',
+        duration: 183.027,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=667542836&ts=1698521719&t=b4668f797a79d544b0b70991f57dbf69853a7404'
+      }
+    },
+    {
+      type: 'album',
+      name: '老衲要还俗',
+      url: 'https://fatbrotherburningyears.bandcamp.com/album/-',
+      imageUrl: 'https://f4.bcbits.com/img/a3897731176_16.jpg',
+      artist: {
+        name: 'The old man will return to secular life',
+        url: 'https://fatbrotherburningyears.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 1,
+        name: '老衲要还俗',
+        artist: 'The old man will return to secular life',
+        duration: 173.395,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1881958116&ts=1698521719&t=9a4bd95077bb2ebfab31f1f3d386636501d13a28'
+      }
+    },
+    {
+      type: 'album',
+      name: 'FINE',
+      url: 'https://stellatalpo.bandcamp.com/album/fine',
+      imageUrl: 'https://f4.bcbits.com/img/a827347154_16.jpg',
+      artist: { name: 'Stella Talpo', url: 'https://stellatalpo.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'Water',
+        artist: 'Stella Talpo',
+        duration: 184.444,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1241318221&ts=1698521719&t=5138b27668408fa5e585600081cc7e6d942bf5df'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Silver Sash',
+      url: 'https://glitterhouserecords.bandcamp.com/album/silver-sash',
+      imageUrl: 'https://f4.bcbits.com/img/a1068361756_16.jpg',
+      artist: {
+        name: 'Wovenhand',
+        url: 'https://glitterhouserecords.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 3,
+        name: 'Duat Hawk',
+        artist: 'Wovenhand',
+        duration: 205.24,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1665518602&ts=1698521719&t=f0437c0d2121893775e568316da4f0982b3102e4'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Sylvie (2022)',
+      url: 'https://sylvie-music.bandcamp.com/album/sylvie-2022-2',
+      imageUrl: 'https://f4.bcbits.com/img/a2220580996_16.jpg',
+      artist: { name: 'Sylvie', url: 'https://sylvie-music.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'Falls On Me',
+        artist: 'Sylvie',
+        duration: 299.453,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1840839102&ts=1698521719&t=f81b885ebc2a637392522b729b8391f2e0d7677d'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Songs From My Bucket',
+      url: 'https://margocilker.bandcamp.com/album/songs-from-my-bucket',
+      imageUrl: 'https://f4.bcbits.com/img/a3875199563_16.jpg',
+      artist: { name: 'Margo Cilker', url: 'https://margocilker.bandcamp.com' },
+      featuredTrack: {
+        position: 3,
+        name: 'Skateboard Song',
+        artist: 'Margo Cilker',
+        duration: 239.799,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2599779818&ts=1698521719&t=744b51382b03ead0731739751e05bc32ebcbacff'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Chicamacomico',
+      url: 'https://americanaquarium.bandcamp.com/album/chicamacomico',
+      imageUrl: 'https://f4.bcbits.com/img/a3942062080_16.jpg',
+      artist: {
+        name: 'American Aquarium',
+        url: 'https://americanaquarium.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 4,
+        name: 'The First Year',
+        artist: 'American Aquarium',
+        duration: 192.013,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1867095022&ts=1698521719&t=01d2050a9e782c04c5296223487c5d1290da3be3'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Heavy Denim',
+      url: 'https://nickdittmeier.bandcamp.com/album/heavy-denim',
+      imageUrl: 'https://f4.bcbits.com/img/a392062975_16.jpg',
+      artist: {
+        name: 'Nick Dittmeier & the Sawdusters',
+        url: 'https://nickdittmeier.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 1,
+        name: 'I Suppose',
+        artist: 'Nick Dittmeier & the Sawdusters',
+        duration: 173.977,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=291756392&ts=1698521719&t=8292b0e5be7241d1de0df49cc9a6456a93e21073'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Highway Sounds',
+      url: 'https://kassivalazza.bandcamp.com/album/highway-sounds',
+      imageUrl: 'https://f4.bcbits.com/img/a3803986383_16.jpg',
+      artist: {
+        name: 'Kassi Valazza',
+        url: 'https://kassivalazza.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 1,
+        name: 'Little Flowers',
+        artist: 'Kassi Valazza',
+        duration: 306.92,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3662293078&ts=1698521719&t=8112b3d0c254a69b8b6ac94d7982a1f4afb5721e'
+      }
+    },
+    {
+      type: 'album',
+      name: 'LIVE with LOOPER No.1',
+      url: 'https://markus-k.bandcamp.com/album/live-with-looper-no-1',
+      imageUrl: 'https://f4.bcbits.com/img/a3261738963_16.jpg',
+      artist: { name: 'Markus K', url: 'https://markus-k.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'We Merge',
+        artist: 'Markus K',
+        duration: 228.87,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3271952930&ts=1698521719&t=4d0b5e06966d14da7ad25d326163cd9712ee077a'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Visions of the Country',
+      url: 'https://gnomelife.bandcamp.com/album/visions-of-the-country',
+      imageUrl: 'https://f4.bcbits.com/img/a1359892761_16.jpg',
+      artist: { name: 'Robbie Basho', url: 'https://gnomelife.bandcamp.com' },
+      featuredTrack: {
+        position: 5,
+        name: 'Blue Crystal Fire',
+        artist: 'Robbie Basho',
+        duration: 287.546,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2254598059&ts=1698521719&t=d93b8b8efe9b462d5670ee673a23b1bb2cc4f9fd'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Pohorylle',
+      url: 'https://margocilker.bandcamp.com/album/pohorylle',
+      imageUrl: 'https://f4.bcbits.com/img/a880076195_16.jpg',
+      artist: { name: 'Margo Cilker', url: 'https://margocilker.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'That River',
+        artist: 'Margo Cilker',
+        duration: 189.187,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=895429532&ts=1698521719&t=ed64688978e9d982f96faf89a264aeb436c21d03'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Cruel Country',
+      url: 'https://wilcohq.bandcamp.com/album/cruel-country',
+      imageUrl: 'https://f4.bcbits.com/img/a452127673_16.jpg',
+      artist: { name: 'Wilco', url: 'https://wilcohq.bandcamp.com' },
+      featuredTrack: {
+        position: 14,
+        name: 'Falling Apart (Right Now)',
+        artist: 'Wilco',
+        duration: 198.52,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3385090483&ts=1698521719&t=a6469210ba8dc4dbaddea11531c6fd8db0ed2033'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Live at Red Rocks - Morrison, CO - 8/​1​/​2021',
+      url: 'https://jasonisbell.bandcamp.com/album/live-at-red-rocks-morrison-co-8-1-2021',
+      imageUrl: 'https://f4.bcbits.com/img/a863538884_16.jpg',
+      artist: {
+        name: 'Jason Isbell and the 400 Unit',
+        url: 'https://jasonisbell.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 21,
+        name: 'Tour Of Duty',
+        artist: 'Jason Isbell and the 400 Unit',
+        duration: 228.867,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2971595025&ts=1698521719&t=7936ecea47bcdcf8a878f6c9088f9a26a84b19cd'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Wild Creatures',
+      url: 'https://nekocaseofficial.bandcamp.com/album/wild-creatures',
+      imageUrl: 'https://f4.bcbits.com/img/a3745965981_16.jpg',
+      artist: {
+        name: 'Neko Case',
+        url: 'https://nekocaseofficial.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 1,
+        name: "I'm An Animal",
+        artist: 'Neko Case',
+        duration: 136.987,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=535802350&ts=1698521719&t=e0b0f4a57b4a9c21f248470316285f19300c7cfe'
+      }
+    },
+    {
+      type: 'album',
+      name: "Cover Charge: NC Artists Go Under Cover to Benefit Cat's Cradle",
+      url: 'https://covercharge.bandcamp.com/album/cover-charge-nc-artists-go-under-cover-to-benefit-cats-cradle',
+      imageUrl: 'https://f4.bcbits.com/img/a2768267036_16.jpg',
+      artist: { name: 'Cover Charge', url: 'https://covercharge.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: "Can't Stop the World",
+        artist: 'Cover Charge',
+        duration: 205.213,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=206849315&ts=1698521719&t=5ff542f62bd216d492b8046fa110633932cee68b'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Anything But Country',
+      url: 'https://legendsofcountry.bandcamp.com/album/anything-but-country',
+      imageUrl: 'https://f4.bcbits.com/img/a1262555298_16.jpg',
+      artist: {
+        name: 'Legends Of Country',
+        url: 'https://legendsofcountry.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 4,
+        name: "Everything's Going South",
+        artist: 'Legends Of Country',
+        duration: 180.156,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1698521719&t=0b3828ae9664523edd39501fa23d21bf5134ddd0'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Outsiders',
+      url: 'https://annativel.bandcamp.com/album/outsiders',
+      imageUrl: 'https://f4.bcbits.com/img/a420888783_16.jpg',
+      artist: { name: 'Anna Tivel', url: 'https://annativel.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'Outsiders',
+        artist: 'Anna Tivel',
+        duration: 234.747,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=157662870&ts=1698521719&t=4b1d7a8827ccda97270f6f42bdab4dfda4e28f55'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Conversations with My Other Voice',
+      url: 'https://buickaudra.bandcamp.com/album/conversations-with-my-other-voice',
+      imageUrl: 'https://f4.bcbits.com/img/a4196155980_16.jpg',
+      artist: { name: 'Buick Audra', url: 'https://buickaudra.bandcamp.com' },
+      featuredTrack: {
+        position: 2,
+        name: 'Pocket-Sized Friend',
+        artist: 'Buick Audra',
+        duration: 185.178,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1707027958&ts=1698521719&t=e3298f8c4b792b662d0ef7e1a0479b9ad700bf83'
+      }
+    },
+    {
+      type: 'album',
+      name: 'The New Faith',
+      url: 'https://jakeblountmusic.bandcamp.com/album/the-new-faith',
+      imageUrl: 'https://f4.bcbits.com/img/a1096304773_16.jpg',
+      artist: {
+        name: 'Jake Blount',
+        url: 'https://jakeblountmusic.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 3,
+        name: 'Didn’t It Rain',
+        artist: 'Jake Blount',
+        duration: 185.987,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4237361807&ts=1698521719&t=b55f34466c20d2aa3d0cdfd8d2021360c4b4cdb7'
+      }
+    }
+  ],
+  total: 26,
+  continuation: { fanId: 8563805, token: '1655929846:62513461:a::' }
+}
+Fetching more by continuation...
+{
+  items: [
+    {
+      type: 'album',
+      name: "Crow's Pine",
+      url: 'https://lobbyartrecs.bandcamp.com/album/crows-pine-2',
+      imageUrl: 'https://f4.bcbits.com/img/a2270982070_16.jpg',
+      artist: {
+        name: 'Bob Driftwood',
+        url: 'https://lobbyartrecs.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 5,
+        name: 'Ivory Tower',
+        artist: 'Bob Driftwood',
+        duration: 322.479,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4191030128&ts=1698521720&t=f10c1684640e0ccbb927f2a6a8896a66941880bf'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Family',
+      url: 'https://thesilosofficial.bandcamp.com/album/family',
+      imageUrl: 'https://f4.bcbits.com/img/a877614212_16.jpg',
+      artist: {
+        name: 'The Silos',
+        url: 'https://thesilosofficial.bandcamp.com'
+      },
+      featuredTrack: {
+        position: 1,
+        name: 'My Favorite Animal',
+        artist: 'The Silos',
+        duration: 300.595,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=918323024&ts=1698521720&t=746cc830d4298d017a78d329cd4866e6d13983fe'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Raging in the Dark',
+      url: 'https://jrcarroll.bandcamp.com/album/raging-in-the-dark',
+      imageUrl: 'https://f4.bcbits.com/img/a1293600_16.jpg',
+      artist: { name: 'J.R. Carroll', url: 'https://jrcarroll.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'Other Than That',
+        artist: 'J.R. Carroll',
+        duration: 258.48,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1155799776&ts=1698521720&t=7dc9ded6949feb2c499ba5cd4101c7924c01fbb6'
+      }
+    },
+    {
+      type: 'album',
+      name: 'Live from Boston',
+      url: 'https://davehause.bandcamp.com/album/live-from-boston',
+      imageUrl: 'https://f4.bcbits.com/img/a2436594456_16.jpg',
+      artist: { name: 'Dave Hause', url: 'https://davehause.bandcamp.com' },
+      featuredTrack: {
+        position: 4,
+        name: 'Saboteurs (Live from Boston 4.08.2022)',
+        artist: 'Dave Hause',
+        duration: 294.458,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3843751680&ts=1698521720&t=2afa8d05ccf7b96c2bb4441c487306cd5cc76f7f'
+      }
+    },
+    {
+      type: 'track',
+      name: "T'es belle",
+      url: 'https://musique.coeurdepirate.com/track/tes-belle',
+      imageUrl: 'https://f4.bcbits.com/img/a774650359_16.jpg',
+      artist: {
+        name: 'Cœur de pirate',
+        url: 'https://coeurdepirate.bandcamp.com'
+      },
+      duration: 176.373,
+      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3387079907&ts=1698521720&t=94c7d369b72d5f48da83189188a219a6cb354b1c'
+    },
+    {
+      type: 'album',
+      name: 'False Light',
+      url: 'https://whiteward.bandcamp.com/album/false-light',
+      imageUrl: 'https://f4.bcbits.com/img/a2447867317_16.jpg',
+      artist: { name: 'White Ward', url: 'https://whiteward.bandcamp.com' },
+      featuredTrack: {
+        position: 1,
+        name: 'Leviathan',
+        artist: 'White Ward',
+        duration: 797.115,
+        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2599650567&ts=1698521720&t=c92ec95395d215763a5aafc07211b85476cc7d75'
+      }
+    }
+  ],
+  continuation: null
+}
