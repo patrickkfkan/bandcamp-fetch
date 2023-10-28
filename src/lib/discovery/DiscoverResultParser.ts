@@ -40,9 +40,12 @@ export default class DiscoverResultParser {
           album.featuredTrack = {
             name: item.featured_track.title,
             duration: item.featured_track.duration,
-            streamUrl: item.featured_track.file?.['mp3-128'],
-            streamUrlHQ: item.featured_track.file?.['mp3-v0']
+            streamUrl: item.featured_track.file?.['mp3-128']
           };
+          const streamUrlHQ = item.featured_track.file?.['mp3-v0'];
+          if (streamUrlHQ) {
+            album.featuredTrack.streamUrlHQ = streamUrlHQ;
+          }
         }
         if (item.bio_image && opts.artistImageFormat) {
           artist.imageUrl = `${opts.imageBaseUrl}/img/${item.bio_image.image_id}_${opts.artistImageFormat.id}.jpg`;

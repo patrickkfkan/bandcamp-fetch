@@ -6,6 +6,7 @@ import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from 
 import { ImageFormat } from '../types/Image';
 import Album from '../types/Album';
 import { EOL } from 'os';
+import Track from '../types/Track';
 
 interface ArticleParseOptions {
   imageBaseUrl: string;
@@ -115,14 +116,22 @@ export default class ArticleParser {
           if (player.band_image_id && mediaItem.artist && opts.artistImageFormat?.id) {
             mediaItem.artist.imageUrl = `${opts.imageBaseUrl}/img/${player.band_image_id}_${opts.artistImageFormat.id}.jpg`;
           }
-          if (mediaItemType === 'album' && Array.isArray(player.tracklist)) {
-            (mediaItem as Album).tracks = player.tracklist.map((trackInfo: any) => ({
-              position: trackInfo.track_number,
-              name: trackInfo.track_title,
-              duration: trackInfo.audio_track_duration,
-              streamUrl: trackInfo.audio_url?.['mp3-128'],
-              streamUrlHQ: trackInfo.audio_url?.['mp3-v0']
-            }));
+          const tracklist = player.tracklist;
+          if (mediaItemType === 'album' && Array.isArray(tracklist)) {
+            (mediaItem as Album).tracks = tracklist.reduce<Omit<Track, 'type'>[]>((result, trackInfo: any) => {
+              const track: Omit<Track, 'type'> = {
+                position: trackInfo.track_number,
+                name: trackInfo.track_title,
+                duration: trackInfo.audio_track_duration,
+                streamUrl: trackInfo.audio_url?.['mp3-128']
+              };
+              const streamUrlHQ = trackInfo.audio_url?.['mp3-v0'];
+              if (streamUrlHQ) {
+                track.streamUrlHQ = streamUrlHQ;
+              }
+              result.push(track);
+              return result;
+            }, []);
           }
 
           article.mediaItems.push(mediaItem);

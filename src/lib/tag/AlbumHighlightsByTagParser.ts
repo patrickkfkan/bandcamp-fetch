@@ -51,9 +51,12 @@ export default class AlbumHighlightsByTagParser {
               if (item.featured_track_title) {
                 album.featuredTrack = {
                   name: item.featured_track_title,
-                  streamUrl: item.audio_url?.['mp3-128'],
-                  streamUrlHQ: item.audio_url?.['mp3-v0']
+                  streamUrl: item.audio_url?.['mp3-128']
                 };
+                const streamUrlHQ = item.audio_url?.['mp3-v0'];
+                if (streamUrlHQ) {
+                  album.featuredTrack.streamUrlHQ = streamUrlHQ;
+                }
               }
               collectionRes.items.push(album);
             }

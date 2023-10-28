@@ -163,17 +163,24 @@ export default class ReleasesByTagParser {
           if (item.art_id && opts.imageFormat?.id) {
             mediaItem.imageUrl = `${opts.imageBaseUrl}/img/a${item.art_id}_${opts.imageFormat.id}.jpg`;
           }
+          const streamUrl = item.audio_url?.['mp3-128'];
+          const streamUrlHQ = item.audio_url?.['mp3-v0'];
           if (mediaItemType === 'album' && item.featured_track_title) {
             const album = mediaItem as Album;
             album.featuredTrack = {
               name: item.featured_track_title,
               position: item.featured_track_number,
-              streamUrl: item.audio_url?.['mp3-128'],
-              streamUrlHQ: item.audio_url?.['mp3-v0']
+              streamUrl
             };
+            if (streamUrlHQ) {
+              album.featuredTrack.streamUrlHQ = streamUrlHQ;
+            }
           }
           else if (mediaItemType === 'track') {
-            (mediaItem as Track).streamUrl = item.audio_url?.['mp3-128'];
+            (mediaItem as Track).streamUrl = streamUrl;
+            if (streamUrlHQ) {
+              (mediaItem as Track).streamUrlHQ = streamUrlHQ;
+            }
           }
           parsedItems.push(mediaItem);
         }
