@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/autocomplete/AutocompleteAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/autocomplete/AutocompleteAPI.ts#L15)
+[lib/autocomplete/AutocompleteAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/autocomplete/AutocompleteAPI.ts#L15)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[lib/autocomplete/AutocompleteAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/autocomplete/AutocompleteAPI.ts#L16)
+[lib/autocomplete/AutocompleteAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/autocomplete/AutocompleteAPI.ts#L16)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[lib/autocomplete/AutocompleteAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/autocomplete/AutocompleteAPI.ts#L14)
+[lib/autocomplete/AutocompleteAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/autocomplete/AutocompleteAPI.ts#L14)

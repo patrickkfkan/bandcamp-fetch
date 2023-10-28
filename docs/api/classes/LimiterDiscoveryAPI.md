@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L136)
+[lib/discovery/DiscoveryAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/discovery/DiscoveryAPI.ts#L136)
 
 ## Accessors
 
@@ -62,7 +62,7 @@ DiscoveryAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
 
 ___
 
@@ -80,7 +80,7 @@ DiscoveryAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
@@ -104,7 +104,7 @@ DiscoveryAPI.imageAPI
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L149)
+[lib/discovery/DiscoveryAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/discovery/DiscoveryAPI.ts#L149)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L141)
+[lib/discovery/DiscoveryAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/discovery/DiscoveryAPI.ts#L141)
 
 ___
 
@@ -196,4 +196,4 @@ ___
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/discovery/DiscoveryAPI.ts#L145)
+[lib/discovery/DiscoveryAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/discovery/DiscoveryAPI.ts#L145)

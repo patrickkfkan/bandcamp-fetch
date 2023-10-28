@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[lib/types/Tag.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Tag.ts#L39)
+[lib/types/Tag.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Tag.ts#L39)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[lib/types/Tag.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Tag.ts#L40)
+[lib/types/Tag.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Tag.ts#L40)

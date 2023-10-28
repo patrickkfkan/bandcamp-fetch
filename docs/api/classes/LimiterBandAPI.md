@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[lib/band/BandAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L136)
+[lib/band/BandAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L136)
 
 ## Accessors
 
@@ -62,7 +62,7 @@ BandAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
 
 ___
 
@@ -80,7 +80,7 @@ BandAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
@@ -107,7 +107,7 @@ BandAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -130,7 +130,7 @@ BandAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L141)
+[lib/band/BandAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L141)
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L145)
+[lib/band/BandAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L145)
 
 ___
 
@@ -202,4 +202,4 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/band/BandAPI.ts#L149)
+[lib/band/BandAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L149)

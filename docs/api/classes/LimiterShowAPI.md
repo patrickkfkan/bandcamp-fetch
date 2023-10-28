@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:50](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/show/ShowAPI.ts#L50)
+[lib/show/ShowAPI.ts:50](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/show/ShowAPI.ts#L50)
 
 ## Accessors
 
@@ -61,7 +61,7 @@ ShowAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
 
 ___
 
@@ -79,7 +79,7 @@ ShowAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
@@ -106,7 +106,7 @@ ShowAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -129,7 +129,7 @@ ShowAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:55](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/show/ShowAPI.ts#L55)
+[lib/show/ShowAPI.ts:55](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/show/ShowAPI.ts#L55)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:59](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/show/ShowAPI.ts#L59)
+[lib/show/ShowAPI.ts:59](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/show/ShowAPI.ts#L59)

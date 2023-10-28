@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:60](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L60)
+[lib/article/ArticleAPI.ts:60](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L60)
 
 ## Accessors
 
@@ -62,7 +62,7 @@ ArticleAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
 
 ___
 
@@ -80,7 +80,7 @@ ArticleAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
@@ -107,7 +107,7 @@ ArticleAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -130,7 +130,7 @@ ArticleAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L69)
+[lib/article/ArticleAPI.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L69)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:65](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L65)
+[lib/article/ArticleAPI.ts:65](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L65)
 
 ___
 
@@ -196,4 +196,4 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L43)
+[lib/article/ArticleAPI.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L43)

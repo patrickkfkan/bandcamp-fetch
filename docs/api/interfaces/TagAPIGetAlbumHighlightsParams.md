@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[lib/tag/TagAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/tag/TagAPI.ts#L15)
+[lib/tag/TagAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/tag/TagAPI.ts#L15)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[lib/tag/TagAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/tag/TagAPI.ts#L14)
+[lib/tag/TagAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/tag/TagAPI.ts#L14)

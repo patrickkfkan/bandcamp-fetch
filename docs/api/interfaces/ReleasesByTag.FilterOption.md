@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[lib/types/Tag.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Tag.ts#L34)
+[lib/types/Tag.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Tag.ts#L34)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/NameValuePair.ts#L2)
+[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/NameValuePair.ts#L2)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[lib/types/Tag.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Tag.ts#L35)
+[lib/types/Tag.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Tag.ts#L35)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/NameValuePair.ts#L3)
+[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/NameValuePair.ts#L3)

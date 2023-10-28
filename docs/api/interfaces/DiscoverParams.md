@@ -33,7 +33,7 @@ Value indicating the image format to adopt when constructing image URLs of disco
 
 #### Defined in
 
-[lib/types/Discovery.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L37)
+[lib/types/Discovery.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L37)
 
 ___
 
@@ -45,7 +45,7 @@ Value indicating the image format to adopt when constructing image URLs of album
 
 #### Defined in
 
-[lib/types/Discovery.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L41)
+[lib/types/Discovery.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L41)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L33)
+[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L33)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L32)
+[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L32)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L26)
+[lib/types/Discovery.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L26)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L31)
+[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L31)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L28)
+[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L28)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L27)
+[lib/types/Discovery.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L27)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L30)
+[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L30)
 
 ___
 
@@ -125,4 +125,4 @@ ___
 
 #### Defined in
 
-[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Discovery.ts#L29)
+[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Discovery.ts#L29)

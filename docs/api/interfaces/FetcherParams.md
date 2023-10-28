@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L12)
+[lib/utils/Fetcher.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L12)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L11)
+[lib/utils/Fetcher.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L11)

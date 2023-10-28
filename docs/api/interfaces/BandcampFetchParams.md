@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[lib/BandcampFetch.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/BandcampFetch.ts#L18)
+[lib/BandcampFetch.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/BandcampFetch.ts#L18)

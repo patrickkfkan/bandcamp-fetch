@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L13)
+[lib/article/ArticleAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L13)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L12)
+[lib/article/ArticleAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L12)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L14)
+[lib/article/ArticleAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L14)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/article/ArticleAPI.ts#L15)
+[lib/article/ArticleAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/article/ArticleAPI.ts#L15)

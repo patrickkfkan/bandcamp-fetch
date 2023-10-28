@@ -17,14 +17,14 @@
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/fan/FanAPI.ts#L26)
+[lib/fan/FanAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L26)
 
 ___
 
 ### target
 
-• **target**: `string` \| [`FanItemsContinuation`](FanItemsContinuation.md)
+• `Optional` **target**: `string` \| [`FanItemsContinuation`](FanItemsContinuation.md)
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/fan/FanAPI.ts#L25)
+[lib/fan/FanAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L25)

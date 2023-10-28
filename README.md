@@ -29,6 +29,26 @@ import bcfetch from 'bandcamp-fetch';
 const results = await bcfetch.discovery.discover(...);
 ```
 
+### User Sessions
+
+When you login to Bandcamp through a desktop browser, the session gets assigned a "Cookie". You can pass the value of this cookie to the library and gain access to your private collection as well as high-quality MP3 streams of purchased media:
+
+```
+bcfetch.setCookie('xxxx');
+
+const album = 
+```
+
+
+The library exports a `BandcampFetch` instance mainly for backward compatibility with previous versions. You can also create separate instances. This is useful when you want to support multiple authenticated user sessions.
+
+```
+import { BandcampFetch } from 'bandcamp-fetch';
+const bcfetch = new BandcampFetch();
+```
+
+### 
+
 # API
 
 ## Discovery API

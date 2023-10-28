@@ -127,7 +127,7 @@ bandcamp-fetch
 
 #### Defined in
 
-[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Article.ts#L51)
+[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L51)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[lib/types/Label.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Label.ts#L9)
+[lib/types/Label.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Label.ts#L9)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[lib/types/Search.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/types/Search.ts#L47)
+[lib/types/Search.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Search.ts#L47)
 
 ## Variables
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-[index.ts:68](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/index.ts#L68)
+[index.ts:68](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/index.ts#L68)

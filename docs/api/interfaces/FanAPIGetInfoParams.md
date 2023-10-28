@@ -17,14 +17,14 @@
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/fan/FanAPI.ts#L21)
+[lib/fan/FanAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L21)
 
 ___
 
 ### username
 
-• **username**: `string`
+• `Optional` **username**: `string`
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/fan/FanAPI.ts#L20)
+[lib/fan/FanAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L20)

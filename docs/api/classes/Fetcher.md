@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L20)
+[lib/utils/Fetcher.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L20)
 
 ## Accessors
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L33)
+[lib/utils/Fetcher.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L33)
 
 ## Methods
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L37)
+[lib/utils/Fetcher.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L37)
 
 ▸ **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -87,7 +87,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L38)
+[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L38)
 
 ___
 
@@ -107,4 +107,4 @@ ___
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/19ec315/src/lib/utils/Fetcher.ts#L25)
+[lib/utils/Fetcher.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L25)
