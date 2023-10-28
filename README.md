@@ -36,15 +36,39 @@ When you login to Bandcamp through a desktop browser, the session gets assigned 
 ```
 bcfetch.setCookie('xxxx');
 
-const album = 
+const album = await bcfetch.album.getInfo({
+    albumUrl: '...'  // URL of purchased album
+});
+
+// Normal quality stream
+const streamUrl = album.tracks[0].streamUrl;
+
+// High quality stream - only available when `cookie` is set
+const streamUrlHQ = album.tracks[0].streamUrlHQ;
 ```
 
+Follow this guide to obtain the value of `cookie` with a web browser.
 
-The library exports a `BandcampFetch` instance mainly for backward compatibility with previous versions. You can also create separate instances. This is useful when you want to support multiple authenticated user sessions.
+### `BandcampFetch`
+
+The library exports a default [BandcampFetch](./docs/api/classes/BandcampFetch.md) instance mainly for backward compatibility with previous versions:
+
+```
+// Imports the default `BandcampFetch` instance
+import bcfetch from 'bandcamp-fetch';
+```
+
+You can also create separate instances. This is useful when you want to support multiple user sessions:
 
 ```
 import { BandcampFetch } from 'bandcamp-fetch';
-const bcfetch = new BandcampFetch();
+
+const bcfetch1 = new BandcampFetch({
+    cookie: 'xxxx' // Cookie for user session 1
+});
+
+const bcfetch2 = new BandcampFetch();
+bcfetch2.setCookie('yyyy'); // Cookie for user sesion 2
 ```
 
 ### 
@@ -638,8 +662,10 @@ const collection = await fan.getCollection(...);
 **Params**
 
 - `params`: ([FanAPIGetInfoParams](docs/api/interfaces/FanAPIGetInfoParams.md))
-    - `username`: (string)
+    - `username`: (string) (*optional*)
     - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+ If `username` is not specified, result will be obtained for the user of the [session](#user-sessions) tied to the `BandcampFetch` instance.
 
 **Returns**
 
@@ -659,8 +685,10 @@ Promise resolving to [Fan](docs/api/interfaces/Fan.md).
 **Params**
 
 - `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
-    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of items in the collection. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) (*optional*) if username (string) is specified, returns the first batch of items in the collection. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
     - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+If `target` is not specified, result will be obtained for the user of the [session](#user-sessions) tied to the `BandcampFetch` instance.
 
 **Returns**
 
@@ -680,8 +708,10 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 **Params**
 
 - `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
-    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of items in the wishlist. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) (*optional*) if username (string) is specified, returns the first batch of items in the wishlist. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
     - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+If `target` is not specified, result will be obtained for the user of the [session](#user-sessions) tied to the `BandcampFetch` instance.
 
 **Returns**
 
@@ -701,8 +731,10 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 **Params**
 
 - `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
-    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of artists and labels. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) (*optional*) if username (string) is specified, returns the first batch of artists and labels. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
     - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+If `target` is not specified, result will be obtained for the user of the [session](#user-sessions) tied to the `BandcampFetch` instance.
 
 **Returns**
 
@@ -724,8 +756,10 @@ Each genre is actually a Bandcamp tag, so you can, for example, pass its `url` t
 **Params**
 
 - `params`: ([FanAPIGetItemsParams](docs/api/interfaces/FanAPIGetItemsParams.md))
-    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) if username (string) is specified, returns the first batch of genres. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
+    - `target`: (string | [FanItemsContinuation](docs/api/interfaces/FanItemsContinuation.md)) (*optional*) if username (string) is specified, returns the first batch of genres. To obtain further items, call the method again but, instead of username, pass `continuation` from the result of the first call. If there are no further items available, `continuation` will be `null`.
     - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+If `target` is not specified, result will be obtained for the user of the [session](#user-sessions) tied to the `BandcampFetch` instance.
 
 **Returns**
 
@@ -825,7 +859,7 @@ The `value` property of returned suggestions can be used to set the `location` o
 
 # Rate Limiting
 
-`bandcamp-fetch` comes with a rate limiter, which limits the number of requests made within a specific time period.
+Each `BandcampFetch` instance comes with a rate limiter, which limits the number of requests made within a specific time period.
 
 Rate limiting is useful when you need to make a large number of queries and don't want to run the risk of getting rejected by the server for making too many requests within a short time interval. If you get a '429 Too Many Requests' error, then you should consider using the rate limiter.
 
@@ -856,7 +890,7 @@ bcfetch.limiter.updateSettings({
 
 # Cache
 
-The library maintains an in-memory cache for two types of data (as defined by [CacheDataType](docs/api/enums/CacheDataType.md)):
+Each `BandcampFetch` instance has an in-memory cache for two types of data (as defined by [CacheDataType](docs/api/enums/CacheDataType.md)):
 
 1. `CacheDataType.Page` - pages fetched during scraping
 2. `CacheDataType.Constants` - image formats and discover options
