@@ -1,6 +1,6 @@
 {
   "name": "bandcamp-fetch",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Scrape Bandcamp content",
   "scripts": {
     "build": "npm run prepare",
