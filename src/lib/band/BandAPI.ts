@@ -1,14 +1,14 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
-import Album from '../types/Album';
-import Artist from '../types/Artist';
-import { ImageFormat } from '../types/Image';
-import Label, { LabelArtist } from '../types/Label';
-import Track from '../types/Track';
-import Limiter from '../utils/Limiter';
-import { normalizeUrl } from '../utils/Parse';
-import BandInfoParser from './BandInfoParser';
-import DiscographyParser from './DiscographyParser';
-import LabelArtistsParser from './LabelArtistsParser';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import Album from '../types/Album.js';
+import Artist from '../types/Artist.js';
+import { ImageFormat } from '../types/Image.js';
+import Label, { LabelArtist } from '../types/Label.js';
+import Track from '../types/Track.js';
+import Limiter from '../utils/Limiter.js';
+import { normalizeUrl } from '../utils/Parse.js';
+import BandInfoParser from './BandInfoParser.js';
+import DiscographyParser from './DiscographyParser.js';
+import LabelArtistsParser from './LabelArtistsParser.js';
 
 export interface BandAPIGetDiscographyParams {
   bandUrl: string;

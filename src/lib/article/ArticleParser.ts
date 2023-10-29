@@ -1,12 +1,12 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Article, { ArticleMediaItem, ArticleSection } from '../types/Article';
-import { URLS } from '../utils/Constants';
-import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse';
-import { ImageFormat } from '../types/Image';
-import Album from '../types/Album';
+import Article, { ArticleMediaItem, ArticleSection } from '../types/Article.js';
+import { URLS } from '../utils/Constants.js';
+import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse.js';
+import { ImageFormat } from '../types/Image.js';
+import Album from '../types/Album.js';
 import { EOL } from 'os';
-import Track from '../types/Track';
+import Track from '../types/Track.js';
 
 interface ArticleParseOptions {
   imageBaseUrl: string;

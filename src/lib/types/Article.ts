@@ -1,5 +1,5 @@
-import Album from './Album';
-import Track from './Track';
+import Album from './Album.js';
+import Track from './Track.js';
 
 interface Article {
   title: string;

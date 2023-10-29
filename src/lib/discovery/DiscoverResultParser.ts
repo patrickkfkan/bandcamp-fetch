@@ -1,8 +1,8 @@
-import Album from '../types/Album';
-import Artist from '../types/Artist';
-import { DiscoverParams, DiscoverResult } from '../types/Discovery';
-import { ImageFormat } from '../types/Image';
-import { ParseError } from '../utils/Parse';
+import Album from '../types/Album.js';
+import Artist from '../types/Artist.js';
+import { DiscoverParams, DiscoverResult } from '../types/Discovery.js';
+import { ImageFormat } from '../types/Image.js';
+import { ParseError } from '../utils/Parse.js';
 
 interface DiscoverResultParseOptions {
   imageBaseUrl: string;

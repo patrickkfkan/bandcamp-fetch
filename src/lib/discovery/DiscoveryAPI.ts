@@ -1,12 +1,12 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
-import { DiscoverOptions, DiscoverParams, DiscoverResult } from '../types/Discovery';
-import { CacheDataType } from '../utils/Cache';
-import { URLS } from '../utils/Constants';
-import { FetchMethod } from '../utils/Fetcher';
-import Limiter from '../utils/Limiter';
-import NameValuePair from '../utils/NameValuePair';
-import DiscoverOptionsParser from './DiscoverOptionsParser';
-import DiscoverResultParser from './DiscoverResultParser';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import { DiscoverOptions, DiscoverParams, DiscoverResult } from '../types/Discovery.js';
+import { CacheDataType } from '../utils/Cache.js';
+import { URLS } from '../utils/Constants.js';
+import { FetchMethod } from '../utils/Fetcher.js';
+import Limiter from '../utils/Limiter.js';
+import NameValuePair from '../utils/NameValuePair.js';
+import DiscoverOptionsParser from './DiscoverOptionsParser.js';
+import DiscoverResultParser from './DiscoverResultParser.js';
 
 interface DiscoverRequestPayload {
   s: string; // SortyBy

@@ -1,4 +1,4 @@
-import UserKind from './UserKind';
+import UserKind from './UserKind.js';
 
 interface Fan extends UserKind {
   type: 'fan';

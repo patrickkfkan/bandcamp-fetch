@@ -1,8 +1,8 @@
 import { load as cheerioLoad } from 'cheerio';
-import Label from '../types/Label';
-import { URLS } from './Constants';
-import UserKind from '../types/UserKind';
-import { ImageFormat } from '../types/Image';
+import Label from '../types/Label.js';
+import { URLS } from './Constants.js';
+import UserKind from '../types/UserKind.js';
+import { ImageFormat } from '../types/Image.js';
 
 export interface BackToLabel {
   text: string | null;

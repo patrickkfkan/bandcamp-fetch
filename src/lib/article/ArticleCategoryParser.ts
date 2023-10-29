@@ -1,7 +1,7 @@
 import { load as cheerioLoad } from 'cheerio';
-import { ArticleCategorySection } from '../types/Article';
-import { URLS } from '../utils/Constants';
-import { isAbsoluteUrl, normalizeUrl } from '../utils/Parse';
+import { ArticleCategorySection } from '../types/Article.js';
+import { URLS } from '../utils/Constants.js';
+import { isAbsoluteUrl, normalizeUrl } from '../utils/Parse.js';
 
 export default class ArticleCategoryParser {
 

@@ -1,9 +1,9 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import { ImageFormat } from '../types/Image';
-import { ParseError } from '../utils/Parse';
-import { AlbumHighlightsByTag } from '../types/Tag';
-import Album from '../types/Album';
+import { ImageFormat } from '../types/Image.js';
+import { ParseError } from '../utils/Parse.js';
+import { AlbumHighlightsByTag } from '../types/Tag.js';
+import Album from '../types/Album.js';
 
 interface AlbumHighlightsByTagParseOptions {
   imageBaseUrl: string;

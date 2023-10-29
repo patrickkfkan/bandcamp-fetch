@@ -1,6 +1,6 @@
 import { load as cheerioLoad } from 'cheerio';
-import Tag, { TagList } from '../types/Tag';
-import { normalizeUrl } from '../utils/Parse';
+import Tag, { TagList } from '../types/Tag.js';
+import { normalizeUrl } from '../utils/Parse.js';
 
 export default class TagListParser {
   static parseTags(html: string): TagList {

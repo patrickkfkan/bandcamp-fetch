@@ -1,10 +1,10 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
-import { ImageFormat } from '../types/Image';
-import Show from '../types/Show';
-import { URLS } from '../utils/Constants';
-import Limiter from '../utils/Limiter';
-import ShowListParser from './ShowListParser';
-import ShowParser from './ShowParser';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import { ImageFormat } from '../types/Image.js';
+import Show from '../types/Show.js';
+import { URLS } from '../utils/Constants.js';
+import Limiter from '../utils/Limiter.js';
+import ShowListParser from './ShowListParser.js';
+import ShowParser from './ShowParser.js';
 
 export interface ShowAPIGetShowParams {
   showUrl: string,

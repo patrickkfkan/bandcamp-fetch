@@ -1,18 +1,18 @@
 import Bottleneck from 'bottleneck';
-import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI';
-import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI';
-import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI';
-import BandAPI, { LimiterBandAPI } from './band/BandAPI';
-import DiscoveryAPI, { LimiterDiscoveryAPI } from './discovery/DiscoveryAPI';
-import FanAPI, { LimiterFanAPI } from './fan/FanAPI';
-import ImageAPI, { LimiterImageAPI } from './image/ImageAPI';
-import SearchAPI, { LimiterSearchAPI } from './search/SearchAPI';
-import ShowAPI, { LimiterShowAPI } from './show/ShowAPI';
-import TagAPI, { LimiterTagAPI } from './tag/TagAPI';
-import TrackAPI, { LimiterTrackAPI } from './track/TrackAPI';
-import Cache, { CacheDataType } from './utils/Cache';
-import Fetcher from './utils/Fetcher';
-import Limiter from './utils/Limiter';
+import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI.js';
+import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI.js';
+import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI.js';
+import BandAPI, { LimiterBandAPI } from './band/BandAPI.js';
+import DiscoveryAPI, { LimiterDiscoveryAPI } from './discovery/DiscoveryAPI.js';
+import FanAPI, { LimiterFanAPI } from './fan/FanAPI.js';
+import ImageAPI, { LimiterImageAPI } from './image/ImageAPI.js';
+import SearchAPI, { LimiterSearchAPI } from './search/SearchAPI.js';
+import ShowAPI, { LimiterShowAPI } from './show/ShowAPI.js';
+import TagAPI, { LimiterTagAPI } from './tag/TagAPI.js';
+import TrackAPI, { LimiterTrackAPI } from './track/TrackAPI.js';
+import Cache, { CacheDataType } from './utils/Cache.js';
+import Fetcher from './utils/Fetcher.js';
+import Limiter from './utils/Limiter.js';
 
 export interface BandcampFetchParams {
   cookie?: string | null;

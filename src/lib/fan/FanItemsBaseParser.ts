@@ -1,7 +1,7 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import { FanItemsContinuation } from '../types/Fan';
-import { ImageFormat } from '../types/Image';
+import { FanItemsContinuation } from '../types/Fan.js';
+import { ImageFormat } from '../types/Image.js';
 
 type PageDataKey = 'collection' | 'wishlist' | 'following_genres' | 'following_bands';
 type ContinuationDataKey = 'items' | 'followeers';

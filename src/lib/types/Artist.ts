@@ -1,5 +1,5 @@
-import Label from './Label';
-import UserKind from './UserKind';
+import Label from './Label.js';
+import UserKind from './UserKind.js';
 
 interface Artist extends UserKind {
   type: 'artist';

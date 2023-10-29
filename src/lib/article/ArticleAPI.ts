@@ -1,12 +1,12 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
-import Article, { ArticleCategorySection, ArticleList } from '../types/Article';
-import { ImageFormat } from '../types/Image';
-import { URLS } from '../utils/Constants';
-import Limiter from '../utils/Limiter';
-import { normalizeUrl } from '../utils/Parse';
-import ArticleCategoryParser from './ArticleCategoryParser';
-import ArticleListParser from './ArticleListParser';
-import ArticleParser from './ArticleParser';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import Article, { ArticleCategorySection, ArticleList } from '../types/Article.js';
+import { ImageFormat } from '../types/Image.js';
+import { URLS } from '../utils/Constants.js';
+import Limiter from '../utils/Limiter.js';
+import { normalizeUrl } from '../utils/Parse.js';
+import ArticleCategoryParser from './ArticleCategoryParser.js';
+import ArticleListParser from './ArticleListParser.js';
+import ArticleParser from './ArticleParser.js';
 
 export interface ArticleAPIGetArticleParams {
   articleUrl: string;

@@ -1,7 +1,7 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import { ImageConstants } from '../types/Image';
-import { ParseError } from '../utils/Parse';
+import { ImageConstants } from '../types/Image.js';
+import { ParseError } from '../utils/Parse.js';
 
 export default class ImageParser {
 

@@ -1,6 +1,6 @@
-import NameValuePair from '../utils/NameValuePair';
-import Album from './Album';
-import Track from './Track';
+import NameValuePair from '../utils/NameValuePair.js';
+import Album from './Album.js';
+import Track from './Track.js';
 
 interface Tag {
   type: 'tag' | string;

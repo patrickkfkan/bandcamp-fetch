@@ -1,6 +1,6 @@
-import Artist from './Artist';
-import Label from './Label';
-import UserKind from './UserKind';
+import Artist from './Artist.js';
+import Label from './Label.js';
+import UserKind from './UserKind.js';
 
 interface MediaKind {
   name: string;

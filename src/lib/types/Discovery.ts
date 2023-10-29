@@ -1,6 +1,6 @@
-import NameValuePair from '../utils/NameValuePair';
-import Album from './Album';
-import { ImageFormat } from './Image';
+import NameValuePair from '../utils/NameValuePair.js';
+import Album from './Album.js';
+import { ImageFormat } from './Image.js';
 
 /**
  * Options and list of values for each option that can be used to formulate {@link DiscoverParams}.

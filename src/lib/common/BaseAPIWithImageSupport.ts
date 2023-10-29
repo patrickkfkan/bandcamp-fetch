@@ -1,5 +1,5 @@
-import ImageAPI from '../image/ImageAPI';
-import BaseAPI, { BaseAPIParams } from './BaseAPI';
+import ImageAPI from '../image/ImageAPI.js';
+import BaseAPI, { BaseAPIParams } from './BaseAPI.js';
 
 export interface BaseAPIWithImageSupportParams extends BaseAPIParams {
   imageAPI: ImageAPI;

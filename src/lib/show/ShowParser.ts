@@ -1,10 +1,10 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import { ImageFormat } from '../types/Image';
-import Show from '../types/Show';
-import { ParseError, splitUrl } from '../utils/Parse';
-import { URLS } from '../utils/Constants';
-import Track from '../types/Track';
+import { ImageFormat } from '../types/Image.js';
+import Show from '../types/Show.js';
+import { ParseError, splitUrl } from '../utils/Parse.js';
+import { URLS } from '../utils/Constants.js';
+import Track from '../types/Track.js';
 
 interface ShowParseOptions {
   showUrl: string,

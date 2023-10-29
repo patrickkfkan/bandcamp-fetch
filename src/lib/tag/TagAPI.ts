@@ -1,14 +1,14 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
-import { ImageFormat } from '../types/Image';
-import Tag, { AlbumHighlightsByTag, ReleasesByTag, TagList } from '../types/Tag';
-import { URLS } from '../utils/Constants';
-import { FetchMethod } from '../utils/Fetcher';
-import Limiter from '../utils/Limiter';
-import { ParseError, normalizeUrl, splitUrl } from '../utils/Parse';
-import AlbumHighlightsByTagParser from './AlbumHighlightsByTagParser';
-import ReleasesByTagParser from './ReleasesByTagParser';
-import TagInfoParser from './TagInfoParser';
-import TagListParser from './TagListParser';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import { ImageFormat } from '../types/Image.js';
+import Tag, { AlbumHighlightsByTag, ReleasesByTag, TagList } from '../types/Tag.js';
+import { URLS } from '../utils/Constants.js';
+import { FetchMethod } from '../utils/Fetcher.js';
+import Limiter from '../utils/Limiter.js';
+import { ParseError, normalizeUrl, splitUrl } from '../utils/Parse.js';
+import AlbumHighlightsByTagParser from './AlbumHighlightsByTagParser.js';
+import ReleasesByTagParser from './ReleasesByTagParser.js';
+import TagInfoParser from './TagInfoParser.js';
+import TagListParser from './TagListParser.js';
 
 export interface TagAPIGetAlbumHighlightsParams {
   tagUrl: string;

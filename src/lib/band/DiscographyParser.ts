@@ -1,10 +1,10 @@
 import { load as cheerioLoad } from 'cheerio';
-import { ImageFormat } from '../types/Image';
-import { normalizeUrl, reformatImageUrl, splitUrl } from '../utils/Parse';
-import Track from '../types/Track';
-import Album from '../types/Album';
-import TrackInfoParser from '../track/TrackInfoParser';
-import AlbumInfoParser from '../album/AlbumInfoParser';
+import { ImageFormat } from '../types/Image.js';
+import { normalizeUrl, reformatImageUrl, splitUrl } from '../utils/Parse.js';
+import Track from '../types/Track.js';
+import Album from '../types/Album.js';
+import TrackInfoParser from '../track/TrackInfoParser.js';
+import AlbumInfoParser from '../album/AlbumInfoParser.js';
 
 interface DiscographyParseOptions {
   imageBaseUrl: string;

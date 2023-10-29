@@ -58,7 +58,7 @@
     "cheerio": "^1.0.0-rc.5",
     "cookie": "^0.5.0",
     "eval5": "^1.4.7",
-    "html-entities": "^2.0.2",
+    "html-entities": "^2.4.0",
     "node-cache": "^5.1.2",
     "node-fetch": "^2.6.9"
   },

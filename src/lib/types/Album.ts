@@ -1,5 +1,5 @@
-import Track from './Track';
-import MediaKind from './MediaKind';
+import Track from './Track.js';
+import MediaKind from './MediaKind.js';
 
 interface Album extends MediaKind {
   type: 'album';

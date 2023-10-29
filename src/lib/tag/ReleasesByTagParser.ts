@@ -1,10 +1,10 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Album from '../types/Album';
-import { ImageFormat } from '../types/Image';
-import { ReleasesByTag } from '../types/Tag';
-import Track from '../types/Track';
-import { ParseError, stripLineBreaks } from '../utils/Parse';
+import Album from '../types/Album.js';
+import { ImageFormat } from '../types/Image.js';
+import { ReleasesByTag } from '../types/Tag.js';
+import Track from '../types/Track.js';
+import { ParseError, stripLineBreaks } from '../utils/Parse.js';
 import { Interpreter } from 'eval5';
 
 interface ReleasesByTagParseOptions {

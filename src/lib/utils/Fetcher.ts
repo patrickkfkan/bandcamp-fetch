@@ -1,6 +1,6 @@
 import { URL } from 'url';
 import fetch, { Request, RequestInit } from 'node-fetch';
-import Cache, { CacheDataType } from './Cache';
+import Cache, { CacheDataType } from './Cache.js';
 
 export enum FetchMethod {
   GET = 'GET',

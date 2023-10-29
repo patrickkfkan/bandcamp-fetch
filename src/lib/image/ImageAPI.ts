@@ -1,9 +1,9 @@
-import BaseAPI, { BaseAPIParams } from '../common/BaseAPI';
-import { ImageConstants, ImageFormat } from '../types/Image';
-import { CacheDataType } from '../utils/Cache';
-import { URLS } from '../utils/Constants';
-import Limiter from '../utils/Limiter';
-import ImageParser from './ImageParser';
+import BaseAPI, { BaseAPIParams } from '../common/BaseAPI.js';
+import { ImageConstants, ImageFormat } from '../types/Image.js';
+import { CacheDataType } from '../utils/Cache.js';
+import { URLS } from '../utils/Constants.js';
+import Limiter from '../utils/Limiter.js';
+import ImageParser from './ImageParser.js';
 
 export enum ImageFormatFilter {
   /** Album image formats */

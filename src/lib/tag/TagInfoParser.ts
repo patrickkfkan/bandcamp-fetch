@@ -1,7 +1,7 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Tag from '../types/Tag';
-import { ParseError, normalizeUrl } from '../utils/Parse';
+import Tag from '../types/Tag.js';
+import { ParseError, normalizeUrl } from '../utils/Parse.js';
 
 export default class TagInfoParser {
 

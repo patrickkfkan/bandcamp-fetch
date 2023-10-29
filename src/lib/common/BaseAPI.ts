@@ -1,5 +1,5 @@
-import Cache from '../utils/Cache';
-import Fetcher, { FetchMethod } from '../utils/Fetcher';
+import Cache from '../utils/Cache.js';
+import Fetcher, { FetchMethod } from '../utils/Fetcher.js';
 
 export interface BaseAPIParams {
   fetcher: Fetcher;

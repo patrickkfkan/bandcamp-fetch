@@ -1,8 +1,8 @@
-import Album from '../types/Album';
-import { ImageFormat } from '../types/Image';
-import AlbumInfoParser from './AlbumInfoParser';
-import Limiter from '../utils/Limiter';
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
+import Album from '../types/Album.js';
+import { ImageFormat } from '../types/Image.js';
+import AlbumInfoParser from './AlbumInfoParser.js';
+import Limiter from '../utils/Limiter.js';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
 
 export interface AlbumAPIGetInfoParams {
   albumUrl: string;

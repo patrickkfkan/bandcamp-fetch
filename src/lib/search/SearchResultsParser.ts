@@ -1,8 +1,8 @@
 import { load as cheerioLoad } from 'cheerio';
-import { ImageFormat } from '../types/Image';
-import { reformatImageUrl, stripLineBreaks, stripMultipleWhitespaces, substrAfter, substrBefore } from '../utils/Parse';
-import { SearchResultAlbum, SearchResultAny, SearchResultArtist, SearchResultFan, SearchResultItem, SearchResultLabel, SearchResultTrack, SearchResults } from '../types/Search';
-import { SearchItemType } from './SearchAPI';
+import { ImageFormat } from '../types/Image.js';
+import { reformatImageUrl, stripLineBreaks, stripMultipleWhitespaces, substrAfter, substrBefore } from '../utils/Parse.js';
+import { SearchResultAlbum, SearchResultAny, SearchResultArtist, SearchResultFan, SearchResultItem, SearchResultLabel, SearchResultTrack, SearchResults } from '../types/Search.js';
+import { SearchItemType } from './SearchAPI.js';
 
 const VALID_RESULT_TYPES = [ 'artist', 'label', 'album', 'track', 'fan' ];
 

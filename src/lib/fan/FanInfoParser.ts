@@ -1,8 +1,8 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Fan from '../types/Fan';
-import { ImageFormat } from '../types/Image';
-import { ParseError } from '../utils/Parse';
+import Fan from '../types/Fan.js';
+import { ImageFormat } from '../types/Image.js';
+import { ParseError } from '../utils/Parse.js';
 
 interface FanInfoParseOptions {
   imageBaseUrl: string;

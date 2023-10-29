@@ -1,7 +1,7 @@
-import Album from '../types/Album';
-import { FanItemsContinuation } from '../types/Fan';
-import Track from '../types/Track';
-import FanItemsBaseParser, { FanItemParseOptions } from './FanItemsBaseParser';
+import Album from '../types/Album.js';
+import { FanItemsContinuation } from '../types/Fan.js';
+import Track from '../types/Track.js';
+import FanItemsBaseParser, { FanItemParseOptions } from './FanItemsBaseParser.js';
 
 export default class FanWishlistParser extends FanItemsBaseParser {
   static parseWishlistFromPage(html: string, opts: FanItemParseOptions) {

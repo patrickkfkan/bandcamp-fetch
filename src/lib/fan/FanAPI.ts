@@ -1,18 +1,18 @@
-import Fan, { FanItemsContinuation } from '../types/Fan';
-import { ImageFormat } from '../types/Image';
-import { URLS } from '../utils/Constants';
-import { FetchError, FetchMethod } from '../utils/Fetcher';
-import { FanContinuationItemsResult, FanItemParseOptions, FanPageItemsResult } from './FanItemsBaseParser';
-import FanCollectionParser from './FanCollectionParser';
-import FanFollowingParser from './FanFollowingParser';
-import FanInfoParser from './FanInfoParser';
-import FanWishlistParser from './FanWishlistParser';
-import Album from '../types/Album';
-import Track from '../types/Track';
-import UserKind from '../types/UserKind';
-import Tag from '../types/Tag';
-import Limiter from '../utils/Limiter';
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport';
+import Fan, { FanItemsContinuation } from '../types/Fan.js';
+import { ImageFormat } from '../types/Image.js';
+import { URLS } from '../utils/Constants.js';
+import { FetchError, FetchMethod } from '../utils/Fetcher.js';
+import { FanContinuationItemsResult, FanItemParseOptions, FanPageItemsResult } from './FanItemsBaseParser.js';
+import FanCollectionParser from './FanCollectionParser.js';
+import FanFollowingParser from './FanFollowingParser.js';
+import FanInfoParser from './FanInfoParser.js';
+import FanWishlistParser from './FanWishlistParser.js';
+import Album from '../types/Album.js';
+import Track from '../types/Track.js';
+import UserKind from '../types/UserKind.js';
+import Tag from '../types/Tag.js';
+import Limiter from '../utils/Limiter.js';
+import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
 
 export { FanPageItemsResult, FanContinuationItemsResult };
 

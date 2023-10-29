@@ -1,9 +1,9 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Artist from '../types/Artist';
-import { ImageFormat } from '../types/Image';
-import Label from '../types/Label';
-import { ParseError, brToNewLine, parseLabelFromBackToLabelLink, reformatImageUrl, stripLineBreaks, stripTags } from '../utils/Parse';
+import Artist from '../types/Artist.js';
+import { ImageFormat } from '../types/Image.js';
+import Label from '../types/Label.js';
+import { ParseError, brToNewLine, parseLabelFromBackToLabelLink, reformatImageUrl, stripLineBreaks, stripTags } from '../utils/Parse.js';
 
 interface BandInfoParseOptions {
   bandUrl: string;
