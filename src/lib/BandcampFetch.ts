@@ -13,6 +13,7 @@ import TrackAPI, { LimiterTrackAPI } from './track/TrackAPI.js';
 import Cache, { CacheDataType } from './utils/Cache.js';
 import Fetcher from './utils/Fetcher.js';
 import Limiter from './utils/Limiter.js';
+import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
 
 export interface BandcampFetchParams {
   cookie?: string | null;
@@ -37,6 +38,7 @@ export default class BandcampFetch {
   readonly fan: FanAPI;
   readonly search: SearchAPI;
   readonly autocomplete: AutocompleteAPI;
+  readonly stream: StreamAPI;
 
   readonly limiter: {
     readonly album: LimiterAlbumAPI;
@@ -50,6 +52,7 @@ export default class BandcampFetch {
     readonly fan: LimiterFanAPI;
     readonly search: LimiterSearchAPI;
     readonly autocomplete: LimiterAutocompleteAPI;
+    readonly stream: StreamAPI;
     updateSettings: (options?: Bottleneck.ConstructorOptions) => void;
   };
 
@@ -89,6 +92,7 @@ export default class BandcampFetch {
     this.fan = new FanAPI(baseAPIWithImageSupportParams);
     this.search = new SearchAPI(baseAPIWithImageSupportParams);
     this.autocomplete = new AutocompleteAPI(baseAPIParams);
+    this.stream = new StreamAPI(baseAPIParams);
 
     this.limiter = {
       album: new LimiterAlbumAPI(baseAPIWithImageSupportParams),
@@ -102,6 +106,7 @@ export default class BandcampFetch {
       fan: new LimiterFanAPI(baseAPIWithImageSupportParams),
       search: new LimiterSearchAPI(baseAPIWithImageSupportParams),
       autocomplete: new LimiterAutocompleteAPI(baseAPIParams),
+      stream: new LimiterStreamAPI(baseAPIParams),
       updateSettings: this.#limiter.updateSettings.bind(this.#limiter)
     };
   }

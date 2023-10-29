@@ -17,5 +17,6 @@ export const URLS = {
   AUTOCOMPLETE: {
     TAG: `${API_URL}/fansignup/1/search_tag`,
     LOCATION: `${API_URL}/location/1/geoname_search`
-  }
+  },
+  REFRESH_STREAM: `${API_URL}/stream/1/refresh`
 };

@@ -13,6 +13,7 @@ export { default as TagAPI } from './lib/tag/TagAPI.js';
 export { default as TrackAPI } from './lib/track/TrackAPI.js';
 export { default as SearchAPI } from './lib/search/SearchAPI.js';
 export { default as AutocompleteAPI } from './lib/autocomplete/AutocompleteAPI.js';
+export { default as StreamAPI } from './lib/stream/StreamAPI.js';
 
 export * from './lib/common/BaseAPI.js';
 export * from './lib/common/BaseAPIWithImageSupport.js';
@@ -28,6 +29,7 @@ export * from './lib/track/TrackAPI.js';
 export * from './lib/album/AlbumAPI.js';
 export * from './lib/search/SearchAPI.js';
 export * from './lib/autocomplete/AutocompleteAPI.js';
+export * from './lib/stream/StreamAPI.js';
 
 export * from './lib/types/Album.js';
 export * from './lib/types/Article.js';

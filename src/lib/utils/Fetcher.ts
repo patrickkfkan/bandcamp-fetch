@@ -4,7 +4,8 @@ import Cache, { CacheDataType } from './Cache.js';
 
 export enum FetchMethod {
   GET = 'GET',
-  POST = 'POST'
+  POST = 'POST',
+  HEAD = 'HEAD'
 }
 
 export interface FetcherParams {
@@ -34,6 +35,7 @@ export default class Fetcher {
     return this.#cookie;
   }
 
+  fetch(url: string, jsonResponse: false, method: FetchMethod.HEAD, payload?: undefined): Promise<Response>;
   fetch(url: string, jsonResponse: true, method?: FetchMethod, payload?: Record<string, any>): Promise<any>;
   fetch(url: string, jsonResponse?: boolean, method?: FetchMethod, payload?: Record<string, any>): Promise<string>;
   fetch(url: string, jsonResponse?: boolean, method?: FetchMethod, payload?: Record<string, any>) {
@@ -44,6 +46,11 @@ export default class Fetcher {
       if (method === undefined) {
         method = FetchMethod.GET;
       }
+
+      if (method === FetchMethod.HEAD) {
+        return fetch(url, { method: 'HEAD' });
+      }
+
       let response;
       if (method === FetchMethod.GET) {
         const urlObj = new URL(url);
