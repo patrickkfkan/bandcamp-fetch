@@ -11,11 +11,7 @@ export interface StreamTestResult {
 export default class StreamAPI extends BaseAPI {
 
   async test(url: string): Promise<StreamTestResult> {
-    const res = await this.fetch(url, false, FetchMethod.HEAD);
-    return {
-      ok: res.ok,
-      status: res.status
-    };
+    return this.fetch(url, false, FetchMethod.HEAD);
   }
 
   async refresh(url: string): Promise<string | null> {

@@ -35,7 +35,7 @@ export default class Fetcher {
     return this.#cookie;
   }
 
-  fetch(url: string, jsonResponse: false, method: FetchMethod.HEAD, payload?: undefined): Promise<Response>;
+  fetch(url: string, jsonResponse: false, method: FetchMethod.HEAD, payload?: undefined): Promise<{ ok: boolean, status: number }>;
   fetch(url: string, jsonResponse: true, method?: FetchMethod, payload?: Record<string, any>): Promise<any>;
   fetch(url: string, jsonResponse?: boolean, method?: FetchMethod, payload?: Record<string, any>): Promise<string>;
   fetch(url: string, jsonResponse?: boolean, method?: FetchMethod, payload?: Record<string, any>) {
@@ -48,7 +48,11 @@ export default class Fetcher {
       }
 
       if (method === FetchMethod.HEAD) {
-        return fetch(url, { method: 'HEAD' });
+        const response = await fetch(url, { method: 'HEAD' });
+        return {
+          ok: response.ok,
+          status: response.status
+        };
       }
 
       let response;
