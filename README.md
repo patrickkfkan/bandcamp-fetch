@@ -1012,6 +1012,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+1.2.0
+- Add Stream API for testing and refreshing stream URLs
+
 1.1.1
 - Fix exports
 
