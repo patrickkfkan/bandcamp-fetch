@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[lib/types/Article.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L16)
+[lib/types/Article.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L16)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L10)
+[lib/types/Article.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L10)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L9)
+[lib/types/Article.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L9)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L6)
+[lib/types/Article.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L6)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L11)
+[lib/types/Article.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L11)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L8)
+[lib/types/Article.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L8)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L20)
+[lib/types/Article.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L20)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L22)
+[lib/types/Article.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L22)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L21)
+[lib/types/Article.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L21)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L5)
+[lib/types/Article.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L5)
 
 ___
 
@@ -149,4 +149,4 @@ ___
 
 #### Defined in
 
-[lib/types/Article.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Article.ts#L7)
+[lib/types/Article.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L7)

@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L14)
+[lib/common/BaseAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L15)
 
 ## Accessors
 
@@ -61,11 +61,34 @@ BaseAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
 
 ## Methods
 
 ### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``false`` |
+| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
+| `payload?` | `undefined` |
+
+#### Returns
+
+`Promise`<`Response`\>
+
+#### Inherited from
+
+[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
 
@@ -88,7 +111,7 @@ BaseAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -111,7 +134,7 @@ BaseAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
 
 ___
 
@@ -131,7 +154,7 @@ ___
 
 #### Defined in
 
-[lib/autocomplete/AutocompleteAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/autocomplete/AutocompleteAPI.ts#L21)
+[lib/autocomplete/AutocompleteAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/autocomplete/AutocompleteAPI.ts#L21)
 
 ▸ **getSuggestions**(`params`): `Promise`<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[]\>
 
@@ -147,7 +170,7 @@ ___
 
 #### Defined in
 
-[lib/autocomplete/AutocompleteAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/autocomplete/AutocompleteAPI.ts#L22)
+[lib/autocomplete/AutocompleteAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/autocomplete/AutocompleteAPI.ts#L22)
 
 ▸ **getSuggestions**(`params`): `Promise`<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[] \| [`AutocompleteLocation`](../interfaces/AutocompleteLocation.md)[]\>
 
@@ -163,4 +186,4 @@ ___
 
 #### Defined in
 
-[lib/autocomplete/AutocompleteAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/autocomplete/AutocompleteAPI.ts#L23)
+[lib/autocomplete/AutocompleteAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/autocomplete/AutocompleteAPI.ts#L23)

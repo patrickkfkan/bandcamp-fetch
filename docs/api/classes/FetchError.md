@@ -36,7 +36,7 @@ Error.constructor
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:106](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L106)
+[lib/utils/Fetcher.ts:113](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L113)
 
 ## Properties
 
@@ -46,4 +46,4 @@ Error.constructor
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:104](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L104)
+[lib/utils/Fetcher.ts:111](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L111)

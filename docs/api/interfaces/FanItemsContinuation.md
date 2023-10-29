@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[lib/types/Fan.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Fan.ts#L14)
+[lib/types/Fan.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L14)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[lib/types/Fan.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Fan.ts#L15)
+[lib/types/Fan.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L15)

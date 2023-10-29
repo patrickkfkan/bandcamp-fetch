@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[lib/band/BandAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L136)
+[lib/band/BandAPI.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L136)
 
 ## Accessors
 
@@ -62,7 +62,7 @@ BandAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
 
 ___
 
@@ -80,11 +80,34 @@ BandAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
 ### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``false`` |
+| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
+| `payload?` | `undefined` |
+
+#### Returns
+
+`Promise`<`Response`\>
+
+#### Inherited from
+
+[BandAPI](BandAPI.md).[fetch](BandAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
 
@@ -107,7 +130,7 @@ BandAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -130,7 +153,7 @@ BandAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
 
 ___
 
@@ -154,7 +177,7 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L141)
+[lib/band/BandAPI.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L141)
 
 ___
 
@@ -178,7 +201,7 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L145)
+[lib/band/BandAPI.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L145)
 
 ___
 
@@ -202,4 +225,4 @@ ___
 
 #### Defined in
 
-[lib/band/BandAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/band/BandAPI.ts#L149)
+[lib/band/BandAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L149)

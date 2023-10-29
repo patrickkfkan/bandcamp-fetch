@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/search/SearchAPI.ts#L12)
+[lib/search/SearchAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/search/SearchAPI.ts#L12)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/search/SearchAPI.ts#L10)
+[lib/search/SearchAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/search/SearchAPI.ts#L10)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/search/SearchAPI.ts#L11)
+[lib/search/SearchAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/search/SearchAPI.ts#L11)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/search/SearchAPI.ts#L14)
+[lib/search/SearchAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/search/SearchAPI.ts#L14)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/search/SearchAPI.ts#L13)
+[lib/search/SearchAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/search/SearchAPI.ts#L13)

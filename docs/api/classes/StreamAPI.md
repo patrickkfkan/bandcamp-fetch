@@ -1,51 +1,50 @@
-[bandcamp-fetch](../README.md) / ShowAPI
+[bandcamp-fetch](../README.md) / StreamAPI
 
-# Class: ShowAPI
+# Class: StreamAPI
 
 ## Hierarchy
 
-- [`BaseAPIWithImageSupport`](BaseAPIWithImageSupport.md)
+- [`BaseAPI`](BaseAPI.md)
 
-  ↳ **`ShowAPI`**
+  ↳ **`StreamAPI`**
 
-  ↳↳ [`LimiterShowAPI`](LimiterShowAPI.md)
+  ↳↳ [`LimiterStreamAPI`](LimiterStreamAPI.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ShowAPI.md#constructor)
+- [constructor](StreamAPI.md#constructor)
 
 ### Accessors
 
-- [cache](ShowAPI.md#cache)
-- [imageAPI](ShowAPI.md#imageapi)
+- [cache](StreamAPI.md#cache)
 
 ### Methods
 
-- [fetch](ShowAPI.md#fetch)
-- [getShow](ShowAPI.md#getshow)
-- [list](ShowAPI.md#list)
+- [fetch](StreamAPI.md#fetch)
+- [refresh](StreamAPI.md#refresh)
+- [test](StreamAPI.md#test)
 
 ## Constructors
 
 ### constructor
 
-• **new ShowAPI**(`params`)
+• **new StreamAPI**(`params`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) |
+| `params` | [`BaseAPIParams`](../interfaces/BaseAPIParams.md) |
 
 #### Inherited from
 
-[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[constructor](BaseAPIWithImageSupport.md#constructor)
+[BaseAPI](BaseAPI.md).[constructor](BaseAPI.md#constructor)
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L12)
+[lib/common/BaseAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L15)
 
 ## Accessors
 
@@ -59,29 +58,11 @@
 
 #### Inherited from
 
-BaseAPIWithImageSupport.cache
+BaseAPI.cache
 
 #### Defined in
 
 [lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
-
-___
-
-### imageAPI
-
-• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
-
-#### Returns
-
-[`ImageAPI`](ImageAPI.md)
-
-#### Inherited from
-
-BaseAPIWithImageSupport.imageAPI
-
-#### Defined in
-
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
@@ -104,7 +85,7 @@ BaseAPIWithImageSupport.imageAPI
 
 #### Inherited from
 
-[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
 
 #### Defined in
 
@@ -127,7 +108,7 @@ BaseAPIWithImageSupport.imageAPI
 
 #### Inherited from
 
-[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
 
 #### Defined in
 
@@ -150,7 +131,7 @@ BaseAPIWithImageSupport.imageAPI
 
 #### Inherited from
 
-[BaseAPIWithImageSupport](BaseAPIWithImageSupport.md).[fetch](BaseAPIWithImageSupport.md#fetch)
+[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
 
 #### Defined in
 
@@ -158,40 +139,40 @@ BaseAPIWithImageSupport.imageAPI
 
 ___
 
-### getShow
+### refresh
 
-▸ **getShow**(`params`): `Promise`<[`Show`](../interfaces/Show.md)\>
+▸ **refresh**(`url`): `Promise`<``null`` \| `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params` | [`ShowAPIGetShowParams`](../interfaces/ShowAPIGetShowParams.md) |
+| `url` | `string` |
 
 #### Returns
 
-`Promise`<[`Show`](../interfaces/Show.md)\>
+`Promise`<``null`` \| `string`\>
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L22)
+[lib/stream/StreamAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/stream/StreamAPI.ts#L21)
 
 ___
 
-### list
+### test
 
-▸ **list**(`params?`): `Promise`<[`Show`](../interfaces/Show.md)[]\>
+▸ **test**(`url`): `Promise`<[`StreamTestResult`](../interfaces/StreamTestResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params?` | [`ShowAPIListParams`](../interfaces/ShowAPIListParams.md) |
+| `url` | `string` |
 
 #### Returns
 
-`Promise`<[`Show`](../interfaces/Show.md)[]\>
+`Promise`<[`StreamTestResult`](../interfaces/StreamTestResult.md)\>
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L35)
+[lib/stream/StreamAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/stream/StreamAPI.ts#L13)

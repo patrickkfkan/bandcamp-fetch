@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[lib/album/AlbumAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/album/AlbumAPI.ts#L9)
+[lib/album/AlbumAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/album/AlbumAPI.ts#L9)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[lib/album/AlbumAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/album/AlbumAPI.ts#L8)
+[lib/album/AlbumAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/album/AlbumAPI.ts#L8)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[lib/album/AlbumAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/album/AlbumAPI.ts#L10)
+[lib/album/AlbumAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/album/AlbumAPI.ts#L10)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[lib/album/AlbumAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/album/AlbumAPI.ts#L11)
+[lib/album/AlbumAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/album/AlbumAPI.ts#L11)

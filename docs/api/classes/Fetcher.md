@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L20)
+[lib/utils/Fetcher.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L21)
 
 ## Accessors
 
@@ -45,11 +45,30 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L33)
+[lib/utils/Fetcher.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L34)
 
 ## Methods
 
 ### fetch
+
+▸ **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``false`` |
+| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
+| `payload?` | `undefined` |
+
+#### Returns
+
+`Promise`<`Response`\>
+
+#### Defined in
+
+[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L38)
 
 ▸ **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
 
@@ -68,7 +87,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L37)
+[lib/utils/Fetcher.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L39)
 
 ▸ **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -87,7 +106,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L38)
+[lib/utils/Fetcher.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L40)
 
 ___
 
@@ -107,4 +126,4 @@ ___
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/utils/Fetcher.ts#L25)
+[lib/utils/Fetcher.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L26)

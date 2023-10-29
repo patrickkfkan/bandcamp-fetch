@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:64](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/image/ImageAPI.ts#L64)
+[lib/image/ImageAPI.ts:64](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/image/ImageAPI.ts#L64)
 
 ## Accessors
 
@@ -60,11 +60,34 @@ ImageAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
 
 ## Methods
 
 ### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``false`` |
+| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
+| `payload?` | `undefined` |
+
+#### Returns
+
+`Promise`<`Response`\>
+
+#### Inherited from
+
+[ImageAPI](ImageAPI.md).[fetch](ImageAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
 
@@ -87,7 +110,7 @@ ImageAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -110,7 +133,7 @@ ImageAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
 
 ___
 
@@ -135,7 +158,7 @@ ___
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/image/ImageAPI.ts#L73)
+[lib/image/ImageAPI.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/image/ImageAPI.ts#L73)
 
 ___
 
@@ -159,4 +182,4 @@ ___
 
 #### Defined in
 
-[lib/image/ImageAPI.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/image/ImageAPI.ts#L69)
+[lib/image/ImageAPI.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/image/ImageAPI.ts#L69)

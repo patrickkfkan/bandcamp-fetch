@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:166](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L166)
+[lib/fan/FanAPI.ts:166](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L166)
 
 ## Accessors
 
@@ -64,7 +64,7 @@ FanAPI.cache
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L25)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
 
 ___
 
@@ -82,11 +82,34 @@ FanAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
 ### fetch
+
+▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `jsonResponse` | ``false`` |
+| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
+| `payload?` | `undefined` |
+
+#### Returns
+
+`Promise`<`Response`\>
+
+#### Inherited from
+
+[FanAPI](FanAPI.md).[fetch](FanAPI.md#fetch)
+
+#### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
 
@@ -109,7 +132,7 @@ FanAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L19)
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
 
 ▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
 
@@ -132,7 +155,7 @@ FanAPI.imageAPI
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
 
 ___
 
@@ -156,7 +179,7 @@ ___
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:175](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L175)
+[lib/fan/FanAPI.ts:175](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L175)
 
 ___
 
@@ -180,7 +203,7 @@ ___
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:183](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L183)
+[lib/fan/FanAPI.ts:183](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L183)
 
 ___
 
@@ -204,7 +227,7 @@ ___
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:187](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L187)
+[lib/fan/FanAPI.ts:187](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L187)
 
 ___
 
@@ -228,7 +251,7 @@ ___
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:171](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L171)
+[lib/fan/FanAPI.ts:171](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L171)
 
 ___
 
@@ -252,4 +275,4 @@ ___
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:179](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/fan/FanAPI.ts#L179)
+[lib/fan/FanAPI.ts:179](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L179)

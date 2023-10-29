@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/track/TrackAPI.ts#L9)
+[lib/track/TrackAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L9)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/track/TrackAPI.ts#L10)
+[lib/track/TrackAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L10)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/track/TrackAPI.ts#L11)
+[lib/track/TrackAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L11)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/track/TrackAPI.ts#L8)
+[lib/track/TrackAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L8)

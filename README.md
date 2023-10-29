@@ -857,6 +857,68 @@ The `value` property of returned suggestions can be used to set the `location` o
 ---
 </details>
 
+## Stream API
+
+Stream URLs returned by Bandcamp can sometimes be invalid (perhaps expired). Before playing a stream, you are recommended to test its URL and refresh it if necessary with the Stream API.
+
+To access the Stream API:
+
+```
+import bcfetch from 'bandcamp-fetch';
+
+const stream = bcfetch.stream;
+
+// Test a stream URL
+const streamURL = '...';
+const testResult = await stream.test(streamUrl);
+
+if (!testResult.ok) {
+    const refreshedStreamURL = await stream.refresh(streamURL);
+}
+```
+
+**Methods:**
+
+<details>
+<summary><code>test(url)</code></summary>
+<br />
+
+[**Example**](examples/stream/testAndRefresh.ts) ([output](examples/stream/testAndRefresh_output.txt))
+
+<p>Tests validity of the stream given by `url`.</p>
+
+**Params**
+
+- `url`: (string) the URL of the stream to test
+
+**Returns**
+
+Promise resolving to [StreamTestResult](docs/api/interfaces/StreamTestResult.md):
+- `ok`: (boolean) whether the stream is valid
+- `status`: (number) the HTTP response status code returned by the test
+
+---
+</details>
+
+<details>
+<summary><code>refresh(url)</code></summary>
+<br />
+
+[**Example**](examples/stream/testAndRefresh.ts) ([output](examples/stream/testAndRefresh_output.txt))
+
+<p>Refreshes a stream URL.</p>
+
+**Params**
+
+- `url`: (string) the URL of the stream to refresh
+
+**Returns**
+
+Promise resolving to the refreshed URL of the stream or `null` if no valid result was obtained.
+
+---
+</details>
+
 # Rate Limiting
 
 Each `BandcampFetch` instance comes with a rate limiter, which limits the number of requests made within a specific time period.

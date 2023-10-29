@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/UserKind.ts#L3)
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L3)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Artist.ts#L7)
+[lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Artist.ts#L7)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/UserKind.ts#L5)
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L5)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Artist.ts#L6)
+[lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Artist.ts#L6)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/UserKind.ts#L6)
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L6)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/UserKind.ts#L2)
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L2)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/Artist.ts#L5)
+[lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Artist.ts#L5)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7815c68/src/lib/types/UserKind.ts#L4)
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L4)
