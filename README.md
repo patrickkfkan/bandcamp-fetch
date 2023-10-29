@@ -950,6 +950,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+1.1.1
+- Fix exports
+
 1.1.0
 - Add support for user sessions through cookies. This means you can access your private collection and high-quality MP3 streams of purchased media.
 - Add ability to create multiple `BandcampFetch` instances
