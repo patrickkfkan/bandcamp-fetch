@@ -1014,6 +1014,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+1.2.1
+- Fix `duration` not returned in result of `TrackAPI::getInfo()` ([#7](https://github.com/patrickkfkan/bandcamp-fetch/issues/7))
+
 1.2.0
 - Add Stream API for testing and refreshing stream URLs
 
