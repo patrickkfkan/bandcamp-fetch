@@ -2,7 +2,7 @@ import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
 import { ImageFormat } from '../types/Image.js';
 import Track from '../types/Track.js';
-import { ParseError, getAdditionalPropertyValue, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl, splitUrl } from '../utils/Parse.js';
+import { ParseError, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl, splitUrl } from '../utils/Parse.js';
 import AlbumInfoParser from '../album/AlbumInfoParser.js';
 
 interface TrackInfoParseOptions {
@@ -75,7 +75,7 @@ export default class TrackInfoParser {
       track.releaseDate = extra.current.release_date;
     }
 
-    const duration = getAdditionalPropertyValue<number>(basic, 'duration_secs');
+    const duration = extra.trackinfo?.[0]?.duration;
     if (duration !== undefined) {
       track.duration = duration;
     }
