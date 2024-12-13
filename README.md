@@ -951,6 +951,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+2.0.0-node14-compat
+- Modified from main branch v2.0.0 for Node v14 compatibility
+
 2.0.0 ([breaking changes](docs/changes-1.x-2.x.md)!)
 - Revise API to reflect Bandcamp changes
 - Add `lyrics` property to `Track`

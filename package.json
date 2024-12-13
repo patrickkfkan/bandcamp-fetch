@@ -1,15 +1,11 @@
 {
   "name": "bandcamp-fetch",
-  "version": "2.0.0",
+  "version": "2.0.0-node14-compat",
   "description": "Scrape Bandcamp content",
   "scripts": {
-    "build": "npm run prepare",
+    "build": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
     "build:esm": "npx tsc -p tsconfig-esm.json",
-    "build:cjs": "npx tsc -p tsconfig.json",
-    "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
-    "lint": "npx eslint ./src && npx eslint ./examples",
-    "lint:fix": "npx eslint ./src --fix",
-    "doc": "npx typedoc"
+    "build:cjs": "npx tsc -p tsconfig.json"
   },
   "main": "./dist/cjs/index-cjs.js",
   "module": "./dist/mjs/index.js",
@@ -36,25 +32,19 @@
     "dist": "./dist"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=14"
   },
   "devDependencies": {
-    "@types/node": "^18.19.50",
-    "@typescript-eslint/eslint-plugin": "^8.15.0",
-    "@typescript-eslint/parser": "^8.15.0",
-    "typescript-eslint": "^8.15.0",
-    "eslint": "^9.15.0",
-    "eslint-plugin-tsdoc": "^0.3.0",
-    "typedoc": "^0.26.11",
-    "typedoc-plugin-markdown": "^4.2.10",
-    "typedoc-plugin-rename-defaults": "^0.7.1",
+    "@types/node": "^20.17.10",
+    "@types/node-fetch": "^2.6.2",
     "typescript": "^5.6.3"
   },
   "dependencies": {
     "bottleneck": "^2.19.5",
-    "cheerio": "^1.0.0",
+    "cheerio": "1.0.0-rc.12",
     "html-entities": "^2.5.2",
-    "node-cache": "^5.1.2"
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.9"
   },
   "keywords": [
     "bandcamp",

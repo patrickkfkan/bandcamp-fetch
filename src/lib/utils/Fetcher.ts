@@ -1,3 +1,4 @@
+import fetch, { Request, RequestInit } from 'node-fetch';
 import { URL } from 'url';
 import type Cache from './Cache.js';
 import { CacheDataType } from './Cache.js';
