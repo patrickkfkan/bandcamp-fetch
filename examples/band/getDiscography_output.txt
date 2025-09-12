@@ -1,14 +1,253 @@
+Artist URL: https://musique.coeurdepirate.com
+[
+  {
+    "url": "https://musique.coeurdepirate.com/track/ch-teau-de-sable",
+    "type": "track",
+    "id": 2378877721,
+    "name": "Château de sable",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2168234083_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/cavale",
+    "type": "track",
+    "id": 3165072002,
+    "name": "Cavale",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2002688912_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/c-tait-salement-romantique-reprise",
+    "type": "track",
+    "id": 26263417,
+    "name": "C'était salement romantique (reprise)",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2225683825_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/parfait-no-l",
+    "type": "track",
+    "id": 2863393330,
+    "name": "Parfait Noël",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a0887598283_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/clou",
+    "type": "album",
+    "id": 1955655207,
+    "name": "Clou",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a0422319817_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/impossible-aimer",
+    "type": "album",
+    "id": 1204339409,
+    "name": "Impossible à aimer",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a3147632514_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/on-saimera-toujours-2",
+    "type": "track",
+    "id": 822389203,
+    "name": "On s'aimera toujours",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a0599648879_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/plan-trois",
+    "type": "track",
+    "id": 1778183357,
+    "name": "Plan à trois",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a4236666126_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/pers-ides",
+    "type": "album",
+    "id": 3082251937,
+    "name": "Perséides",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a3751956000_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/tes-belle",
+    "type": "track",
+    "id": 3387079907,
+    "name": "T'es belle",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a0774650359_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/track/ne-mappelle-pas",
+    "type": "track",
+    "id": 1968148031,
+    "name": "Ne m'appelle pas",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2603960871_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/en-cas-de-temp-te-ce-jardin-sera-ferm",
+    "type": "album",
+    "id": 2415776908,
+    "name": "en cas de tempête, ce jardin sera fermé.",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a0248413645_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/somnambule",
+    "type": "album",
+    "id": 2070714654,
+    "name": "Somnambule",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a1903816474_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/pr-monition-2",
+    "type": "album",
+    "id": 2302189044,
+    "name": "Prémonition",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2454271957_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/chansons-tristes-pour-no-l",
+    "type": "album",
+    "id": 3888425306,
+    "name": "Chansons tristes pour Noël",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2476670277_16.jpg"
+  },
+  {
+    "url": "https://musique.coeurdepirate.com/album/roses",
+    "type": "album",
+    "id": 2263614154,
+    "name": "Roses",
+    "artist": {
+      "name": "Cœur de pirate"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a3347055233_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/carry-on-2",
+    "type": "album",
+    "id": 2019722172,
+    "name": "Carry On",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a4277887982_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/oublie-moi-carry-on",
+    "type": "album",
+    "id": 1867352774,
+    "name": "Oublie-moi (Carry On)",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a891943451_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/child-of-light",
+    "type": "album",
+    "id": 2789088897,
+    "name": "Child of Light",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a603109913_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/trauma",
+    "type": "album",
+    "id": 2305636330,
+    "name": "Trauma",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a3799110102_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/blonde",
+    "type": "album",
+    "id": 838845289,
+    "name": "Blonde",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a1328452291_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/comme-des-enfants-version-originale-et-remix-par-le-matos",
+    "type": "album",
+    "id": 2716284024,
+    "name": "Comme des enfants (Version originale et remix par Le Matos)",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a1250129776_16.jpg"
+  },
+  {
+    "url": "https://bandcamp.com/album/coeur-de-pirate",
+    "type": "album",
+    "id": 1555436085,
+    "name": "Coeur de pirate",
+    "artist": {},
+    "imageUrl": "https://f4.bcbits.com/img/a2201751482_16.jpg"
+  }
+]
+
 Label URL: https://randsrecords.bandcamp.com
 [
   {
-    "url": "https://paulwhite.bandcamp.com/album/peace-in-chaos",
+    "url": "https://randsrecords.bandcamp.com/album/classics-2",
     "type": "album",
-    "id": 742962498,
-    "name": "Peace In Chaos",
+    "id": 3009833669,
+    "name": "Classics",
     "artist": {
-      "name": "Paul White"
+      "name": "Joey Beltram"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a4024642086_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a2031869115_16.jpg"
+  },
+  {
+    "url": "https://randsrecords.bandcamp.com/album/classics",
+    "type": "album",
+    "name": "Classics",
+    "artist": {
+      "name": "Aphex Twin"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a1820351389_16.jpg"
+  },
+  {
+    "url": "https://randsrecords.bandcamp.com/album/frisia",
+    "type": "album",
+    "id": 2983958330,
+    "name": "Frisia",
+    "artist": {
+      "name": "Quicche"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2143315036_16.jpg"
   },
   {
     "url": "https://randsrecords.bandcamp.com/album/xenoverse",
@@ -19,6 +258,16 @@ Label URL: https://randsrecords.bandcamp.com
       "name": "Chizawa Q"
     },
     "imageUrl": "https://f4.bcbits.com/img/a0749848309_16.jpg"
+  },
+  {
+    "url": "https://paulwhite.bandcamp.com/album/peace-in-chaos",
+    "type": "album",
+    "id": 742962498,
+    "name": "Peace In Chaos",
+    "artist": {
+      "name": "Paul White"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a4024642086_16.jpg"
   },
   {
     "url": "https://randsrecords.bandcamp.com/album/gracie-ep",
@@ -141,17 +390,17 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a2405205306_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/sooth-sayings",
+    "url": "https://bandcamp.com/album/sooth-sayings",
     "type": "album",
     "id": 1546791499,
     "name": "Sooth Sayings",
     "artist": {
       "name": "Mikahl Anthony"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a0831106826_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a831106826_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/la-flare",
+    "url": "https://bandcamp.com/album/la-flare",
     "type": "album",
     "id": 1855962650,
     "name": "La Flare",
@@ -2038,7 +2287,7 @@ Label URL: https://randsrecords.bandcamp.com
     "artist": {
       "name": "Aphex Twin"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a272573577_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a1820351389_16.jpg"
   },
   {
     "url": "https://sunelectric.bandcamp.com/album/aaah-1994?label=999120622&tab=music",
@@ -2128,7 +2377,7 @@ Label URL: https://randsrecords.bandcamp.com
     "artist": {
       "name": "Aphex Twin"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a3362316723_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a1149097520_16.jpg"
   },
   {
     "url": "https://bandcamp.com/album/digeridoo-ep-1991",
@@ -2189,210 +2438,6 @@ Label URL: https://randsrecords.bandcamp.com
       "name": "Joey Beltram"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1773485173_16.jpg"
-  }
-]
-
-Artist URL: https://musique.coeurdepirate.com
-[
-  {
-    "url": "https://musique.coeurdepirate.com/track/c-tait-salement-romantique-reprise",
-    "type": "track",
-    "id": 26263417,
-    "name": "C'était salement romantique (reprise)",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2225683825_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/track/parfait-no-l",
-    "type": "track",
-    "id": 2863393330,
-    "name": "Parfait Noël",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0887598283_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/clou",
-    "type": "album",
-    "id": 1955655207,
-    "name": "Clou",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0422319817_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/impossible-aimer",
-    "type": "album",
-    "id": 1204339409,
-    "name": "Impossible à aimer",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a3147632514_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/track/on-saimera-toujours-2",
-    "type": "track",
-    "id": 822389203,
-    "name": "On s'aimera toujours",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0599648879_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/track/plan-trois",
-    "type": "track",
-    "id": 1778183357,
-    "name": "Plan à trois",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a4236666126_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/pers-ides",
-    "type": "album",
-    "id": 3082251937,
-    "name": "Perséides",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a3751956000_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/track/tes-belle",
-    "type": "track",
-    "id": 3387079907,
-    "name": "T'es belle",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0774650359_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/track/ne-mappelle-pas",
-    "type": "track",
-    "id": 1968148031,
-    "name": "Ne m'appelle pas",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2603960871_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/en-cas-de-temp-te-ce-jardin-sera-ferm",
-    "type": "album",
-    "id": 2415776908,
-    "name": "en cas de tempête, ce jardin sera fermé.",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0248413645_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/somnambule",
-    "type": "album",
-    "id": 2070714654,
-    "name": "Somnambule",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a1903816474_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/pr-monition-2",
-    "type": "album",
-    "id": 2302189044,
-    "name": "Prémonition",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2454271957_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/chansons-tristes-pour-no-l",
-    "type": "album",
-    "id": 3888425306,
-    "name": "Chansons tristes pour Noël",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2476670277_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/roses",
-    "type": "album",
-    "id": 2263614154,
-    "name": "Roses",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a3347055233_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/carry-on-2",
-    "type": "album",
-    "id": 2019722172,
-    "name": "Carry On",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a4277887982_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/album/oublie-moi-carry-on",
-    "type": "album",
-    "id": 1867352774,
-    "name": "Oublie-moi (Carry On)",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0891943451_16.jpg"
-  },
-  {
-    "url": "https://bandcamp.com/album/child-of-light",
-    "type": "album",
-    "id": 2789088897,
-    "name": "Child of Light",
-    "artist": {},
-    "imageUrl": "https://f4.bcbits.com/img/a3984758353_16.jpg"
-  },
-  {
-    "url": "https://bandcamp.com/album/trauma",
-    "type": "album",
-    "id": 2305636330,
-    "name": "Trauma",
-    "artist": {},
-    "imageUrl": "https://f4.bcbits.com/img/a3799110102_16.jpg"
-  },
-  {
-    "url": "https://bandcamp.com/album/blonde",
-    "type": "album",
-    "id": 838845289,
-    "name": "Blonde",
-    "artist": {},
-    "imageUrl": "https://f4.bcbits.com/img/a1328452291_16.jpg"
-  },
-  {
-    "url": "https://bandcamp.com/album/comme-des-enfants-version-originale-et-remix-par-le-matos",
-    "type": "album",
-    "id": 2716284024,
-    "name": "Comme des enfants (Version originale et remix par Le Matos)",
-    "artist": {},
-    "imageUrl": "https://f4.bcbits.com/img/a1250129776_16.jpg"
-  },
-  {
-    "url": "https://bandcamp.com/album/coeur-de-pirate",
-    "type": "album",
-    "id": 1555436085,
-    "name": "Coeur de pirate",
-    "artist": {},
-    "imageUrl": "https://f4.bcbits.com/img/a2201751482_16.jpg"
   }
 ]
 

@@ -1,0 +1,241 @@
+{
+  "tags": [
+    {
+      "type": "tag",
+      "name": "electronic",
+      "value": "electronic"
+    },
+    {
+      "type": "tag",
+      "name": "experimental",
+      "value": "experimental"
+    },
+    {
+      "type": "tag",
+      "name": "alternative",
+      "value": "alternative"
+    },
+    {
+      "type": "tag",
+      "name": "rock",
+      "value": "rock"
+    },
+    {
+      "type": "tag",
+      "name": "ambient",
+      "value": "ambient"
+    },
+    {
+      "type": "tag",
+      "name": "hip-hop/rap",
+      "value": "hip-hop-rap"
+    },
+    {
+      "type": "tag",
+      "name": "metal",
+      "value": "metal"
+    },
+    {
+      "type": "tag",
+      "name": "punk",
+      "value": "punk"
+    },
+    {
+      "type": "tag",
+      "name": "techno",
+      "value": "techno"
+    },
+    {
+      "type": "tag",
+      "name": "noise",
+      "value": "noise"
+    },
+    {
+      "type": "tag",
+      "name": "indie",
+      "value": "indie"
+    },
+    {
+      "type": "tag",
+      "name": "jazz",
+      "value": "jazz"
+    },
+    {
+      "type": "tag",
+      "name": "instrumental",
+      "value": "instrumental"
+    },
+    {
+      "type": "tag",
+      "name": "folk",
+      "value": "indie-rock"
+    },
+    {
+      "type": "tag",
+      "name": "pop",
+      "value": "pop"
+    },
+    {
+      "type": "tag",
+      "name": "funk",
+      "value": "funk"
+    },
+    {
+      "type": "tag",
+      "name": "post-rock",
+      "value": "post-rock"
+    },
+    {
+      "type": "tag",
+      "name": "house",
+      "value": "house"
+    },
+    {
+      "type": "tag",
+      "name": "lo-fi",
+      "value": "lo-fi"
+    },
+    {
+      "type": "tag",
+      "name": "indie pop",
+      "value": "indie-pop"
+    },
+    {
+      "type": "tag",
+      "name": "shoegaze",
+      "value": "shoegaze"
+    },
+    {
+      "type": "tag",
+      "name": "synthwave",
+      "value": "synthwave"
+    },
+    {
+      "type": "tag",
+      "name": "underground hip hop",
+      "value": "underground-hip-hop"
+    },
+    {
+      "type": "tag",
+      "name": "dream pop",
+      "value": "dream-pop"
+    },
+    {
+      "type": "tag",
+      "name": "breakcore",
+      "value": "breakcore"
+    },
+    {
+      "type": "tag",
+      "name": "bedroom pop",
+      "value": "bedroom-pop"
+    },
+    {
+      "type": "tag",
+      "name": "ambient + field recordings",
+      "value": "ambient+field-recordings"
+    },
+    {
+      "type": "tag",
+      "name": "beat tape",
+      "value": "beat-tape"
+    },
+    {
+      "type": "tag",
+      "name": "afrobeats",
+      "value": "afrobeat"
+    },
+    {
+      "type": "tag",
+      "name": "future funk",
+      "value": "future-funk"
+    },
+    {
+      "type": "tag",
+      "name": "broken beat",
+      "value": "broken-beat"
+    }
+  ],
+  "locations": [
+    {
+      "type": "location",
+      "name": "Los Angeles",
+      "value": 5368361
+    },
+    {
+      "type": "location",
+      "name": "Berlin",
+      "value": 2950159
+    },
+    {
+      "type": "location",
+      "name": "Paris",
+      "value": 2988507
+    },
+    {
+      "type": "location",
+      "name": "Tokyo",
+      "value": 1850144
+    },
+    {
+      "type": "location",
+      "name": "San Francisco",
+      "value": 5391959
+    },
+    {
+      "type": "location",
+      "name": "Detroit",
+      "value": 4990729
+    },
+    {
+      "type": "location",
+      "name": "São Paulo",
+      "value": 3448439
+    },
+    {
+      "type": "location",
+      "name": "Hamburg",
+      "value": 2911297
+    },
+    {
+      "type": "location",
+      "name": "Lisbon",
+      "value": 2267056
+    },
+    {
+      "type": "location",
+      "name": "Singapore",
+      "value": 1880251
+    },
+    {
+      "type": "location",
+      "name": "Buenos Aires",
+      "value": 3435907
+    },
+    {
+      "type": "location",
+      "name": "Barcelona",
+      "value": 3128760
+    },
+    {
+      "type": "location",
+      "name": "Vietnam",
+      "value": 1562822
+    },
+    {
+      "type": "location",
+      "name": "Mexico City",
+      "value": 3530597
+    },
+    {
+      "type": "location",
+      "name": "Lima",
+      "value": 3936452
+    },
+    {
+      "type": "location",
+      "name": "Egypt",
+      "value": 357994
+    }
+  ]
+}

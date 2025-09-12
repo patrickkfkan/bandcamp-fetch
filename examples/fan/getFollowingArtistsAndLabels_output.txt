@@ -52,7 +52,7 @@
       "name": "Cœur de pirate",
       "location": "Montréal, Québec",
       "url": "https://coeurdepirate.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/34241766_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/37916293_28.jpg"
     },
     {
       "name": "M. Ward",
@@ -163,7 +163,7 @@
       "imageUrl": "https://f4.bcbits.com/img/29288983_28.jpg"
     },
     {
-      "name": "SACRED//PAWS",
+      "name": "SACRED PAWS",
       "location": "Glasgow, UK",
       "url": "https://sacredpaws.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/41645_28.jpg"
@@ -199,7 +199,7 @@
       "imageUrl": "https://f4.bcbits.com/img/16153963_28.jpg"
     },
     {
-      "name": "Eric Bachmann",
+      "name": "Eric Bachmann  Man",
       "location": "North Carolina",
       "url": "https://ericbachmann.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/35295312_28.jpg"
@@ -302,7 +302,7 @@ Fetching more by continuation...
       "name": "William Tyler",
       "location": "Los Angeles, California",
       "url": "https://williamtyler.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/36928965_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/38674937_28.jpg"
     },
     {
       "name": "The Clientele",
@@ -326,7 +326,7 @@ Fetching more by continuation...
       "name": "Fruit Bats",
       "location": "",
       "url": "https://fruit-bats.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/31581619_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/40078876_28.jpg"
     },
     {
       "name": "The Clean",

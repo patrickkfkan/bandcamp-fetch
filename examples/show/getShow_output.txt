@@ -1,17 +1,14 @@
 {
   "type": "show",
   "name": "The Hip-Hop Show",
-  "url": "https://bandcamp.com/?show=421",
+  "url": "https://bandcamp.com/radio?show=421",
   "publishedDate": "29 Jan 2021 00:00:00 GMT",
   "description": "Ovrkast joins the show to discuss his latest album, Try Again. Plus sounds from Potatohead People, Isaiah Mclane, and Boom Baptist.",
   "shortDescription": "Ovrkast discusses his latest album, Try Again, plus appearances from Boom Baptist and Isaiah Mclane",
   "imageCaption": "Hosted by <a href=\"https://stoneycreation.bandcamp.com/\"_blank\">Stoney Creation</a>. Illustration of <a href=“ https://itsovrkast.bandcamp.com\">Ovrkast</a> by <a href=\"https://mckayfelt.site/\"_blank\">McKay Felt</a>",
-  "subtitle": "55 Degree Weather",
-  "duration": 5133.84,
   "screenImageUrl": "https://f4.bcbits.com/img/23443998_0",
-  "streamUrl": {
-    "mp3-128": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1732178225&t=2cfa6ca1441201d41c2132c46de0486497e665bf"
-  },
+  "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1825658732&ts=1757684508&t=dd6ea57f96a3a000e16f95eb48a6afa31b2f7bdf",
+  "duration": 5133.84,
   "imageUrl": "https://f4.bcbits.com/img/23443998_25.jpg",
   "tracks": [
     {
@@ -21,13 +18,10 @@
       "seekPosition": 0,
       "artist": {
         "name": "eighty9s",
-        "url": "https://eighty9s.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/37161013_21.jpg"
+        "url": "https://eighty9s.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a1082190285_9.jpg",
       "album": {
-        "id": 2145263081,
         "name": "Past Time",
         "url": "https://eighty9s.bandcamp.com/album/past-time"
       }
@@ -39,13 +33,10 @@
       "seekPosition": 106,
       "artist": {
         "name": "Potatohead People",
-        "url": "https://potatoheadpeople.bandcamp.com",
-        "location": "Vancouver, British Columbia",
-        "imageUrl": "https://f4.bcbits.com/img/35262821_21.jpg"
+        "url": "https://potatoheadpeople.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a56254833_9.jpg",
       "album": {
-        "id": 4105272214,
         "name": "Mellow Fantasy",
         "url": "https://potatoheadpeople.bandcamp.com/album/mellow-fantasy"
       }
@@ -57,13 +48,10 @@
       "seekPosition": 313,
       "artist": {
         "name": "Breeze Brewin, Juggaknots",
-        "url": "https://juggaknots.bandcamp.com",
-        "location": "New York, New York",
-        "imageUrl": "https://f4.bcbits.com/img/14673280_21.jpg"
+        "url": "https://juggaknots.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2530516806_9.jpg",
       "album": {
-        "id": 3896539623,
         "name": "Breeze Brewin, Juggaknots - Hindsight",
         "url": "https://juggaknots.bandcamp.com/album/breeze-brewin-juggaknots-hindsight"
       }
@@ -75,13 +63,10 @@
       "seekPosition": 460,
       "artist": {
         "name": "YUNGMORPHEUS & ewonee",
-        "url": "https://yungmorpheus.bandcamp.com",
-        "location": "Los Angeles, California",
-        "imageUrl": "https://f4.bcbits.com/img/34296918_21.jpg"
+        "url": "https://yungmorpheus.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a122830275_9.jpg",
       "album": {
-        "id": 1887988876,
         "name": "Thumbing Thru Foliage",
         "url": "https://yungmorpheus.bandcamp.com/album/thumbing-thru-foliage"
       }
@@ -93,13 +78,10 @@
       "seekPosition": 575,
       "artist": {
         "name": "Aaron Fairchild",
-        "url": "https://aaronxfairchild.bandcamp.com",
-        "location": "Portland, Oregon",
-        "imageUrl": "https://f4.bcbits.com/img/25703843_21.jpg"
+        "url": "https://aaronxfairchild.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a1569522923_9.jpg",
       "album": {
-        "id": 2576827621,
         "name": "The Sun Comes Through",
         "url": "https://aaronxfairchild.bandcamp.com/album/the-sun-comes-through"
       }
@@ -111,13 +93,10 @@
       "seekPosition": 780,
       "artist": {
         "name": "lojii",
-        "url": "https://lojii.bandcamp.com",
-        "location": "Philadelphia, Pennsylvania",
-        "imageUrl": "https://f4.bcbits.com/img/22800934_21.jpg"
+        "url": "https://lojii.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a23158227_9.jpg",
       "album": {
-        "id": 3305864446,
         "name": "lo&behold",
         "url": "https://lojii.bandcamp.com/album/lo-behold-2"
       }
@@ -129,13 +108,10 @@
       "seekPosition": 955,
       "artist": {
         "name": "Isaiah Mostafa",
-        "url": "https://isaiahmostafa.bandcamp.com",
-        "location": "Berkeley, California",
-        "imageUrl": "https://f4.bcbits.com/img/37618806_21.jpg"
+        "url": "https://isaiahmostafa.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a231490898_9.jpg",
       "album": {
-        "id": 1381331686,
         "name": "The 37 Week Challenge",
         "url": "https://isaiahmostafa.bandcamp.com/album/the-37-week-challenge"
       }
@@ -147,9 +123,7 @@
       "seekPosition": 1123,
       "artist": {
         "name": "Ashia Karana",
-        "url": "https://ashiakarana.bandcamp.com",
-        "location": "Atlanta, Georgia",
-        "imageUrl": "https://f4.bcbits.com/img/21083350_21.jpg"
+        "url": "https://ashiakarana.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2001339741_9.jpg"
     },
@@ -160,13 +134,10 @@
       "seekPosition": 1342,
       "artist": {
         "name": "Knxwledge.",
-        "url": "https://knxwledge.bandcamp.com",
-        "location": "Los Angeles, California",
-        "imageUrl": "https://f4.bcbits.com/img/20991183_21.jpg"
+        "url": "https://knxwledge.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a1776099330_9.jpg",
       "album": {
-        "id": 2819709973,
         "name": "VGM.8",
         "url": "https://knxwledge.bandcamp.com/album/vgm-8"
       }
@@ -178,13 +149,10 @@
       "seekPosition": 1538,
       "artist": {
         "name": "Shaw Calhoune",
-        "url": "https://shawcalhoune.bandcamp.com",
-        "location": "Maryland",
-        "imageUrl": "https://f4.bcbits.com/img/22975182_21.jpg"
+        "url": "https://shawcalhoune.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3592642307_9.jpg",
       "album": {
-        "id": 1760088419,
         "name": "The Rudy Tape",
         "url": "https://shawcalhoune.bandcamp.com/album/the-rudy-tape"
       }
@@ -196,13 +164,10 @@
       "seekPosition": 1628,
       "artist": {
         "name": "Big Kahuna OG & Monday Night",
-        "url": "https://schemeteamallstars.bandcamp.com",
-        "location": "Richmond, Virginia",
-        "imageUrl": "https://f4.bcbits.com/img/13872878_21.jpg"
+        "url": "https://schemeteamallstars.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a309077249_9.jpg",
       "album": {
-        "id": 321083846,
         "name": "SHARK REPORT",
         "url": "https://schemeteamallstars.bandcamp.com/album/shark-report"
       }
@@ -214,13 +179,10 @@
       "seekPosition": 1833,
       "artist": {
         "name": "Primeridian x Rashid Hadee",
-        "url": "https://culturepower45.bandcamp.com",
-        "location": "Chicago, Illinois",
-        "imageUrl": "https://f4.bcbits.com/img/16005517_21.jpg"
+        "url": "https://culturepower45.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3904534507_9.jpg",
       "album": {
-        "id": 3755585315,
         "name": "Prime Diesel",
         "url": "https://culturepower45.bandcamp.com/album/prime-diesel"
       }
@@ -232,13 +194,10 @@
       "seekPosition": 2047,
       "artist": {
         "name": "BoomBaptist",
-        "url": "https://boombaptist.bandcamp.com",
-        "location": "Austin",
-        "imageUrl": "https://f4.bcbits.com/img/23197928_21.jpg"
+        "url": "https://boombaptist.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3906030308_9.jpg",
       "album": {
-        "id": 1860998428,
         "name": "Komfort Food",
         "url": "https://boombaptist.bandcamp.com/album/komfort-food"
       }
@@ -250,13 +209,10 @@
       "seekPosition": 2262,
       "artist": {
         "name": "Arya",
-        "url": "https://sweetsoularya.bandcamp.com",
-        "location": "Milan, Italy",
-        "imageUrl": "https://f4.bcbits.com/img/28835079_21.jpg"
+        "url": "https://sweetsoularya.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2599977834_9.jpg",
       "album": {
-        "id": 3663790128,
         "name": "Peace Of Mind",
         "url": "https://sweetsoularya.bandcamp.com/album/peace-of-mind"
       }
@@ -268,13 +224,10 @@
       "seekPosition": 2440,
       "artist": {
         "name": "The Band of the Hawk & Yeaux Majesty",
-        "url": "https://bohup.bandcamp.com",
-        "location": "Houston, Texas",
-        "imageUrl": "https://f4.bcbits.com/img/20980289_21.jpg"
+        "url": "https://bohup.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3760799760_9.jpg",
       "album": {
-        "id": 1115153220,
         "name": "Memorabilia",
         "url": "https://bohup.bandcamp.com/album/memorabilia"
       }
@@ -286,13 +239,10 @@
       "seekPosition": 2601,
       "artist": {
         "name": "ovrkast.",
-        "url": "https://itsovrkast.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/30231264_21.jpg"
+        "url": "https://itsovrkast.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a4154433266_9.jpg",
       "album": {
-        "id": 373791841,
         "name": "Try Again",
         "url": "https://itsovrkast.bandcamp.com/album/try-again"
       }
@@ -304,13 +254,10 @@
       "seekPosition": 2856,
       "artist": {
         "name": "ovrkast.",
-        "url": "https://itsovrkast.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/30231264_21.jpg"
+        "url": "https://itsovrkast.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a4154433266_9.jpg",
       "album": {
-        "id": 373791841,
         "name": "Try Again",
         "url": "https://itsovrkast.bandcamp.com/album/try-again"
       }
@@ -322,13 +269,10 @@
       "seekPosition": 3210,
       "artist": {
         "name": "ovrkast.",
-        "url": "https://itsovrkast.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/30231264_21.jpg"
+        "url": "https://itsovrkast.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a4154433266_9.jpg",
       "album": {
-        "id": 373791841,
         "name": "Try Again",
         "url": "https://itsovrkast.bandcamp.com/album/try-again"
       }
@@ -340,13 +284,10 @@
       "seekPosition": 3498,
       "artist": {
         "name": "ovrkast.",
-        "url": "https://itsovrkast.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/30231264_21.jpg"
+        "url": "https://itsovrkast.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a4154433266_9.jpg",
       "album": {
-        "id": 373791841,
         "name": "Try Again",
         "url": "https://itsovrkast.bandcamp.com/album/try-again"
       }
@@ -358,13 +299,10 @@
       "seekPosition": 3788,
       "artist": {
         "name": "ovrkast.",
-        "url": "https://itsovrkast.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/30231264_21.jpg"
+        "url": "https://itsovrkast.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a4154433266_9.jpg",
       "album": {
-        "id": 373791841,
         "name": "Try Again",
         "url": "https://itsovrkast.bandcamp.com/album/try-again"
       }
@@ -376,13 +314,10 @@
       "seekPosition": 4060,
       "artist": {
         "name": "Jypsy",
-        "url": "https://jyps.bandcamp.com",
-        "location": "Inkster, Michigan",
-        "imageUrl": "https://f4.bcbits.com/img/23396305_21.jpg"
+        "url": "https://jyps.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a1841901895_9.jpg",
       "album": {
-        "id": 372570845,
         "name": "Born Wit It",
         "url": "https://jyps.bandcamp.com/album/born-wit-it"
       }
@@ -394,13 +329,10 @@
       "seekPosition": 4190,
       "artist": {
         "name": "JD. REID",
-        "url": "https://jdreid.bandcamp.com",
-        "location": "London, UK",
-        "imageUrl": "https://f4.bcbits.com/img/35102669_21.jpg"
+        "url": "https://jdreid.bandcamp.com"
       },
-      "imageUrl": "https://f4.bcbits.com/img/a3603942056_9.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a455432064_9.jpg",
       "album": {
-        "id": 1782796206,
         "name": "North West's Finest",
         "url": "https://jdreid.bandcamp.com/album/north-wests-finest"
       }
@@ -412,13 +344,10 @@
       "seekPosition": 4286,
       "artist": {
         "name": "R.A.P. Ferreira",
-        "url": "https://afrolab9000.bandcamp.com",
-        "location": "Nashville, Tennessee",
-        "imageUrl": "https://f4.bcbits.com/img/4451843_21.jpg"
+        "url": "https://afrolab9000.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a738960096_9.jpg",
       "album": {
-        "id": 2744522627,
         "name": "bob's son: R.A.P. Ferreira in the garden level cafe of the scallops hotel",
         "url": "https://afrolab9000.bandcamp.com/album/bobs-son-r-a-p-ferreira-in-the-garden-level-cafe-of-the-scallops-hotel"
       }
@@ -430,13 +359,10 @@
       "seekPosition": 4407,
       "artist": {
         "name": "ZekeUltra",
-        "url": "https://zekeultra.bandcamp.com",
-        "location": "Delaware",
-        "imageUrl": "https://f4.bcbits.com/img/15204938_21.jpg"
+        "url": "https://zekeultra.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3185032099_9.jpg",
       "album": {
-        "id": 1652878025,
         "name": "From Time",
         "url": "https://zekeultra.bandcamp.com/album/from-time"
       }
@@ -448,9 +374,7 @@
       "seekPosition": 4532,
       "artist": {
         "name": "Baghead",
-        "url": "https://baghead1.bandcamp.com",
-        "location": "California",
-        "imageUrl": "https://f4.bcbits.com/img/13162500_21.jpg"
+        "url": "https://baghead1.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a1167110350_9.jpg"
     },
@@ -461,9 +385,7 @@
       "seekPosition": 4613,
       "artist": {
         "name": "Lo Village",
-        "url": "https://lovillage.bandcamp.com",
-        "location": "Maryland",
-        "imageUrl": "https://f4.bcbits.com/img/21829714_21.jpg"
+        "url": "https://lovillage.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2948500240_9.jpg"
     },
@@ -474,13 +396,10 @@
       "seekPosition": 4841,
       "artist": {
         "name": "Morriarchi",
-        "url": "https://morriarchi.bandcamp.com",
-        "location": "London, UK",
-        "imageUrl": "https://f4.bcbits.com/img/6940676_21.jpg"
+        "url": "https://morriarchi.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2544455082_9.jpg",
       "album": {
-        "id": 4001320422,
         "name": "Geography of Peace",
         "url": "https://morriarchi.bandcamp.com/album/geography-of-peace"
       }
@@ -492,9 +411,7 @@
       "seekPosition": 4977,
       "artist": {
         "name": "Stari",
-        "url": "https://stari.bandcamp.com",
-        "location": "Oakland, California",
-        "imageUrl": "https://f4.bcbits.com/img/22116052_21.jpg"
+        "url": "https://stari.bandcamp.com"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3631955375_9.jpg"
     }

@@ -9,6 +9,6 @@
   "imageUrl": "https://f4.bcbits.com/img/29024471_20.jpg",
   "followingGenresCount": 45,
   "followingArtistsAndLabelsCount": 76,
-  "collectionItemCount": 252,
-  "wishlistItemCount": 37
+  "collectionItemCount": 251,
+  "wishlistItemCount": 38
 }

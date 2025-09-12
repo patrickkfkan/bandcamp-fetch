@@ -3,129 +3,129 @@ Autocomplete tag suggestions: ambient
 [
   {
     "type": "tag",
-    "count": 670848,
+    "count": 705177,
     "value": "ambient",
     "name": "ambient"
   },
   {
     "type": "tag",
-    "count": 107030,
+    "count": 114723,
     "value": "ambient-electronic",
     "name": "ambient electronic"
   },
   {
     "type": "tag",
-    "count": 17925,
+    "count": 18729,
     "value": "ambient-rock",
     "name": "ambient rock"
   },
   {
     "type": "tag",
-    "count": 12711,
+    "count": 14176,
     "value": "ambient-techno",
     "name": "ambient techno"
   },
   {
     "type": "tag",
-    "count": 10917,
+    "count": 13167,
     "value": "ambient-music",
     "name": "ambient music"
   },
   {
     "type": "tag",
-    "count": 4695,
+    "count": 5070,
     "value": "ambient-drone",
     "name": "ambient drone"
   },
   {
     "type": "tag",
-    "count": 4301,
+    "count": 4893,
     "value": "ambient-noise",
     "name": "ambient noise"
   },
   {
     "type": "tag",
-    "count": 4081,
+    "count": 4310,
     "value": "ambient-black-metal",
     "name": "ambient black metal"
   },
   {
     "type": "tag",
-    "count": 3647,
+    "count": 4171,
     "value": "ambient-noise-wall",
     "name": "ambient noise wall"
   },
   {
     "type": "tag",
-    "count": 3580,
+    "count": 3943,
     "value": "ambient-pop",
     "name": "ambient pop"
   },
   {
     "type": "tag",
-    "count": 3362,
+    "count": 3491,
     "value": "ambient-folk",
     "name": "Ambient Folk"
   },
   {
     "type": "tag",
-    "count": 2799,
+    "count": 3049,
     "value": "ambient-guitar",
     "name": "ambient guitar"
   },
   {
     "type": "tag",
-    "count": 2534,
+    "count": 2661,
     "value": "ambient-dub",
     "name": "ambient dub"
   },
   {
     "type": "tag",
-    "count": 2283,
+    "count": 2544,
     "value": "ambient-house",
     "name": "ambient house"
   },
   {
     "type": "tag",
-    "count": 2001,
+    "count": 2073,
     "value": "ambiental",
     "name": "ambiental"
   },
   {
     "type": "tag",
-    "count": 1935,
+    "count": 2059,
     "value": "ambient-electronica",
     "name": "ambient electronica"
   },
   {
     "type": "tag",
-    "count": 1425,
-    "value": "ambient-glitch",
-    "name": "ambient glitch"
-  },
-  {
-    "type": "tag",
-    "count": 1398,
+    "count": 1500,
     "value": "ambient-metal",
     "name": "ambient metal"
   },
   {
     "type": "tag",
-    "count": 1295,
+    "count": 1497,
+    "value": "ambient-glitch",
+    "name": "ambient glitch"
+  },
+  {
+    "type": "tag",
+    "count": 1405,
     "value": "ambient-piano",
     "name": "ambient piano"
   },
   {
     "type": "tag",
-    "count": 1060,
+    "count": 1216,
     "value": "ambient-jazz",
     "name": "ambient jazz"
   },
   {
     "type": "tag",
-    "count": 776,
-    "value": "ambient-hip-hop",
-    "name": "ambient hip-hop"
+    "count": 920,
+    "value": "ambient-jungle",
+    "name": "ambient jungle"
   }
 ]
 
@@ -170,15 +170,15 @@ Autocomplete location suggestions: Fin, Limit: 20
   },
   {
     "type": "location",
-    "value": 830708,
-    "name": "Finland Proper",
-    "fullName": "Finland Proper, Republic of Finland"
-  },
-  {
-    "type": "location",
     "value": 780166,
     "name": "Finnmark Fylke",
     "fullName": "Finnmark Fylke, Kingdom of Norway"
+  },
+  {
+    "type": "location",
+    "value": 830708,
+    "name": "Finland Proper",
+    "fullName": "Finland Proper, Republic of Finland"
   },
   {
     "type": "location",
@@ -212,15 +212,15 @@ Autocomplete location suggestions: Fin, Limit: 20
   },
   {
     "type": "location",
-    "value": 2926716,
-    "name": "Finnentrop",
-    "fullName": "Finnentrop, North Rhine-Westphalia"
-  },
-  {
-    "type": "location",
     "value": 3176982,
     "name": "Finale Ligure",
     "fullName": "Finale Ligure, Liguria"
+  },
+  {
+    "type": "location",
+    "value": 2926716,
+    "name": "Finnentrop",
+    "fullName": "Finnentrop, North Rhine-Westphalia"
   },
   {
     "type": "location",
