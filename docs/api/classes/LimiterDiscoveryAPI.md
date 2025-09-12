@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:149](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/discovery/DiscoveryAPI.ts#L149)
+[lib/discovery/DiscoveryAPI.ts:154](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/discovery/DiscoveryAPI.ts#L154)
 
 ## Accessors
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L27)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/common/BaseAPI.ts#L27)
 
 ***
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
@@ -92,7 +92,7 @@
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:162](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/discovery/DiscoveryAPI.ts#L162)
+[lib/discovery/DiscoveryAPI.ts:167](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/discovery/DiscoveryAPI.ts#L167)
 
 ***
 
@@ -130,7 +130,7 @@
 
 ##### Defined in
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L20)
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/common/BaseAPI.ts#L20)
 
 #### fetch(url, jsonResponse, method, payload)
 
@@ -156,7 +156,7 @@
 
 ##### Defined in
 
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L21)
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/common/BaseAPI.ts#L21)
 
 #### fetch(url, jsonResponse, method, payload)
 
@@ -182,7 +182,7 @@
 
 ##### Defined in
 
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L22)
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/common/BaseAPI.ts#L22)
 
 ***
 
@@ -200,7 +200,25 @@
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:154](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/discovery/DiscoveryAPI.ts#L154)
+[lib/discovery/DiscoveryAPI.ts:159](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/discovery/DiscoveryAPI.ts#L159)
+
+***
+
+### getRecommendedTagsAndLocations()
+
+> **getRecommendedTagsAndLocations**(): `Promise`\<[`TagsAndLocations`](../interfaces/TagsAndLocations.md)\>
+
+#### Returns
+
+`Promise`\<[`TagsAndLocations`](../interfaces/TagsAndLocations.md)\>
+
+#### Overrides
+
+[`DiscoveryAPI`](DiscoveryAPI.md).[`getRecommendedTagsAndLocations`](DiscoveryAPI.md#getrecommendedtagsandlocations)
+
+#### Defined in
+
+[lib/discovery/DiscoveryAPI.ts:171](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/discovery/DiscoveryAPI.ts#L171)
 
 ***
 
@@ -222,4 +240,4 @@
 
 #### Defined in
 
-[lib/discovery/DiscoveryAPI.ts:158](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/discovery/DiscoveryAPI.ts#L158)
+[lib/discovery/DiscoveryAPI.ts:163](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/discovery/DiscoveryAPI.ts#L163)

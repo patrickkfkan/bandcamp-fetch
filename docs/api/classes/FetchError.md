@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:117](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L117)
+[lib/utils/Fetcher.ts:117](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L117)
 
 ## Properties
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:115](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L115)
+[lib/utils/Fetcher.ts:115](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L115)

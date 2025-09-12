@@ -16,7 +16,7 @@ The combined related tags if there are multiple tags involved.
 
 #### Defined in
 
-[lib/types/Tag.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L21)
+[lib/types/Tag.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Tag.ts#L16)
 
 ***
 
@@ -28,4 +28,4 @@ List of tags and the related tags for each entry.
 
 #### Defined in
 
-[lib/types/Tag.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L17)
+[lib/types/Tag.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Tag.ts#L12)

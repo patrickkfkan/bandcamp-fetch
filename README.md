@@ -174,6 +174,22 @@ Promise resolving to sanitized [DiscoverParams](docs/api/interfaces/DiscoverPara
 ---
 </details>
 
+<details>
+<summary><code>getRecommendedTagsAndLocations()</code></summary>
+<br />
+
+[**Example**](examples/discovery/getRecommendedTagsAndLocations.mjs) ([output](examples/discovery/getRecommendedTagsAndLocations_output.txt))
+
+<p>Fetches a list of tags and locations.</p>
+
+**Returns**
+
+Promise resolving to [TagsAndLocations](docs/api/interfaces/TagsAndLocations.md), which groups results into `tags` and `locations`.
+
+---
+</details>
+
+
 ## Image API
 
 To access the Image API:
@@ -399,25 +415,10 @@ To access the Tag API:
 ```
 import bcfetch from 'bandcamp-fetch';
 
-const tags = await bcfetch.tag.list();
+const tags = await bcfetch.tag.getRelated(...);
 ```
 
 **Methods:**
-
-<details>
-<summary><code>list()</code></summary>
-<br />
-
-[**Example**](examples/tag/list.mjs) ([output](examples/tag/list_output.txt))
-
-<p>Fetches a list of tags.</p>
-
-**Returns**
-
-Promise resolving to [TagList](docs/api/interfaces/TagList.md), which groups results into `tags`(for non-location tags) and `locations` (for location tags).
-
----
-</details>
 
 <details>
 <summary><code>getRelated(params)</code></summary>

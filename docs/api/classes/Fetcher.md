@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L21)
+[lib/utils/Fetcher.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L21)
 
 ## Accessors
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L34)
+[lib/utils/Fetcher.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L34)
 
 ## Methods
 
@@ -72,7 +72,7 @@
 
 ##### Defined in
 
-[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L38)
+[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L38)
 
 #### fetch(url, jsonResponse, method, payload)
 
@@ -94,7 +94,7 @@
 
 ##### Defined in
 
-[lib/utils/Fetcher.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L39)
+[lib/utils/Fetcher.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L39)
 
 #### fetch(url, jsonResponse, method, payload)
 
@@ -116,7 +116,7 @@
 
 ##### Defined in
 
-[lib/utils/Fetcher.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L40)
+[lib/utils/Fetcher.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L40)
 
 ***
 
@@ -134,4 +134,4 @@
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L26)
+[lib/utils/Fetcher.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/Fetcher.ts#L26)

@@ -16,7 +16,7 @@ Results returned by [DiscoveryAPI.discover](../classes/DiscoveryAPI.md#discover)
 
 #### Defined in
 
-[lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L79)
+[lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L79)
 
 ***
 
@@ -28,7 +28,7 @@ List of discovered albums .
 
 #### Defined in
 
-[lib/types/Discovery.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L69)
+[lib/types/Discovery.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L69)
 
 ***
 
@@ -40,7 +40,7 @@ Sanitized params used in the discovery request.
 
 #### Defined in
 
-[lib/types/Discovery.ts:77](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L77)
+[lib/types/Discovery.ts:77](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L77)
 
 ***
 
@@ -52,4 +52,4 @@ Total number of albums discovered.
 
 #### Defined in
 
-[lib/types/Discovery.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L73)
+[lib/types/Discovery.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L73)

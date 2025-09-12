@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/band/BandAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/band/BandAPI.ts#L15)
+[lib/band/BandAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/band/BandAPI.ts#L15)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[lib/band/BandAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/band/BandAPI.ts#L16)
+[lib/band/BandAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/band/BandAPI.ts#L16)

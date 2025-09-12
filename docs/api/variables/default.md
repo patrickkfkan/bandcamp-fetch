@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[index.ts:72](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/index.ts#L72)
+[index.ts:72](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/index.ts#L72)

@@ -6,6 +6,10 @@
 
 # Interface: NameValuePair\<T\>
 
+## Extended by
+
+- [`Location`](Location.md)
+
 ## Type Parameters
 
 • **T**
@@ -18,7 +22,7 @@
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/NameValuePair.ts#L2)
+[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/NameValuePair.ts#L2)
 
 ***
 
@@ -28,4 +32,4 @@
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/NameValuePair.ts#L3)
+[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/utils/NameValuePair.ts#L3)

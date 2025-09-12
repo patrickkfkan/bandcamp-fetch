@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[lib/BandcampFetch.ts:131](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/BandcampFetch.ts#L131)
+[lib/BandcampFetch.ts:131](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/BandcampFetch.ts#L131)
 
 ## Methods
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[lib/BandcampFetch.ts:135](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/BandcampFetch.ts#L135)
+[lib/BandcampFetch.ts:135](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/BandcampFetch.ts#L135)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[lib/BandcampFetch.ts:143](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/BandcampFetch.ts#L143)
+[lib/BandcampFetch.ts:143](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/BandcampFetch.ts#L143)
 
 ***
 
@@ -78,4 +78,4 @@
 
 #### Defined in
 
-[lib/BandcampFetch.ts:139](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/BandcampFetch.ts#L139)
+[lib/BandcampFetch.ts:139](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/BandcampFetch.ts#L139)

@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L10)
+[lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Image.ts#L10)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L11)
+[lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Image.ts#L11)

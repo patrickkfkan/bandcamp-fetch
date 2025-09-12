@@ -20,4 +20,4 @@
 
 ## Defined in
 
-[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Article.ts#L51)
+[lib/types/Article.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Article.ts#L51)
