@@ -3,6 +3,7 @@ import { decode } from 'html-entities';
 import type Fan from '../types/Fan.js';
 import { type ImageFormat } from '../types/Image.js';
 import { ParseError } from '../utils/Parse.js';
+import ObjectHelper from '../utils/ObjectHelper.js';
 
 interface FanInfoParseOptions {
   imageBaseUrl: string;
@@ -52,7 +53,7 @@ export default class FanInfoParser {
 
   static parseLoggedInFanUsername(html: string) {
     const $ = cheerioLoad(html);
-    const blob = decode($('#pagedata[data-blob]').attr('data-blob'));
+    const blob = decode($('#HomepageApp[data-blob]').attr('data-blob'));
     let parsed;
     try {
       parsed = JSON.parse(blob);
@@ -60,18 +61,16 @@ export default class FanInfoParser {
     catch (error: any) {
       throw new ParseError('Failed to parse logged-in fan username: JSON error in data-blob.', html, error);
     }
-
-    const identitiesData = parsed.identities || {};
-    const username = identitiesData.fan?.username;
+    const username = ObjectHelper.getProperty(parsed, 'pageContext.identity.fanUsername');
     if (!username || typeof username !== 'string') {
       let reason;
-      if (identitiesData.fan === null) {
+      if (username === null) {
         reason = 'check if valid cookie is set';
       }
       else {
         reason = 'invalid data';
       }
-      throw new ParseError(`Failed to parse logged-in fan username: ${reason}.`, html);
+      throw new ParseError(`Failed to parse logged-in fan username: ${reason}.`, parsed);
     }
 
     return username;

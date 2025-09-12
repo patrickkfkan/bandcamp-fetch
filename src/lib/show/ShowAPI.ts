@@ -2,6 +2,7 @@ import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../
 import { type ImageFormat } from '../types/Image.js';
 import type Show from '../types/Show.js';
 import { URLS } from '../utils/Constants.js';
+import { FetchMethod } from '../utils/Fetcher.js';
 import type Limiter from '../utils/Limiter.js';
 import ShowListParser from './ShowListParser.js';
 import ShowParser from './ShowParser.js';
@@ -20,6 +21,10 @@ export interface ShowAPIListParams {
 export default class ShowAPI extends BaseAPIWithImageSupport {
 
   async getShow(params: ShowAPIGetShowParams): Promise<Show> {
+    const showId = new URL(params.showUrl).searchParams.get('show');
+    if (!showId) {
+      throw Error('showUrl missing "show" param');
+    }
     const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       showUrl: params.showUrl,
@@ -28,8 +33,11 @@ export default class ShowAPI extends BaseAPIWithImageSupport {
       artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
       showImageFormat: await this.imageAPI.getFormat(params.showImageFormat, 25)
     };
-    const html = await this.fetch(params.showUrl);
-    return ShowParser.parseShow(html, opts);
+    const [html, json] = await Promise.all([
+      this.fetch(params.showUrl),
+      this.fetch(URLS.SHOW, true, FetchMethod.POST, { id: showId })
+    ]);
+    return ShowParser.parseShow(html, json, opts);
   }
 
   async list(params?: ShowAPIListParams) {

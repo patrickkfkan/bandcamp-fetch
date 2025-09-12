@@ -1,5 +1,5 @@
 import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { type DiscoverOptions, type DiscoverParams, type DiscoverResult, type DiscoverResultContinuation, type SanitizedDiscoverParams } from '../types/Discovery.js';
+import { type TagsAndLocations, type DiscoverOptions, type DiscoverParams, type DiscoverResult, type DiscoverResultContinuation, type SanitizedDiscoverParams } from '../types/Discovery.js';
 import { CacheDataType } from '../utils/Cache.js';
 import { URLS } from '../utils/Constants.js';
 import { FetchMethod } from '../utils/Fetcher.js';
@@ -140,6 +140,11 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
   static #isContinuation(params: DiscoverParams | DiscoverResultContinuation): params is DiscoverResultContinuation {
     return Reflect.has(params, 'cursor');
   }
+
+  async getRecommendedTagsAndLocations(): Promise<TagsAndLocations> {
+    const html = await this.fetch(URLS.SITE_URL);
+    return DiscoverOptionsParser.parseRecommendedTagsAndLocations(html);
+  }
 }
 
 export class LimiterDiscoveryAPI extends DiscoveryAPI {
@@ -161,5 +166,9 @@ export class LimiterDiscoveryAPI extends DiscoveryAPI {
 
   async discover(params: DiscoverParams): Promise<DiscoverResult> {
     return this.#limiter.schedule(() => super.discover(params));
+  }
+
+  async getRecommendedTagsAndLocations(): Promise<TagsAndLocations> {
+    return this.#limiter.schedule(() => super.getRecommendedTagsAndLocations());
   }
 }

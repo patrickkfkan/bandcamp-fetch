@@ -85,3 +85,12 @@ export interface DiscoverResultContinuation extends SanitizedDiscoverParams {
   artistImageFormat?: ImageFormat;
   merchImageFormat?: ImageFormat;
 }
+
+export interface Location extends NameValuePair<number> {
+  type: 'location';
+}
+
+export interface TagsAndLocations {
+  tags: Tag[];
+  locations: Location[];
+}

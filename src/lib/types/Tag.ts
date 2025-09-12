@@ -5,11 +5,6 @@ interface Tag {
   imageUrls?: string[];
 }
 
-export interface TagList {
-  tags: Tag[];
-  locations: Tag[];
-}
-
 export interface RelatedTags {
   /**
    * List of tags and the related tags for each entry.

@@ -1,6 +1,7 @@
 import { load as cheerioLoad } from 'cheerio';
 import { ParseError } from '../utils/Parse.js';
-import { type DiscoverOptions } from '../types/Discovery.js';
+import { type TagsAndLocations, type DiscoverOptions } from '../types/Discovery.js';
+import { URLS } from '../utils/Constants.js';
 
 export default class DiscoverOptionsParser {
   static parseOptions(html: string): DiscoverOptions {
@@ -60,5 +61,54 @@ export default class DiscoverOptionsParser {
     }
 
     throw new ParseError('Failed to parse discover options: blob is missing or has invalid \'appData.initialState\' field.', parsed);
+  }
+
+  static parseRecommendedTagsAndLocations(html: string) {
+    const $ = cheerioLoad(html);
+
+    const list: TagsAndLocations = {
+      tags: [],
+      locations: []
+    };
+
+    const _findTag = (value: string, name: string) => {
+      return list.tags.find((t) => t.value === value && t.name === name);
+    };
+
+    const _findLoc = (value: number, name: string) => {
+      return list.locations.find((l) => l.value === value && l.name === name);
+    }
+
+    $('section#discover').find('.pill-group').each((_, el) => {
+      $(el).find('a.g-pill').each((_, link) => {
+        const linkEl = $(link);
+        const name = linkEl.text().trim();
+        const href = linkEl.attr('href');
+        const urlObj = href && new URL(href, URLS.SITE_URL);
+        const linkFrom = urlObj && urlObj.searchParams.get('from');
+        const isLocation = linkFrom === 'hp_disco_locations';
+        const geo = isLocation && urlObj ? Number(urlObj.searchParams.get('loc')) : null;
+        if (geo && !isNaN(geo) && !_findLoc(geo, name)) {
+          list.locations.push({
+            type: 'location',
+            name,
+            value: geo
+          });
+        }
+        else if (!isLocation) {
+          const tagMatch = href ? (/\/discover\/(.+)\?/).exec(href) : null;
+          const value = tagMatch && tagMatch[1];
+          if (value && !_findTag(value, name)) {
+            list.tags.push({
+              type: 'tag',
+              name,
+              value
+            });
+          }
+        }
+      });
+    });
+
+    return list;
   }
 }

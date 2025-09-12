@@ -8,13 +8,10 @@ interface Show {
   description: string;
   shortDescription?: string;
   duration?: number;
-  streamUrl?: {
-    'mp3-128'?: string;
-    'opus-lo'?: string;
-  };
+  streamUrl?: string;
   tracks?: Omit<Track, 'type'>[];
   imageCaption: string;
-  subtitle: string;
+  subtitle?: string;
   imageUrl?: string;
   screenImageUrl: string;
 }

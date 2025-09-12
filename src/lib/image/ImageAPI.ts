@@ -19,7 +19,7 @@ export default class ImageAPI extends BaseAPI {
    */
   async getConstants(): Promise<ImageConstants> {
     return this.cache.getOrSet(CacheDataType.Constants, 'imageConstants', async () => {
-      const html = await this.fetch(URLS.SITE_URL);
+      const html = await this.fetch(URLS.DAILY);
       return ImageParser.parseImageConstants(html);
     });
   }
