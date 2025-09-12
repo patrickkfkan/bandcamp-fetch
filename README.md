@@ -952,6 +952,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+3.0.0 ([breaking changes](docs/changes-2.x-3.x.md)!)
+- Revise API to reflect Bandcamp changes
+
 2.0.0 ([breaking changes](docs/changes-1.x-2.x.md)!)
 - Revise API to reflect Bandcamp changes
 - Add `lyrics` property to `Track`
