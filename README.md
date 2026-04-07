@@ -952,6 +952,9 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+v3.1.0
+- Fix parsers following Bandcamp site changes.
+
 3.0.0 ([breaking changes](docs/changes-2.x-3.x.md)!)
 - Revise API to reflect Bandcamp changes
 
