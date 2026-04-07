@@ -30,11 +30,11 @@ export default class ShowParser {
     const showId = appData?.showId;
     const shows = appData?.shows;
     const showInfo = showId && Array.isArray(shows) ?
-      shows.find((value) => value.showId === showId) : null;
-    const tracksInfo = typeof json === 'object' && Array.isArray(json.tracklist) ?
-      json.tracklist as Array<any> : null;
-    const audioInfo = typeof json === 'object' && typeof json.radioShowAudio === 'object' ?
-      json.radioShowAudio : null;
+      shows.find((value) => value.itemId === showId) : null;
+    const tracksInfo = typeof json === 'object' && Array.isArray(json.tracks) ?
+      json.tracks as Array<any> : null;
+    const audioInfo = typeof json === 'object' && typeof json.compiledTrack === 'object' ?
+      json.compiledTrack : null;
 
     if (showInfo) {
       const show: Show = {
@@ -42,9 +42,9 @@ export default class ShowParser {
         name: showInfo.title,
         url: new URL(showInfo.url, URLS.SITE_URL).toString(),
         publishedDate: showInfo.date,
-        description: showInfo.desc,
+        description: showInfo.description,
         shortDescription: showInfo.shortDesc,
-        imageCaption: showInfo.imageCaption,
+        imageCaption: showInfo.metadata,
         screenImageUrl: `${opts.imageBaseUrl}/img/${showInfo.imageId}_0`
       };
 
