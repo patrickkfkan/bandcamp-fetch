@@ -11,16 +11,18 @@ interface FanInfoParseOptions {
 }
 
 export default class FanInfoParser {
-
   static parseInfo(html: string, opts: FanInfoParseOptions): Fan {
     const $ = cheerioLoad(html);
     const blob = decode($('#pagedata[data-blob]').attr('data-blob'));
     let parsed;
     try {
       parsed = JSON.parse(blob);
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse fan info: JSON error in data-blob.', html, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse fan info: JSON error in data-blob.',
+        html,
+        error
+      );
     }
 
     const fanData = parsed.fan_data || {};
@@ -57,20 +59,28 @@ export default class FanInfoParser {
     let parsed;
     try {
       parsed = JSON.parse(blob);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse logged-in fan username: JSON error in data-blob.',
+        html,
+        error
+      );
     }
-    catch (error: any) {
-      throw new ParseError('Failed to parse logged-in fan username: JSON error in data-blob.', html, error);
-    }
-    const username = ObjectHelper.getProperty(parsed, 'pageContext.identity.fanUsername');
+    const username = ObjectHelper.getProperty(
+      parsed,
+      'pageContext.identity.fanUsername'
+    );
     if (!username || typeof username !== 'string') {
       let reason;
       if (username === null) {
         reason = 'check if valid cookie is set';
-      }
-      else {
+      } else {
         reason = 'invalid data';
       }
-      throw new ParseError(`Failed to parse logged-in fan username: ${reason}.`, parsed);
+      throw new ParseError(
+        `Failed to parse logged-in fan username: ${reason}.`,
+        parsed
+      );
     }
 
     return username;

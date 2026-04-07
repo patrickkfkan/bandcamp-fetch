@@ -1,5 +1,14 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { type TagsAndLocations, type DiscoverOptions, type DiscoverParams, type DiscoverResult, type DiscoverResultContinuation, type SanitizedDiscoverParams } from '../types/Discovery.js';
+import BaseAPIWithImageSupport, {
+  type BaseAPIWithImageSupportParams
+} from '../common/BaseAPIWithImageSupport.js';
+import {
+  type TagsAndLocations,
+  type DiscoverOptions,
+  type DiscoverParams,
+  type DiscoverResult,
+  type DiscoverResultContinuation,
+  type SanitizedDiscoverParams
+} from '../types/Discovery.js';
 import { CacheDataType } from '../utils/Cache.js';
 import { URLS } from '../utils/Constants.js';
 import { FetchMethod } from '../utils/Fetcher.js';
@@ -20,18 +29,25 @@ interface DiscoverRequestPayload {
 }
 
 export default class DiscoveryAPI extends BaseAPIWithImageSupport {
-
   async getAvailableOptions(): Promise<DiscoverOptions> {
-    return this.cache.getOrSet(CacheDataType.Constants, 'discoverOptions', async () => {
-      const html = await this.fetch(URLS.DISCOVER.SITE);
-      return DiscoverOptionsParser.parseOptions(html);
-    });
+    return this.cache.getOrSet(
+      CacheDataType.Constants,
+      'discoverOptions',
+      async () => {
+        const html = await this.fetch(URLS.DISCOVER.SITE);
+        return DiscoverOptionsParser.parseOptions(html);
+      }
+    );
   }
 
   async sanitizeDiscoverParams(params?: DiscoverParams) {
     const options = await this.getAvailableOptions();
 
-    const _getOptionValue = <T>(optArr: NameValuePair<T>[], value?: T, defaultIndex = 0) => {
+    const _getOptionValue = <T>(
+      optArr: NameValuePair<T>[],
+      value?: T,
+      defaultIndex = 0
+    ) => {
       if (value !== undefined && optArr) {
         const opt = optArr.find((o) => o.value == value);
         if (opt) {
@@ -47,7 +63,8 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
 
     const category = _getOptionValue(options.categories, params?.category) || 0;
     const genre = _getOptionValue(options.genres, params?.genre, -1);
-    const sortBy = _getOptionValue(options.sortBys, params?.sortBy, -1) || 'top';
+    const sortBy =
+      _getOptionValue(options.sortBys, params?.sortBy, -1) || 'top';
     const location = _getOptionValue(options.locations, params?.location) || 0;
     const time = _getOptionValue(options.times, params?.time) || -1;
 
@@ -75,14 +92,25 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
     return sanitized;
   }
 
-  async discover(params?: DiscoverParams | DiscoverResultContinuation): Promise<DiscoverResult> {
+  async discover(
+    params?: DiscoverParams | DiscoverResultContinuation
+  ): Promise<DiscoverResult> {
     const imageConstants = await this.imageAPI.getConstants();
     const options = await this.getAvailableOptions();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await this.imageAPI.getFormat(params?.albumImageFormat, 9),
-      artistImageFormat: await this.imageAPI.getFormat(params?.artistImageFormat, 21),
-      merchImageFormat: await this.imageAPI.getFormat(params?.merchImageFormat, 9)
+      albumImageFormat: await this.imageAPI.getFormat(
+        params?.albumImageFormat,
+        9
+      ),
+      artistImageFormat: await this.imageAPI.getFormat(
+        params?.artistImageFormat,
+        21
+      ),
+      merchImageFormat: await this.imageAPI.getFormat(
+        params?.merchImageFormat,
+        9
+      )
     };
     let payload: DiscoverRequestPayload;
     let sanitizedParams: SanitizedDiscoverParams;
@@ -90,13 +118,22 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
       sanitizedParams = { ...params };
       Reflect.deleteProperty(sanitizedParams, 'cursor');
       payload = DiscoveryAPI.getDiscoverRequestPayload(params);
-    }
-    else {
+    } else {
       sanitizedParams = await this.sanitizeDiscoverParams(params);
       payload = DiscoveryAPI.getDiscoverRequestPayload(sanitizedParams);
     }
-    const json = await this.fetch(URLS.DISCOVER.API, true, FetchMethod.POST, payload);
-    const result = DiscoverResultParser.parseDiscoverResult(json, opts, sanitizedParams, options);
+    const json = await this.fetch(
+      URLS.DISCOVER.API,
+      true,
+      FetchMethod.POST,
+      payload
+    );
+    const result = DiscoverResultParser.parseDiscoverResult(
+      json,
+      opts,
+      sanitizedParams,
+      options
+    );
     if (result.continuation) {
       if (!params?.albumImageFormat) {
         delete result.continuation.albumImageFormat;
@@ -114,7 +151,9 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
   /**
    * @internal
    */
-  protected static getDiscoverRequestPayload(params: SanitizedDiscoverParams | DiscoverResultContinuation): DiscoverRequestPayload {
+  protected static getDiscoverRequestPayload(
+    params: SanitizedDiscoverParams | DiscoverResultContinuation
+  ): DiscoverRequestPayload {
     const tagNames: string[] = [];
     if (params.genre) {
       tagNames.push(params.genre);
@@ -129,7 +168,7 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
       category_id: params.category,
       cursor: this.#isContinuation(params) ? params.cursor : '*',
       geoname_id: params.location,
-      include_result_types: [ 'a', 's' ],
+      include_result_types: ['a', 's'],
       size: params.size,
       slice: params.sortBy,
       tag_norm_names: tagNames,
@@ -137,7 +176,9 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
     };
   }
 
-  static #isContinuation(params: DiscoverParams | DiscoverResultContinuation): params is DiscoverResultContinuation {
+  static #isContinuation(
+    params: DiscoverParams | DiscoverResultContinuation
+  ): params is DiscoverResultContinuation {
     return Reflect.has(params, 'cursor');
   }
 
@@ -148,7 +189,6 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
 }
 
 export class LimiterDiscoveryAPI extends DiscoveryAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
@@ -160,7 +200,9 @@ export class LimiterDiscoveryAPI extends DiscoveryAPI {
     return this.#limiter.schedule(() => super.getAvailableOptions());
   }
 
-  async sanitizeDiscoverParams(params: DiscoverParams): Promise<SanitizedDiscoverParams> {
+  async sanitizeDiscoverParams(
+    params: DiscoverParams
+  ): Promise<SanitizedDiscoverParams> {
     return this.#limiter.schedule(() => super.sanitizeDiscoverParams(params));
   }
 

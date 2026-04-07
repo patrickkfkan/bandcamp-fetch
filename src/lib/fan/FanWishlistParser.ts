@@ -1,7 +1,9 @@
 import type Album from '../types/Album.js';
 import { type FanItemsContinuation } from '../types/Fan.js';
 import type Track from '../types/Track.js';
-import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.js';
+import FanItemsBaseParser, {
+  type FanItemParseOptions
+} from './FanItemsBaseParser.js';
 
 export default class FanWishlistParser extends FanItemsBaseParser {
   static parseWishlistFromPage(html: string, opts: FanItemParseOptions) {
@@ -12,7 +14,11 @@ export default class FanWishlistParser extends FanItemsBaseParser {
     });
   }
 
-  static parseWishlistFromContinuation(json: any, continuation: FanItemsContinuation, opts: FanItemParseOptions) {
+  static parseWishlistFromContinuation(
+    json: any,
+    continuation: FanItemsContinuation,
+    opts: FanItemParseOptions
+  ) {
     return this.parseContinuationItems(json, continuation, {
       ...opts,
       dataKey: 'items',
@@ -20,7 +26,11 @@ export default class FanWishlistParser extends FanItemsBaseParser {
     });
   }
 
-  static parseWishlistItem(data: any, opts: FanItemParseOptions, tracklists: any): Album | Track | null {
+  static parseWishlistItem(
+    data: any,
+    opts: FanItemParseOptions,
+    tracklists: any
+  ): Album | Track | null {
     if (!data) {
       return null;
     }
@@ -70,7 +80,10 @@ export default class FanWishlistParser extends FanItemsBaseParser {
     if (data.url_hints && data.url_hints.subdomain && mediaItem.artist) {
       mediaItem.artist.url = `https://${data.url_hints.subdomain}.bandcamp.com`;
     }
-    const featuredTrackData = data.featured_track !== undefined ? _findInTrackLists(tracklists, data.featured_track) : null;
+    const featuredTrackData =
+      data.featured_track !== undefined ?
+        _findInTrackLists(tracklists, data.featured_track)
+      : null;
     if (featuredTrackData) {
       const duration = featuredTrackData.duration;
       const streamUrl = featuredTrackData.file?.['mp3-128'];
@@ -88,8 +101,7 @@ export default class FanWishlistParser extends FanItemsBaseParser {
           featuredTrack.streamUrlHQ = streamUrlHQ;
         }
         (mediaItem as Album).featuredTrack = featuredTrack;
-      }
-      else {
+      } else {
         (mediaItem as Track).duration = duration;
         (mediaItem as Track).streamUrl = streamUrl;
         if (streamUrlHQ) {

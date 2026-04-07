@@ -9,7 +9,10 @@ interface LabelArtistsParseOptions {
 }
 
 export default class LabelArtistsParser {
-  static parseLabelArtists(html: string, opts: LabelArtistsParseOptions): LabelArtist[] {
+  static parseLabelArtists(
+    html: string,
+    opts: LabelArtistsParseOptions
+  ): LabelArtist[] {
     const $ = cheerioLoad(html);
     const artistsList = $('li.featured-item, li.artists-grid-item');
     const results: LabelArtist[] = [];
@@ -19,7 +22,9 @@ export default class LabelArtistsParser {
       const imgSrc = img.attr('data-original') || img.attr('src');
       const imageUrl = reformatImageUrl(imgSrc, opts.imageFormat);
       const artist: LabelArtist = {
-        name: artistListItem.find('.featured-grid-name, .artists-grid-name').text(),
+        name: artistListItem
+          .find('.featured-grid-name, .artists-grid-name')
+          .text(),
         url: splitUrl(artistListItem.find('a').attr('href')).base,
         location: artistListItem.find('.artists-grid-location').text()
       };

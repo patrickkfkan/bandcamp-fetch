@@ -44,4 +44,9 @@ export interface SearchResultFan extends SearchResultItem {
   genre?: string;
 }
 
-export type SearchResultAny = SearchResultArtist | SearchResultLabel | SearchResultAlbum | SearchResultTrack | SearchResultFan;
+export type SearchResultAny =
+  | SearchResultArtist
+  | SearchResultLabel
+  | SearchResultAlbum
+  | SearchResultTrack
+  | SearchResultFan;

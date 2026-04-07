@@ -1,7 +1,16 @@
 import { load as cheerioLoad } from 'cheerio';
-import { type ArticleCategory, type ArticleList, type ArticleListItem } from '../types/Article.js';
+import {
+  type ArticleCategory,
+  type ArticleList,
+  type ArticleListItem
+} from '../types/Article.js';
 import { URLS } from '../utils/Constants.js';
-import { isAbsoluteUrl, normalizeUrl, reformatImageUrl, stripLineBreaks } from '../utils/Parse.js';
+import {
+  isAbsoluteUrl,
+  normalizeUrl,
+  reformatImageUrl,
+  stripLineBreaks
+} from '../utils/Parse.js';
 import { type ImageFormat } from '../types/Image.js';
 
 interface ArticleListParseOptions {
@@ -9,7 +18,6 @@ interface ArticleListParseOptions {
 }
 
 export default class ArticleListParser {
-
   static parseList(html: string, opts: ArticleListParseOptions): ArticleList {
     const $ = cheerioLoad(html);
     const dailyUrl = URLS.DAILY;
@@ -29,12 +37,18 @@ export default class ArticleListParser {
         const infoTextCategoryLink = infoText.find('a.franchise');
         const infoTextMiddot = infoText.find('.middot');
         const categoryName = infoTextCategoryLink.text();
-        const category: ArticleCategory | null = categoryName ? {
-          name: categoryName
-        } : null;
+        const category: ArticleCategory | null =
+          categoryName ?
+            {
+              name: categoryName
+            }
+          : null;
         const categoryUrl = infoTextCategoryLink.attr('href');
         if (category && categoryUrl) {
-          category.url = isAbsoluteUrl(categoryUrl) ? categoryUrl : normalizeUrl(categoryUrl, dailyUrl);
+          category.url =
+            isAbsoluteUrl(categoryUrl) ? categoryUrl : (
+              normalizeUrl(categoryUrl, dailyUrl)
+            );
         }
         // Date
         infoTextCategoryLink.remove();

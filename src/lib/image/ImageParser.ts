@@ -3,10 +3,11 @@ import { type ImageConstants } from '../types/Image.js';
 import { ParseError } from '../utils/Parse.js';
 
 export default class ImageParser {
-
   static parseImageConstants(html: string): ImageConstants {
     const $ = cheerioLoad(html);
-    const scripts = $('script').map((_, el) => $(el).html()).toArray();
+    const scripts = $('script')
+      .map((_, el) => $(el).html())
+      .toArray();
     let template: any = null;
     for (const script of scripts) {
       const templateRegex = /var TemplGlobals = (.+);/gm;
@@ -14,8 +15,7 @@ export default class ImageParser {
       if (templateMatch && templateMatch[1]) {
         try {
           template = JSON.parse(templateMatch[1]);
-        }
-        catch (error) {
+        } catch (error) {
           template = null;
         }
         if (template && typeof template === 'object') {
@@ -33,7 +33,9 @@ export default class ImageParser {
       }
       const siteRoot = template.image_siteroot_https;
       if (!siteRoot || typeof siteRoot !== 'string') {
-        throw Error('TemplGlobals.image_siteroot_https not found or has invalid type');
+        throw Error(
+          'TemplGlobals.image_siteroot_https not found or has invalid type'
+        );
       }
       return {
         baseUrl: siteRoot,
@@ -45,8 +47,7 @@ export default class ImageParser {
           fileFormat: format.file_format
         }))
       };
-    }
-    catch (error: unknown) {
+    } catch (error: unknown) {
       const msg = error instanceof Error ? error.message : String(error);
       throw new ParseError(`Failed to parse image constants: ${msg}`, template);
     }

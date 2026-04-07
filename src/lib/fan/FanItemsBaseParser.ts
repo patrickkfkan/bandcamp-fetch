@@ -3,7 +3,11 @@ import { decode } from 'html-entities';
 import { type FanItemsContinuation } from '../types/Fan.js';
 import { type ImageFormat } from '../types/Image.js';
 
-type PageDataKey = 'collection' | 'wishlist' | 'following_genres' | 'following_bands';
+type PageDataKey =
+  | 'collection'
+  | 'wishlist'
+  | 'following_genres'
+  | 'following_bands';
 type ContinuationDataKey = 'items' | 'followeers';
 
 interface FanItemsParseParams<T> extends FanItemParseOptions {
@@ -28,11 +32,17 @@ export interface FanItemParseOptions {
 }
 
 export default abstract class FanItemsBaseParser {
-
-  protected static parsePageItems<T>(html: string, params: FanItemsParseParams<T>): FanPageItemsResult<NonNullable<T>> {
+  protected static parsePageItems<T>(
+    html: string,
+    params: FanItemsParseParams<T>
+  ): FanPageItemsResult<NonNullable<T>> {
     const _getSequenceOrPending = (o: any) => {
-      return Array.isArray(o.sequence) && o.sequence.length > 0 ? o.sequence :
-        Array.isArray(o.pending_sequence) && o.pending_sequence.length > 0 ? o.pending_sequence : [];
+      return (
+        Array.isArray(o.sequence) && o.sequence.length > 0 ? o.sequence
+        : Array.isArray(o.pending_sequence) && o.pending_sequence.length > 0 ?
+          o.pending_sequence
+        : []
+      );
     };
 
     const $ = cheerioLoad(html);
@@ -59,8 +69,15 @@ export default abstract class FanItemsBaseParser {
       });
       result.total = itemListData.item_count;
 
-      const fanId = parsed.fan_data && parsed.fan_data.fan_id ? parsed.fan_data.fan_id : null;
-      if (itemListData.item_count > sequence.length && itemListData.last_token && fanId) {
+      const fanId =
+        parsed.fan_data && parsed.fan_data.fan_id ?
+          parsed.fan_data.fan_id
+        : null;
+      if (
+        itemListData.item_count > sequence.length &&
+        itemListData.last_token &&
+        fanId
+      ) {
         result.continuation = {
           fanId,
           token: itemListData.last_token
@@ -71,9 +88,11 @@ export default abstract class FanItemsBaseParser {
     return result;
   }
 
-  protected static parseContinuationItems<T>(json: any, continuation: FanItemsContinuation,
-    params: FanItemsParseParams<T>): FanContinuationItemsResult<NonNullable<T>> {
-
+  protected static parseContinuationItems<T>(
+    json: any,
+    continuation: FanItemsContinuation,
+    params: FanItemsParseParams<T>
+  ): FanContinuationItemsResult<NonNullable<T>> {
     const items = json[params.dataKey] || [];
     const tracklists = json.tracklists || null;
     const parseFn = params.parseItemFn;

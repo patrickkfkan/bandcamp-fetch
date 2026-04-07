@@ -1,7 +1,9 @@
 import type Bottleneck from 'bottleneck';
 import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI.js';
 import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI.js';
-import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI.js';
+import AutocompleteAPI, {
+  LimiterAutocompleteAPI
+} from './autocomplete/AutocompleteAPI.js';
 import BandAPI, { LimiterBandAPI } from './band/BandAPI.js';
 import DiscoveryAPI, { LimiterDiscoveryAPI } from './discovery/DiscoveryAPI.js';
 import FanAPI, { LimiterFanAPI } from './fan/FanAPI.js';
@@ -19,7 +21,6 @@ export interface BandcampFetchParams {
 }
 
 export default class BandcampFetch {
-
   #cookie?: string | null;
   #fetcher: Fetcher;
   #cache: Cache;
@@ -57,10 +58,13 @@ export default class BandcampFetch {
 
   constructor(params?: BandcampFetchParams) {
     this.#cookie = params?.cookie;
-    this.#cache = new Cache({
-      [CacheDataType.Constants]: 3600,
-      [CacheDataType.Page]: 300
-    }, { page: 10 });
+    this.#cache = new Cache(
+      {
+        [CacheDataType.Constants]: 3600,
+        [CacheDataType.Page]: 300
+      },
+      { page: 10 }
+    );
     this.#wrappedCache = new CacheWrapper(this.#cache);
     this.#fetcher = new Fetcher({
       cookie: this.#cookie,
@@ -125,7 +129,6 @@ export default class BandcampFetch {
 }
 
 export class CacheWrapper {
-
   #cache: Cache;
 
   constructor(cache: Cache) {

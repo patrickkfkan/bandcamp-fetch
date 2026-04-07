@@ -1,5 +1,10 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import {type ArticleCategorySection, type ArticleList} from '../types/Article.js';
+import BaseAPIWithImageSupport, {
+  type BaseAPIWithImageSupportParams
+} from '../common/BaseAPIWithImageSupport.js';
+import {
+  type ArticleCategorySection,
+  type ArticleList
+} from '../types/Article.js';
 import type Article from '../types/Article.js';
 import { type ImageFormat } from '../types/Image.js';
 import { URLS } from '../utils/Constants.js';
@@ -23,7 +28,6 @@ export interface ArticleAPIListParams {
 }
 
 export default class ArticleAPI extends BaseAPIWithImageSupport {
-
   async getCategories(): Promise<ArticleCategorySection[]> {
     const html = await this.fetch(URLS.DAILY);
     return ArticleCategoryParser.parseCategories(html);
@@ -33,8 +37,14 @@ export default class ArticleAPI extends BaseAPIWithImageSupport {
     const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
+      albumImageFormat: await this.imageAPI.getFormat(
+        params.albumImageFormat,
+        9
+      ),
+      artistImageFormat: await this.imageAPI.getFormat(
+        params.artistImageFormat,
+        21
+      ),
       includeRawData: !!params.includeRawData
     };
     const html = await this.fetch(params.articleUrl);
@@ -42,7 +52,10 @@ export default class ArticleAPI extends BaseAPIWithImageSupport {
   }
 
   async list(params?: ArticleAPIListParams): Promise<ArticleList> {
-    let url = params?.categoryUrl ? params.categoryUrl : normalizeUrl('latest', URLS.DAILY);
+    let url =
+      params?.categoryUrl ?
+        params.categoryUrl
+      : normalizeUrl('latest', URLS.DAILY);
     if (params?.page) {
       url += `?page=${params.page}`;
     }
@@ -55,7 +68,6 @@ export default class ArticleAPI extends BaseAPIWithImageSupport {
 }
 
 export class LimiterArticleAPI extends ArticleAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {

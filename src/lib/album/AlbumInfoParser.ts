@@ -1,9 +1,16 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import {type AlbumRelease} from '../types/Album.js';
+import { type AlbumRelease } from '../types/Album.js';
 import type Album from '../types/Album.js';
 import { type ImageFormat } from '../types/Image.js';
-import { ParseError, getAdditionalPropertyValue, normalizeUrl, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl } from '../utils/Parse.js';
+import {
+  ParseError,
+  getAdditionalPropertyValue,
+  normalizeUrl,
+  parseLabelFromBackToLabelLink,
+  parsePublisher,
+  reformatImageUrl
+} from '../utils/Parse.js';
 import type Track from '../types/Track.js';
 
 interface AlbumInfoParseOptions {
@@ -14,28 +21,36 @@ interface AlbumInfoParseOptions {
 }
 
 export default class AlbumInfoParser {
-
   static parseInfo(html: string, opts: AlbumInfoParseOptions): Album {
     const $ = cheerioLoad(html);
     const rawBasic = $('script[type="application/ld+json"]').html();
     const rawExtra = decode($('script[data-tralbum]').attr('data-tralbum'));
 
     if (!rawBasic || !rawExtra) {
-      throw new ParseError('Failed to parse album info: data missing \'ld_json\' or \'tralbum\' fields.', html);
+      throw new ParseError(
+        "Failed to parse album info: data missing 'ld_json' or 'tralbum' fields.",
+        html
+      );
     }
 
     let basic, extra;
     try {
       basic = JSON.parse(rawBasic);
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse album info: JSON error in basic data.', rawBasic, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse album info: JSON error in basic data.',
+        rawBasic,
+        error
+      );
     }
     try {
       extra = JSON.parse(rawExtra);
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse album info: JSON error in extra data.', rawExtra, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse album info: JSON error in extra data.',
+        rawExtra,
+        error
+      );
     }
 
     if (!basic || typeof basic !== 'object') {
@@ -86,32 +101,35 @@ export default class AlbumInfoParser {
     }
 
     if (Array.isArray(basic.albumRelease)) {
-      const releases = basic.albumRelease.filter(
-        (release: any) => release.musicReleaseFormat).map((release: any) => {
-        const releaseItem: AlbumRelease = {
-          name: release.name,
-          format: release.musicReleaseFormat
-        };
-        if (release.description) {
-          releaseItem.description = release.description;
-        }
-        const releaseUrl = normalizeUrl(release['@id'], album.url);
-        if (releaseUrl) {
-          releaseItem.url = releaseUrl;
-        }
-        if (release.image) {
-          if (Array.isArray(release.image) && release.image[0]) {
-            releaseItem.imageUrl = release.image[0];
+      const releases = basic.albumRelease
+        .filter((release: any) => release.musicReleaseFormat)
+        .map((release: any) => {
+          const releaseItem: AlbumRelease = {
+            name: release.name,
+            format: release.musicReleaseFormat
+          };
+          if (release.description) {
+            releaseItem.description = release.description;
           }
-        }
-        else {
-          const releaseImageArtId = getAdditionalPropertyValue(release, 'art_id');
-          if (releaseImageArtId && opts.albumImageFormat) {
-            release.imageUrl = `${opts.imageBaseUrl}/img/a${releaseImageArtId}_${opts.albumImageFormat.id}.jpg`;
+          const releaseUrl = normalizeUrl(release['@id'], album.url);
+          if (releaseUrl) {
+            releaseItem.url = releaseUrl;
           }
-        }
-        return releaseItem;
-      }) as AlbumRelease[];
+          if (release.image) {
+            if (Array.isArray(release.image) && release.image[0]) {
+              releaseItem.imageUrl = release.image[0];
+            }
+          } else {
+            const releaseImageArtId = getAdditionalPropertyValue(
+              release,
+              'art_id'
+            );
+            if (releaseImageArtId && opts.albumImageFormat) {
+              release.imageUrl = `${opts.imageBaseUrl}/img/a${releaseImageArtId}_${opts.albumImageFormat.id}.jpg`;
+            }
+          }
+          return releaseItem;
+        }) as AlbumRelease[];
 
       if (releases.length > 0) {
         album.releases = releases;
@@ -140,11 +158,12 @@ export default class AlbumInfoParser {
           trackItem.position = track.track_num;
         }
         const trackUrl = normalizeUrl(track.title_link, album.url);
-        const trackFromBasic = tracksFromBasicInfo.find((el: any) => el?.position === trackItem.position);
+        const trackFromBasic = tracksFromBasicInfo.find(
+          (el: any) => el?.position === trackItem.position
+        );
         if (trackUrl) {
           trackItem.url = trackUrl;
-        }
-        else if (trackItem.position !== undefined) {
+        } else if (trackItem.position !== undefined) {
           const trackUrlFromBasic = trackFromBasic?.item?.['@id'];
           if (trackUrlFromBasic) {
             trackItem.url = trackUrlFromBasic;

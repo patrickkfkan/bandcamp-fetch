@@ -1,5 +1,4 @@
 export default class ObjectHelper {
-
   static getProperty(obj: any, prop: string, required = false) {
     const props = prop.split('.');
     let v = obj;
@@ -13,8 +12,7 @@ export default class ObjectHelper {
           }
           return v;
         }
-      }
-      else if (required) {
+      } else if (required) {
         throw new ObjectPropertyNotFoundError(prop);
       }
     }
@@ -23,7 +21,6 @@ export default class ObjectHelper {
 }
 
 class ObjectPropertyNotFoundError extends Error {
-
   prop: string;
 
   constructor(prop: string) {

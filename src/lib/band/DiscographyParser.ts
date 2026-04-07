@@ -14,7 +14,10 @@ interface DiscographyParseOptions {
 }
 
 export default class DiscographyParser {
-  static parseDiscography(html: string, opts: DiscographyParseOptions): Array<Album | Track> {
+  static parseDiscography(
+    html: string,
+    opts: DiscographyParseOptions
+  ): Array<Album | Track> {
     const $ = cheerioLoad(html);
 
     // One-album / one-track artists don't have a discography page.
@@ -29,17 +32,25 @@ export default class DiscographyParser {
       if (currentAlbumOrTrackHtml) {
         try {
           currentAlbumOrTrackData = JSON.parse(currentAlbumOrTrackHtml);
-        }
-        catch (error: any) {
+        } catch (error: any) {
           currentAlbumOrTrackData = null;
         }
       }
-      if (currentAlbumOrTrackData && typeof currentAlbumOrTrackData === 'object') {
+      if (
+        currentAlbumOrTrackData &&
+        typeof currentAlbumOrTrackData === 'object'
+      ) {
         // Check if there is a 'discography' element and, if there is, whether
         // It is hidden or has only one track / album child
         const discographyEl = $('#discography');
-        if (discographyEl.length === 0 || discographyEl.css('display') === 'none' || discographyEl.find('li').length === 1) {
-          const currentAlbumOrTrackUrl = splitUrl(currentAlbumOrTrackData['@id']);
+        if (
+          discographyEl.length === 0 ||
+          discographyEl.css('display') === 'none' ||
+          discographyEl.find('li').length === 1
+        ) {
+          const currentAlbumOrTrackUrl = splitUrl(
+            currentAlbumOrTrackData['@id']
+          );
           isOneTrack = currentAlbumOrTrackUrl.path.startsWith('/track/');
           isOneAlbum = currentAlbumOrTrackUrl.path.startsWith('/album/');
         }
@@ -52,16 +63,21 @@ export default class DiscographyParser {
         artistImageFormat: null,
         includeRawData: false
       };
-      const info = isOneTrack ? TrackInfoParser.parseInfo(html, newOpts) : AlbumInfoParser.parseInfo(html, newOpts);
+      const info =
+        isOneTrack ?
+          TrackInfoParser.parseInfo(html, newOpts)
+        : AlbumInfoParser.parseInfo(html, newOpts);
       if (info.artist !== undefined) {
-        return [ {
-          ...info,
-          artist: {
-            name: info.artist.name
+        return [
+          {
+            ...info,
+            artist: {
+              name: info.artist.name
+            }
           }
-        } ];
+        ];
       }
-      return [ info ];
+      return [info];
     }
 
     const allLinks = $('a');
@@ -76,19 +92,19 @@ export default class DiscographyParser {
       let host, pathname;
       // Regex taken from:
       // https://github.com/masterT/bandcamp-scraper/blob/master/lib/htmlParser.js
-      if ((/^\/(track|album)\/(.+)$/).exec(href)) { // Relative url starting with '/track' or '/album'
+      if (/^\/(track|album)\/(.+)$/.exec(href)) {
+        // Relative url starting with '/track' or '/album'
         host = opts.bandUrl;
         pathname = href;
-      }
-      else { // Full url (label discography)
+      } else {
+        // Full url (label discography)
         try {
           const _url = splitUrl(href);
-          if (_url.path && (/^\/(track|album)\/(.+)$/).exec(_url.path)) {
+          if (_url.path && /^\/(track|album)\/(.+)$/.exec(_url.path)) {
             host = _url.base;
             pathname = _url.path;
           }
-        }
-        catch (e) {
+        } catch (e) {
           return true;
         }
       }
@@ -119,8 +135,7 @@ export default class DiscographyParser {
             items[url].artist = {
               name: artistName
             };
-          }
-          else {
+          } else {
             items[url].artist = {
               name: defaultArtistName
             };
@@ -142,7 +157,7 @@ export default class DiscographyParser {
       }
     });
     const results = [];
-    for (const [ url, props ] of Object.entries(items)) {
+    for (const [url, props] of Object.entries(items)) {
       if (props.type && props.name) {
         const item: Album | Track = {
           url,
@@ -160,12 +175,13 @@ export default class DiscographyParser {
       }
     }
 
-    const rawExtra = decode($('ol[data-client-items]').attr('data-client-items'));
+    const rawExtra = decode(
+      $('ol[data-client-items]').attr('data-client-items')
+    );
     let extra;
     try {
       extra = JSON.parse(rawExtra);
-    }
-    catch (error: any) {
+    } catch (error: any) {
       extra = null;
     }
     if (Array.isArray(extra)) {

@@ -1,9 +1,8 @@
-import {type RelatedTags} from "../types/Tag.js";
-import type Tag from "../types/Tag.js";
-import { ParseError } from "../utils/Parse.js";
+import { type RelatedTags } from '../types/Tag.js';
+import type Tag from '../types/Tag.js';
+import { ParseError } from '../utils/Parse.js';
 
 export default class RelatedTagsParser {
-
   static parseRelatedTags(json: any) {
     if (typeof json === 'object') {
       const result: RelatedTags = {
@@ -11,8 +10,16 @@ export default class RelatedTagsParser {
         combo: []
       };
       if (json.single_results && Array.isArray(json.single_results)) {
-        result.single = (json.single_results as any[]).reduce<RelatedTags['single']>((acc, v) => {
-          if (typeof v === 'object' && v.tag && v.tag.name && v.tag.norm_name && Array.isArray(v.related_tags)) {
+        result.single = (json.single_results as any[]).reduce<
+          RelatedTags['single']
+        >((acc, v) => {
+          if (
+            typeof v === 'object' &&
+            v.tag &&
+            v.tag.name &&
+            v.tag.norm_name &&
+            Array.isArray(v.related_tags)
+          ) {
             const tag: Tag = {
               type: 'tag',
               name: v.tag.name,

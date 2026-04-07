@@ -1,10 +1,11 @@
 import { type FanItemsContinuation } from '../types/Fan.js';
 import type Tag from '../types/Tag.js';
 import type UserKind from '../types/UserKind.js';
-import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.js';
+import FanItemsBaseParser, {
+  type FanItemParseOptions
+} from './FanItemsBaseParser.js';
 
 export default class FanFollowingParser extends FanItemsBaseParser {
-
   static parseFollowingBandsFromPage(html: string, opts: FanItemParseOptions) {
     return this.parsePageItems(html, {
       ...opts,
@@ -13,7 +14,11 @@ export default class FanFollowingParser extends FanItemsBaseParser {
     });
   }
 
-  static parseFollowingBandsFromContinuation(json: any, continuation: FanItemsContinuation, opts: FanItemParseOptions) {
+  static parseFollowingBandsFromContinuation(
+    json: any,
+    continuation: FanItemsContinuation,
+    opts: FanItemParseOptions
+  ) {
     return this.parseContinuationItems(json, continuation, {
       ...opts,
       dataKey: 'followeers',
@@ -48,7 +53,11 @@ export default class FanFollowingParser extends FanItemsBaseParser {
     });
   }
 
-  static parseFollowingGenresFromContinuation(json: any, continuation: FanItemsContinuation, opts: FanItemParseOptions) {
+  static parseFollowingGenresFromContinuation(
+    json: any,
+    continuation: FanItemsContinuation,
+    opts: FanItemParseOptions
+  ) {
     return this.parseContinuationItems(json, continuation, {
       ...opts,
       dataKey: 'followeers',
@@ -67,7 +76,10 @@ export default class FanFollowingParser extends FanItemsBaseParser {
       value: data.token
     };
     if (Array.isArray(data.art_ids) && opts.imageFormat?.id) {
-      genre.imageUrls = data.art_ids.map((artId: number) => `${opts.imageBaseUrl}/img/a${artId}_${opts.imageFormat?.id}.jpg`);
+      genre.imageUrls = data.art_ids.map(
+        (artId: number) =>
+          `${opts.imageBaseUrl}/img/a${artId}_${opts.imageFormat?.id}.jpg`
+      );
     }
 
     return genre;

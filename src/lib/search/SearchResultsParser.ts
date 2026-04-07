@@ -1,10 +1,25 @@
 import { load as cheerioLoad } from 'cheerio';
 import { type ImageFormat } from '../types/Image.js';
-import { reformatImageUrl, stripLineBreaks, stripMultipleWhitespaces, substrAfter, substrBefore } from '../utils/Parse.js';
-import { type SearchResultAlbum, type SearchResultAny, type SearchResultArtist, type SearchResultFan, type SearchResultItem, type SearchResultLabel, type SearchResultTrack, type SearchResults } from '../types/Search.js';
+import {
+  reformatImageUrl,
+  stripLineBreaks,
+  stripMultipleWhitespaces,
+  substrAfter,
+  substrBefore
+} from '../utils/Parse.js';
+import {
+  type SearchResultAlbum,
+  type SearchResultAny,
+  type SearchResultArtist,
+  type SearchResultFan,
+  type SearchResultItem,
+  type SearchResultLabel,
+  type SearchResultTrack,
+  type SearchResults
+} from '../types/Search.js';
 import { SearchItemType } from './SearchAPI.js';
 
-const VALID_RESULT_TYPES = [ 'artist', 'label', 'album', 'track', 'fan' ];
+const VALID_RESULT_TYPES = ['artist', 'label', 'album', 'track', 'fan'];
 
 interface SearchResultsParseOptions {
   itemType: SearchItemType;
@@ -13,8 +28,10 @@ interface SearchResultsParseOptions {
 }
 
 export default class SearchResultsParser {
-
-  static parseResults(html: string, opts: SearchResultsParseOptions): SearchResults<SearchResultAny> {
+  static parseResults(
+    html: string,
+    opts: SearchResultsParseOptions
+  ): SearchResults<SearchResultAny> {
     const $ = cheerioLoad(html);
     const resultsList = $('li.searchresult');
     const items: Array<SearchResultAny> = [];
@@ -23,67 +40,90 @@ export default class SearchResultsParser {
       const resultInfo = resultListItem.find('.result-info');
 
       // Common info
-      const resultType = resultInfo.children('.itemtype').text().trim().toLowerCase();
+      const resultType = resultInfo
+        .children('.itemtype')
+        .text()
+        .trim()
+        .toLowerCase();
       const imgSrc = $('.art img', resultListItem).attr('src');
       const heading = $('.heading a', resultInfo);
       const name = heading.text().trim();
       const url = resultInfo.find('.itemurl').text().trim();
-      const imageUrl = reformatImageUrl(imgSrc, resultType === 'album' || resultType === 'track' ? opts.albumImageFormat : opts.artistImageFormat);
+      const imageUrl = reformatImageUrl(
+        imgSrc,
+        resultType === 'album' || resultType === 'track' ?
+          opts.albumImageFormat
+        : opts.artistImageFormat
+      );
 
-      if (!this.#matchSearchItemTypeWithResult(opts.itemType, resultType) || !name || !url) {
+      if (
+        !this.#matchSearchItemTypeWithResult(opts.itemType, resultType) ||
+        !name ||
+        !url
+      ) {
         return true;
       }
 
       // Other info
-      let location, genre, tags, artist, numTracks, duration, releaseDate, album;
-      resultInfo.find('.subhead, .genre, .tags, .released, .length').each((i: number, info: any) => {
-        info = $(info);
-        if (info.hasClass('subhead')) {
-          if (resultType === 'artist' || resultType === 'label') {
-            location = info.text().trim();
-          }
-          else if (resultType === 'album' || resultType === 'track') {
-            const infoText = info.text();
-            artist = substrAfter(infoText, 'by ')?.trim();
+      let location,
+        genre,
+        tags,
+        artist,
+        numTracks,
+        duration,
+        releaseDate,
+        album;
+      resultInfo
+        .find('.subhead, .genre, .tags, .released, .length')
+        .each((i: number, info: any) => {
+          info = $(info);
+          if (info.hasClass('subhead')) {
+            if (resultType === 'artist' || resultType === 'label') {
+              location = info.text().trim();
+            } else if (resultType === 'album' || resultType === 'track') {
+              const infoText = info.text();
+              artist = substrAfter(infoText, 'by ')?.trim();
 
-            if (resultType === 'track') {
-              album = substrBefore(infoText, ' by');
-              if (album) {
-                album = substrAfter(album, 'from ')?.trim();
+              if (resultType === 'track') {
+                album = substrBefore(infoText, ' by');
+                if (album) {
+                  album = substrAfter(album, 'from ')?.trim();
+                }
               }
             }
+            return true;
           }
-          return true;
-        }
-        if (info.hasClass('genre')) {
-          genre = substrAfter(info.text(), 'genre: ')?.trim();
-          return true;
-        }
-        if (info.hasClass('tags')) {
-          tags = substrAfter(info.text(), 'tags:');
-          if (tags) {
-            tags = stripLineBreaks(stripMultipleWhitespaces(tags)).trim();
+          if (info.hasClass('genre')) {
+            genre = substrAfter(info.text(), 'genre: ')?.trim();
+            return true;
           }
-          return true;
-        }
-        if (info.hasClass('released')) {
-          releaseDate = substrAfter(info.text(), 'released ')?.trim();
-          return true;
-        }
-        if (info.hasClass('length')) {
-          const lengthParts = info.text().split(',');
-          const tracksText = lengthParts[0];
-          const minutesText = lengthParts[1];
-          const numTracksStr = tracksText ? substrBefore(tracksText, 'tracks') : null;
-          if (numTracksStr) {
-            numTracks = parseInt(numTracksStr, 10);
+          if (info.hasClass('tags')) {
+            tags = substrAfter(info.text(), 'tags:');
+            if (tags) {
+              tags = stripLineBreaks(stripMultipleWhitespaces(tags)).trim();
+            }
+            return true;
           }
-          const durationStr = minutesText ? substrBefore(minutesText, 'minutes') : null;
-          if (durationStr) {
-            duration = parseInt(durationStr, 10) * 60;
+          if (info.hasClass('released')) {
+            releaseDate = substrAfter(info.text(), 'released ')?.trim();
+            return true;
           }
-        }
-      });
+          if (info.hasClass('length')) {
+            const lengthParts = info.text().split(',');
+            const tracksText = lengthParts[0];
+            const minutesText = lengthParts[1];
+            const numTracksStr =
+              tracksText ? substrBefore(tracksText, 'tracks') : null;
+            if (numTracksStr) {
+              numTracks = parseInt(numTracksStr, 10);
+            }
+            const durationStr =
+              minutesText ? substrBefore(minutesText, 'minutes') : null;
+            if (durationStr) {
+              duration = parseInt(durationStr, 10) * 60;
+            }
+          }
+        });
 
       const base: Omit<SearchResultItem, 'type'> = {
         name: heading.text().trim(),
@@ -102,16 +142,14 @@ export default class SearchResultsParser {
         if (genre) artist.genre = genre;
         if (tags) artist.tags = tags;
         items.push(artist);
-      }
-      else if (resultType === 'label') {
+      } else if (resultType === 'label') {
         const label: SearchResultLabel = {
           type: 'label',
           ...base
         };
         if (location) label.location = location;
         items.push(label);
-      }
-      else if (resultType === 'album') {
+      } else if (resultType === 'album') {
         const album: SearchResultAlbum = {
           type: 'album',
           ...base
@@ -122,8 +160,7 @@ export default class SearchResultsParser {
         if (releaseDate) album.releaseDate = releaseDate;
         if (tags) album.tags = tags;
         items.push(album);
-      }
-      else if (resultType === 'track') {
+      } else if (resultType === 'track') {
         const track: SearchResultTrack = {
           type: 'track',
           ...base
@@ -133,8 +170,7 @@ export default class SearchResultsParser {
         if (releaseDate) track.releaseDate = releaseDate;
         if (tags) track.tags = tags;
         items.push(track);
-      }
-      else if (resultType === 'fan') {
+      } else if (resultType === 'fan') {
         const fan: SearchResultFan = {
           type: 'fan',
           ...base
@@ -144,7 +180,10 @@ export default class SearchResultsParser {
       }
     });
 
-    let totalPages = parseInt($('.pagelist').find('.pagenum').last().text(), 10);
+    let totalPages = parseInt(
+      $('.pagelist').find('.pagenum').last().text(),
+      10
+    );
     if (isNaN(totalPages)) {
       totalPages = 1;
     }
@@ -155,8 +194,14 @@ export default class SearchResultsParser {
     };
   }
 
-  static #matchSearchItemTypeWithResult(searchType: SearchItemType, resultType: string) {
-    if (searchType === SearchItemType.All && VALID_RESULT_TYPES.includes(resultType)) {
+  static #matchSearchItemTypeWithResult(
+    searchType: SearchItemType,
+    resultType: string
+  ) {
+    if (
+      searchType === SearchItemType.All &&
+      VALID_RESULT_TYPES.includes(resultType)
+    ) {
       return true;
     }
 

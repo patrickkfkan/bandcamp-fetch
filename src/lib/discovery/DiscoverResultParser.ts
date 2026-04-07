@@ -1,7 +1,11 @@
 import { URL } from 'url';
 import type Album from '../types/Album.js';
 import type Artist from '../types/Artist.js';
-import { type DiscoverOptions, type DiscoverResult, type SanitizedDiscoverParams } from '../types/Discovery.js';
+import {
+  type DiscoverOptions,
+  type DiscoverResult,
+  type SanitizedDiscoverParams
+} from '../types/Discovery.js';
 import { type ImageFormat } from '../types/Image.js';
 import type Shirt from '../types/Shirt.js';
 import { ParseError } from '../utils/Parse.js';
@@ -14,25 +18,31 @@ interface DiscoverResultParseOptions {
 }
 
 export default class DiscoverResultParser {
-
-  static parseDiscoverResult(json: any, opts: DiscoverResultParseOptions, params: SanitizedDiscoverParams, availableOptions: DiscoverOptions): DiscoverResult {
+  static parseDiscoverResult(
+    json: any,
+    opts: DiscoverResultParseOptions,
+    params: SanitizedDiscoverParams,
+    availableOptions: DiscoverOptions
+  ): DiscoverResult {
     if (typeof json === 'object' && Array.isArray(json.results)) {
-      
-      const items = (json.results as any[]).reduce<Array<Album | Shirt>>((result, item: any) => {
-        switch (item.result_type) {
-          case 'a': {
-            const album = this.#parseAlbum(item, opts, availableOptions);
-            result.push(album);
-            break;
+      const items = (json.results as any[]).reduce<Array<Album | Shirt>>(
+        (result, item: any) => {
+          switch (item.result_type) {
+            case 'a': {
+              const album = this.#parseAlbum(item, opts, availableOptions);
+              result.push(album);
+              break;
+            }
+            case 's': {
+              const shirt = this.#parseShirt(item, opts);
+              result.push(shirt);
+              break;
+            }
           }
-          case 's': {
-            const shirt = this.#parseShirt(item, opts);
-            result.push(shirt);
-            break;
-          }
-        }
-        return result;
-      }, []);
+          return result;
+        },
+        []
+      );
 
       const parsed: DiscoverResult = {
         items,
@@ -59,10 +69,17 @@ export default class DiscoverResultParser {
       return parsed;
     }
 
-    throw new ParseError('Failed to parse discover results: data is missing or has invalid \'results\' field.', json);
+    throw new ParseError(
+      "Failed to parse discover results: data is missing or has invalid 'results' field.",
+      json
+    );
   }
 
-  static #parseAlbum(item: any, opts: DiscoverResultParseOptions, availableOptions: DiscoverOptions) {
+  static #parseAlbum(
+    item: any,
+    opts: DiscoverResultParseOptions,
+    availableOptions: DiscoverOptions
+  ) {
     const artist: Artist = {
       type: 'artist',
       name: item.album_artist || item.band_name
@@ -74,8 +91,10 @@ export default class DiscoverResultParser {
       artist,
       location: item.band_location
     };
-    const genre = item.band_genre_id !== undefined ?
-      availableOptions.genres.find((genre) => item.band_genre_id === genre.id) : null;
+    const genre =
+      item.band_genre_id !== undefined ?
+        availableOptions.genres.find((genre) => item.band_genre_id === genre.id)
+      : null;
     if (genre?.name) {
       album.genre = genre.name;
     }
@@ -86,7 +105,12 @@ export default class DiscoverResultParser {
       album.url = this.#stripFromDiscoverPage(item.item_url);
     }
     if (item.primary_image?.image_id && opts.albumImageFormat) {
-      album.imageUrl = this.#getImageURL(item.primary_image.image_id, opts.imageBaseUrl, opts.albumImageFormat, 'a');
+      album.imageUrl = this.#getImageURL(
+        item.primary_image.image_id,
+        opts.imageBaseUrl,
+        opts.albumImageFormat,
+        'a'
+      );
     }
     if (item.featured_track) {
       album.featuredTrack = {
@@ -96,7 +120,11 @@ export default class DiscoverResultParser {
       };
     }
     if (item.band_image?.image_id && opts.artistImageFormat) {
-      artist.imageUrl = this.#getImageURL(item.band_image.image_id, opts.imageBaseUrl, opts.artistImageFormat);
+      artist.imageUrl = this.#getImageURL(
+        item.band_image.image_id,
+        opts.imageBaseUrl,
+        opts.artistImageFormat
+      );
     }
     if (item.label_name) {
       album.label = {
@@ -112,20 +140,30 @@ export default class DiscoverResultParser {
   static #parseShirt(item: any, opts: DiscoverResultParseOptions) {
     const shirt: Shirt = {
       type: 'shirt',
-      name: item.title,
+      name: item.title
     };
     if (item.item_url) {
       shirt.url = this.#stripFromDiscoverPage(item.item_url);
     }
     if (item.primary_image?.image_id && opts.merchImageFormat) {
       shirt.imageUrl = {
-        primary: this.#getImageURL(item.primary_image.image_id, opts.imageBaseUrl, opts.merchImageFormat)
+        primary: this.#getImageURL(
+          item.primary_image.image_id,
+          opts.imageBaseUrl,
+          opts.merchImageFormat
+        )
       };
       if (Array.isArray(item.addl_images) && item.addl_images.length > 0) {
         const additionalImages: string[] = [];
         for (const img of item.addl_images) {
           if (typeof img === 'object' && img.image_id) {
-            additionalImages.push(this.#getImageURL(img.image_id, opts.imageBaseUrl, opts.merchImageFormat));
+            additionalImages.push(
+              this.#getImageURL(
+                img.image_id,
+                opts.imageBaseUrl,
+                opts.merchImageFormat
+              )
+            );
           }
         }
         if (additionalImages.length > 0) {
@@ -147,14 +185,23 @@ export default class DiscoverResultParser {
         artist.url = this.#stripFromDiscoverPage(item.band_url);
       }
       if (item.band_image?.image_id && opts.artistImageFormat) {
-        artist.imageUrl = this.#getImageURL(item.band_image.image_id, opts.imageBaseUrl, opts.artistImageFormat);
+        artist.imageUrl = this.#getImageURL(
+          item.band_image.image_id,
+          opts.imageBaseUrl,
+          opts.artistImageFormat
+        );
       }
       shirt.artist = artist;
     }
     return shirt;
   }
 
-  static #getImageURL(imageId: string, imageBaseUrl: string, format: ImageFormat, prefix = '') {
+  static #getImageURL(
+    imageId: string,
+    imageBaseUrl: string,
+    format: ImageFormat,
+    prefix = ''
+  ) {
     return `${imageBaseUrl}/img/${prefix}${imageId}_${format.id}.jpg`;
   }
 

@@ -1,7 +1,6 @@
 import Bottleneck from 'bottleneck';
 
 export default class Limiter {
-
   #limiter: Bottleneck;
 
   constructor() {

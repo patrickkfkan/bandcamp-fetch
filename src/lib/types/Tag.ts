@@ -9,7 +9,7 @@ export interface RelatedTags {
   /**
    * List of tags and the related tags for each entry.
    */
-  single: Array<{ tag: Tag, related: Tag[] }>;
+  single: Array<{ tag: Tag; related: Tag[] }>;
   /**
    * The combined related tags if there are multiple tags involved.
    */

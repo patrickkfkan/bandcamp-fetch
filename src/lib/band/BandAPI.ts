@@ -1,8 +1,10 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import BaseAPIWithImageSupport, {
+  type BaseAPIWithImageSupportParams
+} from '../common/BaseAPIWithImageSupport.js';
 import type Album from '../types/Album.js';
 import type Artist from '../types/Artist.js';
 import { type ImageFormat } from '../types/Image.js';
-import {type LabelArtist} from '../types/Label.js';
+import { type LabelArtist } from '../types/Label.js';
 import type Label from '../types/Label.js';
 import type Track from '../types/Track.js';
 import type Limiter from '../utils/Limiter.js';
@@ -28,8 +30,9 @@ export interface BandAPIGetLabelArtistsParams {
 }
 
 export default class BandAPI extends BaseAPIWithImageSupport {
-
-  async getDiscography(params: BandAPIGetDiscographyParams): Promise<Array<Album | Track>> {
+  async getDiscography(
+    params: BandAPIGetDiscographyParams
+  ): Promise<Array<Album | Track>> {
     const imageConstants = await this.imageAPI.getConstants();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
@@ -83,7 +86,9 @@ export default class BandAPI extends BaseAPIWithImageSupport {
     return result;
   }
 
-  async getLabelArtists(params: BandAPIGetLabelArtistsParams): Promise<LabelArtist[]> {
+  async getLabelArtists(
+    params: BandAPIGetLabelArtistsParams
+  ): Promise<LabelArtist[]> {
     const opts = {
       labelUrl: params.labelUrl,
       imageFormat: await this.imageAPI.getFormat(params.imageFormat)
@@ -96,7 +101,11 @@ export default class BandAPI extends BaseAPIWithImageSupport {
   /**
    * @internal
    */
-  protected static getUrl(artistOrLabelUrl: string, path?: string, labelId?: string): string {
+  protected static getUrl(
+    artistOrLabelUrl: string,
+    path?: string,
+    labelId?: string
+  ): string {
     let url = path ? normalizeUrl(path, artistOrLabelUrl) : artistOrLabelUrl;
     if (labelId) {
       url += `/?label=${encodeURIComponent(labelId)}`;
@@ -108,8 +117,7 @@ export default class BandAPI extends BaseAPIWithImageSupport {
    * @internal
    */
   protected static isInfoComplete(data: Artist | Label) {
-    return data.name && data.url &&
-      (data.type === 'label' || data.label);
+    return data.name && data.url && (data.type === 'label' || data.label);
   }
 
   /**
@@ -122,7 +130,12 @@ export default class BandAPI extends BaseAPIWithImageSupport {
     if (target.url === null) {
       target.url = src.url;
     }
-    if (target.type === 'artist' && src.type === 'artist' && !target.label && src.label) {
+    if (
+      target.type === 'artist' &&
+      src.type === 'artist' &&
+      !target.label &&
+      src.label
+    ) {
       target.label = src.label;
     }
 
@@ -131,7 +144,6 @@ export default class BandAPI extends BaseAPIWithImageSupport {
 }
 
 export class LimiterBandAPI extends BandAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
@@ -139,7 +151,9 @@ export class LimiterBandAPI extends BandAPI {
     this.#limiter = params.limiter;
   }
 
-  async getDiscography(params: BandAPIGetDiscographyParams): Promise<(Album | Track)[]> {
+  async getDiscography(
+    params: BandAPIGetDiscographyParams
+  ): Promise<(Album | Track)[]> {
     return this.#limiter.schedule(() => super.getDiscography(params));
   }
 
@@ -147,7 +161,9 @@ export class LimiterBandAPI extends BandAPI {
     return this.#limiter.schedule(() => super.getInfo(params));
   }
 
-  async getLabelArtists(params: BandAPIGetLabelArtistsParams): Promise<LabelArtist[]> {
+  async getLabelArtists(
+    params: BandAPIGetLabelArtistsParams
+  ): Promise<LabelArtist[]> {
     return this.#limiter.schedule(() => super.getLabelArtists(params));
   }
 }

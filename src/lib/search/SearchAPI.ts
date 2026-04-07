@@ -2,9 +2,19 @@ import { URL } from 'url';
 import { type ImageFormat } from '../types/Image.js';
 import { URLS } from '../utils/Constants.js';
 import SearchResultsParser from './SearchResultsParser.js';
-import { type SearchResultAlbum, type SearchResultAny, type SearchResultArtist, type SearchResultFan, type SearchResultLabel, type SearchResultTrack, type SearchResults } from '../types/Search.js';
+import {
+  type SearchResultAlbum,
+  type SearchResultAny,
+  type SearchResultArtist,
+  type SearchResultFan,
+  type SearchResultLabel,
+  type SearchResultTrack,
+  type SearchResults
+} from '../types/Search.js';
 import type Limiter from '../utils/Limiter.js';
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import BaseAPIWithImageSupport, {
+  type BaseAPIWithImageSupportParams
+} from '../common/BaseAPIWithImageSupport.js';
 
 export enum SearchItemType {
   All = 'All',
@@ -22,13 +32,15 @@ export interface SearchAPISearchParams {
 }
 
 export default class SearchAPI extends BaseAPIWithImageSupport {
-
   async all(params: SearchAPISearchParams) {
     return this.search({ ...params, itemType: SearchItemType.All });
   }
 
   async artistsAndLabels(params: SearchAPISearchParams) {
-    return this.search({ ...params, itemType: SearchItemType.ArtistsAndLabels });
+    return this.search({
+      ...params,
+      itemType: SearchItemType.ArtistsAndLabels
+    });
   }
 
   async albums(params: SearchAPISearchParams) {
@@ -46,16 +58,36 @@ export default class SearchAPI extends BaseAPIWithImageSupport {
   /**
    * @internal
    */
-  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.ArtistsAndLabels }): Promise<SearchResults<SearchResultArtist | SearchResultLabel>>;
-  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Albums }): Promise<SearchResults<SearchResultAlbum>>;
-  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Tracks }): Promise<SearchResults<SearchResultTrack>>;
-  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Fans }): Promise<SearchResults<SearchResultFan>>;
-  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.All }): Promise<SearchResults<SearchResultAny>>;
-  protected async search(params: SearchAPISearchParams & { itemType: SearchItemType }): Promise<any> {
+  protected async search(
+    params: SearchAPISearchParams & {
+      itemType: SearchItemType.ArtistsAndLabels;
+    }
+  ): Promise<SearchResults<SearchResultArtist | SearchResultLabel>>;
+  protected async search(
+    params: SearchAPISearchParams & { itemType: SearchItemType.Albums }
+  ): Promise<SearchResults<SearchResultAlbum>>;
+  protected async search(
+    params: SearchAPISearchParams & { itemType: SearchItemType.Tracks }
+  ): Promise<SearchResults<SearchResultTrack>>;
+  protected async search(
+    params: SearchAPISearchParams & { itemType: SearchItemType.Fans }
+  ): Promise<SearchResults<SearchResultFan>>;
+  protected async search(
+    params: SearchAPISearchParams & { itemType: SearchItemType.All }
+  ): Promise<SearchResults<SearchResultAny>>;
+  protected async search(
+    params: SearchAPISearchParams & { itemType: SearchItemType }
+  ): Promise<any> {
     const opts = {
       itemType: params.itemType || SearchItemType.All,
-      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21)
+      albumImageFormat: await this.imageAPI.getFormat(
+        params.albumImageFormat,
+        9
+      ),
+      artistImageFormat: await this.imageAPI.getFormat(
+        params.artistImageFormat,
+        21
+      )
     };
     const html = await this.fetch(SearchAPI.getSearchUrl(params));
     return SearchResultsParser.parseResults(html, opts);
@@ -64,7 +96,9 @@ export default class SearchAPI extends BaseAPIWithImageSupport {
   /**
    * @internal
    */
-  protected static getSearchUrl(params: SearchAPISearchParams & { itemType: SearchItemType }) {
+  protected static getSearchUrl(
+    params: SearchAPISearchParams & { itemType: SearchItemType }
+  ) {
     const urlObj = new URL(URLS.SEARCH);
     urlObj.searchParams.set('q', params.query);
     urlObj.searchParams.set('page', (params.page || 1).toString());
@@ -88,7 +122,6 @@ export default class SearchAPI extends BaseAPIWithImageSupport {
 }
 
 export class LimiterSearchAPI extends SearchAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {
@@ -96,23 +129,33 @@ export class LimiterSearchAPI extends SearchAPI {
     this.#limiter = params.limiter;
   }
 
-  async all(params: SearchAPISearchParams): Promise<SearchResults<SearchResultAny>> {
+  async all(
+    params: SearchAPISearchParams
+  ): Promise<SearchResults<SearchResultAny>> {
     return this.#limiter.schedule(() => super.all(params));
   }
 
-  async artistsAndLabels(params: SearchAPISearchParams): Promise<SearchResults<SearchResultArtist | SearchResultLabel>> {
+  async artistsAndLabels(
+    params: SearchAPISearchParams
+  ): Promise<SearchResults<SearchResultArtist | SearchResultLabel>> {
     return this.#limiter.schedule(() => super.artistsAndLabels(params));
   }
 
-  async albums(params: SearchAPISearchParams): Promise<SearchResults<SearchResultAlbum>> {
+  async albums(
+    params: SearchAPISearchParams
+  ): Promise<SearchResults<SearchResultAlbum>> {
     return this.#limiter.schedule(() => super.albums(params));
   }
 
-  async tracks(params: SearchAPISearchParams): Promise<SearchResults<SearchResultTrack>> {
+  async tracks(
+    params: SearchAPISearchParams
+  ): Promise<SearchResults<SearchResultTrack>> {
     return this.#limiter.schedule(() => super.tracks(params));
   }
 
-  async fans(params: SearchAPISearchParams): Promise<SearchResults<SearchResultFan>> {
+  async fans(
+    params: SearchAPISearchParams
+  ): Promise<SearchResults<SearchResultFan>> {
     return this.#limiter.schedule(() => super.fans(params));
   }
 }

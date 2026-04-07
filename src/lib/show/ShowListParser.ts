@@ -8,7 +8,6 @@ interface ShowListParseOptions {
 }
 
 export default class ShowListParser {
-
   static parseList(json: any, opts: ShowListParseOptions): Show[] {
     const shows: Show[] = [];
     if (typeof json === 'object' && Array.isArray(json.results)) {

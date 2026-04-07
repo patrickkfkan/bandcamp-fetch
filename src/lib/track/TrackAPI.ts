@@ -1,4 +1,6 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import BaseAPIWithImageSupport, {
+  type BaseAPIWithImageSupportParams
+} from '../common/BaseAPIWithImageSupport.js';
 import { type ImageFormat } from '../types/Image.js';
 import type Track from '../types/Track.js';
 import type Limiter from '../utils/Limiter.js';
@@ -17,9 +19,16 @@ export default class TrackAPI extends BaseAPIWithImageSupport {
     const opts = {
       trackUrl: params.trackUrl,
       imageBaseUrl: imageConstants.baseUrl,
-      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
-      includeRawData: params.includeRawData !== undefined ? params.includeRawData : false
+      albumImageFormat: await this.imageAPI.getFormat(
+        params.albumImageFormat,
+        9
+      ),
+      artistImageFormat: await this.imageAPI.getFormat(
+        params.artistImageFormat,
+        21
+      ),
+      includeRawData:
+        params.includeRawData !== undefined ? params.includeRawData : false
     };
     const html = await this.fetch(params.trackUrl);
     return TrackInfoParser.parseInfo(html, opts);
@@ -27,7 +36,6 @@ export default class TrackAPI extends BaseAPIWithImageSupport {
 }
 
 export class LimiterTrackAPI extends TrackAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIWithImageSupportParams & { limiter: Limiter }) {

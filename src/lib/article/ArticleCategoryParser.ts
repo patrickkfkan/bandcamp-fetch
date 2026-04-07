@@ -4,7 +4,6 @@ import { URLS } from '../utils/Constants.js';
 import { isAbsoluteUrl, normalizeUrl } from '../utils/Parse.js';
 
 export default class ArticleCategoryParser {
-
   static parseCategories(html: string): ArticleCategorySection[] {
     const $ = cheerioLoad(html);
     const dailyUrl = URLS.DAILY;
@@ -26,8 +25,7 @@ export default class ArticleCategoryParser {
           if (parsed !== null && s.sections) {
             s.sections.push(parsed);
           }
-        }
-        else if (tag === 'div') {
+        } else if (tag === 'div') {
           c.find('a').each((i: number, a: any) => {
             a = $(a);
             let url = a.attr('href');
@@ -41,7 +39,6 @@ export default class ArticleCategoryParser {
               });
             }
           });
-
         }
       });
       if (s.sections?.length === 0) {

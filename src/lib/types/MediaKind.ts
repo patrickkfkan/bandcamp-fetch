@@ -12,8 +12,8 @@ interface MediaKind {
   label?: Omit<Label, 'type'>;
   publisher?: UserKind;
   raw?: {
-    basic: string,
-    extra: string
+    basic: string;
+    extra: string;
   };
 }
 

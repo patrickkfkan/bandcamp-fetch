@@ -13,27 +13,41 @@ export enum ImageFormatFilter {
 }
 
 export default class ImageAPI extends BaseAPI {
-
   /**
    * @internal
    */
   async getConstants(): Promise<ImageConstants> {
-    return this.cache.getOrSet(CacheDataType.Constants, 'imageConstants', async () => {
-      const html = await this.fetch(URLS.DAILY);
-      return ImageParser.parseImageConstants(html);
-    });
+    return this.cache.getOrSet(
+      CacheDataType.Constants,
+      'imageConstants',
+      async () => {
+        const html = await this.fetch(URLS.DAILY);
+        return ImageParser.parseImageConstants(html);
+      }
+    );
   }
 
-  async getFormat(target?: string | number | ImageFormat, fallbackId?: number): Promise<ImageFormat | null> {
-    if (target && typeof target === 'object' && target.id !== undefined && target.name) {
+  async getFormat(
+    target?: string | number | ImageFormat,
+    fallbackId?: number
+  ): Promise<ImageFormat | null> {
+    if (
+      target &&
+      typeof target === 'object' &&
+      target.id !== undefined &&
+      target.name
+    ) {
       return target;
     }
     let format;
     if (target !== undefined) {
       const imageConstants = await this.getConstants();
-      format = imageConstants.formats.find(
-        (format) => (typeof target === 'string' && format.name === target) ||
-          (Number.isInteger(target) && format.id === target)) || null;
+      format =
+        imageConstants.formats.find(
+          (format) =>
+            (typeof target === 'string' && format.name === target) ||
+            (Number.isInteger(target) && format.id === target)
+        ) || null;
     }
     if (format) {
       return format;
@@ -47,10 +61,9 @@ export default class ImageAPI extends BaseAPI {
   async getFormats(filter?: ImageFormatFilter): Promise<ImageFormat[]> {
     const constants = await this.getConstants();
     if (filter === ImageFormatFilter.Album) {
-      return constants.formats.filter( (c) => c.name.startsWith('art_') );
-    }
-    else if (filter === ImageFormatFilter.Bio) {
-      return constants.formats.filter( (c) => c.name.startsWith('bio_') );
+      return constants.formats.filter((c) => c.name.startsWith('art_'));
+    } else if (filter === ImageFormatFilter.Bio) {
+      return constants.formats.filter((c) => c.name.startsWith('bio_'));
     }
 
     return constants.formats;
@@ -58,7 +71,6 @@ export default class ImageAPI extends BaseAPI {
 }
 
 export class LimiterImageAPI extends ImageAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIParams & { limiter: Limiter }) {
@@ -66,11 +78,14 @@ export class LimiterImageAPI extends ImageAPI {
     this.#limiter = params.limiter;
   }
 
-  async getFormats(filter?: ImageFormatFilter  ): Promise<ImageFormat[]> {
+  async getFormats(filter?: ImageFormatFilter): Promise<ImageFormat[]> {
     return this.#limiter.schedule(() => super.getFormats(filter));
   }
 
-  async getFormat(target?: string | number | ImageFormat  , fallbackId?: number  ): Promise<ImageFormat | null> {
+  async getFormat(
+    target?: string | number | ImageFormat,
+    fallbackId?: number
+  ): Promise<ImageFormat | null> {
     return this.#limiter.schedule(() => super.getFormat(target, fallbackId));
   }
 }

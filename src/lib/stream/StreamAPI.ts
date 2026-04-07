@@ -9,7 +9,6 @@ export interface StreamTestResult {
 }
 
 export default class StreamAPI extends BaseAPI {
-
   async test(url: string): Promise<StreamTestResult> {
     return this.fetch(url, false, FetchMethod.HEAD);
   }
@@ -26,7 +25,6 @@ export default class StreamAPI extends BaseAPI {
 }
 
 export class LimiterStreamAPI extends StreamAPI {
-
   #limiter: Limiter;
 
   constructor(params: BaseAPIParams & { limiter: Limiter }) {

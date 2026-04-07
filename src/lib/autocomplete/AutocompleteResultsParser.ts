@@ -1,8 +1,10 @@
-import { type AutoCompleteTag, type AutocompleteLocation } from '../types/Autocomplete.js';
+import {
+  type AutoCompleteTag,
+  type AutocompleteLocation
+} from '../types/Autocomplete.js';
 import { ParseError } from '../utils/Parse.js';
 
 export default class AutocompleteResultsParser {
-
   static parseTags(json: any): AutoCompleteTag[] {
     if (Array.isArray(json)) {
       return json.map<AutoCompleteTag>((tagData: any) => ({
@@ -12,7 +14,10 @@ export default class AutocompleteResultsParser {
         name: tagData.display_name
       }));
     }
-    throw new ParseError('Failed to parse autocomplete tags: JSON invalid or missing \'matching_tags\'.', json);
+    throw new ParseError(
+      "Failed to parse autocomplete tags: JSON invalid or missing 'matching_tags'.",
+      json
+    );
   }
 
   static parseLocations(json: any): AutocompleteLocation[] {
@@ -25,6 +30,9 @@ export default class AutocompleteResultsParser {
         fullName: locationData.fullname
       }));
     }
-    throw new ParseError('Failed to parse autocomplete locations: JSON invalid or missing \'results\'.', json);
+    throw new ParseError(
+      "Failed to parse autocomplete locations: JSON invalid or missing 'results'.",
+      json
+    );
   }
 }

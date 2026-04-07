@@ -11,8 +11,8 @@ import type Tag from './Tag.js';
  */
 export interface DiscoverOptions {
   categories: (NameValuePair<number> & { slug: string })[];
-  genres: (NameValuePair<string> & { id: number; })[];
-  subgenres: Record<string, (NameValuePair<string> & { id: number; })[]>;
+  genres: (NameValuePair<string> & { id: number })[];
+  subgenres: Record<string, (NameValuePair<string> & { id: number })[]>;
   customTags: Array<Tag | string>;
   sortBys: NameValuePair<string>[];
   locations: NameValuePair<number>[];
@@ -47,17 +47,13 @@ export interface DiscoverParams {
   merchImageFormat?: string | number | ImageFormat;
 }
 
-export type SanitizedDiscoverParams =
-  Pick<DiscoverParams,
-    'genre' |
-    'subgenre' |
-    'customTags'> &
-  Required<Pick<DiscoverParams,
-    'category' |
-    'sortBy' |
-    'location' |
-    'time' |
-    'size'>>
+export type SanitizedDiscoverParams = Pick<
+  DiscoverParams,
+  'genre' | 'subgenre' | 'customTags'
+> &
+  Required<
+    Pick<DiscoverParams, 'category' | 'sortBy' | 'location' | 'time' | 'size'>
+  >;
 
 /**
  * Results returned by {@link DiscoveryAPI.discover}.

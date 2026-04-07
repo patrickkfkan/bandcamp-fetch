@@ -6,7 +6,6 @@ export interface BaseAPIWithImageSupportParams extends BaseAPIParams {
 }
 
 export default abstract class BaseAPIWithImageSupport extends BaseAPI {
-
   #imageAPI: ImageAPI;
 
   constructor(params: BaseAPIWithImageSupportParams) {

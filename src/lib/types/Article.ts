@@ -9,21 +9,21 @@ interface Article {
   date: string;
   category: ArticleCategory;
   genre?: {
-    name: string,
-    url?: string,
-    readMoreUrl?: string
+    name: string;
+    url?: string;
+    readMoreUrl?: string;
   };
   author: {
-    name: string,
-    url: string
+    name: string;
+    url: string;
   };
   mediaItems: Array<ArticleMediaItem>;
   sections: ArticleSection[];
   raw?: {
-    basic: any,
-    mediaItems: any,
-    body: string
-  }
+    basic: any;
+    mediaItems: any;
+    body: string;
+  };
 }
 
 export interface ArticleCategory {
@@ -40,8 +40,8 @@ export interface ArticleCategorySection {
 
 export interface ArticleSection {
   heading?: {
-    html: string,
-    text: string
+    html: string;
+    text: string;
   };
   html: string;
   text: string;
@@ -49,8 +49,8 @@ export interface ArticleSection {
 }
 
 export type ArticleMediaItem = (Album | Track) & {
-  mediaItemRef?: string,
-  featuredTrackPosition: number
+  mediaItemRef?: string;
+  featuredTrackPosition: number;
 };
 
 export interface ArticleList {

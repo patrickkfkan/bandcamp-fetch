@@ -7,8 +7,8 @@ import { URLS } from '../utils/Constants.js';
 import type Track from '../types/Track.js';
 
 interface ShowParseOptions {
-  showUrl: string,
-  imageBaseUrl: string,
+  showUrl: string;
+  imageBaseUrl: string;
   albumImageFormat?: ImageFormat | null;
   artistImageFormat?: ImageFormat | null;
   showImageFormat?: ImageFormat | null;
@@ -21,20 +21,29 @@ export default class ShowParser {
     let parsed;
     try {
       parsed = JSON.parse(blob);
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse show: JSON error in data-blob.', html, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse show: JSON error in data-blob.',
+        html,
+        error
+      );
     }
 
     const appData = typeof parsed === 'object' ? parsed.appData : null;
     const showId = appData?.showId;
     const shows = appData?.shows;
-    const showInfo = showId && Array.isArray(shows) ?
-      shows.find((value) => value.itemId === showId) : null;
-    const tracksInfo = typeof json === 'object' && Array.isArray(json.tracks) ?
-      json.tracks as Array<any> : null;
-    const audioInfo = typeof json === 'object' && typeof json.compiledTrack === 'object' ?
-      json.compiledTrack : null;
+    const showInfo =
+      showId && Array.isArray(shows) ?
+        shows.find((value) => value.itemId === showId)
+      : null;
+    const tracksInfo =
+      typeof json === 'object' && Array.isArray(json.tracks) ?
+        (json.tracks as Array<any>)
+      : null;
+    const audioInfo =
+      typeof json === 'object' && typeof json.compiledTrack === 'object' ?
+        json.compiledTrack
+      : null;
 
     if (showInfo) {
       const show: Show = {
@@ -49,7 +58,7 @@ export default class ShowParser {
       };
 
       if (audioInfo) {
-        const {streamUrl, duration} = audioInfo;
+        const { streamUrl, duration } = audioInfo;
         if (streamUrl) {
           show.streamUrl = streamUrl;
         }
@@ -71,7 +80,7 @@ export default class ShowParser {
             seekPosition: track.timecode,
             artist: {
               name: track.artistName,
-              url: track.bandUrl,
+              url: track.bandUrl
             }
           };
           if (opts.albumImageFormat?.id && track.artId) {
@@ -90,6 +99,9 @@ export default class ShowParser {
       return show;
     }
 
-    throw new ParseError('Failed to parse show: "appData" not found in data-blob or contains invalid data.', blob);
+    throw new ParseError(
+      'Failed to parse show: "appData" not found in data-blob or contains invalid data.',
+      blob
+    );
   }
 }

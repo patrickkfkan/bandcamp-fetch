@@ -3,7 +3,14 @@ import { decode } from 'html-entities';
 import type Artist from '../types/Artist.js';
 import { type ImageFormat } from '../types/Image.js';
 import type Label from '../types/Label.js';
-import { ParseError, brToNewLine, parseLabelFromBackToLabelLink, reformatImageUrl, stripLineBreaks, stripTags } from '../utils/Parse.js';
+import {
+  ParseError,
+  brToNewLine,
+  parseLabelFromBackToLabelLink,
+  reformatImageUrl,
+  stripLineBreaks,
+  stripTags
+} from '../utils/Parse.js';
 
 interface BandInfoParseOptions {
   bandUrl: string;
@@ -16,9 +23,12 @@ export default class BandInfoParser {
     let bandData;
     try {
       bandData = JSON.parse(decode($('script[data-band]').attr('data-band')));
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse artist / label info: JSON error in band data.', html, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse artist / label info: JSON error in band data.',
+        html,
+        error
+      );
     }
 
     const bioText = $('#bio-text');
@@ -28,9 +38,8 @@ export default class BandInfoParser {
       if (bioTextMore.length) {
         bioTextMore.find('.lightweightBreak').remove();
         bioText.find('.peekaboo-text, .peekaboo-link').remove();
-        description = (`${bioText.html()?.trim()} ${bioTextMore.html()}`).trim();
-      }
-      else {
+        description = `${bioText.html()?.trim()} ${bioTextMore.html()}`.trim();
+      } else {
         description = bioText.html()?.trim();
       }
       if (description) {
@@ -57,7 +66,10 @@ export default class BandInfoParser {
       result.location = location;
     }
 
-    const imageUrl = reformatImageUrl($('img.band-photo').attr('src'), opts.imageFormat);
+    const imageUrl = reformatImageUrl(
+      $('img.band-photo').attr('src'),
+      opts.imageFormat
+    );
     if (imageUrl) {
       result.imageUrl = imageUrl;
     }
@@ -67,8 +79,7 @@ export default class BandInfoParser {
       if (label) {
         (result as Artist).label = label;
       }
-    }
-    else {
+    } else {
       (result as Label).labelId = bandData.id;
     }
 

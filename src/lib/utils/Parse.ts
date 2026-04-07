@@ -25,11 +25,14 @@ type CheerioSelector = ReturnType<typeof cheerioLoad>;
  * @param $
  * @returns
  */
-export function parseLabelFromBackToLabelLink($: CheerioSelector): Label | null {
+export function parseLabelFromBackToLabelLink(
+  $: CheerioSelector
+): Label | null {
   const labelLink = $('.back-to-label-link');
   if (labelLink.length) {
     const linkText = labelLink.find('.back-link-text').html();
-    const labelName = linkText &&
+    const labelName =
+      linkText &&
       (substrAfter(linkText, '<br/>') ||
         substrAfter(linkText, '<br>') ||
         substrBefore(linkText, ' に戻る') ||
@@ -37,17 +40,22 @@ export function parseLabelFromBackToLabelLink($: CheerioSelector): Label | null 
     const linkHref = labelLink.attr('href');
     const labelHref = linkHref && splitUrl(linkHref).base;
 
-    return labelName && labelHref ? {
-      type: 'label',
-      name: labelName,
-      url: labelHref
-    } : null;
+    return labelName && labelHref ?
+        {
+          type: 'label',
+          name: labelName,
+          url: labelHref
+        }
+      : null;
   }
 
   return null;
 }
 
-export function parsePublisher(json: any, imageFormat: ImageFormat | null): UserKind | null {
+export function parsePublisher(
+  json: any,
+  imageFormat: ImageFormat | null
+): UserKind | null {
   if (json.publisher) {
     const imageUrl = reformatImageUrl(json.publisher.image, imageFormat);
     const publisher: UserKind = {
@@ -84,7 +92,10 @@ export function normalizeUrl(url?: string, baseUrl?: string): string | null {
   return new URL(url, baseUrl).toString();
 }
 
-export function getAdditionalPropertyValue(o: Record<string, any>, propName: string): string | undefined {
+export function getAdditionalPropertyValue(
+  o: Record<string, any>,
+  propName: string
+): string | undefined {
   if (Array.isArray(o.additionalProperty)) {
     const p = o.additionalProperty.find((prop) => prop.name === propName);
     if (p?.value !== undefined) {
@@ -139,16 +150,21 @@ export function brToNewLine(str: string): string {
 }
 
 /**
-* @internal
-* Takes an image URL and returns one that corresponds to `imageFormat`.
-* @param imageUrl
-* @param imageFormat
-* @returns
-*/
-export function reformatImageUrl(imageUrl?: string | null, imageFormat?: ImageFormat | null): string | null {
+ * @internal
+ * Takes an image URL and returns one that corresponds to `imageFormat`.
+ * @param imageUrl
+ * @param imageFormat
+ * @returns
+ */
+export function reformatImageUrl(
+  imageUrl?: string | null,
+  imageFormat?: ImageFormat | null
+): string | null {
   if (imageUrl) {
     // Regex from: https://github.com/masterT/bandcamp-scraper/blob/master/lib/htmlParser.js
-    return imageFormat ? imageUrl.replace(/_\d{1,3}\./, `_${imageFormat.id}.`) : imageUrl;
+    return imageFormat ?
+        imageUrl.replace(/_\d{1,3}\./, `_${imageFormat.id}.`)
+      : imageUrl;
   }
 
   return null;

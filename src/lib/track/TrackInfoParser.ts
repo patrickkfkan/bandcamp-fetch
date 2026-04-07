@@ -2,7 +2,14 @@ import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
 import { type ImageFormat } from '../types/Image.js';
 import type Track from '../types/Track.js';
-import { getAdditionalPropertyValue, ParseError, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl, splitUrl } from '../utils/Parse.js';
+import {
+  getAdditionalPropertyValue,
+  ParseError,
+  parseLabelFromBackToLabelLink,
+  parsePublisher,
+  reformatImageUrl,
+  splitUrl
+} from '../utils/Parse.js';
 import AlbumInfoParser from '../album/AlbumInfoParser.js';
 
 interface TrackInfoParseOptions {
@@ -14,7 +21,6 @@ interface TrackInfoParseOptions {
 }
 
 export default class TrackInfoParser {
-
   static parseInfo(html: string, opts: TrackInfoParseOptions): Track {
     // Some tracks don't have a dedicated '/track' url,
     // But take this form instead: {albumUrl}#t{x}, where 'x' is the
@@ -22,11 +28,19 @@ export default class TrackInfoParser {
     // Since the album page is actually loaded, we can return the track info
     // From the album data with parseAlbumInfo().
     if (opts.trackUrl) {
-      const { path: trackUrlPath, hash: trackUrlHash } = splitUrl(opts.trackUrl);
+      const { path: trackUrlPath, hash: trackUrlHash } = splitUrl(
+        opts.trackUrl
+      );
       if (trackUrlPath && trackUrlHash) {
-        const matchTrackPosInUrl = (/^\/(album)\/(.+)#t(\d+)/).exec(trackUrlPath + trackUrlHash);
+        const matchTrackPosInUrl = /^\/(album)\/(.+)#t(\d+)/.exec(
+          trackUrlPath + trackUrlHash
+        );
         if (matchTrackPosInUrl && matchTrackPosInUrl[3]) {
-          return this.#parseTrackInfoFromAlbum(html, opts, Number(matchTrackPosInUrl[3]));
+          return this.#parseTrackInfoFromAlbum(
+            html,
+            opts,
+            Number(matchTrackPosInUrl[3])
+          );
         }
       }
     }
@@ -36,21 +50,30 @@ export default class TrackInfoParser {
     const rawExtra = decode($('script[data-tralbum]').attr('data-tralbum'));
 
     if (!rawBasic || !rawExtra) {
-      throw new ParseError('Failed to parse track info: data missing \'ld_json\' or \'tralbum\' fields.', html);
+      throw new ParseError(
+        "Failed to parse track info: data missing 'ld_json' or 'tralbum' fields.",
+        html
+      );
     }
 
     let basic, extra;
     try {
       basic = JSON.parse(rawBasic);
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse track info: JSON error in basic data.', rawBasic, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse track info: JSON error in basic data.',
+        rawBasic,
+        error
+      );
     }
     try {
       extra = JSON.parse(rawExtra);
-    }
-    catch (error: any) {
-      throw new ParseError('Failed to parse track info: JSON error in extra data.', rawExtra, error);
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse track info: JSON error in extra data.',
+        rawExtra,
+        error
+      );
     }
 
     if (!basic || typeof basic !== 'object') {
@@ -98,8 +121,7 @@ export default class TrackInfoParser {
     let byArtist;
     if (basic.inAlbum?.byArtist) {
       byArtist = basic.inAlbum.byArtist;
-    }
-    else {
+    } else {
       byArtist = basic.byArtist;
     }
     if (byArtist) {
@@ -148,7 +170,11 @@ export default class TrackInfoParser {
     return track;
   }
 
-  static #parseTrackInfoFromAlbum(html: string, opts: TrackInfoParseOptions, trackPosition: number): Track {
+  static #parseTrackInfoFromAlbum(
+    html: string,
+    opts: TrackInfoParseOptions,
+    trackPosition: number
+  ): Track {
     const album = AlbumInfoParser.parseInfo(html, opts);
     const trackData = album.tracks?.[trackPosition - 1];
     if (trackData) {
@@ -176,6 +202,9 @@ export default class TrackInfoParser {
       return track;
     }
 
-    throw new ParseError(`Track not found in album (position: ${trackPosition}`, html);
+    throw new ParseError(
+      `Track not found in album (position: ${trackPosition}`,
+      html
+    );
   }
 }

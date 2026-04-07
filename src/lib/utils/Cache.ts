@@ -10,7 +10,10 @@ export default class Cache {
   #maxEntries: Record<CacheDataType, number>;
   #cache: NodeCache;
 
-  constructor(ttl: Record<CacheDataType, number>, maxEntries: Record<string, number>) {
+  constructor(
+    ttl: Record<CacheDataType, number>,
+    maxEntries: Record<string, number>
+  ) {
     this.#ttl = ttl;
     this.#maxEntries = maxEntries;
     this.#cache = new NodeCache({
@@ -46,11 +49,14 @@ export default class Cache {
     const maxEntries = this.getMaxEntries(type);
     if (maxEntries === 0) {
       return false;
-    }
-    else if (maxEntries > 0) {
+    } else if (maxEntries > 0) {
       this.reduceEntries(type, maxEntries - 1);
     }
-    return this.#cache.set(this.#getCacheKey(type, key), value, this.#ttl[type]);
+    return this.#cache.set(
+      this.#getCacheKey(type, key),
+      value,
+      this.#ttl[type]
+    );
   }
 
   #getCacheKey(type: CacheDataType, key: string): string {
@@ -76,15 +82,18 @@ export default class Cache {
   clear(type?: CacheDataType) {
     if (!type) {
       this.#cache.flushAll();
-    }
-    else {
+    } else {
       this.getKeys(type).forEach((key) => {
         this.#cache.del(key);
       });
     }
   }
 
-  async getOrSet<T>(type: CacheDataType, key: string, promiseCallback: () => Promise<T>): Promise<T> {
+  async getOrSet<T>(
+    type: CacheDataType,
+    key: string,
+    promiseCallback: () => Promise<T>
+  ): Promise<T> {
     const cachedValue = this.get<T>(type, key);
     if (cachedValue !== undefined) {
       return cachedValue;
