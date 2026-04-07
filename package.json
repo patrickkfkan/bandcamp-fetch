@@ -9,6 +9,8 @@
     "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
     "lint": "npx eslint ./src",
     "lint:fix": "npx eslint ./src --fix",
+    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
+    "format:check": "prettier --check \"src/**/*.{js,ts,jsx,tsx}\"",
     "doc": "npx typedoc"
   },
   "main": "./dist/cjs/index-cjs.js",
@@ -45,6 +47,7 @@
     "@typescript-eslint/parser": "^8.58.0",
     "eslint": "^10.2.0",
     "eslint-plugin-unused-imports": "^4.4.1",
+    "prettier": "^3.8.1",
     "typedoc": "^0.28.18",
     "typedoc-plugin-markdown": "^4.11.0",
     "typedoc-plugin-rename-defaults": "^0.7.3",
