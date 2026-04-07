@@ -78,6 +78,9 @@ export default class ArticleParser {
     // Get media items (albums and tracks featured in article)
     if (Array.isArray(players)) {
       players.forEach((player) => {
+        if (!player) { // `player` can be null
+          return;
+        }
         let mediaItemType: 'album' | 'track' | null;
         switch (player.parent_tralbum_type) {
           case 'a':
@@ -150,7 +153,7 @@ export default class ArticleParser {
       };
 
       // Get heading
-      const heading = player.prevUntil('bamplayer-art', 'h3, h2').first();
+      const heading = player.prevUntil('.bamplayer-art, .player-not-available', 'h3, h2').first();
       const headingHTML = heading.html();
       if (headingHTML) {
         section.heading = {
@@ -160,7 +163,7 @@ export default class ArticleParser {
       }
 
       // Get html and text
-      const paragraphs = player.nextUntil('bamplayer-art, h3, h5, article-end', 'p');
+      const paragraphs = player.nextUntil('.bamplayer-art, .player-not-available, h3, h5, article-end', 'p');
       paragraphs.each((_i, p) => {
         const _p = $(p);
         section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
@@ -178,7 +181,7 @@ export default class ArticleParser {
 
     // Function that returns the introductory paragraph(s) of the article
     const _getIntroSection = (articleBody: Cheerio<any>) => {
-      const firstPlayer = articleBody.find('bamplayer-art').first();
+      const firstPlayer = articleBody.find('.bamplayer-art, .player-not-available').first();
       const paragraphs = firstPlayer.length > 0 ? firstPlayer.prevAll('p') : articleBody.find('p');
       if (paragraphs.length > 0) {
         const section = {
@@ -204,7 +207,7 @@ export default class ArticleParser {
     if (introSection) {
       sections.push(introSection);
     }
-    const bcplayers = articleBody.find('bamplayer-art');
+    const bcplayers = articleBody.find('.bamplayer-art, .player-not-available');
     bcplayers.each((i, player) => {
       sections.push(_getSectionByPlayer($(player)));
     });
