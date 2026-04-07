@@ -40,8 +40,8 @@ export default class DiscographyParser {
         const discographyEl = $('#discography');
         if (discographyEl.length === 0 || discographyEl.css('display') === 'none' || discographyEl.find('li').length === 1) {
           const currentAlbumOrTrackUrl = splitUrl(currentAlbumOrTrackData['@id']);
-          isOneTrack = !!currentAlbumOrTrackUrl.path.startsWith('/track/');
-          isOneAlbum = !!currentAlbumOrTrackUrl.path.startsWith('/album/');
+          isOneTrack = currentAlbumOrTrackUrl.path.startsWith('/track/');
+          isOneAlbum = currentAlbumOrTrackUrl.path.startsWith('/album/');
         }
       }
     }

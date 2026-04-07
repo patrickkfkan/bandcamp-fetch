@@ -1,6 +1,4 @@
 import type Artist from './Artist.js';
-import type Label from './Label.js';
-import type UserKind from './UserKind.js';
 
 interface Shirt {
   type: 'shirt';
