@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:84](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L84)
+[lib/types/Discovery.ts:84](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L84)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:85](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L85)
+[lib/types/Discovery.ts:85](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L85)
 
 ***
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L30)
+[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L30)
 
 ***
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:83](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L83)
+[lib/types/Discovery.ts:83](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L83)
 
 ***
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L34)
+[lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L34)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L28)
+[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L28)
 
 ***
 
@@ -94,7 +94,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L32)
+[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L32)
 
 ***
 
@@ -104,7 +104,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:86](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L86)
+[lib/types/Discovery.ts:86](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L86)
 
 ***
 
@@ -118,7 +118,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L35)
+[lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L35)
 
 ***
 
@@ -132,7 +132,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L31)
+[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L31)
 
 ***
 
@@ -146,7 +146,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L29)
+[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L29)
 
 ***
 
@@ -160,4 +160,4 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L33)
+[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L33)

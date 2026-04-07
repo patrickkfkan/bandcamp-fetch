@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:95](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L95)
+[lib/types/Discovery.ts:95](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L95)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[lib/types/Discovery.ts:94](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Discovery.ts#L94)
+[lib/types/Discovery.ts:94](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L94)

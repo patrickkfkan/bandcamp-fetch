@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/fan/FanItemsBaseParser.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/fan/FanItemsBaseParser.ts#L17)
+[lib/fan/FanItemsBaseParser.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanItemsBaseParser.ts#L17)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[lib/fan/FanItemsBaseParser.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/fan/FanItemsBaseParser.ts#L15)
+[lib/fan/FanItemsBaseParser.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanItemsBaseParser.ts#L15)
 
 ***
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[lib/fan/FanItemsBaseParser.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/fan/FanItemsBaseParser.ts#L16)
+[lib/fan/FanItemsBaseParser.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanItemsBaseParser.ts#L16)

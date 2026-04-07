@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/UserKind.ts#L3)
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L3)
 
 ***
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Artist.ts#L7)
+[lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Artist.ts#L7)
 
 ***
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/UserKind.ts#L5)
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L5)
 
 ***
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Artist.ts#L6)
+[lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Artist.ts#L6)
 
 ***
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/UserKind.ts#L6)
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L6)
 
 ***
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/UserKind.ts#L2)
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L2)
 
 ***
 
@@ -94,7 +94,7 @@
 
 #### Defined in
 
-[lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Artist.ts#L5)
+[lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Artist.ts#L5)
 
 ***
 
@@ -108,4 +108,4 @@
 
 #### Defined in
 
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/UserKind.ts#L4)
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L4)

@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Shirt.ts#L14)
+[lib/types/Shirt.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L18)
 
 ***
 
@@ -22,17 +22,25 @@
 
 > `optional` **imageUrl**: `object`
 
+#### additional?
+
+> `optional` **additional**: `string`[]
+
 #### primary
 
 > **primary**: `string`
 
-#### secondary?
+#### ~~secondary?~~
 
 > `optional` **secondary**: `string`
 
+##### Deprecated
+
+Use [additional](Shirt.md#additional) array instead.
+
 #### Defined in
 
-[lib/types/Shirt.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Shirt.ts#L9)
+[lib/types/Shirt.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L9)
 
 ***
 
@@ -42,7 +50,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Shirt.ts#L7)
+[lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L7)
 
 ***
 
@@ -52,7 +60,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Shirt.ts#L13)
+[lib/types/Shirt.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L17)
 
 ***
 
@@ -62,7 +70,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Shirt.ts#L6)
+[lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L6)
 
 ***
 
@@ -72,4 +80,4 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/types/Shirt.ts#L8)
+[lib/types/Shirt.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L8)

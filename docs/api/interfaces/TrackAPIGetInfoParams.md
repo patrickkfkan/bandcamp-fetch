@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/track/TrackAPI.ts#L9)
+[lib/track/TrackAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/track/TrackAPI.ts#L9)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/track/TrackAPI.ts#L10)
+[lib/track/TrackAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/track/TrackAPI.ts#L10)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/track/TrackAPI.ts#L11)
+[lib/track/TrackAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/track/TrackAPI.ts#L11)
 
 ***
 
@@ -44,4 +44,4 @@
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/6544f9f2618d556b50a25abbc720d0291101d631/src/lib/track/TrackAPI.ts#L8)
+[lib/track/TrackAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/track/TrackAPI.ts#L8)
