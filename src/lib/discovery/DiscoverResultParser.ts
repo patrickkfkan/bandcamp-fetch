@@ -69,7 +69,7 @@ export default class DiscoverResultParser {
     };
     const album: Album = {
       type: 'album',
-      id: item.id,
+      id: item.item_id,
       name: item.title,
       artist,
       location: item.band_location
@@ -85,8 +85,8 @@ export default class DiscoverResultParser {
     if (item.item_url) {
       album.url = this.#stripFromDiscoverPage(item.item_url);
     }
-    if (item.item_image_id && opts.albumImageFormat) {
-      album.imageUrl = this.#getImageURL(item.item_image_id, opts.imageBaseUrl, opts.albumImageFormat, 'a');
+    if (item.primary_image?.image_id && opts.albumImageFormat) {
+      album.imageUrl = this.#getImageURL(item.primary_image.image_id, opts.imageBaseUrl, opts.albumImageFormat, 'a');
     }
     if (item.featured_track) {
       album.featuredTrack = {
@@ -95,8 +95,8 @@ export default class DiscoverResultParser {
         streamUrl: item.featured_track.stream_url
       };
     }
-    if (item.band_bio_image_id && opts.artistImageFormat) {
-      artist.imageUrl = this.#getImageURL(item.band_bio_image_id, opts.imageBaseUrl, opts.artistImageFormat);
+    if (item.band_image?.image_id && opts.artistImageFormat) {
+      artist.imageUrl = this.#getImageURL(item.band_image.image_id, opts.imageBaseUrl, opts.artistImageFormat);
     }
     if (item.label_name) {
       album.label = {
@@ -117,12 +117,21 @@ export default class DiscoverResultParser {
     if (item.item_url) {
       shirt.url = this.#stripFromDiscoverPage(item.item_url);
     }
-    if (item.item_image_id && opts.merchImageFormat) {
+    if (item.primary_image?.image_id && opts.merchImageFormat) {
       shirt.imageUrl = {
-        primary: this.#getImageURL(item.item_image_id, opts.imageBaseUrl, opts.merchImageFormat)
+        primary: this.#getImageURL(item.primary_image.image_id, opts.imageBaseUrl, opts.merchImageFormat)
       };
-      if (item.tshirt_secondary_image_id) {
-        shirt.imageUrl.secondary = this.#getImageURL(item.tshirt_secondary_image_id, opts.imageBaseUrl, opts.merchImageFormat)
+      if (Array.isArray(item.addl_images) && item.addl_images.length > 0) {
+        const additionalImages: string[] = [];
+        for (const img of item.addl_images) {
+          if (typeof img === 'object' && img.image_id) {
+            additionalImages.push(this.#getImageURL(img.image_id, opts.imageBaseUrl, opts.merchImageFormat));
+          }
+        }
+        if (additionalImages.length > 0) {
+          shirt.imageUrl.additional = additionalImages;
+          shirt.imageUrl.secondary = additionalImages[0];
+        }
       }
     }
     if (item.release_date) {
@@ -136,8 +145,8 @@ export default class DiscoverResultParser {
       if (item.band_url) {
         artist.url = this.#stripFromDiscoverPage(item.band_url);
       }
-      if (item.band_bio_image_id && opts.artistImageFormat) {
-        artist.imageUrl = this.#getImageURL(item.band_bio_image_id, opts.imageBaseUrl, opts.artistImageFormat);
+      if (item.band_image?.image_id && opts.artistImageFormat) {
+        artist.imageUrl = this.#getImageURL(item.band_image.image_id, opts.imageBaseUrl, opts.artistImageFormat);
       }
       shirt.artist = artist;
     }
