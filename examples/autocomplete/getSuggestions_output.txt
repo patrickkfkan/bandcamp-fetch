@@ -1,134 +1,3 @@
-Autocomplete tag suggestions: ambient
--------------------------------------
-[
-  {
-    "type": "tag",
-    "count": 705177,
-    "value": "ambient",
-    "name": "ambient"
-  },
-  {
-    "type": "tag",
-    "count": 114723,
-    "value": "ambient-electronic",
-    "name": "ambient electronic"
-  },
-  {
-    "type": "tag",
-    "count": 18729,
-    "value": "ambient-rock",
-    "name": "ambient rock"
-  },
-  {
-    "type": "tag",
-    "count": 14176,
-    "value": "ambient-techno",
-    "name": "ambient techno"
-  },
-  {
-    "type": "tag",
-    "count": 13167,
-    "value": "ambient-music",
-    "name": "ambient music"
-  },
-  {
-    "type": "tag",
-    "count": 5070,
-    "value": "ambient-drone",
-    "name": "ambient drone"
-  },
-  {
-    "type": "tag",
-    "count": 4893,
-    "value": "ambient-noise",
-    "name": "ambient noise"
-  },
-  {
-    "type": "tag",
-    "count": 4310,
-    "value": "ambient-black-metal",
-    "name": "ambient black metal"
-  },
-  {
-    "type": "tag",
-    "count": 4171,
-    "value": "ambient-noise-wall",
-    "name": "ambient noise wall"
-  },
-  {
-    "type": "tag",
-    "count": 3943,
-    "value": "ambient-pop",
-    "name": "ambient pop"
-  },
-  {
-    "type": "tag",
-    "count": 3491,
-    "value": "ambient-folk",
-    "name": "Ambient Folk"
-  },
-  {
-    "type": "tag",
-    "count": 3049,
-    "value": "ambient-guitar",
-    "name": "ambient guitar"
-  },
-  {
-    "type": "tag",
-    "count": 2661,
-    "value": "ambient-dub",
-    "name": "ambient dub"
-  },
-  {
-    "type": "tag",
-    "count": 2544,
-    "value": "ambient-house",
-    "name": "ambient house"
-  },
-  {
-    "type": "tag",
-    "count": 2073,
-    "value": "ambiental",
-    "name": "ambiental"
-  },
-  {
-    "type": "tag",
-    "count": 2059,
-    "value": "ambient-electronica",
-    "name": "ambient electronica"
-  },
-  {
-    "type": "tag",
-    "count": 1500,
-    "value": "ambient-metal",
-    "name": "ambient metal"
-  },
-  {
-    "type": "tag",
-    "count": 1497,
-    "value": "ambient-glitch",
-    "name": "ambient glitch"
-  },
-  {
-    "type": "tag",
-    "count": 1405,
-    "value": "ambient-piano",
-    "name": "ambient piano"
-  },
-  {
-    "type": "tag",
-    "count": 1216,
-    "value": "ambient-jazz",
-    "name": "ambient jazz"
-  },
-  {
-    "type": "tag",
-    "count": 920,
-    "value": "ambient-jungle",
-    "name": "ambient jungle"
-  }
-]
-
 Autocomplete location suggestions: Fin, Limit: 20
 -------------------------------------------------
 [
@@ -218,15 +87,27 @@ Autocomplete location suggestions: Fin, Limit: 20
   },
   {
     "type": "location",
+    "value": 4354890,
+    "name": "Finksburg",
+    "fullName": "Finksburg, Maryland"
+  },
+  {
+    "type": "location",
     "value": 2926716,
     "name": "Finnentrop",
     "fullName": "Finnentrop, North Rhine-Westphalia"
   },
   {
     "type": "location",
-    "value": 4354890,
-    "name": "Finksburg",
-    "fullName": "Finksburg, Maryland"
+    "value": 5189583,
+    "name": "Finleyville",
+    "fullName": "Finleyville, Pennsylvania"
+  },
+  {
+    "type": "location",
+    "value": 2071601,
+    "name": "Findon",
+    "fullName": "Findon, South Australia"
   },
   {
     "type": "location",
@@ -239,18 +120,137 @@ Autocomplete location suggestions: Fin, Limit: 20
     "value": 2517719,
     "name": "Finestrat",
     "fullName": "Finestrat, Valencia"
+  }
+]
+
+Autocomplete tag suggestions: ambient
+-------------------------------------
+[
+  {
+    "type": "tag",
+    "count": 773836,
+    "value": "ambient",
+    "name": "ambient"
   },
   {
-    "type": "location",
-    "value": 2649445,
-    "name": "Finchampstead",
-    "fullName": "Finchampstead, England"
+    "type": "tag",
+    "count": 127988,
+    "value": "ambient-electronic",
+    "name": "ambient electronic"
   },
   {
-    "type": "location",
-    "value": 4291674,
-    "name": "Finchville",
-    "fullName": "Finchville, Kentucky"
+    "type": "tag",
+    "count": 20561,
+    "value": "ambient-rock",
+    "name": "ambient rock"
+  },
+  {
+    "type": "tag",
+    "count": 18247,
+    "value": "ambient-music",
+    "name": "ambient music"
+  },
+  {
+    "type": "tag",
+    "count": 16432,
+    "value": "ambient-techno",
+    "name": "ambient techno"
+  },
+  {
+    "type": "tag",
+    "count": 5762,
+    "value": "ambient-noise",
+    "name": "ambient noise"
+  },
+  {
+    "type": "tag",
+    "count": 5461,
+    "value": "ambient-drone",
+    "name": "ambient drone"
+  },
+  {
+    "type": "tag",
+    "count": 5224,
+    "value": "ambient-noise-wall",
+    "name": "ambient noise wall"
+  },
+  {
+    "type": "tag",
+    "count": 4920,
+    "value": "ambient-pop",
+    "name": "ambient pop"
+  },
+  {
+    "type": "tag",
+    "count": 4537,
+    "value": "ambient-black-metal",
+    "name": "ambient black metal"
+  },
+  {
+    "type": "tag",
+    "count": 4032,
+    "value": "ambient-folk",
+    "name": "Ambient Folk"
+  },
+  {
+    "type": "tag",
+    "count": 3895,
+    "value": "ambient-guitar",
+    "name": "ambient guitar"
+  },
+  {
+    "type": "tag",
+    "count": 3151,
+    "value": "ambient-house",
+    "name": "ambient house"
+  },
+  {
+    "type": "tag",
+    "count": 2873,
+    "value": "ambient-dub",
+    "name": "ambient dub"
+  },
+  {
+    "type": "tag",
+    "count": 2366,
+    "value": "ambient-electronica",
+    "name": "ambient electronica"
+  },
+  {
+    "type": "tag",
+    "count": 2245,
+    "value": "ambiental",
+    "name": "ambiental"
+  },
+  {
+    "type": "tag",
+    "count": 1962,
+    "value": "ambient-piano",
+    "name": "ambient piano"
+  },
+  {
+    "type": "tag",
+    "count": 1684,
+    "value": "ambient-metal",
+    "name": "ambient metal"
+  },
+  {
+    "type": "tag",
+    "count": 1643,
+    "value": "ambient-glitch",
+    "name": "ambient glitch"
+  },
+  {
+    "type": "tag",
+    "count": 1491,
+    "value": "ambient-jazz",
+    "name": "ambient jazz"
+  },
+  {
+    "type": "tag",
+    "count": 1485,
+    "value": "ambientmusic",
+    "name": "ambientmusic"
   }
 ]
 

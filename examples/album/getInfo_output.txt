@@ -28,20 +28,6 @@
       "description": "Includes high-quality download in MP3, FLAC and more. Paying supporters also get unlimited streaming via the free Bandcamp app.",
       "url": "https://musique.coeurdepirate.com/album/blonde",
       "imageUrl": "https://f4.bcbits.com/img/a1328452291_10.jpg"
-    },
-    {
-      "name": "Blonde - CD",
-      "format": "CDFormat",
-      "description": "Blonde - Édition régulière comprend le téléchargement gratuit de l'album digital. Veuillez allouer 3 jours ouvrables pour que la version physique vous soit postée.\nPour les commandes hors-Canada, vous devez compter de 2 à 4 semaines pour recevoir votre achat.",
-      "url": "https://musique.coeurdepirate.com/album/blonde#p3309945537",
-      "imageUrl": "https://f4.bcbits.com/img/0000167149_10.jpg"
-    },
-    {
-      "name": "Blonde - Vinyle",
-      "format": "VinylFormat",
-      "description": "L'édition vinyle de Blonde comprend les 12 pistes de l'édition régulière, ainsi qu'une affichette 12x24 po. L'achat comprend le téléchargement gratuit de l'album en version régulière.\nVeuillez allouer 3 jours ouvrables pour que la version physique vous soit postée.",
-      "url": "https://musique.coeurdepirate.com/album/blonde#p3172983276",
-      "imageUrl": "https://f4.bcbits.com/img/0012274631_10.jpg"
     }
   ],
   "tracks": [
@@ -49,7 +35,7 @@
       "id": 4183427253,
       "name": "Lève les voiles",
       "duration": 72.7333,
-      "streamUrl": "https://t4.bcbits.com/stream/4ec5267c795d34d71d84b8d9e6373477/mp3-128/4183427253?p=0&ts=1757770758&t=bdf8d5cd734aa36b3604b4cd0f9f88c6139b5047&token=1757770758_78ae825da380c25fbc2e4d55b7d9045c0e14fce2",
+      "streamUrl": "https://t4.bcbits.com/stream/4ec5267c795d34d71d84b8d9e6373477/mp3-128/4183427253?p=0&ts=1775645735&t=0e55f66284b7d1cbfadbada75f5e3f7509cc0d60&token=1775645735_e461bd2ec4b4f9b2016ffb1fff8b455e5eb6f13c",
       "position": 1,
       "url": "https://musique.coeurdepirate.com/track/l-ve-les-voiles",
       "lyrics": "Lève les voiles, ô voilier blanc\r\nMais lève au vent qui tourne\r\nLève les voiles sur d'autres chemins\r\nRêvant de voir la fin\r\n\r\nTombée d'étoiles, cette nuit qui chante\r\nDe vivre au gré du temps\r\n\r\nMais lève les voiles, ô voilier blanc\r\nMais lève quand tourne le vent"
@@ -58,7 +44,7 @@
       "id": 3647767496,
       "name": "Adieu",
       "duration": 147.627,
-      "streamUrl": "https://t4.bcbits.com/stream/bdf4f2f59952f78effcbbf3ff63300db/mp3-128/3647767496?p=0&ts=1757770758&t=0c89fde1d92e58363ccbd78a7d577f1c94d0d7d3&token=1757770758_727ec9ffe52ec08e5b2f29501a703cc4bd4bb6bc",
+      "streamUrl": "https://t4.bcbits.com/stream/bdf4f2f59952f78effcbbf3ff63300db/mp3-128/3647767496?p=0&ts=1775645735&t=82d51e288b1353bcb7619458e643c0a2ca4a9ddf&token=1775645735_50b3e8b0b52afb3d9a600342d7dbc943cd4a836b",
       "position": 2,
       "url": "https://musique.coeurdepirate.com/track/adieu",
       "lyrics": "Tu ris si mal, tu ris de vide\r\nDes taches de vin sur ta chemise\r\nQui à deux boutons éclatait\r\nSur ton corps qui me repoussait\r\n\r\nTu fais l'amour en deux poussées\r\nBlâmant le manque, la tournée\r\nEt pendant que tu t'articules\r\nMoi je soupire et toi\r\n\r\nTu me menaces de partir\r\nParce que je hurle quand\r\nTu chantes tes souvenirs\r\n\r\nEh bien, chéri, prends donc la porte\r\nCar tu sais que plus rien ne m'importe\r\n\r\nMais dis-moi adieu demain\r\nMais dis-moi adieu en chemin\r\nVa voir les autres, je n'en pense rien\r\nJe t'ai aimé, mais je t'assure que c'est la fin\r\n\r\nCrois-tu pouvoir enfin me dire\r\nQue tu veux bien qu’on reste amis\r\nNon, c'est gentil, ça va comme ça\r\nDes amis j'en ai plein déjà\r\n\r\nJe n'aurai donc plus à t'entendre\r\nRentrer la nuit quand j’attends l’aube\r\nQui arrive en poussant les heures\r\nMoi je me lève et toi"
@@ -67,7 +53,7 @@
       "id": 1276790164,
       "name": "Danse et danse",
       "duration": 190.413,
-      "streamUrl": "https://t4.bcbits.com/stream/8d4d755d9f351caf16529342096c3de6/mp3-128/1276790164?p=0&ts=1757770758&t=a44d76c7e3a8efc3b933cbf1e9b4ef02b6858666&token=1757770758_6e47137ee8c808f02c75ae332bc3747006529944",
+      "streamUrl": "https://t4.bcbits.com/stream/8d4d755d9f351caf16529342096c3de6/mp3-128/1276790164?p=0&ts=1775645735&t=49e7e3ab259895b89feec386df6a1dd5630cd9e5&token=1775645735_db9f4061183fed63382889d87ae4691b7d418463",
       "position": 3,
       "url": "https://musique.coeurdepirate.com/track/danse-et-danse",
       "lyrics": "La nuit se fait longue\r\nTu ne me fais pas rire\r\nMais reste même si tu souffles les soupirs\r\nTu parles de trop près\r\nJe cherche la paix\r\nEt ce bar de velours me crie que je te hais\r\n\r\nTu dis que I'm your only one\r\nC'est ça, prends-moi pour une conne\r\n\r\nMais danse et danse\r\nSans que j'aie à t'aimer\r\nJe ne t'aurai plus quand ce sera demain\r\nC'est si dur de grandir, je sais\r\nMême sans moi, tu connais la fin\r\n\r\nMais danse et danse sans que j'aie à t'appeler\r\nJe ne te voudrai plus demain\r\nC'est si dur de grandir, je sais\r\nMême sans moi, tu connais la fin\r\n\r\nJe sais, tu tentes tout\r\nLes verres, les haïkus\r\nMais rimer ne te donnera pas ce coup\r\nEt loin de ma ville\r\nLoin de ma raison\r\nJe cherche une sortie à ce huis clos de saison\r\n\r\nTu dis que I'm your only one\r\nC'est ça, prends-moi pour une conne\r\n\r\n Mais danse et danse sans que j'aie à t'aimer\r\nJe ne t'aurai plus quand ce sera demain\r\nC'est si dur de grandir, je sais\r\nMême sans moi, tu connais la fin\r\n\r\nMais danse et danse sans que j'aie à t'appeler\r\nJe ne te voudrai plus demain\r\nC'est si dur de grandir, je sais\r\nMême sans moi, tu connais la fin\r\n\r\nEt sur ta bouche, je m'exaspère\r\nTes mots ne cherchent plus à me plaire\r\nLe soleil se couche sur des histoires sans repères"
@@ -76,7 +62,7 @@
       "id": 365646139,
       "name": "Golden Baby",
       "duration": 187.027,
-      "streamUrl": "https://t4.bcbits.com/stream/af5533da023515d8c6c28dd834b7872f/mp3-128/365646139?p=0&ts=1757770758&t=22a1522a1922c2f6c5c816411ef04c6b41786871&token=1757770758_08c115584ee642ff61f1255377bb94600a34f497",
+      "streamUrl": "https://t4.bcbits.com/stream/af5533da023515d8c6c28dd834b7872f/mp3-128/365646139?p=0&ts=1775645735&t=5aa9cfbc7dd811ba3247c2aa0e7d2a0add1e0ba0&token=1775645735_c63e4766029368b329d92b4b50abeb9a6da29dbf",
       "position": 4,
       "url": "https://musique.coeurdepirate.com/track/golden-baby",
       "lyrics": "Je t'ai vu d'un œil solitaire\r\nLe pied dans l'arène pour te plaire\r\nEt briller aux regards que j'ignorais\r\n\r\nLe tien comptait plus que les autres\r\nMême si tu ne t'en rendais pas compte\r\nEt j'aurais tout fait pour connaître tes fins\r\n\r\nGolden Baby, c'en est assez\r\nDe courir te faire désirer\r\nDans ces lumières qui donnent vie à nos nuits\r\n\r\nGolden Baby, sans tout pour plaire\r\nDans ton silence, tu restes fier\r\nDe croire en ce qui n'existerait pas\r\nEt si tu veux de moi\r\n\r\nOn s'est finalement embrassés\r\nDes mois sans silence, sans parler\r\nDans l'attente qui, de loin, m'a déchirée\r\n\r\nEt j'aurais aimé être ces filles\r\nQui, dans tes chansons, reprennent vie\r\nMême si, de loin, je sais qu’on s'est menti\r\n\r\nGolden Baby, c'en est assez\r\nDe courir te faire désirer\r\nDans ces lumières qui donnent vie à nos nuits\r\n\r\nGolden Baby, sans tout pour plaire\r\nDans ton silence, tu restes fier\r\nDe croire en ce qui n'existerait pas\r\nEt si tu veux de moi\r\n\r\nJ'ai voulu tout laisser tomber\r\nPour ne pas être ombre du passé\r\nEt retrouver tes rires et tes secrets\r\n\r\nMais quand je l'ai vue près de toi\r\nCelle qui en chanson reprend vie\r\nJe sais maintenant que tu m'avais menti"
@@ -85,7 +71,7 @@
       "id": 1796143680,
       "name": "Ava",
       "duration": 196.88,
-      "streamUrl": "https://t4.bcbits.com/stream/5133f1cab7fa8da200f1392690aca50e/mp3-128/1796143680?p=0&ts=1757770758&t=775fbbdad351fa711ea0e320b712125611da4352&token=1757770758_2f42943c7d594821b1ed66fd2e800133404a1a43",
+      "streamUrl": "https://t4.bcbits.com/stream/5133f1cab7fa8da200f1392690aca50e/mp3-128/1796143680?p=0&ts=1775645735&t=8cb81b56c5c9f0ca23e801273deda82864cc4298&token=1775645735_08f2b21e7268bbcf55d16fdea2b0004afc1ba7d7",
       "position": 5,
       "url": "https://musique.coeurdepirate.com/track/ava",
       "lyrics": "Oh, Ava, je sais, tu sors encore ce soir\r\nSes bras t'attendront dans le noir, plus forts\r\nQu'hier au bar\r\n\r\nOh, Ava, tu crées l'envie sur ton passage\r\nTu hurles sous tes airs de Paname, Madame\r\nTu aimes sans âme\r\n\r\nMais moi je te sens\r\nTrembler lorsqu'il prend sans gêne son temps\r\nPour dire ce qu'il aime\r\nChez les autres qui paradent sur ta peine\r\n\r\nOh, l'aime si tu veux, mais son rire laisse une trace\r\nEt, des blessures, tu peux renaître si tu t'arraches\r\nDe ses mots, de promesses, de mensonges qui blessent\r\nMais ne sors pas si tu souffres, mon Ava\r\n\r\nOh, Ava, tu relis ces mots sans relâche\r\nDe lettres de trois phrases qui t'arrachent ton âge\r\nTu sais qu'il est lâche\r\n\r\nMais Ava, il ne te prend que pour une naïve\r\nQuand il t'embrasse, tu reprends vie\r\nMais lui il loue son lit\r\n\r\nMais moi je te sens trembler lorsqu'il prend sans gêne son temps\r\nPour dire ce qu'il aime\r\nChez les autres qui paradent sur ta peine\r\n\r\nOh, l'aime si tu veux, mais son rire laisse une trace\r\nEt, des blessures, tu peux renaître si tu t'arraches\r\nDe ses mots, de promesses, de mensonges qui blessent\r\nMais ne sors pas si tu souffres, mon Ava"
@@ -94,7 +80,7 @@
       "id": 260996437,
       "name": "Loin d'ici",
       "duration": 163.827,
-      "streamUrl": "https://t4.bcbits.com/stream/8a3166238fe996999f457459c592f7c7/mp3-128/260996437?p=0&ts=1757770758&t=2de08c73adf92659fcc8dc56eedd0c2375a2472a&token=1757770758_26a0f19d8b725fe883f48f232f5be943be55d987",
+      "streamUrl": "https://t4.bcbits.com/stream/8a3166238fe996999f457459c592f7c7/mp3-128/260996437?p=0&ts=1775645735&t=eb2304d66191e6d60000afee970f34d3794e57a6&token=1775645735_645b728f8b003523561bdf7eccc9560e14cabf14",
       "position": 6,
       "url": "https://musique.coeurdepirate.com/track/loin-dici",
       "lyrics": "Ton nom que mes lèvres gardent toujours en secret\r\nMe laissera briller des larmes\r\nEt je n'aurai plus la chance de te dire « je t'aime »\r\nMême si je le garde comme arme\r\n\r\nEt tu sais que bientôt je serai devant toi\r\nEn rattrapant tous les mots\r\nQue j'aurai en secret oublié de confier lors des plans pour l’éternité\r\n\r\nEt j'ai laissé mon cœur loin d'ici\r\nBattant dans les bras de l'indécis\r\nSans remords sans regrets, j'irai le retrouver\r\nJe ne sais pas si je dois t'en parler\r\n\r\nEt j'ai laissé mon cœur loin d'ici\r\nValsant dans un coin de ton pays\r\nSans regrets, je ne sais si l’on doit commencer\r\nUne histoire si l’on doit se quitter\r\n\r\n« Jamais, plus jamais », j'avais inscrit aux murs\r\nD’une existence meurtrie\r\nPar les fois où je n'ai soigné mes blessures \r\nPar faute ou bien par oubli\r\n\r\nEt tu sais que bientôt je serai devant toi\r\nEn rattrapant tous les mots\r\nQue j'aurai en secret oublié de confier lors des plans pour l’éternité\r\n\r\nEt j'ai laissé mon cœur loin d'ici\r\nBattant dans les bras de l'indécis\r\nSans remords sans regrets, j'irai le retrouver, je ne sais pas si je dois t'en parler\r\n\r\nEt j'ai laissé mon cœur loin d'ici\r\nValsant dans un coin de ton pays\r\nSans regrets, je ne sais si l’on doit commencer une histoire si l’on doit se quitter"
@@ -103,7 +89,7 @@
       "id": 4086570201,
       "name": "Les amours dévouées",
       "duration": 147.947,
-      "streamUrl": "https://t4.bcbits.com/stream/a62a0cd6f5b871e7559627b34f996552/mp3-128/4086570201?p=0&ts=1757770758&t=71831cfc7b85b8b48ac5a06e27eb7e767ad510dd&token=1757770758_515cb4b055e6cee0def7809f7baf58c246aafcbf",
+      "streamUrl": "https://t4.bcbits.com/stream/a62a0cd6f5b871e7559627b34f996552/mp3-128/4086570201?p=0&ts=1775645735&t=e965ca2bcdd7155877558bb95e23d2a58692ffa6&token=1775645735_91fae86f1410d6f1c2d319bca16e929ec66c2140",
       "position": 7,
       "url": "https://musique.coeurdepirate.com/track/les-amours-d-vou-es",
       "lyrics": "On ne vit pas au large, mais bien pris en charge de distance, nous, amants séparés\r\nPar des docks hantés aux barques amarrées\r\nQui nous tiennent au bord des sentiments\r\n\r\nMais j'arrive et que celles qui t'attendent ne t'attendent plus jamais\r\nOu se fassent un sang d'encre pour ce diamant que j'ai\r\nSi je dois moi-même tendre la carte d'une dévouée\r\n\r\nPersonne n'a l'emprise que tu as sur moi, sur mon souffle qui reste saccadé\r\nDes courses contre le vent qui ne comptent plus maintenant\r\nQu'on s’est dit qu'on s'appartenait\r\n\r\nMais j'arrive et que celles qui t'attendent ne t'attendent plus jamais\r\nOu se fassent un sang d'encre pour ce diamant que j'ai\r\nSi je dois moi-même tendre la carte d'une dévouée"
@@ -112,7 +98,7 @@
       "id": 1239774913,
       "name": "Place de la République",
       "duration": 251.227,
-      "streamUrl": "https://t4.bcbits.com/stream/f7f5df6de9007b9415e120d8083cd973/mp3-128/1239774913?p=0&ts=1757770758&t=8499e551a84cf16a76151c9e78e1e7439840404e&token=1757770758_f214157c5d520b8ef5d367b0e3af250b63ed26d3",
+      "streamUrl": "https://t4.bcbits.com/stream/f7f5df6de9007b9415e120d8083cd973/mp3-128/1239774913?p=0&ts=1775645735&t=589b51e3124f41629dbd4febb74709c1c3a0b631&token=1775645735_942854cb4cf2bb512f243c1c841a6138b46edecf",
       "position": 8,
       "url": "https://musique.coeurdepirate.com/track/place-de-la-r-publique",
       "lyrics": "On s'est connus le temps de plaire\r\nAux exigences qu'on s’est créées, mais on s'y perd\r\nTu n'es qu'à quelques kilomètres\r\nEt nos cœurs, nos cœurs sont restés dans cette mer\r\n\r\nJ'ai couru en longeant la Seine\r\nEn espérant te retrouver, l'âme sereine\r\nJ'ai couru sans savoir comment\r\nNi pourquoi on s'emballe, on ne s'est connus qu'un moment\r\n\r\nEt je ne sais plus si tu en vaux la peine\r\nC'est plutôt dur d'en être certaine\r\nEt quand tu seras à Pearson\r\nCe soir, ne m'oublie pas\r\nJe t'attendrai au moins le temps de dire\r\nQue j'ai voulu prendre le plus grand risque\r\nUn soir qui m'a rendue bien triste\r\nUn soir, Place de la République\r\n\r\nEt comme tu vois, c'est bien la fin\r\nJe dois traverser l'océan demain matin\r\nDe tes bras, je m'arracherai tout doucement\r\nEt c'est la réalité qui m'attend\r\n\r\nJe sais, ton cœur est habité\r\nPar une ou d'autres filles qui t'ont marqué\r\nMoi je suis moins forte que les autres\r\nMais j'espère tant te manquer, tant me démarquer\r\n\r\nEt je ne sais plus si tu en vaux la peine\r\nC'est plutôt dur d'en être certaine\r\nEt quand tu seras à Pearson\r\nCe soir, ne m'oublie pas\r\nJe t'attendrai au moins le temps de dire\r\nQue j'ai voulu prendre le plus grand risque\r\nUn soir qui m'a rendue bien triste\r\nUn soir, Place de la République"
@@ -121,7 +107,7 @@
       "id": 3259278294,
       "name": "Cap Diamant",
       "duration": 163.293,
-      "streamUrl": "https://t4.bcbits.com/stream/732fc4dbcd8ca3cc2cc477d773f99206/mp3-128/3259278294?p=0&ts=1757770758&t=2a2e1f35d6e3ce0e2de181612d111de3706b815d&token=1757770758_c895c4ffcf67d347b7facd74a367b2a3ab0fbd28",
+      "streamUrl": "https://t4.bcbits.com/stream/732fc4dbcd8ca3cc2cc477d773f99206/mp3-128/3259278294?p=0&ts=1775645735&t=43c3f0565d8744df5958f7df0a25b9a4645aa53f&token=1775645735_f3d21f0429c37e386943320fe215e0be0d10a191",
       "position": 9,
       "url": "https://musique.coeurdepirate.com/track/cap-diamant",
       "lyrics": "Je sais qu'on a tant de choses à se dire\r\nEt tes histoires seront bientôt usées\r\nQuand je serai blottie contre la fatigue\r\nDes jours à la mer qu'on veut oublier\r\n\r\nEt voilà que tu ne peux plus chanter\r\nJe crois bien que je suis seule à t’aimer\r\nTes lèvres brûlent tant de mille mensonges\r\nQue tu ne prends plus la peine de raconter\r\n\r\nEt tu m'as volé ce qu'il reste de l'été\r\nDes berceuses que tu chantais pour me calmer\r\nNe me laisse plus ici, ne me laisse plus cette fois\r\nMême si je ne suis rien pour toi\r\n\r\nJe me rappelle des secrets en cavale\r\nLaissés en murmures au creux de mes bras\r\nQue je porterai, si lourds de tourments\r\nJe t'entends encore crier doucement\r\n\r\nPourquoi voulais-tu encore donc de moi\r\nAlors que je quittais toutes ces pensées\r\nTu ne me voulais que pour ces quelques mois\r\nPour t'aider toujours à mieux l'oublier"
@@ -130,7 +116,7 @@
       "id": 496320675,
       "name": "Verseau",
       "duration": 233.813,
-      "streamUrl": "https://t4.bcbits.com/stream/a4e97e8b436b8e2ad1a2c598f5cd0a48/mp3-128/496320675?p=0&ts=1757770758&t=fae60dd4343b9a06b4eec0f1272650ede17e6735&token=1757770758_35c95fed8f9b891c9cb125e0642528d1142a6b49",
+      "streamUrl": "https://t4.bcbits.com/stream/a4e97e8b436b8e2ad1a2c598f5cd0a48/mp3-128/496320675?p=0&ts=1775645735&t=d5624e66d51cc58d1e44ec0ce39435fccb3516fa&token=1775645735_bb623abd16937e1feae6938e4c9d113617bd63dc",
       "position": 10,
       "url": "https://musique.coeurdepirate.com/track/verseau",
       "lyrics": "Laisse-les t'aimer ce soir\r\nTu sais qu'elles ne t'auront jamais et tes regards les tuent de présages que tu tais\r\nMais dans ces avances aveugles\r\nTu laisses l'attention t'atteindre\r\nEt dans cette solitude, j'attends tes étreintes\r\n\r\nEt si tu savais, si tu savais\r\nJ'ai peur de te perdre à jamais\r\nEt si tu savais que même moi j'attendrais\r\n\r\nVerseau, Verseau, tu brises mon cœur\r\nVerseau, Verseau, je sais qu'on a peur\r\nOn n'est pas ce qu'on clamait chez les anges\r\nEt je ne sais plus si\r\n\r\nVerseau, Verseau, je chante encore\r\nVerseau, Verseau, je sais qu'on a tort\r\nAu moins dis-moi si tu me tiens la main\r\nOu si c'est bien la fin\r\n\r\nLaisse-les tomber ce soir\r\nCes envies de voir tes limites\r\nEt tu ne nous fais que du mal quand tu franchis ces lignes\r\nJe suis brûlée par l'usure\r\nJe ne vis que pour tes yeux de gris\r\nEt de mon mal, j'avale mes larmes et mes cris"
@@ -139,7 +125,7 @@
       "id": 2437695881,
       "name": "Saint-Laurent",
       "duration": 194.787,
-      "streamUrl": "https://t4.bcbits.com/stream/5f87e431eaaf515564c006de4c888e91/mp3-128/2437695881?p=0&ts=1757770758&t=51fb31ad70517ae843ca04c73cf81ee3a9ddede8&token=1757770758_c8f3500bb896ab4fddc99168bc65be2043b4eac7",
+      "streamUrl": "https://t4.bcbits.com/stream/5f87e431eaaf515564c006de4c888e91/mp3-128/2437695881?p=0&ts=1775645735&t=e4b9279691d832ffca5f2fb159933cfd965e68c9&token=1775645735_3b069d56df0f935fef1248bfd8183d5ae50ef75c",
       "position": 11,
       "url": "https://musique.coeurdepirate.com/track/saint-laurent",
       "lyrics": "Il est trois heures moins quart\r\nSur la Main, il est tard\r\nLes filles ont dansé pour toi\r\nPour te consoler, leur roi\r\n\r\nEt si tu dors seul ce soir parmi leurs pleurs d'aurore\r\nEt si tu me laisses dans tes bras, je t'attends, boulevard Saint-Laurent\r\n\r\nOn s'est vus deux par deux\r\nJe sais, tu es pris, amoureux\r\nMais j'ai tant dansé pour toi\r\nPour te gagner, mon roi\r\n\r\nEt si tu dors seul ce soir parmi leurs pleurs d'aurore\r\nEt si tu me laisses dans tes bras, je t'attends, boulevard Saint-Laurent"
@@ -148,7 +134,7 @@
       "id": 525064765,
       "name": "La petite mort",
       "duration": 229.627,
-      "streamUrl": "https://t4.bcbits.com/stream/b257ccb8aca3ea864cbb2774e9d8d2be/mp3-128/525064765?p=0&ts=1757770758&t=6d77624899e9590fa1f4535e44b2d8a540b09376&token=1757770758_851b56b6c6bfcb2e5398e3bceb398175bd74ff3c",
+      "streamUrl": "https://t4.bcbits.com/stream/b257ccb8aca3ea864cbb2774e9d8d2be/mp3-128/525064765?p=0&ts=1775645735&t=14abfed835ec943f6077d4c9d98545f827408198&token=1775645735_beeb8ca2b637d67afeb158c1a55158b52996b74e",
       "position": 12,
       "url": "https://musique.coeurdepirate.com/track/la-petite-mort",
       "lyrics": "Le temps d'un souffle coupé par un soir tardif d'été\r\nLes anges partirent avant et leurs visages tachés de blanc\r\nJe crois qu'il est trop tard pour t'avouer que j'ai mal\r\nÀ mon cœur mourant et mes souvenirs tachés de blanc\r\n\r\nSi l'on me perd, sache que je serai la tienne\r\nEt au creux de ses bras, la mort nous bercera\r\nCar si l'on me perd, c'est seulement pour rester la tienne\r\nEt au creux de ses bras, la mort nous bercera\r\n\r\nLa pluie coule sur mes tempes, la foudre chante ta descente\r\nBlottie contre ma vie, ton rire résonne et puis s'enfuit\r\nJe crois qu'il est trop tard pour te dire que ça fait mal\r\nMon cœur n'est plus comme avant, car il s'endort tout doucement"

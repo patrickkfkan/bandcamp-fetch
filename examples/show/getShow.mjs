@@ -1,6 +1,6 @@
 import bcfetch from '../../dist/mjs/index.js';
 
-const showUrl = 'https://bandcamp.com/radio?show=868';
+const showUrl = 'https://bandcamp.com/radio?show=421';
 
 const params = {
   showUrl

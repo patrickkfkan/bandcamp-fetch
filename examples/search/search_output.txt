@@ -6,7 +6,7 @@ Search query: jazz. Item type: All. 18 results.
       "type": "label",
       "name": "Bastard Jazz Recordings",
       "url": "https://bastardjazz.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0040601762_28.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/0041768586_28.jpg",
       "location": "Brooklyn, New York"
     },
     {
@@ -25,6 +25,13 @@ Search query: jazz. Item type: All. 18 results.
     },
     {
       "type": "label",
+      "name": "Acid Jazz Records",
+      "url": "https://acidjazz.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0005692295_28.jpg",
+      "location": "UK"
+    },
+    {
+      "type": "label",
       "name": "Jazz Is Dead",
       "url": "https://jazzisdead.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/0019613576_28.jpg",
@@ -32,10 +39,10 @@ Search query: jazz. Item type: All. 18 results.
     },
     {
       "type": "label",
-      "name": "Acid Jazz Records",
-      "url": "https://acidjazz.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0005692295_28.jpg",
-      "location": "UK"
+      "name": "Jazz Room Records",
+      "url": "https://jazzroomrecords.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0043783793_28.jpg",
+      "location": "London, UK"
     },
     {
       "type": "artist",
@@ -45,13 +52,6 @@ Search query: jazz. Item type: All. 18 results.
       "location": "England, UK",
       "genre": "Jazz",
       "tags": "British Jazz, Jazz Fusion, Jazz, Modern Jazz, Jazz Rock"
-    },
-    {
-      "type": "label",
-      "name": "Jazz Room Records",
-      "url": "https://jazzroomrecords.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0040865313_28.jpg",
-      "location": "London, UK"
     },
     {
       "type": "artist",
@@ -82,7 +82,7 @@ Search query: jazz. Item type: All. 18 results.
       "type": "artist",
       "name": "The Jazz Hop Café",
       "url": "https://jazzhopcafe.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0037140812_28.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/0042463088_28.jpg",
       "location": "England, UK",
       "genre": "Hip-Hop/Rap",
       "tags": "chill beats, lofi, Hip-Hop/Rap, lofi jazz, jazz hop, the jazz hop cafe"
@@ -101,14 +101,14 @@ Search query: jazz. Item type: All. 18 results.
       "name": "Modern Urban Jazz",
       "url": "https://modernurbanjazz.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/0025435106_28.jpg",
-      "location": "England, UK",
+      "location": "Luton, UK",
       "genre": "Electronic",
       "tags": "Breaks, Drum & Bass, Bass Music, Electronic"
     },
     {
       "type": "artist",
       "name": "British Progressive Jazz",
-      "url": "https://britishprogressivejazz.com",
+      "url": "https://britprogjazz.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/0029537480_28.jpg",
       "location": "London, UK",
       "genre": "Jazz",
@@ -123,6 +123,15 @@ Search query: jazz. Item type: All. 18 results.
     },
     {
       "type": "artist",
+      "name": "Jazz Emu",
+      "url": "https://jazzemu.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0042870211_28.jpg",
+      "location": "London, UK",
+      "genre": "Alternative",
+      "tags": "Alternative, Pop, Funk, R&B, Electronic"
+    },
+    {
+      "type": "artist",
       "name": "Adult Jazz",
       "url": "https://adultjazz.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/0034845203_28.jpg",
@@ -131,20 +140,11 @@ Search query: jazz. Item type: All. 18 results.
       "tags": "Alternative"
     },
     {
-      "type": "artist",
-      "name": "Jazz Emu",
-      "url": "https://jazzemu.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0038498888_28.jpg",
-      "location": "London, UK",
-      "genre": "Alternative",
-      "tags": "Alternative, Pop, Funk, R&B, Electronic"
-    },
-    {
       "type": "label",
-      "name": "JAZZ & MILK",
-      "url": "https://jazzandmilk.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0022362718_28.jpg",
-      "location": "Cologne, Germany"
+      "name": "Jazz-o-Tech",
+      "url": "https://jazz-o-tech.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0030503235_28.jpg",
+      "location": "Berlin, Germany"
     }
   ],
   "totalPages": 6
@@ -189,6 +189,13 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "tags": "pop rock, pop, Rock, alternative rock"
     },
     {
+      "type": "label",
+      "name": "JUNIUS MERGE",
+      "url": "https://junius1.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0044069739_28.jpg",
+      "location": "Massachusetts"
+    },
+    {
       "type": "artist",
       "name": "Merge",
       "url": "https://merge.bandcamp.com",
@@ -225,13 +232,6 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "tags": "dance, alternative, Alternative, pop, trip hop, bedroom pop"
     },
     {
-      "type": "label",
-      "name": "The Pastels Merge",
-      "url": "https://pastelsthe12.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0012734431_28.jpg",
-      "location": "Glasgow, UK"
-    },
-    {
       "type": "artist",
       "name": "Merge Beats",
       "url": "https://mergebeats.bandcamp.com",
@@ -239,6 +239,13 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "location": "Bakersfield, California",
       "genre": "Hip-Hop/Rap",
       "tags": "Hip Hop, Hip-Hop/Rap, underground, instrumentals"
+    },
+    {
+      "type": "label",
+      "name": "The Pastels Merge",
+      "url": "https://pastelsthe12.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0012734431_28.jpg",
+      "location": "Glasgow, UK"
     },
     {
       "type": "artist",
@@ -260,37 +267,30 @@ Search query: merge. Item type: Artists & labels. 18 results.
     },
     {
       "type": "artist",
-      "name": "Perge",
-      "url": "https://perge.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0006086709_28.jpg",
-      "location": "UK",
-      "genre": "Electronic",
-      "tags": "darksynth, Berlin School, progressive, ambient electronic, synthwave, Electronic"
-    },
-    {
-      "type": "artist",
-      "name": "attenuation circuit",
-      "url": "https://emerge.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0003392229_28.jpg",
-      "location": "Augsburg, Germany",
-      "genre": "Experimental",
-      "tags": "noise, Experimental, ambient, drone"
-    },
-    {
-      "type": "label",
-      "name": "eMERGENCY heARTS",
-      "url": "https://emergencyhearts.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0033068431_28.jpg",
-      "location": "Austin, Texas"
-    },
-    {
-      "type": "artist",
       "name": "Merge",
       "url": "https://mergednb.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/0002032674_28.jpg",
       "location": "Leeds, UK",
       "genre": "Electronic",
       "tags": "Jungle, Drum & Bass, Electronic"
+    },
+    {
+      "type": "artist",
+      "name": "Merge",
+      "url": "https://merge2.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0000200110_28.jpg",
+      "location": "Chicago, Illinois",
+      "genre": "Alternative",
+      "tags": "Alternative"
+    },
+    {
+      "type": "artist",
+      "name": "Perge",
+      "url": "https://perge.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0006086709_28.jpg",
+      "location": "UK",
+      "genre": "Electronic",
+      "tags": "darksynth, Berlin School, progressive, ambient electronic, synthwave, Electronic"
     },
     {
       "type": "artist",
@@ -303,18 +303,18 @@ Search query: merge. Item type: Artists & labels. 18 results.
     },
     {
       "type": "artist",
-      "name": "Merge",
-      "url": "https://merge2.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0000200110_28.jpg",
-      "location": "Chicago, Illinois",
-      "genre": "Alternative",
-      "tags": "Alternative"
+      "name": "attenuation circuit",
+      "url": "https://emerge.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0003392229_28.jpg",
+      "location": "Augsburg, Germany",
+      "genre": "Experimental",
+      "tags": "noise, Experimental, ambient, drone"
     }
   ],
   "totalPages": 6
 }
 
-Search query: Coeur de pirate. Item type: Albums. 14 results.
+Search query: Coeur de pirate. Item type: Albums. 15 results.
 -------------------------------------------------------------
 {
   "items": [
@@ -401,9 +401,20 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "url": "https://musique.coeurdepirate.com/album/impossible-aimer",
       "imageUrl": "https://f4.bcbits.com/img/a3147632514_16.jpg",
       "artist": "Cœur de pirate",
-      "numTracks": 10,
-      "duration": 2040,
+      "numTracks": 11,
+      "duration": 2220,
       "releaseDate": "October 15, 2021",
+      "tags": "Québec, Pop, french pop, piano pop, Canada, Montréal, french"
+    },
+    {
+      "type": "album",
+      "name": "Cavale",
+      "url": "https://musique.coeurdepirate.com/album/cavale",
+      "imageUrl": "https://f4.bcbits.com/img/a3633550031_16.jpg",
+      "artist": "Cœur de pirate",
+      "numTracks": 12,
+      "duration": 2460,
+      "releaseDate": "September 26, 2025",
       "tags": "Québec, Pop, french pop, piano pop, Canada, Montréal, french"
     },
     {
@@ -570,6 +581,15 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
     },
     {
       "type": "track",
+      "name": "Damso - Coeur de Pirate (Tom Monjo Shatta Edit)",
+      "url": "https://tommonjo.bandcamp.com/track/damso-coeur-de-pirate-tom-monjo-shatta-edit",
+      "imageUrl": "https://f4.bcbits.com/img/a1367659933_16.jpg",
+      "artist": "Monjo",
+      "album": "Tom Monjo Edit Pack Vol.1",
+      "releaseDate": "January 31, 2023"
+    },
+    {
+      "type": "track",
       "name": "Coeur de pirate",
       "url": "https://sergemonette.bandcamp.com/track/coeur-de-pirate",
       "imageUrl": "https://f4.bcbits.com/img/a3469921391_16.jpg",
@@ -586,15 +606,6 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
       "artist": "Inside Records",
       "releaseDate": "March 12, 2021",
       "tags": "dance, electro, Paris, electronic, France, IDF"
-    },
-    {
-      "type": "track",
-      "name": "Damso - Coeur de Pirate (Tom Monjo Shatta Edit)",
-      "url": "https://tommonjo.bandcamp.com/track/damso-coeur-de-pirate-tom-monjo-shatta-edit",
-      "imageUrl": "https://f4.bcbits.com/img/a1367659933_16.jpg",
-      "artist": "Tom Monjo",
-      "album": "Tom Monjo Edit Pack Vol.1",
-      "releaseDate": "January 31, 2023"
     },
     {
       "type": "track",
@@ -642,7 +653,7 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
       "tags": "France, Experimental, REDRUMS"
     }
   ],
-  "totalPages": 8
+  "totalPages": 9
 }
 
 Search query: merge. Item type: Fans. 17 results.
@@ -745,16 +756,16 @@ Search query: merge. Item type: Fans. 17 results.
     },
     {
       "type": "fan",
-      "name": "Outshift",
-      "url": "https://bandcamp.com/alister_merge",
-      "imageUrl": "https://f4.bcbits.com/img/0026869092_28.jpg"
+      "name": "soft merge",
+      "url": "https://bandcamp.com/softmerge",
+      "imageUrl": "https://f4.bcbits.com/img/0042675871_28.jpg",
+      "genre": "Electronic"
     },
     {
       "type": "fan",
-      "name": "Matt Melvin",
-      "url": "https://bandcamp.com/merge5",
-      "imageUrl": "https://f4.bcbits.com/img/0006048796_28.jpg",
-      "genre": "Alternative"
+      "name": "Outshift",
+      "url": "https://bandcamp.com/alister_merge",
+      "imageUrl": "https://f4.bcbits.com/img/0026869092_28.jpg"
     }
   ],
   "totalPages": 6

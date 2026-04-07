@@ -8,6 +8,10 @@
         "title": "",
         "categories": [
           {
+            "url": "https://daily.bandcamp.com/best-of-2026",
+            "name": "Best of 2026"
+          },
+          {
             "url": "https://daily.bandcamp.com/best-of-2025",
             "name": "Best of 2025"
           },

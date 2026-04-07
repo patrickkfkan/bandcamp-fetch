@@ -11,7 +11,7 @@
         "url": "https://whiteward.bandcamp.com"
       },
       "duration": 409.69,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1490824272&ts=1757684483&t=1e60a871ba31a82f4eac53411165698dc5227e69"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1490824272&ts=1775559535&t=58f92a2735d99f3432395ed72f2245db371a3284"
     },
     {
       "type": "album",
@@ -29,7 +29,7 @@
         "name": "Skyline (w/ MicroMatscenes)",
         "artist": "Sleepless Nights",
         "duration": 218.74,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3607463913&ts=1757684483&t=8cfb5fd7fd0d354a007cbe767824bbba5f32877a"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3607463913&ts=1775559535&t=2b8d99df32e7f672ff9debbd41de113478833f76"
       }
     },
     {
@@ -48,7 +48,7 @@
         "name": "Room Temperature",
         "artist": "Faye Webster",
         "duration": 244.307,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=745907242&ts=1757684483&t=7d666ef2b637867c487592e258e40518fcfb9119"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=745907242&ts=1775559535&t=e9d09f016a2c70549a91f46ea967f23373d66f40"
       }
     },
     {
@@ -67,7 +67,7 @@
         "name": "呼吸して、私はあなたが大丈夫になることを約束します",
         "artist": "GODSPEED 音",
         "duration": 493,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=625885210&ts=1757684483&t=7a541a991330eab9a49eba54b12e06325f1dabbc"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=625885210&ts=1775559535&t=0ffd33ee6b2cd00b91f06c20174d774a54118000"
       }
     },
     {
@@ -86,7 +86,7 @@
         "name": "Chinese Song",
         "artist": "Mr:Demo/Vectormorph",
         "duration": 256.747,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1269709209&ts=1757684483&t=bab46c248e2f3bf52b1d074ffeebe63b1da48c73"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1269709209&ts=1775559535&t=1bdfc674fcd0a364b952264727b01aaa38e999af"
       }
     },
     {
@@ -105,7 +105,7 @@
         "name": "Market Square 7​-​Eleven",
         "artist": "Tupperwave",
         "duration": 193.322,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1505664840&ts=1757684483&t=949641ea856d814767e7beff39a35b4b35e96d2c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1505664840&ts=1775559535&t=27fe5a1d4b2f5d190455a4dc83209e5972d659fb"
       }
     },
     {
@@ -124,7 +124,7 @@
         "name": "孤島和糧",
         "artist": "石璐Atom",
         "duration": 375.963,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=102898945&ts=1757684483&t=f3bf4b52619b9fa4472aea73b3eaade87ca00541"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=102898945&ts=1775559535&t=50f5fb93cc18ad45b29e6dd39be3dcefa38cce26"
       }
     },
     {
@@ -143,7 +143,7 @@
         "name": "Desire",
         "artist": "Cleo Sol",
         "duration": 293.979,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1857353801&ts=1757684483&t=57fe2aa4582a69a4c8efa602a24ddd7a6fc7e500"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1857353801&ts=1775559535&t=81da09d1d4fe2c083f415e3a0103e4cbf1546942"
       }
     },
     {
@@ -162,7 +162,7 @@
         "name": "Too Little, Too Late, Too Bad",
         "artist": "Rhiannon Giddens",
         "duration": 224.2,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4027479457&ts=1757684483&t=6b4df738967dff2677856bf0f8218cc5f427e572"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4027479457&ts=1775559535&t=99a75a2d95af10b19ad04a8619367142e6cab516"
       }
     },
     {
@@ -181,7 +181,7 @@
         "name": "We All Hate Ourselves Sometimes",
         "artist": "Primo the Alien",
         "duration": 208.819,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2879816023&ts=1757684483&t=3576ccfa659a96da787a51a6d01503f0b8493b3c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2879816023&ts=1775559535&t=4e8f64b128b6ea40033e93295f8766d8b3643574"
       }
     },
     {
@@ -200,7 +200,7 @@
         "name": "夢みる",
         "artist": "Scott Murphy & Elizaveta",
         "duration": 217.165,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2557923990&ts=1757684483&t=2781fca6c8bb7350ccef69e35ecc04460e135f0e"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2557923990&ts=1775559535&t=d1fe23fbbac84d878557ef17fea2e3cc90983628"
       }
     },
     {
@@ -219,7 +219,7 @@
         "name": "Pretty Dresses",
         "artist": "Carmen Toth",
         "duration": 231.071,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1538299178&ts=1757684483&t=2ac8b40b7df4b1685d200f6e1092c790bd72e9b1"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1538299178&ts=1775559535&t=b95466ce02a64b02df137917346c95f52c491d63"
       }
     },
     {
@@ -238,7 +238,7 @@
         "name": "藏在你的房間",
         "artist": "动物园钉子户 Zoo Gazer",
         "duration": 266.72,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=525755274&ts=1757684483&t=7623577b109f6ca89403eefe42f84d773b71af6b"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=525755274&ts=1775559535&t=c6076124c7a5ea17ae022f779f0522e35e6204aa"
       }
     },
     {
@@ -257,7 +257,7 @@
         "name": "Angels On The Phone",
         "artist": "Cupid & Psyche",
         "duration": 186.207,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3535427082&ts=1757684483&t=453dde879bc8d86017d3ec8e96049807b93ea514"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3535427082&ts=1775559535&t=91d088bad864b16cac77acc8f7aea8b377384329"
       }
     },
     {
@@ -276,7 +276,7 @@
         "name": "Bada Bing! ft CARRTOONS",
         "artist": "Miranda Joan",
         "duration": 183.027,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=667542836&ts=1757684483&t=b9154eb3fb475ac21b5ffb7626d9c012504fe0a1"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=667542836&ts=1775559535&t=ee11957c4854f341e7f0178c55b970c360848c1c"
       }
     },
     {
@@ -295,7 +295,7 @@
         "name": "Water",
         "artist": "Stella Talpo",
         "duration": 184.444,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1241318221&ts=1757684483&t=a998bba2d68750ecb393c3945ec65558f66bcdd0"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1241318221&ts=1775559535&t=cb6b9a43b01cf8775ce14ae313d39d03cd8c610f"
       }
     },
     {
@@ -314,7 +314,7 @@
         "name": "Duat Hawk",
         "artist": "Wovenhand",
         "duration": 205.24,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1665518602&ts=1757684483&t=b485c6b60c4c190050f2c91919cb4dd592494ac5"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1665518602&ts=1775559535&t=ac62335916afb9934b1039e369aea2bf2188dfd7"
       }
     },
     {
@@ -333,7 +333,7 @@
         "name": "Falls On Me",
         "artist": "Sylvie",
         "duration": 299.453,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1840839102&ts=1757684483&t=b86869873062f926c2c9119d05369e07dcf79b49"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1840839102&ts=1775559535&t=f0c2beaa597fee8137e3110e7076a42257b4933a"
       }
     },
     {
@@ -352,7 +352,7 @@
         "name": "Skateboard Song",
         "artist": "Margo Cilker",
         "duration": 239.799,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2599779818&ts=1757684483&t=ce5df5a231b22e97a42b3a76adb42632c447e501"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2599779818&ts=1775559535&t=5e2202bb225765f607b3d7a77ae04268817cfe59"
       }
     },
     {
@@ -371,7 +371,7 @@
         "name": "The First Year",
         "artist": "American Aquarium",
         "duration": 192.013,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1867095022&ts=1757684483&t=de9cb2a9d9e4dbba77bef61dd0454f79c15510fd"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1867095022&ts=1775559535&t=e5189ecdce6a69c9be79f1c13dc84a6777ff90f9"
       }
     }
   ],
@@ -400,7 +400,7 @@ Fetching more by continuation...
         "name": "I Suppose",
         "artist": "Nick Dittmeier & the Sawdusters",
         "duration": 173.977,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=291756392&ts=1757684484&t=42d5d9fdac2f32cb31eb7e5c782def01e140f962"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=291756392&ts=1775559536&t=cf0edb5c51b1ac6b890ec807a29cd15b067836c4"
       }
     },
     {
@@ -419,7 +419,7 @@ Fetching more by continuation...
         "name": "Little Flowers",
         "artist": "Kassi Valazza",
         "duration": 306.92,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3662293078&ts=1757684484&t=f17154bbfa9f00759df882589469c2cd9091935b"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3662293078&ts=1775559536&t=2f99f86b7a07fa8def1998886b6c4040cc484e11"
       }
     },
     {
@@ -438,7 +438,7 @@ Fetching more by continuation...
         "name": "We Merge",
         "artist": "Markus K",
         "duration": 228.87,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3271952930&ts=1757684484&t=d38468ed7c0b7bd898796a5cd5fe0eb8514894ad"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3271952930&ts=1775559536&t=c5819701c778a6b559153ebfc81303fdf1c5d34d"
       }
     },
     {
@@ -457,7 +457,7 @@ Fetching more by continuation...
         "name": "Blue Crystal Fire",
         "artist": "Robbie Basho",
         "duration": 287.546,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2254598059&ts=1757684484&t=85388de3b77e94e7c9b1e6130cf9456501615ccd"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2254598059&ts=1775559536&t=98591bf1dac9012b9b5e49a4ca1e6088281a0164"
       }
     },
     {
@@ -476,7 +476,7 @@ Fetching more by continuation...
         "name": "That River",
         "artist": "Margo Cilker",
         "duration": 189.187,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=895429532&ts=1757684484&t=9f2dff1dba2877d20b153c532e3ab1b1453abae1"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=895429532&ts=1775559536&t=09a596e25c57bc47aa0ab7805a2502af67b60b21"
       }
     },
     {
@@ -495,7 +495,7 @@ Fetching more by continuation...
         "name": "Falling Apart (Right Now)",
         "artist": "Wilco",
         "duration": 198.52,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3385090483&ts=1757684484&t=cc30f2bb5a8e5809bb34bfeebfe846db29e9b575"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3385090483&ts=1775559536&t=730d01188a062c463afd46329ff882ae89c0ebb5"
       }
     },
     {
@@ -514,7 +514,7 @@ Fetching more by continuation...
         "name": "Tour Of Duty",
         "artist": "Jason Isbell and the 400 Unit",
         "duration": 228.867,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2971595025&ts=1757684484&t=b84d83186e780d678c66b76fe37238f8ce263dfe"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2971595025&ts=1775559536&t=966e69b1b239e53e9b19c8007cdf18c83bbfd94f"
       }
     },
     {
@@ -533,7 +533,7 @@ Fetching more by continuation...
         "name": "I'm An Animal",
         "artist": "Neko Case",
         "duration": 136.987,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=535802350&ts=1757684484&t=67e991f0cee66bb53078325d068cba3bbb8ad89a"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=535802350&ts=1775559536&t=1623edea6c181f1388e01d5a342aa0c5241300de"
       }
     },
     {
@@ -552,7 +552,7 @@ Fetching more by continuation...
         "name": "Everything's Going South",
         "artist": "Legends Of Country",
         "duration": 180.156,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1757684484&t=c2d1ad9a4d74ee8a05442095af4c06f701e544fc"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1775559536&t=5b9f3aff1cf3447f772884c5121bef084b9db203"
       }
     },
     {
@@ -571,7 +571,7 @@ Fetching more by continuation...
         "name": "Outsiders",
         "artist": "Anna Tivel",
         "duration": 234.747,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=157662870&ts=1757684484&t=48a525d221f5b821fd4ec8a645dd9f62d52f3494"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=157662870&ts=1775559536&t=c0568adc201e9d543590c86faa698f027a83280a"
       }
     },
     {
@@ -590,7 +590,7 @@ Fetching more by continuation...
         "name": "Pocket-Sized Friend",
         "artist": "Buick Audra",
         "duration": 185.178,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1707027958&ts=1757684484&t=6ca7511530288f560c8d184a056ef79dc4253603"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1707027958&ts=1775559536&t=7c22fda4de041810327e23a05ced249591a684a2"
       }
     },
     {
@@ -609,7 +609,7 @@ Fetching more by continuation...
         "name": "Didn’t It Rain",
         "artist": "Jake Blount",
         "duration": 185.987,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4237361807&ts=1757684484&t=ed444435b378c66d2c9ab562c4c100b46f7c1d1c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4237361807&ts=1775559536&t=2be60d4f89a4cc6387adfa3b18f742b94da4fbd2"
       }
     },
     {
@@ -628,7 +628,7 @@ Fetching more by continuation...
         "name": "Ivory Tower",
         "artist": "Bob Driftwood",
         "duration": 322.479,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4191030128&ts=1757684484&t=d35cfda95c471c6c81420ba2913671d2bfdc190b"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4191030128&ts=1775559536&t=fe576561d0ac1cd14293c645afcd4040d7684b96"
       }
     },
     {
@@ -647,7 +647,7 @@ Fetching more by continuation...
         "name": "My Favorite Animal",
         "artist": "The Silos",
         "duration": 300.595,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=918323024&ts=1757684484&t=488b96effdaf8e792d52a5bcff7357000940321a"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=918323024&ts=1775559536&t=237b10f3a006d7f21804b06ba598773ab1067b7f"
       }
     },
     {
@@ -666,7 +666,7 @@ Fetching more by continuation...
         "name": "Other Than That",
         "artist": "J.R. Carroll",
         "duration": 258.48,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1155799776&ts=1757684484&t=dbae718fbf3515b9696192d29ae77db9018a6c46"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1155799776&ts=1775559536&t=40d810a15c7df0a1d9b870613aa5ef2bb610c0d7"
       }
     },
     {
@@ -685,7 +685,7 @@ Fetching more by continuation...
         "name": "Saboteurs (Live from Boston 4.08.2022)",
         "artist": "Dave Hause",
         "duration": 294.458,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3843751680&ts=1757684484&t=e44433d00884c407fe80429f66a68c3f4155d1c8"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3843751680&ts=1775559536&t=6eb2bc38cc05e30476f7edc6bf32f6be6a5f3793"
       }
     },
     {
@@ -699,7 +699,7 @@ Fetching more by continuation...
         "url": "https://coeurdepirate.bandcamp.com"
       },
       "duration": 176.373,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3387079907&ts=1757684484&t=6a9757030dd91f60e9080532c5eaac0d35ad5c5b"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3387079907&ts=1775559536&t=01e3df021ba224519bfef9fd88d1fb401afd65b1"
     },
     {
       "type": "album",
@@ -717,7 +717,7 @@ Fetching more by continuation...
         "name": "Leviathan",
         "artist": "White Ward",
         "duration": 797.115,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2599650567&ts=1757684484&t=4898c9ef402b791318afebd205559e2f9a03c02b"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2599650567&ts=1775559536&t=98ecc403175d5cb2ae7913f7a2b7cda52e114e36"
       }
     }
   ],

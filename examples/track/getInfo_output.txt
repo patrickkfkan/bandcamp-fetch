@@ -6,7 +6,7 @@
   "imageUrl": "https://f4.bcbits.com/img/a0774650359_16.jpg",
   "releaseDate": "01 Oct 2020 00:00:00 GMT",
   "duration": 176.373,
-  "streamUrl": "https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1757770935&t=ad3a064efb29a165818208d8eebd206488be293c&token=1757770935_4fb72dbc06e1e0dfdec607f842ddf68743f91698",
+  "streamUrl": "https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1775646046&t=77db0d280892083e8db5e2c3678f1a0148443275&token=1775646046_3098b96477ff0fea370c992d7ce9ff93f904624e",
   "artist": {
     "name": "Cœur de pirate",
     "url": "https://musique.coeurdepirate.com"

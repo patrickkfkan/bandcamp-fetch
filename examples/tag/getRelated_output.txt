@@ -44,13 +44,13 @@
         },
         {
           "type": "tag",
-          "name": "field recordings",
-          "value": "field-recordings"
+          "name": "soundscape",
+          "value": "soundscape"
         },
         {
           "type": "tag",
-          "name": "soundscape",
-          "value": "soundscape"
+          "name": "field recordings",
+          "value": "field-recordings"
         },
         {
           "type": "tag",
@@ -59,13 +59,13 @@
         },
         {
           "type": "tag",
-          "name": "industrial",
-          "value": "industrial"
+          "name": "harsh noise",
+          "value": "harsh-noise"
         },
         {
           "type": "tag",
-          "name": "harsh noise",
-          "value": "harsh-noise"
+          "name": "industrial",
+          "value": "industrial"
         },
         {
           "type": "tag",
@@ -89,6 +89,11 @@
         },
         {
           "type": "tag",
+          "name": "russia",
+          "value": "russia"
+        },
+        {
+          "type": "tag",
           "name": "soundtrack",
           "value": "soundtrack"
         },
@@ -96,11 +101,6 @@
           "type": "tag",
           "name": "avant-garde",
           "value": "avant-garde"
-        },
-        {
-          "type": "tag",
-          "name": "black metal",
-          "value": "black-metal"
         }
       ]
     },
@@ -115,6 +115,11 @@
           "type": "tag",
           "name": "ebm",
           "value": "ebm"
+        },
+        {
+          "type": "tag",
+          "name": "dark electro",
+          "value": "dark-electro"
         },
         {
           "type": "tag",
@@ -153,11 +158,6 @@
         },
         {
           "type": "tag",
-          "name": "dark",
-          "value": "dark"
-        },
-        {
-          "type": "tag",
           "name": "dark ambient",
           "value": "dark-ambient"
         },
@@ -178,23 +178,23 @@
         },
         {
           "type": "tag",
-          "name": "drone",
-          "value": "drone"
-        },
-        {
-          "type": "tag",
           "name": "techno",
           "value": "techno"
         },
         {
           "type": "tag",
-          "name": "experimental",
-          "value": "experimental"
+          "name": "drone",
+          "value": "drone"
         },
         {
           "type": "tag",
           "name": "idm",
           "value": "idm"
+        },
+        {
+          "type": "tag",
+          "name": "experimental",
+          "value": "experimental"
         },
         {
           "type": "tag",
@@ -222,13 +222,13 @@
       "related": [
         {
           "type": "tag",
-          "name": "asian",
-          "value": "asian"
+          "name": "theater",
+          "value": "theater"
         },
         {
           "type": "tag",
-          "name": "theater",
-          "value": "theater"
+          "name": "asian",
+          "value": "asian"
         },
         {
           "type": "tag",
@@ -244,11 +244,6 @@
           "type": "tag",
           "name": "taiwan",
           "value": "taiwan"
-        },
-        {
-          "type": "tag",
-          "name": "ethnic",
-          "value": "ethnic"
         },
         {
           "type": "tag",
@@ -277,8 +272,8 @@
         },
         {
           "type": "tag",
-          "name": "world",
-          "value": "world"
+          "name": "bass music",
+          "value": "bass-music"
         },
         {
           "type": "tag",
@@ -287,8 +282,8 @@
         },
         {
           "type": "tag",
-          "name": "tokyo",
-          "value": "tokyo"
+          "name": "world",
+          "value": "world"
         },
         {
           "type": "tag",
@@ -297,23 +292,28 @@
         },
         {
           "type": "tag",
+          "name": "tokyo",
+          "value": "tokyo"
+        },
+        {
+          "type": "tag",
+          "name": "bass",
+          "value": "bass"
+        },
+        {
+          "type": "tag",
           "name": "dub",
           "value": "dub"
         },
         {
           "type": "tag",
-          "name": "lofi",
-          "value": "lofi"
+          "name": "soundscape",
+          "value": "soundscape"
         },
         {
           "type": "tag",
           "name": "beats",
           "value": "beats"
-        },
-        {
-          "type": "tag",
-          "name": "instrumental",
-          "value": "instrumental"
         }
       ]
     }

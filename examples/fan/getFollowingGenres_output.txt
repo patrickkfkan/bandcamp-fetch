@@ -5,10 +5,10 @@
       "name": "alt-country",
       "value": "alt-country",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3540104956_9.jpg",
-        "https://f4.bcbits.com/img/a2006234006_9.jpg",
-        "https://f4.bcbits.com/img/a2599960294_9.jpg",
-        "https://f4.bcbits.com/img/a1085646365_9.jpg"
+        "https://f4.bcbits.com/img/a2534628133_9.jpg",
+        "https://f4.bcbits.com/img/a1775471357_9.jpg",
+        "https://f4.bcbits.com/img/a816465996_9.jpg",
+        "https://f4.bcbits.com/img/a2006234006_9.jpg"
       ]
     },
     {
@@ -16,10 +16,10 @@
       "name": "alternative",
       "value": "alternative",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a1566708845_9.jpg",
-        "https://f4.bcbits.com/img/a2805471381_9.jpg",
-        "https://f4.bcbits.com/img/a206419347_9.jpg",
-        "https://f4.bcbits.com/img/a3317842641_9.jpg"
+        "https://f4.bcbits.com/img/a3471251612_9.jpg",
+        "https://f4.bcbits.com/img/a451001947_9.jpg",
+        "https://f4.bcbits.com/img/a2961271000_9.jpg",
+        "https://f4.bcbits.com/img/a1566708845_9.jpg"
       ]
     },
     {
@@ -27,10 +27,10 @@
       "name": "americana",
       "value": "americana",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2371269317_9.jpg",
-        "https://f4.bcbits.com/img/a1666435290_9.jpg",
-        "https://f4.bcbits.com/img/a1237465879_9.jpg",
-        "https://f4.bcbits.com/img/a4105969811_9.jpg"
+        "https://f4.bcbits.com/img/a3108024706_9.jpg",
+        "https://f4.bcbits.com/img/a2773285859_9.jpg",
+        "https://f4.bcbits.com/img/a57370653_9.jpg",
+        "https://f4.bcbits.com/img/a1775471357_9.jpg"
       ]
     },
     {
@@ -38,10 +38,10 @@
       "name": "bluegrass",
       "value": "bluegrass",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3146882848_9.jpg",
-        "https://f4.bcbits.com/img/a708658440_9.jpg",
-        "https://f4.bcbits.com/img/a668832481_9.jpg",
-        "https://f4.bcbits.com/img/a1846582853_9.jpg"
+        "https://f4.bcbits.com/img/a2193745769_9.jpg",
+        "https://f4.bcbits.com/img/a2785411817_9.jpg",
+        "https://f4.bcbits.com/img/a3338393998_9.jpg",
+        "https://f4.bcbits.com/img/a3001918484_9.jpg"
       ]
     },
     {
@@ -49,10 +49,10 @@
       "name": "blues",
       "value": "blues",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a4234163598_9.jpg",
-        "https://f4.bcbits.com/img/a4288051673_9.jpg",
-        "https://f4.bcbits.com/img/a3357981293_9.jpg",
-        "https://f4.bcbits.com/img/a312323499_9.jpg"
+        "https://f4.bcbits.com/img/a2867947851_9.jpg",
+        "https://f4.bcbits.com/img/a615163653_9.jpg",
+        "https://f4.bcbits.com/img/a2773285859_9.jpg",
+        "https://f4.bcbits.com/img/a605274066_9.jpg"
       ]
     },
     {
@@ -60,10 +60,10 @@
       "name": "blues rock",
       "value": "blues-rock",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a131370809_9.jpg",
-        "https://f4.bcbits.com/img/a3584598575_9.jpg",
-        "https://f4.bcbits.com/img/a3357693825_9.jpg",
-        "https://f4.bcbits.com/img/a1836047385_9.jpg"
+        "https://f4.bcbits.com/img/a578363687_9.jpg",
+        "https://f4.bcbits.com/img/a1133452467_9.jpg",
+        "https://f4.bcbits.com/img/a1625847279_9.jpg",
+        "https://f4.bcbits.com/img/a615163653_9.jpg"
       ]
     },
     {
@@ -71,10 +71,10 @@
       "name": "britpop",
       "value": "britpop",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2195859427_9.jpg",
-        "https://f4.bcbits.com/img/a2960351238_9.jpg",
-        "https://f4.bcbits.com/img/a2787475512_9.jpg",
-        "https://f4.bcbits.com/img/a2183709115_9.jpg"
+        "https://f4.bcbits.com/img/a2780197742_9.jpg",
+        "https://f4.bcbits.com/img/a3635409535_9.jpg",
+        "https://f4.bcbits.com/img/a517852338_9.jpg",
+        "https://f4.bcbits.com/img/a1633343483_9.jpg"
       ]
     },
     {
@@ -82,10 +82,10 @@
       "name": "comedy",
       "value": "comedy",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a615949526_9.jpg",
-        "https://f4.bcbits.com/img/a3190763441_9.jpg",
-        "https://f4.bcbits.com/img/a1717347193_9.jpg",
-        "https://f4.bcbits.com/img/a114565283_9.jpg"
+        "https://f4.bcbits.com/img/a2049853951_9.jpg",
+        "https://f4.bcbits.com/img/a1879369943_9.jpg",
+        "https://f4.bcbits.com/img/a3670662113_9.jpg",
+        "https://f4.bcbits.com/img/a2904268104_9.jpg"
       ]
     },
     {
@@ -93,10 +93,10 @@
       "name": "country",
       "value": "country",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a1790199661_9.jpg",
-        "https://f4.bcbits.com/img/a3507493248_9.jpg",
-        "https://f4.bcbits.com/img/a709413757_9.jpg",
-        "https://f4.bcbits.com/img/a902609868_9.jpg"
+        "https://f4.bcbits.com/img/a1775471357_9.jpg",
+        "https://f4.bcbits.com/img/a2347303136_9.jpg",
+        "https://f4.bcbits.com/img/a1322043986_9.jpg",
+        "https://f4.bcbits.com/img/a1888800323_9.jpg"
       ]
     },
     {
@@ -104,10 +104,10 @@
       "name": "country blues",
       "value": "country-blues",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a4246697347_9.jpg",
-        "https://f4.bcbits.com/img/a341888604_9.jpg",
-        "https://f4.bcbits.com/img/a3336546736_9.jpg",
-        "https://f4.bcbits.com/img/a2333532234_9.jpg"
+        "https://f4.bcbits.com/img/a1260125126_9.jpg",
+        "https://f4.bcbits.com/img/a907408681_9.jpg",
+        "https://f4.bcbits.com/img/a1165705109_9.jpg",
+        "https://f4.bcbits.com/img/a1127378160_9.jpg"
       ]
     },
     {
@@ -115,10 +115,10 @@
       "name": "country folk",
       "value": "country-folk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2951930540_9.jpg",
-        "https://f4.bcbits.com/img/a3627148306_9.jpg",
-        "https://f4.bcbits.com/img/a4222354400_9.jpg",
-        "https://f4.bcbits.com/img/a1508862453_9.jpg"
+        "https://f4.bcbits.com/img/a1276544411_9.jpg",
+        "https://f4.bcbits.com/img/a3711104858_9.jpg",
+        "https://f4.bcbits.com/img/a1203692961_9.jpg",
+        "https://f4.bcbits.com/img/a4193557330_9.jpg"
       ]
     },
     {
@@ -126,10 +126,10 @@
       "name": "country rock",
       "value": "country-rock",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3728135415_9.jpg",
-        "https://f4.bcbits.com/img/a2631750269_9.jpg",
-        "https://f4.bcbits.com/img/a3336546736_9.jpg",
-        "https://f4.bcbits.com/img/a3312082129_9.jpg"
+        "https://f4.bcbits.com/img/a4193557330_9.jpg",
+        "https://f4.bcbits.com/img/a1169814529_9.jpg",
+        "https://f4.bcbits.com/img/a3794203689_9.jpg",
+        "https://f4.bcbits.com/img/a3650321663_9.jpg"
       ]
     },
     {
@@ -137,9 +137,9 @@
       "name": "crust punk",
       "value": "crust-punk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a678985158_9.jpg",
-        "https://f4.bcbits.com/img/a3427562133_9.jpg",
-        "https://f4.bcbits.com/img/a2551604774_9.jpg",
+        "https://f4.bcbits.com/img/a3543744906_9.jpg",
+        "https://f4.bcbits.com/img/a4133121362_9.jpg",
+        "https://f4.bcbits.com/img/a3270990370_9.jpg",
         "https://f4.bcbits.com/img/a3798266242_9.jpg"
       ]
     },
@@ -148,10 +148,10 @@
       "name": "dream pop",
       "value": "dream-pop",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3667495702_9.jpg",
-        "https://f4.bcbits.com/img/a2683707097_9.jpg",
-        "https://f4.bcbits.com/img/a1999430568_9.jpg",
-        "https://f4.bcbits.com/img/a1987924564_9.jpg"
+        "https://f4.bcbits.com/img/a751201236_9.jpg",
+        "https://f4.bcbits.com/img/a2911295205_9.jpg",
+        "https://f4.bcbits.com/img/a4043820056_9.jpg",
+        "https://f4.bcbits.com/img/a1403938614_9.jpg"
       ]
     },
     {
@@ -159,10 +159,10 @@
       "name": "electric blues",
       "value": "electric-blues",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a4140417099_9.jpg",
-        "https://f4.bcbits.com/img/a3261738963_9.jpg",
-        "https://f4.bcbits.com/img/a1278861666_9.jpg",
-        "https://f4.bcbits.com/img/a3606467408_9.jpg"
+        "https://f4.bcbits.com/img/a2736971752_9.jpg",
+        "https://f4.bcbits.com/img/a4270910212_9.jpg",
+        "https://f4.bcbits.com/img/a1957292675_9.jpg",
+        "https://f4.bcbits.com/img/a3261738963_9.jpg"
       ]
     },
     {
@@ -170,10 +170,10 @@
       "name": "electronic",
       "value": "electronic",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a1490126814_9.jpg",
-        "https://f4.bcbits.com/img/a772233530_9.jpg",
-        "https://f4.bcbits.com/img/a649909828_9.jpg",
-        "https://f4.bcbits.com/img/a3702310301_9.jpg"
+        "https://f4.bcbits.com/img/a107665006_9.jpg",
+        "https://f4.bcbits.com/img/a568221097_9.jpg",
+        "https://f4.bcbits.com/img/a2446985717_9.jpg",
+        "https://f4.bcbits.com/img/a2711718863_9.jpg"
       ]
     },
     {
@@ -181,10 +181,10 @@
       "name": "emo",
       "value": "emo",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2389949027_9.jpg",
-        "https://f4.bcbits.com/img/a3264088899_9.jpg",
-        "https://f4.bcbits.com/img/a3875210592_9.jpg",
-        "https://f4.bcbits.com/img/a3778663161_9.jpg"
+        "https://f4.bcbits.com/img/a1010789776_9.jpg",
+        "https://f4.bcbits.com/img/a163090661_9.jpg",
+        "https://f4.bcbits.com/img/a3727718257_9.jpg",
+        "https://f4.bcbits.com/img/a1505847645_9.jpg"
       ]
     },
     {
@@ -192,10 +192,10 @@
       "name": "film music",
       "value": "film-music",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a244758941_9.jpg",
-        "https://f4.bcbits.com/img/a675804560_9.jpg",
         "https://f4.bcbits.com/img/a3191794318_9.jpg",
-        "https://f4.bcbits.com/img/a126215566_9.jpg"
+        "https://f4.bcbits.com/img/a1180128397_9.jpg",
+        "https://f4.bcbits.com/img/a1191661951_9.jpg",
+        "https://f4.bcbits.com/img/a1340098981_9.jpg"
       ]
     },
     {
@@ -203,10 +203,10 @@
       "name": "flamenco",
       "value": "flamenco",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a552582471_9.jpg",
-        "https://f4.bcbits.com/img/a2693204036_9.jpg",
-        "https://f4.bcbits.com/img/a2128465581_9.jpg",
-        "https://f4.bcbits.com/img/a105725196_9.jpg"
+        "https://f4.bcbits.com/img/a883086782_9.jpg",
+        "https://f4.bcbits.com/img/a1069223098_9.jpg",
+        "https://f4.bcbits.com/img/a2983033949_9.jpg",
+        "https://f4.bcbits.com/img/a3171117200_9.jpg"
       ]
     },
     {
@@ -214,10 +214,10 @@
       "name": "folk punk",
       "value": "folk-punk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a1038115859_9.jpg",
-        "https://f4.bcbits.com/img/a730447022_9.jpg",
-        "https://f4.bcbits.com/img/a4042024122_9.jpg",
-        "https://f4.bcbits.com/img/a895482160_9.jpg"
+        "https://f4.bcbits.com/img/a1273337992_9.jpg",
+        "https://f4.bcbits.com/img/a401604091_9.jpg",
+        "https://f4.bcbits.com/img/a1788312066_9.jpg",
+        "https://f4.bcbits.com/img/a940979476_9.jpg"
       ]
     }
   ],
@@ -235,10 +235,10 @@ Fetching more by continuation...
       "name": "grunge",
       "value": "grunge",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a56004218_9.jpg",
-        "https://f4.bcbits.com/img/a1157849271_9.jpg",
-        "https://f4.bcbits.com/img/a2393721210_9.jpg",
-        "https://f4.bcbits.com/img/a398777799_9.jpg"
+        "https://f4.bcbits.com/img/a3179373881_9.jpg",
+        "https://f4.bcbits.com/img/a1393278775_9.jpg",
+        "https://f4.bcbits.com/img/a2204997033_9.jpg",
+        "https://f4.bcbits.com/img/a4153465225_9.jpg"
       ]
     },
     {
@@ -246,10 +246,10 @@ Fetching more by continuation...
       "name": "hardcore punk",
       "value": "hardcore-punk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a304066136_9.jpg",
-        "https://f4.bcbits.com/img/a2879966723_9.jpg",
-        "https://f4.bcbits.com/img/a3103796666_9.jpg",
-        "https://f4.bcbits.com/img/a3111434522_9.jpg"
+        "https://f4.bcbits.com/img/a1871676436_9.jpg",
+        "https://f4.bcbits.com/img/a2272248115_9.jpg",
+        "https://f4.bcbits.com/img/a3501759029_9.jpg",
+        "https://f4.bcbits.com/img/a4129716914_9.jpg"
       ]
     },
     {
@@ -257,10 +257,10 @@ Fetching more by continuation...
       "name": "hillbilly",
       "value": "hillbilly",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2672445439_9.jpg",
-        "https://f4.bcbits.com/img/a4263257559_9.jpg",
-        "https://f4.bcbits.com/img/a1805044415_9.jpg",
-        "https://f4.bcbits.com/img/a2499975907_9.jpg"
+        "https://f4.bcbits.com/img/a3496509319_9.jpg",
+        "https://f4.bcbits.com/img/a4237093455_9.jpg",
+        "https://f4.bcbits.com/img/a1978469535_9.jpg",
+        "https://f4.bcbits.com/img/a1840419185_9.jpg"
       ]
     },
     {
@@ -268,10 +268,10 @@ Fetching more by continuation...
       "name": "hip-hop/rap",
       "value": "hip-hop-rap",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3105470925_9.jpg",
-        "https://f4.bcbits.com/img/a433809739_9.jpg",
-        "https://f4.bcbits.com/img/a3640009859_9.jpg",
-        "https://f4.bcbits.com/img/a22338198_9.jpg"
+        "https://f4.bcbits.com/img/a450340223_9.jpg",
+        "https://f4.bcbits.com/img/a3618387675_9.jpg",
+        "https://f4.bcbits.com/img/a1833059553_9.jpg",
+        "https://f4.bcbits.com/img/a1838448870_9.jpg"
       ]
     },
     {
@@ -279,10 +279,10 @@ Fetching more by continuation...
       "name": "honky tonk",
       "value": "honky-tonk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3146882848_9.jpg",
-        "https://f4.bcbits.com/img/a649431557_9.jpg",
-        "https://f4.bcbits.com/img/a3203518229_9.jpg",
-        "https://f4.bcbits.com/img/a3133980833_9.jpg"
+        "https://f4.bcbits.com/img/a753323626_9.jpg",
+        "https://f4.bcbits.com/img/a3413068858_9.jpg",
+        "https://f4.bcbits.com/img/a315873574_9.jpg",
+        "https://f4.bcbits.com/img/a3447561014_9.jpg"
       ]
     },
     {
@@ -290,10 +290,10 @@ Fetching more by continuation...
       "name": "jangle pop",
       "value": "jangle-pop",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a4286131983_9.jpg",
-        "https://f4.bcbits.com/img/a119867550_9.jpg",
-        "https://f4.bcbits.com/img/a1347857119_9.jpg",
-        "https://f4.bcbits.com/img/a3459680374_9.jpg"
+        "https://f4.bcbits.com/img/a2035065518_9.jpg",
+        "https://f4.bcbits.com/img/a1232628571_9.jpg",
+        "https://f4.bcbits.com/img/a4088814120_9.jpg",
+        "https://f4.bcbits.com/img/a3564814333_9.jpg"
       ]
     },
     {
@@ -301,10 +301,10 @@ Fetching more by continuation...
       "name": "jazz",
       "value": "jazz",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a146346739_9.jpg",
-        "https://f4.bcbits.com/img/a2905449829_9.jpg",
-        "https://f4.bcbits.com/img/a857039495_9.jpg",
-        "https://f4.bcbits.com/img/a2064439991_9.jpg"
+        "https://f4.bcbits.com/img/a84861691_9.jpg",
+        "https://f4.bcbits.com/img/a1535260169_9.jpg",
+        "https://f4.bcbits.com/img/a3320202947_9.jpg",
+        "https://f4.bcbits.com/img/a999850971_9.jpg"
       ]
     },
     {
@@ -312,10 +312,10 @@ Fetching more by continuation...
       "name": "latin",
       "value": "latin",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3478631596_9.jpg",
-        "https://f4.bcbits.com/img/a1129822287_9.jpg",
-        "https://f4.bcbits.com/img/a2222420935_9.jpg",
-        "https://f4.bcbits.com/img/a1302355413_9.jpg"
+        "https://f4.bcbits.com/img/a1308292613_9.jpg",
+        "https://f4.bcbits.com/img/a3939930300_9.jpg",
+        "https://f4.bcbits.com/img/a2807173074_9.jpg",
+        "https://f4.bcbits.com/img/a3899846333_9.jpg"
       ]
     },
     {
@@ -323,10 +323,10 @@ Fetching more by continuation...
       "name": "math rock",
       "value": "math-rock",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a1013660745_9.jpg",
-        "https://f4.bcbits.com/img/a3977342267_9.jpg",
-        "https://f4.bcbits.com/img/a1879767561_9.jpg",
-        "https://f4.bcbits.com/img/a2463811540_9.jpg"
+        "https://f4.bcbits.com/img/a1626507802_9.jpg",
+        "https://f4.bcbits.com/img/a56601041_9.jpg",
+        "https://f4.bcbits.com/img/a163090661_9.jpg",
+        "https://f4.bcbits.com/img/a3658750944_9.jpg"
       ]
     },
     {
@@ -334,10 +334,10 @@ Fetching more by continuation...
       "name": "no wave",
       "value": "no-wave",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3101247347_9.jpg",
-        "https://f4.bcbits.com/img/a4130903297_9.jpg",
-        "https://f4.bcbits.com/img/a2104449065_9.jpg",
-        "https://f4.bcbits.com/img/a3977342267_9.jpg"
+        "https://f4.bcbits.com/img/a836597936_9.jpg",
+        "https://f4.bcbits.com/img/a1030531419_9.jpg",
+        "https://f4.bcbits.com/img/a2720974119_9.jpg",
+        "https://f4.bcbits.com/img/a2104449065_9.jpg"
       ]
     },
     {
@@ -345,10 +345,10 @@ Fetching more by continuation...
       "name": "outlaw",
       "value": "outlaw",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a443791610_9.jpg",
-        "https://f4.bcbits.com/img/a1515552391_9.jpg",
-        "https://f4.bcbits.com/img/a1661550857_9.jpg",
-        "https://f4.bcbits.com/img/a124359283_9.jpg"
+        "https://f4.bcbits.com/img/a3001918484_9.jpg",
+        "https://f4.bcbits.com/img/a83569591_9.jpg",
+        "https://f4.bcbits.com/img/a2953008502_9.jpg",
+        "https://f4.bcbits.com/img/a905149104_9.jpg"
       ]
     },
     {
@@ -356,10 +356,10 @@ Fetching more by continuation...
       "name": "pop",
       "value": "pop",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a1706804756_9.jpg",
         "https://f4.bcbits.com/img/a2695750060_9.jpg",
-        "https://f4.bcbits.com/img/a3875210592_9.jpg",
-        "https://f4.bcbits.com/img/a3577438092_9.jpg"
+        "https://f4.bcbits.com/img/a1266328602_9.jpg",
+        "https://f4.bcbits.com/img/a2879830380_9.jpg",
+        "https://f4.bcbits.com/img/a3422378299_9.jpg"
       ]
     },
     {
@@ -367,10 +367,10 @@ Fetching more by continuation...
       "name": "pop punk",
       "value": "pop-punk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2456227092_9.jpg",
-        "https://f4.bcbits.com/img/a2938893509_9.jpg",
-        "https://f4.bcbits.com/img/a483446834_9.jpg",
-        "https://f4.bcbits.com/img/a4286131983_9.jpg"
+        "https://f4.bcbits.com/img/a2277338683_9.jpg",
+        "https://f4.bcbits.com/img/a1205537309_9.jpg",
+        "https://f4.bcbits.com/img/a407043922_9.jpg",
+        "https://f4.bcbits.com/img/a3587138243_9.jpg"
       ]
     },
     {
@@ -378,10 +378,10 @@ Fetching more by continuation...
       "name": "punk",
       "value": "punk",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a2618914200_9.jpg",
-        "https://f4.bcbits.com/img/a1855714858_9.jpg",
-        "https://f4.bcbits.com/img/a2951696755_9.jpg",
-        "https://f4.bcbits.com/img/a3778663161_9.jpg"
+        "https://f4.bcbits.com/img/a761728964_9.jpg",
+        "https://f4.bcbits.com/img/a2218595450_9.jpg",
+        "https://f4.bcbits.com/img/a4129716914_9.jpg",
+        "https://f4.bcbits.com/img/a727792585_9.jpg"
       ]
     },
     {
@@ -389,10 +389,10 @@ Fetching more by continuation...
       "name": "punk rock",
       "value": "punk-rock",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3387893023_9.jpg",
-        "https://f4.bcbits.com/img/a3295200476_9.jpg",
-        "https://f4.bcbits.com/img/a1978874780_9.jpg",
-        "https://f4.bcbits.com/img/a1645249312_9.jpg"
+        "https://f4.bcbits.com/img/a1619445086_9.jpg",
+        "https://f4.bcbits.com/img/a4217277643_9.jpg",
+        "https://f4.bcbits.com/img/a414934500_9.jpg",
+        "https://f4.bcbits.com/img/a568020058_9.jpg"
       ]
     },
     {
@@ -400,10 +400,10 @@ Fetching more by continuation...
       "name": "reggaeton",
       "value": "reggaeton",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a4079672677_9.jpg",
-        "https://f4.bcbits.com/img/a239259357_9.jpg",
-        "https://f4.bcbits.com/img/a1302355413_9.jpg",
-        "https://f4.bcbits.com/img/a3027739623_9.jpg"
+        "https://f4.bcbits.com/img/a2288135710_9.jpg",
+        "https://f4.bcbits.com/img/a319895103_9.jpg",
+        "https://f4.bcbits.com/img/a1807633413_9.jpg",
+        "https://f4.bcbits.com/img/a2308905566_9.jpg"
       ]
     },
     {
@@ -411,10 +411,10 @@ Fetching more by continuation...
       "name": "roots",
       "value": "roots",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3324178006_9.jpg",
-        "https://f4.bcbits.com/img/a2507283667_9.jpg",
-        "https://f4.bcbits.com/img/a3717641126_9.jpg",
-        "https://f4.bcbits.com/img/a1085646365_9.jpg"
+        "https://f4.bcbits.com/img/a774253153_9.jpg",
+        "https://f4.bcbits.com/img/a2179344453_9.jpg",
+        "https://f4.bcbits.com/img/a3866398731_9.jpg",
+        "https://f4.bcbits.com/img/a1100592474_9.jpg"
       ]
     },
     {
@@ -422,10 +422,10 @@ Fetching more by continuation...
       "name": "salsa",
       "value": "salsa",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a4009110929_9.jpg",
-        "https://f4.bcbits.com/img/a69204478_9.jpg",
-        "https://f4.bcbits.com/img/a3199282128_9.jpg",
-        "https://f4.bcbits.com/img/a3738143786_9.jpg"
+        "https://f4.bcbits.com/img/a1643103870_9.jpg",
+        "https://f4.bcbits.com/img/a1292026558_9.jpg",
+        "https://f4.bcbits.com/img/a950730609_9.jpg",
+        "https://f4.bcbits.com/img/a2138307566_9.jpg"
       ]
     },
     {
@@ -433,10 +433,10 @@ Fetching more by continuation...
       "name": "singer-songwriter",
       "value": "singer-songwriter",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3951528718_9.jpg",
-        "https://f4.bcbits.com/img/a3901868134_9.jpg",
-        "https://f4.bcbits.com/img/a2320933475_9.jpg",
-        "https://f4.bcbits.com/img/a520720878_9.jpg"
+        "https://f4.bcbits.com/img/a2264016252_9.jpg",
+        "https://f4.bcbits.com/img/a1137668764_9.jpg",
+        "https://f4.bcbits.com/img/a1344419584_9.jpg",
+        "https://f4.bcbits.com/img/a3556126725_9.jpg"
       ]
     },
     {
@@ -444,10 +444,10 @@ Fetching more by continuation...
       "name": "soundtrack",
       "value": "soundtrack",
       "imageUrls": [
-        "https://f4.bcbits.com/img/a3258651383_9.jpg",
-        "https://f4.bcbits.com/img/a907743342_9.jpg",
-        "https://f4.bcbits.com/img/a3191794318_9.jpg",
-        "https://f4.bcbits.com/img/a126215566_9.jpg"
+        "https://f4.bcbits.com/img/a871999667_9.jpg",
+        "https://f4.bcbits.com/img/a2984584026_9.jpg",
+        "https://f4.bcbits.com/img/a2085224863_9.jpg",
+        "https://f4.bcbits.com/img/a1015343397_9.jpg"
       ]
     }
   ],

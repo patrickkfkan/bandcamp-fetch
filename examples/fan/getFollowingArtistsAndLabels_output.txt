@@ -46,7 +46,7 @@
       "name": "Anita Tatlow",
       "location": "Hong Kong",
       "url": "https://anitatatlow.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/37328442_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/41401301_28.jpg"
     },
     {
       "name": "Cœur de pirate",
@@ -88,7 +88,7 @@
       "name": "Crooked Fingers",
       "location": "North Carolina",
       "url": "https://crookedfingers.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/13404323_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/41722597_28.jpg"
     },
     {
       "name": "The Rock*A*Teens",
@@ -326,7 +326,7 @@ Fetching more by continuation...
       "name": "Fruit Bats",
       "location": "",
       "url": "https://fruit-bats.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/40078876_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/43705995_28.jpg"
     },
     {
       "name": "The Clean",
@@ -362,7 +362,7 @@ Fetching more by continuation...
       "name": "Hiss Golden Messenger",
       "location": "North Carolina",
       "url": "https://hissgoldenmessenger.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/32985256_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/42739742_28.jpg"
     },
     {
       "name": "TORRES",
@@ -374,7 +374,7 @@ Fetching more by continuation...
       "name": "DAWN",
       "location": "Los Angeles, California",
       "url": "https://dawnrichard.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/30483218_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/41889957_28.jpg"
     },
     {
       "name": "Caribou",

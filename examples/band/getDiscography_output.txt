@@ -1,24 +1,24 @@
 Artist URL: https://musique.coeurdepirate.com
 [
   {
-    "url": "https://musique.coeurdepirate.com/track/ch-teau-de-sable",
+    "url": "https://musique.coeurdepirate.com/track/ch-teau-de-sable-piano-edit",
     "type": "track",
-    "id": 2378877721,
-    "name": "Château de sable",
+    "id": 308805249,
+    "name": "Château de sable (piano edit)",
     "artist": {
       "name": "Cœur de pirate"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a2168234083_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a3674169636_16.jpg"
   },
   {
-    "url": "https://musique.coeurdepirate.com/track/cavale",
-    "type": "track",
-    "id": 3165072002,
+    "url": "https://musique.coeurdepirate.com/album/cavale",
+    "type": "album",
+    "id": 3431752605,
     "name": "Cavale",
     "artist": {
       "name": "Cœur de pirate"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a2002688912_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a3633550031_16.jpg"
   },
   {
     "url": "https://musique.coeurdepirate.com/track/c-tait-salement-romantique-reprise",
@@ -59,16 +59,6 @@ Artist URL: https://musique.coeurdepirate.com
       "name": "Cœur de pirate"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3147632514_16.jpg"
-  },
-  {
-    "url": "https://musique.coeurdepirate.com/track/on-saimera-toujours-2",
-    "type": "track",
-    "id": 822389203,
-    "name": "On s'aimera toujours",
-    "artist": {
-      "name": "Cœur de pirate"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a0599648879_16.jpg"
   },
   {
     "url": "https://musique.coeurdepirate.com/track/plan-trois",
@@ -161,11 +151,13 @@ Artist URL: https://musique.coeurdepirate.com
     "imageUrl": "https://f4.bcbits.com/img/a3347055233_16.jpg"
   },
   {
-    "url": "https://bandcamp.com/album/carry-on-2",
+    "url": "https://musique.coeurdepirate.com/album/carry-on-2",
     "type": "album",
     "id": 2019722172,
     "name": "Carry On",
-    "artist": {},
+    "artist": {
+      "name": "Cœur de pirate"
+    },
     "imageUrl": "https://f4.bcbits.com/img/a4277887982_16.jpg"
   },
   {
@@ -221,6 +213,76 @@ Artist URL: https://musique.coeurdepirate.com
 Label URL: https://randsrecords.bandcamp.com
 [
   {
+    "url": "https://randsrecords.bandcamp.com/album/the-whole-truth",
+    "type": "album",
+    "id": 2416182514,
+    "name": "The Whole Truth",
+    "artist": {
+      "name": "Subject 13"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2060632266_16.jpg"
+  },
+  {
+    "url": "https://randsrecords.bandcamp.com/album/one-clean-sock",
+    "type": "album",
+    "id": 2522407017,
+    "name": "One Clean Sock",
+    "artist": {
+      "name": "Dharma"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2913811115_16.jpg"
+  },
+  {
+    "url": "https://randsrecords.bandcamp.com/album/children-of-the-sea",
+    "type": "album",
+    "id": 2370875373,
+    "name": "Children Of The Sea",
+    "artist": {
+      "name": "Human Safari"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a4102329659_16.jpg"
+  },
+  {
+    "url": "https://randsrecords.bandcamp.com/album/demon-in-the-mirror",
+    "type": "album",
+    "id": 1021900695,
+    "name": "Demon In The Mirror",
+    "artist": {
+      "name": "Ayk"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2635816626_16.jpg"
+  },
+  {
+    "url": "https://randsrecords.bandcamp.com/album/checking-in",
+    "type": "album",
+    "id": 2978762499,
+    "name": "Checking In",
+    "artist": {
+      "name": "Viclan"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a3345842376_16.jpg"
+  },
+  {
+    "url": "https://daveangel.bandcamp.com/track/extra-dave-angel-remix-re-issue",
+    "type": "track",
+    "id": 2513908660,
+    "name": "Extra (Dave Angel Remix) [re-issue]",
+    "artist": {
+      "name": "Ken Ishii"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2438619627_16.jpg"
+  },
+  {
+    "url": "https://kenishii.bandcamp.com/album/extra-remixes",
+    "type": "album",
+    "id": 2407070488,
+    "name": "Extra (Remixes)",
+    "artist": {
+      "name": "Ken Ishii"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a2502588314_16.jpg"
+  },
+  {
     "url": "https://randsrecords.bandcamp.com/album/classics-2",
     "type": "album",
     "id": 3009833669,
@@ -229,15 +291,6 @@ Label URL: https://randsrecords.bandcamp.com
       "name": "Joey Beltram"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2031869115_16.jpg"
-  },
-  {
-    "url": "https://randsrecords.bandcamp.com/album/classics",
-    "type": "album",
-    "name": "Classics",
-    "artist": {
-      "name": "Aphex Twin"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a1820351389_16.jpg"
   },
   {
     "url": "https://randsrecords.bandcamp.com/album/frisia",
@@ -320,7 +373,7 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a1762764422_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/lose-control-remixes",
+    "url": "https://bandcamp.com/album/lose-control-remixes",
     "type": "album",
     "id": 1236906347,
     "name": "Lose Control (Remixes)",
@@ -330,7 +383,7 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a1163554332_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/ueno",
+    "url": "https://bandcamp.com/album/ueno",
     "type": "album",
     "id": 2028991284,
     "name": "Ueno",
@@ -340,17 +393,17 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a3046827947_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/muse",
+    "url": "https://bandcamp.com/album/muse",
     "type": "album",
     "id": 3136059582,
     "name": "Muse",
     "artist": {
       "name": "Mikahl Anthony"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a0564044473_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a564044473_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/digeridoo-expanded-edition",
+    "url": "https://bandcamp.com/album/digeridoo-expanded-edition",
     "type": "album",
     "id": 2922091998,
     "name": "Digeridoo (Expanded Edition)",
@@ -360,7 +413,7 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a3554439260_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/mollyamory",
+    "url": "https://bandcamp.com/album/mollyamory",
     "type": "album",
     "id": 1889081893,
     "name": "MollyAmory",
@@ -370,17 +423,17 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a1332011899_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/3rd-voyage-re-issue",
+    "url": "https://daveangel.bandcamp.com/album/3rd-voyage-re-issue?label=999120622&tab=music",
     "type": "album",
     "id": 2104612622,
-    "name": "3rd Voyage (re-issue)",
+    "name": "3rd Voyage [re-issue]",
     "artist": {
       "name": "Dave Angel"
     },
-    "imageUrl": "https://f4.bcbits.com/img/a0080959608_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/a80959608_16.jpg"
   },
   {
-    "url": "https://randsrecords.bandcamp.com/album/lose-control",
+    "url": "https://bandcamp.com/album/lose-control",
     "type": "album",
     "id": 2282607348,
     "name": "Lose Control",
@@ -640,10 +693,10 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a2135706255_16.jpg"
   },
   {
-    "url": "https://bandcamp.com/album/stairway-to-heaven",
+    "url": "https://daveangel.bandcamp.com/album/stairway-to-heaven-re-issue?label=999120622&tab=music",
     "type": "album",
     "id": 1742960725,
-    "name": "Stairway To Heaven",
+    "name": "Stairway To Heaven [re-issue]",
     "artist": {
       "name": "Dave Angel"
     },
@@ -660,10 +713,10 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a204771946_16.jpg"
   },
   {
-    "url": "https://bandcamp.com/album/1st-voyage",
+    "url": "https://daveangel.bandcamp.com/album/1st-voyage-re-issue?label=999120622&tab=music",
     "type": "album",
     "id": 3453888684,
-    "name": "1st Voyage",
+    "name": "1st Voyage [re-issue]",
     "artist": {
       "name": "Dave Angel"
     },
@@ -715,7 +768,7 @@ Label URL: https://randsrecords.bandcamp.com
     "id": 2682538936,
     "name": "Entrance (Dave Angel Remix)",
     "artist": {
-      "name": "Sun Electric"
+      "name": "Sun Electric, Dave Angel"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3225864825_16.jpg"
   },
@@ -2010,16 +2063,6 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a232358204_16.jpg"
   },
   {
-    "url": "https://bandcamp.com/album/love-what-happened-here-ep",
-    "type": "album",
-    "id": 3741315912,
-    "name": "Love What Happened Here EP",
-    "artist": {
-      "name": "James Blake"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2913680252_16.jpg"
-  },
-  {
     "url": "https://lone.bandcamp.com/track/cobra?label=999120622&tab=music",
     "type": "track",
     "id": 1290218780,
@@ -2130,16 +2173,6 @@ Label URL: https://randsrecords.bandcamp.com
     "imageUrl": "https://f4.bcbits.com/img/a1790719838_16.jpg"
   },
   {
-    "url": "https://bandcamp.com/album/klavierwerke-ep",
-    "type": "album",
-    "id": 3012424696,
-    "name": "Klavierwerke EP",
-    "artist": {
-      "name": "James Blake"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2134717297_16.jpg"
-  },
-  {
     "url": "https://bandcamp.com/album/ofi-huesca",
     "type": "album",
     "id": 1187205118,
@@ -2168,16 +2201,6 @@ Label URL: https://randsrecords.bandcamp.com
       "name": "Fabrice Lig"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3085416767_16.jpg"
-  },
-  {
-    "url": "https://bandcamp.com/album/cmyk-ep",
-    "type": "album",
-    "id": 152390233,
-    "name": "CMYK EP",
-    "artist": {
-      "name": "James Blake"
-    },
-    "imageUrl": "https://f4.bcbits.com/img/a2081273440_16.jpg"
   },
   {
     "url": "https://pariahuk.bandcamp.com/album/detroit-falls-orpheus?label=999120622&tab=music",
@@ -2258,6 +2281,26 @@ Label URL: https://randsrecords.bandcamp.com
       "name": "Outlander"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3918678727_16.jpg"
+  },
+  {
+    "url": "https://daveangel.bandcamp.com/album/classics?label=999120622&tab=music",
+    "type": "album",
+    "id": 2054223645,
+    "name": "Classics",
+    "artist": {
+      "name": "Dave Angel"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a1149925632_16.jpg"
+  },
+  {
+    "url": "https://kenishii.bandcamp.com/album/overlap?label=999120622&tab=music",
+    "type": "album",
+    "id": 4281908370,
+    "name": "Overlap",
+    "artist": {
+      "name": "Ken Ishii"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a3598389390_16.jpg"
   },
   {
     "url": "https://kenishii.bandcamp.com/album/jelly-tones-1995?label=999120622&tab=music",
@@ -2368,6 +2411,16 @@ Label URL: https://randsrecords.bandcamp.com
       "name": "Source"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1811468525_16.jpg"
+  },
+  {
+    "url": "https://daveangel.bandcamp.com/album/outrages-angel-ep?label=999120622&tab=music",
+    "type": "album",
+    "id": 121322191,
+    "name": "Outrages Angel EP",
+    "artist": {
+      "name": "Dave Angel"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/a910750566_16.jpg"
   },
   {
     "url": "https://bandcamp.com/album/xylem-tube-ep-1992",
