@@ -88,7 +88,8 @@ export default class BandcampFetch {
     const baseAPIParams = {
       fetcher: this.#fetcher,
       cache: this.#cache,
-      limiter: this.#limiter
+      limiter: this.#limiter,
+      bandcamp: this
     };
     this.image = new ImageAPI(baseAPIParams);
 

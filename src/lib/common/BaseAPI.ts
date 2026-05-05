@@ -1,3 +1,4 @@
+import BandcampFetch from '../BandcampFetch.js';
 import type Cache from '../utils/Cache.js';
 import { type FetchMethod } from '../utils/Fetcher.js';
 import type Fetcher from '../utils/Fetcher.js';
@@ -5,15 +6,18 @@ import type Fetcher from '../utils/Fetcher.js';
 export interface BaseAPIParams {
   fetcher: Fetcher;
   cache: Cache;
+  bandcamp: BandcampFetch;
 }
 
 export default abstract class BaseAPI {
   #fetcher: Fetcher;
   #cache: Cache;
+  #bandcamp: BandcampFetch;
 
   constructor(params: BaseAPIParams) {
     this.#fetcher = params.fetcher;
     this.#cache = params.cache;
+    this.#bandcamp = params.bandcamp;
   }
 
   protected fetch(
@@ -44,7 +48,13 @@ export default abstract class BaseAPI {
     payload?: Record<string, any>,
     extraHeaders?: Record<string, string>
   ): Promise<any> {
-    return this.#fetcher.fetch(url, jsonResponse, method, payload, extraHeaders);
+    return this.#fetcher.fetch(
+      url,
+      jsonResponse,
+      method,
+      payload,
+      extraHeaders
+    );
   }
 
   protected get cache() {
