@@ -23,5 +23,11 @@ export const URLS = {
     TAG: `${API_URL}/bcsearch_public_api/1/tag_search`,
     LOCATION: `${API_URL}/location/1/geoname_search`
   },
-  REFRESH_STREAM: `${API_URL}/stream/1/refresh`
+  REFRESH_STREAM: `${API_URL}/stream/1/refresh`,
+  OAUTH: {
+    LOGIN: `${SITE_URL}/oauth_login`,
+    REVOKE: `${SITE_URL}/oauth_revoke`,
+    TOKEN: `${SITE_URL}/oauth_token`,
+    PRIME: `${API_URL}/mobile/26/prime`
+  }
 };

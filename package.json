@@ -55,10 +55,13 @@
     "typescript-eslint": "^8.58.0"
   },
   "dependencies": {
+    "axios": "^1.16.0",
+    "axios-cookiejar-support": "^6.0.5",
     "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0",
     "html-entities": "^2.5.2",
-    "node-cache": "^5.1.2"
+    "node-cache": "^5.1.2",
+    "tough-cookie": "^6.0.1"
   },
   "keywords": [
     "bandcamp",

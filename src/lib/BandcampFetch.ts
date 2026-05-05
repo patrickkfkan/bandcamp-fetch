@@ -8,16 +8,20 @@ import BandAPI, { LimiterBandAPI } from './band/BandAPI.js';
 import DiscoveryAPI, { LimiterDiscoveryAPI } from './discovery/DiscoveryAPI.js';
 import FanAPI, { LimiterFanAPI } from './fan/FanAPI.js';
 import ImageAPI, { LimiterImageAPI } from './image/ImageAPI.js';
+import OAuthAPI from './oauth/OAuth.js';
 import SearchAPI, { LimiterSearchAPI } from './search/SearchAPI.js';
 import ShowAPI, { LimiterShowAPI } from './show/ShowAPI.js';
+import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
 import TagAPI, { LimiterTagAPI } from './tag/TagAPI.js';
 import TrackAPI, { LimiterTrackAPI } from './track/TrackAPI.js';
+import type { BandcampOAuthLoginParams } from './types/OAuth.js';
 import Cache, { CacheDataType } from './utils/Cache.js';
 import Fetcher from './utils/Fetcher.js';
 import Limiter from './utils/Limiter.js';
-import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
+
 export interface BandcampFetchParams {
   cookie?: string | null;
+  oauth?: BandcampOAuthLoginParams;
 }
 
 export default class BandcampFetch {
@@ -39,6 +43,7 @@ export default class BandcampFetch {
   readonly search: SearchAPI;
   readonly autocomplete: AutocompleteAPI;
   readonly stream: StreamAPI;
+  oauth: OAuthAPI;
 
   readonly limiter: {
     readonly album: LimiterAlbumAPI;
@@ -68,14 +73,23 @@ export default class BandcampFetch {
     this.#wrappedCache = new CacheWrapper(this.#cache);
     this.#fetcher = new Fetcher({
       cookie: this.#cookie,
-      cache: this.#cache
+      cache: this.#cache,
+      preFetch: async (url, method, payload, headers) => {
+        if (url.includes('bandcamp.com')) {
+          if (this.oauth) {
+            headers['Authorization'] =
+              `Bearer ${await this.oauth.getAccessToken()}`;
+          }
+        }
+      }
     });
     this.#limiter = new Limiter();
 
     const baseAPIParams = {
       fetcher: this.#fetcher,
       cache: this.#cache,
-      limiter: this.#limiter
+      limiter: this.#limiter,
+      bandcamp: this
     };
     this.image = new ImageAPI(baseAPIParams);
 
@@ -96,6 +110,17 @@ export default class BandcampFetch {
     this.search = new SearchAPI(baseAPIWithImageSupportParams);
     this.autocomplete = new AutocompleteAPI(baseAPIParams);
     this.stream = new StreamAPI(baseAPIParams);
+    if (params?.oauth) {
+      const { username, password, clientId, clientSecret } = params.oauth;
+
+      this.oauth = new OAuthAPI(
+        this.#fetcher.client,
+        username,
+        password,
+        clientId,
+        clientSecret
+      );
+    }
 
     this.limiter = {
       album: new LimiterAlbumAPI(baseAPIWithImageSupportParams),
@@ -117,6 +142,22 @@ export default class BandcampFetch {
   setCookie(value?: string | null) {
     this.#cookie = value;
     this.#fetcher.setCookie(value);
+  }
+
+  setOAuth(params: BandcampOAuthLoginParams) {
+    const { username, password, clientId, clientSecret } = params;
+
+    if (!this.oauth) {
+      this.oauth = new OAuthAPI(
+        this.#fetcher.client,
+        username,
+        password,
+        clientId,
+        clientSecret
+      );
+    } else {
+      this.oauth.setParams(username, password, clientId, clientSecret);
+    }
   }
 
   get cookie() {

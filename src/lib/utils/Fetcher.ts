@@ -1,6 +1,9 @@
 import { URL } from 'url';
 import type Cache from './Cache.js';
 import { CacheDataType } from './Cache.js';
+import axios, { type AxiosRequestConfig } from 'axios';
+import { wrapper } from 'axios-cookiejar-support';
+import { CookieJar } from 'tough-cookie';
 
 export enum FetchMethod {
   GET = 'GET',
@@ -8,118 +11,142 @@ export enum FetchMethod {
   HEAD = 'HEAD'
 }
 
+type PreFetchType = (
+  url: string,
+  method: string,
+  payload: Record<string, any> | undefined,
+  headers: Record<string, string>
+) => Promise<void> | void;
+
 export interface FetcherParams {
   cookie?: string | null;
   cache: Cache;
+  headers?: Record<string, string>;
+  preFetch?: PreFetchType;
 }
 
 export default class Fetcher {
   #cookie?: string | null;
   #cache: Cache;
+  #headers: Record<string, string> = {};
+  #preFetch?: PreFetchType;
+
+  private readonly jar = new CookieJar();
+  client;
 
   constructor(params: FetcherParams) {
     this.#cache = params.cache;
+    this.#headers = params.headers || {};
     this.setCookie(params.cookie);
+    this.#preFetch = params.preFetch;
+    this.client = wrapper(
+      axios.create({
+        jar: this.jar,
+        validateStatus: (status) => status < 500
+      })
+    );
   }
 
   setCookie(value?: string | null) {
-    this.#cookie = value;
     const valueChanged = (this.#cookie || null) !== (value || null);
+    this.#cookie = value;
     if (valueChanged) {
       this.#cache.clear();
+      if (value) {
+        this.jar.setCookieSync(value, '.bandcamp.com');
+      }
     }
+  }
+
+  setHeaders(headers: Record<string, string>) {
+    this.#headers = headers;
   }
 
   get cookie() {
-    return this.#cookie;
+    return this.jar.getCookieStringSync('.bamdcamp.com');
   }
 
-  fetch(
+  async fetch(
     url: string,
     jsonResponse: false,
     method: FetchMethod.HEAD,
-    payload?: undefined
+    payload?: undefined,
+    extraHeaders?: Record<string, string>
   ): Promise<{ ok: boolean; status: number }>;
-  fetch(
+  async fetch(
     url: string,
     jsonResponse: true,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    extraHeaders?: Record<string, string>
   ): Promise<any>;
-  fetch(
+  async fetch(
     url: string,
     jsonResponse?: boolean,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    extraHeaders?: Record<string, string>
   ): Promise<string>;
-  fetch(
+  async fetch(
     url: string,
-    jsonResponse?: boolean,
-    method?: FetchMethod,
-    payload?: Record<string, any>
+    jsonResponse: boolean = false,
+    method: FetchMethod = FetchMethod.GET,
+    payload?: Record<string, any>,
+    extraHeaders: Record<string, string> = {}
   ) {
-    if (jsonResponse === undefined) {
-      jsonResponse = false;
-    }
     return this.#cache.getOrSet(
       CacheDataType.Page,
       getCacheKey(url, jsonResponse, payload),
       async () => {
-        if (method === undefined) {
-          method = FetchMethod.GET;
+        const headers = { ...this.#headers, ...extraHeaders };
+
+        if (this.#preFetch) {
+          try {
+            await this.#preFetch(url, method, payload, headers);
+          } catch (error) {
+            throw new FetchError({
+              message: `preFetch failed: ${error instanceof Error ? error.message : (error as any)}`,
+              stack: error instanceof Error ? error.stack : undefined
+            });
+          }
         }
 
         if (method === FetchMethod.HEAD) {
-          const response = await fetch(url, { method: 'HEAD' });
-          return {
-            ok: response.ok,
-            status: response.status
-          };
+          const response = await this.client.head(url, { headers });
+          return { ok: response.status < 400, status: response.status };
         }
 
-        let response;
-        if (method === FetchMethod.GET) {
+        const config: AxiosRequestConfig = { headers };
+
+        if (method === FetchMethod.GET && payload) {
           const urlObj = new URL(url);
-          if (payload) {
-            for (const [key, value] of Object.entries(payload)) {
-              urlObj.searchParams.set(key, value);
-            }
-          }
-          try {
-            const request = new Request(urlObj.toString());
-            if (this.#cookie) {
-              request.headers.set('Cookie', this.#cookie);
-            }
-            response = await fetch(request);
-          } catch (error) {
-            throw new FetchError(error);
-          }
-        } else {
-          const init: RequestInit = {
-            method: 'POST',
-            body: payload ? JSON.stringify(payload) : undefined
-          };
-          const request = new Request(url);
-          request.headers.set('Content-Type', 'application/json');
-          if (this.#cookie) {
-            request.headers.set('Cookie', this.#cookie);
-          }
-          try {
-            response = await fetch(request, init);
-          } catch (error) {
-            throw new FetchError(error);
-          }
+          Object.entries(payload).forEach(([k, v]) =>
+            urlObj.searchParams.set(k, v)
+          );
+          url = urlObj.toString();
+        } else if (method !== FetchMethod.GET) {
+          headers['Content-Type'] = 'application/json';
+          config.data = payload;
         }
-        if (response.status === 429) {
-          throw new FetchError({
-            message: '429 Too Many Requests',
-            code: 429
+
+        try {
+          const response = await this.client.request({
+            url,
+            method: method.toLowerCase(),
+            ...config
           });
+
+          if (response.status === 429) {
+            throw new FetchError({
+              message: '429 Too Many Requests',
+              code: 429
+            });
+          }
+
+          return jsonResponse ? response.data : response.data.toString();
+        } catch (error) {
+          throw error instanceof FetchError ? error : new FetchError(error);
         }
-        if (jsonResponse) {
-          return response.json();
-        }
-        return response.text();
       }
     );
   }
