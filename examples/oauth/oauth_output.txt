@@ -1,0 +1,22 @@
+# With debug lines
+Sending headers: {
+  'Content-Type': 'application/x-www-form-urlencoded',
+  'X-Requested-With': 'com.bandcamp.android',
+  'X-Bandcamp-Dm': 'ef65c6dfba807f517cbe0bebfde404a93c9fce82'
+}
+Request body: grant_type=password&username=[redacted]&password=[redacted]&client_id=134&client_secret=1myK12VeCL3dWl9o%2FncV2VyUUbOJuNPVJK6bZZJxHvk%3D
+Received X-Bandcamp-Dm header: 74ae3af106a856a768ecbb039f25090ea4df68c17
+Sending headers: {
+  'Content-Type': 'application/x-www-form-urlencoded',
+  'X-Requested-With': 'com.bandcamp.android',
+  'X-Bandcamp-Dm': 'bc567063d4c0a6c560eca270df7135ff79673765'
+}
+Request body: grant_type=password&username=[redacted]&password=[redacted]&client_id=134&client_secret=1myK12VeCL3dWl9o%2FncV2VyUUbOJuNPVJK6bZZJxHvk%3D
+Received X-Bandcamp-Dm header: 74ae3af106a856a768ecbb039f25090ea4df68c17
+{
+  ok: true,
+  accessToken: '2859259703.134.1777934060.JfKdnJFWOiPif8fh83hFoE3=',
+  tokenType: 'bearer',
+  expiresIn: 3600,
+  refreshToken: '23702121.0.kOfIeFHshKegi/FkcdJd3+yHP6c='
+}

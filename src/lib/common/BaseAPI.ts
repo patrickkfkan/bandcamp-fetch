@@ -20,27 +20,31 @@ export default abstract class BaseAPI {
     url: string,
     jsonResponse: false,
     method: FetchMethod.HEAD,
-    payload?: undefined
+    payload?: undefined,
+    extraHeaders?: Record<string, string>
   ): Promise<{ ok: boolean; status: number }>;
   protected fetch(
     url: string,
     jsonResponse: true,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    extraHeaders?: Record<string, string>
   ): Promise<any>;
   protected fetch(
     url: string,
     jsonResponse?: boolean,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    extraHeaders?: Record<string, string>
   ): Promise<string>;
   protected fetch(
     url: string,
     jsonResponse?: boolean,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    extraHeaders?: Record<string, string>
   ): Promise<any> {
-    return this.#fetcher.fetch(url, jsonResponse, method, payload);
+    return this.#fetcher.fetch(url, jsonResponse, method, payload, extraHeaders);
   }
 
   protected get cache() {

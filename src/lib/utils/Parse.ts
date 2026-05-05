@@ -182,3 +182,26 @@ export class ParseError extends Error {
     }
   }
 }
+
+export function camelizeKeys<T>(obj: T): T {
+  if (obj === null || obj === undefined) return obj;
+
+  if (Array.isArray(obj)) {
+    return obj.map((item) => camelizeKeys(item)) as unknown as T;
+  }
+
+  if (typeof obj === 'object') {
+    const result: any = {};
+    for (const key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        const camelKey = key.replace(/_([a-z])/g, (_, char) =>
+          char.toUpperCase()
+        );
+        result[camelKey] = camelizeKeys((obj as any)[key]);
+      }
+    }
+    return result as T;
+  }
+
+  return obj;
+}
