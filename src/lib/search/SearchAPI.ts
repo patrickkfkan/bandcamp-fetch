@@ -89,7 +89,7 @@ export default class SearchAPI extends BaseAPIWithImageSupport {
         21
       )
     };
-    const html = await this.fetch(SearchAPI.getSearchUrl(params));
+    const html = await this.fetch(SearchAPI.getSearchUrl(params), false, undefined, undefined, true);
     return SearchResultsParser.parseResults(html, opts);
   }
 

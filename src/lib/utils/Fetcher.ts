@@ -1,6 +1,7 @@
 import { URL } from 'url';
 import type Cache from './Cache.js';
 import { CacheDataType } from './Cache.js';
+import CookieFetcher from './CookieFetcher.js';
 
 export enum FetchMethod {
   GET = 'GET',
@@ -38,25 +39,29 @@ export default class Fetcher {
     url: string,
     jsonResponse: false,
     method: FetchMethod.HEAD,
-    payload?: undefined
+    payload?: undefined,
+    requireCookie?: boolean
   ): Promise<{ ok: boolean; status: number }>;
   fetch(
     url: string,
     jsonResponse: true,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    requireCookie?: boolean
   ): Promise<any>;
   fetch(
     url: string,
     jsonResponse?: boolean,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    requireCookie?: boolean
   ): Promise<string>;
   fetch(
     url: string,
     jsonResponse?: boolean,
     method?: FetchMethod,
-    payload?: Record<string, any>
+    payload?: Record<string, any>,
+    requireCookie = false
   ) {
     if (jsonResponse === undefined) {
       jsonResponse = false;
@@ -77,6 +82,38 @@ export default class Fetcher {
           };
         }
 
+        const __setCookie = async (request: Request) => {
+          if (this.#cookie) {
+            request.headers.set('Cookie', this.#cookie);
+            return;
+          }
+          if (requireCookie) {
+            const cachedAnonymousCookie = this.#cache.get<string | null>(CacheDataType.Constants, 'anonymousCookie');
+            if (cachedAnonymousCookie === undefined) {
+              try {
+                const anonymousCookie = await CookieFetcher.getAnonymousCookie();
+                this.#cache.put(CacheDataType.Constants, 'anonymousCookie', anonymousCookie);
+                request.headers.set('Cookie', anonymousCookie);
+              }
+              catch (error) {
+                throw new FetchError({
+                  message: 'Cookie required but not available, and attempt to fetch anonymous cookie failed with error.',
+                  cause: error
+                });  
+              }
+            }
+            else if (cachedAnonymousCookie === null) {
+              throw new FetchError({
+                message: 'Cookie required but not available, and previous attempt to fetch anonymous cookie failed.'
+              });
+            }
+            else {
+              request.headers.set('Cookie', cachedAnonymousCookie);
+              return;
+            }
+          }
+        }
+
         let response;
         if (method === FetchMethod.GET) {
           const urlObj = new URL(url);
@@ -87,9 +124,7 @@ export default class Fetcher {
           }
           try {
             const request = new Request(urlObj.toString());
-            if (this.#cookie) {
-              request.headers.set('Cookie', this.#cookie);
-            }
+            await __setCookie(request);
             response = await fetch(request);
           } catch (error) {
             throw new FetchError(error);
@@ -101,9 +136,7 @@ export default class Fetcher {
           };
           const request = new Request(url);
           request.headers.set('Content-Type', 'application/json');
-          if (this.#cookie) {
-            request.headers.set('Cookie', this.#cookie);
-          }
+          await __setCookie(request);
           try {
             response = await fetch(request, init);
           } catch (error) {
