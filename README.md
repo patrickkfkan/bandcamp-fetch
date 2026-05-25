@@ -23,6 +23,16 @@ Packaged as ESM + CJS hybrid module with typings.
 npm i bandcamp-fetch --save
 ```
 
+### Optional packages
+
+The search function requires a cookie to work (see [User Sessions](#user-sessions)). If you do not provide one, the library can obtain one automatically if you have `puppeteer` installed. For reliable anti-bot evasion, it is highly recommended to also install `puppeteer-extra` and `puppeteer-extra-plugin-stealth`:
+
+```
+npm i puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
+```
+ Refer to [Search API](#search-api) for more information.
+
+
 # Usage
 
 ```javascript
@@ -33,7 +43,7 @@ const results = await bcfetch.discovery.discover(...);
 
 ### User Sessions
 
-When you sign into Bandcamp, a "Cookie" is created to identify the user session. You can pass the value of this cookie to the library and gain access to your private collection as well as high-quality MP3 streams of purchased media:
+When you visit Bandcamp, a "Cookie" is used to identify the user session. If you are signed in, you can pass the value of this cookie to the library and gain access to your private collection as well as high-quality MP3 streams of purchased media:
 
 ```javascript
 bcfetch.setCookie('xxxx');
@@ -720,6 +730,10 @@ const search = bcfetch.search;
 const albums = await search.albums(...);
 const all = await search.all(...);
 ```
+
+**Cookie requirement**
+
+Search requires [setting a cookie](#user-sessions). You either provide one yourself prior to calling one of the Search API methods, or you let the library obtain one automaticalky. For automatic cookie fetching, you must have `puppeteer` installed (see [Installation](#optional-packages)). Attempting to search without a cookie and without automatic cookie fetching will result in an error.
 
 **Methods:**
 
