@@ -16,8 +16,10 @@ import Cache, { CacheDataType } from './utils/Cache.js';
 import Fetcher from './utils/Fetcher.js';
 import Limiter from './utils/Limiter.js';
 import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
+import { type Logger, NULL_LOGGER, WrappedLogger } from './utils/Logger.js';
 export interface BandcampFetchParams {
   cookie?: string | null;
+  logger?: Logger | null;
 }
 
 export default class BandcampFetch {
@@ -26,6 +28,7 @@ export default class BandcampFetch {
   #cache: Cache;
   #wrappedCache: CacheWrapper;
   #limiter: Limiter;
+  #logger: WrappedLogger;
 
   readonly album: AlbumAPI;
   readonly track: TrackAPI;
@@ -58,6 +61,7 @@ export default class BandcampFetch {
 
   constructor(params?: BandcampFetchParams) {
     this.#cookie = params?.cookie;
+    this.#logger = new WrappedLogger(params?.logger ?? NULL_LOGGER);
     this.#cache = new Cache(
       {
         [CacheDataType.Constants]: 3600,
@@ -68,14 +72,16 @@ export default class BandcampFetch {
     this.#wrappedCache = new CacheWrapper(this.#cache);
     this.#fetcher = new Fetcher({
       cookie: this.#cookie,
-      cache: this.#cache
+      cache: this.#cache,
+      logger: this.#logger
     });
     this.#limiter = new Limiter();
 
     const baseAPIParams = {
       fetcher: this.#fetcher,
       cache: this.#cache,
-      limiter: this.#limiter
+      limiter: this.#limiter,
+      logger: this.#logger
     };
     this.image = new ImageAPI(baseAPIParams);
 
@@ -117,6 +123,10 @@ export default class BandcampFetch {
   setCookie(value?: string | null) {
     this.#cookie = value;
     this.#fetcher.setCookie(value);
+  }
+
+  setLogger(logger: Logger | null) {
+    this.#logger.set(logger ?? NULL_LOGGER);
   }
 
   get cookie() {

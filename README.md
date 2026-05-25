@@ -949,6 +949,28 @@ cache.setTTL(CacheDataType.Page, 500);
 ---
 </details>
 
+# Logging
+
+Capture debug messages by enabling logging:
+
+```
+// Define logger
+const logger = {
+    debug: (...args) => console.debug('[DEBUG]'.padEnd(10), ...args),
+    info: (...args) => console.info('[INFO]'.padEnd(10), ...args),
+    warn: (...args) => console.warn('[WARN]'.padEnd(10), ...args),
+    error: (...args) => console.error('[ERROR]'.padEnd(10), ...args)
+};
+
+// Set logger
+bcfetch.setLogger(logger);
+
+// Or pass it to constructor
+const bcfetch1 = new BandcampFetch({
+    logger
+});
+```
+
 
 # Changelog
 

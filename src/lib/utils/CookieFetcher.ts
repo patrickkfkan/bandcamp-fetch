@@ -1,4 +1,5 @@
 import type { Page } from 'puppeteer';
+import { type Logger } from './Logger.js';
 
 export default class CookieFetcher {
   /**
@@ -9,8 +10,9 @@ export default class CookieFetcher {
    * This method requires the following dependencies to be installed:
    *   puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
    */
-  static async getAnonymousCookie() {
-    const puppeteer = await this.#getPuppeteer();
+  static async getAnonymousCookie(logger: Logger) {
+    logger.debug('CookieFetcher: begin fetching anonymous cookie');
+    const puppeteer = await this.#getPuppeteer(logger);
     const browser = await puppeteer.launch({ 
       headless: true,
       args: [
@@ -25,12 +27,14 @@ export default class CookieFetcher {
 
     try {
       // Visit Bandcamp homepage
+      logger.debug('CookieFetcher: visiting Bandcamp homepage');
       await page.goto('https://bandcamp.com', { waitUntil: 'networkidle2' });
 
       // Handle cookie consent dialog if it appears
-      await this.#handleCookieDialog(page);
+      await this.#handleCookieDialog(page, logger);
 
       // Navigate to another page to ensure the cookie is set
+      logger.debug('CookieFetcher: navigating to discover page');
       await page.goto('https://bandcamp.com/discover', { waitUntil: 'networkidle2' });
 
       // Fetch and return the cookie
@@ -43,6 +47,9 @@ export default class CookieFetcher {
       const cookieString = filteredCookies
         .map(cookie => `${cookie.name}=${cookie.value}`)
         .join('; ');
+
+      logger.debug(`CookieFetcher: anonymous cookie: ${cookieString}`);
+
       return cookieString;
     } finally {
       await browser.close();
@@ -53,35 +60,43 @@ export default class CookieFetcher {
    * Dynamically imports puppeteer and the stealth plugin. Returns null if import fails (e.g., not installed).
    * @returns 
    */
-  static async #getPuppeteer() {
+  static async #getPuppeteer(logger: Logger) {
     let puppeteer;
     let puppeteerExtra;
     let stealth;
     try {
+      logger.debug('CookieFetcher: attempting to import puppeteer-extra');
       puppeteerExtra = (await import('puppeteer-extra')).default;
     }
     catch (error) {
+      logger.debug(`CookieFetcher: failed to import puppeteer-extra: ${ this.#getErrorMessage(error) }`);
       puppeteerExtra = null;
     }
     if (puppeteerExtra) {
       try {
+        logger.debug('CookieFetcher: attempting to import puppeteer-extra-plugin-stealth');
         stealth = (await import('puppeteer-extra-plugin-stealth')).default;
       }
       catch (error) {
+        logger.debug(`CookieFetcher: failed to import puppeteer-extra-plugin-stealth: ${ this.#getErrorMessage(error) }`);
         stealth = null;
       }
       if (stealth) {
         puppeteerExtra.use(stealth());
       }
+      logger.debug(`CookieFetcher: using puppeteer-extra${stealth ? ' with stealth plugin' : ''} for anonymous cookie fetching`);
       return puppeteerExtra;
     }
     try {
+      logger.debug('CookieFetcher: attempting to import puppeteer');
       puppeteer = (await import('puppeteer')).default;
     }
     catch (error) {
+      logger.debug(`CookieFetcher: failed to import puppeteer: ${ this.#getErrorMessage(error) }`);
       puppeteer = null;
     }
     if (puppeteer) {
+      logger.debug('CookieFetcher: using puppeteer for anonymous cookie fetching');
       return puppeteer;
     }
     throw Error('Puppeteer is not installed or otherwise unavailable. Install puppeteer or puppeteer-extra with puppeteer-extra-plugin-stealth to enable anonymous cookie fetching.');
@@ -94,21 +109,37 @@ export default class CookieFetcher {
    * - Wait for the dialog to disappear.
    * We do not assume the dialog will always appear, in which case we will just return silently.
    * @param page 
+   * @param logger 
    */
-  static async #handleCookieDialog(page: Page) {
+  static async #handleCookieDialog(page: Page, logger: Logger) {
     const dialogSelector = '.cookie-dialog-initial';
     const buttonSelector = '.cookie-dialog-initial .buttons button.g-button';
+    let consentButton;
     try {
-      const consentButton = await page.waitForSelector(
+      logger.debug('CookieFetcher: detecting cookie consent dialog');
+      consentButton = await page.waitForSelector(
         buttonSelector,
         { visible: true, timeout: 5000 }
       );
-      if (consentButton) {
-        await consentButton.click()
-        await page.waitForSelector(dialogSelector, { hidden: true, timeout: 5000 });
-      }
     } catch (_) {
+      logger.debug('CookieFetcher: no cookie consent dialog detected');
       return;
     }
+    if (consentButton) {
+        logger.debug('CookieFetcher: cookie consent dialog found, clicking accept button');
+        try {
+          await consentButton.click();
+          logger.debug('CookieFetcher: waiting for cookie consent dialog to close');
+          await page.waitForSelector(dialogSelector, { hidden: true, timeout: 5000 });
+          logger.debug('CookieFetcher: cookie consent dialog handled successfully');
+        }
+        catch (error) {
+          logger.debug(`CookieFetcher: error while handling cookie consent dialog: ${ this.#getErrorMessage(error) }`);
+        }
+    }
+  }
+
+  static #getErrorMessage(error: unknown) {
+    return error instanceof Error ? error.message : String(error);
   }
 }

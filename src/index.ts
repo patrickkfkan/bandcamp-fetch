@@ -52,6 +52,7 @@ export * from './lib/utils/Cache.js';
 export { default as Fetcher } from './lib/utils/Fetcher.js';
 export * from './lib/utils/Fetcher.js';
 export { default as Limiter } from './lib/utils/Limiter.js';
+export { Logger } from './lib/utils/Logger.js';
 
 export { default as Album } from './lib/types/Album.js';
 export { default as Shirt } from './lib/types/Shirt.js';

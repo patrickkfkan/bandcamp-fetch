@@ -1,19 +1,23 @@
 import type Cache from '../utils/Cache.js';
 import { type FetchMethod } from '../utils/Fetcher.js';
 import type Fetcher from '../utils/Fetcher.js';
+import { type Logger } from '../utils/Logger.js';
 
 export interface BaseAPIParams {
   fetcher: Fetcher;
   cache: Cache;
+  logger: Logger;
 }
 
 export default abstract class BaseAPI {
   #fetcher: Fetcher;
   #cache: Cache;
+  #logger: Logger;
 
   constructor(params: BaseAPIParams) {
     this.#fetcher = params.fetcher;
     this.#cache = params.cache;
+    this.#logger = params.logger;
   }
 
   protected fetch(
@@ -49,5 +53,9 @@ export default abstract class BaseAPI {
 
   protected get cache() {
     return this.#cache;
+  }
+
+  protected get logger() {
+    return this.#logger;
   }
 }
