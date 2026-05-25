@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,41 +6,43 @@
 
 # Class: CacheWrapper
 
+Defined in: [lib/BandcampFetch.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L141)
+
 ## Constructors
 
-### new CacheWrapper()
+### Constructor
 
-> **new CacheWrapper**(`cache`): [`CacheWrapper`](CacheWrapper.md)
+> **new CacheWrapper**(`cache`): `CacheWrapper`
+
+Defined in: [lib/BandcampFetch.ts:144](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L144)
 
 #### Parameters
 
-• **cache**: [`Cache`](Cache.md)
+##### cache
+
+[`Cache`](Cache.md)
 
 #### Returns
 
-[`CacheWrapper`](CacheWrapper.md)
-
-#### Defined in
-
-[lib/BandcampFetch.ts:131](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L131)
+`CacheWrapper`
 
 ## Methods
 
 ### clear()
 
-> **clear**(`type`?): `void`
+> **clear**(`type?`): `void`
+
+Defined in: [lib/BandcampFetch.ts:148](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L148)
 
 #### Parameters
 
-• **type?**: [`CacheDataType`](../enumerations/CacheDataType.md)
+##### type?
+
+[`CacheDataType`](../enumerations/CacheDataType.md)
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[lib/BandcampFetch.ts:135](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L135)
 
 ***
 
@@ -48,17 +50,17 @@
 
 > **setMaxPages**(`maxPages`): `void`
 
+Defined in: [lib/BandcampFetch.ts:156](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L156)
+
 #### Parameters
 
-• **maxPages**: `number`
+##### maxPages
+
+`number`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[lib/BandcampFetch.ts:143](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L143)
 
 ***
 
@@ -66,16 +68,18 @@
 
 > **setTTL**(`type`, `ttl`): `void`
 
+Defined in: [lib/BandcampFetch.ts:152](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L152)
+
 #### Parameters
 
-• **type**: [`CacheDataType`](../enumerations/CacheDataType.md)
+##### type
 
-• **ttl**: `number`
+[`CacheDataType`](../enumerations/CacheDataType.md)
+
+##### ttl
+
+`number`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[lib/BandcampFetch.ts:139](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L139)

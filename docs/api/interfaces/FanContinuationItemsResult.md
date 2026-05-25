@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,19 +6,21 @@
 
 # Interface: FanContinuationItemsResult\<T\>
 
+Defined in: [lib/fan/FanItemsBaseParser.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L24)
+
 ## Type Parameters
 
-• **T**
+### T
+
+`T`
 
 ## Properties
 
 ### continuation
 
-> **continuation**: `null` \| [`FanItemsContinuation`](FanItemsContinuation.md)
+> **continuation**: [`FanItemsContinuation`](FanItemsContinuation.md) \| `null`
 
-#### Defined in
-
-[lib/fan/FanItemsBaseParser.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanItemsBaseParser.ts#L22)
+Defined in: [lib/fan/FanItemsBaseParser.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L26)
 
 ***
 
@@ -26,6 +28,4 @@
 
 > **items**: `T`[]
 
-#### Defined in
-
-[lib/fan/FanItemsBaseParser.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanItemsBaseParser.ts#L21)
+Defined in: [lib/fan/FanItemsBaseParser.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L25)

@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,23 +6,25 @@
 
 # Class: Fetcher
 
+Defined in: [lib/utils/Fetcher.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L19)
+
 ## Constructors
 
-### new Fetcher()
+### Constructor
 
-> **new Fetcher**(`params`): [`Fetcher`](Fetcher.md)
+> **new Fetcher**(`params`): `Fetcher`
+
+Defined in: [lib/utils/Fetcher.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L24)
 
 #### Parameters
 
-• **params**: [`FetcherParams`](../interfaces/FetcherParams.md)
+##### params
+
+[`FetcherParams`](../interfaces/FetcherParams.md)
 
 #### Returns
 
-[`Fetcher`](Fetcher.md)
-
-#### Defined in
-
-[lib/utils/Fetcher.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L21)
+`Fetcher`
 
 ## Accessors
 
@@ -30,108 +32,128 @@
 
 #### Get Signature
 
-> **get** **cookie**(): `undefined` \| `null` \| `string`
+> **get** **cookie**(): `string` \| `null` \| `undefined`
+
+Defined in: [lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L38)
 
 ##### Returns
 
-`undefined` \| `null` \| `string`
-
-#### Defined in
-
-[lib/utils/Fetcher.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L34)
+`string` \| `null` \| `undefined`
 
 ## Methods
 
 ### fetch()
 
-#### fetch(url, jsonResponse, method, payload)
+#### Call Signature
 
-> **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
+> **fetch**(`url`, `jsonResponse`, `method`, `payload?`, `requireCookie?`): `Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
+
+Defined in: [lib/utils/Fetcher.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L42)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `false`
+`string`
 
-• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
+###### jsonResponse
 
-• **payload?**: `undefined`
+`false`
+
+###### method
+
+[`HEAD`](../enumerations/FetchMethod.md#head)
+
+###### payload?
+
+`undefined`
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
-`Promise`\<`object`\>
+`Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
 
-###### ok
+#### Call Signature
 
-> **ok**: `boolean`
+> **fetch**(`url`, `jsonResponse`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`any`\>
 
-###### status
-
-> **status**: `number`
-
-##### Defined in
-
-[lib/utils/Fetcher.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L38)
-
-#### fetch(url, jsonResponse, method, payload)
-
-> **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
+Defined in: [lib/utils/Fetcher.ts:49](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L49)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `true`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse
 
-• **payload?**: `Record`\<`string`, `any`\>
+`true`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
 `Promise`\<`any`\>
 
-##### Defined in
+#### Call Signature
 
-[lib/utils/Fetcher.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L39)
+> **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`string`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
+Defined in: [lib/utils/Fetcher.ts:56](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L56)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse?**: `boolean`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse?
 
-• **payload?**: `Record`\<`string`, `any`\>
+`boolean`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
 `Promise`\<`string`\>
 
-##### Defined in
-
-[lib/utils/Fetcher.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L40)
-
 ***
 
 ### setCookie()
 
-> **setCookie**(`value`?): `void`
+> **setCookie**(`value?`): `void`
+
+Defined in: [lib/utils/Fetcher.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L30)
 
 #### Parameters
 
-• **value?**: `null` \| `string`
+##### value?
+
+`string` \| `null`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[lib/utils/Fetcher.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L26)

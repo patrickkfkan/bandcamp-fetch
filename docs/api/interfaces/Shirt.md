@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,25 +6,27 @@
 
 # Interface: Shirt
 
+Defined in: [lib/types/Shirt.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L3)
+
 ## Properties
 
 ### artist?
 
-> `optional` **artist**: `Omit`\<[`Artist`](Artist.md), `"type"`\>
+> `optional` **artist?**: `Omit`\<[`Artist`](Artist.md), `"type"`\>
 
-#### Defined in
-
-[lib/types/Shirt.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L18)
+Defined in: [lib/types/Shirt.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L16)
 
 ***
 
 ### imageUrl?
 
-> `optional` **imageUrl**: `object`
+> `optional` **imageUrl?**: `object`
+
+Defined in: [lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L7)
 
 #### additional?
 
-> `optional` **additional**: `string`[]
+> `optional` **additional?**: `string`[]
 
 #### primary
 
@@ -32,15 +34,11 @@
 
 #### ~~secondary?~~
 
-> `optional` **secondary**: `string`
+> `optional` **secondary?**: `string`
 
 ##### Deprecated
 
-Use [additional](Shirt.md#additional) array instead.
-
-#### Defined in
-
-[lib/types/Shirt.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L9)
+Use [additional](#imageurl) array instead.
 
 ***
 
@@ -48,19 +46,15 @@ Use [additional](Shirt.md#additional) array instead.
 
 > **name**: `string`
 
-#### Defined in
-
-[lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L7)
+Defined in: [lib/types/Shirt.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L5)
 
 ***
 
 ### releaseDate?
 
-> `optional` **releaseDate**: `string`
+> `optional` **releaseDate?**: `string`
 
-#### Defined in
-
-[lib/types/Shirt.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L17)
+Defined in: [lib/types/Shirt.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L15)
 
 ***
 
@@ -68,16 +62,12 @@ Use [additional](Shirt.md#additional) array instead.
 
 > **type**: `"shirt"`
 
-#### Defined in
-
-[lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L6)
+Defined in: [lib/types/Shirt.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L4)
 
 ***
 
 ### url?
 
-> `optional` **url**: `string`
+> `optional` **url?**: `string`
 
-#### Defined in
-
-[lib/types/Shirt.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Shirt.ts#L8)
+Defined in: [lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L6)

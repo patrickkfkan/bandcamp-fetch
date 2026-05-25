@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,19 +6,19 @@
 
 # Class: Limiter
 
+Defined in: [lib/utils/Limiter.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L3)
+
 ## Constructors
 
-### new Limiter()
+### Constructor
 
-> **new Limiter**(): [`Limiter`](Limiter.md)
+> **new Limiter**(): `Limiter`
+
+Defined in: [lib/utils/Limiter.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L6)
 
 #### Returns
 
-[`Limiter`](Limiter.md)
-
-#### Defined in
-
-[lib/utils/Limiter.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Limiter.ts#L7)
+`Limiter`
 
 ## Methods
 
@@ -26,36 +26,38 @@
 
 > **schedule**\<`R`\>(`fn`): `Promise`\<`R`\>
 
+Defined in: [lib/utils/Limiter.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L17)
+
 #### Type Parameters
 
-• **R**
+##### R
+
+`R`
 
 #### Parameters
 
-• **fn**
+##### fn
+
+() => `PromiseLike`\<`R`\>
 
 #### Returns
 
 `Promise`\<`R`\>
 
-#### Defined in
-
-[lib/utils/Limiter.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Limiter.ts#L18)
-
 ***
 
 ### updateSettings()
 
-> **updateSettings**(`options`?): `void`
+> **updateSettings**(`options?`): `void`
+
+Defined in: [lib/utils/Limiter.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L13)
 
 #### Parameters
 
-• **options?**: `ConstructorOptions`
+##### options?
+
+`ConstructorOptions`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[lib/utils/Limiter.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Limiter.ts#L14)

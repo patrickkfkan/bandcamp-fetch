@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,22 +6,20 @@
 
 # Interface: FanAPIGetItemsParams
 
+Defined in: [lib/fan/FanAPI.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L31)
+
 ## Properties
 
 ### imageFormat?
 
-> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **imageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/fan/FanAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L27)
+Defined in: [lib/fan/FanAPI.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L33)
 
 ***
 
 ### target?
 
-> `optional` **target**: `string` \| [`FanItemsContinuation`](FanItemsContinuation.md)
+> `optional` **target?**: `string` \| [`FanItemsContinuation`](FanItemsContinuation.md)
 
-#### Defined in
-
-[lib/fan/FanAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L26)
+Defined in: [lib/fan/FanAPI.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L32)

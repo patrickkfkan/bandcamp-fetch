@@ -1,4 +1,4 @@
-**bandcamp-fetch** • **Docs**
+**bandcamp-fetch**
 
 ***
 
@@ -85,6 +85,7 @@
 - [ImageFormat](interfaces/ImageFormat.md)
 - [Label](interfaces/Label.md)
 - [Location](interfaces/Location.md)
+- [Logger](interfaces/Logger.md)
 - [MediaKind](interfaces/MediaKind.md)
 - [NameValuePair](interfaces/NameValuePair.md)
 - [RelatedTags](interfaces/RelatedTags.md)

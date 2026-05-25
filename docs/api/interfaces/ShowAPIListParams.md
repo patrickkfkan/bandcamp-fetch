@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,12 +6,12 @@
 
 # Interface: ShowAPIListParams
 
+Defined in: [lib/show/ShowAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L19)
+
 ## Properties
 
 ### imageFormat?
 
-> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **imageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/show/ShowAPI.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/show/ShowAPI.ts#L18)
+Defined in: [lib/show/ShowAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L20)

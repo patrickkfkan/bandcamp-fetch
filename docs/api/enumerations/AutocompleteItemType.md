@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,15 +6,15 @@
 
 # Enumeration: AutocompleteItemType
 
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L11)
+
 ## Enumeration Members
 
 ### Location
 
 > **Location**: `"Location"`
 
-#### Defined in
-
-[lib/autocomplete/AutocompleteAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/autocomplete/AutocompleteAPI.ts#L10)
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L13)
 
 ***
 
@@ -22,6 +22,4 @@
 
 > **Tag**: `"Tag"`
 
-#### Defined in
-
-[lib/autocomplete/AutocompleteAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/autocomplete/AutocompleteAPI.ts#L9)
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L12)

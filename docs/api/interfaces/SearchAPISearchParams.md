@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,35 +6,31 @@
 
 # Interface: SearchAPISearchParams
 
+Defined in: [lib/search/SearchAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L27)
+
 ## Properties
 
 ### albumImageFormat?
 
-> `optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **albumImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L20)
+Defined in: [lib/search/SearchAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L30)
 
 ***
 
 ### artistImageFormat?
 
-> `optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **artistImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L21)
+Defined in: [lib/search/SearchAPI.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L31)
 
 ***
 
 ### page?
 
-> `optional` **page**: `number`
+> `optional` **page?**: `number`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L19)
+Defined in: [lib/search/SearchAPI.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L29)
 
 ***
 
@@ -42,6 +38,4 @@
 
 > **query**: `string`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L18)
+Defined in: [lib/search/SearchAPI.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L28)

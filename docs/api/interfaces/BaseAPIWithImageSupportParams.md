@@ -1,10 +1,12 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
 [bandcamp-fetch](../README.md) / BaseAPIWithImageSupportParams
 
 # Interface: BaseAPIWithImageSupportParams
+
+Defined in: [lib/common/BaseAPIWithImageSupport.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPIWithImageSupport.ts#L4)
 
 ## Extends
 
@@ -16,13 +18,11 @@
 
 > **cache**: [`Cache`](../classes/Cache.md)
 
+Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L8)
+
 #### Inherited from
 
 [`BaseAPIParams`](BaseAPIParams.md).[`cache`](BaseAPIParams.md#cache)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L7)
 
 ***
 
@@ -30,13 +30,11 @@
 
 > **fetcher**: [`Fetcher`](../classes/Fetcher.md)
 
+Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L7)
+
 #### Inherited from
 
 [`BaseAPIParams`](BaseAPIParams.md).[`fetcher`](BaseAPIParams.md#fetcher)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L6)
 
 ***
 
@@ -44,6 +42,16 @@
 
 > **imageAPI**: [`ImageAPI`](../classes/ImageAPI.md)
 
-#### Defined in
+Defined in: [lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPIWithImageSupport.ts#L5)
 
-[lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPIWithImageSupport.ts#L5)
+***
+
+### logger
+
+> **logger**: [`Logger`](Logger.md)
+
+Defined in: [lib/common/BaseAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L9)
+
+#### Inherited from
+
+[`BaseAPIParams`](BaseAPIParams.md).[`logger`](BaseAPIParams.md#logger)

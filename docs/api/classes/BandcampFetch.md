@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,23 +6,25 @@
 
 # Class: BandcampFetch
 
+Defined in: [lib/BandcampFetch.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L25)
+
 ## Constructors
 
-### new BandcampFetch()
+### Constructor
 
-> **new BandcampFetch**(`params`?): [`BandcampFetch`](BandcampFetch.md)
+> **new BandcampFetch**(`params?`): `BandcampFetch`
+
+Defined in: [lib/BandcampFetch.ts:62](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L62)
 
 #### Parameters
 
-• **params?**: [`BandcampFetchParams`](../interfaces/BandcampFetchParams.md)
+##### params?
+
+[`BandcampFetchParams`](../interfaces/BandcampFetchParams.md)
 
 #### Returns
 
-[`BandcampFetch`](BandcampFetch.md)
-
-#### Defined in
-
-[lib/BandcampFetch.ts:58](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L58)
+`BandcampFetch`
 
 ## Properties
 
@@ -30,9 +32,7 @@
 
 > `readonly` **album**: [`AlbumAPI`](AlbumAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L29)
+Defined in: [lib/BandcampFetch.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L33)
 
 ***
 
@@ -40,9 +40,7 @@
 
 > `readonly` **article**: [`ArticleAPI`](ArticleAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L35)
+Defined in: [lib/BandcampFetch.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L39)
 
 ***
 
@@ -50,9 +48,7 @@
 
 > `readonly` **autocomplete**: [`AutocompleteAPI`](AutocompleteAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L39)
+Defined in: [lib/BandcampFetch.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L43)
 
 ***
 
@@ -60,9 +56,7 @@
 
 > `readonly` **band**: [`BandAPI`](BandAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L33)
+Defined in: [lib/BandcampFetch.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L37)
 
 ***
 
@@ -70,9 +64,7 @@
 
 > `readonly` **discovery**: [`DiscoveryAPI`](DiscoveryAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L31)
+Defined in: [lib/BandcampFetch.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L35)
 
 ***
 
@@ -80,9 +72,7 @@
 
 > `readonly` **fan**: [`FanAPI`](FanAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L37)
+Defined in: [lib/BandcampFetch.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L41)
 
 ***
 
@@ -90,15 +80,15 @@
 
 > `readonly` **image**: [`ImageAPI`](ImageAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L32)
+Defined in: [lib/BandcampFetch.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L36)
 
 ***
 
 ### limiter
 
 > `readonly` **limiter**: `object`
+
+Defined in: [lib/BandcampFetch.ts:46](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L46)
 
 #### album
 
@@ -148,21 +138,19 @@
 
 > `readonly` **track**: [`LimiterTrackAPI`](LimiterTrackAPI.md)
 
-#### updateSettings()
+#### updateSettings
 
-> **updateSettings**: (`options`?) => `void`
+> **updateSettings**: (`options?`) => `void`
 
 ##### Parameters
 
-• **options?**: `ConstructorOptions`
+###### options?
+
+`ConstructorOptions`
 
 ##### Returns
 
 `void`
-
-#### Defined in
-
-[lib/BandcampFetch.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L42)
 
 ***
 
@@ -170,9 +158,7 @@
 
 > `readonly` **search**: [`SearchAPI`](SearchAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L38)
+Defined in: [lib/BandcampFetch.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L42)
 
 ***
 
@@ -180,9 +166,7 @@
 
 > `readonly` **show**: [`ShowAPI`](ShowAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L36)
+Defined in: [lib/BandcampFetch.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L40)
 
 ***
 
@@ -190,9 +174,7 @@
 
 > `readonly` **stream**: [`StreamAPI`](StreamAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:40](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L40)
+Defined in: [lib/BandcampFetch.ts:44](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L44)
 
 ***
 
@@ -200,9 +182,7 @@
 
 > `readonly` **tag**: [`TagAPI`](TagAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L34)
+Defined in: [lib/BandcampFetch.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L38)
 
 ***
 
@@ -210,9 +190,7 @@
 
 > `readonly` **track**: [`TrackAPI`](TrackAPI.md)
 
-#### Defined in
-
-[lib/BandcampFetch.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L30)
+Defined in: [lib/BandcampFetch.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L34)
 
 ## Accessors
 
@@ -222,13 +200,11 @@
 
 > **get** **cache**(): [`CacheWrapper`](CacheWrapper.md)
 
+Defined in: [lib/BandcampFetch.ts:136](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L136)
+
 ##### Returns
 
 [`CacheWrapper`](CacheWrapper.md)
-
-#### Defined in
-
-[lib/BandcampFetch.ts:122](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L122)
 
 ***
 
@@ -236,30 +212,46 @@
 
 #### Get Signature
 
-> **get** **cookie**(): `undefined` \| `null` \| `string`
+> **get** **cookie**(): `string` \| `null` \| `undefined`
+
+Defined in: [lib/BandcampFetch.ts:132](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L132)
 
 ##### Returns
 
-`undefined` \| `null` \| `string`
-
-#### Defined in
-
-[lib/BandcampFetch.ts:118](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L118)
+`string` \| `null` \| `undefined`
 
 ## Methods
 
 ### setCookie()
 
-> **setCookie**(`value`?): `void`
+> **setCookie**(`value?`): `void`
+
+Defined in: [lib/BandcampFetch.ts:123](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L123)
 
 #### Parameters
 
-• **value?**: `null` \| `string`
+##### value?
+
+`string` \| `null`
 
 #### Returns
 
 `void`
 
-#### Defined in
+***
 
-[lib/BandcampFetch.ts:113](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/BandcampFetch.ts#L113)
+### setLogger()
+
+> **setLogger**(`logger`): `void`
+
+Defined in: [lib/BandcampFetch.ts:128](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L128)
+
+#### Parameters
+
+##### logger
+
+[`Logger`](../interfaces/Logger.md) \| `null`
+
+#### Returns
+
+`void`

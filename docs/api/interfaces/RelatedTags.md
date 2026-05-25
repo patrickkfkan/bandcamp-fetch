@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,17 +6,17 @@
 
 # Interface: RelatedTags
 
+Defined in: [lib/types/Tag.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Tag.ts#L8)
+
 ## Properties
 
 ### combo
 
 > **combo**: [`Tag`](Tag.md)[]
 
+Defined in: [lib/types/Tag.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Tag.ts#L16)
+
 The combined related tags if there are multiple tags involved.
-
-#### Defined in
-
-[lib/types/Tag.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Tag.ts#L16)
 
 ***
 
@@ -24,8 +24,14 @@ The combined related tags if there are multiple tags involved.
 
 > **single**: `object`[]
 
+Defined in: [lib/types/Tag.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Tag.ts#L12)
+
 List of tags and the related tags for each entry.
 
-#### Defined in
+#### related
 
-[lib/types/Tag.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Tag.ts#L12)
+> **related**: [`Tag`](Tag.md)[]
+
+#### tag
+
+> **tag**: [`Tag`](Tag.md)

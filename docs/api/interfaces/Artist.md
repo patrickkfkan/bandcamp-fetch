@@ -1,10 +1,12 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
 [bandcamp-fetch](../README.md) / Artist
 
 # Interface: Artist
+
+Defined in: [lib/types/Artist.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L4)
 
 ## Extends
 
@@ -14,63 +16,53 @@
 
 ### description?
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
+
+Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L3)
 
 #### Inherited from
 
 [`UserKind`](UserKind.md).[`description`](UserKind.md#description)
 
-#### Defined in
-
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L3)
-
 ***
 
 ### genre?
 
-> `optional` **genre**: `string`
+> `optional` **genre?**: `string`
 
-#### Defined in
-
-[lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Artist.ts#L7)
+Defined in: [lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L7)
 
 ***
 
 ### imageUrl?
 
-> `optional` **imageUrl**: `string`
+> `optional` **imageUrl?**: `string`
+
+Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L5)
 
 #### Inherited from
 
 [`UserKind`](UserKind.md).[`imageUrl`](UserKind.md#imageurl)
 
-#### Defined in
-
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L5)
-
 ***
 
 ### label?
 
-> `optional` **label**: [`Label`](Label.md)
+> `optional` **label?**: [`Label`](Label.md)
 
-#### Defined in
-
-[lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Artist.ts#L6)
+Defined in: [lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L6)
 
 ***
 
 ### location?
 
-> `optional` **location**: `string`
+> `optional` **location?**: `string`
+
+Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L6)
 
 #### Inherited from
 
 [`UserKind`](UserKind.md).[`location`](UserKind.md#location)
-
-#### Defined in
-
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L6)
 
 ***
 
@@ -78,13 +70,11 @@
 
 > **name**: `string`
 
+Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L2)
+
 #### Inherited from
 
 [`UserKind`](UserKind.md).[`name`](UserKind.md#name)
-
-#### Defined in
-
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L2)
 
 ***
 
@@ -92,20 +82,16 @@
 
 > **type**: `"artist"`
 
-#### Defined in
-
-[lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Artist.ts#L5)
+Defined in: [lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L5)
 
 ***
 
 ### url?
 
-> `optional` **url**: `string`
+> `optional` **url?**: `string`
+
+Defined in: [lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L4)
 
 #### Inherited from
 
 [`UserKind`](UserKind.md).[`url`](UserKind.md#url)
-
-#### Defined in
-
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/UserKind.ts#L4)

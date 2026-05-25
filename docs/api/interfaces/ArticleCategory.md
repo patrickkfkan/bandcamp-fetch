@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,22 +6,20 @@
 
 # Interface: ArticleCategory
 
+Defined in: [lib/types/Article.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L29)
+
 ## Properties
 
 ### name
 
 > **name**: `string`
 
-#### Defined in
-
-[lib/types/Article.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Article.ts#L30)
+Defined in: [lib/types/Article.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L30)
 
 ***
 
 ### url?
 
-> `optional` **url**: `string`
+> `optional` **url?**: `string`
 
-#### Defined in
-
-[lib/types/Article.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Article.ts#L31)
+Defined in: [lib/types/Article.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L31)

@@ -1,10 +1,12 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
 [bandcamp-fetch](../README.md) / BaseAPIParams
 
 # Interface: BaseAPIParams
+
+Defined in: [lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L6)
 
 ## Extended by
 
@@ -16,9 +18,7 @@
 
 > **cache**: [`Cache`](../classes/Cache.md)
 
-#### Defined in
-
-[lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L7)
+Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L8)
 
 ***
 
@@ -26,6 +26,12 @@
 
 > **fetcher**: [`Fetcher`](../classes/Fetcher.md)
 
-#### Defined in
+Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L7)
 
-[lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L6)
+***
+
+### logger
+
+> **logger**: [`Logger`](Logger.md)
+
+Defined in: [lib/common/BaseAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L9)

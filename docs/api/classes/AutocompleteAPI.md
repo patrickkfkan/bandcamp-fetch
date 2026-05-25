@@ -1,10 +1,12 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
 [bandcamp-fetch](../README.md) / AutocompleteAPI
 
 # Class: AutocompleteAPI
+
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L27)
 
 ## Extends
 
@@ -16,25 +18,25 @@
 
 ## Constructors
 
-### new AutocompleteAPI()
+### Constructor
 
-> **new AutocompleteAPI**(`params`): [`AutocompleteAPI`](AutocompleteAPI.md)
+> **new AutocompleteAPI**(`params`): `AutocompleteAPI`
+
+Defined in: [lib/common/BaseAPI.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L17)
 
 #### Parameters
 
-• **params**: [`BaseAPIParams`](../interfaces/BaseAPIParams.md)
+##### params
+
+[`BaseAPIParams`](../interfaces/BaseAPIParams.md)
 
 #### Returns
 
-[`AutocompleteAPI`](AutocompleteAPI.md)
+`AutocompleteAPI`
 
 #### Inherited from
 
-[`BaseAPI`](BaseAPI.md).[`constructor`](BaseAPI.md#constructors)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L15)
+[`BaseAPI`](BaseAPI.md).[`constructor`](BaseAPI.md#constructor)
 
 ## Accessors
 
@@ -44,6 +46,8 @@
 
 > **get** `protected` **cache**(): [`Cache`](Cache.md)
 
+Defined in: [lib/common/BaseAPI.ts:54](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L54)
+
 ##### Returns
 
 [`Cache`](Cache.md)
@@ -52,61 +56,91 @@
 
 [`BaseAPI`](BaseAPI.md).[`cache`](BaseAPI.md#cache)
 
-#### Defined in
+***
 
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L27)
+### logger
+
+#### Get Signature
+
+> **get** `protected` **logger**(): [`Logger`](../interfaces/Logger.md)
+
+Defined in: [lib/common/BaseAPI.ts:58](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L58)
+
+##### Returns
+
+[`Logger`](../interfaces/Logger.md)
+
+#### Inherited from
+
+[`BaseAPI`](BaseAPI.md).[`logger`](BaseAPI.md#logger)
 
 ## Methods
 
 ### fetch()
 
-#### fetch(url, jsonResponse, method, payload)
+#### Call Signature
 
-> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
+> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`, `requireCookie?`): `Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
+
+Defined in: [lib/common/BaseAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L23)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `false`
+`string`
 
-• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
+###### jsonResponse
 
-• **payload?**: `undefined`
+`false`
+
+###### method
+
+[`HEAD`](../enumerations/FetchMethod.md#head)
+
+###### payload?
+
+`undefined`
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
-`Promise`\<`object`\>
-
-###### ok
-
-> **ok**: `boolean`
-
-###### status
-
-> **status**: `number`
+`Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
 
 ##### Inherited from
 
 [`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-##### Defined in
+#### Call Signature
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L20)
+> `protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`any`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> `protected` **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
+Defined in: [lib/common/BaseAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L30)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `true`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse
 
-• **payload?**: `Record`\<`string`, `any`\>
+`true`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
@@ -116,23 +150,33 @@
 
 [`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-##### Defined in
+#### Call Signature
 
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L21)
+> `protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`string`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> `protected` **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
+Defined in: [lib/common/BaseAPI.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L37)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse?**: `boolean`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse?
 
-• **payload?**: `Record`\<`string`, `any`\>
+`boolean`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
@@ -142,58 +186,54 @@
 
 [`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-##### Defined in
-
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L22)
-
 ***
 
 ### getSuggestions()
 
-#### getSuggestions(params)
+#### Call Signature
 
 > **getSuggestions**(`params`): `Promise`\<[`AutocompleteLocation`](../interfaces/AutocompleteLocation.md)[]\>
 
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L28)
+
 ##### Parameters
 
-• **params**: [`AutocompleteAPIGetSuggestionsParams`](../type-aliases/AutocompleteAPIGetSuggestionsParams.md) & `object`
+###### params
+
+[`AutocompleteAPIGetSuggestionsParams`](../type-aliases/AutocompleteAPIGetSuggestionsParams.md) & `object`
 
 ##### Returns
 
 `Promise`\<[`AutocompleteLocation`](../interfaces/AutocompleteLocation.md)[]\>
 
-##### Defined in
-
-[lib/autocomplete/AutocompleteAPI.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/autocomplete/AutocompleteAPI.ts#L24)
-
-#### getSuggestions(params)
+#### Call Signature
 
 > **getSuggestions**(`params`): `Promise`\<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[]\>
 
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L33)
+
 ##### Parameters
 
-• **params**: [`AutocompleteAPIGetSuggestionsParams`](../type-aliases/AutocompleteAPIGetSuggestionsParams.md) & `object`
+###### params
+
+[`AutocompleteAPIGetSuggestionsParams`](../type-aliases/AutocompleteAPIGetSuggestionsParams.md) & `object`
 
 ##### Returns
 
 `Promise`\<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[]\>
 
-##### Defined in
-
-[lib/autocomplete/AutocompleteAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/autocomplete/AutocompleteAPI.ts#L25)
-
-#### getSuggestions(params)
+#### Call Signature
 
 > **getSuggestions**(`params`): `Promise`\<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[] \| [`AutocompleteLocation`](../interfaces/AutocompleteLocation.md)[]\>
 
+Defined in: [lib/autocomplete/AutocompleteAPI.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/autocomplete/AutocompleteAPI.ts#L38)
+
 ##### Parameters
 
-• **params**: [`AutocompleteAPIGetSuggestionsParams`](../type-aliases/AutocompleteAPIGetSuggestionsParams.md)
+###### params
+
+[`AutocompleteAPIGetSuggestionsParams`](../type-aliases/AutocompleteAPIGetSuggestionsParams.md)
 
 ##### Returns
 
 `Promise`\<[`AutoCompleteTag`](../interfaces/AutoCompleteTag.md)[] \| [`AutocompleteLocation`](../interfaces/AutocompleteLocation.md)[]\>
-
-##### Defined in
-
-[lib/autocomplete/AutocompleteAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/autocomplete/AutocompleteAPI.ts#L26)

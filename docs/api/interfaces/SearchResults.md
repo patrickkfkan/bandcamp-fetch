@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,9 +6,13 @@
 
 # Interface: SearchResults\<T\>
 
+Defined in: [lib/types/Search.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L1)
+
 ## Type Parameters
 
-• **T** *extends* [`SearchResultItem`](SearchResultItem.md)
+### T
+
+`T` *extends* [`SearchResultItem`](SearchResultItem.md)
 
 ## Properties
 
@@ -16,9 +20,7 @@
 
 > **items**: `T`[]
 
-#### Defined in
-
-[lib/types/Search.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Search.ts#L2)
+Defined in: [lib/types/Search.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L2)
 
 ***
 
@@ -26,6 +28,4 @@
 
 > **totalPages**: `number`
 
-#### Defined in
-
-[lib/types/Search.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Search.ts#L3)
+Defined in: [lib/types/Search.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L3)

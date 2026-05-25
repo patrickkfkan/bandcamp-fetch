@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,17 +6,17 @@
 
 # Interface: DiscoverResult
 
+Defined in: [lib/types/Discovery.ts:61](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L61)
+
 Results returned by [DiscoveryAPI.discover](../classes/DiscoveryAPI.md#discover).
 
 ## Properties
 
 ### continuation?
 
-> `optional` **continuation**: [`DiscoverResultContinuation`](DiscoverResultContinuation.md)
+> `optional` **continuation?**: [`DiscoverResultContinuation`](DiscoverResultContinuation.md)
 
-#### Defined in
-
-[lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L79)
+Defined in: [lib/types/Discovery.ts:75](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L75)
 
 ***
 
@@ -24,11 +24,9 @@ Results returned by [DiscoveryAPI.discover](../classes/DiscoveryAPI.md#discover)
 
 > **items**: ([`Album`](Album.md) \| [`Shirt`](Shirt.md))[]
 
+Defined in: [lib/types/Discovery.ts:65](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L65)
+
 List of discovered albums .
-
-#### Defined in
-
-[lib/types/Discovery.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L69)
 
 ***
 
@@ -36,11 +34,9 @@ List of discovered albums .
 
 > **params**: [`SanitizedDiscoverParams`](../type-aliases/SanitizedDiscoverParams.md)
 
+Defined in: [lib/types/Discovery.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L73)
+
 Sanitized params used in the discovery request.
-
-#### Defined in
-
-[lib/types/Discovery.ts:77](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L77)
 
 ***
 
@@ -48,8 +44,6 @@ Sanitized params used in the discovery request.
 
 > **total**: `number`
 
+Defined in: [lib/types/Discovery.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L69)
+
 Total number of albums discovered.
-
-#### Defined in
-
-[lib/types/Discovery.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L73)

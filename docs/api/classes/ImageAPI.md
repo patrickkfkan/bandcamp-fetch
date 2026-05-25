@@ -1,10 +1,12 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
 [bandcamp-fetch](../README.md) / ImageAPI
 
 # Class: ImageAPI
+
+Defined in: [lib/image/ImageAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/image/ImageAPI.ts#L15)
 
 ## Extends
 
@@ -16,25 +18,25 @@
 
 ## Constructors
 
-### new ImageAPI()
+### Constructor
 
-> **new ImageAPI**(`params`): [`ImageAPI`](ImageAPI.md)
+> **new ImageAPI**(`params`): `ImageAPI`
+
+Defined in: [lib/common/BaseAPI.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L17)
 
 #### Parameters
 
-• **params**: [`BaseAPIParams`](../interfaces/BaseAPIParams.md)
+##### params
+
+[`BaseAPIParams`](../interfaces/BaseAPIParams.md)
 
 #### Returns
 
-[`ImageAPI`](ImageAPI.md)
+`ImageAPI`
 
 #### Inherited from
 
-[`BaseAPI`](BaseAPI.md).[`constructor`](BaseAPI.md#constructors)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L15)
+[`BaseAPI`](BaseAPI.md).[`constructor`](BaseAPI.md#constructor)
 
 ## Accessors
 
@@ -44,6 +46,8 @@
 
 > **get** `protected` **cache**(): [`Cache`](Cache.md)
 
+Defined in: [lib/common/BaseAPI.ts:54](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L54)
+
 ##### Returns
 
 [`Cache`](Cache.md)
@@ -52,61 +56,91 @@
 
 [`BaseAPI`](BaseAPI.md).[`cache`](BaseAPI.md#cache)
 
-#### Defined in
+***
 
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L27)
+### logger
+
+#### Get Signature
+
+> **get** `protected` **logger**(): [`Logger`](../interfaces/Logger.md)
+
+Defined in: [lib/common/BaseAPI.ts:58](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L58)
+
+##### Returns
+
+[`Logger`](../interfaces/Logger.md)
+
+#### Inherited from
+
+[`BaseAPI`](BaseAPI.md).[`logger`](BaseAPI.md#logger)
 
 ## Methods
 
 ### fetch()
 
-#### fetch(url, jsonResponse, method, payload)
+#### Call Signature
 
-> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
+> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`, `requireCookie?`): `Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
+
+Defined in: [lib/common/BaseAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L23)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `false`
+`string`
 
-• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
+###### jsonResponse
 
-• **payload?**: `undefined`
+`false`
+
+###### method
+
+[`HEAD`](../enumerations/FetchMethod.md#head)
+
+###### payload?
+
+`undefined`
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
-`Promise`\<`object`\>
-
-###### ok
-
-> **ok**: `boolean`
-
-###### status
-
-> **status**: `number`
+`Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
 
 ##### Inherited from
 
 [`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-##### Defined in
+#### Call Signature
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L20)
+> `protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`any`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> `protected` **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
+Defined in: [lib/common/BaseAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L30)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `true`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse
 
-• **payload?**: `Record`\<`string`, `any`\>
+`true`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
@@ -116,23 +150,33 @@
 
 [`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-##### Defined in
+#### Call Signature
 
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L21)
+> `protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`string`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> `protected` **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
+Defined in: [lib/common/BaseAPI.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L37)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse?**: `boolean`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse?
 
-• **payload?**: `Record`\<`string`, `any`\>
+`boolean`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
@@ -142,44 +186,42 @@
 
 [`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-##### Defined in
-
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L22)
-
 ***
 
 ### getFormat()
 
-> **getFormat**(`target`?, `fallbackId`?): `Promise`\<`null` \| [`ImageFormat`](../interfaces/ImageFormat.md)\>
+> **getFormat**(`target?`, `fallbackId?`): `Promise`\<[`ImageFormat`](../interfaces/ImageFormat.md) \| `null`\>
+
+Defined in: [lib/image/ImageAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/image/ImageAPI.ts#L30)
 
 #### Parameters
 
-• **target?**: `string` \| `number` \| [`ImageFormat`](../interfaces/ImageFormat.md)
+##### target?
 
-• **fallbackId?**: `number`
+`string` \| `number` \| [`ImageFormat`](../interfaces/ImageFormat.md)
+
+##### fallbackId?
+
+`number`
 
 #### Returns
 
-`Promise`\<`null` \| [`ImageFormat`](../interfaces/ImageFormat.md)\>
-
-#### Defined in
-
-[lib/image/ImageAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/image/ImageAPI.ts#L27)
+`Promise`\<[`ImageFormat`](../interfaces/ImageFormat.md) \| `null`\>
 
 ***
 
 ### getFormats()
 
-> **getFormats**(`filter`?): `Promise`\<[`ImageFormat`](../interfaces/ImageFormat.md)[]\>
+> **getFormats**(`filter?`): `Promise`\<[`ImageFormat`](../interfaces/ImageFormat.md)[]\>
+
+Defined in: [lib/image/ImageAPI.ts:61](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/image/ImageAPI.ts#L61)
 
 #### Parameters
 
-• **filter?**: [`ImageFormatFilter`](../enumerations/ImageFormatFilter.md)
+##### filter?
+
+[`ImageFormatFilter`](../enumerations/ImageFormatFilter.md)
 
 #### Returns
 
 `Promise`\<[`ImageFormat`](../interfaces/ImageFormat.md)[]\>
-
-#### Defined in
-
-[lib/image/ImageAPI.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/image/ImageAPI.ts#L47)

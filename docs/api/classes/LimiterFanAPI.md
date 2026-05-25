@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,31 +6,33 @@
 
 # Class: LimiterFanAPI
 
+Defined in: [lib/fan/FanAPI.ts:203](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L203)
+
 ## Extends
 
 - [`FanAPI`](FanAPI.md)
 
 ## Constructors
 
-### new LimiterFanAPI()
+### Constructor
 
-> **new LimiterFanAPI**(`params`): [`LimiterFanAPI`](LimiterFanAPI.md)
+> **new LimiterFanAPI**(`params`): `LimiterFanAPI`
+
+Defined in: [lib/fan/FanAPI.ts:206](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L206)
 
 #### Parameters
 
-• **params**: [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & `object`
+##### params
+
+[`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & `object`
 
 #### Returns
 
-[`LimiterFanAPI`](LimiterFanAPI.md)
+`LimiterFanAPI`
 
 #### Overrides
 
-[`FanAPI`](FanAPI.md).[`constructor`](FanAPI.md#constructors)
-
-#### Defined in
-
-[lib/fan/FanAPI.ts:167](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L167)
+[`FanAPI`](FanAPI.md).[`constructor`](FanAPI.md#constructor)
 
 ## Accessors
 
@@ -40,6 +42,8 @@
 
 > **get** `protected` **cache**(): [`Cache`](Cache.md)
 
+Defined in: [lib/common/BaseAPI.ts:54](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L54)
+
 ##### Returns
 
 [`Cache`](Cache.md)
@@ -47,10 +51,6 @@
 #### Inherited from
 
 [`FanAPI`](FanAPI.md).[`cache`](FanAPI.md#cache)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L27)
 
 ***
 
@@ -60,6 +60,8 @@
 
 > **get** **imageAPI**(): [`ImageAPI`](ImageAPI.md)
 
+Defined in: [lib/common/BaseAPIWithImageSupport.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPIWithImageSupport.ts#L16)
+
 ##### Returns
 
 [`ImageAPI`](ImageAPI.md)
@@ -68,61 +70,91 @@
 
 [`FanAPI`](FanAPI.md).[`imageAPI`](FanAPI.md#imageapi)
 
-#### Defined in
+***
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+### logger
+
+#### Get Signature
+
+> **get** `protected` **logger**(): [`Logger`](../interfaces/Logger.md)
+
+Defined in: [lib/common/BaseAPI.ts:58](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L58)
+
+##### Returns
+
+[`Logger`](../interfaces/Logger.md)
+
+#### Inherited from
+
+[`FanAPI`](FanAPI.md).[`logger`](FanAPI.md#logger)
 
 ## Methods
 
 ### fetch()
 
-#### fetch(url, jsonResponse, method, payload)
+#### Call Signature
 
-> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
+> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`, `requireCookie?`): `Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
+
+Defined in: [lib/common/BaseAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L23)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `false`
+`string`
 
-• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
+###### jsonResponse
 
-• **payload?**: `undefined`
+`false`
+
+###### method
+
+[`HEAD`](../enumerations/FetchMethod.md#head)
+
+###### payload?
+
+`undefined`
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
-`Promise`\<`object`\>
-
-###### ok
-
-> **ok**: `boolean`
-
-###### status
-
-> **status**: `number`
+`Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
 
 ##### Inherited from
 
 [`FanAPI`](FanAPI.md).[`fetch`](FanAPI.md#fetch)
 
-##### Defined in
+#### Call Signature
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L20)
+> `protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`any`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> `protected` **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
+Defined in: [lib/common/BaseAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L30)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse**: `true`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse
 
-• **payload?**: `Record`\<`string`, `any`\>
+`true`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
@@ -132,23 +164,33 @@
 
 [`FanAPI`](FanAPI.md).[`fetch`](FanAPI.md#fetch)
 
-##### Defined in
+#### Call Signature
 
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L21)
+> `protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`string`\>
 
-#### fetch(url, jsonResponse, method, payload)
-
-> `protected` **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
+Defined in: [lib/common/BaseAPI.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L37)
 
 ##### Parameters
 
-• **url**: `string`
+###### url
 
-• **jsonResponse?**: `boolean`
+`string`
 
-• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+###### jsonResponse?
 
-• **payload?**: `Record`\<`string`, `any`\>
+`boolean`
+
+###### method?
+
+[`FetchMethod`](../enumerations/FetchMethod.md)
+
+###### payload?
+
+`Record`\<`string`, `any`\>
+
+###### requireCookie?
+
+`boolean`
 
 ##### Returns
 
@@ -158,31 +200,27 @@
 
 [`FanAPI`](FanAPI.md).[`fetch`](FanAPI.md#fetch)
 
-##### Defined in
-
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/common/BaseAPI.ts#L22)
-
 ***
 
 ### getCollection()
 
-> **getCollection**(`params`): `Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\>\>
+> **getCollection**(`params`): `Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\>\>
+
+Defined in: [lib/fan/FanAPI.ts:215](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L215)
 
 #### Parameters
 
-• **params**: [`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
+##### params
+
+[`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
 
 #### Returns
 
-`Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\>\>
+`Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\>\>
 
 #### Overrides
 
 [`FanAPI`](FanAPI.md).[`getCollection`](FanAPI.md#getcollection)
-
-#### Defined in
-
-[lib/fan/FanAPI.ts:176](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L176)
 
 ***
 
@@ -190,9 +228,13 @@
 
 > **getFollowingArtistsAndLabels**(`params`): `Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<[`UserKind`](../interfaces/UserKind.md)\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<[`UserKind`](../interfaces/UserKind.md)\>\>
 
+Defined in: [lib/fan/FanAPI.ts:233](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L233)
+
 #### Parameters
 
-• **params**: [`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
+##### params
+
+[`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
 
 #### Returns
 
@@ -202,19 +244,19 @@
 
 [`FanAPI`](FanAPI.md).[`getFollowingArtistsAndLabels`](FanAPI.md#getfollowingartistsandlabels)
 
-#### Defined in
-
-[lib/fan/FanAPI.ts:184](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L184)
-
 ***
 
 ### getFollowingGenres()
 
 > **getFollowingGenres**(`params`): `Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<[`Tag`](../interfaces/Tag.md)\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<[`Tag`](../interfaces/Tag.md)\>\>
 
+Defined in: [lib/fan/FanAPI.ts:243](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L243)
+
 #### Parameters
 
-• **params**: [`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
+##### params
+
+[`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
 
 #### Returns
 
@@ -224,19 +266,19 @@
 
 [`FanAPI`](FanAPI.md).[`getFollowingGenres`](FanAPI.md#getfollowinggenres)
 
-#### Defined in
-
-[lib/fan/FanAPI.ts:188](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L188)
-
 ***
 
 ### getInfo()
 
 > **getInfo**(`params`): `Promise`\<[`Fan`](../interfaces/Fan.md)\>
 
+Defined in: [lib/fan/FanAPI.ts:211](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L211)
+
 #### Parameters
 
-• **params**: [`FanAPIGetInfoParams`](../interfaces/FanAPIGetInfoParams.md)
+##### params
+
+[`FanAPIGetInfoParams`](../interfaces/FanAPIGetInfoParams.md)
 
 #### Returns
 
@@ -246,28 +288,24 @@
 
 [`FanAPI`](FanAPI.md).[`getInfo`](FanAPI.md#getinfo)
 
-#### Defined in
-
-[lib/fan/FanAPI.ts:172](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L172)
-
 ***
 
 ### getWishlist()
 
-> **getWishlist**(`params`): `Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\>\>
+> **getWishlist**(`params`): `Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\>\>
+
+Defined in: [lib/fan/FanAPI.ts:224](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanAPI.ts#L224)
 
 #### Parameters
 
-• **params**: [`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
+##### params
+
+[`FanAPIGetItemsParams`](../interfaces/FanAPIGetItemsParams.md)
 
 #### Returns
 
-`Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<`null` \| [`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md)\>\>\>
+`Promise`\<[`FanPageItemsResult`](../interfaces/FanPageItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\> \| [`FanContinuationItemsResult`](../interfaces/FanContinuationItemsResult.md)\<`NonNullable`\<[`Track`](../interfaces/Track.md) \| [`Album`](../interfaces/Album.md) \| `null`\>\>\>
 
 #### Overrides
 
 [`FanAPI`](FanAPI.md).[`getWishlist`](FanAPI.md#getwishlist)
-
-#### Defined in
-
-[lib/fan/FanAPI.ts:180](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/fan/FanAPI.ts#L180)

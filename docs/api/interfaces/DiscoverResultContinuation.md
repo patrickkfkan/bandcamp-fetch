@@ -1,10 +1,12 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
 [bandcamp-fetch](../README.md) / DiscoverResultContinuation
 
 # Interface: DiscoverResultContinuation
+
+Defined in: [lib/types/Discovery.ts:78](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L78)
 
 ## Extends
 
@@ -14,21 +16,17 @@
 
 ### albumImageFormat?
 
-> `optional` **albumImageFormat**: [`ImageFormat`](ImageFormat.md)
+> `optional` **albumImageFormat?**: [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/types/Discovery.ts:84](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L84)
+Defined in: [lib/types/Discovery.ts:80](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L80)
 
 ***
 
 ### artistImageFormat?
 
-> `optional` **artistImageFormat**: [`ImageFormat`](ImageFormat.md)
+> `optional` **artistImageFormat?**: [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/types/Discovery.ts:85](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L85)
+Defined in: [lib/types/Discovery.ts:81](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L81)
 
 ***
 
@@ -36,13 +34,11 @@
 
 > **category**: `number`
 
+Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L30)
+
 #### Inherited from
 
-`SanitizedDiscoverParams.category`
-
-#### Defined in
-
-[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L30)
+[`DiscoverParams`](DiscoverParams.md).[`category`](DiscoverParams.md#category)
 
 ***
 
@@ -50,37 +46,31 @@
 
 > **cursor**: `string`
 
-#### Defined in
-
-[lib/types/Discovery.ts:83](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L83)
+Defined in: [lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L79)
 
 ***
 
 ### customTags?
 
-> `optional` **customTags**: `string`[]
+> `optional` **customTags?**: `string`[]
+
+Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L34)
 
 #### Inherited from
 
-`SanitizedDiscoverParams.customTags`
-
-#### Defined in
-
-[lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L34)
+[`DiscoverParams`](DiscoverParams.md).[`customTags`](DiscoverParams.md#customtags)
 
 ***
 
 ### genre?
 
-> `optional` **genre**: `string`
+> `optional` **genre?**: `string`
+
+Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L28)
 
 #### Inherited from
 
-`SanitizedDiscoverParams.genre`
-
-#### Defined in
-
-[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L28)
+[`DiscoverParams`](DiscoverParams.md).[`genre`](DiscoverParams.md#genre)
 
 ***
 
@@ -88,23 +78,19 @@
 
 > **location**: `number`
 
+Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L32)
+
 #### Inherited from
 
-`SanitizedDiscoverParams.location`
-
-#### Defined in
-
-[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L32)
+[`DiscoverParams`](DiscoverParams.md).[`location`](DiscoverParams.md#location)
 
 ***
 
 ### merchImageFormat?
 
-> `optional` **merchImageFormat**: [`ImageFormat`](ImageFormat.md)
+> `optional` **merchImageFormat?**: [`ImageFormat`](ImageFormat.md)
 
-#### Defined in
-
-[lib/types/Discovery.ts:86](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L86)
+Defined in: [lib/types/Discovery.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L82)
 
 ***
 
@@ -112,13 +98,11 @@
 
 > **size**: `number`
 
+Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L35)
+
 #### Inherited from
 
-`SanitizedDiscoverParams.size`
-
-#### Defined in
-
-[lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L35)
+[`DiscoverParams`](DiscoverParams.md).[`size`](DiscoverParams.md#size)
 
 ***
 
@@ -126,27 +110,23 @@
 
 > **sortBy**: `string`
 
+Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L31)
+
 #### Inherited from
 
-`SanitizedDiscoverParams.sortBy`
-
-#### Defined in
-
-[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L31)
+[`DiscoverParams`](DiscoverParams.md).[`sortBy`](DiscoverParams.md#sortby)
 
 ***
 
 ### subgenre?
 
-> `optional` **subgenre**: `string`
+> `optional` **subgenre?**: `string`
+
+Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L29)
 
 #### Inherited from
 
-`SanitizedDiscoverParams.subgenre`
-
-#### Defined in
-
-[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L29)
+[`DiscoverParams`](DiscoverParams.md).[`subgenre`](DiscoverParams.md#subgenre)
 
 ***
 
@@ -154,10 +134,8 @@
 
 > **time**: `number`
 
+Defined in: [lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L33)
+
 #### Inherited from
 
-`SanitizedDiscoverParams.time`
-
-#### Defined in
-
-[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Discovery.ts#L33)
+[`DiscoverParams`](DiscoverParams.md).[`time`](DiscoverParams.md#time)

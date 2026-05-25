@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,22 +6,28 @@
 
 # Interface: FetcherParams
 
+Defined in: [lib/utils/Fetcher.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L13)
+
 ## Properties
 
 ### cache
 
 > **cache**: [`Cache`](../classes/Cache.md)
 
-#### Defined in
-
-[lib/utils/Fetcher.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L13)
+Defined in: [lib/utils/Fetcher.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L15)
 
 ***
 
 ### cookie?
 
-> `optional` **cookie**: `null` \| `string`
+> `optional` **cookie?**: `string` \| `null`
 
-#### Defined in
+Defined in: [lib/utils/Fetcher.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L14)
 
-[lib/utils/Fetcher.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/utils/Fetcher.ts#L12)
+***
+
+### logger
+
+> **logger**: [`Logger`](Logger.md)
+
+Defined in: [lib/utils/Fetcher.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L16)

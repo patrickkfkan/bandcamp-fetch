@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,15 +6,15 @@
 
 # Enumeration: SearchItemType
 
+Defined in: [lib/search/SearchAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L19)
+
 ## Enumeration Members
 
 ### Albums
 
 > **Albums**: `"Albums"`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L12)
+Defined in: [lib/search/SearchAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L22)
 
 ***
 
@@ -22,9 +22,7 @@
 
 > **All**: `"All"`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L10)
+Defined in: [lib/search/SearchAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L20)
 
 ***
 
@@ -32,9 +30,7 @@
 
 > **ArtistsAndLabels**: `"ArtistsAndLabels"`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L11)
+Defined in: [lib/search/SearchAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L21)
 
 ***
 
@@ -42,9 +38,7 @@
 
 > **Fans**: `"Fans"`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L14)
+Defined in: [lib/search/SearchAPI.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L24)
 
 ***
 
@@ -52,6 +46,4 @@
 
 > **Tracks**: `"Tracks"`
 
-#### Defined in
-
-[lib/search/SearchAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/search/SearchAPI.ts#L13)
+Defined in: [lib/search/SearchAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L23)

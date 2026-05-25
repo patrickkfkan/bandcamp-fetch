@@ -1,4 +1,4 @@
-[**bandcamp-fetch**](../README.md) • **Docs**
+[**bandcamp-fetch**](../README.md)
 
 ***
 
@@ -6,11 +6,15 @@
 
 # Interface: ArticleSection
 
+Defined in: [lib/types/Article.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L41)
+
 ## Properties
 
 ### heading?
 
-> `optional` **heading**: `object`
+> `optional` **heading?**: `object`
+
+Defined in: [lib/types/Article.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L42)
 
 #### html
 
@@ -20,29 +24,21 @@
 
 > **text**: `string`
 
-#### Defined in
-
-[lib/types/Article.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Article.ts#L42)
-
 ***
 
 ### html
 
 > **html**: `string`
 
-#### Defined in
-
-[lib/types/Article.ts:46](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Article.ts#L46)
+Defined in: [lib/types/Article.ts:46](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L46)
 
 ***
 
 ### mediaItemRef?
 
-> `optional` **mediaItemRef**: `string`
+> `optional` **mediaItemRef?**: `string`
 
-#### Defined in
-
-[lib/types/Article.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Article.ts#L48)
+Defined in: [lib/types/Article.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L48)
 
 ***
 
@@ -50,6 +46,4 @@
 
 > **text**: `string`
 
-#### Defined in
-
-[lib/types/Article.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/bd8d8dd0f8cf5b93d0ef45a4dec7c982f2ecc2cd/src/lib/types/Article.ts#L47)
+Defined in: [lib/types/Article.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L47)
