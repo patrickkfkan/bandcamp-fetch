@@ -25,7 +25,7 @@ npm i bandcamp-fetch --save
 
 # Usage
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const results = await bcfetch.discovery.discover(...);
@@ -35,7 +35,7 @@ const results = await bcfetch.discovery.discover(...);
 
 When you sign into Bandcamp, a "Cookie" is created to identify the user session. You can pass the value of this cookie to the library and gain access to your private collection as well as high-quality MP3 streams of purchased media:
 
-```
+```javascript
 bcfetch.setCookie('xxxx');
 
 const album = await bcfetch.album.getInfo({
@@ -55,14 +55,14 @@ Guide: [How to obtain Cookie](https://github.com/patrickkfkan/bandcamp-fetch/wik
 
 The library exports a default [BandcampFetch](./docs/api/classes/BandcampFetch.md) instance mainly for backward compatibility with previous versions:
 
-```
+```javascript
 // Imports the default `BandcampFetch` instance
 import bcfetch from 'bandcamp-fetch';
 ```
 
 You can also create separate instances. This is useful when you want to support multiple user sessions:
 
-```
+```javascript
 import { BandcampFetch } from 'bandcamp-fetch';
 
 const bcfetch1 = new BandcampFetch({
@@ -81,7 +81,7 @@ bcfetch2.setCookie('yyyy'); // Cookie for user sesion 2
 
 To access the Discovery API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const discovery = bcfetch.discovery;
@@ -123,7 +123,7 @@ Promise resolving to [DiscoverResult](docs/api/interfaces/DiscoverResult.md).
 
 Check the `continuation` property of the returned result to see if more results are available. To obtain the next set of results, pass the value of `continuation` to `discover()`:
 
-```
+```javascript
 const results = await discovery.discover(...);
 
 // More results
@@ -194,7 +194,7 @@ Promise resolving to [TagsAndLocations](docs/api/interfaces/TagsAndLocations.md)
 
 To access the Image API:
 
-```
+```javascript
 import bcfetch, { ImageFormatFilter } from 'bandcamp-fetch';
 
 const image = bcfetch.image;
@@ -247,7 +247,7 @@ Promise resolving to matching [ImageFormat](docs/api/interfaces/ImageFormat.md),
 
 A band can be an artist or label. To access the Band API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const band = bcfetch.band;
@@ -334,7 +334,7 @@ Promise resolving to Array<[Album](docs/api/interfaces/Album.md) | [Track](docs/
 
 To access the Album API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const album = bcfetch.album;
@@ -373,7 +373,7 @@ Promise resolving to [Album](docs/api/interfaces/Album.md).
 
 To access the Track API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const track = bcfetch.track;
@@ -412,7 +412,7 @@ Promise resolving to [Track](docs/api/interfaces/Track.md).
 
 To access the Tag API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const tags = await bcfetch.tag.getRelated(...);
@@ -447,7 +447,7 @@ Promise resolving to [RelatedTags](docs/api/interfaces/RelatedTags.md), which ha
 
 To access the Show API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const show = bcfetch.show;
@@ -506,7 +506,7 @@ Promise resolving to [Show](docs/api/interfaces/Show.md).
 
 To access the Article API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const article = bcfetch.article;
@@ -580,7 +580,7 @@ Promise resolving to [Article](docs/api/interfaces/Article.md).
 
 To access the Fan API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const fan = bcfetch.fan;
@@ -712,7 +712,7 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 
 To access the Search API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const search = bcfetch.search;
@@ -762,7 +762,7 @@ You can use the `type` property to determine the search result item type.
 
 To access the Autocomplete API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const autocomplete = bcfetch.autocomplete;
@@ -803,7 +803,7 @@ Stream URLs returned by Bandcamp can sometimes be invalid (perhaps expired). Bef
 
 To access the Stream API:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 const stream = bcfetch.stream;
@@ -867,7 +867,7 @@ Rate limiting is useful when you need to make a large number of queries and don'
 
 Each API has a limiter-enabled counterpart which you can access in the following manner:
 
-```
+```javascript
 import bcfetch from 'bandcamp-fetch';
 
 // Album API - no limiter enabled
@@ -881,7 +881,7 @@ const limiterAlbumAPI = bcfetch.limiter.album;
 
 The library uses [Bottleneck](https://www.npmjs.com/package/bottleneck) for rate limiting. You can configure the rate limiter like this:
 
-```
+```javascript
 bcfetch.limiter.updateSettings({
     maxConcurrent: 10,  // default: 5
     minTime: 100        // default: 200
@@ -899,7 +899,7 @@ Each `BandcampFetch` instance has an in-memory cache for two types of data (as d
 
 To access the cache:
 
-```
+```javascript
 import bcfetch, { CacheDataType } from 'bandcamp-fetch';
 
 const cache = bcfetch.cache;
@@ -953,7 +953,7 @@ cache.setTTL(CacheDataType.Page, 500);
 
 Capture debug messages by enabling logging:
 
-```
+```javascript
 // Define logger
 const logger = {
     debug: (...args) => console.debug('[DEBUG]'.padEnd(10), ...args),
