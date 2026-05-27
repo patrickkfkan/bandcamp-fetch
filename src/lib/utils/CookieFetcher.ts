@@ -20,7 +20,8 @@ export default class CookieFetcher {
       ]
     });
 
-    const page = await browser.newPage();
+    const context = await browser.createBrowserContext();
+    const page = await context.newPage();
     await page.setUserAgent({
       userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     });
