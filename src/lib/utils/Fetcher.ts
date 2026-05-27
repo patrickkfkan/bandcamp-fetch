@@ -108,31 +108,32 @@ export default class Fetcher {
             return;
           }
           if (requireCookie) {
-            const cachedAnonymousCookie = this.#cache.get<string | null>(CacheDataType.Constants, 'anonymousCookie');
+            const cachedAnonymousCookie = this.#cache.get<Promise<string | null>>(CacheDataType.Constants, 'anonymousCookie');
             if (cachedAnonymousCookie === undefined) {
               this.#logger.debug(`Fetcher: ${method} [${url}] requires cookie but none is set; attempting to fetch anonymous cookie`);
               try {
-                const anonymousCookie = await CookieFetcher.getAnonymousCookie(this.#logger);
-                this.#cache.put(CacheDataType.Constants, 'anonymousCookie', anonymousCookie);
+                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie(this.#logger);
+                this.#cache.put(CacheDataType.Constants, 'anonymousCookie', anonymousCookiePromise);
+                const anonymousCookie = await anonymousCookiePromise;
                 this.#logger.debug(`Fetcher: anonymous cookie fetched successfully`);
                 request.headers.set('Cookie', anonymousCookie);
+                return;
               }
               catch (error) {
+                this.#cache.put(CacheDataType.Constants, 'anonymousCookie', Promise.resolve(null));
                 throw new FetchError({
                   message: 'Cookie required but not available, and attempt to fetch anonymous cookie failed with error.',
                   cause: error
                 });  
               }
             }
-            else if (cachedAnonymousCookie === null) {
+            const anonymousCookie = await cachedAnonymousCookie;
+            if (anonymousCookie === null) {
               throw new FetchError({
                 message: 'Cookie required but not available, and previous attempt to fetch anonymous cookie failed.'
               });
             }
-            else {
-              request.headers.set('Cookie', cachedAnonymousCookie);
-              return;
-            }
+            request.headers.set('Cookie', anonymousCookie);
           }
         };
 
