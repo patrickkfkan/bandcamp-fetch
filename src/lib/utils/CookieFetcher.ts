@@ -48,7 +48,7 @@ export default class CookieFetcher {
         .map(cookie => `${cookie.name}=${cookie.value}`)
         .join('; ');
 
-      logger.debug(`CookieFetcher: anonymous cookie: ${cookieString}`);
+      logger.debug(`CookieFetcher: anonymous cookie: ${cookieString.replace(/=([^;]+)/g, '=...')}`);
 
       return cookieString;
     } finally {
