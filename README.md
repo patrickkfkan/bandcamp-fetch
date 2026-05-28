@@ -19,19 +19,27 @@ Packaged as ESM + CJS hybrid module with typings.
 
 # Installation
 
-```
-npm i bandcamp-fetch --save
+```bash
+npm i --save bandcamp-fetch
 ```
 
 ### Optional packages
 
-The search function requires a cookie to work (see [User Sessions](#user-sessions)). If you do not provide one, the library can obtain one automatically if you have `puppeteer` installed. For reliable anti-bot evasion, it is highly recommended to also install `puppeteer-extra` and `puppeteer-extra-plugin-stealth`:
+The above command will install the following optional packages:
 
 ```
-npm i puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
+puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
 ```
- Refer to [Search API](#search-api) for more information.
 
+These packages enable automated cookie fetching, which is performed when utilizing [search functions](#search-api) without [setting a cookie](#user-sessions).
+
+You can skip the installation of these optional packages:
+
+```bash
+npm i --save --omit=optional bandcamp-fetch
+```
+
+Be aware that, without at least the `puppeteer` package, performing searches without a cookie will result in an error.
 
 # Usage
 
