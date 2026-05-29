@@ -58,6 +58,7 @@
     "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0",
     "html-entities": "^2.5.2",
+    "load-esm": "^1.0.3",
     "node-cache": "^5.1.2"
   },
   "keywords": [

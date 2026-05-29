@@ -1,5 +1,10 @@
-import type { Page } from 'puppeteer';
+import type { PuppeteerNode, Page } from 'puppeteer';
+import type { PuppeteerExtra } from 'puppeteer-extra';
+import type StealthPlugin from 'puppeteer-extra-plugin-stealth'
+import loadEsmPkg from 'load-esm';
 import { type Logger } from './Logger.js';
+
+const { loadEsm } = loadEsmPkg;
 
 export default class CookieFetcher {
   /**
@@ -62,21 +67,32 @@ export default class CookieFetcher {
    * @returns 
    */
   static async #getPuppeteer(logger: Logger) {
-    let puppeteer;
-    let puppeteerExtra;
-    let stealth;
+    let puppeteer: PuppeteerNode | null;
+    let puppeteerExtra: PuppeteerExtra | null = null;
+    let stealth: typeof StealthPlugin | null;
     try {
-      logger.debug('CookieFetcher: attempting to import puppeteer-extra');
-      puppeteerExtra = (await import('puppeteer-extra')).default;
+      logger.debug('CookieFetcher: attempting to import puppeteer');
+      puppeteer = (await loadEsm('puppeteer')).default;
     }
     catch (error) {
-      logger.debug(`CookieFetcher: failed to import puppeteer-extra: ${ this.#getErrorMessage(error) }`);
-      puppeteerExtra = null;
+      logger.debug(`CookieFetcher: failed to import puppeteer: ${ this.#getErrorMessage(error) }`);
+      puppeteer = null;
+    }
+    if (puppeteer) {
+      try {
+        logger.debug('CookieFetcher: attempting to import puppeteer-extra');
+        const { addExtra } = (await loadEsm('puppeteer-extra'));
+        puppeteerExtra = addExtra(puppeteer);
+      }
+      catch (error) {
+        logger.debug(`CookieFetcher: failed to import puppeteer-extra: ${ this.#getErrorMessage(error) }`);
+        puppeteerExtra = null;
+      }
     }
     if (puppeteerExtra) {
       try {
         logger.debug('CookieFetcher: attempting to import puppeteer-extra-plugin-stealth');
-        stealth = (await import('puppeteer-extra-plugin-stealth')).default;
+        stealth = (await loadEsm('puppeteer-extra-plugin-stealth')).default;
       }
       catch (error) {
         logger.debug(`CookieFetcher: failed to import puppeteer-extra-plugin-stealth: ${ this.#getErrorMessage(error) }`);
@@ -87,14 +103,6 @@ export default class CookieFetcher {
       }
       logger.debug(`CookieFetcher: using puppeteer-extra${stealth ? ' with stealth plugin' : ''} for anonymous cookie fetching`);
       return puppeteerExtra;
-    }
-    try {
-      logger.debug('CookieFetcher: attempting to import puppeteer');
-      puppeteer = (await import('puppeteer')).default;
-    }
-    catch (error) {
-      logger.debug(`CookieFetcher: failed to import puppeteer: ${ this.#getErrorMessage(error) }`);
-      puppeteer = null;
     }
     if (puppeteer) {
       logger.debug('CookieFetcher: using puppeteer for anonymous cookie fetching');
