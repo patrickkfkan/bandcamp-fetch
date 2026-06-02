@@ -14,6 +14,7 @@ export { default as TrackAPI } from './lib/track/TrackAPI.js';
 export { default as SearchAPI } from './lib/search/SearchAPI.js';
 export { default as AutocompleteAPI } from './lib/autocomplete/AutocompleteAPI.js';
 export { default as StreamAPI } from './lib/stream/StreamAPI.js';
+export { default as PlaylistAPI } from './lib/playlist/PlaylistAPI.js';
 
 export * from './lib/common/BaseAPI.js';
 export * from './lib/common/BaseAPIWithImageSupport.js';
@@ -30,6 +31,7 @@ export * from './lib/album/AlbumAPI.js';
 export * from './lib/search/SearchAPI.js';
 export * from './lib/autocomplete/AutocompleteAPI.js';
 export * from './lib/stream/StreamAPI.js';
+export * from './lib/playlist/PlaylistAPI.js';
 
 export * from './lib/types/Album.js';
 export * from './lib/types/Shirt.js';
@@ -46,6 +48,7 @@ export * from './lib/types/Track.js';
 export * from './lib/types/UserKind.js';
 export * from './lib/types/Search.js';
 export * from './lib/types/Autocomplete.js';
+export * from './lib/types/Playlist.js';
 
 export { default as Cache } from './lib/utils/Cache.js';
 export * from './lib/utils/Cache.js';
