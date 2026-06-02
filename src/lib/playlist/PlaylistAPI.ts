@@ -41,6 +41,10 @@ export type PlaylistAPIGetAdditionalTracksParams = (
       start?: never;
       fromId: number;
     }
+  | {
+      start?: never;
+      fromId?: never;
+    }
 ) & {
   playlist: Playlist;
   count?: number;
@@ -77,13 +81,14 @@ export default class PlaylistAPI extends BaseAPIWithImageSupport {
   async getAdditionalTracks(
     params: PlaylistAPIGetAdditionalTracksParams
   ): Promise<Playlist['tracks']> {
-    const { playlist, start, fromId, count = 0 } = params;
+    const { playlist, fromId, count = 0 } = params;
     if (playlist.additionalTrackIds.length === 0) {
       return [];
     }
 
+    const start = params.start !== undefined && params.start >= 0 ? params.start : undefined;
     const startIndex =
-      start ?? playlist.additionalTrackIds.findIndex((id) => id === fromId);
+      start ?? (fromId !== undefined ? playlist.additionalTrackIds.findIndex((id) => id === fromId) : 0);
     if (startIndex === -1) {
       throw new Error('fromId not found in playlist additionalTrackIds');
     }
@@ -92,7 +97,7 @@ export default class PlaylistAPI extends BaseAPIWithImageSupport {
       startIndex,
       count > 0 ? startIndex + count : undefined
     );
-    console.log('trackIds', trackIds, 'startIndesx:', startIndex, params);
+
     if (trackIds.length === 0) {
       return [];
     }
