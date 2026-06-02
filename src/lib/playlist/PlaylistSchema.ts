@@ -19,7 +19,7 @@ export const PlaylistTrackSchema = z.object({
   artistName: z.string(),
   duration: z.number(),
   artId: z.number().int(),
-  streamUrl: z.string().url()
+  streamUrl: z.string().url().nullable().optional()
 });
 
 export const PlaylistCuratorSchema = z.object({

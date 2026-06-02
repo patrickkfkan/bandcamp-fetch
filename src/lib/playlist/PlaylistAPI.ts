@@ -86,9 +86,15 @@ export default class PlaylistAPI extends BaseAPIWithImageSupport {
       return [];
     }
 
-    const start = params.start !== undefined && params.start >= 0 ? params.start : undefined;
+    const start =
+      params.start !== undefined && params.start >= 0 ?
+        params.start
+      : undefined;
     const startIndex =
-      start ?? (fromId !== undefined ? playlist.additionalTrackIds.findIndex((id) => id === fromId) : 0);
+      start ??
+      (fromId !== undefined ?
+        playlist.additionalTrackIds.findIndex((id) => id === fromId)
+      : 0);
     if (startIndex === -1) {
       throw new Error('fromId not found in playlist additionalTrackIds');
     }

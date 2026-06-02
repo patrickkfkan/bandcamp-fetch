@@ -60,6 +60,7 @@ export interface PlaylistTrack {
   duration: number;
   url: string;
   imageUrl: string | null;
+  streamUrl: string | null;
 }
 
 export interface PlaylistCurator {
