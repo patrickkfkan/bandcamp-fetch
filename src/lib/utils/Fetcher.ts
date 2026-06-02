@@ -108,29 +108,46 @@ export default class Fetcher {
             return;
           }
           if (requireCookie) {
-            const cachedAnonymousCookie = this.#cache.get<Promise<string | null>>(CacheDataType.Constants, 'anonymousCookie');
+            const cachedAnonymousCookie = this.#cache.get<
+              Promise<string | null>
+            >(CacheDataType.Constants, 'anonymousCookie');
             if (cachedAnonymousCookie === undefined) {
-              this.#logger.debug(`Fetcher: ${method} [${url}] requires cookie but none is set; attempting to fetch anonymous cookie`);
+              this.#logger.debug(
+                `Fetcher: ${method} [${url}] requires cookie but none is set; attempting to fetch anonymous cookie`
+              );
               try {
-                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie(this.#logger);
-                this.#cache.put(CacheDataType.Constants, 'anonymousCookie', anonymousCookiePromise);
+                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie(
+                  this.#logger
+                );
+                this.#cache.put(
+                  CacheDataType.Constants,
+                  'anonymousCookie',
+                  anonymousCookiePromise
+                );
                 const anonymousCookie = await anonymousCookiePromise;
-                this.#logger.debug(`Fetcher: anonymous cookie fetched successfully`);
+                this.#logger.debug(
+                  `Fetcher: anonymous cookie fetched successfully`
+                );
                 request.headers.set('Cookie', anonymousCookie);
                 return;
-              }
-              catch (error) {
-                this.#cache.put(CacheDataType.Constants, 'anonymousCookie', Promise.resolve(null));
+              } catch (error) {
+                this.#cache.put(
+                  CacheDataType.Constants,
+                  'anonymousCookie',
+                  Promise.resolve(null)
+                );
                 throw new FetchError({
-                  message: 'Cookie required but not available, and attempt to fetch anonymous cookie failed with error.',
+                  message:
+                    'Cookie required but not available, and attempt to fetch anonymous cookie failed with error.',
                   cause: error
-                });  
+                });
               }
             }
             const anonymousCookie = await cachedAnonymousCookie;
             if (anonymousCookie === null) {
               throw new FetchError({
-                message: 'Cookie required but not available, and previous attempt to fetch anonymous cookie failed.'
+                message:
+                  'Cookie required but not available, and previous attempt to fetch anonymous cookie failed.'
               });
             }
             request.headers.set('Cookie', anonymousCookie);

@@ -48,7 +48,13 @@ export default abstract class BaseAPI {
     payload?: Record<string, any>,
     requireCookie?: boolean
   ): Promise<any> {
-    return this.#fetcher.fetch(url, jsonResponse, method, payload, requireCookie);
+    return this.#fetcher.fetch(
+      url,
+      jsonResponse,
+      method,
+      payload,
+      requireCookie
+    );
   }
 
   protected get cache() {
