@@ -6,7 +6,7 @@
 
 # Interface: SearchResultFan
 
-Defined in: [lib/types/Search.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L42)
+Defined in: [lib/types/Search.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Search.ts#L42)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Search.ts:42](https://github.com/patrickkfkan/bandcamp-fe
 
 > `optional` **genre?**: `string`
 
-Defined in: [lib/types/Search.ts:44](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L44)
+Defined in: [lib/types/Search.ts:44](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Search.ts#L44)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [lib/types/Search.ts:44](https://github.com/patrickkfkan/bandcamp-fe
 
 > `optional` **imageUrl?**: `string`
 
-Defined in: [lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L10)
+Defined in: [lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Search.ts#L10)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fe
 
 > **name**: `string`
 
-Defined in: [lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L8)
+Defined in: [lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Search.ts#L8)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fet
 
 > **type**: `"fan"`
 
-Defined in: [lib/types/Search.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L43)
+Defined in: [lib/types/Search.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Search.ts#L43)
 
 #### Overrides
 
@@ -62,7 +62,7 @@ Defined in: [lib/types/Search.ts:43](https://github.com/patrickkfkan/bandcamp-fe
 
 > **url**: `string`
 
-Defined in: [lib/types/Search.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Search.ts#L9)
+Defined in: [lib/types/Search.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Search.ts#L9)
 
 #### Inherited from
 

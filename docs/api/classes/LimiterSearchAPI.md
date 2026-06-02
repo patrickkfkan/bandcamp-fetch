@@ -6,7 +6,7 @@
 
 # Class: LimiterSearchAPI
 
-Defined in: [lib/search/SearchAPI.ts:124](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L124)
+Defined in: [lib/search/SearchAPI.ts:130](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L130)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/search/SearchAPI.ts:124](https://github.com/patrickkfkan/bandca
 
 > **new LimiterSearchAPI**(`params`): `LimiterSearchAPI`
 
-Defined in: [lib/search/SearchAPI.ts:127](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L127)
+Defined in: [lib/search/SearchAPI.ts:133](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L133)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [lib/search/SearchAPI.ts:127](https://github.com/patrickkfkan/bandca
 
 > **get** `protected` **cache**(): [`Cache`](Cache.md)
 
-Defined in: [lib/common/BaseAPI.ts:54](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L54)
+Defined in: [lib/common/BaseAPI.ts:60](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L60)
 
 ##### Returns
 
@@ -60,7 +60,7 @@ Defined in: [lib/common/BaseAPI.ts:54](https://github.com/patrickkfkan/bandcamp-
 
 > **get** **imageAPI**(): [`ImageAPI`](ImageAPI.md)
 
-Defined in: [lib/common/BaseAPIWithImageSupport.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPIWithImageSupport.ts#L16)
+Defined in: [lib/common/BaseAPIWithImageSupport.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPIWithImageSupport.ts#L16)
 
 ##### Returns
 
@@ -78,7 +78,7 @@ Defined in: [lib/common/BaseAPIWithImageSupport.ts:16](https://github.com/patric
 
 > **get** `protected` **logger**(): [`Logger`](../interfaces/Logger.md)
 
-Defined in: [lib/common/BaseAPI.ts:58](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L58)
+Defined in: [lib/common/BaseAPI.ts:64](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L64)
 
 ##### Returns
 
@@ -94,7 +94,7 @@ Defined in: [lib/common/BaseAPI.ts:58](https://github.com/patrickkfkan/bandcamp-
 
 > **albums**(`params`): `Promise`\<[`SearchResults`](../interfaces/SearchResults.md)\<[`SearchResultAlbum`](../interfaces/SearchResultAlbum.md)\>\>
 
-Defined in: [lib/search/SearchAPI.ts:144](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L144)
+Defined in: [lib/search/SearchAPI.ts:150](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L150)
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: [lib/search/SearchAPI.ts:144](https://github.com/patrickkfkan/bandca
 
 > **all**(`params`): `Promise`\<[`SearchResults`](../interfaces/SearchResults.md)\<[`SearchResultAny`](../type-aliases/SearchResultAny.md)\>\>
 
-Defined in: [lib/search/SearchAPI.ts:132](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L132)
+Defined in: [lib/search/SearchAPI.ts:138](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L138)
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: [lib/search/SearchAPI.ts:132](https://github.com/patrickkfkan/bandca
 
 > **artistsAndLabels**(`params`): `Promise`\<[`SearchResults`](../interfaces/SearchResults.md)\<[`SearchResultArtist`](../interfaces/SearchResultArtist.md) \| [`SearchResultLabel`](../interfaces/SearchResultLabel.md)\>\>
 
-Defined in: [lib/search/SearchAPI.ts:138](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L138)
+Defined in: [lib/search/SearchAPI.ts:144](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L144)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [lib/search/SearchAPI.ts:138](https://github.com/patrickkfkan/bandca
 
 > **fans**(`params`): `Promise`\<[`SearchResults`](../interfaces/SearchResults.md)\<[`SearchResultFan`](../interfaces/SearchResultFan.md)\>\>
 
-Defined in: [lib/search/SearchAPI.ts:156](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L156)
+Defined in: [lib/search/SearchAPI.ts:162](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L162)
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: [lib/search/SearchAPI.ts:156](https://github.com/patrickkfkan/bandca
 
 > `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`, `requireCookie?`): `Promise`\<\{ `ok`: `boolean`; `status`: `number`; \}\>
 
-Defined in: [lib/common/BaseAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L23)
+Defined in: [lib/common/BaseAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L23)
 
 ##### Parameters
 
@@ -220,7 +220,7 @@ Defined in: [lib/common/BaseAPI.ts:23](https://github.com/patrickkfkan/bandcamp-
 
 > `protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`any`\>
 
-Defined in: [lib/common/BaseAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L30)
+Defined in: [lib/common/BaseAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L30)
 
 ##### Parameters
 
@@ -256,7 +256,7 @@ Defined in: [lib/common/BaseAPI.ts:30](https://github.com/patrickkfkan/bandcamp-
 
 > `protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`, `requireCookie?`): `Promise`\<`string`\>
 
-Defined in: [lib/common/BaseAPI.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L37)
+Defined in: [lib/common/BaseAPI.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L37)
 
 ##### Parameters
 
@@ -294,7 +294,7 @@ Defined in: [lib/common/BaseAPI.ts:37](https://github.com/patrickkfkan/bandcamp-
 
 > **tracks**(`params`): `Promise`\<[`SearchResults`](../interfaces/SearchResults.md)\<[`SearchResultTrack`](../interfaces/SearchResultTrack.md)\>\>
 
-Defined in: [lib/search/SearchAPI.ts:150](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L150)
+Defined in: [lib/search/SearchAPI.ts:156](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L156)
 
 #### Parameters
 

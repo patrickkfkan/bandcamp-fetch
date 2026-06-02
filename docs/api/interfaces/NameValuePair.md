@@ -6,7 +6,7 @@
 
 # Interface: NameValuePair\<T\>
 
-Defined in: [lib/utils/NameValuePair.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/NameValuePair.ts#L1)
+Defined in: [lib/utils/NameValuePair.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/NameValuePair.ts#L1)
 
 ## Extended by
 
@@ -24,7 +24,7 @@ Defined in: [lib/utils/NameValuePair.ts:1](https://github.com/patrickkfkan/bandc
 
 > **name**: `string`
 
-Defined in: [lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/NameValuePair.ts#L2)
+Defined in: [lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/NameValuePair.ts#L2)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandc
 
 > **value**: `T`
 
-Defined in: [lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/NameValuePair.ts#L3)
+Defined in: [lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/NameValuePair.ts#L3)

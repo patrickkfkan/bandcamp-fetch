@@ -6,7 +6,7 @@
 
 # Enumeration: ImageFormatFilter
 
-Defined in: [lib/image/ImageAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/image/ImageAPI.ts#L8)
+Defined in: [lib/image/ImageAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/image/ImageAPI.ts#L8)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [lib/image/ImageAPI.ts:8](https://github.com/patrickkfkan/bandcamp-f
 
 > **Album**: `"album"`
 
-Defined in: [lib/image/ImageAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/image/ImageAPI.ts#L10)
+Defined in: [lib/image/ImageAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/image/ImageAPI.ts#L10)
 
 Album image formats
 
@@ -24,6 +24,6 @@ Album image formats
 
 > **Bio**: `"bio"`
 
-Defined in: [lib/image/ImageAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/image/ImageAPI.ts#L12)
+Defined in: [lib/image/ImageAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/image/ImageAPI.ts#L12)
 
 Artist / Profile image formats

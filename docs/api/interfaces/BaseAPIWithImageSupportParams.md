@@ -6,7 +6,7 @@
 
 # Interface: BaseAPIWithImageSupportParams
 
-Defined in: [lib/common/BaseAPIWithImageSupport.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPIWithImageSupport.ts#L4)
+Defined in: [lib/common/BaseAPIWithImageSupport.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPIWithImageSupport.ts#L4)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/common/BaseAPIWithImageSupport.ts:4](https://github.com/patrick
 
 > **cache**: [`Cache`](../classes/Cache.md)
 
-Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L8)
+Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L8)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-f
 
 > **fetcher**: [`Fetcher`](../classes/Fetcher.md)
 
-Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L7)
+Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L7)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-f
 
 > **imageAPI**: [`ImageAPI`](../classes/ImageAPI.md)
 
-Defined in: [lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPIWithImageSupport.ts#L5)
+Defined in: [lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPIWithImageSupport.ts#L5)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrick
 
 > **logger**: [`Logger`](Logger.md)
 
-Defined in: [lib/common/BaseAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L9)
+Defined in: [lib/common/BaseAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L9)
 
 #### Inherited from
 

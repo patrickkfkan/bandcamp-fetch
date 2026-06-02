@@ -6,7 +6,7 @@
 
 # Interface: Show
 
-Defined in: [lib/types/Show.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L3)
+Defined in: [lib/types/Show.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/types/Show.ts:3](https://github.com/patrickkfkan/bandcamp-fetch
 
 > **description**: `string`
 
-Defined in: [lib/types/Show.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L8)
+Defined in: [lib/types/Show.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L8)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/types/Show.ts:8](https://github.com/patrickkfkan/bandcamp-fetch
 
 > `optional` **duration?**: `number`
 
-Defined in: [lib/types/Show.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L10)
+Defined in: [lib/types/Show.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L10)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/types/Show.ts:10](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **imageCaption**: `string`
 
-Defined in: [lib/types/Show.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L13)
+Defined in: [lib/types/Show.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L13)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Show.ts:13](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **imageUrl?**: `string`
 
-Defined in: [lib/types/Show.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L15)
+Defined in: [lib/types/Show.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L15)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [lib/types/Show.ts:15](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **name**: `string`
 
-Defined in: [lib/types/Show.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L5)
+Defined in: [lib/types/Show.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L5)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [lib/types/Show.ts:5](https://github.com/patrickkfkan/bandcamp-fetch
 
 > **publishedDate**: `string`
 
-Defined in: [lib/types/Show.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L7)
+Defined in: [lib/types/Show.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L7)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [lib/types/Show.ts:7](https://github.com/patrickkfkan/bandcamp-fetch
 
 > **screenImageUrl**: `string`
 
-Defined in: [lib/types/Show.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L16)
+Defined in: [lib/types/Show.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L16)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [lib/types/Show.ts:16](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **shortDescription?**: `string`
 
-Defined in: [lib/types/Show.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L9)
+Defined in: [lib/types/Show.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L9)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [lib/types/Show.ts:9](https://github.com/patrickkfkan/bandcamp-fetch
 
 > `optional` **streamUrl?**: `string`
 
-Defined in: [lib/types/Show.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L11)
+Defined in: [lib/types/Show.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L11)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [lib/types/Show.ts:11](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **subtitle?**: `string`
 
-Defined in: [lib/types/Show.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L14)
+Defined in: [lib/types/Show.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L14)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [lib/types/Show.ts:14](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **tracks?**: `Omit`\<[`Track`](Track.md), `"type"`\>[]
 
-Defined in: [lib/types/Show.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L12)
+Defined in: [lib/types/Show.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L12)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [lib/types/Show.ts:12](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **type**: `"show"`
 
-Defined in: [lib/types/Show.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L4)
+Defined in: [lib/types/Show.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L4)
 
 ***
 
@@ -110,4 +110,4 @@ Defined in: [lib/types/Show.ts:4](https://github.com/patrickkfkan/bandcamp-fetch
 
 > **url**: `string`
 
-Defined in: [lib/types/Show.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Show.ts#L6)
+Defined in: [lib/types/Show.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Show.ts#L6)

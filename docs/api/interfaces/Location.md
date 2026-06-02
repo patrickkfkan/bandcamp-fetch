@@ -6,7 +6,7 @@
 
 # Interface: Location
 
-Defined in: [lib/types/Discovery.ts:85](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L85)
+Defined in: [lib/types/Discovery.ts:85](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L85)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Discovery.ts:85](https://github.com/patrickkfkan/bandcamp
 
 > **name**: `string`
 
-Defined in: [lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/NameValuePair.ts#L2)
+Defined in: [lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/NameValuePair.ts#L2)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandc
 
 > **type**: `"location"`
 
-Defined in: [lib/types/Discovery.ts:86](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L86)
+Defined in: [lib/types/Discovery.ts:86](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L86)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Discovery.ts:86](https://github.com/patrickkfkan/bandcamp
 
 > **value**: `number`
 
-Defined in: [lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/NameValuePair.ts#L3)
+Defined in: [lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/NameValuePair.ts#L3)
 
 #### Inherited from
 

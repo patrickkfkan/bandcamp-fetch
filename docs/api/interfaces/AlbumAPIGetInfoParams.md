@@ -6,7 +6,7 @@
 
 # Interface: AlbumAPIGetInfoParams
 
-Defined in: [lib/album/AlbumAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/album/AlbumAPI.ts#L9)
+Defined in: [lib/album/AlbumAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/album/AlbumAPI.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/album/AlbumAPI.ts:9](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **albumImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/album/AlbumAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/album/AlbumAPI.ts#L11)
+Defined in: [lib/album/AlbumAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/album/AlbumAPI.ts#L11)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/album/AlbumAPI.ts:11](https://github.com/patrickkfkan/bandcamp-
 
 > **albumUrl**: `string`
 
-Defined in: [lib/album/AlbumAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/album/AlbumAPI.ts#L10)
+Defined in: [lib/album/AlbumAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/album/AlbumAPI.ts#L10)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/album/AlbumAPI.ts:10](https://github.com/patrickkfkan/bandcamp-
 
 > `optional` **artistImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/album/AlbumAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/album/AlbumAPI.ts#L12)
+Defined in: [lib/album/AlbumAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/album/AlbumAPI.ts#L12)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [lib/album/AlbumAPI.ts:12](https://github.com/patrickkfkan/bandcamp-
 
 > `optional` **includeRawData?**: `boolean`
 
-Defined in: [lib/album/AlbumAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/album/AlbumAPI.ts#L13)
+Defined in: [lib/album/AlbumAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/album/AlbumAPI.ts#L13)

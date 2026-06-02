@@ -6,7 +6,7 @@
 
 # Interface: BandAPIGetLabelArtistsParams
 
-Defined in: [lib/band/BandAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/band/BandAPI.ts#L27)
+Defined in: [lib/band/BandAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/band/BandAPI.ts#L27)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/band/BandAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fe
 
 > `optional` **imageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/band/BandAPI.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/band/BandAPI.ts#L29)
+Defined in: [lib/band/BandAPI.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/band/BandAPI.ts#L29)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [lib/band/BandAPI.ts:29](https://github.com/patrickkfkan/bandcamp-fe
 
 > **labelUrl**: `string`
 
-Defined in: [lib/band/BandAPI.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/band/BandAPI.ts#L28)
+Defined in: [lib/band/BandAPI.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/band/BandAPI.ts#L28)

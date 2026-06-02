@@ -6,7 +6,7 @@
 
 # Interface: DiscoverResultContinuation
 
-Defined in: [lib/types/Discovery.ts:78](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L78)
+Defined in: [lib/types/Discovery.ts:78](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L78)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Discovery.ts:78](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **albumImageFormat?**: [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/types/Discovery.ts:80](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L80)
+Defined in: [lib/types/Discovery.ts:80](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L80)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [lib/types/Discovery.ts:80](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **artistImageFormat?**: [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/types/Discovery.ts:81](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L81)
+Defined in: [lib/types/Discovery.ts:81](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L81)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [lib/types/Discovery.ts:81](https://github.com/patrickkfkan/bandcamp
 
 > **category**: `number`
 
-Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L30)
+Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L30)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp
 
 > **cursor**: `string`
 
-Defined in: [lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L79)
+Defined in: [lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L79)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **customTags?**: `string`[]
 
-Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L34)
+Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L34)
 
 #### Inherited from
 
@@ -66,7 +66,7 @@ Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **genre?**: `string`
 
-Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L28)
+Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L28)
 
 #### Inherited from
 
@@ -78,7 +78,7 @@ Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp
 
 > **location**: `number`
 
-Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L32)
+Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L32)
 
 #### Inherited from
 
@@ -90,7 +90,7 @@ Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **merchImageFormat?**: [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/types/Discovery.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L82)
+Defined in: [lib/types/Discovery.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L82)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [lib/types/Discovery.ts:82](https://github.com/patrickkfkan/bandcamp
 
 > **size**: `number`
 
-Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L35)
+Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L35)
 
 #### Inherited from
 
@@ -110,7 +110,7 @@ Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp
 
 > **sortBy**: `string`
 
-Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L31)
+Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L31)
 
 #### Inherited from
 
@@ -122,7 +122,7 @@ Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **subgenre?**: `string`
 
-Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L29)
+Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L29)
 
 #### Inherited from
 
@@ -134,7 +134,7 @@ Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp
 
 > **time**: `number`
 
-Defined in: [lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L33)
+Defined in: [lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L33)
 
 #### Inherited from
 

@@ -6,7 +6,7 @@
 
 # Interface: ImageConstants
 
-Defined in: [lib/types/Image.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L9)
+Defined in: [lib/types/Image.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/types/Image.ts:9](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **baseUrl**: `string`
 
-Defined in: [lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L10)
+Defined in: [lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L10)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fet
 
 > **formats**: [`ImageFormat`](ImageFormat.md)[]
 
-Defined in: [lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L11)
+Defined in: [lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L11)

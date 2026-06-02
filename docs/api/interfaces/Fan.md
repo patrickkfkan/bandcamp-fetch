@@ -6,7 +6,7 @@
 
 # Interface: Fan
 
-Defined in: [lib/types/Fan.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L3)
+Defined in: [lib/types/Fan.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L3)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Fan.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/
 
 > **collectionItemCount**: `number`
 
-Defined in: [lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L10)
+Defined in: [lib/types/Fan.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch
 
 > `optional` **description?**: `string`
 
-Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L3)
+Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L3)
 
 #### Inherited from
 
@@ -34,11 +34,19 @@ Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-f
 
 ***
 
+### fanId
+
+> **fanId**: `number`
+
+Defined in: [lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L5)
+
+***
+
 ### followingArtistsAndLabelsCount
 
 > **followingArtistsAndLabelsCount**: `number`
 
-Defined in: [lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L8)
+Defined in: [lib/types/Fan.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L9)
 
 ***
 
@@ -46,7 +54,7 @@ Defined in: [lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/
 
 > **followingGenresCount**: `number`
 
-Defined in: [lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L7)
+Defined in: [lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L8)
 
 ***
 
@@ -54,7 +62,7 @@ Defined in: [lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/
 
 > `optional` **imageUrl?**: `string`
 
-Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L5)
+Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L5)
 
 #### Inherited from
 
@@ -66,7 +74,7 @@ Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **location?**: `string`
 
-Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L6)
+Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L6)
 
 #### Inherited from
 
@@ -78,7 +86,7 @@ Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-f
 
 > **name**: `string`
 
-Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L2)
+Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L2)
 
 #### Inherited from
 
@@ -90,7 +98,7 @@ Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-f
 
 > **type**: `"fan"`
 
-Defined in: [lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L4)
+Defined in: [lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L4)
 
 ***
 
@@ -98,7 +106,7 @@ Defined in: [lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/
 
 > `optional` **url?**: `string`
 
-Defined in: [lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L4)
+Defined in: [lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L4)
 
 #### Inherited from
 
@@ -110,7 +118,7 @@ Defined in: [lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-f
 
 > **username**: `string`
 
-Defined in: [lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L5)
+Defined in: [lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L6)
 
 ***
 
@@ -118,7 +126,7 @@ Defined in: [lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/
 
 > **websiteUrl**: `string`
 
-Defined in: [lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L6)
+Defined in: [lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L7)
 
 ***
 
@@ -126,4 +134,4 @@ Defined in: [lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/
 
 > **wishlistItemCount**: `number`
 
-Defined in: [lib/types/Fan.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Fan.ts#L9)
+Defined in: [lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Fan.ts#L10)

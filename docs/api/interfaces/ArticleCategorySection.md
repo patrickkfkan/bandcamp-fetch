@@ -6,7 +6,7 @@
 
 # Interface: ArticleCategorySection
 
-Defined in: [lib/types/Article.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L34)
+Defined in: [lib/types/Article.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L34)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/types/Article.ts:34](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **categories?**: [`ArticleCategory`](ArticleCategory.md)[]
 
-Defined in: [lib/types/Article.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L38)
+Defined in: [lib/types/Article.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L38)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/types/Article.ts:38](https://github.com/patrickkfkan/bandcamp-f
 
 > **name**: `string`
 
-Defined in: [lib/types/Article.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L35)
+Defined in: [lib/types/Article.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L35)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/types/Article.ts:35](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **sections?**: `ArticleCategorySection`[]
 
-Defined in: [lib/types/Article.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L37)
+Defined in: [lib/types/Article.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L37)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [lib/types/Article.ts:37](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **title?**: `string`
 
-Defined in: [lib/types/Article.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L36)
+Defined in: [lib/types/Article.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L36)

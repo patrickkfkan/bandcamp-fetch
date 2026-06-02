@@ -6,7 +6,7 @@
 
 # Interface: ShowAPIGetShowParams
 
-Defined in: [lib/show/ShowAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L12)
+Defined in: [lib/show/ShowAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/show/ShowAPI.ts#L12)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/show/ShowAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fe
 
 > `optional` **albumImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/show/ShowAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L14)
+Defined in: [lib/show/ShowAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/show/ShowAPI.ts#L14)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/show/ShowAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fe
 
 > `optional` **artistImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/show/ShowAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L15)
+Defined in: [lib/show/ShowAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/show/ShowAPI.ts#L15)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/show/ShowAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fe
 
 > `optional` **showImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/show/ShowAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L16)
+Defined in: [lib/show/ShowAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/show/ShowAPI.ts#L16)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [lib/show/ShowAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fe
 
 > **showUrl**: `string`
 
-Defined in: [lib/show/ShowAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/show/ShowAPI.ts#L13)
+Defined in: [lib/show/ShowAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/show/ShowAPI.ts#L13)

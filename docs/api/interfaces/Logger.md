@@ -6,7 +6,7 @@
 
 # Interface: Logger
 
-Defined in: [lib/utils/Logger.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Logger.ts#L1)
+Defined in: [lib/utils/Logger.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Logger.ts#L1)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/utils/Logger.ts:1](https://github.com/patrickkfkan/bandcamp-fet
 
 > **debug**: (`msg`) => `void`
 
-Defined in: [lib/utils/Logger.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Logger.ts#L4)
+Defined in: [lib/utils/Logger.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Logger.ts#L4)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [lib/utils/Logger.ts:4](https://github.com/patrickkfkan/bandcamp-fet
 
 > **error**: (`msg`) => `void`
 
-Defined in: [lib/utils/Logger.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Logger.ts#L5)
+Defined in: [lib/utils/Logger.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Logger.ts#L5)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [lib/utils/Logger.ts:5](https://github.com/patrickkfkan/bandcamp-fet
 
 > **info**: (`msg`) => `void`
 
-Defined in: [lib/utils/Logger.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Logger.ts#L2)
+Defined in: [lib/utils/Logger.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Logger.ts#L2)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [lib/utils/Logger.ts:2](https://github.com/patrickkfkan/bandcamp-fet
 
 > **warn**: (`msg`) => `void`
 
-Defined in: [lib/utils/Logger.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Logger.ts#L3)
+Defined in: [lib/utils/Logger.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Logger.ts#L3)
 
 #### Parameters
 

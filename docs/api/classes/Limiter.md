@@ -6,7 +6,7 @@
 
 # Class: Limiter
 
-Defined in: [lib/utils/Limiter.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L3)
+Defined in: [lib/utils/Limiter.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Limiter.ts#L3)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [lib/utils/Limiter.ts:3](https://github.com/patrickkfkan/bandcamp-fe
 
 > **new Limiter**(): `Limiter`
 
-Defined in: [lib/utils/Limiter.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L6)
+Defined in: [lib/utils/Limiter.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Limiter.ts#L6)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [lib/utils/Limiter.ts:6](https://github.com/patrickkfkan/bandcamp-fe
 
 > **schedule**\<`R`\>(`fn`): `Promise`\<`R`\>
 
-Defined in: [lib/utils/Limiter.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L17)
+Defined in: [lib/utils/Limiter.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Limiter.ts#L17)
 
 #### Type Parameters
 
@@ -50,7 +50,7 @@ Defined in: [lib/utils/Limiter.ts:17](https://github.com/patrickkfkan/bandcamp-f
 
 > **updateSettings**(`options?`): `void`
 
-Defined in: [lib/utils/Limiter.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Limiter.ts#L13)
+Defined in: [lib/utils/Limiter.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Limiter.ts#L13)
 
 #### Parameters
 

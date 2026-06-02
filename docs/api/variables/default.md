@@ -8,4 +8,4 @@
 
 > **default**: [`BandcampFetch`](../classes/BandcampFetch.md)
 
-Defined in: [index.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/index.ts#L73)
+Defined in: [index.ts:76](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/index.ts#L76)

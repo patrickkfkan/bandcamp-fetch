@@ -6,7 +6,7 @@
 
 # Class: FetchError
 
-Defined in: [lib/utils/Fetcher.ts:196](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L196)
+Defined in: [lib/utils/Fetcher.ts:214](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L214)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/utils/Fetcher.ts:196](https://github.com/patrickkfkan/bandcamp-
 
 > **new FetchError**(`payload`): `FetchError`
 
-Defined in: [lib/utils/Fetcher.ts:199](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L199)
+Defined in: [lib/utils/Fetcher.ts:217](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L217)
 
 #### Parameters
 
@@ -40,4 +40,4 @@ Defined in: [lib/utils/Fetcher.ts:199](https://github.com/patrickkfkan/bandcamp-
 
 > `optional` **code?**: `number`
 
-Defined in: [lib/utils/Fetcher.ts:197](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L197)
+Defined in: [lib/utils/Fetcher.ts:215](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L215)

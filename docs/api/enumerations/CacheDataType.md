@@ -6,7 +6,7 @@
 
 # Enumeration: CacheDataType
 
-Defined in: [lib/utils/Cache.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L3)
+Defined in: [lib/utils/Cache.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L3)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [lib/utils/Cache.ts:3](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **Constants**: `"Constants"`
 
-Defined in: [lib/utils/Cache.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L5)
+Defined in: [lib/utils/Cache.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L5)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [lib/utils/Cache.ts:5](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **Page**: `"Page"`
 
-Defined in: [lib/utils/Cache.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L4)
+Defined in: [lib/utils/Cache.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L4)

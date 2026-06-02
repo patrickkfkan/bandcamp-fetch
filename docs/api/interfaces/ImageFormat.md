@@ -6,7 +6,7 @@
 
 # Interface: ImageFormat
 
-Defined in: [lib/types/Image.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L1)
+Defined in: [lib/types/Image.ts:1](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L1)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/types/Image.ts:1](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **fileFormat**: `string`
 
-Defined in: [lib/types/Image.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L6)
+Defined in: [lib/types/Image.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/types/Image.ts:6](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **height**: `number`
 
-Defined in: [lib/types/Image.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L5)
+Defined in: [lib/types/Image.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L5)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/types/Image.ts:5](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **id**: `number`
 
-Defined in: [lib/types/Image.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L2)
+Defined in: [lib/types/Image.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L2)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Image.ts:2](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **name**: `string`
 
-Defined in: [lib/types/Image.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L3)
+Defined in: [lib/types/Image.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L3)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [lib/types/Image.ts:3](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **width**: `number`
 
-Defined in: [lib/types/Image.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Image.ts#L4)
+Defined in: [lib/types/Image.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Image.ts#L4)

@@ -6,7 +6,7 @@
 
 # Interface: Shirt
 
-Defined in: [lib/types/Shirt.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L3)
+Defined in: [lib/types/Shirt.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/types/Shirt.ts:3](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **artist?**: `Omit`\<[`Artist`](Artist.md), `"type"`\>
 
-Defined in: [lib/types/Shirt.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L16)
+Defined in: [lib/types/Shirt.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L16)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/types/Shirt.ts:16](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **imageUrl?**: `object`
 
-Defined in: [lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L7)
+Defined in: [lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L7)
 
 #### additional?
 
@@ -46,7 +46,7 @@ Use [additional](#imageurl) array instead.
 
 > **name**: `string`
 
-Defined in: [lib/types/Shirt.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L5)
+Defined in: [lib/types/Shirt.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L5)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [lib/types/Shirt.ts:5](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **releaseDate?**: `string`
 
-Defined in: [lib/types/Shirt.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L15)
+Defined in: [lib/types/Shirt.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L15)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [lib/types/Shirt.ts:15](https://github.com/patrickkfkan/bandcamp-fet
 
 > **type**: `"shirt"`
 
-Defined in: [lib/types/Shirt.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L4)
+Defined in: [lib/types/Shirt.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L4)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: [lib/types/Shirt.ts:4](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **url?**: `string`
 
-Defined in: [lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Shirt.ts#L6)
+Defined in: [lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Shirt.ts#L6)

@@ -6,7 +6,7 @@
 
 # Interface: BaseAPIParams
 
-Defined in: [lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L6)
+Defined in: [lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L6)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-f
 
 > **cache**: [`Cache`](../classes/Cache.md)
 
-Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L8)
+Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L8)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [lib/common/BaseAPI.ts:8](https://github.com/patrickkfkan/bandcamp-f
 
 > **fetcher**: [`Fetcher`](../classes/Fetcher.md)
 
-Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L7)
+Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L7)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-f
 
 > **logger**: [`Logger`](Logger.md)
 
-Defined in: [lib/common/BaseAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/common/BaseAPI.ts#L9)
+Defined in: [lib/common/BaseAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/common/BaseAPI.ts#L9)

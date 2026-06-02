@@ -6,7 +6,7 @@
 
 # Class: Cache
 
-Defined in: [lib/utils/Cache.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L8)
+Defined in: [lib/utils/Cache.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L8)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [lib/utils/Cache.ts:8](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **new Cache**(`ttl`, `maxEntries`): `Cache`
 
-Defined in: [lib/utils/Cache.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L13)
+Defined in: [lib/utils/Cache.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L13)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [lib/utils/Cache.ts:13](https://github.com/patrickkfkan/bandcamp-fet
 
 > **clear**(`type?`): `void`
 
-Defined in: [lib/utils/Cache.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L82)
+Defined in: [lib/utils/Cache.ts:82](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L82)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [lib/utils/Cache.ts:82](https://github.com/patrickkfkan/bandcamp-fet
 
 > **get**\<`T`\>(`type`, `key`): `T` \| `undefined`
 
-Defined in: [lib/utils/Cache.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L43)
+Defined in: [lib/utils/Cache.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L43)
 
 #### Type Parameters
 
@@ -82,7 +82,7 @@ Defined in: [lib/utils/Cache.ts:43](https://github.com/patrickkfkan/bandcamp-fet
 
 > **getKeys**(`type`): `string`[]
 
-Defined in: [lib/utils/Cache.ts:78](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L78)
+Defined in: [lib/utils/Cache.ts:78](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L78)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [lib/utils/Cache.ts:78](https://github.com/patrickkfkan/bandcamp-fet
 
 > **getMaxEntries**(`type`): `number`
 
-Defined in: [lib/utils/Cache.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L38)
+Defined in: [lib/utils/Cache.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L38)
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: [lib/utils/Cache.ts:38](https://github.com/patrickkfkan/bandcamp-fet
 
 > **getOrSet**\<`T`\>(`type`, `key`, `promiseCallback`): `Promise`\<`T`\>
 
-Defined in: [lib/utils/Cache.ts:92](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L92)
+Defined in: [lib/utils/Cache.ts:92](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L92)
 
 #### Type Parameters
 
@@ -150,7 +150,7 @@ Defined in: [lib/utils/Cache.ts:92](https://github.com/patrickkfkan/bandcamp-fet
 
 > **put**\<`T`\>(`type`, `key`, `value`): `boolean`
 
-Defined in: [lib/utils/Cache.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L48)
+Defined in: [lib/utils/Cache.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L48)
 
 #### Type Parameters
 
@@ -182,7 +182,7 @@ Defined in: [lib/utils/Cache.ts:48](https://github.com/patrickkfkan/bandcamp-fet
 
 > **reduceEntries**(`type`, `reduceTo?`): `void`
 
-Defined in: [lib/utils/Cache.ts:66](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L66)
+Defined in: [lib/utils/Cache.ts:66](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L66)
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: [lib/utils/Cache.ts:66](https://github.com/patrickkfkan/bandcamp-fet
 
 > **setMaxEntries**(`type`, `maxEntries`): `void`
 
-Defined in: [lib/utils/Cache.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L33)
+Defined in: [lib/utils/Cache.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L33)
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: [lib/utils/Cache.ts:33](https://github.com/patrickkfkan/bandcamp-fet
 
 > **setTTL**(`type`, `ttl`): `void`
 
-Defined in: [lib/utils/Cache.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Cache.ts#L24)
+Defined in: [lib/utils/Cache.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Cache.ts#L24)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ArticleSection
 
-Defined in: [lib/types/Article.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L41)
+Defined in: [lib/types/Article.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L41)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/types/Article.ts:41](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **heading?**: `object`
 
-Defined in: [lib/types/Article.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L42)
+Defined in: [lib/types/Article.ts:42](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L42)
 
 #### html
 
@@ -30,7 +30,7 @@ Defined in: [lib/types/Article.ts:42](https://github.com/patrickkfkan/bandcamp-f
 
 > **html**: `string`
 
-Defined in: [lib/types/Article.ts:46](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L46)
+Defined in: [lib/types/Article.ts:46](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L46)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Article.ts:46](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **mediaItemRef?**: `string`
 
-Defined in: [lib/types/Article.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L48)
+Defined in: [lib/types/Article.ts:48](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L48)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [lib/types/Article.ts:48](https://github.com/patrickkfkan/bandcamp-f
 
 > **text**: `string`
 
-Defined in: [lib/types/Article.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Article.ts#L47)
+Defined in: [lib/types/Article.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Article.ts#L47)

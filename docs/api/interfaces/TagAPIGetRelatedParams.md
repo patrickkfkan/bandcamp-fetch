@@ -6,7 +6,7 @@
 
 # Interface: TagAPIGetRelatedParams
 
-Defined in: [lib/tag/TagAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/tag/TagAPI.ts#L10)
+Defined in: [lib/tag/TagAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/tag/TagAPI.ts#L10)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/tag/TagAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **size?**: `number`
 
-Defined in: [lib/tag/TagAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/tag/TagAPI.ts#L12)
+Defined in: [lib/tag/TagAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/tag/TagAPI.ts#L12)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [lib/tag/TagAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **tags**: `string`[]
 
-Defined in: [lib/tag/TagAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/tag/TagAPI.ts#L11)
+Defined in: [lib/tag/TagAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/tag/TagAPI.ts#L11)

@@ -6,7 +6,7 @@
 
 # Interface: Artist
 
-Defined in: [lib/types/Artist.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L4)
+Defined in: [lib/types/Artist.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Artist.ts#L4)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Artist.ts:4](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **description?**: `string`
 
-Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L3)
+Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L3)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **genre?**: `string`
 
-Defined in: [lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L7)
+Defined in: [lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Artist.ts#L7)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Artist.ts:7](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **imageUrl?**: `string`
 
-Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L5)
+Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L5)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-f
 
 > `optional` **label?**: [`Label`](Label.md)
 
-Defined in: [lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L6)
+Defined in: [lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Artist.ts#L6)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [lib/types/Artist.ts:6](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **location?**: `string`
 
-Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L6)
+Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L6)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-f
 
 > **name**: `string`
 
-Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L2)
+Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L2)
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: [lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-f
 
 > **type**: `"artist"`
 
-Defined in: [lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Artist.ts#L5)
+Defined in: [lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Artist.ts#L5)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [lib/types/Artist.ts:5](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **url?**: `string`
 
-Defined in: [lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/UserKind.ts#L4)
+Defined in: [lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/UserKind.ts#L4)
 
 #### Inherited from
 

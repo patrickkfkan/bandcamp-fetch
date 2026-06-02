@@ -6,7 +6,7 @@
 
 # Interface: FanPageItemsResult\<T\>
 
-Defined in: [lib/fan/FanItemsBaseParser.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L18)
+Defined in: [lib/fan/FanItemsBaseParser.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/fan/FanItemsBaseParser.ts#L18)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [lib/fan/FanItemsBaseParser.ts:18](https://github.com/patrickkfkan/b
 
 > **continuation**: [`FanItemsContinuation`](FanItemsContinuation.md) \| `null`
 
-Defined in: [lib/fan/FanItemsBaseParser.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L21)
+Defined in: [lib/fan/FanItemsBaseParser.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/fan/FanItemsBaseParser.ts#L21)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [lib/fan/FanItemsBaseParser.ts:21](https://github.com/patrickkfkan/b
 
 > **items**: `T`[]
 
-Defined in: [lib/fan/FanItemsBaseParser.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L19)
+Defined in: [lib/fan/FanItemsBaseParser.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/fan/FanItemsBaseParser.ts#L19)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [lib/fan/FanItemsBaseParser.ts:19](https://github.com/patrickkfkan/b
 
 > **total**: `number`
 
-Defined in: [lib/fan/FanItemsBaseParser.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/fan/FanItemsBaseParser.ts#L20)
+Defined in: [lib/fan/FanItemsBaseParser.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/fan/FanItemsBaseParser.ts#L20)

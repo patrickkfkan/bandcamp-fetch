@@ -6,7 +6,7 @@
 
 # Interface: Track
 
-Defined in: [lib/types/Track.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L4)
+Defined in: [lib/types/Track.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L4)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Track.ts:4](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **album?**: `Omit`\<[`Album`](Album.md), `"type"`\>
 
-Defined in: [lib/types/Track.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L10)
+Defined in: [lib/types/Track.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L10)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [lib/types/Track.ts:10](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **artist?**: `Omit`\<[`Artist`](Artist.md), `"type"`\>
 
-Defined in: [lib/types/MediaKind.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L11)
+Defined in: [lib/types/MediaKind.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L11)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/MediaKind.ts:11](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **duration?**: `number`
 
-Defined in: [lib/types/Track.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L6)
+Defined in: [lib/types/Track.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L6)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [lib/types/Track.ts:6](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **id?**: `number`
 
-Defined in: [lib/types/MediaKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L6)
+Defined in: [lib/types/MediaKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L6)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [lib/types/MediaKind.ts:6](https://github.com/patrickkfkan/bandcamp-
 
 > `optional` **imageUrl?**: `string`
 
-Defined in: [lib/types/MediaKind.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L9)
+Defined in: [lib/types/MediaKind.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L9)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [lib/types/MediaKind.ts:9](https://github.com/patrickkfkan/bandcamp-
 
 > `optional` **label?**: `Omit`\<[`Label`](Label.md), `"type"`\>
 
-Defined in: [lib/types/MediaKind.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L12)
+Defined in: [lib/types/MediaKind.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L12)
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: [lib/types/MediaKind.ts:12](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **lyrics?**: `string`
 
-Defined in: [lib/types/Track.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L12)
+Defined in: [lib/types/Track.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L12)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [lib/types/Track.ts:12](https://github.com/patrickkfkan/bandcamp-fet
 
 > **name**: `string`
 
-Defined in: [lib/types/MediaKind.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L7)
+Defined in: [lib/types/MediaKind.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L7)
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: [lib/types/MediaKind.ts:7](https://github.com/patrickkfkan/bandcamp-
 
 > `optional` **position?**: `number`
 
-Defined in: [lib/types/Track.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L11)
+Defined in: [lib/types/Track.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L11)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [lib/types/Track.ts:11](https://github.com/patrickkfkan/bandcamp-fet
 
 > `optional` **publisher?**: [`UserKind`](UserKind.md)
 
-Defined in: [lib/types/MediaKind.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L13)
+Defined in: [lib/types/MediaKind.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L13)
 
 #### Inherited from
 
@@ -122,7 +122,7 @@ Defined in: [lib/types/MediaKind.ts:13](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **raw?**: `object`
 
-Defined in: [lib/types/MediaKind.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L14)
+Defined in: [lib/types/MediaKind.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L14)
 
 #### basic
 
@@ -142,7 +142,7 @@ Defined in: [lib/types/MediaKind.ts:14](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **releaseDate?**: `string`
 
-Defined in: [lib/types/MediaKind.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L10)
+Defined in: [lib/types/MediaKind.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L10)
 
 #### Inherited from
 
@@ -154,7 +154,7 @@ Defined in: [lib/types/MediaKind.ts:10](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **seekPosition?**: `number`
 
-Defined in: [lib/types/Track.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L7)
+Defined in: [lib/types/Track.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L7)
 
 ***
 
@@ -162,7 +162,7 @@ Defined in: [lib/types/Track.ts:7](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **streamUrl?**: `string`
 
-Defined in: [lib/types/Track.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L8)
+Defined in: [lib/types/Track.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L8)
 
 ***
 
@@ -170,7 +170,7 @@ Defined in: [lib/types/Track.ts:8](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **streamUrlHQ?**: `string`
 
-Defined in: [lib/types/Track.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L9)
+Defined in: [lib/types/Track.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L9)
 
 ***
 
@@ -178,7 +178,7 @@ Defined in: [lib/types/Track.ts:9](https://github.com/patrickkfkan/bandcamp-fetc
 
 > **type**: `"track"`
 
-Defined in: [lib/types/Track.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Track.ts#L5)
+Defined in: [lib/types/Track.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Track.ts#L5)
 
 ***
 
@@ -186,7 +186,7 @@ Defined in: [lib/types/Track.ts:5](https://github.com/patrickkfkan/bandcamp-fetc
 
 > `optional` **url?**: `string`
 
-Defined in: [lib/types/MediaKind.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/MediaKind.ts#L8)
+Defined in: [lib/types/MediaKind.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/MediaKind.ts#L8)
 
 #### Inherited from
 

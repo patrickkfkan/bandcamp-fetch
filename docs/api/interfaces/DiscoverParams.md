@@ -6,7 +6,7 @@
 
 # Interface: DiscoverParams
 
-Defined in: [lib/types/Discovery.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L27)
+Defined in: [lib/types/Discovery.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L27)
 
 Params used in discovery requests.
 
@@ -20,7 +20,7 @@ DiscoveryAPI.discover
 
 > `optional` **albumImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/types/Discovery.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L39)
+Defined in: [lib/types/Discovery.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L39)
 
 Value indicating the image format to adopt when constructing image URLs of discovered albums.
 
@@ -30,7 +30,7 @@ Value indicating the image format to adopt when constructing image URLs of disco
 
 > `optional` **artistImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/types/Discovery.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L43)
+Defined in: [lib/types/Discovery.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L43)
 
 Value indicating the image format to adopt when constructing image URLs of album artists.
 
@@ -40,7 +40,7 @@ Value indicating the image format to adopt when constructing image URLs of album
 
 > `optional` **category?**: `number`
 
-Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L30)
+Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L30)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **customTags?**: `string`[]
 
-Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L34)
+Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L34)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **genre?**: `string`
 
-Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L28)
+Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L28)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **location?**: `number`
 
-Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L32)
+Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L32)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **merchImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/types/Discovery.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L47)
+Defined in: [lib/types/Discovery.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L47)
 
 Value indicating the image format to adopt when constructing image URLs of merch items.
 
@@ -82,7 +82,7 @@ Value indicating the image format to adopt when constructing image URLs of merch
 
 > `optional` **size?**: `number`
 
-Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L35)
+Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L35)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **sortBy?**: `string`
 
-Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L31)
+Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L31)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **subgenre?**: `string`
 
-Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L29)
+Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L29)
 
 ***
 
@@ -106,4 +106,4 @@ Defined in: [lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp
 
 > `optional` **time?**: `number`
 
-Defined in: [lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Discovery.ts#L33)
+Defined in: [lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Discovery.ts#L33)

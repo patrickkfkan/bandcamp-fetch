@@ -6,7 +6,7 @@
 
 # Interface: SearchAPISearchParams
 
-Defined in: [lib/search/SearchAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L27)
+Defined in: [lib/search/SearchAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L27)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [lib/search/SearchAPI.ts:27](https://github.com/patrickkfkan/bandcam
 
 > `optional` **albumImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/search/SearchAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L30)
+Defined in: [lib/search/SearchAPI.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L30)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/search/SearchAPI.ts:30](https://github.com/patrickkfkan/bandcam
 
 > `optional` **artistImageFormat?**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
-Defined in: [lib/search/SearchAPI.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L31)
+Defined in: [lib/search/SearchAPI.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L31)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/search/SearchAPI.ts:31](https://github.com/patrickkfkan/bandcam
 
 > `optional` **page?**: `number`
 
-Defined in: [lib/search/SearchAPI.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L29)
+Defined in: [lib/search/SearchAPI.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L29)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [lib/search/SearchAPI.ts:29](https://github.com/patrickkfkan/bandcam
 
 > **query**: `string`
 
-Defined in: [lib/search/SearchAPI.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L28)
+Defined in: [lib/search/SearchAPI.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L28)

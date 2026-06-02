@@ -6,7 +6,7 @@
 
 # Interface: AutoCompleteTag
 
-Defined in: [lib/types/Autocomplete.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Autocomplete.ts#L6)
+Defined in: [lib/types/Autocomplete.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Autocomplete.ts#L6)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [lib/types/Autocomplete.ts:6](https://github.com/patrickkfkan/bandca
 
 > **count**: `number`
 
-Defined in: [lib/types/Autocomplete.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Autocomplete.ts#L8)
+Defined in: [lib/types/Autocomplete.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Autocomplete.ts#L8)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [lib/types/Autocomplete.ts:8](https://github.com/patrickkfkan/bandca
 
 > **name**: `string`
 
-Defined in: [lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Autocomplete.ts#L3)
+Defined in: [lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Autocomplete.ts#L3)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandca
 
 > **type**: `"tag"`
 
-Defined in: [lib/types/Autocomplete.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Autocomplete.ts#L7)
+Defined in: [lib/types/Autocomplete.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Autocomplete.ts#L7)
 
 #### Overrides
 
@@ -50,4 +50,4 @@ Defined in: [lib/types/Autocomplete.ts:7](https://github.com/patrickkfkan/bandca
 
 > **value**: `string`
 
-Defined in: [lib/types/Autocomplete.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/types/Autocomplete.ts#L9)
+Defined in: [lib/types/Autocomplete.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/types/Autocomplete.ts#L9)

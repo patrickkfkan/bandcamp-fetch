@@ -6,7 +6,7 @@
 
 # Enumeration: SearchItemType
 
-Defined in: [lib/search/SearchAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L19)
+Defined in: [lib/search/SearchAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L19)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [lib/search/SearchAPI.ts:19](https://github.com/patrickkfkan/bandcam
 
 > **Albums**: `"Albums"`
 
-Defined in: [lib/search/SearchAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L22)
+Defined in: [lib/search/SearchAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L22)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/search/SearchAPI.ts:22](https://github.com/patrickkfkan/bandcam
 
 > **All**: `"All"`
 
-Defined in: [lib/search/SearchAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L20)
+Defined in: [lib/search/SearchAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L20)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [lib/search/SearchAPI.ts:20](https://github.com/patrickkfkan/bandcam
 
 > **ArtistsAndLabels**: `"ArtistsAndLabels"`
 
-Defined in: [lib/search/SearchAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L21)
+Defined in: [lib/search/SearchAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L21)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [lib/search/SearchAPI.ts:21](https://github.com/patrickkfkan/bandcam
 
 > **Fans**: `"Fans"`
 
-Defined in: [lib/search/SearchAPI.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L24)
+Defined in: [lib/search/SearchAPI.ts:24](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L24)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [lib/search/SearchAPI.ts:24](https://github.com/patrickkfkan/bandcam
 
 > **Tracks**: `"Tracks"`
 
-Defined in: [lib/search/SearchAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/search/SearchAPI.ts#L23)
+Defined in: [lib/search/SearchAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/search/SearchAPI.ts#L23)

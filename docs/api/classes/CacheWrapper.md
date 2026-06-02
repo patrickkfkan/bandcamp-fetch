@@ -6,7 +6,7 @@
 
 # Class: CacheWrapper
 
-Defined in: [lib/BandcampFetch.ts:141](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L141)
+Defined in: [lib/BandcampFetch.ts:145](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/BandcampFetch.ts#L145)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [lib/BandcampFetch.ts:141](https://github.com/patrickkfkan/bandcamp-
 
 > **new CacheWrapper**(`cache`): `CacheWrapper`
 
-Defined in: [lib/BandcampFetch.ts:144](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L144)
+Defined in: [lib/BandcampFetch.ts:148](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/BandcampFetch.ts#L148)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [lib/BandcampFetch.ts:144](https://github.com/patrickkfkan/bandcamp-
 
 > **clear**(`type?`): `void`
 
-Defined in: [lib/BandcampFetch.ts:148](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L148)
+Defined in: [lib/BandcampFetch.ts:152](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/BandcampFetch.ts#L152)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [lib/BandcampFetch.ts:148](https://github.com/patrickkfkan/bandcamp-
 
 > **setMaxPages**(`maxPages`): `void`
 
-Defined in: [lib/BandcampFetch.ts:156](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L156)
+Defined in: [lib/BandcampFetch.ts:160](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/BandcampFetch.ts#L160)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [lib/BandcampFetch.ts:156](https://github.com/patrickkfkan/bandcamp-
 
 > **setTTL**(`type`, `ttl`): `void`
 
-Defined in: [lib/BandcampFetch.ts:152](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/BandcampFetch.ts#L152)
+Defined in: [lib/BandcampFetch.ts:156](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/BandcampFetch.ts#L156)
 
 #### Parameters
 

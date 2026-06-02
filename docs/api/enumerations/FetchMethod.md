@@ -6,7 +6,7 @@
 
 # Enumeration: FetchMethod
 
-Defined in: [lib/utils/Fetcher.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L7)
+Defined in: [lib/utils/Fetcher.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L7)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [lib/utils/Fetcher.ts:7](https://github.com/patrickkfkan/bandcamp-fe
 
 > **GET**: `"GET"`
 
-Defined in: [lib/utils/Fetcher.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L8)
+Defined in: [lib/utils/Fetcher.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L8)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [lib/utils/Fetcher.ts:8](https://github.com/patrickkfkan/bandcamp-fe
 
 > **HEAD**: `"HEAD"`
 
-Defined in: [lib/utils/Fetcher.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L10)
+Defined in: [lib/utils/Fetcher.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L10)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [lib/utils/Fetcher.ts:10](https://github.com/patrickkfkan/bandcamp-f
 
 > **POST**: `"POST"`
 
-Defined in: [lib/utils/Fetcher.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e24cefd42a0d0101ed4482ab85947ab34689c8d5/src/lib/utils/Fetcher.ts#L9)
+Defined in: [lib/utils/Fetcher.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/10e019814a1d9594303b4c46666928caab282185/src/lib/utils/Fetcher.ts#L9)
