@@ -1,0 +1,1916 @@
+Playlist:
+{
+  "id": 876154,
+  "title": "Mix 1",
+  "description": "Something to help me pass the day.",
+  "imageUrl": "https://f4.bcbits.com/img/45229806_9.jpg",
+  "isPrivate": false,
+  "url": "https://bandcamp.com/patrickkfkan/playlist/mix-1",
+  "modifiedDate": "01 Jun 2026 08:56:13 GMT",
+  "numTracks": 101,
+  "duration": 20433.703500000007,
+  "tracks": [
+    {
+      "id": 1852103458,
+      "title": "Hello How Low?",
+      "url": "https://izioq.bandcamp.com/track/hello-how-low",
+      "duration": 161.848,
+      "artist": {
+        "id": 684899096,
+        "name": "izioq",
+        "imageUrl": "https://f4.bcbits.com/img/26586752_21.jpg"
+      },
+      "album": {
+        "id": 4201996781,
+        "title": "My Own Private Video Game",
+        "url": "https://izioq.bandcamp.com/album/my-own-private-video-game"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3837890961_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/1841ed3cd6832877690d3a15742eb05d/mp3-128/1852103458?p=0&ts=1780495008&t=ef33797233ea9c8f9cd3bc6ee210bf4e929eb250&token=1780495008_c3ff200237b2ce4ef4c4e40b2f9a96afc7158764"
+    },
+    {
+      "id": 4262883789,
+      "title": "Seiklus Sky",
+      "url": "https://izioq.bandcamp.com/track/seiklus-sky",
+      "duration": 142.311,
+      "artist": {
+        "id": 684899096,
+        "name": "izioq",
+        "imageUrl": "https://f4.bcbits.com/img/26586752_21.jpg"
+      },
+      "album": {
+        "id": 4201996781,
+        "title": "My Own Private Video Game",
+        "url": "https://izioq.bandcamp.com/album/my-own-private-video-game"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3837890961_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/7f48b9bb353f3d0f0b5246ab7df56b79/mp3-128/4262883789?p=0&ts=1780495008&t=d3fbdc56e536b0bbbeaef482c2ac9807f47e3720&token=1780495008_c1ca514dd727ae2eeebd5c673b7afe4666f10a76"
+    },
+    {
+      "id": 1246461645,
+      "title": "MELON SOOODA!!!",
+      "url": "https://omoidelabel.bandcamp.com/track/melon-soooda",
+      "duration": 246.542,
+      "artist": {
+        "id": 1979277807,
+        "name": "inaharu",
+        "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+      },
+      "album": {
+        "id": 202124536,
+        "title": "MELON SOOODA!!! EP",
+        "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2007814130_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/e00fba184270d24ca50f2dbb40d954e8/mp3-128/1246461645?p=0&ts=1780495008&t=ae0a94bc23ad7d9956294ab0ac9cba9602eb1243&token=1780495008_70ce9356e63d24c9a3cc072a91ddd25c7aea98c8"
+    },
+    {
+      "id": 3436137763,
+      "title": "Cherrycoke",
+      "url": "https://omoidelabel.bandcamp.com/track/cherrycoke",
+      "duration": 163.862,
+      "artist": {
+        "id": 1979277807,
+        "name": "inaharu",
+        "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+      },
+      "album": {
+        "id": 202124536,
+        "title": "MELON SOOODA!!! EP",
+        "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2007814130_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/2e24589f47f6aefe20525d2c46d8b562/mp3-128/3436137763?p=0&ts=1780495008&t=5b1cade504227e3f537f3b11391fa7330cd7d668&token=1780495008_7d8d02891c5981a1fa75a6b241d4adeb5da0e80f"
+    },
+    {
+      "id": 1517164960,
+      "title": "Live Forever (rework)",
+      "url": "https://omoidelabel.bandcamp.com/track/live-forever-rework",
+      "duration": 121.231,
+      "artist": {
+        "id": 1979277807,
+        "name": "inaharu",
+        "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+      },
+      "album": {
+        "id": 202124536,
+        "title": "MELON SOOODA!!! EP",
+        "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2007814130_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/cc8e780e72c5a6d0e007c077a11bc4ed/mp3-128/1517164960?p=0&ts=1780495008&t=97df7bd88feb0a3cd073c2e7d6baafccd8f7f60b&token=1780495008_8d2797e8a535f4e967fae478de8e3ca10c5e5783"
+    },
+    {
+      "id": 1555520229,
+      "title": "MELON SOOODA!!! (えびですremix)",
+      "url": "https://omoidelabel.bandcamp.com/track/melon-soooda-remix",
+      "duration": 222.194,
+      "artist": {
+        "id": 1979277807,
+        "name": "inaharu",
+        "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+      },
+      "album": {
+        "id": 202124536,
+        "title": "MELON SOOODA!!! EP",
+        "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2007814130_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/5854e1b39756911f0b91a70f0cc84042/mp3-128/1555520229?p=0&ts=1780495008&t=a78b810b600daf9139c62bb9c30ec1b12da895fa&token=1780495008_c84881dd2d8ed81fd04545a2f55b7c8fc965f5a0"
+    },
+    {
+      "id": 1755908876,
+      "title": "Jealousy",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/jealousy",
+      "duration": 239.24,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/dc702d6819e289c21f3c85304fe3a0e7/mp3-128/1755908876?p=0&ts=1780495008&t=e51f74333fecdab65b3e577ebbc74925a6267d87&token=1780495008_55ad3e794a90f27f5dfe75893228970f3249c051"
+    },
+    {
+      "id": 2524864549,
+      "title": "Santa Fe (Demo)",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/santa-fe-demo",
+      "duration": 262.545,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/bc63908bdc2a8ce952bfab999fc45278/mp3-128/2524864549?p=0&ts=1780495008&t=a86dae69a0e27940e2e747b3d7657e826e118d75&token=1780495008_8fae46d81ac4d6de8b3bc2bedf7c4fa26c31a81d"
+    },
+    {
+      "id": 4212173716,
+      "title": "The Sailor Song (Demo)",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/the-sailor-song-demo",
+      "duration": 224.414,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/1750a75eb65857250740d1acfe827c42/mp3-128/4212173716?p=0&ts=1780495008&t=cd3d8941b1e8f3d2f09f7a3283a0dde4468fa992&token=1780495008_b24f5d0777fa23f579d682b596bd308c55c78971"
+    },
+    {
+      "id": 1725771824,
+      "title": "Life Is Confusing",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/life-is-confusing",
+      "duration": 212.68,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/e407557ca7a08b83dbd3f27d1782401c/mp3-128/1725771824?p=0&ts=1780495008&t=49a9b9e180b88adf095620d79c9293099910f2f7&token=1780495008_60e07e188144c7215379cba675500cf79b562ad1"
+    },
+    {
+      "id": 1423669340,
+      "title": "Gold",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/gold",
+      "duration": 297.214,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/7b317e32e8795fb9476aaf7b013fc666/mp3-128/1423669340?p=0&ts=1780495008&t=56560cc665cfbf0ac18ab435d6b290905c6afabf&token=1780495008_f88575f88e276707120c47e200022620abe62a8d"
+    },
+    {
+      "id": 2629658251,
+      "title": "The Confession",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/the-confession",
+      "duration": 233.774,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/48293e92b4c7a68e77ceb8f1852eacdf/mp3-128/2629658251?p=0&ts=1780495008&t=9e3ce4a767e3c839c4088f20aa3ecfa29e672636&token=1780495008_1de8586a5c60b8ea3f5ee99df70001c820aee1a9"
+    },
+    {
+      "id": 3940330638,
+      "title": "January (Demo)",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/january-demo-2",
+      "duration": 252,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/2417d8e3793706151ac0b565090feef0/mp3-128/3940330638?p=0&ts=1780495008&t=07f47445f2e8c131e4ea259ef93d4f4707806c7f&token=1780495008_8fe6c19788b300d1953161410feaa830390e7ece"
+    },
+    {
+      "id": 3256919507,
+      "title": "Shoot An Arrow",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/shoot-an-arrow",
+      "duration": 316.566,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/f06489b7e53a8e8c90f12ef523475432/mp3-128/3256919507?p=0&ts=1780495008&t=19ef578649f24c3b31562f6939417fc2e16cb421&token=1780495008_aba49186c685b9f606220ef22b55c22c94a496e3"
+    },
+    {
+      "id": 660194790,
+      "title": "Edit",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/edit",
+      "duration": 272,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/00d3b1dd4bb0d83015e9637bc1941030/mp3-128/660194790?p=0&ts=1780495008&t=a0e3919028094e4ee1ed3d3524fd0b33b67d4e1c&token=1780495008_dfeb3bdb8fc3401ab767f9e224b7b7da7fba5a25"
+    },
+    {
+      "id": 39231062,
+      "title": "A Little Longer",
+      "url": "https://autoheart-disabled-2338119215.bandcamp.com/track/a-little-longer",
+      "duration": 206,
+      "artist": {
+        "id": 2338119215,
+        "name": "Autoheart",
+        "imageUrl": "https://f4.bcbits.com/img/26557111_21.jpg"
+      },
+      "album": {
+        "id": 168730324,
+        "title": "Demos",
+        "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/2910994380_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/058442f8dd4f93013b998dcf17e0b618/mp3-128/39231062?p=0&ts=1780495008&t=15a9e0dab7f4f98554c47715842fd764e8848064&token=1780495008_1fa0e4e365aae59e28008fb3ab1684efad20fe6b"
+    },
+    {
+      "id": 3523027342,
+      "title": "Ancient Bossa",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/ancient-bossa",
+      "duration": 86.5579,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/8ca82d96994024345da19811e7472004/mp3-128/3523027342?p=0&ts=1780495008&t=5d14dff8c7680dabfc14152528f195302f3ecabd&token=1780495008_a3942dbab4dfb975667b2244efa08a6ccc8fca67"
+    },
+    {
+      "id": 3185848334,
+      "title": "My Room",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/my-room",
+      "duration": 256.21,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/f1d36106c4e944793c33723b38ac1c5a/mp3-128/3185848334?p=0&ts=1780495008&t=9bea287335d4329f97627b6f069bbbea828d736b&token=1780495008_63f8d2c29661cd89d5c388861cecef7567e17d39"
+    },
+    {
+      "id": 3198747317,
+      "title": "After Awas",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/after-awas",
+      "duration": 304.914,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/cd55515413a6d9d1d5d60c9fccfb545f/mp3-128/3198747317?p=0&ts=1780495008&t=cec07e955d5758da25dbe9172db35eed255fafdb&token=1780495008_ccf095d19bbd016090dd8d1c9596b4c2d1db6a66"
+    },
+    {
+      "id": 4053067426,
+      "title": "New City",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/new-city",
+      "duration": 169,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/4b08b1d161b9861e497774ece1167e2a/mp3-128/4053067426?p=0&ts=1780495008&t=9e43822b21ac66637928c07d21f852f0d8f7be77&token=1780495008_8c8b9b8809e2f7f01797d66e08ac8763014bfba1"
+    },
+    {
+      "id": 716457595,
+      "title": "In the Park",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/in-the-park",
+      "duration": 227.549,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/29225266693820ea60d76ea6a4c86112/mp3-128/716457595?p=0&ts=1780495008&t=996e514baae4835546933b852b9975709a714acc&token=1780495008_2343df820a75363c5c87005720421013ad5967ee"
+    },
+    {
+      "id": 4137745805,
+      "title": "Fly Mango Premium",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/fly-mango-premium",
+      "duration": 37.5285,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/e955af8b3a4e32152e9ae3bfdb5e668b/mp3-128/4137745805?p=0&ts=1780495008&t=8546dd605ffb8b2ecc379c0e5eabd7c785229108&token=1780495008_13a5db2e6b0c44831510bce727aa2c88121c43ae"
+    },
+    {
+      "id": 263920623,
+      "title": "Promise of Summer",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/promise-of-summer",
+      "duration": 248.727,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/dd1ab84c14cec1ea86b6b1deef4f83aa/mp3-128/263920623?p=0&ts=1780495008&t=084189cf1ca64760f4081596f73b40c3b76bd527&token=1780495008_ac1e97c58eb85ae5ab2f824fcf545a647bcecc37"
+    },
+    {
+      "id": 544484063,
+      "title": "Airport Reggae",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/airport-reggae",
+      "duration": 125.031,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/3fdbd32137f6cd815baf527ff5cc63b9/mp3-128/544484063?p=0&ts=1780495008&t=b1a3d83b25223a8f2fa39cd6630c33701e752b6a&token=1780495008_9ed4f85f34d81aef427281e9935f4a4cb4eaa057"
+    },
+    {
+      "id": 2132842512,
+      "title": "Moo Moo Land",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/moo-moo-land",
+      "duration": 245.2,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/41fc901a9befbbbbfdf5ed515f19b475/mp3-128/2132842512?p=0&ts=1780495008&t=e6b654b0c1c510c1240a526bbf4d401a626be91f&token=1780495008_e1ecb7778de88155a319b3dbc21f2b03376b25f7"
+    },
+    {
+      "id": 2010898802,
+      "title": "Answering Machine",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/answering-machine",
+      "duration": 20.8,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/710b6c9c389fa1b4ed377f8515b3b5a2/mp3-128/2010898802?p=0&ts=1780495008&t=f165626a1daf02be487724d8638722f978330127&token=1780495008_c4242313f569036dddf47cb2171d13b6c49a94b9"
+    },
+    {
+      "id": 1637966902,
+      "title": "Telework",
+      "url": "https://tsudiostudiokkr.bandcamp.com/track/telework",
+      "duration": 140.182,
+      "artist": {
+        "id": 2970090520,
+        "name": "Tsudio Studio",
+        "imageUrl": "https://f4.bcbits.com/img/29814770_21.jpg"
+      },
+      "album": {
+        "id": 306935079,
+        "title": "My Room",
+        "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3795299987_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/b8b8c7ffd78c5c1d54ed26522f3a38f5/mp3-128/1637966902?p=0&ts=1780495008&t=0fa20c5c78322e624f7305551c4795f76b05744e&token=1780495008_1ddf14ae4b93ade8e8f1e3aa7e92c5b50b12a99b"
+    },
+    {
+      "id": 3267467401,
+      "title": "When the Lights Are Gone",
+      "url": "https://anitatatlow.bandcamp.com/track/when-the-lights-are-gone",
+      "duration": 203.013,
+      "artist": {
+        "id": 3020101905,
+        "name": "Anita Tatlow",
+        "imageUrl": "https://f4.bcbits.com/img/41401301_21.jpg"
+      },
+      "album": {
+        "id": 1230818544,
+        "title": "Lights",
+        "url": "https://anitatatlow.bandcamp.com/album/lights"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/3424801242_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/da9be281c77476b6c60fb352bebf4dd1/mp3-128/3267467401?p=0&ts=1780495008&t=6ba01d4a35599e1aa2b2a6cea6fa91aa7f611804&token=1780495008_e7789f0ec95e3f7213f2b0f96a5d794c9f3cb08c"
+    },
+    {
+      "id": 1507934091,
+      "title": "Wait for Me",
+      "url": "https://anitatatlow.bandcamp.com/track/wait-for-me",
+      "duration": 160.41,
+      "artist": {
+        "id": 3020101905,
+        "name": "Anita Tatlow",
+        "imageUrl": "https://f4.bcbits.com/img/41401301_21.jpg"
+      },
+      "album": {
+        "id": 1230818544,
+        "title": "Lights",
+        "url": "https://anitatatlow.bandcamp.com/album/lights"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/811877833_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/97ad8c6e7e9c30c86410037b052604c1/mp3-128/1507934091?p=0&ts=1780495008&t=1aa109ba30d086fdf62a13bbd331460c02245bd3&token=1780495008_416b45becdd4e8b760e4770f80527522efa111ec"
+    },
+    {
+      "id": 1305040008,
+      "title": "Find Me",
+      "url": "https://anitatatlow.bandcamp.com/track/find-me",
+      "duration": 199.503,
+      "artist": {
+        "id": 3020101905,
+        "name": "Anita Tatlow",
+        "imageUrl": "https://f4.bcbits.com/img/41401301_21.jpg"
+      },
+      "album": {
+        "id": 1230818544,
+        "title": "Lights",
+        "url": "https://anitatatlow.bandcamp.com/album/lights"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/879817121_9.jpg",
+      "streamUrl": "https://t4.bcbits.com/stream/88ff9d05f7c195e4e0423ca927755bba/mp3-128/1305040008?p=0&ts=1780495008&t=dd5028d6fa443b6a5df74c8f6ab1396cadf9e661&token=1780495008_251011064269008ef2d07b9e09a6da47062ae59c"
+    }
+  ],
+  "additionalTrackIds": [
+    1044930316,
+    2854563336,
+    3495206765,
+    2708780485,
+    1788088718,
+    3321353416,
+    1195709872,
+    3115233395,
+    1658794022,
+    2582578302,
+    383919278,
+    3565149708,
+    1807827412,
+    380435176,
+    508234876,
+    1064200762,
+    1406293937,
+    3885333953,
+    3509282317,
+    3191069505,
+    479900415,
+    3040202633,
+    135129829,
+    4167338633,
+    1451964711,
+    2718161116,
+    2376160868,
+    851846399,
+    908856386,
+    1407552326,
+    165256449,
+    2073178983,
+    3735410350,
+    1539515804,
+    2124417652,
+    321865877,
+    897415822,
+    2003327206,
+    2020787436,
+    1641930653,
+    453573089,
+    4237071966,
+    2036758076,
+    2887708997,
+    3430073229,
+    96525127,
+    673464643,
+    2557894327,
+    4135227279,
+    3422519469,
+    4176667299,
+    3948500149,
+    2098849748,
+    4012168009,
+    2481800541,
+    784016895,
+    3656523501,
+    1140838766,
+    17759842,
+    1401076464,
+    4269499224,
+    4122686848,
+    804980453,
+    152431019,
+    1755641525,
+    2232447298,
+    3931382225,
+    2033704113,
+    2754071693,
+    2307571321,
+    1046828547
+  ],
+  "curator": {
+    "username": "patrickkfkan",
+    "name": "Patrick Kan",
+    "bio": "Hello there!",
+    "location": "Hong Kong",
+    "imageUrl": "https://f4.bcbits.com/img/29024471_21.jpg",
+    "collectionSize": 251
+  }
+}
+Additional Tracks:
+[
+  {
+    "id": 1044930316,
+    "title": "Fade in Time",
+    "url": "https://anitatatlow.bandcamp.com/track/fade-in-time",
+    "duration": 175.754,
+    "artist": {
+      "id": 3020101905,
+      "name": "Anita Tatlow",
+      "imageUrl": "https://f4.bcbits.com/img/41401301_21.jpg"
+    },
+    "album": {
+      "id": 1230818544,
+      "title": "Lights",
+      "url": "https://anitatatlow.bandcamp.com/album/lights"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4228099223_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/9a6664efbaa125ccb400e940b288a090/mp3-128/1044930316?p=0&ts=1780495010&t=1d5104bf3eff34b5c6380ded1a25bd9dc362c9f6&token=1780495010_5ec005857bd965d1e1f9c0353f18a2389a154371"
+  },
+  {
+    "id": 2854563336,
+    "title": "Diamond Skies",
+    "url": "https://anitatatlow.bandcamp.com/track/diamond-skies",
+    "duration": 178.721,
+    "artist": {
+      "id": 3020101905,
+      "name": "Anita Tatlow",
+      "imageUrl": "https://f4.bcbits.com/img/41401301_21.jpg"
+    },
+    "album": {
+      "id": 1230818544,
+      "title": "Lights",
+      "url": "https://anitatatlow.bandcamp.com/album/lights"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2334753401_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/a8ba64ef985a5a2a44a29a973f1508db/mp3-128/2854563336?p=0&ts=1780495010&t=60403e220283edb25cbff5478a3931c3cc73c4e5&token=1780495010_d495c326b9dedd83eb7e3e603189812b52b85c8e"
+  },
+  {
+    "id": 3495206765,
+    "title": "箱庭357 (miniature garden 357)",
+    "url": "https://omoidelabel.bandcamp.com/track/357-miniature-garden-357",
+    "duration": 209,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/c81750537c015349a9f8a3b1bd463906/mp3-128/3495206765?p=0&ts=1780495010&t=0593f4518a7f34c48613a4a1ac1f93afd68b5a91&token=1780495010_a2c2050a7ca4630d851468150519ec715a702123"
+  },
+  {
+    "id": 2708780485,
+    "title": "OutsideDon'tlisten (+mauve)tape1",
+    "url": "https://omoidelabel.bandcamp.com/track/outsidedontlisten-mauve-tape1",
+    "duration": 42.0004,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/e55618986c63eff31dde02c6e96bb453/mp3-128/2708780485?p=0&ts=1780495010&t=dd9873941bb34eea0d46898803ea25b762fffdd7&token=1780495010_6ed366011642328c820416d6db8a90bd52f04751"
+  },
+  {
+    "id": 1788088718,
+    "title": "彫像 (sculpture)",
+    "url": "https://omoidelabel.bandcamp.com/track/sculpture",
+    "duration": 239.001,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/f17650cb4d3a475e00745b745b5e6c70/mp3-128/1788088718?p=0&ts=1780495010&t=a8bc229d69037b1c34694137e18e1f2c618f5a06&token=1780495010_e25647714617a0f69a81abb9e617ee25d63d270c"
+  },
+  {
+    "id": 3321353416,
+    "title": "瞑想1：00 対人",
+    "url": "https://omoidelabel.bandcamp.com/track/1-00",
+    "duration": 60.0006,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/2693249a4cbd6852a84ced1a2eaa30e3/mp3-128/3321353416?p=0&ts=1780495010&t=d1fb0520e87ec565155bb09132489f7b96b6d821&token=1780495010_8ceba51c3435ec58a01defc22d110194c33d4aab"
+  },
+  {
+    "id": 1195709872,
+    "title": "投身 (suicide jump)",
+    "url": "https://omoidelabel.bandcamp.com/track/suicide-jump",
+    "duration": 225.001,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/b691275f940609fbcc5dd689740b96ed/mp3-128/1195709872?p=0&ts=1780495010&t=fd6b37d64fe044f9f1326e62b85a6dc71eba238f&token=1780495010_ce6130cc27954fa6595cb624c0dbc144535cd928"
+  },
+  {
+    "id": 3115233395,
+    "title": "OutsideDon'tlisten (+mauve)tape2",
+    "url": "https://omoidelabel.bandcamp.com/track/outsidedontlisten-mauve-tape2",
+    "duration": 43.0017,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/97b5d0e96dcae9a7d95fdd7c0345abda/mp3-128/3115233395?p=0&ts=1780495010&t=d87b968871a802c0f19068fe35cc6694446d5c33&token=1780495010_ad5a15fac28a35cd9ca7e958efa7684b085da8d9"
+  },
+  {
+    "id": 1658794022,
+    "title": "空間 (          )",
+    "url": "https://omoidelabel.bandcamp.com/track/--239",
+    "duration": 252,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/cb3d0ae05fcdced121afe572cbe91255/mp3-128/1658794022?p=0&ts=1780495010&t=68d923721d2607d3d0df1b52d42622fbc83df109&token=1780495010_9ee8898d1915a1181e944776b72bcb315e51c8ec"
+  },
+  {
+    "id": 2582578302,
+    "title": "瞑想1：00 観光",
+    "url": "https://omoidelabel.bandcamp.com/track/1-00-2",
+    "duration": 60.0001,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/e9889f5eaf0d24c2f52077eb45a36c98/mp3-128/2582578302?p=0&ts=1780495010&t=41bf7094063bc6b76bfe09889e8f93f8e825b6e5&token=1780495010_9bd8b8a739ee77073aee378971ae1d4197fd7358"
+  },
+  {
+    "id": 383919278,
+    "title": "とこしへ (foever)",
+    "url": "https://omoidelabel.bandcamp.com/track/foever",
+    "duration": 227.938,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/fc14862f5b8edd35e45497603ab82d20/mp3-128/383919278?p=0&ts=1780495010&t=636091ec9cb99fd87213ef1c91a2706db9404c29&token=1780495010_8d7eb5a5514280c0d5c5ea9320da46c318559829"
+  },
+  {
+    "id": 3565149708,
+    "title": "Y字路 (fork road)",
+    "url": "https://omoidelabel.bandcamp.com/track/y-fork-road",
+    "duration": 271.01,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/2bdbc968cf8088ac02a52bdf470f5dc9/mp3-128/3565149708?p=0&ts=1780495010&t=4cfa19a84cafebbc162289843f7f723be8019348&token=1780495010_457a17a0eca22c31f8691b6ff0dceae4a1f9ce58"
+  },
+  {
+    "id": 1807827412,
+    "title": "OutsideDon'tlisten (+mauve)tape3",
+    "url": "https://omoidelabel.bandcamp.com/track/outsidedontlisten-mauve-tape3",
+    "duration": 45.0006,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/48858b2bed0e84309add44e432014b39/mp3-128/1807827412?p=0&ts=1780495010&t=0096c7052c1d3459d24f3c95a3e0506efb6654fb&token=1780495010_b57e3e3983364be74f1af804bda53c753637d067"
+  },
+  {
+    "id": 380435176,
+    "title": "引火 (fire)",
+    "url": "https://omoidelabel.bandcamp.com/track/fire",
+    "duration": 358,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/2251167e87fcf17080000fbb050592db/mp3-128/380435176?p=0&ts=1780495010&t=4c68d3a0274b63c475971464bfe3647e9d7d4106&token=1780495010_65b9d5b46a8e055d8057703107705244d47e31f8"
+  },
+  {
+    "id": 508234876,
+    "title": "箱庭357 (pencil remix)",
+    "url": "https://omoidelabel.bandcamp.com/track/357-pencil-remix",
+    "duration": 285.224,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/e8a24a739abeb88117bab9825525a5c1/mp3-128/508234876?p=0&ts=1780495010&t=caa2f93b7465066e20007e9e9f9667dd4ae0cc6d&token=1780495010_0f2608cd02e7254eda7d651ecd74820b6963742e"
+  },
+  {
+    "id": 1064200762,
+    "title": "suicide jump (DJPSone hexd)",
+    "url": "https://omoidelabel.bandcamp.com/track/suicide-jump-djpsone-hexd",
+    "duration": 129.6,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/95d4eae4bd7ec93a53ab716cb39cd295/mp3-128/1064200762?p=0&ts=1780495010&t=b575d0e767f92041bc9b7f4263d96531679e2771&token=1780495010_7d5fa2ee79c5c966751cf010fb6f6fdde28e6c6e"
+  },
+  {
+    "id": 1406293937,
+    "title": "Y字路 ( Xoma18 remix)",
+    "url": "https://omoidelabel.bandcamp.com/track/y-xoma18-remix",
+    "duration": 199,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/253ca9952c4474d75438fae8a00e694f/mp3-128/1406293937?p=0&ts=1780495010&t=4487d2951eee6e7b3e196d1d35720edbfdcda1ec&token=1780495010_23eec22fbfd7588925609f1e793f4b8e7afbdb4f"
+  },
+  {
+    "id": 3885333953,
+    "title": "引火 (yomoh remix)",
+    "url": "https://omoidelabel.bandcamp.com/track/yomoh-remix",
+    "duration": 175,
+    "artist": {
+      "id": 1979277807,
+      "name": "yomoh-1",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1330246964,
+      "title": "OutsideDon'tlisten",
+      "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3949687068_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/7274d108fe6217f1cde7ee7485ad3de1/mp3-128/3885333953?p=0&ts=1780495010&t=34c9c20684281bbe3a890fa34c4dfd37742547c8&token=1780495010_bf864a31db70216eed082c2adfdd0c68aef905a8"
+  },
+  {
+    "id": 3509282317,
+    "title": "Show",
+    "url": "https://omoidelabel.bandcamp.com/track/show",
+    "duration": 120.268,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/ab8ab398adc29362c2b627d5a1943b2b/mp3-128/3509282317?p=0&ts=1780495010&t=ee837bc8debc2b497a4732284adcbf996d792852&token=1780495010_7c11470bcb50d5e9ec99f814b2f7a6a5cec295e2"
+  },
+  {
+    "id": 3191069505,
+    "title": "Funk Mixture",
+    "url": "https://omoidelabel.bandcamp.com/track/funk-mixture",
+    "duration": 186.524,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/c422ceb0939cd98f35d30a718e91a99b/mp3-128/3191069505?p=0&ts=1780495010&t=87d62d2cdc737444eefed42e31c8e500628dff68&token=1780495010_3a686480ba4860a2837c3a8df5600b486bd1e9fc"
+  },
+  {
+    "id": 479900415,
+    "title": "FAIRRRRR",
+    "url": "https://omoidelabel.bandcamp.com/track/fairrrrr",
+    "duration": 91.7857,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/bbdac651dbf4a41a1033b02a1bfef40e/mp3-128/479900415?p=0&ts=1780495010&t=43f8489a8921f5555867da8f7ff7ea63a0ca292d&token=1780495010_aff0f2a1730b7efb17ef873808de3dbb4d1462ca"
+  },
+  {
+    "id": 3040202633,
+    "title": "Anyway",
+    "url": "https://omoidelabel.bandcamp.com/track/anyway",
+    "duration": 130.588,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/aec4af0d5dde9ed72e32ec4925c27ecb/mp3-128/3040202633?p=0&ts=1780495010&t=1810f3fb4c9bd13b72c17c9f7a649bbf089568dc&token=1780495010_4eba3772ce5d2e82f4b7d2f6d6c8f3d1b666c888"
+  },
+  {
+    "id": 135129829,
+    "title": "PUSH",
+    "url": "https://omoidelabel.bandcamp.com/track/push",
+    "duration": 147.733,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/fdc1121df56ef67d149f177f84bd70ff/mp3-128/135129829?p=0&ts=1780495010&t=c7f9da248dd8e4909cb49cc21501c30fbb1e58a5&token=1780495010_6b1328cabb4298812b7795210d5ea511ccbe6086"
+  },
+  {
+    "id": 4167338633,
+    "title": "Funk Syndrome (vs. Bash)",
+    "url": "https://omoidelabel.bandcamp.com/track/funk-syndrome-vs-bash",
+    "duration": 198.005,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/7568dcb6e9ec90f1c4e81a594cb496ab/mp3-128/4167338633?p=0&ts=1780495010&t=b6180880372fe8c1f97c1a811a18ec4e8dd39acb&token=1780495010_03daea0cd517dedc21408cf2dfd0131da03d1d27"
+  },
+  {
+    "id": 1451964711,
+    "title": "Missing",
+    "url": "https://omoidelabel.bandcamp.com/track/missing",
+    "duration": 221.341,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/032f77c7cf95145a45337536efff563c/mp3-128/1451964711?p=0&ts=1780495010&t=d34faa501a841779cd6dc95c65c49221e6192cd9&token=1780495010_89463537274b6d90736687450d2523ca3ab4c560"
+  },
+  {
+    "id": 2718161116,
+    "title": "Stationary",
+    "url": "https://omoidelabel.bandcamp.com/track/stationary",
+    "duration": 266.678,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/1a547564181fe33fc0c03f172facd635/mp3-128/2718161116?p=0&ts=1780495010&t=e754968b366165019c06f623e983a33f08d5a9b0&token=1780495010_28198495221420afebb4bd2569861f3f7c31a83d"
+  },
+  {
+    "id": 2376160868,
+    "title": "Sweet",
+    "url": "https://omoidelabel.bandcamp.com/track/sweet",
+    "duration": 167.149,
+    "artist": {
+      "id": 1979277807,
+      "name": "Various Reiwa",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1410363781,
+      "title": "Materials",
+      "url": "https://omoidelabel.bandcamp.com/album/materials"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3002465600_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/4fdaea105b461207b508cf80ba130267/mp3-128/2376160868?p=0&ts=1780495010&t=c39e228f0b3f353f07d84b881e46872f0e43c594&token=1780495010_4699509b784e3019a72adf627ecdee2901d6ef02"
+  },
+  {
+    "id": 851846399,
+    "title": "プレートテクトニクス",
+    "url": "https://omoidelabel.bandcamp.com/track/--224",
+    "duration": 182.456,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/9d03468f11aa807cf341e541b8d7fe60/mp3-128/851846399?p=0&ts=1780495010&t=323b8f658596ab39ebc84abdab4c42c1eb03007e&token=1780495010_2ce534635f3f8ff7e831ebacbcb65ee795154d64"
+  },
+  {
+    "id": 908856386,
+    "title": "無題無限大",
+    "url": "https://omoidelabel.bandcamp.com/track/--223",
+    "duration": 237.239,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/4e5b3ba3e208a69e02861a986af8adcc/mp3-128/908856386?p=0&ts=1780495010&t=09e0010e78d65e3ae016b811040616576012fd9a&token=1780495010_34bf46700e50cc011d1163fe4467ba579e0afae6"
+  },
+  {
+    "id": 1407552326,
+    "title": "君と水族館に行きたかっただけ",
+    "url": "https://omoidelabel.bandcamp.com/track/--225",
+    "duration": 232.016,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/51f3c6edfd1f648538880c6862795411/mp3-128/1407552326?p=0&ts=1780495010&t=3c3db43142e2f4cd77c45366a7211176b6334363&token=1780495010_a904d8ce72c12a36c882ccc510aac070dbe314a9"
+  },
+  {
+    "id": 165256449,
+    "title": "通知音OFF",
+    "url": "https://omoidelabel.bandcamp.com/track/off",
+    "duration": 245.818,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/55687d0888f9872caba618b3f0ce4bab/mp3-128/165256449?p=0&ts=1780495010&t=fb5193b958159c0493c7c390aa349e9a7d7ae8d4&token=1780495010_40522450601f688733c283a7ec74d54e82d49218"
+  },
+  {
+    "id": 2073178983,
+    "title": "こたつ アコースティックver",
+    "url": "https://omoidelabel.bandcamp.com/track/ver",
+    "duration": 250.404,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/1a539b085545dda0e9c9a7dfe2645e6b/mp3-128/2073178983?p=0&ts=1780495010&t=df420b901dfe7fb7578f62117ea834b7517100c3&token=1780495010_250accc492a8a9ac8b39d4a6914a063f13b69743"
+  },
+  {
+    "id": 3735410350,
+    "title": "プレートテクトニクス(chan ao remix)",
+    "url": "https://omoidelabel.bandcamp.com/track/chan-ao-remix",
+    "duration": 271.949,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/4edce14c8353697eaeb09c1f84595d8f/mp3-128/3735410350?p=0&ts=1780495010&t=3135002c9923d835165454b7a7629f68c85200f0&token=1780495010_7a7423284a3ddae9380e6678415bfbcdddc60462"
+  },
+  {
+    "id": 1539515804,
+    "title": "プレートテクトニクス (アカペラ)",
+    "url": "https://omoidelabel.bandcamp.com/track/--227",
+    "duration": 182.784,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/f42a59e47010d2a3fa946850d3f96927/mp3-128/1539515804?p=0&ts=1780495010&t=4e5813c39267f1a7ebab0a7ddcddb21e93afc528&token=1780495010_35e333800b5f085660853863c0be3e236c583d32"
+  },
+  {
+    "id": 2124417652,
+    "title": "プレートテクトニクス (インストルメンタル）",
+    "url": "https://omoidelabel.bandcamp.com/track/--226",
+    "duration": 182.456,
+    "artist": {
+      "id": 1979277807,
+      "name": "中道ひびき",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1820431120,
+      "title": "新型ビビウィルス",
+      "url": "https://omoidelabel.bandcamp.com/album/--29"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/4208520755_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/587f89deff75b3e680ef51ff9172d48e/mp3-128/2124417652?p=0&ts=1780495010&t=1df4a41be0d1f20a40ab28dde445a18105d57f78&token=1780495010_c776a58b26de928c2ba14a61a98435f84a4f8386"
+  },
+  {
+    "id": 321865877,
+    "title": "どこにでも行ける feat.CAOS",
+    "url": "https://omoidelabel.bandcamp.com/track/feat-caos",
+    "duration": 180.888,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/b67321db9b6ad140485d03b7d0f9afa4/mp3-128/321865877?p=0&ts=1780495010&t=d55a9b92f2ee9bf0025fe96b714bb5af121b0981&token=1780495010_e6e05da5d7bdfd6c4ae394397223c0ec1c6f3ca4"
+  },
+  {
+    "id": 897415822,
+    "title": "隅 feat.Sleet Mage",
+    "url": "https://omoidelabel.bandcamp.com/track/feat-sleet-mage",
+    "duration": 156.857,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/975af8f7609c30a1431b24d2153d6583/mp3-128/897415822?p=0&ts=1780495010&t=d3be41673a07b8c132c51683f1dc200886c4637e&token=1780495010_d6cf200c46cafcf6773fed19a174d7119aa6e3ed"
+  },
+  {
+    "id": 2003327206,
+    "title": "なりたい",
+    "url": "https://omoidelabel.bandcamp.com/track/--177",
+    "duration": 230.832,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/7f1c254dac12b72be22c9c3cae1b79ca/mp3-128/2003327206?p=0&ts=1780495010&t=bcff125c99163355bea7db2791dbe5e09f9c20f7&token=1780495010_03ec32ac644910cbf947a59fc2c071b630c4cb50"
+  },
+  {
+    "id": 2020787436,
+    "title": "Reload",
+    "url": "https://omoidelabel.bandcamp.com/track/reload",
+    "duration": 149.62,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/3cba4a39d76b25d53264c8a60247473b/mp3-128/2020787436?p=0&ts=1780495010&t=a8f36b36fdb10c28a181b976ca7a7d3f390621d1&token=1780495010_a7f932d51312dfec460f50773d6690d806c4316a"
+  },
+  {
+    "id": 1641930653,
+    "title": "lliy",
+    "url": "https://omoidelabel.bandcamp.com/track/lliy",
+    "duration": 182.5,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/e3ccf94337e3855826a4ba618598ab3c/mp3-128/1641930653?p=0&ts=1780495010&t=4f2f1463037740a1597db75b094d60718c8d00e4&token=1780495010_37c42f43fcf04ea5ad6231409f91e3b11542977b"
+  },
+  {
+    "id": 453573089,
+    "title": "ガムぺしゃfeat.CAOS",
+    "url": "https://omoidelabel.bandcamp.com/track/feat-caos-2",
+    "duration": 215.092,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/8b84e82628de0a8140fa3aca326330cc/mp3-128/453573089?p=0&ts=1780495010&t=f1a738409922410a3886d9b4cb2bfa19439a4bc8&token=1780495010_752d4c9672b3d44a960c7e3c7f9eb284ba6b83bc"
+  },
+  {
+    "id": 4237071966,
+    "title": "world end",
+    "url": "https://omoidelabel.bandcamp.com/track/world-end",
+    "duration": 210,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/817071f81c5d0d69644943041bb76559/mp3-128/4237071966?p=0&ts=1780495010&t=6807810b5c95c5bf2f7c323150c1fc0ef03f41b0&token=1780495010_c87b7cd3654170e16b15c56beff91141ced1dc68"
+  },
+  {
+    "id": 2036758076,
+    "title": "Reload (AO JUKED OUT)",
+    "url": "https://omoidelabel.bandcamp.com/track/reload-ao-juked-out",
+    "duration": 156,
+    "artist": {
+      "id": 1979277807,
+      "name": "haruru犬love dog天使",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1755700500,
+      "title": "inscle+1（Remasterd)",
+      "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/2560772942_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/fdc265a462025388eff9a4d8284ff107/mp3-128/2036758076?p=0&ts=1780495010&t=de4ba165d63518d83a141a8b8fe663d061d0c9ea&token=1780495010_009d813127797f04fc010f8d8bc3668bf8222ec8"
+  },
+  {
+    "id": 2887708997,
+    "title": "Who am I ？",
+    "url": "https://omoidelabel.bandcamp.com/track/who-am-i",
+    "duration": 193.125,
+    "artist": {
+      "id": 1979277807,
+      "name": "M.C.L.C&Dr.$NAKE",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1835479774,
+      "title": "【OMOIDE​​-​​02】MASK EP",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/926197842_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/b8e58c1ecb621b4e9302dcfcdcbff6ce/mp3-128/2887708997?p=0&ts=1780495010&t=1bc04f1b1b70bb9c4d296189caa7a5f99a9d12d1&token=1780495010_07e6cc12604fb28d40ad36acbb847399ca40cf8d"
+  },
+  {
+    "id": 3430073229,
+    "title": "Mt.Ikoma",
+    "url": "https://omoidelabel.bandcamp.com/track/mt-ikoma",
+    "duration": 202.802,
+    "artist": {
+      "id": 1979277807,
+      "name": "M.C.L.C&Dr.$NAKE",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1835479774,
+      "title": "【OMOIDE​​-​​02】MASK EP",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1711674284_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/c3a14752c3a52768386ea87f73e39fb9/mp3-128/3430073229?p=0&ts=1780495010&t=6f16e9f3e725e48202c8f076d7ffd22d6ee38696&token=1780495010_1bc6e7e91001519ea5d60152b26e5567e13683e6"
+  },
+  {
+    "id": 96525127,
+    "title": "Iqqquuu",
+    "url": "https://omoidelabel.bandcamp.com/track/iqqquuu",
+    "duration": 263.603,
+    "artist": {
+      "id": 1979277807,
+      "name": "M.C.L.C&Dr.$NAKE",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1835479774,
+      "title": "【OMOIDE​​-​​02】MASK EP",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3779577597_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/a1e844f1f68c384f10d13896460e4ee8/mp3-128/96525127?p=0&ts=1780495010&t=ac6e73ef6b1b0bdf7fea50c1ef286e738f32f87c&token=1780495010_21fee29d37d91f5d61314ccdff76b37ed3985728"
+  },
+  {
+    "id": 673464643,
+    "title": "MASK",
+    "url": "https://omoidelabel.bandcamp.com/track/mask",
+    "duration": 222.655,
+    "artist": {
+      "id": 1979277807,
+      "name": "M.C.L.C&Dr.$NAKE",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1835479774,
+      "title": "【OMOIDE​​-​​02】MASK EP",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1408589446_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/cf3c9528eb669d62d21e08f41fc5ccf4/mp3-128/673464643?p=0&ts=1780495010&t=4d6f1ebb6dd2d0ab3445d87d2e8f3718ba67ef30&token=1780495010_e51f8a38034b6fe3386f598b4e55f2bc3f9fce32"
+  },
+  {
+    "id": 2557894327,
+    "title": "Demone",
+    "url": "https://omoidelabel.bandcamp.com/track/demone",
+    "duration": 224.98,
+    "artist": {
+      "id": 1979277807,
+      "name": "M.C.L.C&Dr.$NAKE",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 1835479774,
+      "title": "【OMOIDE​​-​​02】MASK EP",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/531108930_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/052eca353091c986e89a757ada0c6d82/mp3-128/2557894327?p=0&ts=1780495010&t=c6fc3f8f09781a39aea0d5591ff5990331456eec&token=1780495010_5ffe2cd9affb8b67d815d1839a02eaae6c98733e"
+  },
+  {
+    "id": 4135227279,
+    "title": "lily syndrome",
+    "url": "https://omoidelabel.bandcamp.com/track/lily-syndrome",
+    "duration": 361.8,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/aa8ccc93fe050c16dadf1f61788e0d24/mp3-128/4135227279?p=0&ts=1780495010&t=6ad9263e6c70fb195edaefb13dbac1844a8581d2&token=1780495010_2c6484f8a62a22d9c285efae9bc954a621b94502"
+  },
+  {
+    "id": 3422519469,
+    "title": "plastic star",
+    "url": "https://omoidelabel.bandcamp.com/track/plastic-star",
+    "duration": 196.713,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/4ad6295803ee7fc1afd1b40538086f28/mp3-128/3422519469?p=0&ts=1780495010&t=9de45bf95bc2255c59ac1804d4386cae44d4e37b&token=1780495010_03a998938b54136a1622c0c4d9dba6bd0320fcf1"
+  },
+  {
+    "id": 4176667299,
+    "title": "222 blade",
+    "url": "https://omoidelabel.bandcamp.com/track/222-blade",
+    "duration": 257.019,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/694a24e7f91de1261a24050634fe6b1f/mp3-128/4176667299?p=0&ts=1780495010&t=f6987a33bbab113639864f5453dea58ed0c847d1&token=1780495010_d7e4509c43f16f7f8b29d4cf1e75d4fd22879a33"
+  },
+  {
+    "id": 3948500149,
+    "title": "hai",
+    "url": "https://omoidelabel.bandcamp.com/track/hai",
+    "duration": 316.985,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/36f7fb837161df05e2ea2f6f5b3697b2/mp3-128/3948500149?p=0&ts=1780495010&t=508245d37b8e4348b6e408240d090df10248465a&token=1780495010_a79fc5b30876175556e20615428fc720ae8587b2"
+  },
+  {
+    "id": 2098849748,
+    "title": "i hate key but snowfield",
+    "url": "https://omoidelabel.bandcamp.com/track/i-hate-key-but-snowfield",
+    "duration": 216.3,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/a4fc5ef97108be99a01568889f12c4fe/mp3-128/2098849748?p=0&ts=1780495010&t=23ed2c6f4cffcba5c9474e36aa137d3adb5b1e96&token=1780495010_bf4f0f4c58d338b95073311575c442648bc66111"
+  },
+  {
+    "id": 4012168009,
+    "title": "toxicraw maze",
+    "url": "https://omoidelabel.bandcamp.com/track/toxicraw-maze",
+    "duration": 349.095,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/df3af9e1eb8078d98e494ac0d87c7610/mp3-128/4012168009?p=0&ts=1780495010&t=a8196d3838f4aa7ebd994f7e49aa9d5e0da2707c&token=1780495010_46ecc82afd59a43e0b4cd59e4caf29eaeea0e8aa"
+  },
+  {
+    "id": 2481800541,
+    "title": "iznakerom",
+    "url": "https://omoidelabel.bandcamp.com/track/iznakerom",
+    "duration": 447.981,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/8e806ad3c28601d0707be217acacc084/mp3-128/2481800541?p=0&ts=1780495010&t=5a04f1608842d0ff1c9be1d2558a6d055ec44c27&token=1780495010_a207f941e95187735c8c5d65357a5f944f80e80c"
+  },
+  {
+    "id": 784016895,
+    "title": "capybara uber",
+    "url": "https://omoidelabel.bandcamp.com/track/capybara-uber",
+    "duration": 311.301,
+    "artist": {
+      "id": 1979277807,
+      "name": "coa white",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2360934406,
+      "title": "lilycore 26",
+      "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/1368646596_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/79d7bc92372a9880074471602601d0fc/mp3-128/784016895?p=0&ts=1780495010&t=dfd177ef80a42fd2e5f0cd9fc0143dc7d48a595d&token=1780495010_348f859f3b3c6563d3c7a8299e0cf26ede04c4a6"
+  },
+  {
+    "id": 3656523501,
+    "title": "詩集[始] (track by tea-chi)",
+    "url": "https://omoidelabel.bandcamp.com/track/track-by-tea-chi",
+    "duration": 193.4,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/7114a449ac6bcbbbb201dd7de48ce6d7/mp3-128/3656523501?p=0&ts=1780495010&t=700b5011013f39bcf5ebed1ce2189e52e8defe25&token=1780495010_19377ba4a58541f8e835dd7ca61219b88899341b"
+  },
+  {
+    "id": 1140838766,
+    "title": "迷想 (track by Manegas)",
+    "url": "https://omoidelabel.bandcamp.com/track/track-by-manegas",
+    "duration": 166.84,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/1442e785606a04d2dc4595a5553f0031/mp3-128/1140838766?p=0&ts=1780495010&t=2e06cfe531ad9723b0904f2da6a827414583d948&token=1780495010_3310e6449c1f33d9af16732d58918611cec70546"
+  },
+  {
+    "id": 17759842,
+    "title": "P (track by Manegas)",
+    "url": "https://omoidelabel.bandcamp.com/track/p-track-by-manegas",
+    "duration": 173.56,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/1d5cc4c92bb05174c71321bf6e2b0ec9/mp3-128/17759842?p=0&ts=1780495010&t=c6f3963e53a922d857aa2b4fe00de179cbf3fadb&token=1780495010_045b316ff42398f4fd68e10110d054791aa673cc"
+  },
+  {
+    "id": 1401076464,
+    "title": "歌詞書けないブルース(track by Manegas)",
+    "url": "https://omoidelabel.bandcamp.com/track/track-by-manegas-2",
+    "duration": 213.56,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/7a120834550c6289330fae6659113b41/mp3-128/1401076464?p=0&ts=1780495010&t=e46a5bfebbeaaa2fb452ab23c8d79a93e396d99e&token=1780495010_a1afeed045671c0516bb5737223419b3fbddc864"
+  },
+  {
+    "id": 4269499224,
+    "title": "イシノアルスタンス (track by DJtamu)",
+    "url": "https://omoidelabel.bandcamp.com/track/track-by-djtamu",
+    "duration": 261.56,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/b7824b3f1801ca7c8bd8ce24eb33960e/mp3-128/4269499224?p=0&ts=1780495010&t=1a5ef89fd9df156e3ebc55f695fa4fb00b4f1bb4&token=1780495010_5208cd251387721947040e84594f644522075bca"
+  },
+  {
+    "id": 4122686848,
+    "title": "Confidence Lyrics (track by Krahft Kid)",
+    "url": "https://omoidelabel.bandcamp.com/track/confidence-lyrics-track-by-krahft-kid",
+    "duration": 104.44,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/48ec260cc76a7ce850c2f47013867247/mp3-128/4122686848?p=0&ts=1780495010&t=4c68e0b7e775cd7e3031fa69544fb5aff83a0b7f&token=1780495010_f2363d10625b49244c1e8ec957879cb27925f9da"
+  },
+  {
+    "id": 804980453,
+    "title": "ON THE MIC (track by tea-chi)",
+    "url": "https://omoidelabel.bandcamp.com/track/on-the-mic-track-by-tea-chi",
+    "duration": 204.6,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/bb69ded01ac73ae3321ce965ba272b1e/mp3-128/804980453?p=0&ts=1780495010&t=9c090fac7c819b18436e963688485ace6da40123&token=1780495010_13e69c36ae73ee6361852361e1ad3b1812f250c6"
+  },
+  {
+    "id": 152431019,
+    "title": "答えのない世界 (track by DJ6月)",
+    "url": "https://omoidelabel.bandcamp.com/track/track-by-dj6",
+    "duration": 233.72,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/e426e8633a6cae7fce09b7ef0ea7b6c7/mp3-128/152431019?p=0&ts=1780495010&t=e3e864089a1ef7da4b9ed1d78a9ac2ebf0f05d89&token=1780495010_60d024c6ea579da6fe21ab30bd167ff533015b81"
+  },
+  {
+    "id": 1755641525,
+    "title": "beatplace okinawa  (track by Gacha Beatz)",
+    "url": "https://omoidelabel.bandcamp.com/track/beatplace-okinawa-track-by-gacha-beatz",
+    "duration": 189.56,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/7f3f73d75ae1888fc7f2c9bfcdb1acec/mp3-128/1755641525?p=0&ts=1780495010&t=7c2bf81e48f6c839f46c6f92314b5a5a15afdcfc&token=1780495010_bad9afacebabf824fdba043b47906bee3580d7ae"
+  },
+  {
+    "id": 2232447298,
+    "title": "Skit",
+    "url": "https://omoidelabel.bandcamp.com/track/skit-2",
+    "duration": 103.48,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/8b94221d2959a5678a0b2fde60b0a992/mp3-128/2232447298?p=0&ts=1780495010&t=81326f9e21d065fb11392d3b925dad6ac1e674c6&token=1780495010_f1cd7c8d36d1a5b987d95495c49b616c9a4edd8f"
+  },
+  {
+    "id": 3931382225,
+    "title": "生きてるテーマ (track by KAR)",
+    "url": "https://omoidelabel.bandcamp.com/track/track-by-kar",
+    "duration": 251.52,
+    "artist": {
+      "id": 1979277807,
+      "name": "RETRO",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2545211276,
+      "title": "【OMOIDE- 51】迷想 MEISOU",
+      "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/3010833653_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/e505ec69f94ce79bf26f2d9c8858a9fa/mp3-128/3931382225?p=0&ts=1780495010&t=935cd9306e22fda54a11ea5a318934c88001af74&token=1780495010_ed6bfbdfa3edb4fbb52a9c03afd67951a0c6b028"
+  },
+  {
+    "id": 2033704113,
+    "title": "Suiren",
+    "url": "https://omoidelabel.bandcamp.com/track/suiren",
+    "duration": 160.008,
+    "artist": {
+      "id": 1979277807,
+      "name": "Hylen",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2676918852,
+      "title": "Suiren EP",
+      "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/858147636_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/41e4eae6d7e9fb021edac41bd4a1c5da/mp3-128/2033704113?p=0&ts=1780495010&t=ff623eb0609db75f96789228f8137baa21f481be&token=1780495010_f1db93d535a9b86e8548b41d8422e2d79e55bcd6"
+  },
+  {
+    "id": 2754071693,
+    "title": "Kikusui",
+    "url": "https://omoidelabel.bandcamp.com/track/kikusui",
+    "duration": 233.608,
+    "artist": {
+      "id": 1979277807,
+      "name": "Hylen",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2676918852,
+      "title": "Suiren EP",
+      "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/858147636_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/34ac6bd5765053a11f687633d5425cb9/mp3-128/2754071693?p=0&ts=1780495010&t=d1a76cd172c73a7bc6c7725e1f6ca8964444471d&token=1780495010_d58c0cdd87086885958eb99a27c52fbaae473b06"
+  },
+  {
+    "id": 2307571321,
+    "title": "Suiren (kotonohouse remix)",
+    "url": "https://omoidelabel.bandcamp.com/track/suiren-kotonohouse-remix",
+    "duration": 171.031,
+    "artist": {
+      "id": 1979277807,
+      "name": "Hylen",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2676918852,
+      "title": "Suiren EP",
+      "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/858147636_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/92c5dde7f22369b7b7d5bdda8d12f1e3/mp3-128/2307571321?p=0&ts=1780495010&t=e06b3546fd71236e756f2319959ba514bff292dd&token=1780495010_d21b9ee2a78bb10cd8602c3f0c2e79f6cde42b25"
+  },
+  {
+    "id": 1046828547,
+    "title": "Kikusui (Stereoman remix)",
+    "url": "https://omoidelabel.bandcamp.com/track/kikusui-stereoman-remix",
+    "duration": 237.176,
+    "artist": {
+      "id": 1979277807,
+      "name": "Hylen",
+      "imageUrl": "https://f4.bcbits.com/img/5630997_21.jpg"
+    },
+    "album": {
+      "id": 2676918852,
+      "title": "Suiren EP",
+      "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
+    },
+    "imageUrl": "https://f4.bcbits.com/img/858147636_9.jpg",
+    "streamUrl": "https://t4.bcbits.com/stream/35e47d4ff642374d0d96fa3426b98d8d/mp3-128/1046828547?p=0&ts=1780495010&t=64223a013037c88554c91d25cf340183e15a9152&token=1780495010_23c6e420ef321ec3927f184afcfb18195afbd766"
+  }
+]

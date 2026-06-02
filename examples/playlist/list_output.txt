@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "attribution": {
+        "accountType": "fan",
+        "name": "Patrick Kan",
+        "imageUrl": "https://f4.bcbits.com/img/29024471_21.jpg",
+        "url": "https://bandcamp.com/patrickkfkan"
+      },
+      "playlistId": 877702,
+      "description": null,
+      "imageUrl": "https://f4.bcbits.com/img/45273866_9.jpg",
+      "isFeatured": false,
+      "isPrivate": false,
+      "url": "https://bandcamp.com/patrickkfkan/playlist/mix-22",
+      "modifiedDate": "02 Jun 2026 10:09:47 GMT",
+      "title": "Mix 22",
+      "numTracks": 1,
+      "duration": 177
+    },
+    {
+      "attribution": {
+        "accountType": "fan",
+        "name": "Patrick Kan",
+        "imageUrl": "https://f4.bcbits.com/img/29024471_21.jpg",
+        "url": "https://bandcamp.com/patrickkfkan"
+      },
+      "playlistId": 876154,
+      "description": null,
+      "imageUrl": "https://f4.bcbits.com/img/45229806_9.jpg",
+      "isFeatured": false,
+      "isPrivate": false,
+      "url": "https://bandcamp.com/patrickkfkan/playlist/mix-1",
+      "modifiedDate": "01 Jun 2026 08:56:13 GMT",
+      "title": "Mix 1",
+      "numTracks": 101,
+      "duration": 20434
+    }
+  ],
+  "total": 2,
+  "continuation": null
+}
