@@ -17,6 +17,7 @@ import Fetcher from './utils/Fetcher.js';
 import Limiter from './utils/Limiter.js';
 import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
 import { type Logger, NULL_LOGGER, WrappedLogger } from './utils/Logger.js';
+import PlaylistAPI, { LimiterPlaylistAPI } from './playlist/PlaylistAPI.js';
 export interface BandcampFetchParams {
   cookie?: string | null;
   logger?: Logger | null;
@@ -42,6 +43,7 @@ export default class BandcampFetch {
   readonly search: SearchAPI;
   readonly autocomplete: AutocompleteAPI;
   readonly stream: StreamAPI;
+  readonly playlist: PlaylistAPI;
 
   readonly limiter: {
     readonly album: LimiterAlbumAPI;
@@ -56,6 +58,7 @@ export default class BandcampFetch {
     readonly search: LimiterSearchAPI;
     readonly autocomplete: LimiterAutocompleteAPI;
     readonly stream: StreamAPI;
+    readonly playlist: LimiterPlaylistAPI;
     updateSettings: (options?: Bottleneck.ConstructorOptions) => void;
   };
 
@@ -102,7 +105,7 @@ export default class BandcampFetch {
     this.search = new SearchAPI(baseAPIWithImageSupportParams);
     this.autocomplete = new AutocompleteAPI(baseAPIParams);
     this.stream = new StreamAPI(baseAPIParams);
-
+    this.playlist = new PlaylistAPI(baseAPIWithImageSupportParams);
     this.limiter = {
       album: new LimiterAlbumAPI(baseAPIWithImageSupportParams),
       track: new LimiterTrackAPI(baseAPIWithImageSupportParams),
@@ -116,6 +119,7 @@ export default class BandcampFetch {
       search: new LimiterSearchAPI(baseAPIWithImageSupportParams),
       autocomplete: new LimiterAutocompleteAPI(baseAPIParams),
       stream: new LimiterStreamAPI(baseAPIParams),
+      playlist: new LimiterPlaylistAPI(baseAPIWithImageSupportParams),
       updateSettings: this.#limiter.updateSettings.bind(this.#limiter)
     };
   }

@@ -33,6 +33,7 @@ export default class FanInfoParser {
 
     const result: Fan = {
       type: 'fan',
+      fanId: fanId,
       name: fanData.name || null,
       username: fanData.username || null,
       url: fanData.trackpipe_url,

@@ -18,6 +18,8 @@ export const URLS = {
     FOLLOWING_BANDS: `${API_URL}/fancollection/1/following_bands`,
     FOLLOWING_GENRES: `${API_URL}/fancollection/1/following_genres`
   },
+  PLAYLISTS: `${API_URL}/fan_collection/1/playlists`,
+  PLAYLIST_TRACKS: `${API_URL}/playlist/1/load_web_tracks_async`,
   SEARCH: `${SITE_URL}/search`,
   AUTOCOMPLETE: {
     TAG: `${API_URL}/bcsearch_public_api/1/tag_search`,

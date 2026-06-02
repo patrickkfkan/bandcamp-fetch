@@ -2,6 +2,7 @@ import type UserKind from './UserKind.js';
 
 interface Fan extends UserKind {
   type: 'fan';
+  fanId: number;
   username: string;
   websiteUrl: string;
   followingGenresCount: number;
