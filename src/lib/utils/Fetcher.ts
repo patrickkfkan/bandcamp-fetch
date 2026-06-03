@@ -20,11 +20,13 @@ export default class Fetcher {
   #cookie?: string | null;
   #cache: Cache;
   #logger: Logger;
+  #puppeteerExecutablePath?: string;
 
   constructor(params: FetcherParams) {
     this.#cache = params.cache;
     this.#logger = params.logger;
     this.setCookie(params.cookie);
+    this.#puppeteerExecutablePath = undefined;
   }
 
   setCookie(value?: string | null) {
@@ -33,6 +35,10 @@ export default class Fetcher {
     if (valueChanged) {
       this.#cache.clear();
     }
+  }
+
+  setPuppeteerExecutablePath(path: string) {
+    this.#puppeteerExecutablePath = path;
   }
 
   get cookie() {
@@ -116,9 +122,10 @@ export default class Fetcher {
                 `Fetcher: ${method} [${url}] requires cookie but none is set; attempting to fetch anonymous cookie`
               );
               try {
-                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie(
-                  this.#logger
-                );
+                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie({
+                  puppeteerExecutablePath: this.#puppeteerExecutablePath,
+                  logger: this.#logger
+                });
                 this.#cache.put(
                   CacheDataType.Constants,
                   'anonymousCookie',

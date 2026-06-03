@@ -133,6 +133,10 @@ export default class BandcampFetch {
     this.#logger.set(logger ?? NULL_LOGGER);
   }
 
+  setPuppeteerExecutablePath(path: string) {
+    this.#fetcher.setPuppeteerExecutablePath(path);
+  }
+
   get cookie() {
     return this.#cookie;
   }

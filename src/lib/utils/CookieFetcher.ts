@@ -15,10 +15,15 @@ export default class CookieFetcher {
    * This method requires the following dependencies to be installed:
    *   puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
    */
-  static async getAnonymousCookie(logger: Logger) {
+  static async getAnonymousCookie(params: {
+    puppeteerExecutablePath?: string;
+    logger: Logger;
+  }) {
+    const { puppeteerExecutablePath, logger } = params;
     logger.debug('CookieFetcher: begin fetching anonymous cookie');
     const puppeteer = await this.#getPuppeteer(logger);
     const browser = await puppeteer.launch({
+      executablePath: puppeteerExecutablePath,
       headless: true,
       args: [
         '--disable-blink-features=AutomationControlled' // Removes the automated bot flag

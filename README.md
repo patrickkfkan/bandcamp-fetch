@@ -41,6 +41,16 @@ npm i --save --omit=optional bandcamp-fetch
 
 Be aware that, without at least the `puppeteer` package, performing searches without a cookie will result in an error.
 
+**Setting Puppeteer's executable path**
+
+When you install `puppeteer`, the process will automatically download a suitable browser executable to use at runtime. In case you want `puppeteer` to use your own browser executable, you can do so as follows:
+
+```javascript
+import bcfetch from 'bandcamp-fetch';
+
+bcfetch.setPuppeteerExecutablePath('/path/to/executable');
+```
+
 # Usage
 
 ```javascript
