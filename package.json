@@ -59,7 +59,8 @@
     "cheerio": "^1.0.0",
     "html-entities": "^2.5.2",
     "load-esm": "^1.0.3",
-    "node-cache": "^5.1.2"
+    "node-cache": "^5.1.2",
+    "zod": "^4.4.3"
   },
   "keywords": [
     "bandcamp",
