@@ -2,8 +2,7 @@ import bcfetch from '../../dist/mjs/index.js';
 
 void (async () => {
   const user = await bcfetch.fan.getInfo({
-    username: 'patrickkfkan',
-    imageFormat: 'bio_screen'
+    username: 'patrickkfkan'
   });
   const list = await bcfetch.playlist.list({
     fanId: user.fanId

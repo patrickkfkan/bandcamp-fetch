@@ -25,7 +25,7 @@ export { FanPageItemsResult, FanContinuationItemsResult };
 
 export interface FanAPIGetInfoParams {
   username?: string;
-  imageFormat: string | number | ImageFormat;
+  imageFormat?: string | number | ImageFormat;
 }
 
 export interface FanAPIGetItemsParams {
@@ -51,8 +51,8 @@ export interface FanAPIGetItemsFullParams<T> extends FanAPIGetItemsParams {
 }
 
 export default class FanAPI extends BaseAPIWithImageSupport {
-  async getInfo(params: FanAPIGetInfoParams): Promise<Fan> {
-    if (!params.username) {
+  async getInfo(params?: FanAPIGetInfoParams): Promise<Fan> {
+    if (!params?.username) {
       const username = await this.getLoggedInFanUsername();
       return this.getInfo({
         ...params,

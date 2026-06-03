@@ -619,7 +619,7 @@ const collection = await fan.getCollection(...);
 
 **Params**
 
-- `params`: ([FanAPIGetInfoParams](docs/api/interfaces/FanAPIGetInfoParams.md))
+- `params`: ([FanAPIGetInfoParams](docs/api/interfaces/FanAPIGetInfoParams.md)) (*optional*)
     - `username`: (string) (*optional*)
     - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
 
