@@ -726,6 +726,115 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 ---
 </details>
 
+## Playlist API
+
+To access the Playlist API:
+
+```javascript
+import bcfetch from 'bandcamp-fetch';
+
+// First obtain the fan ID of the user.
+const { fanId } = await bcfetch.fan.getInfo({
+    username: ...
+    imageFormat: ...
+});
+
+// Use the Playlist API to fetch the user's playlists.
+const list = await bcfetch.playlist.list({
+    fanId
+});
+
+// Fetch details of the first playlist.
+const playlistUrl = list.items[0].url;
+const playlist = await bcfetch.playlist.getPlaylist({ playlistUrl });
+console.log('Tracks:', playlist.tracks);
+
+// The playlist only contains details of the first 30 tracks.
+// If there are more, their IDs will be given in `additionalTrackIds`.
+// We can fetch their details too.
+if (playlist.additionalTrackIds.length > 0) {
+    const additionalTracks = await bcfetch.playlist.getAdditionalTracks({
+        playlist
+    });
+    console.log('Additional tracks:', additionalTracks);
+}
+```
+**Methods:**
+
+<details>
+<summary><code>list(params)</code></summary>
+<br />
+
+[**Example**](examples/playlist/list.mjs) ([output](examples/playlist/list_output.txt))
+
+<p>Fetches the list of playlists created by a fan.</p>
+
+**Params**
+
+- `params`: ([PlaylistAPIListParams](docs/api/type-aliases/PlaylistAPIListParams.md))
+    - Either:
+      - `fanId`: (number) the ID of the fan; or
+      - `continuation`: ([PlaylistListContinuation](docs/api/interfaces/PlaylistListContinuation.md)) continuation data obtained from previous request; used for fetching further items in the list.
+    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to [PlaylistList](docs/api/interfaces/PlaylistList.md).
+
+---
+</details>
+
+<details>
+<summary><code>getPlaylist(params)</code></summary>
+<br />
+
+[**Example**](examples/playlist/getPlaylist.mjs) ([output](examples/playlist/getPlaylist_output.txt))
+
+<p>Fetches full details about the playlist referred to by <code>params.playlistUrl</code>.</p>
+
+**Params**
+
+- `params`: ([PlaylistAPIGetPlaylistParams](docs/api/interfaces/PlaylistAPIGetPlaylistParams.md))
+    - `playlistUrl`: (string)
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `trackImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `playlistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `curatorImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to [Playlist](docs/api/interfaces/Playlist.md).
+
+---
+</details>
+
+<details>
+<summary><code>getAdditionalTracks(params)</code></summary>
+<br />
+
+[**Example**](examples/playlist/getPlaylist.mjs) ([output](examples/playlist/getPlaylist_output.txt))
+
+<p>A playlist fetched via <code>getPlaylist()</code> contains full information for the first 30 tracks. Additional tracks only have their IDs stored in <code>additionalTrackIds</code>. Use <code>getAdditionalTracks()</code> to fetch full information for these additional tracks.</p>
+
+**Params**
+
+- `params`: ([PlaylistAPIGetPlaylistParams](docs/api/type-aliases/PlaylistAPIGetAdditionalTracksParams.md))
+    - playlist: ([Playlist](docs/api/interfaces/Playlist.md)) the playlist containing additional tracks.
+    - Either: (*optional*)
+      - `start`: (number) the position of the first ID in `additionalTrackIds` to start fetching from; or
+      - `fromId`: (number) the ID in `additionalTrackIds` to start fetching from.
+      - If both `start` and `fromId` are omitted, the default would be `start: 0`.
+    - `count`: (number) (*optional*) the number of tracks to retrieve. If omitted, the default would be to fetch till the end.
+    - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+    - `trackImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
+
+**Returns**
+
+Promise resolving to Array<[PlaylistTrack](docs/api/interfaces/PlaylistTrack.md)>.
+
+---
+</details>
+
 ## Search API
 
 To access the Search API:
