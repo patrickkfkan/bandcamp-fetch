@@ -116,7 +116,7 @@ export default class PlaylistParser {
         : null,
       imageUrl:
         opts.trackImageFormat && track.artId !== null ?
-          `${opts.imageBaseUrl}/img/${track.artId}_${opts.trackImageFormat.id}.jpg`
+          `${opts.imageBaseUrl}/img/a${track.artId}_${opts.trackImageFormat.id}.jpg`
         : null,
       streamUrl: track.streamUrl ?? null
     };
