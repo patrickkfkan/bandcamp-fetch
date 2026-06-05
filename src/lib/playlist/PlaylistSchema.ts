@@ -25,7 +25,7 @@ export const PlaylistTrackSchema = z.object({
 export const PlaylistCuratorSchema = z.object({
   bio: z.string().nullable(),
   collectionSize: z.number().int(),
-  imageId: z.number().int(),
+  imageId: z.number().int().nullable(),
   location: z.string().nullable(),
   name: z.string(),
   username: z.string()
@@ -37,7 +37,7 @@ export const PlaylistResponseSchema = z.object({
   modDate: z.string(),
   isPrivate: z.boolean(),
   description: z.string().nullable(),
-  imageId: z.number().int(),
+  imageId: z.number().int().nullable(),
   imageState: z.string(),
   tracks: z.array(PlaylistTrackSchema),
   additionalTrackIds: z.array(z.number().int()).nullable(),
