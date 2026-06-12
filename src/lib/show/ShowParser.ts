@@ -5,6 +5,7 @@ import type Show from '../types/Show.js';
 import { ParseError } from '../utils/Parse.js';
 import { URLS } from '../utils/Constants.js';
 import type Track from '../types/Track.js';
+import { ShowSchema } from './ShowSchema.js';
 
 interface ShowParseOptions {
   showUrl: string;
@@ -18,9 +19,10 @@ export default class ShowParser {
   static parseShow(html: string, json: any, opts: ShowParseOptions): Show {
     const $ = cheerioLoad(html);
     const blob = decode($('#ArchiveApp[data-blob]').attr('data-blob'));
-    let parsed;
+    let parsedBlob;
+    let parsedJson;
     try {
-      parsed = JSON.parse(blob);
+      parsedBlob = JSON.parse(blob);
     } catch (error: any) {
       throw new ParseError(
         'Failed to parse show: JSON error in data-blob.',
@@ -28,32 +30,35 @@ export default class ShowParser {
         error
       );
     }
+    try {
+      parsedJson = ShowSchema.parse(json).tracklist;
+    } catch (error: any) {
+      throw new ParseError(
+        'Failed to parse show: schema error with JSON data.',
+        html,
+        error
+      );
+    }
 
-    const appData = typeof parsed === 'object' ? parsed.appData : null;
+    const appData = typeof parsedBlob === 'object' ? parsedBlob.appData : null;
     const showId = appData?.showId;
     const shows = appData?.shows;
     const showInfo =
       showId && Array.isArray(shows) ?
         shows.find((value) => value.itemId === showId)
       : null;
-    const tracksInfo =
-      typeof json === 'object' && Array.isArray(json.tracks) ?
-        (json.tracks as Array<any>)
-      : null;
-    const audioInfo =
-      typeof json === 'object' && typeof json.compiledTrack === 'object' ?
-        json.compiledTrack
-      : null;
+    const tracksInfo = parsedJson.tracks;
+    const audioInfo = parsedJson.compiledTrack;
 
     if (showInfo) {
       const show: Show = {
         type: 'show',
         name: showInfo.title,
-        url: new URL(showInfo.url, URLS.SITE_URL).toString(),
+        url: new URL(showInfo.itemUrl, URLS.SITE_URL).toString(),
         publishedDate: showInfo.date,
         description: showInfo.description,
         shortDescription: showInfo.shortDesc,
-        imageCaption: showInfo.metadata,
+        imageCaption: showInfo.attribution,
         screenImageUrl: `${opts.imageBaseUrl}/img/${showInfo.imageId}_0`
       };
 
@@ -72,12 +77,12 @@ export default class ShowParser {
       }
 
       if (tracksInfo) {
-        show.tracks = tracksInfo.map((track: any) => {
+        show.tracks = tracksInfo.map((track) => {
           const trackItem: Omit<Track, 'type'> = {
             id: track.id,
             name: track.title,
             url: track.url,
-            seekPosition: track.timecode,
+            seekPosition: track.timecode ?? undefined,
             artist: {
               name: track.artistName,
               url: track.bandUrl

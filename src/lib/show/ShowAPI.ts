@@ -42,7 +42,15 @@ export default class ShowAPI extends BaseAPIWithImageSupport {
     };
     const [html, json] = await Promise.all([
       this.fetch(params.showUrl),
-      this.fetch(URLS.SHOW, true, FetchMethod.POST, { id: showId })
+      this.fetch(
+        URLS.SHOW,
+        true,
+        FetchMethod.POST,
+        {
+          item_id: showId,
+          item_type: 'radio'
+        }
+      )
     ]);
     return ShowParser.parseShow(html, json, opts);
   }

@@ -10,7 +10,7 @@ export const URLS = {
   RELATED_TAGS: `${API_URL}/tag_search/2/related_tags`,
   DIG_DEEPER: `${API_URL}/hub/2/dig_deeper`,
   DAILY: 'https://daily.bandcamp.com',
-  SHOW: `${API_URL}/bcradio_api/1/get_show`,
+  SHOW: `${API_URL}/player/2/player_data_web`,
   SHOWS: `${API_URL}/bcweekly/3/list`,
   FAN_CONTINUATION: {
     COLLECTION: `${API_URL}/fancollection/1/collection_items`,
