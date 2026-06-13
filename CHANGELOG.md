@@ -1,5 +1,11 @@
 # Changelog
 
+v3.2.0
+- fix: fetch cookie automatically if not provided for search requests. This requires at least the `puppeteer` package to be installed.
+- fix: adapt Show API to site changes.
+- feat: add logging.
+- feat: add Playlist API.
+
 v3.1.0
 - Fix parsers following Bandcamp site changes.
 
