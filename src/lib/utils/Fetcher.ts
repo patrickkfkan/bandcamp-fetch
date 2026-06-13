@@ -122,10 +122,12 @@ export default class Fetcher {
                 `Fetcher: ${method} [${url}] requires cookie but none is set; attempting to fetch anonymous cookie`
               );
               try {
-                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie({
-                  puppeteerExecutablePath: this.#puppeteerExecutablePath,
-                  logger: this.#logger
-                });
+                const anonymousCookiePromise = CookieFetcher.getAnonymousCookie(
+                  {
+                    puppeteerExecutablePath: this.#puppeteerExecutablePath,
+                    logger: this.#logger
+                  }
+                );
                 this.#cache.put(
                   CacheDataType.Constants,
                   'anonymousCookie',

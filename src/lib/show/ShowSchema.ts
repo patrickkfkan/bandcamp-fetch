@@ -7,7 +7,7 @@ const albumSchema = z.object({
   bandId: z.number(),
   url: z.url(),
   isWishlisted: z.boolean(),
-  isOwned: z.boolean(),
+  isOwned: z.boolean()
 });
 
 const trackSchema = z.object({
@@ -22,7 +22,7 @@ const trackSchema = z.object({
   artId: z.number().nullable().optional(),
   url: z.url(),
   streamUrl: z.url().nullable().optional(),
-  timecode: z.number().nullable().optional(),
+  timecode: z.number().nullable().optional()
 });
 
 // Main Tracklist Schema
@@ -36,10 +36,13 @@ export const ShowSchema = z.object({
     date: z.string(),
     description: z.string().nullable().optional(),
     attribution: z.string().nullable().optional(),
-    compiledTrack: z.object({
-      streamUrl: z.url(),
-      duration: z.number(),
-    }).nullable().optional(),
-    tracks: z.array(trackSchema).nullable().optional(),
-  }),
+    compiledTrack: z
+      .object({
+        streamUrl: z.url(),
+        duration: z.number()
+      })
+      .nullable()
+      .optional(),
+    tracks: z.array(trackSchema).nullable().optional()
+  })
 });
