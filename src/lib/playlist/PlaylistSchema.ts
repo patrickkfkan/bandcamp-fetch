@@ -3,13 +3,13 @@ import { z } from 'zod';
 export const PlaylistAlbumSchema = z.object({
   id: z.number().int(),
   title: z.string(),
-  url: z.string().url()
+  url: z.url()
 });
 
 export const PlaylistTrackSchema = z.object({
   id: z.number().int(),
   title: z.string(),
-  url: z.string().url(),
+  url: z.url(),
   bandId: z.number().int(),
   bandImageId: z.number().int().nullable().optional(),
   isOwned: z.boolean(),
@@ -19,7 +19,7 @@ export const PlaylistTrackSchema = z.object({
   artistName: z.string(),
   duration: z.number(),
   artId: z.number().int(),
-  streamUrl: z.string().url().nullable().optional()
+  streamUrl: z.url().nullable().optional()
 });
 
 export const PlaylistCuratorSchema = z.object({

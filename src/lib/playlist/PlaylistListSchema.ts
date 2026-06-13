@@ -4,7 +4,7 @@ export const PlaylistListItemAttributionSchema = z.object({
   accountType: z.string(),
   name: z.string(),
   imageId: z.number().int().nullable(),
-  url: z.string().url().nullable()
+  url: z.url().nullable()
 });
 
 export const PlaylistListItemSchema = z.object({
@@ -15,7 +15,7 @@ export const PlaylistListItemSchema = z.object({
   isFeatured: z.boolean().nullable(),
   isPrivate: z.boolean(),
   itemId: z.number().int(),
-  itemUrl: z.string().url(),
+  itemUrl: z.url(),
   modDate: z.string(),
   title: z.string(),
   totalNumTracks: z.number().int(),
