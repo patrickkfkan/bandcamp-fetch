@@ -71,8 +71,8 @@ export default class PlaylistParser {
       isPrivate: parsed.isPrivate,
       url: opts.playlistUrl,
       modifiedDate: parsed.modDate,
-      numTracks: parsed.totalNumTracks,
-      duration: parsed.totalDuration,
+      numTracks: parsed.tracksSummary.totalCount,
+      duration: parsed.tracksSummary.totalDuration,
       tracks: parsed.tracks.map((track) => this.#mapParsedTrack(track, opts)),
       additionalTrackIds: parsed.additionalTrackIds || [],
       curator: {
@@ -162,8 +162,8 @@ export default class PlaylistParser {
         url: item.itemUrl,
         modifiedDate: item.modDate,
         title: item.title,
-        numTracks: item.totalNumTracks,
-        duration: item.totalDuration
+        numTracks: item.tracksSummary.totalCount,
+        duration: item.tracksSummary.totalDuration
       })),
       total,
       continuation:

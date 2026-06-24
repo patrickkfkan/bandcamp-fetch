@@ -18,8 +18,10 @@ export const PlaylistListItemSchema = z.object({
   itemUrl: z.url(),
   modDate: z.string(),
   title: z.string(),
-  totalNumTracks: z.number().int(),
-  totalDuration: z.number()
+  tracksSummary: z.object({
+    totalCount: z.number().int(),
+    totalDuration: z.number(),
+  })
 });
 
 export const PlaylistListResponseSchema = z.object({

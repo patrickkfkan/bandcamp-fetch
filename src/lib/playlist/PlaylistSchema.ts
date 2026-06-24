@@ -41,8 +41,10 @@ export const PlaylistResponseSchema = z.object({
   imageState: z.string(),
   tracks: z.array(PlaylistTrackSchema),
   additionalTrackIds: z.array(z.number().int()).nullable(),
-  totalNumTracks: z.number().int(),
-  totalDuration: z.number(),
+  tracksSummary: z.object({
+    totalCount: z.number().int(),
+    totalDuration: z.number(),
+  }),
   curator: PlaylistCuratorSchema,
   creatorId: z.number().int()
 });
