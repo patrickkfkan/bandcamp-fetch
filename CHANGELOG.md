@@ -1,5 +1,8 @@
 # Changelog
 
+v3.2.1
+- fix: adapt Playlist and Discovery APIs to site changes.
+
 v3.2.0
 - fix: fetch cookie automatically if not provided for search requests. This requires at least the `puppeteer` package to be installed.
 - fix: adapt Show API to site changes.
