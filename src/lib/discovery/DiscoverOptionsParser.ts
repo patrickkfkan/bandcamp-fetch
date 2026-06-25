@@ -123,19 +123,14 @@ export default class DiscoverOptionsParser {
             const name = linkEl.text().trim();
             const href = linkEl.attr('href');
             const urlObj = href && new URL(href, URLS.SITE_URL);
-            const linkFrom = urlObj && urlObj.searchParams.get('from');
-            const isLocation = linkFrom === 'hp_disco_locations';
-            const geo =
-              isLocation && urlObj ?
-                Number(urlObj.searchParams.get('loc'))
-              : null;
+            const geo = urlObj ? Number(urlObj.searchParams.get('loc')) : null;
             if (geo && !isNaN(geo) && !_findLoc(geo, name)) {
               list.locations.push({
                 type: 'location',
                 name,
                 value: geo
               });
-            } else if (!isLocation) {
+            } else if (!geo) {
               const tagMatch = href ? /\/discover\/(.+)\?/.exec(href) : null;
               const value = tagMatch && tagMatch[1];
               if (value && !_findTag(value, name)) {
