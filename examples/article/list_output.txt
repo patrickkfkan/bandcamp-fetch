@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-on-bandcamp-august-2023",
+      "title": "The Best Ambient on Bandcamp: August 2023",
+      "date": "September 11, 2023",
+      "category": {
+        "name": "BEST AMBIENT",
+        "url": "https://daily.bandcamp.com/best-ambient"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/0033487805_150.jpg"
+    },
+    {
+      "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-on-bandcamp-july-2023",
+      "title": "The Best Ambient on Bandcamp: July 2023",
+      "date": "August 04, 2023",
+      "category": {
+        "name": "BEST AMBIENT",
+        "url": "https://daily.bandcamp.com/best-ambient"
+      },
+      "imageUrl": "https://f4.bcbits.com/img/0033033081_150.jpg"
+    },
+    {
       "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-on-bandcamp-june-2023",
       "title": "The Best Ambient on Bandcamp: June 2023",
       "date": "June 29, 2023",
@@ -279,29 +299,9 @@
         "url": "https://daily.bandcamp.com/best-ambient"
       },
       "imageUrl": "https://f4.bcbits.com/img/0023416245_150.jpg"
-    },
-    {
-      "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-november-2020",
-      "title": "The Best Ambient Music on Bandcamp: November 2020",
-      "date": "December 03, 2020",
-      "category": {
-        "name": "BEST AMBIENT",
-        "url": "https://daily.bandcamp.com/best-ambient"
-      },
-      "imageUrl": "https://f4.bcbits.com/img/0022625290_150.jpg"
-    },
-    {
-      "url": "https://daily.bandcamp.com/best-ambient/best-ambient-october-2020",
-      "title": "The Best Ambient Music on Bandcamp: October 2020",
-      "date": "October 30, 2020",
-      "category": {
-        "name": "BEST AMBIENT",
-        "url": "https://daily.bandcamp.com/best-ambient"
-      },
-      "imageUrl": "https://f4.bcbits.com/img/0036747043_150.jpg"
     }
   ],
-  "total": 92,
+  "total": 94,
   "start": 31,
   "end": 60
 }

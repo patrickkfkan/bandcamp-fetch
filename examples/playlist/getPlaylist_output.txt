@@ -8,7 +8,7 @@ Playlist:
   "url": "https://bandcamp.com/patrickkfkan/playlist/mix-1",
   "modifiedDate": "01 Jun 2026 08:56:13 GMT",
   "numTracks": 101,
-  "duration": 20433.703500000007,
+  "duration": 20434,
   "tracks": [
     {
       "id": 1852103458,
@@ -26,7 +26,7 @@ Playlist:
         "url": "https://izioq.bandcamp.com/album/my-own-private-video-game"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3837890961_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/1841ed3cd6832877690d3a15742eb05d/mp3-128/1852103458?p=0&ts=1780738396&t=f64aea80ceaf42c73109a08ab52ab41bb9a598c5&token=1780738396_2623e9cc2e4c4a8ceaa78c83f87a38cdfce34f86"
+      "streamUrl": "https://t4.bcbits.com/stream/1841ed3cd6832877690d3a15742eb05d/mp3-128/1852103458?p=0&ts=1782461717&t=a49e0ede110bd9509e3f101e519e02ff8c645f78&token=1782461717_a89faed41af2cd93577b8c767129c952bbf6abe8"
     },
     {
       "id": 4262883789,
@@ -44,7 +44,7 @@ Playlist:
         "url": "https://izioq.bandcamp.com/album/my-own-private-video-game"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3837890961_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/7f48b9bb353f3d0f0b5246ab7df56b79/mp3-128/4262883789?p=0&ts=1780738396&t=49c41ecfa1ff4cd5b1eed9413c32676843ca82f1&token=1780738396_7c5965017efca87f2214ef7351d6d2d1329dbed0"
+      "streamUrl": "https://t4.bcbits.com/stream/7f48b9bb353f3d0f0b5246ab7df56b79/mp3-128/4262883789?p=0&ts=1782461717&t=c5bc115cfe6853c4194752a69f9d888f027af2a6&token=1782461717_e8cdc1bf7fe0390be91606037cde64bfcc1e5d30"
     },
     {
       "id": 1246461645,
@@ -62,7 +62,7 @@ Playlist:
         "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2007814130_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/e00fba184270d24ca50f2dbb40d954e8/mp3-128/1246461645?p=0&ts=1780738396&t=5c21da11c48fca128997fff186bca79f583391c8&token=1780738396_6c443bad1d64020c49e851c702e9936a556c1f17"
+      "streamUrl": "https://t4.bcbits.com/stream/e00fba184270d24ca50f2dbb40d954e8/mp3-128/1246461645?p=0&ts=1782461717&t=9e0291dcad84c7c2b6acc5254bcea79819a6bd83&token=1782461717_179e4c5dc501322bdd9d38a5974827167ad5cac3"
     },
     {
       "id": 3436137763,
@@ -80,7 +80,7 @@ Playlist:
         "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2007814130_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/2e24589f47f6aefe20525d2c46d8b562/mp3-128/3436137763?p=0&ts=1780738396&t=aae7fad44a2ff203c954d06c89d94aaf75fc108c&token=1780738396_a4489daab7706b7d53511b51a68034a8c282b96f"
+      "streamUrl": "https://t4.bcbits.com/stream/2e24589f47f6aefe20525d2c46d8b562/mp3-128/3436137763?p=0&ts=1782461717&t=e1aedb4af74baa7d606e8cb8a7782cb8bbe7271c&token=1782461717_18463ecd6018230a908325ecc72952b3b9e7bce7"
     },
     {
       "id": 1517164960,
@@ -98,7 +98,7 @@ Playlist:
         "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2007814130_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/cc8e780e72c5a6d0e007c077a11bc4ed/mp3-128/1517164960?p=0&ts=1780738396&t=afa6ecee8d978a5c769feb0fa91f7bf69e72293a&token=1780738396_1e38ebd4a430a153f68d6ed3921a848b15198bf6"
+      "streamUrl": "https://t4.bcbits.com/stream/cc8e780e72c5a6d0e007c077a11bc4ed/mp3-128/1517164960?p=0&ts=1782461717&t=7f3fb3b64dd8b4c3dc0bf795bd47c1fb103746a0&token=1782461717_7010770f36cf0c9e0deacbb13530cc0b232c8417"
     },
     {
       "id": 1555520229,
@@ -116,7 +116,7 @@ Playlist:
         "url": "https://omoidelabel.bandcamp.com/album/melon-soooda-ep"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2007814130_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/5854e1b39756911f0b91a70f0cc84042/mp3-128/1555520229?p=0&ts=1780738396&t=ceb79def7b6184b2908bd0f2da00949022eae05f&token=1780738396_da3e4a121ba61f7f7a0823fb375de9ff98b4fe40"
+      "streamUrl": "https://t4.bcbits.com/stream/5854e1b39756911f0b91a70f0cc84042/mp3-128/1555520229?p=0&ts=1782461717&t=f80ee0554343e25758ffe204be6354365541e839&token=1782461717_07ef4e9cfd7d59d5733a6ab4e9db8b60761abaef"
     },
     {
       "id": 1755908876,
@@ -134,7 +134,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/dc702d6819e289c21f3c85304fe3a0e7/mp3-128/1755908876?p=0&ts=1780738396&t=1e34b931ed8eab6836e263f4f178fdb4f0bd359b&token=1780738396_815cb5fe6ec97cc632c39e79f8cd793e008118fb"
+      "streamUrl": "https://t4.bcbits.com/stream/dc702d6819e289c21f3c85304fe3a0e7/mp3-128/1755908876?p=0&ts=1782461717&t=adbd1a44f8c3b2e37fe7959eb183b266b3c2a03f&token=1782461717_57f90101b0badde5b2d7e93f180b82766235c7fc"
     },
     {
       "id": 2524864549,
@@ -152,7 +152,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/bc63908bdc2a8ce952bfab999fc45278/mp3-128/2524864549?p=0&ts=1780738396&t=1162bc354607b0e73d8b2663fd4704c750d96dc5&token=1780738396_e3d0828b2504464c42ebc872521a7e9b0034d070"
+      "streamUrl": "https://t4.bcbits.com/stream/bc63908bdc2a8ce952bfab999fc45278/mp3-128/2524864549?p=0&ts=1782461717&t=3142d050dd3c95737e95c9c608d153e6644aff09&token=1782461717_99f864795b3cd7c24fa2d515489476e31ea7d9b9"
     },
     {
       "id": 4212173716,
@@ -170,7 +170,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/1750a75eb65857250740d1acfe827c42/mp3-128/4212173716?p=0&ts=1780738396&t=3576a722ae2beef9573860f37616edfb262a929d&token=1780738396_a977b17980e376b204ce3049dcd61d1ea2623527"
+      "streamUrl": "https://t4.bcbits.com/stream/1750a75eb65857250740d1acfe827c42/mp3-128/4212173716?p=0&ts=1782461717&t=0d4f6b73dd45af70b1e41908fa6c08f1cce6a270&token=1782461717_b0d746f6c81896ad0dd8badb53f63422f4d7601f"
     },
     {
       "id": 1725771824,
@@ -188,7 +188,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/e407557ca7a08b83dbd3f27d1782401c/mp3-128/1725771824?p=0&ts=1780738396&t=83ad300a81a4c0d4cf696aca243a829ec69c0aff&token=1780738396_7887ba19354f804a9d9f757aa63ca4419828334d"
+      "streamUrl": "https://t4.bcbits.com/stream/e407557ca7a08b83dbd3f27d1782401c/mp3-128/1725771824?p=0&ts=1782461717&t=7237dea687fe9fe12bf54d3a6c529ba349f2bd5b&token=1782461717_865779e02625834ae0c419535262a8b5c2a3a9cd"
     },
     {
       "id": 1423669340,
@@ -206,7 +206,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/7b317e32e8795fb9476aaf7b013fc666/mp3-128/1423669340?p=0&ts=1780738396&t=94c6bc1171fc2aa35ff00844e639ce47ce5ebf48&token=1780738396_f56549b2ef967f76c78d600f2b6f479f00e3b3fc"
+      "streamUrl": "https://t4.bcbits.com/stream/7b317e32e8795fb9476aaf7b013fc666/mp3-128/1423669340?p=0&ts=1782461717&t=9bdba82c2af2be87ce05659a9979d893b791c0e3&token=1782461717_dfa85c7d1045798f5d026340e4199c63149bcb3e"
     },
     {
       "id": 2629658251,
@@ -224,7 +224,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/48293e92b4c7a68e77ceb8f1852eacdf/mp3-128/2629658251?p=0&ts=1780738396&t=a5cd0f9797684244541ac3072f73880f9c8fb3c3&token=1780738396_f2a45f69088ff624f7f7191c1da51d8b3eeb5813"
+      "streamUrl": "https://t4.bcbits.com/stream/48293e92b4c7a68e77ceb8f1852eacdf/mp3-128/2629658251?p=0&ts=1782461717&t=f6acc6943c00f175ec6058cb845a77f975650797&token=1782461717_b21a5a86131aba1007730aad9b69e8aab74a986b"
     },
     {
       "id": 3940330638,
@@ -242,7 +242,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/2417d8e3793706151ac0b565090feef0/mp3-128/3940330638?p=0&ts=1780738396&t=853aa8cfd8e1b8c87b99633a42d8941c89ab89e6&token=1780738396_f58da1f37c2245e899f7b22d68321b21f9408457"
+      "streamUrl": "https://t4.bcbits.com/stream/2417d8e3793706151ac0b565090feef0/mp3-128/3940330638?p=0&ts=1782461717&t=b9c5f50816e49f5db062c2033a064bf34b42457b&token=1782461717_23ec9e9301532640f4c68ed24e1700b389caf795"
     },
     {
       "id": 3256919507,
@@ -260,7 +260,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/f06489b7e53a8e8c90f12ef523475432/mp3-128/3256919507?p=0&ts=1780738396&t=4062ca5ef082b96c72c69ce4f59819c03325e488&token=1780738396_f34fa0dfd67108010dd3dc3919714df8542da73d"
+      "streamUrl": "https://t4.bcbits.com/stream/f06489b7e53a8e8c90f12ef523475432/mp3-128/3256919507?p=0&ts=1782461717&t=5050f1b1bdad03ed79adb969a786fc6f92a2b003&token=1782461717_7a164b770f6a43ee211dc9afdf8da5acd8db9624"
     },
     {
       "id": 660194790,
@@ -278,7 +278,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/00d3b1dd4bb0d83015e9637bc1941030/mp3-128/660194790?p=0&ts=1780738396&t=3e41d65c6b3470dea5fe8c65989d50810c7646b9&token=1780738396_852a9594868dfa7c7d83a4a69f720b0f10a82207"
+      "streamUrl": "https://t4.bcbits.com/stream/00d3b1dd4bb0d83015e9637bc1941030/mp3-128/660194790?p=0&ts=1782461717&t=9fab24ecdfac455eed3e4382d7d91a4ebf01bdf4&token=1782461717_6aa930375a6dd83f5142c520e4e8fb28e33ca585"
     },
     {
       "id": 39231062,
@@ -296,7 +296,7 @@ Playlist:
         "url": "https://autoheart-disabled-2338119215.bandcamp.com/album/demos"
       },
       "imageUrl": "https://f4.bcbits.com/img/a2910994380_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/058442f8dd4f93013b998dcf17e0b618/mp3-128/39231062?p=0&ts=1780738396&t=84024be500140806bc9842ce734f8c19c09bd379&token=1780738396_d15ce206a93cba8e95b7527f8df50bf1077bbb47"
+      "streamUrl": "https://t4.bcbits.com/stream/058442f8dd4f93013b998dcf17e0b618/mp3-128/39231062?p=0&ts=1782461717&t=e37b44cab2bf6da2c43974a35f241107f81d69b9&token=1782461717_3c63fca6dc2170d0f90bfaf72d14775ed9b005c3"
     },
     {
       "id": 3523027342,
@@ -314,7 +314,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/8ca82d96994024345da19811e7472004/mp3-128/3523027342?p=0&ts=1780738396&t=342ff46928a03e0da6eb3cd6bc0b0ab9e8122151&token=1780738396_f485c468172b98b4c3b8dd50a1478207ad817bc1"
+      "streamUrl": "https://t4.bcbits.com/stream/8ca82d96994024345da19811e7472004/mp3-128/3523027342?p=0&ts=1782461717&t=6ed6ccf17be0c91a53d672a7a46fd0c889aac5b6&token=1782461717_003dc839f192c76fe96761fc39e3194edc58d1b5"
     },
     {
       "id": 3185848334,
@@ -332,7 +332,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/f1d36106c4e944793c33723b38ac1c5a/mp3-128/3185848334?p=0&ts=1780738396&t=d1546e10d0624454e2c579ae23337aff8210cc36&token=1780738396_76410784af97bb7c98025b46496722a1123d5228"
+      "streamUrl": "https://t4.bcbits.com/stream/f1d36106c4e944793c33723b38ac1c5a/mp3-128/3185848334?p=0&ts=1782461717&t=46c5802e2d881999cd8b6024fb4d3d6b2fd9b604&token=1782461717_8cd1d0f57255ea1d1a13846bfdc81abc81febb7f"
     },
     {
       "id": 3198747317,
@@ -350,7 +350,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/cd55515413a6d9d1d5d60c9fccfb545f/mp3-128/3198747317?p=0&ts=1780738396&t=edd49eac80483c0ff19007f08d56d9f92b29fbf5&token=1780738396_96442040304344fccbb1b1a9d496fc6abb8968ad"
+      "streamUrl": "https://t4.bcbits.com/stream/cd55515413a6d9d1d5d60c9fccfb545f/mp3-128/3198747317?p=0&ts=1782461717&t=f293ff2a5aae40218f8867025b7a7e3b7148bca9&token=1782461717_955b851072bd6916a5dbd3fd09ed3d8015ab19e7"
     },
     {
       "id": 4053067426,
@@ -368,7 +368,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/4b08b1d161b9861e497774ece1167e2a/mp3-128/4053067426?p=0&ts=1780738396&t=e6fb31a7d101ca69164c1da8363225b5f81744de&token=1780738396_e036e7743785aba8ee57c315570633633f163d8a"
+      "streamUrl": "https://t4.bcbits.com/stream/4b08b1d161b9861e497774ece1167e2a/mp3-128/4053067426?p=0&ts=1782461717&t=aee9c1616ee6a15a675cba9a893aafadeb9c8cfb&token=1782461717_9cce72b571c64e29894c8484e593de49916811fa"
     },
     {
       "id": 716457595,
@@ -386,7 +386,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/29225266693820ea60d76ea6a4c86112/mp3-128/716457595?p=0&ts=1780738396&t=d492a76f26cf01a1dc78ff3da04c5ccdfa38308d&token=1780738396_2aaaa1e15937f8dfd9793ed8d8e51b8f9b1f18be"
+      "streamUrl": "https://t4.bcbits.com/stream/29225266693820ea60d76ea6a4c86112/mp3-128/716457595?p=0&ts=1782461717&t=d76d869f3abfe2f6ccbe22f1981a6543f434fe0a&token=1782461717_e032283b284929fea0ee65a3ef91f9fe7f9377e0"
     },
     {
       "id": 4137745805,
@@ -404,7 +404,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/e955af8b3a4e32152e9ae3bfdb5e668b/mp3-128/4137745805?p=0&ts=1780738396&t=56318ccc86636f955d405e3e981f403e8c673ddd&token=1780738396_8371107ad3f26ebcca8a0b803171a7d6001a3163"
+      "streamUrl": "https://t4.bcbits.com/stream/e955af8b3a4e32152e9ae3bfdb5e668b/mp3-128/4137745805?p=0&ts=1782461717&t=0bf8b6e3d1faf88b086924e49ea3541c438c001e&token=1782461717_d64aced83ee740f9f040c4e5fa7905c2e231bb38"
     },
     {
       "id": 263920623,
@@ -422,7 +422,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/dd1ab84c14cec1ea86b6b1deef4f83aa/mp3-128/263920623?p=0&ts=1780738396&t=616f2ac6d0d4c2039d5e0f6f2357e5af7e1a113f&token=1780738396_435e7155d63ea3c86c12c0c432010a24ef262606"
+      "streamUrl": "https://t4.bcbits.com/stream/dd1ab84c14cec1ea86b6b1deef4f83aa/mp3-128/263920623?p=0&ts=1782461717&t=ff433ca2308664ad2b68b43cc17299aa5e8b584d&token=1782461717_47601c3a1f915cc58113947b4ef7bab90f2961cd"
     },
     {
       "id": 544484063,
@@ -440,7 +440,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/3fdbd32137f6cd815baf527ff5cc63b9/mp3-128/544484063?p=0&ts=1780738396&t=46a665fc5126a9d345984b9be715f4d99891d5a3&token=1780738396_18984449a6a71625030cf60fbf5d16f6e1b61c7f"
+      "streamUrl": "https://t4.bcbits.com/stream/3fdbd32137f6cd815baf527ff5cc63b9/mp3-128/544484063?p=0&ts=1782461717&t=eaf9fb4f24b619e108b91de44b988a0ce85c423c&token=1782461717_b7094cfe17a50e65a12fe8c0946bf53cedacfa1e"
     },
     {
       "id": 2132842512,
@@ -458,7 +458,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/41fc901a9befbbbbfdf5ed515f19b475/mp3-128/2132842512?p=0&ts=1780738396&t=8e6e3e60a23b162d915c9e98e1add307458f6f2e&token=1780738396_59a5630c6d71f3a0a2111533ff5354179972de70"
+      "streamUrl": "https://t4.bcbits.com/stream/41fc901a9befbbbbfdf5ed515f19b475/mp3-128/2132842512?p=0&ts=1782461717&t=e09424bb5b68a80275001da94e3ceb1b42ce6c2f&token=1782461717_dc1a4ce8a1febf7d276a9112b3188c493d000779"
     },
     {
       "id": 2010898802,
@@ -476,7 +476,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/710b6c9c389fa1b4ed377f8515b3b5a2/mp3-128/2010898802?p=0&ts=1780738396&t=e8aef1eed69d0aec6fcceb812f2a45d02a9c32ab&token=1780738396_e2222eaed1fe58e0cbfe4a1cd41b62387960f565"
+      "streamUrl": "https://t4.bcbits.com/stream/710b6c9c389fa1b4ed377f8515b3b5a2/mp3-128/2010898802?p=0&ts=1782461717&t=64a410b389fe30fee4d921cc13ecdd31098a013b&token=1782461717_99c46ee2d8d2a410802123d96384cb87137dd22a"
     },
     {
       "id": 1637966902,
@@ -494,7 +494,7 @@ Playlist:
         "url": "https://tsudiostudiokkr.bandcamp.com/album/my-room"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3795299987_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/b8b8c7ffd78c5c1d54ed26522f3a38f5/mp3-128/1637966902?p=0&ts=1780738396&t=c83cf3500e4b7d74e26a62f2f536e9583a383e02&token=1780738396_21dd636d602d3382f9b1d850e3416824c12a1ceb"
+      "streamUrl": "https://t4.bcbits.com/stream/b8b8c7ffd78c5c1d54ed26522f3a38f5/mp3-128/1637966902?p=0&ts=1782461717&t=b007544ba0c8ecde34a798f42dc8555e2fcd7abf&token=1782461717_d7f8f88f6b58f689fbae241757d3ff9c3d16ffbc"
     },
     {
       "id": 3267467401,
@@ -512,7 +512,7 @@ Playlist:
         "url": "https://anitatatlow.bandcamp.com/album/lights"
       },
       "imageUrl": "https://f4.bcbits.com/img/a3424801242_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/da9be281c77476b6c60fb352bebf4dd1/mp3-128/3267467401?p=0&ts=1780738396&t=54c48b689fc67981bf6f2058a2e6e301b1f4b20b&token=1780738396_dd8cbbe742c46899c4fbbf765c8125e42dd51871"
+      "streamUrl": "https://t4.bcbits.com/stream/da9be281c77476b6c60fb352bebf4dd1/mp3-128/3267467401?p=0&ts=1782461717&t=fc11529fb55d1c9ee8b9b7a2bac9fd67dcb17f97&token=1782461717_bb1a711709c9c4c4746b0fd1417c03cffee54d5d"
     },
     {
       "id": 1507934091,
@@ -530,7 +530,7 @@ Playlist:
         "url": "https://anitatatlow.bandcamp.com/album/lights"
       },
       "imageUrl": "https://f4.bcbits.com/img/a811877833_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/97ad8c6e7e9c30c86410037b052604c1/mp3-128/1507934091?p=0&ts=1780738396&t=5c6a8885b006a2a2acfdcd881eafb4dd880efb84&token=1780738396_636efd55c6c60291726257190fab6a2e21dce3d2"
+      "streamUrl": "https://t4.bcbits.com/stream/97ad8c6e7e9c30c86410037b052604c1/mp3-128/1507934091?p=0&ts=1782461717&t=cb943ead423db45344929f495c339d2db18314f7&token=1782461717_f8b3821fae0b4e87184b97950e3396eec1b51edb"
     },
     {
       "id": 1305040008,
@@ -548,7 +548,7 @@ Playlist:
         "url": "https://anitatatlow.bandcamp.com/album/lights"
       },
       "imageUrl": "https://f4.bcbits.com/img/a879817121_9.jpg",
-      "streamUrl": "https://t4.bcbits.com/stream/88ff9d05f7c195e4e0423ca927755bba/mp3-128/1305040008?p=0&ts=1780738396&t=49b9028d3c809d62b814748251f43e40bdc2dfec&token=1780738396_fe17cfbcba07e06f764f02491791aa384e9ed24b"
+      "streamUrl": "https://t4.bcbits.com/stream/88ff9d05f7c195e4e0423ca927755bba/mp3-128/1305040008?p=0&ts=1782461717&t=edd1add7961e8e114b8505c02bb97a777272e8e3&token=1782461717_b081f7d5afe297acce51677f1764aef9670bd25d"
     }
   ],
   "additionalTrackIds": [
@@ -651,7 +651,7 @@ Additional Tracks:
       "url": "https://anitatatlow.bandcamp.com/album/lights"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4228099223_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/9a6664efbaa125ccb400e940b288a090/mp3-128/1044930316?p=0&ts=1780738398&t=f718764d9cdda46f2e2d122ba40e5af2b3bf55d8&token=1780738398_9540ff553a8640050a2a910a3ae115204621be7e"
+    "streamUrl": "https://t4.bcbits.com/stream/9a6664efbaa125ccb400e940b288a090/mp3-128/1044930316?p=0&ts=1782461719&t=3f73ad3a385416a90960e846aecaede89ab2e57d&token=1782461719_53d7c9ef71130caad940e51fd2aefd95a9fcca0d"
   },
   {
     "id": 2854563336,
@@ -669,7 +669,7 @@ Additional Tracks:
       "url": "https://anitatatlow.bandcamp.com/album/lights"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2334753401_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/a8ba64ef985a5a2a44a29a973f1508db/mp3-128/2854563336?p=0&ts=1780738398&t=a85e6bccfa7e353fce0c949781260fd9a205b99f&token=1780738398_b900d04d275755f54e349c0807c57a067524b3ac"
+    "streamUrl": "https://t4.bcbits.com/stream/a8ba64ef985a5a2a44a29a973f1508db/mp3-128/2854563336?p=0&ts=1782461719&t=6de7b54b032f4be714b9e7cb12b0ce1dd82f4d6c&token=1782461719_858cc566cebb136d9d7b474d8612852ec2f1b9d0"
   },
   {
     "id": 3495206765,
@@ -687,7 +687,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/c81750537c015349a9f8a3b1bd463906/mp3-128/3495206765?p=0&ts=1780738398&t=b0108c40555b4dd9b584c45d7f5de1a484d26e02&token=1780738398_66fb8c5127aeb1ecfe071e580f4e55fdcb6f161d"
+    "streamUrl": "https://t4.bcbits.com/stream/c81750537c015349a9f8a3b1bd463906/mp3-128/3495206765?p=0&ts=1782461719&t=dc1cd9428c28303ec5e89d47bb1b565271013fae&token=1782461719_85b1d5dd539e35c604c53e5233dd4d8103f8ea34"
   },
   {
     "id": 2708780485,
@@ -705,7 +705,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/e55618986c63eff31dde02c6e96bb453/mp3-128/2708780485?p=0&ts=1780738398&t=e97c0866b382767c217dbc06ac943084bc54febb&token=1780738398_44944f7fd4912fbb6f415ad6de02e19cab349e11"
+    "streamUrl": "https://t4.bcbits.com/stream/e55618986c63eff31dde02c6e96bb453/mp3-128/2708780485?p=0&ts=1782461719&t=0aee3deacf3f9ce4a220a61f3179ccad3d72f06b&token=1782461719_f022127a23118657606dcf3b4b7c7c36162d2d4c"
   },
   {
     "id": 1788088718,
@@ -723,7 +723,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/f17650cb4d3a475e00745b745b5e6c70/mp3-128/1788088718?p=0&ts=1780738398&t=8bddf7df152ddb9298b402988f5f5e26e31a7f0e&token=1780738398_87e7fdffaf1c23927bd86562ccca14c013ce4d55"
+    "streamUrl": "https://t4.bcbits.com/stream/f17650cb4d3a475e00745b745b5e6c70/mp3-128/1788088718?p=0&ts=1782461719&t=1ae706da034cb8c7f33f8840f3133b95ac601980&token=1782461719_8d363de5bf927c494ae5c3ea8bb0d7f68cdb3bd8"
   },
   {
     "id": 3321353416,
@@ -741,7 +741,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/2693249a4cbd6852a84ced1a2eaa30e3/mp3-128/3321353416?p=0&ts=1780738398&t=c8371cd9e5fdaec699165e00ca88a794b620eec9&token=1780738398_92c01e628c5a6eae2037030ea85389a57d0cee16"
+    "streamUrl": "https://t4.bcbits.com/stream/2693249a4cbd6852a84ced1a2eaa30e3/mp3-128/3321353416?p=0&ts=1782461719&t=83a3412b9f127cd86b5667f4311b47a6782c086a&token=1782461719_d89194804ee89fd12c94e009d3b397e88e817644"
   },
   {
     "id": 1195709872,
@@ -759,7 +759,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/b691275f940609fbcc5dd689740b96ed/mp3-128/1195709872?p=0&ts=1780738398&t=614d527b5861084b4a5a407077a0147a1334e3a2&token=1780738398_9aa6dfcc96fc346e23bc210727e1b1c014412a4b"
+    "streamUrl": "https://t4.bcbits.com/stream/b691275f940609fbcc5dd689740b96ed/mp3-128/1195709872?p=0&ts=1782461719&t=614cfff9da3d0cc3cc7a46be2fae45592b0ff285&token=1782461719_e0ff5a9fc258645ed606037a7949ebd1af92f3ca"
   },
   {
     "id": 3115233395,
@@ -777,7 +777,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/97b5d0e96dcae9a7d95fdd7c0345abda/mp3-128/3115233395?p=0&ts=1780738398&t=d8ecc39415c6831b0231460abce59603447e6f87&token=1780738398_a993211fc91ef4ee55d5c51b81a3ed65bed3073f"
+    "streamUrl": "https://t4.bcbits.com/stream/97b5d0e96dcae9a7d95fdd7c0345abda/mp3-128/3115233395?p=0&ts=1782461719&t=6cab7a616facd88421b78ce6a21788a719f2b5b4&token=1782461719_f5ecc458eabd4759bb206f8bc05b71ea8af6ad1f"
   },
   {
     "id": 1658794022,
@@ -795,7 +795,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/cb3d0ae05fcdced121afe572cbe91255/mp3-128/1658794022?p=0&ts=1780738398&t=591db3df546ef26039a6bc5989cf6d968fc7fac2&token=1780738398_8cfee8fde4cc069c0b5b0fabcb6294c6c271a6d2"
+    "streamUrl": "https://t4.bcbits.com/stream/cb3d0ae05fcdced121afe572cbe91255/mp3-128/1658794022?p=0&ts=1782461719&t=36ea799cf2fd847a1947ec54fa0060c559f9f150&token=1782461719_a150c5a07ded7b981a150dab86e6380f67a9cfbb"
   },
   {
     "id": 2582578302,
@@ -813,7 +813,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/e9889f5eaf0d24c2f52077eb45a36c98/mp3-128/2582578302?p=0&ts=1780738398&t=0f27a2b4afffe0b8ce14ed15105bd950fa22d5c6&token=1780738398_1549b0858d6225ba1a75ba7c6b40c632128576b0"
+    "streamUrl": "https://t4.bcbits.com/stream/e9889f5eaf0d24c2f52077eb45a36c98/mp3-128/2582578302?p=0&ts=1782461719&t=5cd72b673bfda21b9f4b27fbf2232114b4185800&token=1782461719_d98898f3840529675cc8d91e0d9ab7126881ed30"
   },
   {
     "id": 383919278,
@@ -831,7 +831,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/fc14862f5b8edd35e45497603ab82d20/mp3-128/383919278?p=0&ts=1780738398&t=e5adc7d417e85b515568e16bf94fb512af097930&token=1780738398_f8df67d1c5f649b83f966e7ce8a74cc08b438a99"
+    "streamUrl": "https://t4.bcbits.com/stream/fc14862f5b8edd35e45497603ab82d20/mp3-128/383919278?p=0&ts=1782461719&t=7e298b599c23dcec4435dad05b4632ee1ec8c237&token=1782461719_a3fec636872468454bad1d2924764e93ced50c5c"
   },
   {
     "id": 3565149708,
@@ -849,7 +849,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/2bdbc968cf8088ac02a52bdf470f5dc9/mp3-128/3565149708?p=0&ts=1780738398&t=0253dfb619826358e2186b940015713adbb75f8a&token=1780738398_0c910f004b19cf329f4bad43e46d0e71166c2d0d"
+    "streamUrl": "https://t4.bcbits.com/stream/2bdbc968cf8088ac02a52bdf470f5dc9/mp3-128/3565149708?p=0&ts=1782461719&t=021c22323842394d6f377e45467803a37e79ffdf&token=1782461719_50431afab5f2401db87befa672f2d05260bb447a"
   },
   {
     "id": 1807827412,
@@ -867,7 +867,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/48858b2bed0e84309add44e432014b39/mp3-128/1807827412?p=0&ts=1780738398&t=58038fc30873fa5d8206b7f55f1b6c047a5bc252&token=1780738398_a8bd269343cee5e3f2bcc7ad574fa51229840b98"
+    "streamUrl": "https://t4.bcbits.com/stream/48858b2bed0e84309add44e432014b39/mp3-128/1807827412?p=0&ts=1782461719&t=2fc68bbfa8f15ca23893ad7f20354c2d58b3e4ae&token=1782461719_87b37cd2ef8a8aafeaf7d547bf3363e34de196da"
   },
   {
     "id": 380435176,
@@ -885,7 +885,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/2251167e87fcf17080000fbb050592db/mp3-128/380435176?p=0&ts=1780738398&t=22df15e3ff2f18006d941d12fab26257f15198c1&token=1780738398_fae34608d26e5f9e0547240ba81a39bd4ceece47"
+    "streamUrl": "https://t4.bcbits.com/stream/2251167e87fcf17080000fbb050592db/mp3-128/380435176?p=0&ts=1782461719&t=3096bd57e35f2955eb7d5022c46e2f268a7808e7&token=1782461719_068bedd27b06477f9f30dda6e7be44f364de0a83"
   },
   {
     "id": 508234876,
@@ -903,7 +903,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/e8a24a739abeb88117bab9825525a5c1/mp3-128/508234876?p=0&ts=1780738398&t=4912514ded77d988b9b7da5de487b2931f0f0196&token=1780738398_c5b6407a0978b995d6e20b76296514ea3b4704f8"
+    "streamUrl": "https://t4.bcbits.com/stream/e8a24a739abeb88117bab9825525a5c1/mp3-128/508234876?p=0&ts=1782461719&t=cf8d5077198a2aea2cc16f21206c1bd8fe9293f9&token=1782461719_0d191b9c6534efc9269d071c4acd3fb85f08fe3a"
   },
   {
     "id": 1064200762,
@@ -921,7 +921,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/95d4eae4bd7ec93a53ab716cb39cd295/mp3-128/1064200762?p=0&ts=1780738398&t=46d7759662e11fddd2ad2feb5be861bc7a96db89&token=1780738398_b5c1d06e86474ef5f0eb5574d1f3d78e3da0920b"
+    "streamUrl": "https://t4.bcbits.com/stream/95d4eae4bd7ec93a53ab716cb39cd295/mp3-128/1064200762?p=0&ts=1782461719&t=cc565e15732f1186883969ab6d89606691e0613b&token=1782461719_0e2b6c520c3c803bcf4bda10499a2b6d9e2832c6"
   },
   {
     "id": 1406293937,
@@ -939,7 +939,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/253ca9952c4474d75438fae8a00e694f/mp3-128/1406293937?p=0&ts=1780738398&t=7b08b6555b38af107cbd85b65a5626d72d9c04e9&token=1780738398_1a4a60e05bdd2cd4fa96291590ecabc3361d1b89"
+    "streamUrl": "https://t4.bcbits.com/stream/253ca9952c4474d75438fae8a00e694f/mp3-128/1406293937?p=0&ts=1782461719&t=86edb2d2093ac52bdd848af67bbe1511b62250a9&token=1782461719_2fd3f36616b95cc09b66d83ed2c807c264b48fba"
   },
   {
     "id": 3885333953,
@@ -957,7 +957,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/outsidedontlisten"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3949687068_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/7274d108fe6217f1cde7ee7485ad3de1/mp3-128/3885333953?p=0&ts=1780738398&t=2f60bebd301d621f7e62e25136bba984bdb55588&token=1780738398_f02aa0903c014ade59b64704be96995dc5898ec5"
+    "streamUrl": "https://t4.bcbits.com/stream/7274d108fe6217f1cde7ee7485ad3de1/mp3-128/3885333953?p=0&ts=1782461719&t=c3bfdf90eb64036379e710d492478472a0ba1fe7&token=1782461719_ea3d662f5a7e1db41c848882129d943ab3bc5377"
   },
   {
     "id": 3509282317,
@@ -975,7 +975,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/ab8ab398adc29362c2b627d5a1943b2b/mp3-128/3509282317?p=0&ts=1780738398&t=cc3d123d56966f88102a9c6d0d5dc0f1bb367c29&token=1780738398_a3037c0f5075f47abe7c2b2b0591ac770f58fd25"
+    "streamUrl": "https://t4.bcbits.com/stream/ab8ab398adc29362c2b627d5a1943b2b/mp3-128/3509282317?p=0&ts=1782461719&t=d64ded1c3eae223587fe23de830500ddd3d81a4d&token=1782461719_e9a2e177df8deb7cdc9ccac317203d12d8dd19a6"
   },
   {
     "id": 3191069505,
@@ -993,7 +993,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/c422ceb0939cd98f35d30a718e91a99b/mp3-128/3191069505?p=0&ts=1780738398&t=65c9ff9fdf672afe9aaeac2f3f2a93c0ea6343c2&token=1780738398_6c583a0b1715d2b3d9b601016125957ed01a93a7"
+    "streamUrl": "https://t4.bcbits.com/stream/c422ceb0939cd98f35d30a718e91a99b/mp3-128/3191069505?p=0&ts=1782461719&t=e057df6492285c60820c4799e492fee20ade1a56&token=1782461719_4d5db32c95aebe705fe57a12772304638ac80702"
   },
   {
     "id": 479900415,
@@ -1011,7 +1011,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/bbdac651dbf4a41a1033b02a1bfef40e/mp3-128/479900415?p=0&ts=1780738398&t=e4e1d0197324935d6348c4b5656c34049c6fae5e&token=1780738398_45dbc205284ae45f2f8e7fcdb2306d7c54f18e82"
+    "streamUrl": "https://t4.bcbits.com/stream/bbdac651dbf4a41a1033b02a1bfef40e/mp3-128/479900415?p=0&ts=1782461719&t=1b69de3eb86289a60734be2a83a3b1913080aa14&token=1782461719_fdc2b74234608c4ca959b34e1a0018163406458e"
   },
   {
     "id": 3040202633,
@@ -1029,7 +1029,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/aec4af0d5dde9ed72e32ec4925c27ecb/mp3-128/3040202633?p=0&ts=1780738398&t=6690290505bfe6abb9fee819c142c17904b05281&token=1780738398_c4c26028059e0debffffa7fb18e44880eb917029"
+    "streamUrl": "https://t4.bcbits.com/stream/aec4af0d5dde9ed72e32ec4925c27ecb/mp3-128/3040202633?p=0&ts=1782461719&t=0ab18ed285d2f42cb508ae6d70e4b2575b2269dd&token=1782461719_433c895200c547a3a08b8ca2ba862b8adc83621c"
   },
   {
     "id": 135129829,
@@ -1047,7 +1047,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/fdc1121df56ef67d149f177f84bd70ff/mp3-128/135129829?p=0&ts=1780738398&t=9f3306ca56cc5cde50d39ca5ac9b210c1d1e4f01&token=1780738398_6488a8a0deebff47eb78a85d5c3319d72b9d6afe"
+    "streamUrl": "https://t4.bcbits.com/stream/fdc1121df56ef67d149f177f84bd70ff/mp3-128/135129829?p=0&ts=1782461719&t=8d9c8362329f8c5cb6a6f004321eb0e2f7a29f15&token=1782461719_f5415dc9aa0985f59f76745fbb73f7a315ca344f"
   },
   {
     "id": 4167338633,
@@ -1065,7 +1065,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/7568dcb6e9ec90f1c4e81a594cb496ab/mp3-128/4167338633?p=0&ts=1780738398&t=2dca61f0affd63198d81e42a8f2f0fc82113b15f&token=1780738398_f5ffcdf0ae339f7e2fe96c4b17204b745bb27726"
+    "streamUrl": "https://t4.bcbits.com/stream/7568dcb6e9ec90f1c4e81a594cb496ab/mp3-128/4167338633?p=0&ts=1782461719&t=baa34c7bdd8a67351ea54dfc09f1d2e8a1321d56&token=1782461719_19a5297c0564eee253077143560d13d4c0fd28e8"
   },
   {
     "id": 1451964711,
@@ -1083,7 +1083,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/032f77c7cf95145a45337536efff563c/mp3-128/1451964711?p=0&ts=1780738398&t=34f7d4c41edb2f5485eb4d067b067bb37bd825a6&token=1780738398_2f4eeb7bfb90845f03acacb18e334e91b8b0be17"
+    "streamUrl": "https://t4.bcbits.com/stream/032f77c7cf95145a45337536efff563c/mp3-128/1451964711?p=0&ts=1782461719&t=780cbabe195f7392c0041fbdaa306bcda7656ee9&token=1782461719_09f9ebe13f1ff22001505a7670589ca7c4042c05"
   },
   {
     "id": 2718161116,
@@ -1101,7 +1101,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/1a547564181fe33fc0c03f172facd635/mp3-128/2718161116?p=0&ts=1780738398&t=556db97e3a8abc8ed4f1774330aadbe0e252bd78&token=1780738398_2b44da0890f2852448de2efd86425d213db34425"
+    "streamUrl": "https://t4.bcbits.com/stream/1a547564181fe33fc0c03f172facd635/mp3-128/2718161116?p=0&ts=1782461719&t=3bba48e5ad79f0004d347f4dbab9187dfd641baa&token=1782461719_6c272ebe625608988d82e7d0f08a871d6b068317"
   },
   {
     "id": 2376160868,
@@ -1119,7 +1119,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/materials"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3002465600_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/4fdaea105b461207b508cf80ba130267/mp3-128/2376160868?p=0&ts=1780738398&t=ee0aab42ca9ce3a9d698b0a16647cec26b196f6b&token=1780738398_572ca42ff81dc446b1051b3cda95edbf377ca121"
+    "streamUrl": "https://t4.bcbits.com/stream/4fdaea105b461207b508cf80ba130267/mp3-128/2376160868?p=0&ts=1782461719&t=527b510ed36316d072a4353eb631fb4c48e8d5e3&token=1782461719_227d78a26424864a6ae4a235eec16b27123cf1db"
   },
   {
     "id": 851846399,
@@ -1137,7 +1137,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/9d03468f11aa807cf341e541b8d7fe60/mp3-128/851846399?p=0&ts=1780738398&t=3892e8cab9735d3c66bdd159a8841f6ddfb3d6af&token=1780738398_dd2f684b91da2b6f063d8f96f352ed392a2178b4"
+    "streamUrl": "https://t4.bcbits.com/stream/9d03468f11aa807cf341e541b8d7fe60/mp3-128/851846399?p=0&ts=1782461719&t=413632296ffdc2b5eff355a6e92e47b63d1545df&token=1782461719_6027346829cac4de39711461296939c5c4113e00"
   },
   {
     "id": 908856386,
@@ -1155,7 +1155,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/4e5b3ba3e208a69e02861a986af8adcc/mp3-128/908856386?p=0&ts=1780738398&t=fa15eddff4a2ecc000be1aa1d0c25930c9566bac&token=1780738398_cccd59e0abc951d8e7eeaa90aeed5895a3b666e1"
+    "streamUrl": "https://t4.bcbits.com/stream/4e5b3ba3e208a69e02861a986af8adcc/mp3-128/908856386?p=0&ts=1782461719&t=6ddbb3da63d7d6c15dd5c97b1f3d38f38fee260f&token=1782461719_d11911b9cf10724d4122dbd59a76f23b8b934059"
   },
   {
     "id": 1407552326,
@@ -1173,7 +1173,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/51f3c6edfd1f648538880c6862795411/mp3-128/1407552326?p=0&ts=1780738398&t=985bfceab4410b020a61961c9d2170a4e83a75aa&token=1780738398_57d1cbb557606cfdce7ddbf3c4bee2e2cd393e2e"
+    "streamUrl": "https://t4.bcbits.com/stream/51f3c6edfd1f648538880c6862795411/mp3-128/1407552326?p=0&ts=1782461719&t=594ce2058a9a3f35912b49f7de51b57842c4e561&token=1782461719_3cfcfad68aa0781abd07fefa4b82347d39959978"
   },
   {
     "id": 165256449,
@@ -1191,7 +1191,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/55687d0888f9872caba618b3f0ce4bab/mp3-128/165256449?p=0&ts=1780738398&t=b5f3d4dceb70a2be7b3a21867d637b9f7db4a64e&token=1780738398_b864ec7b4d6de6b1540cd5665d4658bebd6ae504"
+    "streamUrl": "https://t4.bcbits.com/stream/55687d0888f9872caba618b3f0ce4bab/mp3-128/165256449?p=0&ts=1782461719&t=6ba0dc9664bc6277d72df67c960607b233eb1b3d&token=1782461719_20e6fe508be8be1f27860c238e93549c979f1401"
   },
   {
     "id": 2073178983,
@@ -1209,7 +1209,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/1a539b085545dda0e9c9a7dfe2645e6b/mp3-128/2073178983?p=0&ts=1780738398&t=33c954ec84995a41ac6a877fd9ae624362eca8f1&token=1780738398_4cc4310c0695dad50b3c304bb389872d9bb81489"
+    "streamUrl": "https://t4.bcbits.com/stream/1a539b085545dda0e9c9a7dfe2645e6b/mp3-128/2073178983?p=0&ts=1782461719&t=96a124a1213d14a2a1a37c4be57d49e82edb6fcf&token=1782461719_2d2a98f228a2cd1988e3e5bf55a5e486c5653edc"
   },
   {
     "id": 3735410350,
@@ -1227,7 +1227,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/4edce14c8353697eaeb09c1f84595d8f/mp3-128/3735410350?p=0&ts=1780738398&t=b9819ec985701a5fbbd99d9b35dd5bbdd37e4cb5&token=1780738398_66d21527e39ba07260ef0d0ed856d047f8d5e34b"
+    "streamUrl": "https://t4.bcbits.com/stream/4edce14c8353697eaeb09c1f84595d8f/mp3-128/3735410350?p=0&ts=1782461719&t=ba529f801af5ebb55f36ceb82a1f4e36309d700f&token=1782461719_072b7d5adbf1e8ec94f0783c8e8d10186a7bbcfc"
   },
   {
     "id": 1539515804,
@@ -1245,7 +1245,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/f42a59e47010d2a3fa946850d3f96927/mp3-128/1539515804?p=0&ts=1780738398&t=254f841fd4e10868df5e7a21b7d28e11b9f6715b&token=1780738398_d4539eb5c829761721c81049d376c6d226d29ae5"
+    "streamUrl": "https://t4.bcbits.com/stream/f42a59e47010d2a3fa946850d3f96927/mp3-128/1539515804?p=0&ts=1782461719&t=cf2d41e9cb4a7b9457480921562c0beca0cc9841&token=1782461719_0b0e4bb2e5126d2e9b0b52086e076b36f1041978"
   },
   {
     "id": 2124417652,
@@ -1263,7 +1263,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/--29"
     },
     "imageUrl": "https://f4.bcbits.com/img/a4208520755_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/587f89deff75b3e680ef51ff9172d48e/mp3-128/2124417652?p=0&ts=1780738398&t=3dc70af043b7d1d4f256c04cfb0a461f09a41a20&token=1780738398_817aa693b38b2b6d2bb239fcc027eff54c1db7c7"
+    "streamUrl": "https://t4.bcbits.com/stream/587f89deff75b3e680ef51ff9172d48e/mp3-128/2124417652?p=0&ts=1782461719&t=e0eba9ff6a1cb9f25be47844bcf90e6bab12870e&token=1782461719_bc1f0eb76f20baa2ea10b310c492beb8ee2d59ff"
   },
   {
     "id": 321865877,
@@ -1281,7 +1281,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/b67321db9b6ad140485d03b7d0f9afa4/mp3-128/321865877?p=0&ts=1780738398&t=2ca660f6619a26cfeb60baa72ccf3c732d7618cb&token=1780738398_11e6df5f5a2e2068dec86d9533f45fa6e5a058d3"
+    "streamUrl": "https://t4.bcbits.com/stream/b67321db9b6ad140485d03b7d0f9afa4/mp3-128/321865877?p=0&ts=1782461719&t=a6641e5fbad950d259a96a4a0675e6c892a5a003&token=1782461719_08edac4e8c79ae5bf76429f123e99cb654854012"
   },
   {
     "id": 897415822,
@@ -1299,7 +1299,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/975af8f7609c30a1431b24d2153d6583/mp3-128/897415822?p=0&ts=1780738398&t=2e18eeb7a069bb7a5134f4f0d5ac71ef519ba026&token=1780738398_87dc9d40c5a3ba02b7ee20e7b81f8fd686d52edb"
+    "streamUrl": "https://t4.bcbits.com/stream/975af8f7609c30a1431b24d2153d6583/mp3-128/897415822?p=0&ts=1782461719&t=970a70525ed589a2c8aa2a3a45d5f6df1b495125&token=1782461719_a95066dffb307f504223270dbc7d17b31bf00b24"
   },
   {
     "id": 2003327206,
@@ -1317,7 +1317,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/7f1c254dac12b72be22c9c3cae1b79ca/mp3-128/2003327206?p=0&ts=1780738398&t=083b8c83934d68f0c3a5e093e77deb618579f568&token=1780738398_69a55fda5242711a0858e13a6355997c81265710"
+    "streamUrl": "https://t4.bcbits.com/stream/7f1c254dac12b72be22c9c3cae1b79ca/mp3-128/2003327206?p=0&ts=1782461719&t=0b719dce2e7ef36cad2d51aa584b312e12b86f9e&token=1782461719_7b3ecbafc25be9c6cb8182f5a886ae01d9584033"
   },
   {
     "id": 2020787436,
@@ -1335,7 +1335,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/3cba4a39d76b25d53264c8a60247473b/mp3-128/2020787436?p=0&ts=1780738398&t=57c91d2d664dd547221cf2be6db968f725e25194&token=1780738398_2d8c70304fdbe676c67f7ef276128658728a629a"
+    "streamUrl": "https://t4.bcbits.com/stream/3cba4a39d76b25d53264c8a60247473b/mp3-128/2020787436?p=0&ts=1782461719&t=82ff61648673afc2e39dd1ee628614902fb8e9ed&token=1782461719_35ddc9b5344cc718990431ed230ffd19031c5a38"
   },
   {
     "id": 1641930653,
@@ -1353,7 +1353,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/e3ccf94337e3855826a4ba618598ab3c/mp3-128/1641930653?p=0&ts=1780738398&t=43a5654974e8ecccdc301e3e57ed4f04b69c705f&token=1780738398_423f2600a99746fdf8689cc61aa1dedde05b9eeb"
+    "streamUrl": "https://t4.bcbits.com/stream/e3ccf94337e3855826a4ba618598ab3c/mp3-128/1641930653?p=0&ts=1782461719&t=e45c82201bdb236e56fe1746e06c9731935eeaa4&token=1782461719_994697a514051b52f037919bcd01dc9c983f35e9"
   },
   {
     "id": 453573089,
@@ -1371,7 +1371,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/8b84e82628de0a8140fa3aca326330cc/mp3-128/453573089?p=0&ts=1780738398&t=f34d3097ba3c486d511f617262a8264674b71b7c&token=1780738398_c0ae11421c3c69f903f9c1f46f85f6a6ea1800e3"
+    "streamUrl": "https://t4.bcbits.com/stream/8b84e82628de0a8140fa3aca326330cc/mp3-128/453573089?p=0&ts=1782461719&t=d3fcfac93780ff60f02efba5791e25ea6a9c30c6&token=1782461719_bc528ef455cc904929820a0f34983870c0a54105"
   },
   {
     "id": 4237071966,
@@ -1389,7 +1389,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/817071f81c5d0d69644943041bb76559/mp3-128/4237071966?p=0&ts=1780738398&t=52e9611ac34994b84dbbd478c639bb9439c19740&token=1780738398_affe51c66a44ecd759590172f82dd4ba13962784"
+    "streamUrl": "https://t4.bcbits.com/stream/817071f81c5d0d69644943041bb76559/mp3-128/4237071966?p=0&ts=1782461719&t=8bf780c9fcda17b46af9a969021aba1fe1b94ad3&token=1782461719_9db129cd0f1daed7f7f2318fb9ffe8d35bbac925"
   },
   {
     "id": 2036758076,
@@ -1407,7 +1407,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/inscle-1-remasterd"
     },
     "imageUrl": "https://f4.bcbits.com/img/a2560772942_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/fdc265a462025388eff9a4d8284ff107/mp3-128/2036758076?p=0&ts=1780738398&t=364f9c3a02c9d9c452603370283ecc328a9b9a80&token=1780738398_17b92c6ba83cca6cd3cb8915b957411294a85350"
+    "streamUrl": "https://t4.bcbits.com/stream/fdc265a462025388eff9a4d8284ff107/mp3-128/2036758076?p=0&ts=1782461719&t=0ef2ea4234e284e0c595ca4b3595644514bedf63&token=1782461719_b594ba43a3aa87ec71ec2fff1dd738769007a743"
   },
   {
     "id": 2887708997,
@@ -1425,7 +1425,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a926197842_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/b8e58c1ecb621b4e9302dcfcdcbff6ce/mp3-128/2887708997?p=0&ts=1780738398&t=cbcae21b370c3fd591d296e2d713045c4a8b8e34&token=1780738398_11d12563950de4b7835549b57f8f4694ebade79b"
+    "streamUrl": "https://t4.bcbits.com/stream/b8e58c1ecb621b4e9302dcfcdcbff6ce/mp3-128/2887708997?p=0&ts=1782461719&t=0a385e691c68fb5122fa490e9d45800c9813825e&token=1782461719_ab1152dc8ce324df02c7c61e802b9745ed35b994"
   },
   {
     "id": 3430073229,
@@ -1443,7 +1443,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1711674284_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/c3a14752c3a52768386ea87f73e39fb9/mp3-128/3430073229?p=0&ts=1780738398&t=9c8962871ef29309d9563a235efa6c7cebe87d67&token=1780738398_1d61131d8c01c805068be557b24372e7bd0d6c2a"
+    "streamUrl": "https://t4.bcbits.com/stream/c3a14752c3a52768386ea87f73e39fb9/mp3-128/3430073229?p=0&ts=1782461719&t=8755b3c29aa6def37793dc314f79c00ec37bfad5&token=1782461719_d46c17c414cbefbc39df1a3360b535c4d4c9fe80"
   },
   {
     "id": 96525127,
@@ -1461,7 +1461,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3779577597_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/a1e844f1f68c384f10d13896460e4ee8/mp3-128/96525127?p=0&ts=1780738398&t=780d8ac5dec851fb44a8d8bb9a6d928d0651d7be&token=1780738398_fdcb79457843f8668d2856fd61b2d27179e46386"
+    "streamUrl": "https://t4.bcbits.com/stream/a1e844f1f68c384f10d13896460e4ee8/mp3-128/96525127?p=0&ts=1782461719&t=eba4c9893dec57ddd19ec45c9795f647a4456144&token=1782461719_d3ec6804ea52158a9f9be7ef266792e9740f4256"
   },
   {
     "id": 673464643,
@@ -1479,7 +1479,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1408589446_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/cf3c9528eb669d62d21e08f41fc5ccf4/mp3-128/673464643?p=0&ts=1780738398&t=449babd203fc36ca02639f43145ea0be930adfec&token=1780738398_5b870296af46b0d51a3d6a102d69ec6434802575"
+    "streamUrl": "https://t4.bcbits.com/stream/cf3c9528eb669d62d21e08f41fc5ccf4/mp3-128/673464643?p=0&ts=1782461719&t=1942e3a0ccabac3c1e4ba12f49a68874b40143d7&token=1782461719_061191f6356d47c0b7a9f0f4bc245ba7f52f7b1d"
   },
   {
     "id": 2557894327,
@@ -1497,7 +1497,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-02-mask-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a531108930_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/052eca353091c986e89a757ada0c6d82/mp3-128/2557894327?p=0&ts=1780738398&t=e51f03c9e753b94dd091419814884620cd8ff364&token=1780738398_2f33d8916abfc2be2ee259bf6979933beaf57454"
+    "streamUrl": "https://t4.bcbits.com/stream/052eca353091c986e89a757ada0c6d82/mp3-128/2557894327?p=0&ts=1782461719&t=e5e93d0b9da8f834ac16008a190436e5054d61b1&token=1782461719_02003a0c78347be6ebc77dde3be203f91fd22a7c"
   },
   {
     "id": 4135227279,
@@ -1515,7 +1515,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/aa8ccc93fe050c16dadf1f61788e0d24/mp3-128/4135227279?p=0&ts=1780738398&t=178de4f18b83d68813193ef0a8c93dadfe165607&token=1780738398_3cd975b9a272317aa897ef52124b974fe554385f"
+    "streamUrl": "https://t4.bcbits.com/stream/aa8ccc93fe050c16dadf1f61788e0d24/mp3-128/4135227279?p=0&ts=1782461719&t=ae4caf58f6a7325d43da7d6b0d10576099c078dd&token=1782461719_228be23dae71f00c185158fa66749ae08988ac3c"
   },
   {
     "id": 3422519469,
@@ -1533,7 +1533,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/4ad6295803ee7fc1afd1b40538086f28/mp3-128/3422519469?p=0&ts=1780738398&t=f93e4c0ee900bed080549371606bd7b60f9f9966&token=1780738398_72004e4e33ad6db58dfe0355056e3801010a8c17"
+    "streamUrl": "https://t4.bcbits.com/stream/4ad6295803ee7fc1afd1b40538086f28/mp3-128/3422519469?p=0&ts=1782461719&t=1cb6b1fe80ef00ab59913fb5abd285ea3e5614ce&token=1782461719_ff22f60bd1525e5e9becc5c65038012edbb81155"
   },
   {
     "id": 4176667299,
@@ -1551,7 +1551,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/694a24e7f91de1261a24050634fe6b1f/mp3-128/4176667299?p=0&ts=1780738398&t=1c2136be38ec9dd7331e84fab0b4a22a308b7d56&token=1780738398_e14c817c2886c776695fff058e10b9b3eec4d0fa"
+    "streamUrl": "https://t4.bcbits.com/stream/694a24e7f91de1261a24050634fe6b1f/mp3-128/4176667299?p=0&ts=1782461719&t=e8d015084fe706fd04c18f6a76b428be05c4427e&token=1782461719_1620ff999bfb659604411fb2d962501d963f2bf7"
   },
   {
     "id": 3948500149,
@@ -1569,7 +1569,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/36f7fb837161df05e2ea2f6f5b3697b2/mp3-128/3948500149?p=0&ts=1780738398&t=b31b0c55c2b99541ce19664a26b798e2b10c5a97&token=1780738398_a8f886f53bfc742582c0814acd779c7b7afa5a99"
+    "streamUrl": "https://t4.bcbits.com/stream/36f7fb837161df05e2ea2f6f5b3697b2/mp3-128/3948500149?p=0&ts=1782461719&t=3122723ed72dd69d36332e0287796b4330b4688b&token=1782461719_66234cd664f364653ae12e94dd24a5708b5bc369"
   },
   {
     "id": 2098849748,
@@ -1587,7 +1587,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/a4fc5ef97108be99a01568889f12c4fe/mp3-128/2098849748?p=0&ts=1780738398&t=f268a44e9c82b0989e29daf8b860bc7bdc171c12&token=1780738398_5c4d7a5c1605009d2e94b3d20ec14e9069dcbfc0"
+    "streamUrl": "https://t4.bcbits.com/stream/a4fc5ef97108be99a01568889f12c4fe/mp3-128/2098849748?p=0&ts=1782461719&t=01899852587d5c63fd0cecd8e442f6481f51c159&token=1782461719_54ff1cc39c959d177b8b01fb1f6b5f9ea000a56a"
   },
   {
     "id": 4012168009,
@@ -1605,7 +1605,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/df3af9e1eb8078d98e494ac0d87c7610/mp3-128/4012168009?p=0&ts=1780738398&t=9e23611a3c70fbf7c6a548435709ffeb5275c4d2&token=1780738398_f64718f2962ae210874811ba552a1e3ebf8cc3b6"
+    "streamUrl": "https://t4.bcbits.com/stream/df3af9e1eb8078d98e494ac0d87c7610/mp3-128/4012168009?p=0&ts=1782461719&t=2f9f875f322e6f33403de31d6e18e8fff27e8944&token=1782461719_5b2bbb24e583ddca53cd5aac7b71f636c4a7168a"
   },
   {
     "id": 2481800541,
@@ -1623,7 +1623,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/8e806ad3c28601d0707be217acacc084/mp3-128/2481800541?p=0&ts=1780738398&t=b7746233c36504a3ac3096e798152a5ce0a41925&token=1780738398_f5e9848dac220d04f54a028528e133009506e442"
+    "streamUrl": "https://t4.bcbits.com/stream/8e806ad3c28601d0707be217acacc084/mp3-128/2481800541?p=0&ts=1782461719&t=7ab409ea9345b67d407810cec7e76d84324653bf&token=1782461719_468ee6a5ea283d630555f5024562b43c518fc0ad"
   },
   {
     "id": 784016895,
@@ -1641,7 +1641,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/lilycore-26"
     },
     "imageUrl": "https://f4.bcbits.com/img/a1368646596_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/79d7bc92372a9880074471602601d0fc/mp3-128/784016895?p=0&ts=1780738398&t=f9f808e20b58039ee2f042028da33c2f71936022&token=1780738398_133a19ee287ac6b8af4f5e038f00a76185a3dbee"
+    "streamUrl": "https://t4.bcbits.com/stream/79d7bc92372a9880074471602601d0fc/mp3-128/784016895?p=0&ts=1782461719&t=555e1c1f248de53ab25934aa6527cd0fe5dfa248&token=1782461719_3c51afbe52d6f9099625c4c3edb335ef68bec74d"
   },
   {
     "id": 3656523501,
@@ -1659,7 +1659,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/7114a449ac6bcbbbb201dd7de48ce6d7/mp3-128/3656523501?p=0&ts=1780738398&t=3949b65a8c9838e579385c4890fa9c70733ebf9c&token=1780738398_885b827c8836922b23bc2af5e7938907662c1ecc"
+    "streamUrl": "https://t4.bcbits.com/stream/7114a449ac6bcbbbb201dd7de48ce6d7/mp3-128/3656523501?p=0&ts=1782461719&t=50a3ab4bab77a4769494ed6c3acd1d091c1fb136&token=1782461719_0a9bc3994b115b3414c0866439dc3a6e85443fd2"
   },
   {
     "id": 1140838766,
@@ -1677,7 +1677,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/1442e785606a04d2dc4595a5553f0031/mp3-128/1140838766?p=0&ts=1780738398&t=301df08518a3271c237c58a19d35dacf3c745295&token=1780738398_3760c8bc84d309f54a0a28a658406c243238fe31"
+    "streamUrl": "https://t4.bcbits.com/stream/1442e785606a04d2dc4595a5553f0031/mp3-128/1140838766?p=0&ts=1782461719&t=54db053b94d0c3768b4d8c18143111e4edc2c96d&token=1782461719_2c1c50c8758d3fac7c14f1956d785aaeba104893"
   },
   {
     "id": 17759842,
@@ -1695,7 +1695,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/1d5cc4c92bb05174c71321bf6e2b0ec9/mp3-128/17759842?p=0&ts=1780738398&t=224de6aca0efad1475e92084ec4f2fafbc1e3d94&token=1780738398_5788ae2d41c8476ebb31fe53bcac2b7bf62486fe"
+    "streamUrl": "https://t4.bcbits.com/stream/1d5cc4c92bb05174c71321bf6e2b0ec9/mp3-128/17759842?p=0&ts=1782461719&t=23339e0e3b25d7b8b4aa65a3781cba3949a29e2c&token=1782461719_ced0ade75ca366a9b75721557e798b3cdd9e12ee"
   },
   {
     "id": 1401076464,
@@ -1713,7 +1713,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/7a120834550c6289330fae6659113b41/mp3-128/1401076464?p=0&ts=1780738398&t=0e9543e7600125eb3293d832d489c8c3c2b55c6c&token=1780738398_1a59497044faa56e187c2c2c82663a5f688a1216"
+    "streamUrl": "https://t4.bcbits.com/stream/7a120834550c6289330fae6659113b41/mp3-128/1401076464?p=0&ts=1782461719&t=79cdbc099ed18ff6aef72ec1802cb3f358434d36&token=1782461719_703a1658e08a518e5b0202a56b3b883c877b0969"
   },
   {
     "id": 4269499224,
@@ -1731,7 +1731,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/b7824b3f1801ca7c8bd8ce24eb33960e/mp3-128/4269499224?p=0&ts=1780738398&t=6c41233d3645f82fb290baae290fe085d7a1d512&token=1780738398_e825b65f0fc2068ab81834c8cbd4043d45423ca2"
+    "streamUrl": "https://t4.bcbits.com/stream/b7824b3f1801ca7c8bd8ce24eb33960e/mp3-128/4269499224?p=0&ts=1782461719&t=1ef8cd57d0c44e9da6ff714a40e193c12f3f35d9&token=1782461719_4bd99caec15eaaad8454ef11b71f54372e9dadf5"
   },
   {
     "id": 4122686848,
@@ -1749,7 +1749,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/48ec260cc76a7ce850c2f47013867247/mp3-128/4122686848?p=0&ts=1780738398&t=fc97d885f3458f14a2c03aa33e80b30559a5014a&token=1780738398_7cb0d6a62673dd5104f1c2e3a43a8a84c9d7cff2"
+    "streamUrl": "https://t4.bcbits.com/stream/48ec260cc76a7ce850c2f47013867247/mp3-128/4122686848?p=0&ts=1782461719&t=32d68558029325f8f45692840108118d71625acb&token=1782461719_7a56c34d5f90bf291ecb76eb4c4e954016efe37b"
   },
   {
     "id": 804980453,
@@ -1767,7 +1767,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/bb69ded01ac73ae3321ce965ba272b1e/mp3-128/804980453?p=0&ts=1780738398&t=dcb0dc3dab667dc5dd283340e95f5ef6f7ab77eb&token=1780738398_a23dcc3fe3fea91d637c251cf97351ebf21a53de"
+    "streamUrl": "https://t4.bcbits.com/stream/bb69ded01ac73ae3321ce965ba272b1e/mp3-128/804980453?p=0&ts=1782461719&t=17bb6f114913b0642ae95082ecc615170f5d3f8f&token=1782461719_88e31b537feabfa1b8efbc813a514c24f94613a5"
   },
   {
     "id": 152431019,
@@ -1785,7 +1785,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/e426e8633a6cae7fce09b7ef0ea7b6c7/mp3-128/152431019?p=0&ts=1780738398&t=3908e643be9ae8880b25a91894974268eea29b30&token=1780738398_d8cd2be9c5cba5f15cebc0f34479a4740fe6a0ca"
+    "streamUrl": "https://t4.bcbits.com/stream/e426e8633a6cae7fce09b7ef0ea7b6c7/mp3-128/152431019?p=0&ts=1782461719&t=a8d44f3db0985df0472120e304263c9605356c0d&token=1782461719_5e7c1d3552ca170c1d9b118f948a45fbc74332b7"
   },
   {
     "id": 1755641525,
@@ -1803,7 +1803,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/7f3f73d75ae1888fc7f2c9bfcdb1acec/mp3-128/1755641525?p=0&ts=1780738398&t=c59fe94a852b57512f8193143159b562d65a54c4&token=1780738398_384af50f24fdf6c9e8c094ea56737245f6f2c9ff"
+    "streamUrl": "https://t4.bcbits.com/stream/7f3f73d75ae1888fc7f2c9bfcdb1acec/mp3-128/1755641525?p=0&ts=1782461719&t=cd3efdc42239194b39e6fddf2d22177bc17c1b78&token=1782461719_4f216a28d7f5dc8ce3b27b0c18ea56784b5aa783"
   },
   {
     "id": 2232447298,
@@ -1821,7 +1821,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/8b94221d2959a5678a0b2fde60b0a992/mp3-128/2232447298?p=0&ts=1780738398&t=033d4db025b114c05bdeef29ba03176326cce4cd&token=1780738398_182eedc4a65a1331869b41c463ce1b7e52d47d7a"
+    "streamUrl": "https://t4.bcbits.com/stream/8b94221d2959a5678a0b2fde60b0a992/mp3-128/2232447298?p=0&ts=1782461719&t=114905c1446e9d6beb3e4f90a6a685a4226c49fd&token=1782461719_6873723b2de05de5099340d569146e33bbaca8de"
   },
   {
     "id": 3931382225,
@@ -1839,7 +1839,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/omoide-51-meisou"
     },
     "imageUrl": "https://f4.bcbits.com/img/a3010833653_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/e505ec69f94ce79bf26f2d9c8858a9fa/mp3-128/3931382225?p=0&ts=1780738398&t=12470595e12f7edf92eb60ba5914f43ea24fe315&token=1780738398_251e459bfbaeba8b094a2b08d50c55defa073fc8"
+    "streamUrl": "https://t4.bcbits.com/stream/e505ec69f94ce79bf26f2d9c8858a9fa/mp3-128/3931382225?p=0&ts=1782461719&t=3f2cf88170b4317a9e8565a42028b41b0070eb95&token=1782461719_1451279cdb193cf78ba9201f6cd248a9d7eb8106"
   },
   {
     "id": 2033704113,
@@ -1857,7 +1857,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a858147636_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/41e4eae6d7e9fb021edac41bd4a1c5da/mp3-128/2033704113?p=0&ts=1780738398&t=31bc4659bc44514bfcf0920877f8fc7884e322aa&token=1780738398_a40d8c446a44420560640b6cdb386f1347fedb63"
+    "streamUrl": "https://t4.bcbits.com/stream/41e4eae6d7e9fb021edac41bd4a1c5da/mp3-128/2033704113?p=0&ts=1782461719&t=c4b43e58ae938868d2cd58605a37969dddd65d0c&token=1782461719_ffd876139a952f75840e1576455cd60c75e78329"
   },
   {
     "id": 2754071693,
@@ -1875,7 +1875,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a858147636_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/34ac6bd5765053a11f687633d5425cb9/mp3-128/2754071693?p=0&ts=1780738398&t=d67925edac13ecce31142ca516836b930ae6694a&token=1780738398_8395e698ff6a748abd31875798c66125099184ff"
+    "streamUrl": "https://t4.bcbits.com/stream/34ac6bd5765053a11f687633d5425cb9/mp3-128/2754071693?p=0&ts=1782461719&t=06d9184bc872a170e87459f6fe3a4b4716a4e949&token=1782461719_3f893e6c00a81664733038d8adb7b7a39552e27e"
   },
   {
     "id": 2307571321,
@@ -1893,7 +1893,7 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a858147636_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/92c5dde7f22369b7b7d5bdda8d12f1e3/mp3-128/2307571321?p=0&ts=1780738398&t=451b7d88ab7965070cd9701ce1eb1fec16509e44&token=1780738398_faac8e8fa6182a69d8f07471fd692ecd09cf8300"
+    "streamUrl": "https://t4.bcbits.com/stream/92c5dde7f22369b7b7d5bdda8d12f1e3/mp3-128/2307571321?p=0&ts=1782461719&t=5e07558c341011c470c3f3fcce92a4cafacab53a&token=1782461719_29f81ef17eed3847dd0388463cd34e0e942792b9"
   },
   {
     "id": 1046828547,
@@ -1911,6 +1911,6 @@ Additional Tracks:
       "url": "https://omoidelabel.bandcamp.com/album/suiren-ep"
     },
     "imageUrl": "https://f4.bcbits.com/img/a858147636_9.jpg",
-    "streamUrl": "https://t4.bcbits.com/stream/35e47d4ff642374d0d96fa3426b98d8d/mp3-128/1046828547?p=0&ts=1780738398&t=50a1b49065a0678cbd99ae1d8e71d9cc6108de4d&token=1780738398_6a9a03dd70823458370d323045c044eed464c4b0"
+    "streamUrl": "https://t4.bcbits.com/stream/35e47d4ff642374d0d96fa3426b98d8d/mp3-128/1046828547?p=0&ts=1782461719&t=b5d6c9dd73d15680de0eeb478c331d04a71273f9&token=1782461719_237b09da3a5eda2b90cec1378b467906078700d0"
   }
 ]

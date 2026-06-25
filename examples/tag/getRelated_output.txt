@@ -257,8 +257,8 @@
         },
         {
           "type": "tag",
-          "name": "traditional",
-          "value": "traditional"
+          "name": "warsaw",
+          "value": "warsaw"
         },
         {
           "type": "tag",

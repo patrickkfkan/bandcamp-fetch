@@ -1,5 +1,6 @@
 {
   "type": "fan",
+  "fanId": 8563805,
   "name": "Patrick Kan",
   "username": "patrickkfkan",
   "url": "https://bandcamp.com/patrickkfkan",
@@ -10,5 +11,5 @@
   "followingGenresCount": 45,
   "followingArtistsAndLabelsCount": 76,
   "collectionItemCount": 251,
-  "wishlistItemCount": 38
+  "wishlistItemCount": 37
 }

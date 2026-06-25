@@ -15,8 +15,7 @@
     {
       "name": "Indie Works",
       "location": "Beijing, China",
-      "url": "https://indieworks.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/22400228_28.jpg"
+      "url": "https://indieworks.bandcamp.com"
     },
     {
       "name": "Chinese Football",
@@ -232,7 +231,7 @@
       "name": "Martin Frawley",
       "location": "Australia",
       "url": "https://martinfrawley.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/35011051_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/45033820_28.jpg"
     },
     {
       "name": "The Music Tapes / Orbiting Human Circus",
@@ -374,7 +373,7 @@ Fetching more by continuation...
       "name": "DAWN",
       "location": "Los Angeles, California",
       "url": "https://dawnrichard.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/41889957_28.jpg"
+      "imageUrl": "https://f4.bcbits.com/img/45575114_28.jpg"
     },
     {
       "name": "Caribou",

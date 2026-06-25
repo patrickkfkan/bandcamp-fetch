@@ -11,7 +11,7 @@
         "url": "https://bramble-music.bandcamp.com"
       },
       "duration": 187.286,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=660210898&ts=1775559483&t=44f256a7d4962f3fd0a76c5e9369af3bc34c6070"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=660210898&ts=1782375214&t=dff10e7a5c96d42dbaab060c18b34efd9d680623"
     },
     {
       "type": "track",
@@ -24,7 +24,7 @@
         "url": "https://tommyandtherockets.bandcamp.com"
       },
       "duration": 145.4,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1838880683&ts=1775559483&t=bd4836e9484d07515840fcab30d1b23f08139393"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1838880683&ts=1782375214&t=6157f507f9299d685348f97a0df78555f8ce3b31"
     },
     {
       "type": "track",
@@ -37,7 +37,7 @@
         "url": "https://bigstirrecords.bandcamp.com"
       },
       "duration": 180.04,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=283895959&ts=1775559483&t=6a33c78670055f84432407e284cf99bddae4c801"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=283895959&ts=1782375214&t=1d5f1e675b7ead64868095f7d61a24a551479c24"
     },
     {
       "type": "track",
@@ -50,7 +50,7 @@
         "url": "https://portableradio.bandcamp.com"
       },
       "duration": 245.95,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1701762800&ts=1775559483&t=31c078c98c3ebe308910cad7eb581442fe4570a1"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1701762800&ts=1782375214&t=540b2bfbc184036b8baea26a16645f59d7243754"
     },
     {
       "type": "track",
@@ -63,7 +63,7 @@
         "url": "https://dungeonofskeletons.bandcamp.com"
       },
       "duration": 232.665,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2705681162&ts=1775559483&t=7a9f79f4949f32ba4107a3dd556d7baa1fe3f10e"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2705681162&ts=1782375214&t=652ca9b3069d2c3abf3a8c40ae0fdf842ee5a764"
     },
     {
       "type": "track",
@@ -76,7 +76,7 @@
         "url": "https://agirlcallededdymusic.bandcamp.com"
       },
       "duration": 177.053,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4012248838&ts=1775559483&t=0069e24287379cc64458420b5780189b8b165d77"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4012248838&ts=1782375214&t=fb4ffbba5d2c03f8e1d46c2b93c9e5cf354a027c"
     },
     {
       "type": "track",
@@ -89,7 +89,7 @@
         "url": "https://smileymikey1.bandcamp.com"
       },
       "duration": 222.792,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3513792175&ts=1775559483&t=9795c5617f5b2a4eddb03f433cdf13ad13f76b2c"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3513792175&ts=1782375214&t=a3d08b6b9aa17d6e81b50c3e0b65d872ba4a47fb"
     },
     {
       "type": "track",
@@ -102,7 +102,7 @@
         "url": "https://michaelsion.bandcamp.com"
       },
       "duration": 236.12,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2693464062&ts=1775559483&t=7350aedd0b6b2d45c69c946e6b370d86ae4051ea"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2693464062&ts=1782375214&t=11096e57e9ed1ac550d77f37de196667038315ed"
     },
     {
       "type": "album",
@@ -120,7 +120,7 @@
         "name": "Second Chance Charity Store",
         "artist": "Polite Company",
         "duration": 184.421,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2838310385&ts=1775559483&t=514281b885ed7cf574ff8af4388196e9c399f9a5"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2838310385&ts=1782375214&t=a4a9d48033a6a429d999b83cd07c730f44b6b798"
       }
     },
     {
@@ -139,7 +139,7 @@
         "name": "Baby You're A Faker",
         "artist": "Dolour",
         "duration": 212.37,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2133303526&ts=1775559483&t=04653931f79f2f10f8b67126662e33a9f33800ea"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2133303526&ts=1782375214&t=96b8d8bb70178ab502c73275ab67717ede75a292"
       }
     },
     {
@@ -158,7 +158,7 @@
         "name": "Yes and No",
         "artist": "Dolour",
         "duration": 206.268,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=486257215&ts=1775559483&t=54e8d78e5de0e218868d4b855c108d98ced41e91"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=486257215&ts=1782375214&t=6a6c01c42fee30ff8eff26ee0b60aedd19d714ce"
       }
     },
     {
@@ -177,7 +177,7 @@
         "name": "Moves Like Miyagi",
         "artist": "Dolour",
         "duration": 158.385,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3040950569&ts=1775559483&t=f97081fa3936626e90f5ded03ef5d3756f70b0fb"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3040950569&ts=1782375214&t=cbc946a3ab25ccdcdd3bf33047ae6e2739d73e56"
       }
     },
     {
@@ -196,7 +196,7 @@
         "name": "Let's Be Friends Again",
         "artist": "The TOMS",
         "duration": 184.6,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=533589248&ts=1775559483&t=8ed31bbe861c71fd8d97f0bc5f930858083ec768"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=533589248&ts=1782375214&t=05f91313ed6acff1b918b804c7c84d4106c394d8"
       }
     },
     {
@@ -210,7 +210,7 @@
         "url": "https://theboyleastlikelyto.bandcamp.com"
       },
       "duration": 182.087,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3770463584&ts=1775559483&t=e92340b8a802237b40b4f85bc53b07810ebb18ea"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3770463584&ts=1782375214&t=a299322c583026c17d3933d4adfdfc13b8010546"
     },
     {
       "type": "album",
@@ -228,7 +228,7 @@
         "name": "Everything's Going South",
         "artist": "Legends Of Country",
         "duration": 180.156,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1775559483&t=8a5dd7c2f3b71585a41c0121059d0263a32d7f4c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1782375214&t=ed3e1403b0a6d267f8c3af97b970a74541452b01"
       }
     },
     {
@@ -247,7 +247,7 @@
         "name": "Everything's Going South",
         "artist": "Legends Of Country",
         "duration": 180.156,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1775559483&t=8a5dd7c2f3b71585a41c0121059d0263a32d7f4c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1782375214&t=ed3e1403b0a6d267f8c3af97b970a74541452b01"
       }
     },
     {
@@ -266,7 +266,7 @@
         "name": "Get Into The Summer",
         "artist": "the boy least likely to",
         "duration": 205.822,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2482647781&ts=1775559483&t=bcd7b4229214a1705741ebb575401d1b585fe859"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2482647781&ts=1782375214&t=e02019451901bffa48ac2482ad61d7228028d6eb"
       }
     },
     {
@@ -285,7 +285,7 @@
         "name": "Everything's Going South",
         "artist": "Legends Of Country",
         "duration": 180.156,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1775559483&t=8a5dd7c2f3b71585a41c0121059d0263a32d7f4c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1782375214&t=ed3e1403b0a6d267f8c3af97b970a74541452b01"
       }
     },
     {
@@ -299,7 +299,7 @@
         "url": "https://acidhousekings.bandcamp.com"
       },
       "duration": 164.278,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3351443466&ts=1775559483&t=22821c94ad0c6b16a5f1a5e11d4b39e08a36a394"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3351443466&ts=1782375214&t=4f0782c8b6211c55afa080ac5eb9d7f523aa7d9d"
     },
     {
       "type": "track",
@@ -312,10 +312,10 @@
         "url": "https://legendsofcountry.bandcamp.com"
       },
       "duration": 181.5,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3804298008&ts=1775559483&t=fc1298209cba8ce88c2fc25b34dcb39d3608d3ef"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3804298008&ts=1782375214&t=05eb018b5f05e5428e504ee0f1906e1a9a3402b3"
     }
   ],
-  "total": 119,
+  "total": 118,
   "continuation": {
     "fanId": 2723895,
     "token": "1651016206:3804298008:t::"
@@ -340,7 +340,7 @@ Fetching more by continuation...
         "name": "A Crazy Life! (Explicit)",
         "artist": "Bleu",
         "duration": 193.24,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3999943811&ts=1775559484&t=1dad45e432dfcfd12a5783321691f5849fa6c1e9"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3999943811&ts=1782375215&t=eddfcd642d41981cce65f58923dddc568a613202"
       }
     },
     {
@@ -354,7 +354,7 @@ Fetching more by continuation...
         "url": "https://theessexgreen.bandcamp.com"
       },
       "duration": 211.36,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3916949617&ts=1775559484&t=68693dc0e0249d713b2eebd232387eec90e97bd0"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3916949617&ts=1782375215&t=cf79f03bd7b47d1b293e8c88290c8b28ba51637a"
     },
     {
       "type": "album",
@@ -372,7 +372,7 @@ Fetching more by continuation...
         "name": "The Perfect Place",
         "artist": "David Myhr",
         "duration": 236.107,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1775559484&t=5947803b5382912aded0803ea652b7b5b4657135"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1782375215&t=4d157dc7d1b0a0ea211fe4abc91eca2987b0716c"
       }
     },
     {
@@ -386,7 +386,7 @@ Fetching more by continuation...
         "url": "https://curation-records.bandcamp.com"
       },
       "duration": 194.8,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2401340477&ts=1775559484&t=cdf0ebbf16f4891f2d6b0f139aa07126a5358e59"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2401340477&ts=1782375215&t=be6081b15ba3471c89c21a37c0525b20600e1bb2"
     },
     {
       "type": "album",
@@ -404,7 +404,7 @@ Fetching more by continuation...
         "name": "Let's Have Fun (In The Summer Sun)",
         "artist": "Tommy And The Rockets",
         "duration": 118.813,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3166475516&ts=1775559484&t=c3d9a68bf329e222c45b3f27ca7813ca9b581c4c"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3166475516&ts=1782375215&t=0167b12935b65e11673b2e4d3fb432697f1b7d3a"
       }
     },
     {
@@ -418,7 +418,7 @@ Fetching more by continuation...
         "url": "https://tommyandtherockets.bandcamp.com"
       },
       "duration": 140.701,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1766763879&ts=1775559484&t=1ce5e152e61c4b7d95a86be730279beee68bcb11"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1766763879&ts=1782375215&t=f5a7d939bed1596891db3630457d269dee3ee318"
     },
     {
       "type": "track",
@@ -431,7 +431,7 @@ Fetching more by continuation...
         "url": "https://powerpopacademy.bandcamp.com"
       },
       "duration": 236.107,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1775559484&t=5947803b5382912aded0803ea652b7b5b4657135"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1782375215&t=4d157dc7d1b0a0ea211fe4abc91eca2987b0716c"
     },
     {
       "type": "album",
@@ -449,7 +449,7 @@ Fetching more by continuation...
         "name": "Get Her Off My Mind",
         "artist": "John Myrtle",
         "duration": 188.11,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1491901815&ts=1775559484&t=061dccc611b4db41f39f720808d5f21815b4efa6"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1491901815&ts=1782375215&t=5ae5bbd14df0bc57d50cbf9abcff7966f3b1dcec"
       }
     },
     {
@@ -463,7 +463,7 @@ Fetching more by continuation...
         "url": "https://theboyleastlikelyto.bandcamp.com"
       },
       "duration": 198.229,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=37417908&ts=1775559484&t=8f942a41f0faf2555951444a3c8e2d35cc78102f"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=37417908&ts=1782375215&t=9e257169ec766dedd4b60d07d32a8d7d2cabe2a6"
     },
     {
       "type": "album",
@@ -481,7 +481,7 @@ Fetching more by continuation...
         "name": "A Little Dancing",
         "artist": "Acid House Kings",
         "duration": 167.6,
-        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3861218995&ts=1775559484&t=e6fba218d67bdc81df0d6c8c94757d016928d5ae"
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3861218995&ts=1782375215&t=ff564d242b19ed47dc34d5948e992933826d7d4b"
       }
     },
     {
@@ -495,7 +495,7 @@ Fetching more by continuation...
         "url": "https://jeremyfisher.bandcamp.com"
       },
       "duration": 179.148,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3553064828&ts=1775559484&t=45e941c1899bfedc1a23836bef9d656386aded25"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3553064828&ts=1782375215&t=afc042dbaacc3171601bb23b4d0cf53c26d33500"
     },
     {
       "type": "track",
@@ -508,7 +508,7 @@ Fetching more by continuation...
         "url": "https://kidgulliver1.bandcamp.com"
       },
       "duration": 203.089,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=519089851&ts=1775559484&t=c6c213c8d60c791ba05b6dd4d77d7310aa020a7b"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=519089851&ts=1782375215&t=08618d16b76fc1d1d705a1ae090edd3c7b8e0680"
     },
     {
       "type": "track",
@@ -521,7 +521,7 @@ Fetching more by continuation...
         "url": "https://guidedbyvoices.bandcamp.com"
       },
       "duration": 169.227,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4087641480&ts=1775559484&t=5bc56f824ce87fe8b57e92a3a31a7e62ce027a8a"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4087641480&ts=1782375215&t=02c8c308fc83ed6300a81f34fe8181f40eaf301c"
     },
     {
       "type": "track",
@@ -534,7 +534,7 @@ Fetching more by continuation...
         "url": "https://jeremyfisher.bandcamp.com"
       },
       "duration": 211.014,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3192698356&ts=1775559484&t=7c47fe5659a24aaaa07ea0948f78f7697d74b663"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3192698356&ts=1782375215&t=454f1599d11fd8ca8bb77dd9e2af8fd0478548dd"
     },
     {
       "type": "track",
@@ -547,7 +547,7 @@ Fetching more by continuation...
         "url": "https://tommyandtherockets.bandcamp.com"
       },
       "duration": 110.339,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1452549487&ts=1775559484&t=7f19d1ea89729f23dc77d86ea41b067acd793d8c"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1452549487&ts=1782375215&t=ebfa468267e2d7e9e2aa3baeb8da3aa2a219cb4e"
     },
     {
       "type": "track",
@@ -560,7 +560,7 @@ Fetching more by continuation...
         "url": "https://tommyandtherockets.bandcamp.com"
       },
       "duration": 147.697,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2085625917&ts=1775559484&t=5538b77fbd6c75c3851e83e5fc0d01c821756504"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2085625917&ts=1782375215&t=790f3a32aeb6d4e58f48cf009b7477271debe19f"
     },
     {
       "type": "track",
@@ -573,7 +573,7 @@ Fetching more by continuation...
         "url": "https://tommyandtherockets.bandcamp.com"
       },
       "duration": 145.692,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3811139469&ts=1775559484&t=e5949b40f6a06b7b4d8af28252b35320d6473900"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3811139469&ts=1782375215&t=00c4bcb10f26d568e8529087b07a8b38d161a5f4"
     },
     {
       "type": "track",
@@ -586,7 +586,7 @@ Fetching more by continuation...
         "url": "https://peteyorn.bandcamp.com"
       },
       "duration": 179.624,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3978220126&ts=1775559484&t=b7c649780e5eeb536b1750fdaa08fe325f1d5a7e"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3978220126&ts=1782375215&t=f22aaae879385847f1cba4290be5a0632bf05181"
     },
     {
       "type": "track",
@@ -599,7 +599,7 @@ Fetching more by continuation...
         "url": "https://theflatfivechicago.bandcamp.com"
       },
       "duration": 159.427,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1688632191&ts=1775559484&t=2809d89a0a5a0dc6c961e3274685f294bb3940d2"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1688632191&ts=1782375215&t=b0e57c3448005a45b51827b0e5f87fd71de5fbf9"
     },
     {
       "type": "track",
@@ -612,7 +612,7 @@ Fetching more by continuation...
         "url": "https://theboyleastlikelyto.bandcamp.com"
       },
       "duration": 207.461,
-      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=425690647&ts=1775559484&t=c7a357367f79799fcd631b6e4c6eddf1cf8cc673"
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=425690647&ts=1782375215&t=2ab6c656cf5c7bd949a26ff33a5a349aff05f2e9"
     }
   ],
   "continuation": {

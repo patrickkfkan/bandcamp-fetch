@@ -6,7 +6,7 @@ Search query: jazz. Item type: All. 18 results.
       "type": "label",
       "name": "Bastard Jazz Recordings",
       "url": "https://bastardjazz.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0041768586_28.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/0044521833_28.jpg",
       "location": "Brooklyn, New York"
     },
     {
@@ -38,13 +38,6 @@ Search query: jazz. Item type: All. 18 results.
       "location": "Los Angeles, California"
     },
     {
-      "type": "label",
-      "name": "Jazz Room Records",
-      "url": "https://jazzroomrecords.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0043783793_28.jpg",
-      "location": "London, UK"
-    },
-    {
       "type": "artist",
       "name": "Jazz In Britain",
       "url": "https://jazzinbritain.co.uk",
@@ -52,6 +45,13 @@ Search query: jazz. Item type: All. 18 results.
       "location": "England, UK",
       "genre": "Jazz",
       "tags": "British Jazz, Jazz Fusion, Jazz, Modern Jazz, Jazz Rock"
+    },
+    {
+      "type": "label",
+      "name": "Jazz Room Records",
+      "url": "https://jazzroomrecords.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0045591628_28.jpg",
+      "location": "London, UK"
     },
     {
       "type": "artist",
@@ -106,6 +106,13 @@ Search query: jazz. Item type: All. 18 results.
       "tags": "Breaks, Drum & Bass, Bass Music, Electronic"
     },
     {
+      "type": "label",
+      "name": "Super-Sonic Jazz Records",
+      "url": "https://super-sonic-jazz-records.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0018388156_28.jpg",
+      "location": "Amsterdam, Netherlands"
+    },
+    {
       "type": "artist",
       "name": "British Progressive Jazz",
       "url": "https://britprogjazz.bandcamp.com",
@@ -113,13 +120,6 @@ Search query: jazz. Item type: All. 18 results.
       "location": "London, UK",
       "genre": "Jazz",
       "tags": "prog rock, Jazz Fusion, Jazz, Jazz Rock, modal jazz"
-    },
-    {
-      "type": "label",
-      "name": "Super-Sonic Jazz Records",
-      "url": "https://super-sonic-jazz-records.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0018388156_28.jpg",
-      "location": "Amsterdam, Netherlands"
     },
     {
       "type": "artist",
@@ -205,6 +205,13 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "tags": "Rock"
     },
     {
+      "type": "label",
+      "name": "CollierMerge2",
+      "url": "https://isaiahcollierthechosenfew1.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0026333707_28.jpg",
+      "location": "Chicago, Illinois"
+    },
+    {
       "type": "artist",
       "name": "Merge Layers",
       "url": "https://mergelayers.bandcamp.com",
@@ -232,6 +239,13 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "tags": "dance, alternative, Alternative, pop, trip hop, bedroom pop"
     },
     {
+      "type": "label",
+      "name": "The Pastels Merge",
+      "url": "https://pastelsthe12.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0012734431_28.jpg",
+      "location": "Glasgow, UK"
+    },
+    {
       "type": "artist",
       "name": "Merge Beats",
       "url": "https://mergebeats.bandcamp.com",
@@ -239,13 +253,6 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "location": "Bakersfield, California",
       "genre": "Hip-Hop/Rap",
       "tags": "Hip Hop, Hip-Hop/Rap, underground, instrumentals"
-    },
-    {
-      "type": "label",
-      "name": "The Pastels Merge",
-      "url": "https://pastelsthe12.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0012734431_28.jpg",
-      "location": "Glasgow, UK"
     },
     {
       "type": "artist",
@@ -300,15 +307,6 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "location": "Los Angeles, California",
       "genre": "Hip-Hop/Rap",
       "tags": "jazz, Hip Hop, Hip-Hop, Hip-Hop/Rap, instrumentals, Rap"
-    },
-    {
-      "type": "artist",
-      "name": "attenuation circuit",
-      "url": "https://emerge.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0003392229_28.jpg",
-      "location": "Augsburg, Germany",
-      "genre": "Experimental",
-      "tags": "noise, Experimental, ambient, drone"
     }
   ],
   "totalPages": 6

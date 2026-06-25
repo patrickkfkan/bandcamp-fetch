@@ -1,21 +1,51 @@
 [
   {
+    "name": "Elanor Moss",
+    "url": "https://elanormoss.bandcamp.com",
+    "location": "London, UK",
+    "imageUrl": "https://f4.bcbits.com/img/0045436640_16.jpg"
+  },
+  {
+    "name": "Ibibio Sound Machine",
+    "url": "https://ibibiosoundmachine.bandcamp.com",
+    "location": "UK",
+    "imageUrl": "https://f4.bcbits.com/img/0027398052_16.jpg"
+  },
+  {
+    "name": "Max Subar",
+    "url": "https://maxsubar.bandcamp.com",
+    "location": "Chicago, Illinois",
+    "imageUrl": "https://f4.bcbits.com/img/0044877267_16.jpg"
+  },
+  {
+    "name": "DAWN",
+    "url": "https://dawnrichard.bandcamp.com",
+    "location": "Los Angeles, California",
+    "imageUrl": "https://f4.bcbits.com/img/0045575114_16.jpg"
+  },
+  {
     "name": "Fruit Bats",
     "url": "https://fruit-bats.bandcamp.com",
     "location": "",
     "imageUrl": "https://f4.bcbits.com/img/0043705995_16.jpg"
   },
   {
-    "name": "Charlotte Cornfield",
-    "url": "https://charlottecornfield.bandcamp.com",
-    "location": "",
-    "imageUrl": "https://f4.bcbits.com/img/0042355652_16.jpg"
+    "name": "Lambchop",
+    "url": "https://lambchop.bandcamp.com",
+    "location": "Nashville, Tennessee",
+    "imageUrl": "https://f4.bcbits.com/img/0044770846_16.jpg"
   },
   {
-    "name": "The New Pornographers",
-    "url": "https://thenewpornos.bandcamp.com",
-    "location": "Vancouver, Washington",
-    "imageUrl": "https://f4.bcbits.com/img/0039351389_16.jpg"
+    "name": "The Tubs",
+    "url": "https://thetubs.bandcamp.com",
+    "location": "London, UK",
+    "imageUrl": "https://f4.bcbits.com/img/0044464075_16.jpg"
+  },
+  {
+    "name": "Rosali",
+    "url": "https://rosali.bandcamp.com",
+    "location": "North Carolina",
+    "imageUrl": "https://f4.bcbits.com/img/0037541988_16.jpg"
   },
   {
     "name": "Destroyer",
@@ -24,10 +54,16 @@
     "imageUrl": "https://f4.bcbits.com/img/0039145392_16.jpg"
   },
   {
-    "name": "East River Pipe",
-    "url": "https://eastriverpipe.bandcamp.com",
-    "location": "New York, New York",
-    "imageUrl": "https://f4.bcbits.com/img/0006133419_16.jpg"
+    "name": "The New Pornographers",
+    "url": "https://thenewpornos.bandcamp.com",
+    "location": "Vancouver, Washington",
+    "imageUrl": "https://f4.bcbits.com/img/0039351389_16.jpg"
+  },
+  {
+    "name": "Charlotte Cornfield",
+    "url": "https://charlottecornfield.bandcamp.com",
+    "location": "",
+    "imageUrl": "https://f4.bcbits.com/img/0042355652_16.jpg"
   },
   {
     "name": "Superchunk",
@@ -36,16 +72,22 @@
     "imageUrl": "https://f4.bcbits.com/img/0040526072_16.jpg"
   },
   {
+    "name": "Teenage Fanclub",
+    "url": "https://teenage-fanclub.bandcamp.com",
+    "location": "Glasgow, UK",
+    "imageUrl": "https://f4.bcbits.com/img/0033256695_16.jpg"
+  },
+  {
+    "name": "East River Pipe",
+    "url": "https://eastriverpipe.bandcamp.com",
+    "location": "New York, New York",
+    "imageUrl": "https://f4.bcbits.com/img/0006133419_16.jpg"
+  },
+  {
     "name": "Crooked Fingers",
     "url": "https://crookedfingers.bandcamp.com",
     "location": "North Carolina",
     "imageUrl": "https://f4.bcbits.com/img/0041722597_16.jpg"
-  },
-  {
-    "name": "DAWN",
-    "url": "https://dawnrichard.bandcamp.com",
-    "location": "Los Angeles, California",
-    "imageUrl": "https://f4.bcbits.com/img/0041889957_16.jpg"
   },
   {
     "name": "Will Butler",
@@ -58,12 +100,6 @@
     "url": "https://theclientele.bandcamp.com",
     "location": "London, UK",
     "imageUrl": "https://f4.bcbits.com/img/0033256646_16.jpg"
-  },
-  {
-    "name": "Ibibio Sound Machine",
-    "url": "https://ibibiosoundmachine.bandcamp.com",
-    "location": "UK",
-    "imageUrl": "https://f4.bcbits.com/img/0027398052_16.jpg"
   },
   {
     "name": "Friendship",
@@ -94,12 +130,6 @@
     "url": "https://mhaol.bandcamp.com",
     "location": "Dublin, Ireland",
     "imageUrl": "https://f4.bcbits.com/img/0038901095_16.jpg"
-  },
-  {
-    "name": "Rosali",
-    "url": "https://rosali.bandcamp.com",
-    "location": "North Carolina",
-    "imageUrl": "https://f4.bcbits.com/img/0037541988_16.jpg"
   },
   {
     "name": "SACRED PAWS",
@@ -171,7 +201,7 @@
     "name": "the Mountain Goats",
     "url": "https://themountaingoats.bandcamp.com",
     "location": "Durham, North Carolina",
-    "imageUrl": "https://f4.bcbits.com/img/0040943442_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/0044898729_16.jpg"
   },
   {
     "name": "Hiss Golden Messenger",
@@ -190,12 +220,6 @@
     "url": "https://neutralmilkhotel.bandcamp.com",
     "location": "",
     "imageUrl": "https://f4.bcbits.com/img/0037071780_16.jpg"
-  },
-  {
-    "name": "Teenage Fanclub",
-    "url": "https://teenage-fanclub.bandcamp.com",
-    "location": "Glasgow, UK",
-    "imageUrl": "https://f4.bcbits.com/img/0033256695_16.jpg"
   },
   {
     "name": "Cable Ties",
@@ -250,12 +274,6 @@
     "url": "https://archersofloaf.bandcamp.com",
     "location": "North Carolina",
     "imageUrl": "https://f4.bcbits.com/img/0029225752_16.jpg"
-  },
-  {
-    "name": "Lambchop",
-    "url": "https://lambchop.bandcamp.com",
-    "location": "Nashville, Tennessee",
-    "imageUrl": "https://f4.bcbits.com/img/0024120187_16.jpg"
   },
   {
     "name": "Tall Dwarfs",
@@ -597,7 +615,7 @@
     "name": "Martin Frawley",
     "url": "https://martinfrawley.bandcamp.com",
     "location": "Australia",
-    "imageUrl": "https://f4.bcbits.com/img/0035011051_16.jpg"
+    "imageUrl": "https://f4.bcbits.com/img/0045033820_16.jpg"
   },
   {
     "name": "Julian Koster",
