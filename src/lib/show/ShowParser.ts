@@ -18,7 +18,12 @@ interface ShowParseOptions {
 export default class ShowParser {
   static parseShow(html: string, json: any, opts: ShowParseOptions): Show {
     const $ = cheerioLoad(html);
-    const blob = decode($('#ArchiveApp[data-blob]').attr('data-blob'));
+    // Bandcamp moved shows to /radio/<franchise>/<id> (Nov 2026): data now
+    // lives in #RadioFranchise. Keep #ArchiveApp as fallback for old layout.
+    const blob = decode(
+      $('#RadioFranchise[data-blob]').attr('data-blob') ??
+        $('#ArchiveApp[data-blob]').attr('data-blob')
+    );
     let parsedBlob;
     let parsedJson;
     try {
@@ -30,8 +35,23 @@ export default class ShowParser {
         error
       );
     }
+    const appData = typeof parsedBlob === 'object' ? parsedBlob?.appData : null;
+    const newLayoutShow =
+      (
+        appData?.page === 'show' &&
+        appData.show &&
+        typeof appData.show === 'object'
+      ) ?
+        appData.show
+      : null;
     try {
-      parsedJson = ShowSchema.parse(json).tracklist;
+      parsedJson =
+        newLayoutShow ?
+          {
+            tracks: newLayoutShow.tracks,
+            compiledTrack: newLayoutShow.compiledTrack
+          }
+        : ShowSchema.parse(json).tracklist;
     } catch (error: any) {
       throw new ParseError(
         'Failed to parse show: schema error with JSON data.',
@@ -40,12 +60,17 @@ export default class ShowParser {
       );
     }
 
-    const appData = typeof parsedBlob === 'object' ? parsedBlob.appData : null;
     const showId = appData?.showId;
     const shows = appData?.shows;
     const showInfo =
-      showId && Array.isArray(shows) ?
-        shows.find((value) => value.itemId === showId)
+      newLayoutShow ?
+        {
+          ...newLayoutShow,
+          title: newLayoutShow.subtitle || newLayoutShow.title,
+          shortDesc: newLayoutShow.title
+        }
+      : showId && Array.isArray(shows) ?
+        shows.find((value: any) => value.itemId === showId)
       : null;
     const tracksInfo = parsedJson.tracks;
     const audioInfo = parsedJson.compiledTrack;
@@ -77,7 +102,7 @@ export default class ShowParser {
       }
 
       if (tracksInfo) {
-        show.tracks = tracksInfo.map((track) => {
+        show.tracks = tracksInfo.map((track: any) => {
           const trackItem: Omit<Track, 'type'> = {
             id: track.id,
             name: track.title,
