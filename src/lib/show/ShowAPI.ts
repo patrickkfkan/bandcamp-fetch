@@ -42,10 +42,11 @@ export default class ShowAPI extends BaseAPIWithImageSupport {
     };
     const [html, json] = await Promise.all([
       this.fetch(params.showUrl),
+      // Not needed for the new /radio/ page layout, so don't fail if it errors
       this.fetch(URLS.SHOW, true, FetchMethod.POST, {
         item_id: showId,
         item_type: 'radio'
-      })
+      }).catch(() => null)
     ]);
     return ShowParser.parseShow(html, json, opts);
   }
